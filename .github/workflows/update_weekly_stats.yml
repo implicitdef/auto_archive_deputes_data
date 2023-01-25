@@ -1,0 +1,24 @@
+name: update-basic-data
+on:
+  workflow_dispatch: # allow to trigger it manually
+  schedule:
+    - cron: '0 4 * * 1,4' # every monday/thursday at 4am
+
+jobs:
+  main-job:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          ref: ${{ github.head_ref }}
+      - uses: actions/setup-node@v3
+        with:
+          node-version: '16'
+          cache: 'yarn'
+      - run: node --version
+      - run: yarn --version
+      - run: yarn install --frozen-lockfile
+      - run: yarn start update_nosdeputes_weekly_stats --latestLegislatureOnly
+      - uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: Auto commit of weekly deputes stats from NosDeputes.fr

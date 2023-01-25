@@ -1,8 +1,7 @@
+import * as lo from 'lodash'
 import path from 'path'
 import { fetchWithRetry } from './fetchWithRetry'
-import { readFileAsJson, rmDirIfExists, writeToFile } from './utils'
-import * as lo from 'lodash'
-const workdir = path.join('tmp')
+import { readFileAsJson, writeToFile } from './utils'
 const datadir = path.join('data')
 
 const nosDeputesLegislatures = [
@@ -11,6 +10,8 @@ const nosDeputesLegislatures = [
   [14, '2012-2017.nosdeputes.fr'],
   [13, '2007-2012.nosdeputes.fr'],
 ] as const
+
+export type LegislatureArg = 'only_latest' | 'all'
 
 const latestLegislature = lo.max(nosDeputesLegislatures.map(_ => _[0]))
 
@@ -35,13 +36,12 @@ type DeputeFinalWithLegislature = {
   nom: string
 }
 
-export async function nosdeputesFetch(legislatureArg: 'only_latest' | 'all') {
-  await nosdeputesFetchDeputes(legislatureArg)
-  // await nosdeputesFetchStats()
-}
-
-async function nosdeputesFetchDeputes(legislatureArg: 'only_latest' | 'all') {
-  const filePath = path.join(datadir, 'nosdeputes', 'nosdeputes_deputes.json')
+export async function nosdeputesFetchBasicData(legislatureArg: LegislatureArg) {
+  const filePath = path.join(
+    datadir,
+    'nosdeputes',
+    'nosdeputes_basic_data.json',
+  )
   const newData: DeputeFinalWithLegislature[] = (
     await Promise.all(
       nosDeputesLegislatures
@@ -84,29 +84,32 @@ async function nosdeputesFetchDeputes(legislatureArg: 'only_latest' | 'all') {
   writeToFile(filePath, JSON.stringify(mergedData, null, 2))
 }
 
-async function nosdeputesFetchStats() {
-  const statsDir = path.join(workdir, 'nosdeputes', 'stats')
-  rmDirIfExists(statsDir)
+export async function nosdeputesFetchWeeklyStats(
+  legislatureArg: LegislatureArg,
+) {
+  const statsDir = path.join(datadir, 'nosdeputes', 'weeklystats')
   // before legislature 15, the endpoint is different, weekly stats don't seem available
   const FIRST_LEGISLATURE_WITH_ACCESSIBLE_STATS = 15
   for (const [legislature, domain] of nosDeputesLegislatures) {
-    if (legislature >= FIRST_LEGISLATURE_WITH_ACCESSIBLE_STATS) {
-      const deputes = await fetchDeputes(domain)
-      for (const depute of deputes) {
-        const { slug, id_an: id_an_without_prefix, nom } = depute
-        const id_an = `PA${id_an_without_prefix}`
-        const stats = await fetchStatsOfDepute(domain, slug)
-        const finalContent = {
-          // add legislature and id_an in the content, it will be easier to process
-          id_an,
-          legislature,
-          // can't hurt to add the nom, just to be more readable
-          nom,
-          ...stats,
+    if (legislatureArg === 'all' || legislature === latestLegislature) {
+      if (legislature >= FIRST_LEGISLATURE_WITH_ACCESSIBLE_STATS) {
+        const deputes = await fetchDeputes(domain)
+        for (const depute of deputes) {
+          const { slug, id_an: id_an_without_prefix, nom } = depute
+          const id_an = `PA${id_an_without_prefix}`
+          const stats = await fetchStatsOfDepute(domain, slug)
+          const finalContent = {
+            // add legislature and id_an in the content, it will be easier to process
+            id_an,
+            legislature,
+            // can't hurt to add the nom, just to be more readable
+            nom,
+            ...stats,
+          }
+          const filePath = path.join(statsDir, `${legislature}_${id_an}.json`)
+          console.log(`Writing to file ${filePath}`)
+          writeToFile(filePath, JSON.stringify(finalContent, null, 2) + '\n')
         }
-        const filePath = path.join(statsDir, `${legislature}_${id_an}.json`)
-        console.log(`Writing to file ${filePath}`)
-        writeToFile(filePath, JSON.stringify(finalContent, null, 2) + '\n')
       }
     }
   }
