@@ -1,23 +1,47 @@
 name: update-data
-on: [push, workflow_dispatch]
+
+on:
+  workflow_dispatch:
+  pull_request:
+  push:
+    branches:
+      - main
+
 jobs:
-  main-job:
+  php-cs-fixer:
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v3
-        # with:
-        #   ref: ${{ github.head_ref }}
-      - uses: actions/setup-node@v3
+      - uses: actions/checkout@v2
         with:
-          node-version: '16'
-          cache: 'yarn'
-      - run: node --version
-      - run: yarn --version
-      - run: yarn install --frozen-lockfile
-      - run: yarn start
+          ref: ${{ github.head_ref }}
+
+      - name: Run php-cs-fixer
+        uses: docker://oskarstark/php-cs-fixer-ga
+
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: Auto commit of latest data
+          commit_message: Apply php-cs-fixer changes
+# on: [push, workflow_dispatch]
+
+# jobs:
+#   main-job:
+#     runs-on: ubuntu-latest
+#     steps:
+#       - uses: actions/checkout@v3
+#         # with:
+#         #   ref: ${{ github.head_ref }}
+#       - uses: actions/setup-node@v3
+#         with:
+#           node-version: '16'
+#           cache: 'yarn'
+#       - run: node --version
+#       - run: yarn --version
+#       - run: yarn install --frozen-lockfile
+#       - run: yarn start
+#       - uses: stefanzweifel/git-auto-commit-action@v4
+# with:
+#   commit_message: Auto commit of latest data
 # name: Fetch deputes photos
 
 # on:
