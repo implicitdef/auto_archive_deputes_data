@@ -10,6 +10,9 @@ jobs:
           node-version: "16"
       - run: node --version
       - run: yarn --version
+      - run: yarn install
+      - run: yarn start
+
 # name: Fetch deputes photos
 
 # on:
