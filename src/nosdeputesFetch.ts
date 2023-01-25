@@ -106,7 +106,7 @@ async function nosdeputesFetchStats() {
         }
         const filePath = path.join(statsDir, `${legislature}_${id_an}.json`)
         console.log(`Writing to file ${filePath}`)
-        writeToFile(filePath, JSON.stringify(finalContent, null, 2))
+        writeToFile(filePath, JSON.stringify(finalContent, null, 2) + '\n')
       }
     }
   }
