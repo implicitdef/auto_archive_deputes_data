@@ -17,8 +17,9 @@ jobs:
         with:
           ref: ${{ github.head_ref }}
 
-      - name: Run php-cs-fixer
-        uses: docker://oskarstark/php-cs-fixer-ga
+      - name: Append to file
+        run:
+          echo "toto" > ./data/data.txt
 
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
