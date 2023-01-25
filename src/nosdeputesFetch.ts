@@ -40,6 +40,7 @@ export async function nosdeputesFetchBasicData(legislatureArg: LegislatureArg) {
   const filePath = path.join(
     datadir,
     'nosdeputes',
+    'basicdata',
     'nosdeputes_basic_data.json',
   )
   const newData: DeputeFinalWithLegislature[] = (
@@ -87,7 +88,7 @@ export async function nosdeputesFetchBasicData(legislatureArg: LegislatureArg) {
 export async function nosdeputesFetchWeeklyStats(
   legislatureArg: LegislatureArg,
 ) {
-  const statsDir = path.join(datadir, 'nosdeputes', 'weeklystats')
+  const statsDir = path.join(datadir, 'nosdeputes', 'weeklystats', 'stats')
   // before legislature 15, the endpoint is different, weekly stats don't seem available
   const FIRST_LEGISLATURE_WITH_ACCESSIBLE_STATS = 15
   for (const [legislature, domain] of nosDeputesLegislatures) {
