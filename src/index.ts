@@ -1,12 +1,7 @@
-import * as fs from 'fs'
 import { nosdeputesFetch } from './nosdeputesFetch'
 
-console.log('@@ hello index.ts')
-
 async function start() {
-  console.log('@@ argv', process.argv)
-
-
+  console.log('Running script with arguments', process.argv.slice(2))
   await nosdeputesFetch(readLegislatureArgument())
 }
 
