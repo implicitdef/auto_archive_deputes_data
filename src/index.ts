@@ -1,3 +1,4 @@
+import { fetchElectionsPartielles } from './electionsPartielles'
 import {
   LegislatureArg,
   nosdeputesFetchBasicData,
@@ -7,6 +8,9 @@ import {
 type Command = 'update_nosdeputes_basic_data' | 'update_nosdeputes_weekly_stats'
 
 async function start() {
+  await fetchElectionsPartielles()
+  return
+
   console.log('Running script with arguments', process.argv.slice(2))
   switch (readCommandArgument()) {
     case 'update_nosdeputes_basic_data':
