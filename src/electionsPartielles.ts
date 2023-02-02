@@ -11,6 +11,7 @@
 import cheerio from 'cheerio'
 import fetch from 'node-fetch'
 import lo from 'lodash'
+import { departements } from '../departementsRef'
 
 const TITLES_FOUND = [
   '23 ème circonscription du Nord élection des 8 et 15 décembre 2002',
@@ -83,14 +84,15 @@ async function fetchAllTitles() {
 
 export async function fetchElectionsPartielles() {
   const titles = TITLES_FOUND
-  console.log(titles.map(parseTitle))
+  titles.map(parseTitle).forEach(([title, dpt]) => {
+    if (dpt.length !== 1) {
+      console.log([title, dpt])
+    }
+  })
 }
 
 function parseTitle(title: string) {
   const standardized = title
-    .replace('Election législative partielle', '')
-    .replace('Election', '')
-    .replace('Elections', '')
     .replace('-circonscription-de-', ' circonscription de ')
     .replace('-circonscription-', ' circonscription ')
     .replace(' ème', 'ème')
@@ -99,7 +101,33 @@ function parseTitle(title: string) {
     .replace(/(\d)e /, '$1ème ')
     .replace(/(\d)eme-/, '$1ème ')
 
-  return standardized
+  return [title, extractDepartementName(title)]
+}
+
+function extractDepartementName(title: string) {
+  const dpts_found = departements.filter(dptName => {
+    const alternateNames =
+      dptName === 'Français établis hors de France'
+        ? ["Français de l'étranger", "Français de l'Etranger"]
+        : dptName === 'Alpes-Maritimes'
+        ? ['Alpes Maritime']
+        : dptName === "Val-d'Oise"
+        ? ["Val d'Oise"]
+        : []
+    const possibleNames = [dptName, ...alternateNames]
+    return possibleNames.some(n => {
+      return (
+        title.includes(` ${n} `) ||
+        title.includes(`l'${n} `) ||
+        title.startsWith(`${n} `) ||
+        title.endsWith(` ${n}`) ||
+        title.endsWith(`circonscription-${n}`) ||
+        title.endsWith(`circonscription-de-${n}`) ||
+        title.endsWith(`l'${n}`)
+      )
+    })
+  })
+  return dpts_found
 }
 
 async function getElectionsTitlesForYear(year: number): Promise<string[]> {
