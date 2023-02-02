@@ -84,24 +84,27 @@ async function fetchAllTitles() {
 
 export async function fetchElectionsPartielles() {
   const titles = TITLES_FOUND
-  titles.map(parseTitle).forEach(([title, dpt]) => {
-    if (dpt.length !== 1) {
-      console.log([title, dpt])
+  titles.forEach(title => {
+    const [standardized, parsed] = extractCircoNumber(title)
+    if (parsed.length !== 1) {
+      console.log([standardized, parsed])
     }
   })
 }
 
-function parseTitle(title: string) {
+function extractCircoNumber(title: string) {
   const standardized = title
-    .replace('-circonscription-de-', ' circonscription de ')
-    .replace('-circonscription-', ' circonscription ')
-    .replace(' ème', 'ème')
-    .replace('1ere ', '1ème ')
-    .replace('°', 'ème')
-    .replace(/(\d)e /, '$1ème ')
-    .replace(/(\d)eme-/, '$1ème ')
+  // .replace('-circonscription-de-', ' circonscription de ')
+  // .replace('-circonscription-', ' circonscription ')
+  // .replace(' ème', 'ème')
+  // .replace('1ere ', '1ème ')
+  // .replace('°', 'ème')
+  // .replace(/(\d)e /, '$1ème ')
+  // .replace(/(\d)eme /, '$1ème ')
 
-  return [title, extractDepartementName(title)]
+  const regexps = [/-(\d+)eme/]
+
+  return [standardized, [33, 35]]
 }
 
 function extractDepartementName(title: string) {
