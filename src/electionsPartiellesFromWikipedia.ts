@@ -3,15 +3,135 @@
 
 import { JSDOM } from 'jsdom'
 import fetch from 'node-fetch'
+import path from 'path'
 import { departements } from '../departementsRef'
-
+import { DATA_DIR } from './nosdeputesFetch'
+import { writeToFile } from './utils'
+import lo from 'lodash'
 export async function fetchElectionsPartiellesFromWikipedia() {
   const titles = await fetchTitles()
 
-  for (const title of titles) {
-    const res = extractCircoNumber(title)
-    if (typeof res === 'string') console.log([title, res])
+  const finalRes = lo.sortBy(
+    titles.flatMap(title => {
+      const circoNumber = extractCircoNumber(title)
+      const dpt = extractDepartementName(title)
+      const tours = extractDates(title)
+      if (tours.length === 0) {
+        // filter out future elections without a set date yet
+        return []
+      }
+      return [
+        {
+          tours,
+          dpt,
+          circoNumber,
+        },
+      ]
+    }),
+    _ => `${_.tours[0]} ${_.tours[1]} ${_.dpt} ${_.circoNumber}`,
+  )
+  const filePath = path.join(
+    DATA_DIR,
+    'electionspartielles',
+    'electionspartielles_wikipedia.json',
+  )
+  console.log(`Writing to file ${filePath}`)
+  writeToFile(filePath, JSON.stringify(finalRes, null, 2) + '\n')
+}
+
+function parseMonth(monthStr: string) {
+  function inner() {
+    switch (monthStr.toLowerCase()) {
+      case 'janvier':
+        return 1
+      case 'fevrier':
+      case 'février':
+        return 2
+      case 'mars':
+        return 3
+      case 'avril':
+        return 4
+      case 'mai':
+        return 5
+      case 'juin':
+        return 6
+      case 'juillet':
+        return 7
+      case 'aout':
+      case 'août':
+        return 8
+      case 'septembre':
+        return 9
+      case 'octobre':
+        return 10
+      case 'novembre':
+        return 11
+      case 'decembre':
+      case 'décembre':
+        return 12
+      default:
+        throw new Error(`Unrecognized month ${monthStr}`)
+    }
   }
+  // pad with leading 0
+  return padDayOrMonth(inner())
+}
+
+// add the leading zero
+function padDayOrMonth(s: string | number) {
+  return `0${s.toString()}`.slice(-2)
+}
+
+function extractDates(title: string): [string] | [string, string] | [] {
+  const standardized = title.toLowerCase().replace('1er', '1')
+
+  function extractDatesSameMonth(): [string, string] | null {
+    // ex: "... 12 et 19 juin 2000 ..."
+    const regexp = / (\d+) et (\d+) ([éûa-z]+) (\d{4})/
+    const res = regexp.exec(standardized)
+    if (!res) return null
+    const groups = res.slice(1)
+    const [day1, day2, monthStr, year] = groups
+
+    return [
+      `${year}-${parseMonth(monthStr)}-${padDayOrMonth(day1)}`,
+      `${year}-${parseMonth(monthStr)}-${padDayOrMonth(day2)}`,
+    ]
+  }
+
+  function extractDatesDifferentMonths(): [string, string] | null {
+    // ex: "... 12 mai et 19 juin 2000 ..."
+    const regexp = / (\d+) ([éûa-z]+) et (\d+) ([éûa-z]+) (\d{4})/
+    const res = regexp.exec(standardized)
+    if (!res) return null
+    const groups = res.slice(1)
+    const [day1, month1Str, day2, month2Str, year] = groups
+    return [
+      `${year}-${parseMonth(month1Str)}-${padDayOrMonth(day1)}`,
+      `${year}-${parseMonth(month2Str)}-${padDayOrMonth(day2)}`,
+    ]
+  }
+
+  function extractSingleDate(): [string] | null {
+    // ex: "... 12 juin 2000 ..."
+    // has to be used as a last resort otherwise it would match other cases
+    const regexp = / (\d+) ([éûa-z]+) (\d{4})/
+    const res = regexp.exec(standardized)
+    if (!res) return null
+    const groups = res.slice(1)
+    const [day1, month1Str, year] = groups
+    return [`${year}-${parseMonth(month1Str)}-${padDayOrMonth(day1)}`]
+  }
+
+  const res =
+    extractDatesSameMonth() ??
+    extractDatesDifferentMonths() ??
+    extractSingleDate() ??
+    // wikipedia includes some later elections for which the date isn't set yet
+    // so we accept to not return any date
+    []
+
+  return res
 }
 
 function extractCircoNumber(title: string) {

@@ -1,4 +1,4 @@
-import { fetchElectionsPartielles } from './electionsPartiellesFromMinistereInterieur'
+import { fetchElectionsPartiellesFromMinistere } from './electionsPartiellesFromMinistereInterieur'
 import { fetchElectionsPartiellesFromWikipedia } from './electionsPartiellesFromWikipedia'
 import {
   LegislatureArg,
@@ -12,9 +12,8 @@ type Command =
   | 'update_elections_partielles'
 
 async function start() {
+  await fetchElectionsPartiellesFromMinistere()
   await fetchElectionsPartiellesFromWikipedia()
-
-  
 
   // console.log('Running script with arguments', process.argv.slice(2))
   // switch (readCommandArgument()) {

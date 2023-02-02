@@ -24,7 +24,7 @@ async function fetchAllTitles() {
   return titles
 }
 
-export async function fetchElectionsPartielles() {
+export async function fetchElectionsPartiellesFromMinistere() {
   const titles = await fetchAllTitles()
   const finalRes = lo.sortBy(
     titles.map(title => {
@@ -42,7 +42,7 @@ export async function fetchElectionsPartielles() {
   const filePath = path.join(
     DATA_DIR,
     'electionspartielles',
-    'electionspartielles.json',
+    'electionspartielles_mi.json',
   )
 
   console.log(`Writing to file ${filePath}`)
