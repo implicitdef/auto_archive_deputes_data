@@ -14,32 +14,38 @@ export async function fetchElectionsPartiellesFromWikipedia() {
   const titles = await fetchTitles()
 
   for (const title of titles) {
-    console.log('Extracting from ', title)
+    // console.log('Extracting from ', title)
     const res = extractDepartementName(title)
     console.log([title, res])
   }
 }
 
 function extractDepartementName(title: string) {
-  const dpts_found = departements.filter(dptName => {
+  const title2 = title.replaceAll(', ', ' ').toLowerCase()
+  const dpts_found = departements.filter(dpt => {
+    const dptLowerCase = dpt.toLowerCase()
     const alternateNames =
-      dptName === 'Français établis hors de France'
-        ? ["Français de l'étranger", "Français de l'Etranger"]
-        : dptName === 'Alpes-Maritimes'
-        ? ['Alpes Maritime']
-        : dptName === "Val-d'Oise"
-        ? ["Val d'Oise"]
+      dptLowerCase === 'français établis hors de france'
+        ? ["français de l'étranger", "français de l'etranger"]
+        : dptLowerCase === 'alpes-maritimes'
+        ? ['alpes maritime']
+        : dptLowerCase === "val-d'oise"
+        ? ["val d'oise"]
+        : dptLowerCase === 'wallis-et-futuna'
+        ? ['wallis et futuna']
         : []
-    const possibleNames = [dptName, ...alternateNames]
+    const possibleNames = [dptLowerCase, ...alternateNames]
+    // console.log('@@@ working on ', title2)
     return possibleNames.some(n => {
       return (
-        title.includes(` ${n} `) ||
-        title.includes(`l'${n} `) ||
-        title.startsWith(`${n} `) ||
-        title.endsWith(` ${n}`) ||
-        title.endsWith(`circonscription-${n}`) ||
-        title.endsWith(`circonscription-de-${n}`) ||
-        title.endsWith(`l'${n}`)
+        title2.includes(` du ${n} `) ||
+        title2.includes(` des ${n} `) ||
+        title2.endsWith(` des ${n}`) ||
+        title2.includes(` d'${n} `) ||
+        title2.includes(` de la ${n} `) ||
+        title2.includes(` de l'${n} `) ||
+        title2.endsWith(` de l'${n}`) ||
+        title2.includes(` de ${n} `)
       )
     })
   })
