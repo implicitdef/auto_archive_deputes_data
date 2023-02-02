@@ -1,23 +1,56 @@
 // Source
 // https://fr.wikipedia.org/wiki/%C3%89lection_l%C3%A9gislative_fran%C3%A7aise_partielle
 
-import cheerio from 'cheerio'
-import fetch from 'node-fetch'
-import lo from 'lodash'
-import { departements } from '../departementsRef'
-import path from 'path'
-import { DATA_DIR } from './nosdeputesFetch'
-import { writeToFile } from './utils'
 import { JSDOM } from 'jsdom'
+import fetch from 'node-fetch'
+import { departements } from '../departementsRef'
 
 export async function fetchElectionsPartiellesFromWikipedia() {
   const titles = await fetchTitles()
 
   for (const title of titles) {
-    // console.log('Extracting from ', title)
-    const res = extractDepartementName(title)
-    console.log([title, res])
+    const res = extractCircoNumber(title)
+    if (typeof res === 'string') console.log([title, res])
   }
+}
+
+function extractCircoNumber(title: string) {
+  const t = title.toLowerCase().replaceAll('é', 'e').replaceAll('è', 'e')
+  const firstWord = t.split(' ')[0]
+  const mapping = [
+    'premiere',
+    'deuxieme',
+    'troisieme',
+    'quatrieme',
+    'cinquieme',
+    'sixieme',
+    'septieme',
+    'huitieme',
+    'neuvieme',
+    'dixieme',
+    'onzieme',
+    'douzieme',
+    'treizieme',
+    'quatorzieme',
+    'quinzieme',
+    'seizieme',
+    'dix-septieme',
+    'dix-huitieme',
+    'dix-neuvieme',
+    'vingtieme',
+    'vingt-et-unieme',
+    'vingt-deuxieme',
+    'vingt-troisieme',
+    'vingt-quatrieme', // 24 est le numéro de circo maximum
+  ]
+  const index = mapping.findIndex(_ => _ === firstWord)
+  if (index !== -1) {
+    return index + 1
+  }
+  if (firstWord === 'circonscription') {
+    return 1
+  }
+  throw new Error(`Failed to extract circo number from "${title}"`)
 }
 
 function extractDepartementName(title: string) {
