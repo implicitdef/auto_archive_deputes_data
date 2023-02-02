@@ -85,11 +85,108 @@ async function fetchAllTitles() {
 export async function fetchElectionsPartielles() {
   const titles = TITLES_FOUND
   titles.forEach(title => {
-    const [standardized, parsed] = extractCircoNumber(title)
-    if (parsed.length !== 1) {
+    const [standardized, parsed] = extractDates(title)
+    if (parsed.length < 1) {
       console.log([standardized, parsed])
     }
   })
+}
+
+function parseMonth(monthStr: string) {
+  switch (monthStr.toLowerCase()) {
+    case 'janvier':
+      return 1
+    case 'fevrier':
+    case 'février':
+      return 2
+    case 'mars':
+      return 3
+    case 'avril':
+      return 4
+    case 'mai':
+      return 5
+    case 'juin':
+      return 6
+    case 'juillet':
+      return 7
+    case 'aout':
+    case 'août':
+      return 8
+    case 'septembre':
+      return 9
+    case 'octobre':
+      return 10
+    case 'novembre':
+      return 11
+    case 'decembre':
+    case 'décembre':
+      return 12
+    default:
+      throw new Error(`Unrecognized month ${monthStr}`)
+  }
+}
+
+function extractDates(title: string) {
+  const standardized = title
+    .replace('1er et 2ème tour', '')
+    .replace('1er tour', '')
+    .replaceAll('-', ' ')
+    .replaceAll(' 1er ', ' 1 ')
+
+  function extractDatesSameMonth(): [string, string] | null {
+    // ex: "... 12 et 19 juin 2000 ..."
+    const regexp = / (\d+) et (\d+) ([éûa-z]+) (\d{4})/
+    const res = regexp.exec(standardized)
+    if (!res) return null
+    const groups = res.slice(1)
+    const [day1, day2, monthStr, year] = groups
+
+    return [
+      `${year}-${parseMonth(monthStr)}-${day1}`,
+      `${year}-${parseMonth(monthStr)}-${day2}`,
+    ]
+  }
+
+  function extractDatesDifferentMonths(): [string, string] | null {
+    // ex: "... 12 mai et 19 juin 2000 ..."
+    const regexp = / (\d+) ([éûa-z]+) et (\d+) ([éûa-z]+) (\d{4})/
+    const res = regexp.exec(standardized)
+    if (!res) return null
+    const groups = res.slice(1)
+    const [day1, month1Str, day2, month2Str, year] = groups
+    return [
+      `${year}-${parseMonth(month1Str)}-${day1}`,
+      `${year}-${parseMonth(month2Str)}-${day2}`,
+    ]
+  }
+
+  function extractSingleDate(): [string] | null {
+    // ex: "... 12 juin 2000 ..."
+    // has to be used as a last resort otherwise it would match other cases
+    const regexp = / (\d+) ([éûa-z]+) (\d{4})/
+    const res = regexp.exec(standardized)
+    if (!res) return null
+    const groups = res.slice(1)
+    const [day1, month1Str, year] = groups
+    return [`${year}-${parseMonth(month1Str)}-${day1}`]
+  }
+
+  function extractDatesWithDots() {
+    // happened only once, so we hardcode it
+    if (standardized.includes(' 27.06 et 04.07.2004')) {
+      return ['2004-06-27', '2004-07-04']
+    }
+    return null
+  }
+
+  const res =
+    extractDatesSameMonth() ??
+    extractDatesDifferentMonths() ??
+    extractSingleDate() ??
+    extractDatesWithDots() ??
+    []
+
+  return [standardized, res]
 }
 
 function extractCircoNumber(title: string) {
