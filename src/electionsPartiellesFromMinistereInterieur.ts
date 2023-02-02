@@ -1,12 +1,10 @@
+// Source
 // https://www.interieur.gouv.fr/Elections/Les-resultats/Partielles/Legislatives
-// que en 2020 et avant ?
-// si le lien fonctionne aussi pour 2021 https://www.interieur.gouv.fr/Elections/Les-resultats/Partielles/Legislatives/2021
+// n'a des pages que pour 2021 et avant
 
 // mais pour 2022 ? pas d'élections partielles ? à verifier
-// et pour 2023 ? on en au moins une ici https://www.lemonde.fr/politique/article/2023/01/30/elections-legislatives-partielles-deux-nouveaux-deputes-font-leur-entree-a-l-assemblee-nationale_6159809_823448.html
-
-// post de reference
-// https://www.data.gouv.fr/fr/posts/les-donnees-des-elections/
+// et pour 2023 ?
+// wikipedia en a https://fr.wikipedia.org/wiki/%C3%89lection_l%C3%A9gislative_fran%C3%A7aise_partielle
 
 import cheerio from 'cheerio'
 import fetch from 'node-fetch'

@@ -1,4 +1,5 @@
-import { fetchElectionsPartielles } from './electionsPartielles'
+import { fetchElectionsPartielles } from './electionsPartiellesFromMinistereInterieur'
+import { fetchElectionsPartiellesFromWikipedia } from './electionsPartiellesFromWikipedia'
 import {
   LegislatureArg,
   nosdeputesFetchBasicData,
@@ -11,18 +12,22 @@ type Command =
   | 'update_elections_partielles'
 
 async function start() {
-  console.log('Running script with arguments', process.argv.slice(2))
-  switch (readCommandArgument()) {
-    case 'update_nosdeputes_basic_data':
-      await nosdeputesFetchBasicData(readLegislatureArgument())
-      break
-    case 'update_nosdeputes_weekly_stats':
-      await nosdeputesFetchWeeklyStats(readLegislatureArgument())
-      break
-    case 'update_elections_partielles':
-      await fetchElectionsPartielles()
-      break
-  }
+  await fetchElectionsPartiellesFromWikipedia()
+
+  
+
+  // console.log('Running script with arguments', process.argv.slice(2))
+  // switch (readCommandArgument()) {
+  //   case 'update_nosdeputes_basic_data':
+  //     await nosdeputesFetchBasicData(readLegislatureArgument())
+  //     break
+  //   case 'update_nosdeputes_weekly_stats':
+  //     await nosdeputesFetchWeeklyStats(readLegislatureArgument())
+  //     break
+  //   case 'update_elections_partielles':
+  //     await fetchElectionsPartielles()
+  //     break
+  // }
 }
 
 function readLegislatureArgument(): LegislatureArg {
