@@ -1,7 +1,7 @@
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 3 * * *' # every day at 3h
+    - cron: '0 2,14 * * *' # every day at 2h and 14h
 
 jobs:
   main-job:
@@ -14,10 +14,8 @@ jobs:
         with:
           node-version: '16'
           cache: 'yarn'
-      - run: node --version
-      - run: yarn --version
       - run: yarn install --frozen-lockfile
-      - run: yarn start update_nosdeputes_basic_data --latestLegislatureOnly
+      - run: yarn start update_elections_partielles
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: Auto commit of basic deputes data from NosDeputes.fr
+          commit_message: Auto commit of elections partielles data from interieur.gouv.fr

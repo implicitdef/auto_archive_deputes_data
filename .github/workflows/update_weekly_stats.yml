@@ -1,5 +1,5 @@
 on:
-  workflow_dispatch: # allow to trigger it manually
+  workflow_dispatch:
   schedule:
     - cron: '0 4 * * 1,4' # every monday/thursday at 4am
 

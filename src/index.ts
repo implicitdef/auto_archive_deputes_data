@@ -5,12 +5,12 @@ import {
   nosdeputesFetchWeeklyStats,
 } from './nosdeputesFetch'
 
-type Command = 'update_nosdeputes_basic_data' | 'update_nosdeputes_weekly_stats'
+type Command =
+  | 'update_nosdeputes_basic_data'
+  | 'update_nosdeputes_weekly_stats'
+  | 'update_elections_partielles'
 
 async function start() {
-  await fetchElectionsPartielles()
-  return
-
   console.log('Running script with arguments', process.argv.slice(2))
   switch (readCommandArgument()) {
     case 'update_nosdeputes_basic_data':
@@ -18,6 +18,9 @@ async function start() {
       break
     case 'update_nosdeputes_weekly_stats':
       await nosdeputesFetchWeeklyStats(readLegislatureArgument())
+      break
+    case 'update_elections_partielles':
+      await fetchElectionsPartielles()
       break
   }
 }
@@ -37,6 +40,9 @@ function readCommandArgument(): Command {
   }
   if (args.includes('update_nosdeputes_weekly_stats')) {
     return 'update_nosdeputes_weekly_stats'
+  }
+  if (args.includes('update_elections_partielles')) {
+    return 'update_elections_partielles'
   }
   throw new Error('Missing or unknown command')
 }
