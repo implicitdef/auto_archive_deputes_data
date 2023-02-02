@@ -98,6 +98,7 @@ function extractDates(title: string): [string] | [string, string] {
     .replace('1er tour', '')
     .replaceAll('-', ' ')
     .replaceAll(' 1er ', ' 1 ')
+    .replaceAll(' et du ', ' et ')
 
   function extractDatesSameMonth(): [string, string] | null {
     // ex: "... 12 et 19 juin 2000 ..."
