@@ -15,8 +15,8 @@ export async function fetchElectionsPartiellesFromWikipedia() {
 
   for (const title of titles) {
     console.log('Extracting from ', title)
-    // const res = extractDepartementName(title)
-    // console.log([title, res])
+    const res = extractDepartementName(title)
+    console.log([title, res])
   }
 }
 
