@@ -2,7 +2,7 @@ import * as lo from 'lodash'
 import path from 'path'
 import { fetchWithRetry } from './fetchWithRetry'
 import { readFileAsJson, writeToFile } from './utils'
-const datadir = path.join('data')
+export const DATA_DIR = path.join('data')
 
 const nosDeputesLegislatures = [
   [16, 'www.nosdeputes.fr'],
@@ -38,7 +38,7 @@ type DeputeFinalWithLegislature = {
 
 export async function nosdeputesFetchBasicData(legislatureArg: LegislatureArg) {
   const filePath = path.join(
-    datadir,
+    DATA_DIR,
     'nosdeputes',
     'basicdata',
     'nosdeputes_basic_data.json',
@@ -88,7 +88,7 @@ export async function nosdeputesFetchBasicData(legislatureArg: LegislatureArg) {
 export async function nosdeputesFetchWeeklyStats(
   legislatureArg: LegislatureArg,
 ) {
-  const statsDir = path.join(datadir, 'nosdeputes', 'weeklystats', 'stats')
+  const statsDir = path.join(DATA_DIR, 'nosdeputes', 'weeklystats', 'stats')
   // before legislature 15, the endpoint is different, weekly stats don't seem available
   const FIRST_LEGISLATURE_WITH_ACCESSIBLE_STATS = 15
   for (const [legislature, domain] of nosDeputesLegislatures) {

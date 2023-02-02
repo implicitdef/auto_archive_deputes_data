@@ -12,6 +12,9 @@ import cheerio from 'cheerio'
 import fetch from 'node-fetch'
 import lo from 'lodash'
 import { departements } from '../departementsRef'
+import path from 'path'
+import { DATA_DIR } from './nosdeputesFetch'
+import { writeToFile } from './utils'
 
 const TITLES_FOUND = [
   '23 ème circonscription du Nord élection des 8 et 15 décembre 2002',
@@ -83,50 +86,74 @@ async function fetchAllTitles() {
 }
 
 export async function fetchElectionsPartielles() {
-  const titles = TITLES_FOUND
-  titles.forEach(title => {
-    const [standardized, parsed] = extractDates(title)
-    // if (parsed.length < 1) {
-    console.log([standardized, parsed])
-    // }
-  })
+  const titles = await fetchAllTitles()
+  const finalRes = lo.sortBy(
+    titles.map(title => {
+      const circoNumber = extractCircoNumber(title)
+      const dpt = extractDepartementName(title)
+      const tours = extractDates(title)
+      return {
+        tours,
+        dpt,
+        circoNumber,
+      }
+    }),
+    _ => `${_.tours[0]} ${_.tours[1]} ${_.dpt} ${_.circoNumber}`,
+  )
+  const filePath = path.join(
+    DATA_DIR,
+    'electionspartielles',
+    'electionspartielles.json',
+  )
+
+  console.log(`Writing to file ${filePath}`)
+  writeToFile(filePath, JSON.stringify(finalRes, null, 2) + '\n')
 }
 
 function parseMonth(monthStr: string) {
-  switch (monthStr.toLowerCase()) {
-    case 'janvier':
-      return 1
-    case 'fevrier':
-    case 'février':
-      return 2
-    case 'mars':
-      return 3
-    case 'avril':
-      return 4
-    case 'mai':
-      return 5
-    case 'juin':
-      return 6
-    case 'juillet':
-      return 7
-    case 'aout':
-    case 'août':
-      return 8
-    case 'septembre':
-      return 9
-    case 'octobre':
-      return 10
-    case 'novembre':
-      return 11
-    case 'decembre':
-    case 'décembre':
-      return 12
-    default:
-      throw new Error(`Unrecognized month ${monthStr}`)
+  function inner() {
+    switch (monthStr.toLowerCase()) {
+      case 'janvier':
+        return 1
+      case 'fevrier':
+      case 'février':
+        return 2
+      case 'mars':
+        return 3
+      case 'avril':
+        return 4
+      case 'mai':
+        return 5
+      case 'juin':
+        return 6
+      case 'juillet':
+        return 7
+      case 'aout':
+      case 'août':
+        return 8
+      case 'septembre':
+        return 9
+      case 'octobre':
+        return 10
+      case 'novembre':
+        return 11
+      case 'decembre':
+      case 'décembre':
+        return 12
+      default:
+        throw new Error(`Unrecognized month ${monthStr}`)
+    }
   }
+  // pad with leading 0
+  return padDayOrMonth(inner())
 }
 
-function extractDates(title: string) {
+// add the leading zero
+function padDayOrMonth(s: string | number) {
+  return `0${s.toString()}`.slice(-2)
+}
+
+function extractDates(title: string): [string] | [string, string] {
   const standardized = title
     .replace('1er et 2ème tour', '')
     .replace('1er tour', '')
@@ -142,8 +169,8 @@ function extractDates(title: string) {
     const [day1, day2, monthStr, year] = groups
 
     return [
-      `${year}-${parseMonth(monthStr)}-${day1}`,
-      `${year}-${parseMonth(monthStr)}-${day2}`,
+      `${year}-${parseMonth(monthStr)}-${padDayOrMonth(day1)}`,
+      `${year}-${parseMonth(monthStr)}-${padDayOrMonth(day2)}`,
     ]
   }
 
@@ -155,8 +182,8 @@ function extractDates(title: string) {
     const groups = res.slice(1)
     const [day1, month1Str, day2, month2Str, year] = groups
     return [
-      `${year}-${parseMonth(month1Str)}-${day1}`,
-      `${year}-${parseMonth(month2Str)}-${day2}`,
+      `${year}-${parseMonth(month1Str)}-${padDayOrMonth(day1)}`,
+      `${year}-${parseMonth(month2Str)}-${padDayOrMonth(day2)}`,
     ]
   }
 
@@ -168,10 +195,10 @@ function extractDates(title: string) {
     if (!res) return null
     const groups = res.slice(1)
     const [day1, month1Str, year] = groups
-    return [`${year}-${parseMonth(month1Str)}-${day1}`]
+    return [`${year}-${parseMonth(month1Str)}-${padDayOrMonth(day1)}`]
   }
 
-  function extractDatesWithDots() {
+  function extractDatesWithDots(): [string, string] | null {
     // happened only once, so we hardcode it
     if (standardized.includes(' 27.06 et 04.07.2004')) {
       return ['2004-06-27', '2004-07-04']
@@ -184,9 +211,12 @@ function extractDates(title: string) {
     extractDatesDifferentMonths() ??
     extractSingleDate() ??
     extractDatesWithDots() ??
-    []
+    null
 
-  return [standardized, res]
+  if (!res) {
+    throw new Error(`Unrecognized date of election in title "${title}"`)
+  }
+  return res
 }
 
 function extractCircoNumber(title: string) {
