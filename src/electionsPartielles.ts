@@ -86,9 +86,9 @@ export async function fetchElectionsPartielles() {
   const titles = TITLES_FOUND
   titles.forEach(title => {
     const [standardized, parsed] = extractDates(title)
-    if (parsed.length < 1) {
-      console.log([standardized, parsed])
-    }
+    // if (parsed.length < 1) {
+    console.log([standardized, parsed])
+    // }
   })
 }
 
