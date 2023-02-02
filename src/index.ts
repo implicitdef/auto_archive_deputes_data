@@ -12,21 +12,21 @@ type Command =
   | 'update_elections_partielles'
 
 async function start() {
-  await fetchElectionsPartiellesFromMinistere()
-  await fetchElectionsPartiellesFromWikipedia()
+  // await fetchElectionsPartiellesFromMinistere()
+  // await fetchElectionsPartiellesFromWikipedia()
 
-  // console.log('Running script with arguments', process.argv.slice(2))
-  // switch (readCommandArgument()) {
-  //   case 'update_nosdeputes_basic_data':
-  //     await nosdeputesFetchBasicData(readLegislatureArgument())
-  //     break
-  //   case 'update_nosdeputes_weekly_stats':
-  //     await nosdeputesFetchWeeklyStats(readLegislatureArgument())
-  //     break
-  //   case 'update_elections_partielles':
-  //     await fetchElectionsPartielles()
-  //     break
-  // }
+  console.log('Running script with arguments', process.argv.slice(2))
+  switch (readCommandArgument()) {
+    case 'update_nosdeputes_basic_data':
+      await nosdeputesFetchBasicData(readLegislatureArgument())
+      break
+    case 'update_nosdeputes_weekly_stats':
+      await nosdeputesFetchWeeklyStats(readLegislatureArgument())
+      break
+    // case 'update_elections_partielles':
+    //   await fetchElectionsPartielles()
+    //   break
+  }
 }
 
 function readLegislatureArgument(): LegislatureArg {
