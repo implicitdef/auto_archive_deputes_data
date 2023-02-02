@@ -93,18 +93,35 @@ export async function fetchElectionsPartielles() {
 }
 
 function extractCircoNumber(title: string) {
-  const standardized = title
-  // .replace('-circonscription-de-', ' circonscription de ')
-  // .replace('-circonscription-', ' circonscription ')
-  // .replace(' ème', 'ème')
-  // .replace('1ere ', '1ème ')
-  // .replace('°', 'ème')
-  // .replace(/(\d)e /, '$1ème ')
-  // .replace(/(\d)eme /, '$1ème ')
-
-  const regexps = [/-(\d+)eme/]
-
-  return [standardized, [33, 35]]
+  const standardized = title.replace('1er et 2ème tour', '')
+  const regexs = [
+    /-(\d+)eme/,
+    / (\d+)° /,
+    / (\d+)e /,
+    / (\d+)ème /,
+    /^(\d+)ème /,
+    /^(\d+) ème /,
+    / (1)ère /,
+    /^(1)ère /,
+    /-(1)ere/,
+  ]
+  const possibleResults = regexs.flatMap(regex => {
+    const res = regex.exec(standardized)
+    if (res) {
+      return [parseInt(res[1], 10)]
+    }
+    return []
+  })
+  if (title.includes('irconscription unique ')) {
+    possibleResults.push(1)
+  }
+  const res = lo.uniq(possibleResults)
+  if (res.length === 1) {
+    return res[0]
+  }
+  throw new Error(
+    `Failed to extract the circo number from "${title}, got ${res.toString()}"`,
+  )
 }
 
 function extractDepartementName(title: string) {
@@ -130,7 +147,12 @@ function extractDepartementName(title: string) {
       )
     })
   })
-  return dpts_found
+  if (dpts_found.length === 1) {
+    return dpts_found[0]
+  }
+  throw new Error(
+    `Failed to extract the departement name from "${title}, got ${dpts_found.toString()}"`,
+  )
 }
 
 async function getElectionsTitlesForYear(year: number): Promise<string[]> {
