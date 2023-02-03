@@ -182,7 +182,10 @@ function extractCircoNumber(title: string) {
     }
     return []
   })
-  if (standardized.includes('irconscription unique ')) {
+  if (
+    standardized.includes('irconscription unique ') ||
+    standardized.includes('Wallis et Futuna')
+  ) {
     possibleResults.push(1)
   }
   const res = lo.uniq(possibleResults)
@@ -207,10 +210,14 @@ function extractDepartementName(title: string) {
         ? ["Val d'Oise"]
         : dptName === 'Eure-et-Loir'
         ? ['Eure et Loir']
+        : dptName === 'Wallis-et-Futuna'
+        ? ['Wallis et Futuna']
         : []
     const possibleNames = [dptName, ...alternateNames]
     return possibleNames.some(n => {
       return (
+        title.includes(` ${n} (`) ||
+        title.includes(` ${n},`) ||
         title.includes(` ${n} élection`) ||
         title.includes(` ${n} Election`) ||
         title.includes(` ${n} - élection`) ||
