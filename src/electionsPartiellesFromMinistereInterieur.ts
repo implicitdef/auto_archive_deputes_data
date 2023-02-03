@@ -32,7 +32,6 @@ export async function fetchElectionsPartiellesFromMinistere() {
       const dpt = extractDepartementName(title)
       const tours = extractDates(title)
       return {
-        // title,
         tours,
         dpt,
         circoNumber,
@@ -241,11 +240,12 @@ async function getElectionsTitlesForYear(year: number): Promise<string[]> {
   if (response.ok) {
     const html = await response.text()
     const $ = cheerio.load(html)
-    const electionsTitles = $('.class-page h4 strong')
-      .toArray()
-      .map(e => {
-        return cheerio(e).text().trim()
-      })
+    const electionsTitles = [
+      ...$('.class-page h4 strong').toArray(),
+      ...$('.class-page .class-file').toArray(),
+    ].map(e => {
+      return cheerio(e).text().trim()
+    })
     return electionsTitles
   } else if (response.status == 404) {
     return []
