@@ -18,7 +18,7 @@ async function fetchAllTitles() {
   const currentYear = new Date().getFullYear()
   const years = lo.range(2002, currentYear + 1)
   const titles: string[] = []
-  for (const year of years) {
+  for (const year of years.filter(_ => _ === 2020)) {
     titles.push(...(await getElectionsTitlesForYear(year)))
   }
   return titles
@@ -32,6 +32,7 @@ export async function fetchElectionsPartiellesFromMinistere() {
       const dpt = extractDepartementName(title)
       const tours = extractDates(title)
       return {
+        title,
         tours,
         dpt,
         circoNumber,
@@ -184,7 +185,9 @@ function extractCircoNumber(title: string) {
   }
   const res = lo.uniq(possibleResults)
   if (res.length === 1) {
-    return res[0]
+    const singleRes = res[0]
+    // in 2020 theres is a circo badly labelled as "99e", but it's the 9th
+    return singleRes === 99 ? 9 : singleRes
   }
   throw new Error(
     `Failed to extract the circo number from "${title}, got ${res.toString()}"`,
