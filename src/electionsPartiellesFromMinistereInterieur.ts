@@ -18,7 +18,7 @@ async function fetchAllTitles() {
   const currentYear = new Date().getFullYear()
   const years = lo.range(2002, currentYear + 1)
   const titles: string[] = []
-  for (const year of years.filter(_ => _ === 2020)) {
+  for (const year of years) {
     titles.push(...(await getElectionsTitlesForYear(year)))
   }
   return titles
@@ -32,7 +32,7 @@ export async function fetchElectionsPartiellesFromMinistere() {
       const dpt = extractDepartementName(title)
       const tours = extractDates(title)
       return {
-        title,
+        // title,
         tours,
         dpt,
         circoNumber,
@@ -161,10 +161,13 @@ function extractDates(title: string): [string] | [string, string] {
 }
 
 function extractCircoNumber(title: string) {
-  const standardized = title.replace('1er et 2ème tour', '')
+  const standardized = title
+    .replace('1er et 2ème tour', '')
+    .replace('1er et 2ème Tour', '')
   const regexs = [
     /-(\d+)eme/,
     / (\d+)° /,
+    /^(\d+)° /,
     / (\d+)e /,
     / (\d+)ème /,
     /^(\d+)ème /,
@@ -180,7 +183,7 @@ function extractCircoNumber(title: string) {
     }
     return []
   })
-  if (title.includes('irconscription unique ')) {
+  if (standardized.includes('irconscription unique ')) {
     possibleResults.push(1)
   }
   const res = lo.uniq(possibleResults)
