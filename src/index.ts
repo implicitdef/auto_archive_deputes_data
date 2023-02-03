@@ -12,8 +12,9 @@ type Command =
   | 'update_elections_partielles'
 
 async function start() {
-  // await fetchElectionsPartiellesFromMinistere()
-  // await fetchElectionsPartiellesFromWikipedia()
+  await fetchElectionsPartiellesFromMinistere()
+  await fetchElectionsPartiellesFromWikipedia()
+  return
 
   console.log('Running script with arguments', process.argv.slice(2))
   switch (readCommandArgument()) {

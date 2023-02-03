@@ -200,11 +200,17 @@ function extractDepartementName(title: string) {
         ? ['Alpes Maritime']
         : dptName === "Val-d'Oise"
         ? ["Val d'Oise"]
+        : dptName === 'Eure-et-Loir'
+        ? ['Eure et Loir']
         : []
     const possibleNames = [dptName, ...alternateNames]
     return possibleNames.some(n => {
       return (
-        title.includes(` ${n} `) ||
+        title.includes(` ${n} élection`) ||
+        title.includes(` ${n} Election`) ||
+        title.includes(` ${n} - élection`) ||
+        title.includes(` ${n} - Election`) ||
+        title.includes(` ${n} - 1er`) ||
         title.includes(`l'${n} `) ||
         title.startsWith(`${n} `) ||
         title.endsWith(` ${n}`) ||
