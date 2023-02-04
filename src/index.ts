@@ -12,10 +12,6 @@ type Command =
   | 'update_elections_partielles'
 
 async function start() {
-  await fetchElectionsPartiellesFromMinistere()
-  // await fetchElectionsPartiellesFromWikipedia()
-  return
-
   console.log('Running script with arguments', process.argv.slice(2))
   switch (readCommandArgument()) {
     case 'update_nosdeputes_basic_data':
@@ -24,9 +20,13 @@ async function start() {
     case 'update_nosdeputes_weekly_stats':
       await nosdeputesFetchWeeklyStats(readLegislatureArgument())
       break
-    // case 'update_elections_partielles':
-    //   await fetchElectionsPartielles()
-    //   break
+    case 'update_elections_partielles':
+      // on scanne deux sources différentes
+      // il y a des différences qu'il faudra analyser
+      // voir peut-être aussi si on peut trouver les infos dans le journal officiel ?
+      await fetchElectionsPartiellesFromMinistere()
+      await fetchElectionsPartiellesFromWikipedia()
+      break
   }
 }
 
