@@ -241,9 +241,18 @@ function extractDepartementName(title: string) {
 }
 
 async function getElectionsTitlesForYear(year: number): Promise<string[]> {
-  console.log(`>> Fetching elections partielles for ${year}`)
   const url = `https://www.interieur.gouv.fr/Elections/Les-resultats/Partielles/Legislatives/${year}`
-  const response = await fetch(url, { redirect: 'manual' })
+  const userAgent = `Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/109.0`
+  console.log(
+    `>> Fetching ${url} with user agent ${userAgent.substring(0, 20)}...`,
+  )
+  const response = await fetch(url, {
+    redirect: 'manual',
+    headers: {
+      'User-Agent': userAgent,
+    },
+  })
+  console.log('<< got', response.status)
   if (response.status !== 200) {
     console.log('Response status:', response.status)
     console.log('Response headers:', response.headers.raw())
