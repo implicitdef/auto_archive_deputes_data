@@ -243,7 +243,13 @@ function extractDepartementName(title: string) {
 async function getElectionsTitlesForYear(year: number): Promise<string[]> {
   console.log(`>> Fetching elections partielles for ${year}`)
   const url = `https://www.interieur.gouv.fr/Elections/Les-resultats/Partielles/Legislatives/${year}`
-  const response = await fetch(url)
+  const response = await fetch(url, { redirect: 'manual' })
+  if (response.status !== 200) {
+    console.log('Response status:', response.status)
+    console.log('Response headers:', response.headers.raw())
+    console.log('Redirect URL:', response.url)
+  }
+
   if (response.ok) {
     const html = await response.text()
     const $ = cheerio.load(html)
