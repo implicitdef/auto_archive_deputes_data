@@ -247,18 +247,11 @@ async function getElectionsTitlesForYear(year: number): Promise<string[]> {
     `>> Fetching ${url} with user agent ${userAgent.substring(0, 20)}...`,
   )
   const response = await fetch(url, {
-    redirect: 'manual',
+    //redirect: 'manual',
     headers: {
       'User-Agent': userAgent,
     },
   })
-  console.log('<< got', response.status)
-  if (response.status !== 200) {
-    console.log('Response status:', response.status)
-    console.log('Response headers:', response.headers.raw())
-    console.log('Redirect URL:', response.url)
-  }
-
   if (response.ok) {
     const html = await response.text()
     const $ = cheerio.load(html)

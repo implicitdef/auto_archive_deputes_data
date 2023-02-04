@@ -11,6 +11,8 @@ type Command =
   | 'update_nosdeputes_weekly_stats'
   | 'update_elections_partielles'
 
+const MINISTERE_INTERIEUR_ENABLED = false
+
 async function start() {
   console.log('Running script with arguments', process.argv.slice(2))
   switch (readCommandArgument()) {
@@ -24,8 +26,13 @@ async function start() {
       // on scanne deux sources différentes
       // il y a des différences qu'il faudra analyser
       // voir peut-être aussi si on peut trouver les infos dans le journal officiel ?
-      await fetchElectionsPartiellesFromMinistere()
       await fetchElectionsPartiellesFromWikipedia()
+      if (MINISTERE_INTERIEUR_ENABLED) {
+        // le site du ministere de l'intérieur répond avec un redirect infini quand on tape de Github actions
+        // Pas de contournement trouvé
+        // Mais de toute façon on utilisera probablement uniquement wikipedia
+        await fetchElectionsPartiellesFromMinistere()
+      }
       break
   }
 }
