@@ -1,7 +1,10 @@
 import { execSync } from 'child_process'
 import fs from 'fs'
 import path from 'path'
-import fetch, { Response } from 'node-fetch'
+
+export const WORKDIR = 'tmp'
+export const LATEST_LEGISLATURE = 16
+
 
 export function readFromEnv(name: string): string {
   const value = process.env[name]
@@ -85,12 +88,6 @@ export function withChunkFactor(nbChunks: number): number {
   return Math.max(Math.round(nbChunks * 1), 1)
 }
 
-async function httpGetWithoutReadingBody(url: string): Promise<Response> {
-  console.log(`>>> GET ${url}`)
-  const response = await fetch(url)
-  if (!response.ok) {
-    throw new Error('Got ' + response.status)
-  }
-  console.log('<<<')
-  return response
+export function toInt(s: string) {
+  return parseInt(s, 10)
 }

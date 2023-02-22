@@ -1,5 +1,6 @@
 import { fetchElectionsPartiellesFromMinistere } from './electionsPartiellesFromMinistereInterieur'
 import { fetchElectionsPartiellesFromWikipedia } from './electionsPartiellesFromWikipedia'
+import { fetchPhotos } from './fetchPhotos'
 import {
   LegislatureArg,
   nosdeputesFetchBasicData,
@@ -9,6 +10,7 @@ import {
 type Command =
   | 'update_nosdeputes_basic_data'
   | 'update_nosdeputes_weekly_stats'
+  | 'fetch_photos'
   | 'update_elections_partielles'
 
 const MINISTERE_INTERIEUR_ENABLED = false
@@ -21,6 +23,9 @@ async function start() {
       break
     case 'update_nosdeputes_weekly_stats':
       await nosdeputesFetchWeeklyStats(readLegislatureArgument())
+      break
+    case 'fetch_photos':
+      await fetchPhotos(readLegislatureArgument())
       break
     case 'update_elections_partielles':
       // on scanne deux sources différentes
@@ -52,6 +57,9 @@ function readCommandArgument(): Command {
   }
   if (args.includes('update_nosdeputes_weekly_stats')) {
     return 'update_nosdeputes_weekly_stats'
+  }
+  if (args.includes('fetch_photos')) {
+    return 'fetch_photos'
   }
   if (args.includes('update_elections_partielles')) {
     return 'update_elections_partielles'
