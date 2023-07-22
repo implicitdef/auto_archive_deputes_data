@@ -11,7 +11,7 @@ import { writeToFile } from './utils'
 import path = require('path')
 import { tricoteusesClone } from './tricoteuses/tricoteuses'
 
-const outFile = path.join(DATA_DIR, 'wikipedia', 'wikipedia_pages.json')
+const outFile = path.join(DATA_DIR, 'wikipedia', 'wikipedia_urls.json')
 
 export async function fetchWikipediaUrls() {
   const allDeputesAfterMapping = await mainProcess()
