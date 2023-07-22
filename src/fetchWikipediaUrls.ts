@@ -7,7 +7,7 @@ import {
   readKnownDeputesWithoutWikipediaPage,
 } from './readHardcodedData'
 import { readAllDeputesAndMap } from './tricoteuses/readFromTricoteuses'
-import { writeToFile } from './utils'
+import { isNotNull, writeToFile } from './utils'
 import path = require('path')
 import { tricoteusesClone } from './tricoteuses/tricoteuses'
 
@@ -128,13 +128,23 @@ async function readLinksDeputesForLegislature(legislature: number) {
 
   const $ = cheerio.load(html)
   // On prend TOUS les liens de la page
-  const allLinks = $('a')
-    .map((i, a) => {
-      const url = $(a).attr('href')
-      const label = $(a).text()
-      return { url, label, labelSlug: makeSlug(label) } as LinkInWikipedia
-    })
-    .get() as LinkInWikipedia[]
+  const allLinks = (
+    $('a')
+      .map((i, a) => {
+        const url = $(a).attr('href')
+        const label = $(a).text()
+        if (url && label) {
+          return { url, label, labelSlug: makeSlug(label) } as LinkInWikipedia
+        }
+        return null
+      })
+      .filter(isNotNull)
+      .get() as LinkInWikipedia[]
+  ).filter(_ => {
+    // these are links to page that don't actually exist
+    return !_.url.includes('action=edit')
+  })
+
   return allLinks
 }
 
