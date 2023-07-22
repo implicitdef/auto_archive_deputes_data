@@ -19,12 +19,20 @@ export async function fetchWikipediaUrls() {
     _ => _.kind === 'not_found_unexpected',
   )
   if (failures.length) {
-    throw new Error(
-      `Didn't find wikipedia URL for ${failures.length} deputes : ${failures
-        .slice(0, 5)
-        .map(_ => _.name)
-        .join(', ')}`,
-    )
+    const message = `Didn't find wikipedia URL for ${
+      failures.length
+    } deputes : ${failures
+      .slice(0, 5)
+      .map(_ => _.name)
+      .join(', ')}`
+    // There can often be a few deputes with missing pages for a small period of time
+    // for example when there's a "remaniement"
+    // there are some new deputes that are completely unknown
+    // so we keep some tolerance here instead of failing the job
+    if (failures.length > 10) {
+      throw new Error(message)
+    }
+    console.warn(message)
   }
   const successes = allDeputesAfterMapping.filter(isFound)
   console.log(`Found ${successes.length} wikipedia URL`)
