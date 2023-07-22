@@ -1,10 +1,10 @@
 import { execSync } from 'child_process'
 import fs from 'fs'
 import path from 'path'
+import JSON5 from 'json5'
 
 export const WORKDIR = 'tmp'
 export const LATEST_LEGISLATURE = 16
-
 
 export function readFromEnv(name: string): string {
   const value = process.env[name]
@@ -60,6 +60,14 @@ export function writeToFile(filePath: string, content: string) {
 
 export function readFileAsJson(filePath: string): any {
   return JSON.parse(
+    fs.readFileSync(filePath, {
+      encoding: 'utf8',
+    }),
+  )
+}
+
+export function readFileAsJson5(filePath: string): any {
+  return JSON5.parse(
     fs.readFileSync(filePath, {
       encoding: 'utf8',
     }),
