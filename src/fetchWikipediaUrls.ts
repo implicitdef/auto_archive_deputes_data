@@ -9,6 +9,7 @@ import {
 import { readAllDeputesAndMap } from './tricoteuses/readFromTricoteuses'
 import { writeToFile } from './utils'
 import path = require('path')
+import { tricoteusesClone } from './tricoteuses/tricoteuses'
 
 const outFile = path.join(DATA_DIR, 'wikipedia', 'wikipedia_pages.json')
 
@@ -41,6 +42,7 @@ async function mainProcess() {
   function getAllAliases(name: string): string[] {
     return aliases.find(_ => _.includes(name)) ?? [name]
   }
+  tricoteusesClone()
   const deputes = readAllDeputesAndMap(d => {
     const { nom, prenom } = d.etatCivil.ident
     return { name: `${prenom} ${nom}`, id_an: d.uid }
