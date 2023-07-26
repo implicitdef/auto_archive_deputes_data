@@ -25,7 +25,7 @@ export async function fetchWikipedia() {
   // otherwise we get rate limited
   const limit = pLimit(1)
   await Promise.all(
-    foundWikipediaUrls.slice(0, 20).map(foundUrl =>
+    foundWikipediaUrls.map(foundUrl =>
       limit(async () => {
         await storeWikipediaHtml(foundUrl)
         await timeout(1010)
