@@ -1,19 +1,22 @@
 import * as cheerio from 'cheerio'
 import slugify from 'slugify'
-import { fetchWithRetry } from './fetchWithRetry'
-import { DATA_DIR } from './nosdeputesFetch'
+import { fetchWithRetry } from '../fetchWithRetry'
 import {
   readAliases,
   readKnownDeputesWithoutWikipediaPage,
-} from './readHardcodedData'
-import { readAllDeputesAndMap } from './tricoteuses/readFromTricoteuses'
-import { isNotNull, writeToFile } from './utils'
+} from '../readHardcodedData'
+import { readAllDeputesAndMap } from '../tricoteuses/readFromTricoteuses'
+import { tricoteusesClone } from '../tricoteuses/tricoteuses'
+import { isNotNull } from '../utils'
 import path = require('path')
-import { tricoteusesClone } from './tricoteuses/tricoteuses'
 
-const outFile = path.join(DATA_DIR, 'wikipedia', 'wikipedia_urls.json')
+export type FoundWikipediaUrls = {
+  id_an: string
+  name: string
+  url: string
+}[]
 
-export async function fetchWikipediaUrls() {
+export async function fetchWikipediaUrls(): Promise<FoundWikipediaUrls> {
   const allDeputesAfterMapping = await mainProcess()
   const failures = allDeputesAfterMapping.filter(
     _ => _.kind === 'not_found_unexpected',
@@ -36,13 +39,11 @@ export async function fetchWikipediaUrls() {
   }
   const successes = allDeputesAfterMapping.filter(isFound)
   console.log(`Found ${successes.length} wikipedia URL`)
-  const output = successes.map(_ => ({
+  return successes.map(_ => ({
     id_an: _.id_an,
     name: _.name,
     url: _.link.url,
   }))
-  console.log(`Writing to ${outFile}`)
-  writeToFile(outFile, JSON.stringify(output, null, 2))
 }
 
 async function mainProcess() {

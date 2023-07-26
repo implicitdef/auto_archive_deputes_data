@@ -1,18 +1,19 @@
 import { fetchElectionsPartiellesFromMinistere } from './electionsPartiellesFromMinistereInterieur'
 import { fetchElectionsPartiellesFromWikipedia } from './electionsPartiellesFromWikipedia'
 import { fetchPhotos } from './fetchPhotos'
-import { fetchWikipediaUrls as fetchWikipediaUrls } from './fetchWikipediaUrls'
+import { fetchWikipediaUrls as fetchWikipediaUrls } from './wikipedia/fetchWikipediaUrls'
 import {
   LegislatureArg,
   nosdeputesFetchBasicData,
   nosdeputesFetchWeeklyStats,
 } from './nosdeputesFetch'
+import { fetchWikipedia } from './wikipedia/fetchWikipedia'
 
 type Command =
   | 'update_nosdeputes_basic_data'
   | 'update_nosdeputes_weekly_stats'
   | 'fetch_photos'
-  | 'update_wikipedia_urls'
+  | 'update_wikipedia'
   | 'update_elections_partielles'
 
 const MINISTERE_INTERIEUR_ENABLED = false
@@ -29,8 +30,8 @@ async function start() {
     case 'fetch_photos':
       await fetchPhotos(readLegislatureArgument())
       break
-    case 'update_wikipedia_urls':
-      await fetchWikipediaUrls()
+    case 'update_wikipedia':
+      await fetchWikipedia()
       break
     case 'update_elections_partielles':
       // on scanne deux sources différentes
@@ -66,8 +67,8 @@ function readCommandArgument(): Command {
   if (args.includes('fetch_photos')) {
     return 'fetch_photos'
   }
-  if (args.includes('update_wikipedia_urls')) {
-    return 'update_wikipedia_urls'
+  if (args.includes('update_wikipedia')) {
+    return 'update_wikipedia'
   }
   if (args.includes('update_elections_partielles')) {
     return 'update_elections_partielles'
