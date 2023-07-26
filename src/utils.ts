@@ -99,3 +99,9 @@ export function withChunkFactor(nbChunks: number): number {
 export function toInt(s: string) {
   return parseInt(s, 10)
 }
+
+export function timeout(ms: number) {
+  return new Promise(resolve => {
+    setTimeout(resolve, ms)
+  })
+}
