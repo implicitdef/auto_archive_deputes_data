@@ -1,7 +1,8 @@
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 2 * * *' # every day at 2h
+    # this job is pretty slow, we don't need to run it that often
+    - cron: '15 2 * * 7' # every sunday at 2:15 AM (so a bit after the wikipedia urls job)
 
 jobs:
   main-job:
