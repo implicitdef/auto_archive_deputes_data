@@ -17,7 +17,7 @@ jobs:
       - run: node --version
       - run: yarn --version
       - run: yarn install --frozen-lockfile
-      - run: yarn start update_wikipedia
+      - run: yarn start update_wikipedia_urls
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: Auto commit of wikipedia data
+          commit_message: Auto commit of wikipedia urls

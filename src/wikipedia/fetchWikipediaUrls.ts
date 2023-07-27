@@ -7,8 +7,9 @@ import {
 } from '../readHardcodedData'
 import { readAllDeputesAndMap } from '../tricoteuses/readFromTricoteuses'
 import { tricoteusesClone } from '../tricoteuses/tricoteuses'
-import { isNotNull } from '../utils'
+import { isNotNull, writeToFile } from '../utils'
 import path = require('path')
+import { DATA_DIR } from '../nosdeputesFetch'
 
 export type FoundWikipediaUrls = {
   id_an: string
@@ -16,7 +17,13 @@ export type FoundWikipediaUrls = {
   url: string
 }[]
 
-export async function fetchWikipediaUrls(): Promise<FoundWikipediaUrls> {
+export const WIKIPEDIA_DATA_DIR = path.join(DATA_DIR, 'wikipedia')
+export const wikipediaUrlsJsonFile = path.join(
+  WIKIPEDIA_DATA_DIR,
+  'wikipedia_urls.json',
+)
+
+export async function fetchWikipediaUrls(): Promise<void> {
   const allDeputesAfterMapping = await mainProcess()
   const failures = allDeputesAfterMapping.filter(
     _ => _.kind === 'not_found_unexpected',
@@ -39,11 +46,16 @@ export async function fetchWikipediaUrls(): Promise<FoundWikipediaUrls> {
   }
   const successes = allDeputesAfterMapping.filter(isFound)
   console.log(`Found ${successes.length} wikipedia URL`)
-  return successes.map(_ => ({
+  const foundWikipediaUrls: FoundWikipediaUrls = successes.map(_ => ({
     id_an: _.id_an,
     name: _.name,
     url: _.link.url,
   }))
+  console.log(`Writing to ${wikipediaUrlsJsonFile}`)
+  writeToFile(
+    wikipediaUrlsJsonFile,
+    JSON.stringify(foundWikipediaUrls, null, 2),
+  )
 }
 
 async function mainProcess() {

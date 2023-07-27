@@ -1,27 +1,24 @@
-import path from 'path'
-import { FoundWikipediaUrls, fetchWikipediaUrls } from './fetchWikipediaUrls'
-import { DATA_DIR } from '../nosdeputesFetch'
-import { timeout, writeToFile } from '../utils'
-import { fetchWithRetry } from '../fetchWithRetry'
 import * as cheerio from 'cheerio'
-import slugify from 'slugify'
 import pLimit from 'p-limit'
+import path from 'path'
+import slugify from 'slugify'
+import { fetchWithRetry } from '../fetchWithRetry'
+import { DATA_DIR } from '../nosdeputesFetch'
+import { readFileAsJson, timeout, writeToFile } from '../utils'
+import {
+    FoundWikipediaUrls,
+    wikipediaUrlsJsonFile
+} from './fetchWikipediaUrls'
 
 const WIKIPEDIA_DATA_DIR = path.join(DATA_DIR, 'wikipedia')
 const WIKIPEDIA_CONTENTS_DATA_DIR = path.join(WIKIPEDIA_DATA_DIR, 'contents')
-const wikipediaUrlsJsonFile = path.join(
-  WIKIPEDIA_DATA_DIR,
-  'wikipedia_urls.json',
-)
 
-export async function fetchWikipedia() {
-  const foundWikipediaUrls = await fetchWikipediaUrls()
-  console.log(`Writing to ${wikipediaUrlsJsonFile}`)
-  writeToFile(
+export async function fetchWikipediaContents() {
+  console.log(`Reading ${wikipediaUrlsJsonFile}`)
+  const foundWikipediaUrls = readFileAsJson(
     wikipediaUrlsJsonFile,
-    JSON.stringify(foundWikipediaUrls, null, 2),
-  )
-  // run only 1 at once, with 1s delay
+  ) as FoundWikipediaUrls
+  // run only 1 at once and with 1 second delay
   // otherwise we get rate limited
   const limit = pLimit(1)
   await Promise.all(
