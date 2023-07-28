@@ -5,10 +5,7 @@ import slugify from 'slugify'
 import { fetchWithRetry } from '../fetchWithRetry'
 import { DATA_DIR } from '../nosdeputesFetch'
 import { readFileAsJson, timeout, writeToFile } from '../utils'
-import {
-    FoundWikipediaUrls,
-    wikipediaUrlsJsonFile
-} from './fetchWikipediaUrls'
+import { FoundWikipediaUrls, wikipediaUrlsJsonFile } from './fetchWikipediaUrls'
 
 const WIKIPEDIA_DATA_DIR = path.join(DATA_DIR, 'wikipedia')
 const WIKIPEDIA_CONTENTS_DATA_DIR = path.join(WIKIPEDIA_DATA_DIR, 'contents')
@@ -67,8 +64,11 @@ function cleanup(text: string) {
       .map(line => line.trim())
       // remove empty lines
       .filter(_ => _.length)
+      // remove lines like this
+      // En fonction depuis le 3 juillet 2020(3 ans et 23 jours)
+      // because it causes unnecessary diffs all the time
+      .filter(_ => !_.includes('En fonction depuis le'))
       .join('\n')
-    //   .replace(/\n{2,}/g, '\n')
   )
 }
 
