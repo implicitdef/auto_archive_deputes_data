@@ -66,6 +66,12 @@ export function readFileAsJson(filePath: string): any {
   )
 }
 
+export function readFileAsString(filePath: string): string {
+  return fs.readFileSync(filePath, {
+    encoding: 'utf8',
+  })
+}
+
 export function readFileAsJson5(filePath: string): any {
   return JSON5.parse(
     fs.readFileSync(filePath, {
@@ -104,4 +110,17 @@ export function timeout(ms: number) {
   return new Promise(resolve => {
     setTimeout(resolve, ms)
   })
+}
+
+export function listFilesInFolder(dirPath: string): string[] {
+  if (fs.existsSync(dirPath) && fs.lstatSync(dirPath).isDirectory()) {
+    return fs
+      .readdirSync(dirPath)
+      .filter(file => fs.lstatSync(path.join(dirPath, file)).isFile())
+      .map(_ => path.join(dirPath, _))
+  } else {
+    throw new Error(
+      `The path ${dirPath} either does not exist or it is not a directory.`,
+    )
+  }
 }

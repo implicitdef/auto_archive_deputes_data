@@ -8,6 +8,7 @@ import {
   nosdeputesFetchWeeklyStats,
 } from './nosdeputesFetch'
 import { fetchWikipediaContents } from './wikipedia/fetchWikipediaContents'
+import { updateWikipediaAffaires } from './wikipedia/updateWikipediaAffaires'
 
 type Command =
   | 'update_nosdeputes_basic_data'
@@ -15,6 +16,7 @@ type Command =
   | 'fetch_photos'
   | 'update_wikipedia_urls'
   | 'update_wikipedia_contents'
+  | 'update_wikipedia_affaires'
   | 'update_elections_partielles'
 
 const MINISTERE_INTERIEUR_ENABLED = false
@@ -36,6 +38,9 @@ async function start() {
       break
     case 'update_wikipedia_contents':
       await fetchWikipediaContents()
+      break
+    case 'update_wikipedia_affaires':
+      await updateWikipediaAffaires()
       break
     case 'update_elections_partielles':
       // on scanne deux sources différentes
@@ -79,6 +84,9 @@ function readCommandArgument(): Command {
   }
   if (args.includes('update_elections_partielles')) {
     return 'update_elections_partielles'
+  }
+  if (args.includes('update_wikipedia_affaires')) {
+    return 'update_wikipedia_affaires'
   }
   throw new Error('Missing or unknown command')
 }

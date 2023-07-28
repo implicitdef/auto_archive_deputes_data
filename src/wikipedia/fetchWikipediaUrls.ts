@@ -18,7 +18,7 @@ export type FoundWikipediaUrls = {
 }[]
 
 export const WIKIPEDIA_DATA_DIR = path.join(DATA_DIR, 'wikipedia')
-export const wikipediaUrlsJsonFile = path.join(
+export const WIKIPEDIA_URLS_JSON_FILE = path.join(
   WIKIPEDIA_DATA_DIR,
   'wikipedia_urls.json',
 )
@@ -51,9 +51,9 @@ export async function fetchWikipediaUrls(): Promise<void> {
     name: _.name,
     url: _.link.url,
   }))
-  console.log(`Writing to ${wikipediaUrlsJsonFile}`)
+  console.log(`Writing to ${WIKIPEDIA_URLS_JSON_FILE}`)
   writeToFile(
-    wikipediaUrlsJsonFile,
+    WIKIPEDIA_URLS_JSON_FILE,
     JSON.stringify(foundWikipediaUrls, null, 2),
   )
 }

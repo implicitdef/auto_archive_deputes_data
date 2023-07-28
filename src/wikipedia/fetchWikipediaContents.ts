@@ -5,15 +5,21 @@ import slugify from 'slugify'
 import { fetchWithRetry } from '../fetchWithRetry'
 import { DATA_DIR } from '../nosdeputesFetch'
 import { readFileAsJson, timeout, writeToFile } from '../utils'
-import { FoundWikipediaUrls, wikipediaUrlsJsonFile } from './fetchWikipediaUrls'
+import {
+  FoundWikipediaUrls,
+  WIKIPEDIA_URLS_JSON_FILE,
+} from './fetchWikipediaUrls'
 
 const WIKIPEDIA_DATA_DIR = path.join(DATA_DIR, 'wikipedia')
-const WIKIPEDIA_CONTENTS_DATA_DIR = path.join(WIKIPEDIA_DATA_DIR, 'contents')
+export const WIKIPEDIA_CONTENTS_DATA_DIR = path.join(
+  WIKIPEDIA_DATA_DIR,
+  'contents',
+)
 
 export async function fetchWikipediaContents() {
-  console.log(`Reading ${wikipediaUrlsJsonFile}`)
+  console.log(`Reading ${WIKIPEDIA_URLS_JSON_FILE}`)
   const foundWikipediaUrls = readFileAsJson(
-    wikipediaUrlsJsonFile,
+    WIKIPEDIA_URLS_JSON_FILE,
   ) as FoundWikipediaUrls
   // run only 1 at once and with 1 second delay
   // otherwise we get rate limited
@@ -34,10 +40,8 @@ async function storeWikipediaHtml(
   const { id_an, name, url } = foundWikipediaUrl
   const content = await getWikipediaPageContent(url)
   if (content) {
-    const file = path.join(
-      WIKIPEDIA_CONTENTS_DATA_DIR,
-      `${id_an}_${makeSlug(name)}.txt`,
-    )
+    const file = buildWikipediaContentFilePath({ id_an, name })
+
     console.log(`Writing to ${file}`)
     writeToFile(file, content)
   } else {
@@ -69,6 +73,19 @@ function cleanup(text: string) {
       // because it causes unnecessary diffs all the time
       .filter(_ => !_.includes('En fonction depuis le'))
       .join('\n')
+  )
+}
+
+export function buildWikipediaContentFilePath({
+  id_an,
+  name,
+}: {
+  id_an: string
+  name: string
+}) {
+  return path.join(
+    WIKIPEDIA_CONTENTS_DATA_DIR,
+    `${id_an}_${makeSlug(name)}.txt`,
   )
 }
 
