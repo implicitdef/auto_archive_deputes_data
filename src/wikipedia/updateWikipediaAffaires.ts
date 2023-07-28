@@ -67,6 +67,7 @@ export async function updateWikipediaAffaires() {
   ) as FoundWikipediaUrls
 
   const results = foundWikipediaUrls
+    // .slice(0, 20)
     .map(({ id_an, name, url }) => {
       const file = buildWikipediaContentFilePath({ id_an, name })
       console.log(`Reading ${file}`)
@@ -108,11 +109,18 @@ function findMatches(text: string, keyword: string) {
 export function buildWikipediaAffairesFilePath({
   id_an,
   name,
+  matches,
 }: {
   id_an: string
   name: string
+  matches: string[]
 }) {
-  return path.join(WIKIPEDIA_AFFAIRES_DIR, `${id_an}_${makeSlug(name)}.yaml`)
+  return path.join(
+    WIKIPEDIA_AFFAIRES_DIR,
+    `${matches.length.toString().padStart(5, '0')}_${id_an}_${makeSlug(
+      name,
+    )}.yaml`,
+  )
 }
 
 function makeSlug(s: string) {
