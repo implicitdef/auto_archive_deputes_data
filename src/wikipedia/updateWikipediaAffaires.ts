@@ -81,7 +81,7 @@ export async function updateWikipediaAffaires() {
         .filter(_ => {
           return !excluded_keywords.some(excludedKw => _.includes(excludedKw))
         })
-      return { id_an, name, url, matches }
+      return { id_an, name, url: `https://fr.wikipedia.org/${url}`, matches }
     })
     .filter(_ => _.matches.length > 0)
   console.log(`Got matches on ${results.length} wikipedia pages`)
