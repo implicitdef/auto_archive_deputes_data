@@ -1,7 +1,7 @@
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '0 2,14 * * *' # every day at 2h and 14h
+  # schedule:
+  #   - cron: '0 2,14 * * *' # every day at 2h and 14h
 
 jobs:
   main-job:
