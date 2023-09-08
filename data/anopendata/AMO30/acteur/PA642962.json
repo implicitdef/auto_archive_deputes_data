@@ -1,0 +1,271 @@
+{
+  "uid": {
+    "@xsi:type": "IdActeur_type",
+    "#text": "PA642962"
+  },
+  "etatCivil": {
+    "ident": {
+      "civ": "Mme",
+      "prenom": "Marie",
+      "nom": "Le Vern",
+      "alpha": "LeVern",
+      "trigramme": {
+        "@xsi:nil": "true"
+      }
+    },
+    "infoNaissance": {
+      "dateNais": "1983-01-11",
+      "villeNais": "Bois-Guillaume",
+      "depNais": "Seine-Maritime",
+      "paysNais": "France"
+    },
+    "dateDeces": {
+      "@xsi:nil": "true"
+    }
+  },
+  "profession": {
+    "libelleCourant": "Chargée de mission",
+    "socProcINSEE": {
+      "catSocPro": "Cadres de la fonction publique, professions intellectuelles et  artistiques",
+      "famSocPro": "Cadres et professions intellectuelles supérieures"
+    }
+  },
+  "uri_hatvp": {
+    "@xsi:nil": "true"
+  },
+  "adresses": {
+    "adresse": [
+      {
+        "@xsi:type": "AdressePostale_Type",
+        "uid": "AD709229",
+        "type": "0",
+        "typeLibelle": "Adresse officielle",
+        "poids": "1",
+        "adresseDeRattachement": null,
+        "intitule": "Assemblée nationale",
+        "numeroRue": "126",
+        "nomRue": "Rue de l'université",
+        "complementAdresse": null,
+        "codePostal": "75355",
+        "ville": "Paris 07 SP"
+      },
+      {
+        "@xsi:type": "AdresseMail_Type",
+        "uid": "AD716112",
+        "type": "15",
+        "typeLibelle": "Mèl",
+        "poids": null,
+        "adresseDeRattachement": null,
+        "valElec": "mlevern@assemblee-nationale.fr"
+      }
+    ]
+  },
+  "mandats": {
+    "mandat": [
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM710625",
+        "acteurRef": "PA642962",
+        "legislature": null,
+        "typeOrgane": "PARPOL",
+        "dateDebut": "2015-12-01",
+        "datePublication": null,
+        "dateFin": "2017-06-20",
+        "preseance": "5",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO684932"
+        }
+      },
+      {
+        "@xsi:type": "MandatMission_Type",
+        "uid": "PM714102",
+        "acteurRef": "PA642962",
+        "legislature": "14",
+        "typeOrgane": "MISINFO",
+        "dateDebut": "2016-06-21",
+        "datePublication": null,
+        "dateFin": "2017-02-01",
+        "preseance": "10",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO714087"
+        },
+        "libelle": null,
+        "missionSuivanteRef": null,
+        "missionPrecedenteRef": null
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM709230",
+        "acteurRef": "PA642962",
+        "legislature": "14",
+        "typeOrgane": "GP",
+        "dateDebut": "2015-08-28",
+        "datePublication": "2015-08-29",
+        "dateFin": "2016-05-24",
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre du",
+          "libQualiteSex": "Membre du"
+        },
+        "organes": {
+          "organeRef": "PO656002"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM713274",
+        "acteurRef": "PA642962",
+        "legislature": "14",
+        "typeOrgane": "GP",
+        "dateDebut": "2016-05-25",
+        "datePublication": null,
+        "dateFin": "2017-06-20",
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre du",
+          "libQualiteSex": "Membre du"
+        },
+        "organes": {
+          "organeRef": "PO713077"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM709258",
+        "acteurRef": "PA642962",
+        "legislature": "14",
+        "typeOrgane": "COMPER",
+        "dateDebut": "2015-09-05",
+        "datePublication": "2015-09-05",
+        "dateFin": "2015-09-30",
+        "preseance": "32",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO420120"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM709512",
+        "acteurRef": "PA642962",
+        "legislature": "14",
+        "typeOrgane": "COMPER",
+        "dateDebut": "2015-10-01",
+        "datePublication": "2015-10-01",
+        "dateFin": "2017-06-20",
+        "preseance": "32",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO419865"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM711406",
+        "acteurRef": "PA642962",
+        "legislature": "14",
+        "typeOrgane": "CMP",
+        "dateDebut": "2016-02-04",
+        "datePublication": "2016-02-05",
+        "dateFin": "2016-03-09",
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Titulaire",
+          "libQualite": "Membre titulaire",
+          "libQualiteSex": "Membre titulaire"
+        },
+        "organes": {
+          "organeRef": "PO711331"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM712359",
+        "acteurRef": "PA642962",
+        "legislature": "14",
+        "typeOrgane": "GE",
+        "dateDebut": "2016-04-11",
+        "datePublication": null,
+        "dateFin": "2017-06-20",
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO712100"
+        }
+      },
+      {
+        "@xsi:type": "MandatParlementaire_type",
+        "uid": "PM709226",
+        "acteurRef": "PA642962",
+        "legislature": "14",
+        "typeOrgane": "ASSEMBLEE",
+        "dateDebut": "2012-06-20",
+        "datePublication": null,
+        "dateFin": "2017-06-20",
+        "preseance": "50",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "membre",
+          "libQualite": "membre",
+          "libQualiteSex": "membre"
+        },
+        "organes": {
+          "organeRef": "PO644420"
+        },
+        "suppleants": null,
+        "chambre": null,
+        "election": {
+          "lieu": {
+            "region": "Normandie",
+            "regionType": "Métropolitain",
+            "departement": "Seine-Maritime",
+            "numDepartement": "76",
+            "numCirco": "6"
+          },
+          "causeMandat": "remplacement d'un député en mission au-delà de 6 mois",
+          "refCirconscription": "PO644842"
+        },
+        "mandature": {
+          "datePriseFonction": "2015-08-28",
+          "causeFin": "Fin de législature",
+          "premiereElection": "0",
+          "placeHemicycle": null,
+          "mandatRemplaceRef": null
+        },
+        "collaborateurs": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,185 @@
+{
+  "uid": {
+    "@xsi:type": "IdActeur_type",
+    "#text": "PA1551"
+  },
+  "etatCivil": {
+    "ident": {
+      "civ": "M.",
+      "prenom": "Gérard",
+      "nom": "Grignon",
+      "alpha": "Grignon",
+      "trigramme": {
+        "@xsi:nil": "true"
+      }
+    },
+    "infoNaissance": {
+      "dateNais": "1943-04-16",
+      "villeNais": "Saint-Pierre",
+      "depNais": "Saint-Pierre-et-Miquelon",
+      "paysNais": {
+        "@xsi:nil": "true"
+      }
+    },
+    "dateDeces": {
+      "@xsi:nil": "true"
+    }
+  },
+  "profession": {
+    "libelleCourant": "Professeur d'éducation physique et sportive",
+    "socProcINSEE": {
+      "catSocPro": "Cadres de la fonction publique, professions intellectuelles et  artistiques",
+      "famSocPro": "Cadres et professions intellectuelles supérieures"
+    }
+  },
+  "uri_hatvp": {
+    "@xsi:nil": "true"
+  },
+  "adresses": {
+    "adresse": [
+      {
+        "@xsi:type": "AdressePostale_Type",
+        "uid": "AD46753",
+        "type": "0",
+        "typeLibelle": "Adresse officielle",
+        "poids": "1",
+        "adresseDeRattachement": null,
+        "intitule": "Casier de la Poste,",
+        "numeroRue": null,
+        "nomRue": null,
+        "complementAdresse": "Palais Bourbon,",
+        "codePostal": "75355",
+        "ville": "Paris 07 SP"
+      },
+      {
+        "@xsi:type": "AdresseMail_Type",
+        "uid": "AD191460",
+        "type": "15",
+        "typeLibelle": "Mèl",
+        "poids": null,
+        "adresseDeRattachement": null,
+        "valElec": "ggrignon@assemblee-nationale.fr"
+      },
+      {
+        "@xsi:type": "AdresseMail_Type",
+        "uid": "AD275619",
+        "type": "15",
+        "typeLibelle": "Mèl",
+        "poids": null,
+        "adresseDeRattachement": null,
+        "valElec": "archipel@cheznoo.net"
+      }
+    ]
+  },
+  "mandats": {
+    "mandat": [
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM323242",
+        "acteurRef": "PA1551",
+        "legislature": "12",
+        "typeOrgane": "COMPER",
+        "dateDebut": "2006-05-13",
+        "datePublication": "2006-05-13",
+        "dateFin": "2007-06-19",
+        "preseance": "32",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO59051"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM275026",
+        "acteurRef": "PA1551",
+        "legislature": "12",
+        "typeOrgane": "ORGEXTPARL",
+        "dateDebut": "2002-09-03",
+        "datePublication": "2002-09-05",
+        "dateFin": "2007-06-19",
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Titulaire",
+          "libQualite": "Membre titulaire",
+          "libQualiteSex": "Membre titulaire"
+        },
+        "organes": {
+          "organeRef": "PO60279"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM271313",
+        "acteurRef": "PA1551",
+        "legislature": "12",
+        "typeOrgane": "GP",
+        "dateDebut": "2002-06-25",
+        "datePublication": "2002-06-26",
+        "dateFin": "2007-06-19",
+        "preseance": "24",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre apparenté",
+          "libQualite": "Apparenté au",
+          "libQualiteSex": "Apparenté au"
+        },
+        "organes": {
+          "organeRef": "PO270903"
+        }
+      },
+      {
+        "@xsi:type": "MandatParlementaire_type",
+        "uid": "PM267841",
+        "acteurRef": "PA1551",
+        "legislature": "12",
+        "typeOrgane": "ASSEMBLEE",
+        "dateDebut": "2002-06-19",
+        "datePublication": null,
+        "dateFin": "2007-06-19",
+        "preseance": "50",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "membre",
+          "libQualite": "membre",
+          "libQualiteSex": "membre"
+        },
+        "organes": {
+          "organeRef": "PO230434"
+        },
+        "suppleants": {
+          "suppleant": {
+            "dateDebut": "2002-06-19",
+            "dateFin": "2007-06-19",
+            "suppleantRef": "PA267840"
+          }
+        },
+        "chambre": null,
+        "election": {
+          "lieu": {
+            "region": "Saint-Pierre-et-Miquelon",
+            "regionType": "Collectivités d'outre-mer et Nouvelle-Calédonie",
+            "departement": "Saint-Pierre-et-Miquelon",
+            "numDepartement": "975",
+            "numCirco": "1"
+          },
+          "causeMandat": "élections générales",
+          "refCirconscription": "PO231005"
+        },
+        "mandature": {
+          "datePriseFonction": "2002-06-19",
+          "causeFin": "Fin de législature",
+          "premiereElection": "1",
+          "placeHemicycle": null,
+          "mandatRemplaceRef": null
+        },
+        "collaborateurs": null
+      }
+    ]
+  }
+}

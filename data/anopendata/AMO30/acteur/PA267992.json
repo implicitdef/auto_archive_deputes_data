@@ -1,0 +1,822 @@
+{
+  "uid": {
+    "@xsi:type": "IdActeur_type",
+    "#text": "PA267992"
+  },
+  "etatCivil": {
+    "ident": {
+      "civ": "M.",
+      "prenom": "Christophe",
+      "nom": "Masse",
+      "alpha": "Masse",
+      "trigramme": {
+        "@xsi:nil": "true"
+      }
+    },
+    "infoNaissance": {
+      "dateNais": "1963-11-16",
+      "villeNais": "Marseille",
+      "depNais": "Bouches-du-Rhône",
+      "paysNais": "France"
+    },
+    "dateDeces": {
+      "@xsi:nil": "true"
+    }
+  },
+  "profession": {
+    "libelleCourant": "Employé d'un laboratoire pharmaceutique",
+    "socProcINSEE": {
+      "catSocPro": "Employés administratifs d'entreprise",
+      "famSocPro": "Employés"
+    }
+  },
+  "uri_hatvp": {
+    "@xsi:nil": "true"
+  },
+  "adresses": {
+    "adresse": [
+      {
+        "@xsi:type": "AdressePostale_Type",
+        "uid": "AD11210",
+        "type": "0",
+        "typeLibelle": "Adresse officielle",
+        "poids": "1",
+        "adresseDeRattachement": null,
+        "intitule": "Casier de la Poste,",
+        "numeroRue": null,
+        "nomRue": null,
+        "complementAdresse": "Palais Bourbon,",
+        "codePostal": "75355",
+        "ville": "Paris 07 SP"
+      },
+      {
+        "@xsi:type": "AdresseMail_Type",
+        "uid": "AD12936",
+        "type": "15",
+        "typeLibelle": "Mèl",
+        "poids": null,
+        "adresseDeRattachement": null,
+        "valElec": "cmasse@assemblee-nationale.fr"
+      },
+      {
+        "@xsi:type": "AdresseMail_Type",
+        "uid": "AD13593",
+        "type": "15",
+        "typeLibelle": "Mèl",
+        "poids": null,
+        "adresseDeRattachement": null,
+        "valElec": "c.masse@cg13.fr"
+      },
+      {
+        "@xsi:type": "AdresseTelephonique_Type",
+        "uid": "AD294315",
+        "type": "11",
+        "typeLibelle": "Téléphone",
+        "poids": "1",
+        "adresseDeRattachement": "AD11210",
+        "valElec": "01 40 63 75 45"
+      },
+      {
+        "@xsi:type": "AdresseTelephonique_Type",
+        "uid": "AD294316",
+        "type": "12",
+        "typeLibelle": "Télécopie",
+        "poids": "1",
+        "adresseDeRattachement": "AD11210",
+        "valElec": "01 40 63 92 87"
+      }
+    ]
+  },
+  "mandats": {
+    "mandat": [
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM277765",
+        "acteurRef": "PA267992",
+        "legislature": "12",
+        "typeOrgane": "GEVI",
+        "dateDebut": "2002-10-23",
+        "datePublication": null,
+        "dateFin": "2007-06-19",
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO274049"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM271423",
+        "acteurRef": "PA267992",
+        "legislature": "12",
+        "typeOrgane": "GP",
+        "dateDebut": "2002-06-25",
+        "datePublication": "2002-06-26",
+        "dateFin": "2007-06-19",
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre du",
+          "libQualiteSex": "Membre du"
+        },
+        "organes": {
+          "organeRef": "PO270907"
+        }
+      },
+      {
+        "@xsi:type": "MandatAvecSuppleant_Type",
+        "uid": "PM271999",
+        "acteurRef": "PA267992",
+        "legislature": "12",
+        "typeOrgane": "COMNL",
+        "dateDebut": "2002-06-26",
+        "datePublication": "2002-06-27",
+        "dateFin": "2007-06-19",
+        "preseance": "24",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Titulaire",
+          "libQualite": "Membre titulaire",
+          "libQualiteSex": "Membre titulaire"
+        },
+        "organes": {
+          "organeRef": "PO271850"
+        },
+        "suppleants": null
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM325840",
+        "acteurRef": "PA267992",
+        "legislature": "12",
+        "typeOrgane": "COMPER",
+        "dateDebut": "2006-10-14",
+        "datePublication": "2006-10-14",
+        "dateFin": "2007-06-19",
+        "preseance": "32",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO59045"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM275062",
+        "acteurRef": "PA267992",
+        "legislature": "12",
+        "typeOrgane": "ORGEXTPARL",
+        "dateDebut": "2002-09-03",
+        "datePublication": "2002-09-05",
+        "dateFin": "2007-06-19",
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Titulaire",
+          "libQualite": "Membre titulaire",
+          "libQualiteSex": "Membre titulaire"
+        },
+        "organes": {
+          "organeRef": "PO227199"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM301491",
+        "acteurRef": "PA267992",
+        "legislature": "12",
+        "typeOrgane": "GE",
+        "dateDebut": "2004-02-10",
+        "datePublication": null,
+        "dateFin": "2007-06-19",
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO298452"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM286376",
+        "acteurRef": "PA267992",
+        "legislature": "12",
+        "typeOrgane": "GE",
+        "dateDebut": "2002-12-18",
+        "datePublication": null,
+        "dateFin": "2007-06-19",
+        "preseance": "20",
+        "nominPrincipale": "0",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO285047"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM297828",
+        "acteurRef": "PA267992",
+        "legislature": "12",
+        "typeOrgane": "GE",
+        "dateDebut": "2003-02-04",
+        "datePublication": null,
+        "dateFin": "2007-06-19",
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO287435"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM298285",
+        "acteurRef": "PA267992",
+        "legislature": "12",
+        "typeOrgane": "GE",
+        "dateDebut": "2003-01-15",
+        "datePublication": null,
+        "dateFin": "2007-06-19",
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO285084"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM298356",
+        "acteurRef": "PA267992",
+        "legislature": "12",
+        "typeOrgane": "GE",
+        "dateDebut": "2003-04-09",
+        "datePublication": null,
+        "dateFin": "2007-06-19",
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO285115"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM300021",
+        "acteurRef": "PA267992",
+        "legislature": "12",
+        "typeOrgane": "GE",
+        "dateDebut": "2002-12-14",
+        "datePublication": null,
+        "dateFin": "2007-06-19",
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO285074"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM288714",
+        "acteurRef": "PA267992",
+        "legislature": "12",
+        "typeOrgane": "GE",
+        "dateDebut": "2003-01-29",
+        "datePublication": null,
+        "dateFin": "2007-06-19",
+        "preseance": "20",
+        "nominPrincipale": "0",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO285117"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM291053",
+        "acteurRef": "PA267992",
+        "legislature": "12",
+        "typeOrgane": "GE",
+        "dateDebut": "2002-12-18",
+        "datePublication": null,
+        "dateFin": "2007-06-19",
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO285110"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM298146",
+        "acteurRef": "PA267992",
+        "legislature": "12",
+        "typeOrgane": "GE",
+        "dateDebut": "2002-12-14",
+        "datePublication": null,
+        "dateFin": "2007-06-19",
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO285076"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM285947",
+        "acteurRef": "PA267992",
+        "legislature": "12",
+        "typeOrgane": "GE",
+        "dateDebut": "2002-12-12",
+        "datePublication": null,
+        "dateFin": "2007-06-19",
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO285043"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM311085",
+        "acteurRef": "PA267992",
+        "legislature": "12",
+        "typeOrgane": "GE",
+        "dateDebut": "2005-03-23",
+        "datePublication": null,
+        "dateFin": "2007-06-19",
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO309957"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM311378",
+        "acteurRef": "PA267992",
+        "legislature": "12",
+        "typeOrgane": "GE",
+        "dateDebut": "2005-03-14",
+        "datePublication": null,
+        "dateFin": "2007-06-19",
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO309941"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM310220",
+        "acteurRef": "PA267992",
+        "legislature": "12",
+        "typeOrgane": "GE",
+        "dateDebut": "2003-11-25",
+        "datePublication": null,
+        "dateFin": "2007-06-19",
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO293194"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM311208",
+        "acteurRef": "PA267992",
+        "legislature": "12",
+        "typeOrgane": "GE",
+        "dateDebut": "2003-01-01",
+        "datePublication": null,
+        "dateFin": "2007-06-19",
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO285097"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM292136",
+        "acteurRef": "PA267992",
+        "legislature": "12",
+        "typeOrgane": "GE",
+        "dateDebut": "2002-11-27",
+        "datePublication": null,
+        "dateFin": "2007-06-19",
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO285090"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM323801",
+        "acteurRef": "PA267992",
+        "legislature": "12",
+        "typeOrgane": "GE",
+        "dateDebut": "2006-05-10",
+        "datePublication": null,
+        "dateFin": "2007-06-19",
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO287166"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM287729",
+        "acteurRef": "PA267992",
+        "legislature": "12",
+        "typeOrgane": "GE",
+        "dateDebut": "2002-12-03",
+        "datePublication": null,
+        "dateFin": "2007-06-19",
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO285103"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM297597",
+        "acteurRef": "PA267992",
+        "legislature": "12",
+        "typeOrgane": "GE",
+        "dateDebut": "2003-03-01",
+        "datePublication": null,
+        "dateFin": "2007-06-19",
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO285052"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM299956",
+        "acteurRef": "PA267992",
+        "legislature": "12",
+        "typeOrgane": "GE",
+        "dateDebut": "2002-11-28",
+        "datePublication": null,
+        "dateFin": "2007-06-19",
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO285053"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM299528",
+        "acteurRef": "PA267992",
+        "legislature": "12",
+        "typeOrgane": "GE",
+        "dateDebut": "2002-12-18",
+        "datePublication": null,
+        "dateFin": "2007-06-19",
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO285124"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM277757",
+        "acteurRef": "PA267992",
+        "legislature": "12",
+        "typeOrgane": "GA",
+        "dateDebut": "2002-10-23",
+        "datePublication": null,
+        "dateFin": "2007-06-19",
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO274089"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM277759",
+        "acteurRef": "PA267992",
+        "legislature": "12",
+        "typeOrgane": "GA",
+        "dateDebut": "2002-10-23",
+        "datePublication": null,
+        "dateFin": "2007-06-19",
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO274110"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM277769",
+        "acteurRef": "PA267992",
+        "legislature": "12",
+        "typeOrgane": "GA",
+        "dateDebut": "2002-10-23",
+        "datePublication": null,
+        "dateFin": "2007-06-19",
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO274095"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM277773",
+        "acteurRef": "PA267992",
+        "legislature": "12",
+        "typeOrgane": "GA",
+        "dateDebut": "2002-10-23",
+        "datePublication": null,
+        "dateFin": "2007-06-19",
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO274136"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM277756",
+        "acteurRef": "PA267992",
+        "legislature": "12",
+        "typeOrgane": "GA",
+        "dateDebut": "2002-10-23",
+        "datePublication": null,
+        "dateFin": "2007-06-19",
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO274055"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM277762",
+        "acteurRef": "PA267992",
+        "legislature": "12",
+        "typeOrgane": "GA",
+        "dateDebut": "2002-10-23",
+        "datePublication": null,
+        "dateFin": "2007-06-19",
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO274131"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM277776",
+        "acteurRef": "PA267992",
+        "legislature": "12",
+        "typeOrgane": "GA",
+        "dateDebut": "2002-10-23",
+        "datePublication": null,
+        "dateFin": "2007-06-19",
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO274067"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM289699",
+        "acteurRef": "PA267992",
+        "legislature": "12",
+        "typeOrgane": "GE",
+        "dateDebut": "2003-01-29",
+        "datePublication": null,
+        "dateFin": "2007-06-19",
+        "preseance": "8",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Vice-Président",
+          "libQualite": "Vice-Président",
+          "libQualiteSex": "Vice-Président"
+        },
+        "organes": {
+          "organeRef": "PO285117"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM286716",
+        "acteurRef": "PA267992",
+        "legislature": "12",
+        "typeOrgane": "GE",
+        "dateDebut": "2002-12-18",
+        "datePublication": null,
+        "dateFin": "2007-06-19",
+        "preseance": "8",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Vice-Président",
+          "libQualite": "Vice-Président",
+          "libQualiteSex": "Vice-Président"
+        },
+        "organes": {
+          "organeRef": "PO285047"
+        }
+      },
+      {
+        "@xsi:type": "MandatParlementaire_type",
+        "uid": "PM267993",
+        "acteurRef": "PA267992",
+        "legislature": "12",
+        "typeOrgane": "ASSEMBLEE",
+        "dateDebut": "2002-06-19",
+        "datePublication": null,
+        "dateFin": "2007-06-19",
+        "preseance": "50",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "membre",
+          "libQualite": "membre",
+          "libQualiteSex": "membre"
+        },
+        "organes": {
+          "organeRef": "PO230434"
+        },
+        "suppleants": {
+          "suppleant": {
+            "dateDebut": "2002-06-19",
+            "dateFin": "2007-06-19",
+            "suppleantRef": "PA565"
+          }
+        },
+        "chambre": null,
+        "election": {
+          "lieu": {
+            "region": "Provence-Alpes-Côte d'Azur",
+            "regionType": "Métropolitain",
+            "departement": "Bouches-du-Rhône",
+            "numDepartement": "13",
+            "numCirco": "8"
+          },
+          "causeMandat": "élections générales",
+          "refCirconscription": "PO230485"
+        },
+        "mandature": {
+          "datePriseFonction": "2002-06-19",
+          "causeFin": "Fin de législature",
+          "premiereElection": "0",
+          "placeHemicycle": null,
+          "mandatRemplaceRef": null
+        },
+        "collaborateurs": null
+      }
+    ]
+  }
+}

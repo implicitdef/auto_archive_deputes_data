@@ -1,0 +1,93 @@
+{
+  "uid": {
+    "@xsi:type": "IdActeur_type",
+    "#text": "PA368"
+  },
+  "etatCivil": {
+    "ident": {
+      "civ": "M.",
+      "prenom": "Michel",
+      "nom": "Barnier",
+      "alpha": "Barnier",
+      "trigramme": {
+        "@xsi:nil": "true"
+      }
+    },
+    "infoNaissance": {
+      "dateNais": "1951-01-09",
+      "villeNais": "La Tronche",
+      "depNais": "Isère",
+      "paysNais": {
+        "@xsi:nil": "true"
+      }
+    },
+    "dateDeces": {
+      "@xsi:nil": "true"
+    }
+  },
+  "profession": {
+    "libelleCourant": "Sans profession déclarée",
+    "socProcINSEE": {
+      "catSocPro": "Sans profession déclarée",
+      "famSocPro": "Sans profession déclarée"
+    }
+  },
+  "uri_hatvp": {
+    "@xsi:nil": "true"
+  },
+  "adresses": {
+    "adresse": {
+      "@xsi:type": "AdresseSiteWeb_Type",
+      "uid": "AD317538",
+      "type": "23",
+      "typeLibelle": "Url sénateur",
+      "poids": null,
+      "adresseDeRattachement": null,
+      "valElec": "https://www.senat.fr/senateur/barnier_michel95008d.html"
+    }
+  },
+  "mandats": {
+    "mandat": [
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM15388298",
+        "acteurRef": "PA368",
+        "legislature": null,
+        "typeOrgane": "GOUVERNEMENT",
+        "dateDebut": "2007-06-19",
+        "datePublication": "2007-06-20",
+        "dateFin": "2009-06-23",
+        "preseance": "50",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "membre",
+          "libQualite": "membre",
+          "libQualiteSex": "membre"
+        },
+        "organes": {
+          "organeRef": "PO384206"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM388298",
+        "acteurRef": "PA368",
+        "legislature": null,
+        "typeOrgane": "MINISTERE",
+        "dateDebut": "2007-06-19",
+        "datePublication": "2007-06-20",
+        "dateFin": "2009-06-23",
+        "preseance": "30",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Ministre",
+          "libQualite": "Ministre",
+          "libQualiteSex": "Ministre"
+        },
+        "organes": {
+          "organeRef": "PO387964"
+        }
+      }
+    ]
+  }
+}

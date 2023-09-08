@@ -1,0 +1,135 @@
+{
+  "uid": {
+    "@xsi:type": "IdActeur_type",
+    "#text": "PA387829"
+  },
+  "etatCivil": {
+    "ident": {
+      "civ": "Mme",
+      "prenom": "Rachida",
+      "nom": "Dati",
+      "alpha": "Dati",
+      "trigramme": {
+        "@xsi:nil": "true"
+      }
+    },
+    "infoNaissance": {
+      "dateNais": "1965-11-27",
+      "villeNais": {
+        "@xsi:nil": "true"
+      },
+      "depNais": {
+        "@xsi:nil": "true"
+      },
+      "paysNais": {
+        "@xsi:nil": "true"
+      }
+    },
+    "dateDeces": {
+      "@xsi:nil": "true"
+    }
+  },
+  "profession": {
+    "libelleCourant": {
+      "@xsi:nil": "true"
+    },
+    "socProcINSEE": {
+      "catSocPro": {
+        "@xsi:nil": "true"
+      },
+      "famSocPro": {
+        "@xsi:nil": "true"
+      }
+    }
+  },
+  "uri_hatvp": {
+    "@xsi:nil": "true"
+  },
+  "adresses": {
+    "@xsi:nil": "true"
+  },
+  "mandats": {
+    "mandat": [
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM15388382",
+        "acteurRef": "PA387829",
+        "legislature": null,
+        "typeOrgane": "GOUVERNEMENT",
+        "dateDebut": "2007-06-19",
+        "datePublication": "2007-06-20",
+        "dateFin": "2009-06-23",
+        "preseance": "50",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "membre",
+          "libQualite": "membre",
+          "libQualiteSex": "membre"
+        },
+        "organes": {
+          "organeRef": "PO384206"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM15387831",
+        "acteurRef": "PA387829",
+        "legislature": null,
+        "typeOrgane": "GOUVERNEMENT",
+        "dateDebut": "2007-05-18",
+        "datePublication": null,
+        "dateFin": "2007-06-18",
+        "preseance": "50",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "membre",
+          "libQualite": "membre",
+          "libQualiteSex": "membre"
+        },
+        "organes": {
+          "organeRef": "PO382939"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM388382",
+        "acteurRef": "PA387829",
+        "legislature": null,
+        "typeOrgane": "MINISTERE",
+        "dateDebut": "2007-06-19",
+        "datePublication": "2007-06-20",
+        "dateFin": "2009-06-23",
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Garde des sceaux",
+          "libQualite": "Garde des sceaux, ministre de la justice",
+          "libQualiteSex": "Garde des sceaux, ministre de la justice"
+        },
+        "organes": {
+          "organeRef": "PO388090"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM387831",
+        "acteurRef": "PA387829",
+        "legislature": null,
+        "typeOrgane": "MINISTERE",
+        "dateDebut": "2007-05-18",
+        "datePublication": null,
+        "dateFin": "2007-06-18",
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Garde des sceaux",
+          "libQualite": "Garde des sceaux, ministre de la justice",
+          "libQualiteSex": "Garde des sceaux, ministre de la justice"
+        },
+        "organes": {
+          "organeRef": "PO382986"
+        }
+      }
+    ]
+  }
+}

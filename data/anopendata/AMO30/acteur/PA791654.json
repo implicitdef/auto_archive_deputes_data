@@ -1,0 +1,97 @@
+{
+  "uid": {
+    "@xsi:type": "IdActeur_type",
+    "#text": "PA791654"
+  },
+  "etatCivil": {
+    "ident": {
+      "civ": "Mme",
+      "prenom": "Isabelle",
+      "nom": "Rome",
+      "alpha": "Rome",
+      "trigramme": {
+        "@xsi:nil": "true"
+      }
+    },
+    "infoNaissance": {
+      "dateNais": {
+        "@xsi:nil": "true"
+      },
+      "villeNais": {
+        "@xsi:nil": "true"
+      },
+      "depNais": {
+        "@xsi:nil": "true"
+      },
+      "paysNais": {
+        "@xsi:nil": "true"
+      }
+    },
+    "dateDeces": {
+      "@xsi:nil": "true"
+    }
+  },
+  "profession": {
+    "libelleCourant": {
+      "@xsi:nil": "true"
+    },
+    "socProcINSEE": {
+      "catSocPro": {
+        "@xsi:nil": "true"
+      },
+      "famSocPro": {
+        "@xsi:nil": "true"
+      }
+    }
+  },
+  "uri_hatvp": {
+    "@xsi:nil": "true"
+  },
+  "adresses": {
+    "@xsi:nil": "true"
+  },
+  "mandats": {
+    "mandat": [
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM15791664",
+        "acteurRef": "PA791654",
+        "legislature": null,
+        "typeOrgane": "GOUVERNEMENT",
+        "dateDebut": "2022-05-21",
+        "datePublication": "2022-05-21",
+        "dateFin": "2023-07-20",
+        "preseance": "50",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "membre",
+          "libQualite": "membre",
+          "libQualiteSex": "membre"
+        },
+        "organes": {
+          "organeRef": "PO791579"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM791664",
+        "acteurRef": "PA791654",
+        "legislature": null,
+        "typeOrgane": "MINISTERE",
+        "dateDebut": "2022-05-21",
+        "datePublication": "2022-05-21",
+        "dateFin": "2023-07-20",
+        "preseance": "40",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Ministre délégué",
+          "libQualite": "Ministre délégué",
+          "libQualiteSex": "Ministre déléguée"
+        },
+        "organes": {
+          "organeRef": "PO791627"
+        }
+      }
+    ]
+  }
+}

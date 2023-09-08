@@ -1,0 +1,88 @@
+{
+  "uid": {
+    "@xsi:type": "IdActeur_type",
+    "#text": "PA497"
+  },
+  "etatCivil": {
+    "ident": {
+      "civ": "M.",
+      "prenom": "Jean",
+      "nom": "Besson",
+      "alpha": "Besson Je",
+      "trigramme": {
+        "@xsi:nil": "true"
+      }
+    },
+    "infoNaissance": {
+      "dateNais": "1938-08-15",
+      "villeNais": "Ollioules",
+      "depNais": "Var",
+      "paysNais": {
+        "@xsi:nil": "true"
+      }
+    },
+    "dateDeces": "2017-09-15"
+  },
+  "profession": {
+    "libelleCourant": "Chef d'entreprise retraité",
+    "socProcINSEE": {
+      "catSocPro": "Chefs d'entreprise de 10 salariés ou plus",
+      "famSocPro": "Artisans, commerçants et chefs d'entreprise"
+    }
+  },
+  "uri_hatvp": {
+    "@xsi:nil": "true"
+  },
+  "adresses": {
+    "adresse": [
+      {
+        "@xsi:type": "AdressePostale_Type",
+        "uid": "AD46281",
+        "type": "0",
+        "typeLibelle": "Adresse officielle",
+        "poids": "1",
+        "adresseDeRattachement": null,
+        "intitule": "Casier de la Poste,",
+        "numeroRue": null,
+        "nomRue": null,
+        "complementAdresse": "Palais Bourbon,",
+        "codePostal": "75355",
+        "ville": "Paris 07 SP"
+      },
+      {
+        "@xsi:type": "AdresseMail_Type",
+        "uid": "AD191407",
+        "type": "15",
+        "typeLibelle": "Mèl",
+        "poids": null,
+        "adresseDeRattachement": null,
+        "valElec": "jbesson@assemblee-nationale.fr"
+      }
+    ]
+  },
+  "mandats": {
+    "mandat": {
+      "@xsi:type": "MandatMission_Type",
+      "uid": "PM287498",
+      "acteurRef": "PA497",
+      "legislature": "12",
+      "typeOrgane": "MINISTERE",
+      "dateDebut": "2002-12-24",
+      "datePublication": "2002-12-26",
+      "dateFin": null,
+      "preseance": "1",
+      "nominPrincipale": "1",
+      "infosQualite": {
+        "codeQualite": "en mission",
+        "libQualite": "en mission",
+        "libQualiteSex": "en mission"
+      },
+      "organes": {
+        "organeRef": "PO268781"
+      },
+      "libelle": "La préparation du débat national sur les énergies",
+      "missionSuivanteRef": null,
+      "missionPrecedenteRef": null
+    }
+  }
+}

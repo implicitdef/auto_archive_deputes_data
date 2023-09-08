@@ -1,0 +1,283 @@
+{
+  "uid": {
+    "@xsi:type": "IdActeur_type",
+    "#text": "PA778908"
+  },
+  "etatCivil": {
+    "ident": {
+      "civ": "Mme",
+      "prenom": "Béatrice",
+      "nom": "Gosselin",
+      "alpha": "Gosselin",
+      "trigramme": {
+        "@xsi:nil": "true"
+      }
+    },
+    "infoNaissance": {
+      "dateNais": "1958-03-27",
+      "villeNais": {
+        "@xsi:nil": "true"
+      },
+      "depNais": {
+        "@xsi:nil": "true"
+      },
+      "paysNais": {
+        "@xsi:nil": "true"
+      }
+    },
+    "dateDeces": {
+      "@xsi:nil": "true"
+    }
+  },
+  "profession": {
+    "libelleCourant": {
+      "@xsi:nil": "true"
+    },
+    "socProcINSEE": {
+      "catSocPro": {
+        "@xsi:nil": "true"
+      },
+      "famSocPro": {
+        "@xsi:nil": "true"
+      }
+    }
+  },
+  "uri_hatvp": {
+    "@xsi:nil": "true"
+  },
+  "adresses": {
+    "adresse": {
+      "@xsi:type": "AdresseSiteWeb_Type",
+      "uid": "AD778914",
+      "type": "23",
+      "typeLibelle": "Url sénateur",
+      "poids": null,
+      "adresseDeRattachement": null,
+      "valElec": "https://www.senat.fr/senateur/gosselin_beatrice20180f.html"
+    }
+  },
+  "mandats": {
+    "mandat": [
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM778930",
+        "acteurRef": "PA778908",
+        "legislature": null,
+        "typeOrgane": "COMSENAT",
+        "dateDebut": "2020-12-04",
+        "datePublication": null,
+        "dateFin": null,
+        "preseance": "10",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO211490"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM778932",
+        "acteurRef": "PA778908",
+        "legislature": null,
+        "typeOrgane": "GROUPESENAT",
+        "dateDebut": "2020-12-04",
+        "datePublication": null,
+        "dateFin": null,
+        "preseance": "4",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre du"
+        },
+        "organes": {
+          "organeRef": "PO286005"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM826117",
+        "acteurRef": "PA778908",
+        "legislature": null,
+        "typeOrgane": "CMP",
+        "dateDebut": "2023-07-05",
+        "datePublication": "2023-07-06",
+        "dateFin": "2023-07-13",
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Titulaire",
+          "libQualite": "Membre titulaire",
+          "libQualiteSex": "Membre titulaire"
+        },
+        "organes": {
+          "organeRef": "PO825929"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM826198",
+        "acteurRef": "PA778908",
+        "legislature": null,
+        "typeOrgane": "CMP",
+        "dateDebut": "2023-07-06",
+        "datePublication": "2023-07-07",
+        "dateFin": "2023-07-13",
+        "preseance": "16",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Rapporteur",
+          "libQualite": "Rapporteur",
+          "libQualiteSex": "Rapporteure"
+        },
+        "organes": {
+          "organeRef": "PO825929"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM779049",
+        "acteurRef": "PA778908",
+        "legislature": null,
+        "typeOrgane": "GROUPESENAT",
+        "dateDebut": "2020-12-04",
+        "datePublication": null,
+        "dateFin": null,
+        "preseance": "8",
+        "nominPrincipale": "0",
+        "infosQualite": {
+          "codeQualite": "Membre apparenté",
+          "libQualite": "Membre apparenté",
+          "libQualiteSex": "Apparentée au"
+        },
+        "organes": {
+          "organeRef": "PO286005"
+        }
+      },
+      {
+        "@xsi:type": "MandatParlementaire_type",
+        "uid": "PM778928",
+        "acteurRef": "PA778908",
+        "legislature": null,
+        "typeOrgane": "SENAT",
+        "dateDebut": "2020-12-04",
+        "datePublication": null,
+        "dateFin": null,
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Sénateur",
+          "libQualite": "SENATEUR",
+          "libQualiteSex": "Sénateur 5ème République"
+        },
+        "organes": {
+          "organeRef": "PO78718"
+        },
+        "suppleants": null,
+        "chambre": null,
+        "election": {
+          "lieu": {
+            "region": null,
+            "regionType": null,
+            "departement": null,
+            "numDepartement": "50",
+            "numCirco": null
+          },
+          "causeMandat": null
+        },
+        "mandature": {
+          "datePriseFonction": null,
+          "causeFin": null,
+          "premiereElection": "0",
+          "placeHemicycle": null,
+          "mandatRemplaceRef": null
+        },
+        "collaborateurs": null
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM783958",
+        "acteurRef": "PA778908",
+        "legislature": null,
+        "typeOrgane": "CMP",
+        "dateDebut": "2021-06-24",
+        "datePublication": "2021-06-26",
+        "dateFin": "2021-09-29",
+        "preseance": "28",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Suppléant",
+          "libQualite": "Membre suppléant",
+          "libQualiteSex": "Membre suppléante"
+        },
+        "organes": {
+          "organeRef": "PO783905"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM783937",
+        "acteurRef": "PA778908",
+        "legislature": null,
+        "typeOrgane": "CMP",
+        "dateDebut": "2021-06-24",
+        "datePublication": "2021-06-26",
+        "dateFin": "2021-09-29",
+        "preseance": "28",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Suppléant",
+          "libQualite": "Membre suppléant",
+          "libQualiteSex": "Membre suppléante"
+        },
+        "organes": {
+          "organeRef": "PO783898"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM825230",
+        "acteurRef": "PA778908",
+        "legislature": null,
+        "typeOrgane": "CMP",
+        "dateDebut": "2023-06-14",
+        "datePublication": "2023-06-16",
+        "dateFin": "2023-06-29",
+        "preseance": "28",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Suppléant",
+          "libQualite": "Membre suppléant",
+          "libQualiteSex": "Membre suppléante"
+        },
+        "organes": {
+          "organeRef": "PO824749"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM789226",
+        "acteurRef": "PA778908",
+        "legislature": null,
+        "typeOrgane": "CMP",
+        "dateDebut": "2022-01-20",
+        "datePublication": "2022-01-26",
+        "dateFin": "2022-02-24",
+        "preseance": "28",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Suppléant",
+          "libQualite": "Membre suppléant",
+          "libQualiteSex": "Membre suppléante"
+        },
+        "organes": {
+          "organeRef": "PO789115"
+        }
+      }
+    ]
+  }
+}

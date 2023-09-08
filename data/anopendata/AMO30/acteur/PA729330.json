@@ -1,0 +1,89 @@
+{
+  "uid": {
+    "@xsi:type": "IdActeur_type",
+    "#text": "PA729330"
+  },
+  "etatCivil": {
+    "ident": {
+      "civ": "Mme",
+      "prenom": "Nathalie",
+      "nom": "Loiseau",
+      "alpha": "Loiseau",
+      "trigramme": {
+        "@xsi:nil": "true"
+      }
+    },
+    "infoNaissance": {
+      "dateNais": "1964-06-01",
+      "villeNais": "Neuilly-sur-Seine",
+      "depNais": "Hauts-de-Seine",
+      "paysNais": "France"
+    },
+    "dateDeces": {
+      "@xsi:nil": "true"
+    }
+  },
+  "profession": {
+    "libelleCourant": {
+      "@xsi:nil": "true"
+    },
+    "socProcINSEE": {
+      "catSocPro": {
+        "@xsi:nil": "true"
+      },
+      "famSocPro": {
+        "@xsi:nil": "true"
+      }
+    }
+  },
+  "uri_hatvp": {
+    "@xsi:nil": "true"
+  },
+  "adresses": {
+    "@xsi:nil": "true"
+  },
+  "mandats": {
+    "mandat": [
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM15730072",
+        "acteurRef": "PA729330",
+        "legislature": null,
+        "typeOrgane": "GOUVERNEMENT",
+        "dateDebut": "2017-06-22",
+        "datePublication": "2017-06-22",
+        "dateFin": "2019-03-27",
+        "preseance": "50",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "membre",
+          "libQualite": "membre",
+          "libQualiteSex": "membre"
+        },
+        "organes": {
+          "organeRef": "PO725688"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM730072",
+        "acteurRef": "PA729330",
+        "legislature": null,
+        "typeOrgane": "MINISTERE",
+        "dateDebut": "2017-06-22",
+        "datePublication": "2017-06-22",
+        "dateFin": "2019-03-27",
+        "preseance": "30",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Ministre",
+          "libQualite": "Ministre",
+          "libQualiteSex": "Ministre"
+        },
+        "organes": {
+          "organeRef": "PO730019"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,392 @@
+{
+  "uid": {
+    "@xsi:type": "IdActeur_type",
+    "#text": "PA720516"
+  },
+  "etatCivil": {
+    "ident": {
+      "civ": "Mme",
+      "prenom": "Florence",
+      "nom": "Morlighem",
+      "alpha": "Morlighem",
+      "trigramme": {
+        "@xsi:nil": "true"
+      }
+    },
+    "infoNaissance": {
+      "dateNais": "1970-04-10",
+      "villeNais": "Roubaix",
+      "depNais": "Nord",
+      "paysNais": "France"
+    },
+    "dateDeces": {
+      "@xsi:nil": "true"
+    }
+  },
+  "profession": {
+    "libelleCourant": "Gestionnaire de copropriété",
+    "socProcINSEE": {
+      "catSocPro": "Cadres d'entreprise",
+      "famSocPro": "Cadres et professions intellectuelles supérieures"
+    }
+  },
+  "uri_hatvp": {
+    "@xsi:nil": "true"
+  },
+  "adresses": {
+    "adresse": [
+      {
+        "@xsi:type": "AdressePostale_Type",
+        "uid": "AD720518",
+        "type": "0",
+        "typeLibelle": "Adresse officielle",
+        "poids": "1",
+        "adresseDeRattachement": null,
+        "intitule": "Assemblée nationale,",
+        "numeroRue": "126",
+        "nomRue": "Rue de l'Université,",
+        "complementAdresse": null,
+        "codePostal": "75355",
+        "ville": "Paris 07 SP"
+      },
+      {
+        "@xsi:type": "AdressePostale_Type",
+        "uid": "AD769330",
+        "type": "2",
+        "typeLibelle": "Adresse publiée de circonscription",
+        "poids": "2",
+        "adresseDeRattachement": null,
+        "intitule": "Permanence parlementaire",
+        "numeroRue": "20 Bis",
+        "nomRue": "Place du Maréchal Leclerc",
+        "complementAdresse": null,
+        "codePostal": "59000",
+        "ville": "Lille"
+      },
+      {
+        "@xsi:type": "AdresseMail_Type",
+        "uid": "AD769351",
+        "type": "15",
+        "typeLibelle": "Mèl",
+        "poids": null,
+        "adresseDeRattachement": null,
+        "valElec": "florence.morlighem@assemblee-nationale.fr"
+      },
+      {
+        "@xsi:type": "AdresseTelephonique_Type",
+        "uid": "AD782244",
+        "type": "11",
+        "typeLibelle": "Téléphone",
+        "poids": "2",
+        "adresseDeRattachement": "AD769330",
+        "valElec": "03 20 00 44 80"
+      },
+      {
+        "@xsi:type": "AdresseSiteWeb_Type",
+        "uid": "AD782246",
+        "type": "25",
+        "typeLibelle": "Facebook",
+        "poids": null,
+        "adresseDeRattachement": null,
+        "valElec": "FLMorlighem"
+      },
+      {
+        "@xsi:type": "AdresseSiteWeb_Type",
+        "uid": "AD782248",
+        "type": "24",
+        "typeLibelle": "Twitter",
+        "poids": null,
+        "adresseDeRattachement": null,
+        "valElec": "@FMorlighem"
+      }
+    ]
+  },
+  "mandats": {
+    "mandat": [
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM780324",
+        "acteurRef": "PA720516",
+        "legislature": null,
+        "typeOrgane": "PARPOL",
+        "dateDebut": "2020-12-01",
+        "datePublication": null,
+        "dateFin": "2022-06-21",
+        "preseance": "5",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO761294"
+        }
+      },
+      {
+        "@xsi:type": "MandatMission_Type",
+        "uid": "PM776535",
+        "acteurRef": "PA720516",
+        "legislature": "15",
+        "typeOrgane": "MISINFO",
+        "dateDebut": "2020-10-28",
+        "datePublication": null,
+        "dateFin": "2021-05-19",
+        "preseance": "10",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO776524"
+        },
+        "libelle": null,
+        "missionSuivanteRef": null,
+        "missionPrecedenteRef": null
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM786968",
+        "acteurRef": "PA720516",
+        "legislature": "15",
+        "typeOrgane": "CNPE",
+        "dateDebut": "2021-11-02",
+        "datePublication": "2021-11-04",
+        "dateFin": "2022-01-06",
+        "preseance": "16",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Rapporteur",
+          "libQualite": "Rapporteur",
+          "libQualiteSex": "Rapporteure"
+        },
+        "organes": {
+          "organeRef": "PO784280"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM784704",
+        "acteurRef": "PA720516",
+        "legislature": "15",
+        "typeOrgane": "CNPE",
+        "dateDebut": "2021-07-13",
+        "datePublication": "2021-07-14",
+        "dateFin": "2022-01-06",
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO784280"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM787398",
+        "acteurRef": "PA720516",
+        "legislature": "15",
+        "typeOrgane": "COMPER",
+        "dateDebut": "2021-11-16",
+        "datePublication": "2021-11-16",
+        "dateFin": "2021-11-17",
+        "preseance": "32",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO59047"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM787493",
+        "acteurRef": "PA720516",
+        "legislature": "15",
+        "typeOrgane": "COMPER",
+        "dateDebut": "2021-11-18",
+        "datePublication": "2021-11-18",
+        "dateFin": "2022-06-20",
+        "preseance": "32",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO59046"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM787177",
+        "acteurRef": "PA720516",
+        "legislature": "15",
+        "typeOrgane": "COMPER",
+        "dateDebut": "2021-11-09",
+        "datePublication": "2021-11-09",
+        "dateFin": "2021-11-10",
+        "preseance": "32",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO59048"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM787254",
+        "acteurRef": "PA720516",
+        "legislature": "15",
+        "typeOrgane": "COMPER",
+        "dateDebut": "2021-11-11",
+        "datePublication": "2021-11-11",
+        "dateFin": "2021-11-15",
+        "preseance": "32",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO59046"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM769332",
+        "acteurRef": "PA720516",
+        "legislature": "15",
+        "typeOrgane": "COMPER",
+        "dateDebut": "2020-01-21",
+        "datePublication": "2020-01-21",
+        "dateFin": "2021-11-08",
+        "preseance": "32",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO59046"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM784935",
+        "acteurRef": "PA720516",
+        "legislature": "15",
+        "typeOrgane": "CNPE",
+        "dateDebut": "2021-07-22",
+        "datePublication": "2021-07-23",
+        "dateFin": "2021-11-04",
+        "preseance": "8",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Vice-Président",
+          "libQualite": "Vice-Président",
+          "libQualiteSex": "Vice-Présidente"
+        },
+        "organes": {
+          "organeRef": "PO784280"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM769313",
+        "acteurRef": "PA720516",
+        "legislature": "15",
+        "typeOrgane": "GP",
+        "dateDebut": "2020-01-18",
+        "datePublication": "2020-01-19",
+        "dateFin": "2022-06-20",
+        "preseance": "24",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre apparenté",
+          "libQualite": "Apparenté au",
+          "libQualiteSex": "Apparentée au"
+        },
+        "organes": {
+          "organeRef": "PO730964"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM770608",
+        "acteurRef": "PA720516",
+        "legislature": "15",
+        "typeOrgane": "GA",
+        "dateDebut": "2020-02-26",
+        "datePublication": null,
+        "dateFin": "2022-06-20",
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO733352"
+        }
+      },
+      {
+        "@xsi:type": "MandatParlementaire_type",
+        "uid": "PM769311",
+        "acteurRef": "PA720516",
+        "legislature": "15",
+        "typeOrgane": "ASSEMBLEE",
+        "dateDebut": "2017-06-18",
+        "datePublication": null,
+        "dateFin": "2022-06-20",
+        "preseance": "50",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "membre",
+          "libQualite": "membre",
+          "libQualiteSex": "membre"
+        },
+        "organes": {
+          "organeRef": "PO717460"
+        },
+        "suppleants": null,
+        "chambre": null,
+        "election": {
+          "lieu": {
+            "region": "Hauts-de-France",
+            "regionType": "Métropolitain",
+            "departement": "Nord",
+            "numDepartement": "59",
+            "numCirco": "11"
+          },
+          "causeMandat": "remplacement d'un député nommé au Gouvernement",
+          "refCirconscription": "PO718020"
+        },
+        "mandature": {
+          "datePriseFonction": "2020-01-18",
+          "causeFin": "Reprise de l'exercice du mandat d'un ancien membre du Gouvernement",
+          "premiereElection": "0",
+          "placeHemicycle": null,
+          "mandatRemplaceRef": null
+        },
+        "collaborateurs": null
+      }
+    ]
+  }
+}

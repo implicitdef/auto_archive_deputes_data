@@ -1,0 +1,95 @@
+{
+  "uid": {
+    "@xsi:type": "IdActeur_type",
+    "#text": "PA312976"
+  },
+  "etatCivil": {
+    "ident": {
+      "civ": "Mme",
+      "prenom": "Catherine",
+      "nom": "Colonna",
+      "alpha": "Colonna",
+      "trigramme": {
+        "@xsi:nil": "true"
+      }
+    },
+    "infoNaissance": {
+      "dateNais": "1956-04-16",
+      "villeNais": {
+        "@xsi:nil": "true"
+      },
+      "depNais": {
+        "@xsi:nil": "true"
+      },
+      "paysNais": {
+        "@xsi:nil": "true"
+      }
+    },
+    "dateDeces": {
+      "@xsi:nil": "true"
+    }
+  },
+  "profession": {
+    "libelleCourant": {
+      "@xsi:nil": "true"
+    },
+    "socProcINSEE": {
+      "catSocPro": {
+        "@xsi:nil": "true"
+      },
+      "famSocPro": {
+        "@xsi:nil": "true"
+      }
+    }
+  },
+  "uri_hatvp": {
+    "@xsi:nil": "true"
+  },
+  "adresses": {
+    "@xsi:nil": "true"
+  },
+  "mandats": {
+    "mandat": [
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM15791676",
+        "acteurRef": "PA312976",
+        "legislature": null,
+        "typeOrgane": "GOUVERNEMENT",
+        "dateDebut": "2022-05-21",
+        "datePublication": "2022-05-21",
+        "dateFin": null,
+        "preseance": "50",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "membre",
+          "libQualite": "membre",
+          "libQualiteSex": "membre"
+        },
+        "organes": {
+          "organeRef": "PO791579"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM791676",
+        "acteurRef": "PA312976",
+        "legislature": null,
+        "typeOrgane": "MINISTERE",
+        "dateDebut": "2022-05-21",
+        "datePublication": "2022-05-21",
+        "dateFin": null,
+        "preseance": "30",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Ministre",
+          "libQualite": "Ministre",
+          "libQualiteSex": "Ministre"
+        },
+        "organes": {
+          "organeRef": "PO791595"
+        }
+      }
+    ]
+  }
+}

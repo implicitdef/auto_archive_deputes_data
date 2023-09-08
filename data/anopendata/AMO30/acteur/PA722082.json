@@ -1,0 +1,364 @@
+{
+  "uid": {
+    "@xsi:type": "IdActeur_type",
+    "#text": "PA722082"
+  },
+  "etatCivil": {
+    "ident": {
+      "civ": "Mme",
+      "prenom": "Françoise",
+      "nom": "Ballet-Blu",
+      "alpha": "Ballet-Blu",
+      "trigramme": {
+        "@xsi:nil": "true"
+      }
+    },
+    "infoNaissance": {
+      "dateNais": "1964-03-09",
+      "villeNais": "Annemasse",
+      "depNais": "Haute-Savoie",
+      "paysNais": "France"
+    },
+    "dateDeces": {
+      "@xsi:nil": "true"
+    }
+  },
+  "profession": {
+    "libelleCourant": "Chef d'entreprise",
+    "socProcINSEE": {
+      "catSocPro": "Artisans",
+      "famSocPro": "Artisans, commerçants et chefs d'entreprise"
+    }
+  },
+  "uri_hatvp": {
+    "@xsi:nil": "true"
+  },
+  "adresses": {
+    "adresse": [
+      {
+        "@xsi:type": "AdressePostale_Type",
+        "uid": "AD722084",
+        "type": "0",
+        "typeLibelle": "Adresse officielle",
+        "poids": "1",
+        "adresseDeRattachement": null,
+        "intitule": "Assemblée nationale,",
+        "numeroRue": "126",
+        "nomRue": "Rue de l'Université,",
+        "complementAdresse": null,
+        "codePostal": "75355",
+        "ville": "Paris 07 SP"
+      },
+      {
+        "@xsi:type": "AdresseMail_Type",
+        "uid": "AD774550",
+        "type": "15",
+        "typeLibelle": "Mèl",
+        "poids": null,
+        "adresseDeRattachement": null,
+        "valElec": "francoise.ballet-blu@assemblee-nationale.fr"
+      },
+      {
+        "@xsi:type": "AdressePostale_Type",
+        "uid": "AD774552",
+        "type": "2",
+        "typeLibelle": "Adresse publiée de circonscription",
+        "poids": "2",
+        "adresseDeRattachement": null,
+        "intitule": "Permanence parlementaire",
+        "numeroRue": "4",
+        "nomRue": "Allée du Nivernais",
+        "complementAdresse": null,
+        "codePostal": "86000",
+        "ville": "Poitiers"
+      },
+      {
+        "@xsi:type": "AdresseTelephonique_Type",
+        "uid": "AD774554",
+        "type": "11",
+        "typeLibelle": "Téléphone",
+        "poids": "2",
+        "adresseDeRattachement": "AD774552",
+        "valElec": "05.49.03.61.20"
+      },
+      {
+        "@xsi:type": "AdresseTelephonique_Type",
+        "uid": "AD774556",
+        "type": "11",
+        "typeLibelle": "Téléphone",
+        "poids": "2",
+        "adresseDeRattachement": "AD774552",
+        "valElec": "06.40.60.46.21"
+      },
+      {
+        "@xsi:type": "AdresseMail_Type",
+        "uid": "AD774558",
+        "type": "15",
+        "typeLibelle": "Mèl",
+        "poids": null,
+        "adresseDeRattachement": null,
+        "valElec": "deputee@fballetblu.fr"
+      },
+      {
+        "@xsi:type": "AdresseMail_Type",
+        "uid": "AD774560",
+        "type": "15",
+        "typeLibelle": "Mèl",
+        "poids": null,
+        "adresseDeRattachement": null,
+        "valElec": "contact@fballetblu.fr"
+      }
+    ]
+  },
+  "mandats": {
+    "mandat": [
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM780334",
+        "acteurRef": "PA722082",
+        "legislature": null,
+        "typeOrgane": "PARPOL",
+        "dateDebut": "2020-12-01",
+        "datePublication": null,
+        "dateFin": "2022-06-21",
+        "preseance": "5",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO761294"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM787044",
+        "acteurRef": "PA722082",
+        "legislature": "15",
+        "typeOrgane": "CNPS",
+        "dateDebut": "2021-11-04",
+        "datePublication": "2021-11-04",
+        "dateFin": "2022-02-14",
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO786857"
+        }
+      },
+      {
+        "@xsi:type": "MandatMission_Type",
+        "uid": "PM776565",
+        "acteurRef": "PA722082",
+        "legislature": "15",
+        "typeOrgane": "MISINFO",
+        "dateDebut": "2020-10-28",
+        "datePublication": "2020-10-28",
+        "dateFin": "2021-02-17",
+        "preseance": "10",
+        "nominPrincipale": "0",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO776538"
+        },
+        "libelle": null,
+        "missionSuivanteRef": null,
+        "missionPrecedenteRef": null
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM784869",
+        "acteurRef": "PA722082",
+        "legislature": "15",
+        "typeOrgane": "CNPE",
+        "dateDebut": "2021-07-20",
+        "datePublication": "2021-07-21",
+        "dateFin": "2022-01-12",
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO784682"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM774473",
+        "acteurRef": "PA722082",
+        "legislature": "15",
+        "typeOrgane": "GP",
+        "dateDebut": "2020-08-25",
+        "datePublication": null,
+        "dateFin": "2022-06-21",
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre du",
+          "libQualiteSex": "Membre du"
+        },
+        "organes": {
+          "organeRef": "PO730964"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM774733",
+        "acteurRef": "PA722082",
+        "legislature": "15",
+        "typeOrgane": "COMPER",
+        "dateDebut": "2020-09-15",
+        "datePublication": "2020-09-15",
+        "dateFin": "2022-06-21",
+        "preseance": "32",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO59046"
+        }
+      },
+      {
+        "@xsi:type": "MandatMission_Type",
+        "uid": "PM781392",
+        "acteurRef": "PA722082",
+        "legislature": "15",
+        "typeOrgane": "MISINFO",
+        "dateDebut": "2020-10-28",
+        "datePublication": null,
+        "dateFin": "2021-02-17",
+        "preseance": "5",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Co-rapporteur",
+          "libQualite": "Co-rapporteur",
+          "libQualiteSex": "Co-rapporteure"
+        },
+        "organes": {
+          "organeRef": "PO776538"
+        },
+        "libelle": null,
+        "missionSuivanteRef": null,
+        "missionPrecedenteRef": null
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM784925",
+        "acteurRef": "PA722082",
+        "legislature": "15",
+        "typeOrgane": "CNPE",
+        "dateDebut": "2021-07-21",
+        "datePublication": "2021-07-22",
+        "dateFin": "2022-01-12",
+        "preseance": "14",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Secrétaire",
+          "libQualite": "Secrétaire",
+          "libQualiteSex": "Secrétaire"
+        },
+        "organes": {
+          "organeRef": "PO784682"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM778266",
+        "acteurRef": "PA722082",
+        "legislature": "15",
+        "typeOrgane": "API",
+        "dateDebut": "2020-11-05",
+        "datePublication": null,
+        "dateFin": "2022-06-21",
+        "preseance": "44",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Suppléant",
+          "libQualite": "Membre suppléant",
+          "libQualiteSex": "Membre suppléante"
+        },
+        "organes": {
+          "organeRef": "PO58974"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM789261",
+        "acteurRef": "PA722082",
+        "legislature": "15",
+        "typeOrgane": "CMP",
+        "dateDebut": "2022-01-26",
+        "datePublication": "2022-01-27",
+        "dateFin": "2022-02-15",
+        "preseance": "28",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Suppléant",
+          "libQualite": "Membre suppléant",
+          "libQualiteSex": "Membre suppléante"
+        },
+        "organes": {
+          "organeRef": "PO789233"
+        }
+      },
+      {
+        "@xsi:type": "MandatParlementaire_type",
+        "uid": "PM774472",
+        "acteurRef": "PA722082",
+        "legislature": "15",
+        "typeOrgane": "ASSEMBLEE",
+        "dateDebut": "2017-06-18",
+        "datePublication": null,
+        "dateFin": "2022-06-21",
+        "preseance": "50",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "membre",
+          "libQualite": "membre",
+          "libQualiteSex": "membre"
+        },
+        "organes": {
+          "organeRef": "PO717460"
+        },
+        "suppleants": null,
+        "chambre": null,
+        "election": {
+          "lieu": {
+            "region": "Nouvelle-Aquitaine",
+            "regionType": "Métropolitain",
+            "departement": "Vienne",
+            "numDepartement": "86",
+            "numCirco": "1"
+          },
+          "causeMandat": "remplacement d'un député en mission au-delà de 6 mois",
+          "refCirconscription": "PO718380"
+        },
+        "mandature": {
+          "datePriseFonction": "2020-08-25",
+          "causeFin": "Fin de législature",
+          "premiereElection": "0",
+          "placeHemicycle": null,
+          "mandatRemplaceRef": null
+        },
+        "collaborateurs": null
+      }
+    ]
+  }
+}

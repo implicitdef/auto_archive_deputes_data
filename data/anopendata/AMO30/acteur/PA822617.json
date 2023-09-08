@@ -1,0 +1,203 @@
+{
+  "uid": {
+    "@xsi:type": "IdActeur_type",
+    "#text": "PA822617"
+  },
+  "etatCivil": {
+    "ident": {
+      "civ": "Mme",
+      "prenom": "Martine",
+      "nom": "Froger",
+      "alpha": "Froger",
+      "trigramme": "FRG"
+    },
+    "infoNaissance": {
+      "dateNais": "1961-06-11",
+      "villeNais": "Blois",
+      "depNais": "Loir-et-Cher",
+      "paysNais": "France"
+    },
+    "dateDeces": {
+      "@xsi:nil": "true"
+    }
+  },
+  "profession": {
+    "libelleCourant": "Chef d'entreprise",
+    "socProcINSEE": {
+      "catSocPro": "Cadres d'entreprise",
+      "famSocPro": "Cadres et professions intellectuelles supérieures"
+    }
+  },
+  "uri_hatvp": "https://www.hatvp.fr/pages_nominatives/froger-martine-25400",
+  "adresses": {
+    "adresse": [
+      {
+        "@xsi:type": "AdresseMail_Type",
+        "uid": "AD822854",
+        "type": "15",
+        "typeLibelle": "Mèl",
+        "poids": null,
+        "adresseDeRattachement": null,
+        "valElec": "martine.froger@assemblee-nationale.fr"
+      },
+      {
+        "@xsi:type": "AdressePostale_Type",
+        "uid": "AD823120",
+        "type": "0",
+        "typeLibelle": "Adresse officielle",
+        "poids": "1",
+        "adresseDeRattachement": null,
+        "intitule": "Assemblée nationale",
+        "numeroRue": "126",
+        "nomRue": "Rue de l'Université,",
+        "complementAdresse": null,
+        "codePostal": "75355",
+        "ville": "Paris 07 SP"
+      },
+      {
+        "@xsi:type": "AdresseSiteWeb_Type",
+        "uid": "AD823762",
+        "type": "24",
+        "typeLibelle": "Twitter",
+        "poids": null,
+        "adresseDeRattachement": null,
+        "valElec": "MartineFrogerAN"
+      }
+    ]
+  },
+  "mandats": {
+    "mandat": [
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM823655",
+        "acteurRef": "PA822617",
+        "legislature": "16",
+        "typeOrgane": "GP",
+        "dateDebut": "2023-05-09",
+        "datePublication": "2023-05-10",
+        "dateFin": null,
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre du",
+          "libQualiteSex": "Membre du"
+        },
+        "organes": {
+          "organeRef": "PO800532"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM822861",
+        "acteurRef": "PA822617",
+        "legislature": "16",
+        "typeOrgane": "COMPER",
+        "dateDebut": "2023-04-12",
+        "datePublication": "2023-04-12",
+        "dateFin": null,
+        "preseance": "32",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO419604"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM822622",
+        "acteurRef": "PA822617",
+        "legislature": "16",
+        "typeOrgane": "GP",
+        "dateDebut": "2023-04-03",
+        "datePublication": null,
+        "dateFin": "2023-05-08",
+        "preseance": "28",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Député non-inscrit",
+          "libQualite": "Député non-inscrit",
+          "libQualiteSex": "Députée non-inscrite"
+        },
+        "organes": {
+          "organeRef": "PO793087"
+        }
+      },
+      {
+        "@xsi:type": "MandatParlementaire_type",
+        "uid": "PM822619",
+        "acteurRef": "PA822617",
+        "legislature": "16",
+        "typeOrgane": "ASSEMBLEE",
+        "dateDebut": "2023-04-02",
+        "datePublication": "2023-04-02",
+        "dateFin": null,
+        "preseance": "50",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "membre",
+          "libQualite": "membre",
+          "libQualiteSex": "membre"
+        },
+        "organes": {
+          "organeRef": "PO791932"
+        },
+        "suppleants": {
+          "suppleant": {
+            "dateDebut": "2023-04-02",
+            "dateFin": null,
+            "suppleantRef": "PA822621"
+          }
+        },
+        "chambre": null,
+        "election": {
+          "lieu": {
+            "region": "Occitanie",
+            "regionType": "Métropolitain",
+            "departement": "Ariège",
+            "numDepartement": "09",
+            "numCirco": "1"
+          },
+          "causeMandat": "élection partielle, suite à l'annulation de l'élection d'un député",
+          "refCirconscription": "PO792760"
+        },
+        "mandature": {
+          "datePriseFonction": "2023-04-02",
+          "causeFin": null,
+          "premiereElection": "0",
+          "placeHemicycle": "219",
+          "mandatRemplaceRef": null
+        },
+        "collaborateurs": {
+          "collaborateur": [
+            {
+              "qualite": "M.",
+              "prenom": "Christophe",
+              "nom": "Avenard",
+              "dateDebut": null,
+              "dateFin": null
+            },
+            {
+              "qualite": "Mme",
+              "prenom": "Sandra",
+              "nom": "El Ouarghi",
+              "dateDebut": null,
+              "dateFin": null
+            },
+            {
+              "qualite": "Mme",
+              "prenom": "Mylène",
+              "nom": "Facchetti",
+              "dateDebut": null,
+              "dateFin": null
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

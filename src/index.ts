@@ -9,8 +9,10 @@ import {
 } from './nosdeputesFetch'
 import { fetchWikipediaContents } from './wikipedia/fetchWikipediaContents'
 import { updateWikipediaAffaires } from './wikipedia/updateWikipediaAffaires'
+import { fetchAnOpenData } from './anopendata/fetchAnOpenData'
 
 type Command =
+  | 'update_an_open_data'
   | 'update_nosdeputes_basic_data'
   | 'update_nosdeputes_weekly_stats'
   | 'fetch_photos'
@@ -24,6 +26,9 @@ const MINISTERE_INTERIEUR_ENABLED = false
 async function start() {
   console.log('Running script with arguments', process.argv.slice(2))
   switch (readCommandArgument()) {
+    case 'update_an_open_data':
+      await fetchAnOpenData()
+      break
     case 'update_nosdeputes_basic_data':
       await nosdeputesFetchBasicData(readLegislatureArgument())
       break
@@ -67,6 +72,9 @@ function readLegislatureArgument(): LegislatureArg {
 
 function readCommandArgument(): Command {
   const args = process.argv.slice(2)
+  if (args.includes('update_an_open_data')) {
+    return 'update_an_open_data'
+  }
   if (args.includes('update_nosdeputes_basic_data')) {
     return 'update_nosdeputes_basic_data'
   }

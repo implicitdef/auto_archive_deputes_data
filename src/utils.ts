@@ -2,6 +2,8 @@ import { execSync } from 'child_process'
 import fs from 'fs'
 import path from 'path'
 import JSON5 from 'json5'
+import fetch from 'node-fetch'
+import StreamZip from 'node-stream-zip'
 
 export const WORKDIR = 'tmp'
 export const LATEST_LEGISLATURE = 16
@@ -44,6 +46,13 @@ export function rmDirIfExists(dir: string) {
   }
 }
 
+export function rmFileIfExists(file: string) {
+  if (fs.existsSync(file)) {
+    console.log(`Cleaning file ${file}`)
+    fs.rmSync(file, { force: true })
+  }
+}
+
 export function mkDirIfNeeded(dir: string) {
   if (!fs.existsSync(dir)) {
     console.log(`Creating directory ${dir}`)
@@ -51,7 +60,7 @@ export function mkDirIfNeeded(dir: string) {
   }
 }
 
-export function writeToFile(filePath: string, content: string) {
+export function writeToFile(filePath: string, content: string | Buffer) {
   const directory = path.parse(filePath).dir
   // create the parents directories if needed
   fs.mkdirSync(directory, { recursive: true })
@@ -123,4 +132,80 @@ export function listFilesInFolder(dirPath: string): string[] {
       `The path ${dirPath} either does not exist or it is not a directory.`,
     )
   }
+}
+
+export function listFilesOrDirsInFolder(dirPath: string): string[] {
+  if (fs.existsSync(dirPath) && fs.lstatSync(dirPath).isDirectory()) {
+    return fs.readdirSync(dirPath).map(_ => path.join(dirPath, _))
+  } else {
+    throw new Error(
+      `The path ${dirPath} either does not exist or it is not a directory.`,
+    )
+  }
+}
+
+export async function downloadFile({
+  url,
+  targetPath,
+}: {
+  url: string
+  targetPath: string
+}) {
+  console.log('>>>', url)
+  const response = await fetch(url)
+  if (!response.ok) {
+    throw new Error(`Failed to fetch ${url}. Status: ${response.status}`)
+  }
+  const content = await response.buffer()
+  rmFileIfExists(targetPath)
+  writeToFile(targetPath, content)
+}
+
+export async function unzipIntoDir({
+  zipFile,
+  unzippedDirPath,
+}: {
+  zipFile: string
+  unzippedDirPath: string
+}) {
+  // Extract all of the zip contents to a directory
+  console.log(`Extracting to ${unzippedDirPath}`)
+  rmDirIfExists(unzippedDirPath)
+  fs.mkdirSync(unzippedDirPath)
+  const streamZip = new StreamZip.async({ file: zipFile })
+  const extractedEntries = await streamZip.extract(null, unzippedDirPath)
+  console.log(`Extracted ${extractedEntries} entries into ${unzippedDirPath}`)
+  await streamZip.close()
+}
+
+export function move({
+  currentPath,
+  newPath,
+}: {
+  currentPath: string
+  newPath: string
+}) {
+  mkDirIfNeeded(path.dirname(newPath))
+  fs.renameSync(currentPath, newPath)
+}
+
+// Give an folder A that contains only one folder B (and no files),
+// this function hoist all the contents (files or folders of B) directly into A
+// and then remove B.
+export function unnestDirContents(folderA: string): void {
+  const subFiles = listFilesOrDirsInFolder(folderA)
+  if (subFiles.length !== 1) {
+    throw new Error(`${folderA} contains ${subFiles.length} elements`)
+  }
+  const folderBPath = subFiles[0]
+  if (!fs.statSync(folderBPath).isDirectory()) {
+    throw new Error(`${folderBPath} is not a directory!`)
+  }
+  const contentsOfB = listFilesOrDirsInFolder(folderBPath)
+  for (const itemPath of contentsOfB) {
+    const fileName = path.basename(itemPath)
+    const newPath = path.join(folderA, fileName)
+    move({ currentPath: itemPath, newPath })
+  }
+  rmDirIfExists(folderBPath)
 }

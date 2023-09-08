@@ -18,6 +18,7 @@ type MinimalDepute = {
 
 export async function fetchPhotos(legislatureArg: LegislatureArg) {
   tricoteusesClone()
+
   const deputes = readAllDeputesAndMap(getUidAndLastLegislature).filter(_ => {
     if (legislatureArg === 'only_latest') {
       return _.latestLegislature === LATEST_LEGISLATURE

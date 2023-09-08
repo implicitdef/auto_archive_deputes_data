@@ -5,7 +5,7 @@ import { readFileAsJson, readFilesInSubdir, WORKDIR } from '../utils'
 function readOrganesAndFilter<Subtype extends OrganeJson>(
   filterFunction: (o: OrganeJson) => o is Subtype,
 ): Subtype[] {
-  const dir = path.join(WORKDIR, 'tricoteuses', AM030, 'organes')
+  const dir = path.join(WORKDIR, 'anOpenData', 'json', 'organes')
   const filenames = readFilesInSubdir(dir)
   const res = filenames.flatMap(filename => {
     const organeJson = readFileAsJson(path.join(dir, filename)) as OrganeJson
@@ -32,7 +32,7 @@ export function readAllComPerm(): OrganeComPerm[] {
 export function readAllDeputesAndMap<A>(
   mapFunction: (depute: ActeurJson, legislatures: number[]) => A,
 ): A[] {
-  const dir = path.join(WORKDIR, 'tricoteuses', AM030, 'acteurs')
+  const dir = path.join(WORKDIR, 'anOpenData', 'json', 'acteurs')
   const filenames = readFilesInSubdir(dir)
   const res: A[] = []
   filenames.flatMap(filename => {
