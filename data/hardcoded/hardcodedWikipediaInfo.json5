@@ -1,0 +1,25 @@
+{
+  hardcodedDeputesUrls: {
+    // on gère cette homonyme manuellement
+    PA793342: 'https://fr.wikipedia.org/wiki/Alexandra_Martin_(1968)',
+    PA793944: 'https://fr.wikipedia.org/wiki/Alexandra_Martin_(1976)',
+  },
+
+  // Ces députés n'ont pas de page Wikipédia
+  // Typiquement ce sont des gens qui ont été techniquement députés pendant quelques heures seulement
+  //
+  // Notre script va rechercher les pages des députés en permanence
+  // Il va lever une erreur (échouer) s'il ne trouve pas une page wikipedia pour un député
+  // SAUF pour les députés qui sont dans cette liste
+  deputesWithoutWikipediaPage: [
+    'Louis Mussington',
+    'Jean Deguerry',
+    'Ghylaine Jeanne',
+    'Margaux Pech',
+    'Damien Derelle',
+    'Emmanuelle Ajon',
+    'Joëlle Borowski',
+    'Audrey Marie',
+    'Patrice Francois',
+  ],
+}

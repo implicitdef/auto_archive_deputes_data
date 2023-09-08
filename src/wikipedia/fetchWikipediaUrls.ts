@@ -3,6 +3,7 @@ import slugify from 'slugify'
 import { fetchWithRetry } from '../fetchWithRetry'
 import {
   readAliases,
+  readHardcodedDeputesUrls,
   readKnownDeputesWithoutWikipediaPage,
 } from '../readHardcodedData'
 import { readAllDeputesAndMap } from '../tricoteuses/readFromTricoteuses'
@@ -49,7 +50,7 @@ export async function fetchWikipediaUrls(): Promise<void> {
   const foundWikipediaUrls: FoundWikipediaUrls = successes.map(_ => ({
     id_an: _.id_an,
     name: _.name,
-    url: _.link.url,
+    url: _.wikipedia_link,
   }))
   console.log(`Writing to ${WIKIPEDIA_URLS_JSON_FILE}`)
   writeToFile(
@@ -69,20 +70,29 @@ async function mainProcess() {
     return { name: `${prenom} ${nom}`, id_an: d.uid }
   })
   const linksFoundInWikipedia = await readLinksForAllLegislatures()
+  console.log('Finished fetching Wikipedia')
   const namesWithoutWikipedia =
     readKnownDeputesWithoutWikipediaPage().flatMap(getAllAliases)
-  console.log('Finished fetching Wikipedia')
+  const hardcodedDeputesUrls = readHardcodedDeputesUrls()
   const results: ResultForDepute[] = deputes.map(({ name, id_an }) => {
+    const commonData = { id_an, name }
     const allPossibleSlugs = getAllAliases(name).map(makeSlug)
+    const hardcodedUrl = hardcodedDeputesUrls[id_an] ?? undefined
+    if (hardcodedUrl) {
+      return {
+        kind: 'found',
+        ...commonData,
+        wikipedia_link: hardcodedUrl,
+      }
+    }
     const link = linksFoundInWikipedia.find(_ =>
       allPossibleSlugs.includes(_.labelSlug),
     )
-    const commonData = { id_an, name }
     if (link) {
       return {
         kind: 'found',
         ...commonData,
-        link,
+        wikipedia_link: link.url,
       }
     }
     if (namesWithoutWikipedia.includes(name)) {
@@ -105,7 +115,7 @@ type ResultForDepute = {
 } & (
   | {
       kind: 'found'
-      link: LinkInWikipedia
+      wikipedia_link: string
     }
   | {
       kind: 'not_found_as_expected'

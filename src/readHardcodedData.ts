@@ -9,11 +9,21 @@ export function readAliases() {
 }
 
 export function readKnownDeputesWithoutWikipediaPage() {
+  return readHardcodedWikipediaInfo().deputesWithoutWikipediaPage
+}
+export function readHardcodedDeputesUrls() {
+  return readHardcodedWikipediaInfo().hardcodedDeputesUrls
+}
+
+function readHardcodedWikipediaInfo() {
   const aliasesFile = path.join(
     DATA_DIR,
     'hardcoded',
-    'deputesWithoutWikipediaPage.json5',
+    'hardcodedWikipediaInfo.json5',
   )
-  const names = readFileAsJson5(aliasesFile)
-  return names as string[]
+  const json = readFileAsJson5(aliasesFile) as {
+    hardcodedDeputesUrls: { [anId: string]: string }
+    deputesWithoutWikipediaPage: string[]
+  }
+  return json
 }
