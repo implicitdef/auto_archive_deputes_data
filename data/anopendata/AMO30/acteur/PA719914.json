@@ -83,31 +83,26 @@
       },
       {
         "@xsi:type": "AdressePostale_Type",
-        "uid": "AD799225",
-        "type": "2",
-        "typeLibelle": "Adresse publiée de circonscription",
-        "poids": "22",
-        "adresseDeRattachement": null,
-        "intitule": null,
-        "numeroRue": "25",
-        "nomRue": "Place Saint Roch",
-        "complementAdresse": null,
-        "codePostal": "40000",
-        "ville": "Mont de marsan"
-      },
-      {
-        "@xsi:type": "AdressePostale_Type",
         "uid": "AD826949",
         "type": "2",
         "typeLibelle": "Adresse publiée de circonscription",
         "poids": "22",
         "adresseDeRattachement": null,
         "intitule": null,
-        "numeroRue": "25",
-        "nomRue": "Place Saint Roch",
-        "complementAdresse": null,
+        "numeroRue": "8",
+        "nomRue": "Rue Porte d'Aire",
+        "complementAdresse": "1er étage",
         "codePostal": "40000",
         "ville": "Mont de marsan"
+      },
+      {
+        "@xsi:type": "AdresseTelephonique_Type",
+        "uid": "AD827148",
+        "type": "11",
+        "typeLibelle": "Téléphone",
+        "poids": "22",
+        "adresseDeRattachement": "AD826949",
+        "valElec": "05.58.45.28.19"
       }
     ]
   },
