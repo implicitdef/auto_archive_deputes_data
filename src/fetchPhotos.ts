@@ -1,8 +1,7 @@
 import {
   ActeurJson,
   readAllDeputesAndMap,
-} from './tricoteuses/readFromTricoteuses'
-import { tricoteusesClone } from './tricoteuses/tricoteuses'
+} from './anopendata/readFromAnOpenData'
 import * as lo from 'lodash'
 import fs from 'fs'
 import fetch from 'node-fetch'
@@ -17,8 +16,6 @@ type MinimalDepute = {
 }
 
 export async function fetchPhotos(legislatureArg: LegislatureArg) {
-  tricoteusesClone()
-
   const deputes = readAllDeputesAndMap(getUidAndLastLegislature).filter(_ => {
     if (legislatureArg === 'only_latest') {
       return _.latestLegislature === LATEST_LEGISLATURE

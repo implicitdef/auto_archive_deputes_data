@@ -6,8 +6,7 @@ import {
   readHardcodedDeputesUrls,
   readKnownDeputesWithoutWikipediaPage,
 } from '../readHardcodedData'
-import { readAllDeputesAndMap } from '../tricoteuses/readFromTricoteuses'
-import { tricoteusesClone } from '../tricoteuses/tricoteuses'
+import { readAllDeputesAndMap } from '../anopendata/readFromAnOpenData'
 import { isNotNull, writeToFile } from '../utils'
 import path = require('path')
 import { DATA_DIR } from '../nosdeputesFetch'
@@ -64,7 +63,6 @@ async function mainProcess() {
   function getAllAliases(name: string): string[] {
     return aliases.find(_ => _.includes(name)) ?? [name]
   }
-  tricoteusesClone()
   const deputes = readAllDeputesAndMap(d => {
     const { nom, prenom } = d.etatCivil.ident
     return { name: `${prenom} ${nom}`, id_an: d.uid }

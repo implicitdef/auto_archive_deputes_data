@@ -1,11 +1,11 @@
 import path from 'path'
-import { AM030 } from './tricoteuses'
 import { readFileAsJson, readFilesInSubdir, WORKDIR } from '../utils'
+import { DATA_DIR } from '../nosdeputesFetch'
 
 function readOrganesAndFilter<Subtype extends OrganeJson>(
   filterFunction: (o: OrganeJson) => o is Subtype,
 ): Subtype[] {
-  const dir = path.join(WORKDIR, 'anOpenData', 'json', 'organes')
+  const dir = path.join(DATA_DIR, 'anopendata', 'AMO30', 'organe')
   const filenames = readFilesInSubdir(dir)
   const res = filenames.flatMap(filename => {
     const organeJson = readFileAsJson(path.join(dir, filename)) as OrganeJson
@@ -32,12 +32,13 @@ export function readAllComPerm(): OrganeComPerm[] {
 export function readAllDeputesAndMap<A>(
   mapFunction: (depute: ActeurJson, legislatures: number[]) => A,
 ): A[] {
-  const dir = path.join(WORKDIR, 'anOpenData', 'json', 'acteurs')
+  const dir = path.join(DATA_DIR, 'anopendata', 'AMO30', 'acteur')
   const filenames = readFilesInSubdir(dir)
   const res: A[] = []
   filenames.flatMap(filename => {
     const deputeJson = readFileAsJson(path.join(dir, filename)) as ActeurJson
-    const mandatsAssemblee = deputeJson.mandats.filter(isMandatAssemblee)
+    const mandats = alwaysAsArray(deputeJson.mandats.mandat)
+    const mandatsAssemblee = mandats.filter(isMandatAssemblee)
     if (mandatsAssemblee.length) {
       // it is a depute
       const legislatures = mandatsAssemblee.map(_ =>
@@ -49,6 +50,13 @@ export function readAllDeputesAndMap<A>(
   return res
 }
 
+function alwaysAsArray<A>(arrayOrSingleElement: A[] | A): A[] {
+  if (!Array.isArray(arrayOrSingleElement)) {
+    return [arrayOrSingleElement]
+  }
+  return arrayOrSingleElement
+}
+
 export type ActeurJson = {
   uid: string
   etatCivil: {
@@ -57,7 +65,9 @@ export type ActeurJson = {
       dateNais: '1949-06-02T01:00:00.000+01:00'
     }
   }
-  mandats: Mandat[]
+  mandats: {
+    mandat: Mandat[] | Mandat
+  }
 
   // there are other fields
 }
