@@ -38,7 +38,7 @@ function getUidAndLastLegislature(
   legislatures: number[],
 ): MinimalDepute {
   return {
-    uid: deputeJson.uid,
+    uid: deputeJson.uid['#text'],
     latestLegislature:
       lo.max(legislatures) ??
       // should not happen

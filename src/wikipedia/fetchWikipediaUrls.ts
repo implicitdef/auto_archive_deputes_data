@@ -65,7 +65,7 @@ async function mainProcess() {
   }
   const deputes = readAllDeputesAndMap(d => {
     const { nom, prenom } = d.etatCivil.ident
-    return { name: `${prenom} ${nom}`, id_an: d.uid }
+    return { name: `${prenom} ${nom}`, id_an: d.uid['#text'] }
   })
   const linksFoundInWikipedia = await readLinksForAllLegislatures()
   console.log('Finished fetching Wikipedia')

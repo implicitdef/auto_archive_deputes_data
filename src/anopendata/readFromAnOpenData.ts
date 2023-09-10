@@ -58,7 +58,7 @@ function alwaysAsArray<A>(arrayOrSingleElement: A[] | A): A[] {
 }
 
 export type ActeurJson = {
-  uid: string
+  uid: { '#text': string }
   etatCivil: {
     ident: { civ: 'M.' | 'Mme'; nom: string; prenom: string }
     infoNaissance: {
