@@ -41,7 +41,6 @@ async function storeWikipediaHtml(
   const content = await getWikipediaPageContent(url)
   if (content) {
     const file = buildWikipediaContentFilePath({ id_an, name })
-
     console.log(`Writing to ${file}`)
     writeToFile(file, content)
   } else {
@@ -55,14 +54,17 @@ async function getWikipediaPageContent(urlPath: string) {
   const res = await fetchWithRetry(url)
   const html = await res.text()
   const $ = cheerio.load(html)
+  // remove the infobox, because it causes unnecessary diffs all the time
+  $('#mw-content-text .infobox_v2').remove()
   const text = $(`#mw-content-text`).text()
-  // remove successive line jumps
-  return cleanup(text.replace(/\n{2,}/g, '\n'))
+  return cleanup(text)
 }
 
 function cleanup(text: string) {
   return (
     text
+      // remove successive line jumps
+      .replace(/\n{2,}/g, '\n')
       // trim each line
       .split('\n')
       .map(line => line.trim())
