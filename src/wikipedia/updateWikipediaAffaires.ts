@@ -1,23 +1,14 @@
+import yaml from 'js-yaml'
+import path from 'path'
+import removeAccents from 'remove-accents'
 import slugify from 'slugify'
-import {
-  listFilesInFolder,
-  readFileAsJson,
-  readFileAsString,
-  writeToFile,
-} from '../utils'
-import {
-  WIKIPEDIA_CONTENTS_DATA_DIR,
-  buildWikipediaContentFilePath,
-} from './fetchWikipediaContents'
+import { readFileAsJson, readFileAsString, writeToFile } from '../utils'
+import { buildWikipediaContentFilePath } from './fetchWikipediaContents'
 import {
   FoundWikipediaUrls,
   WIKIPEDIA_DATA_DIR,
   WIKIPEDIA_URLS_JSON_FILE,
 } from './fetchWikipediaUrls'
-import removeAccents from 'remove-accents'
-import lo from 'lodash'
-import path from 'path'
-import yaml from 'js-yaml'
 
 const WIKIPEDIA_AFFAIRES_DIR = path.join(WIKIPEDIA_DATA_DIR, 'affaires_search')
 
