@@ -250,6 +250,26 @@
         }
       },
       {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM779833",
+        "acteurRef": "PA642935",
+        "legislature": "15",
+        "typeOrgane": "GEVI",
+        "dateDebut": "2021-01-21",
+        "datePublication": null,
+        "dateFin": "2022-06-21",
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO733622"
+        }
+      },
+      {
         "@xsi:type": "MandatMission_Type",
         "uid": "PM758886",
         "acteurRef": "PA642935",
@@ -402,26 +422,6 @@
         },
         "organes": {
           "organeRef": "PO786857"
-        }
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM779833",
-        "acteurRef": "PA642935",
-        "legislature": "15",
-        "typeOrgane": "GEVI",
-        "dateDebut": "2021-01-21",
-        "datePublication": null,
-        "dateFin": "2022-06-21",
-        "preseance": "20",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Membre",
-          "libQualite": "Membre",
-          "libQualiteSex": "Membre"
-        },
-        "organes": {
-          "organeRef": "PO733622"
         }
       },
       {
@@ -1132,6 +1132,26 @@
       },
       {
         "@xsi:type": "MandatSimple_Type",
+        "uid": "PM735642",
+        "acteurRef": "PA642935",
+        "legislature": "15",
+        "typeOrgane": "GA",
+        "dateDebut": "2017-09-28",
+        "datePublication": null,
+        "dateFin": "2022-06-21",
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO733607"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
         "uid": "PM724660",
         "acteurRef": "PA642935",
         "legislature": "15",
@@ -1172,46 +1192,6 @@
       },
       {
         "@xsi:type": "MandatSimple_Type",
-        "uid": "PM771944",
-        "acteurRef": "PA642935",
-        "legislature": "15",
-        "typeOrgane": "GP",
-        "dateDebut": "2020-05-27",
-        "datePublication": "2020-05-27",
-        "dateFin": "2022-06-21",
-        "preseance": "1",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Président",
-          "libQualite": "Président du",
-          "libQualiteSex": "Président du"
-        },
-        "organes": {
-          "organeRef": "PO771923"
-        }
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM735642",
-        "acteurRef": "PA642935",
-        "legislature": "15",
-        "typeOrgane": "GA",
-        "dateDebut": "2017-09-28",
-        "datePublication": null,
-        "dateFin": "2022-06-21",
-        "preseance": "20",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Membre",
-          "libQualite": "Membre",
-          "libQualiteSex": "Membre"
-        },
-        "organes": {
-          "organeRef": "PO733607"
-        }
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
         "uid": "PM735641",
         "acteurRef": "PA642935",
         "legislature": "15",
@@ -1248,6 +1228,26 @@
         },
         "organes": {
           "organeRef": "PO733247"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM771944",
+        "acteurRef": "PA642935",
+        "legislature": "15",
+        "typeOrgane": "GP",
+        "dateDebut": "2020-05-27",
+        "datePublication": "2020-05-27",
+        "dateFin": "2022-06-21",
+        "preseance": "1",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Président",
+          "libQualite": "Président du",
+          "libQualiteSex": "Président du"
+        },
+        "organes": {
+          "organeRef": "PO771923"
         }
       },
       {
@@ -1411,53 +1411,6 @@
         }
       },
       {
-        "@xsi:type": "MandatParlementaire_type",
-        "uid": "PM723238",
-        "acteurRef": "PA642935",
-        "legislature": "15",
-        "typeOrgane": "ASSEMBLEE",
-        "dateDebut": "2017-06-18",
-        "datePublication": null,
-        "dateFin": "2022-06-21",
-        "preseance": "50",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "membre",
-          "libQualite": "membre",
-          "libQualiteSex": "membre"
-        },
-        "organes": {
-          "organeRef": "PO717460"
-        },
-        "suppleants": {
-          "suppleant": {
-            "dateDebut": "2017-06-18",
-            "dateFin": "2022-06-21",
-            "suppleantRef": "PA721324"
-          }
-        },
-        "chambre": null,
-        "election": {
-          "lieu": {
-            "region": "Grand Est",
-            "regionType": "Métropolitain",
-            "departement": "Haut-Rhin",
-            "numDepartement": "68",
-            "numCirco": "5"
-          },
-          "causeMandat": "élections générales",
-          "refCirconscription": "PO718118"
-        },
-        "mandature": {
-          "datePriseFonction": "2017-06-21",
-          "causeFin": "Fin de législature",
-          "premiereElection": "0",
-          "placeHemicycle": null,
-          "mandatRemplaceRef": null
-        },
-        "collaborateurs": null
-      },
-      {
         "@xsi:type": "MandatSimple_Type",
         "uid": "PM741988",
         "acteurRef": "PA642935",
@@ -1516,6 +1469,53 @@
         "organes": {
           "organeRef": "PO733247"
         }
+      },
+      {
+        "@xsi:type": "MandatParlementaire_type",
+        "uid": "PM723238",
+        "acteurRef": "PA642935",
+        "legislature": "15",
+        "typeOrgane": "ASSEMBLEE",
+        "dateDebut": "2017-06-18",
+        "datePublication": null,
+        "dateFin": "2022-06-21",
+        "preseance": "50",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "membre",
+          "libQualite": "membre",
+          "libQualiteSex": "membre"
+        },
+        "organes": {
+          "organeRef": "PO717460"
+        },
+        "suppleants": {
+          "suppleant": {
+            "dateDebut": "2017-06-18",
+            "dateFin": "2022-06-21",
+            "suppleantRef": "PA721324"
+          }
+        },
+        "chambre": null,
+        "election": {
+          "lieu": {
+            "region": "Grand Est",
+            "regionType": "Métropolitain",
+            "departement": "Haut-Rhin",
+            "numDepartement": "68",
+            "numCirco": "5"
+          },
+          "causeMandat": "élections générales",
+          "refCirconscription": "PO718118"
+        },
+        "mandature": {
+          "datePriseFonction": "2017-06-21",
+          "causeFin": "Fin de législature",
+          "premiereElection": "0",
+          "placeHemicycle": null,
+          "mandatRemplaceRef": null
+        },
+        "collaborateurs": null
       },
       {
         "@xsi:type": "MandatParlementaire_type",
