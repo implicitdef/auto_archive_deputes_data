@@ -100,6 +100,45 @@
   "mandats": {
     "mandat": [
       {
+        "@xsi:type": "MandatParlementaire_type",
+        "uid": "PM827248",
+        "acteurRef": "PA720480",
+        "legislature": "16",
+        "typeOrgane": "CONFPT",
+        "dateDebut": "2023-09-18",
+        "datePublication": "2023-09-19",
+        "dateFin": null,
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": null
+        },
+        "organes": {
+          "organeRef": "PO800480"
+        },
+        "suppleants": null,
+        "election": {
+          "lieu": {
+            "region": null,
+            "regionType": null,
+            "departement": null,
+            "numDepartement": null,
+            "numCirco": null
+          },
+          "causeMandat": null
+        },
+        "mandature": {
+          "datePriseFonction": null,
+          "causeFin": null,
+          "premiereElection": "0",
+          "placeHemicycle": null,
+          "mandatRemplaceRef": null
+        },
+        "collaborateurs": null
+      },
+      {
         "@xsi:type": "MandatSimple_Type",
         "uid": "PM732644",
         "acteurRef": "PA720480",
@@ -546,6 +585,26 @@
           "codeQualite": "Membre",
           "libQualite": "Membre",
           "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO420120"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM827247",
+        "acteurRef": "PA720480",
+        "legislature": "16",
+        "typeOrgane": "COMPER",
+        "dateDebut": "2023-09-18",
+        "datePublication": "2023-09-19",
+        "dateFin": null,
+        "preseance": "1",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Président",
+          "libQualite": "Président",
+          "libQualiteSex": "Présidente"
         },
         "organes": {
           "organeRef": "PO420120"
@@ -1312,26 +1371,6 @@
         }
       },
       {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM752741",
-        "acteurRef": "PA720480",
-        "legislature": "15",
-        "typeOrgane": "GE",
-        "dateDebut": "2018-03-06",
-        "datePublication": null,
-        "dateFin": "2022-06-21",
-        "preseance": "8",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Vice-Président",
-          "libQualite": "Vice-Président",
-          "libQualiteSex": "Vice-Présidente"
-        },
-        "organes": {
-          "organeRef": "PO746748"
-        }
-      },
-      {
         "@xsi:type": "MandatParlementaire_type",
         "uid": "PM722976",
         "acteurRef": "PA720480",
@@ -1377,6 +1416,26 @@
           "mandatRemplaceRef": null
         },
         "collaborateurs": null
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM752741",
+        "acteurRef": "PA720480",
+        "legislature": "15",
+        "typeOrgane": "GE",
+        "dateDebut": "2018-03-06",
+        "datePublication": null,
+        "dateFin": "2022-06-21",
+        "preseance": "8",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Vice-Président",
+          "libQualite": "Vice-Président",
+          "libQualiteSex": "Vice-Présidente"
+        },
+        "organes": {
+          "organeRef": "PO746748"
+        }
       },
       {
         "@xsi:type": "MandatParlementaire_type",
