@@ -121,26 +121,6 @@
         }
       },
       {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM683307",
-        "acteurRef": "PA605922",
-        "legislature": "14",
-        "typeOrgane": "GEVI",
-        "dateDebut": "2012-10-24",
-        "datePublication": null,
-        "dateFin": "2017-06-20",
-        "preseance": "20",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Membre",
-          "libQualite": "Membre",
-          "libQualiteSex": "Membre"
-        },
-        "organes": {
-          "organeRef": "PO675803"
-        }
-      },
-      {
         "@xsi:type": "MandatMission_Type",
         "uid": "PM707456",
         "acteurRef": "PA605922",
@@ -208,6 +188,26 @@
         "libelle": null,
         "missionSuivanteRef": null,
         "missionPrecedenteRef": null
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM683307",
+        "acteurRef": "PA605922",
+        "legislature": "14",
+        "typeOrgane": "GEVI",
+        "dateDebut": "2012-10-24",
+        "datePublication": null,
+        "dateFin": "2017-06-20",
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO675803"
+        }
       },
       {
         "@xsi:type": "MandatSimple_Type",
@@ -451,6 +451,26 @@
       },
       {
         "@xsi:type": "MandatSimple_Type",
+        "uid": "PM678117",
+        "acteurRef": "PA605922",
+        "legislature": "14",
+        "typeOrgane": "ORGEXTPARL",
+        "dateDebut": "2012-09-18",
+        "datePublication": "2012-09-19",
+        "dateFin": "2017-05-31",
+        "preseance": "30",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Suppléant",
+          "libQualite": "Membre suppléant",
+          "libQualiteSex": "Membre suppléante"
+        },
+        "organes": {
+          "organeRef": "PO60275"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
         "uid": "PM678172",
         "acteurRef": "PA605922",
         "legislature": "14",
@@ -507,26 +527,6 @@
         },
         "organes": {
           "organeRef": "PO304272"
-        }
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM678117",
-        "acteurRef": "PA605922",
-        "legislature": "14",
-        "typeOrgane": "ORGEXTPARL",
-        "dateDebut": "2012-09-18",
-        "datePublication": "2012-09-19",
-        "dateFin": "2017-05-31",
-        "preseance": "30",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Suppléant",
-          "libQualite": "Membre suppléant",
-          "libQualiteSex": "Membre suppléante"
-        },
-        "organes": {
-          "organeRef": "PO60275"
         }
       },
       {
@@ -970,53 +970,6 @@
         }
       },
       {
-        "@xsi:type": "MandatParlementaire_type",
-        "uid": "PM645493",
-        "acteurRef": "PA605922",
-        "legislature": "14",
-        "typeOrgane": "ASSEMBLEE",
-        "dateDebut": "2012-06-20",
-        "datePublication": null,
-        "dateFin": "2017-06-20",
-        "preseance": "50",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "membre",
-          "libQualite": "membre",
-          "libQualiteSex": "membre"
-        },
-        "organes": {
-          "organeRef": "PO644420"
-        },
-        "suppleants": {
-          "suppleant": {
-            "dateDebut": "2012-06-20",
-            "dateFin": "2017-06-20",
-            "suppleantRef": "PA643208"
-          }
-        },
-        "chambre": null,
-        "election": {
-          "lieu": {
-            "region": "Nouvelle-Aquitaine",
-            "regionType": "Métropolitain",
-            "departement": "Dordogne",
-            "numDepartement": "24",
-            "numCirco": "2"
-          },
-          "causeMandat": "élections générales",
-          "refCirconscription": "PO644520"
-        },
-        "mandature": {
-          "datePriseFonction": "2012-06-20",
-          "causeFin": "Fin de législature",
-          "premiereElection": "0",
-          "placeHemicycle": null,
-          "mandatRemplaceRef": null
-        },
-        "collaborateurs": null
-      },
-      {
         "@xsi:type": "MandatSimple_Type",
         "uid": "PM686625",
         "acteurRef": "PA605922",
@@ -1095,6 +1048,53 @@
         "organes": {
           "organeRef": "PO701621"
         }
+      },
+      {
+        "@xsi:type": "MandatParlementaire_type",
+        "uid": "PM645493",
+        "acteurRef": "PA605922",
+        "legislature": "14",
+        "typeOrgane": "ASSEMBLEE",
+        "dateDebut": "2012-06-20",
+        "datePublication": null,
+        "dateFin": "2017-06-20",
+        "preseance": "50",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "membre",
+          "libQualite": "membre",
+          "libQualiteSex": "membre"
+        },
+        "organes": {
+          "organeRef": "PO644420"
+        },
+        "suppleants": {
+          "suppleant": {
+            "dateDebut": "2012-06-20",
+            "dateFin": "2017-06-20",
+            "suppleantRef": "PA643208"
+          }
+        },
+        "chambre": null,
+        "election": {
+          "lieu": {
+            "region": "Nouvelle-Aquitaine",
+            "regionType": "Métropolitain",
+            "departement": "Dordogne",
+            "numDepartement": "24",
+            "numCirco": "2"
+          },
+          "causeMandat": "élections générales",
+          "refCirconscription": "PO644520"
+        },
+        "mandature": {
+          "datePriseFonction": "2012-06-20",
+          "causeFin": "Fin de législature",
+          "premiereElection": "0",
+          "placeHemicycle": null,
+          "mandatRemplaceRef": null
+        },
+        "collaborateurs": null
       },
       {
         "@xsi:type": "MandatSimple_Type",

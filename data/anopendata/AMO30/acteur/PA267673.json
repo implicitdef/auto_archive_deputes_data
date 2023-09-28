@@ -368,6 +368,29 @@
         }
       },
       {
+        "@xsi:type": "MandatMission_Type",
+        "uid": "PM712168",
+        "acteurRef": "PA267673",
+        "legislature": "14",
+        "typeOrgane": "MISINFO",
+        "dateDebut": "2014-10-02",
+        "datePublication": null,
+        "dateFin": "2015-05-06",
+        "preseance": "10",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO712165"
+        },
+        "libelle": null,
+        "missionSuivanteRef": null,
+        "missionPrecedenteRef": null
+      },
+      {
         "@xsi:type": "MandatSimple_Type",
         "uid": "PM398335",
         "acteurRef": "PA267673",
@@ -406,6 +429,29 @@
         "organes": {
           "organeRef": "PO274049"
         }
+      },
+      {
+        "@xsi:type": "MandatMission_Type",
+        "uid": "PM708624",
+        "acteurRef": "PA267673",
+        "legislature": "14",
+        "typeOrgane": "MISINFO",
+        "dateDebut": "2014-12-17",
+        "datePublication": null,
+        "dateFin": "2015-12-09",
+        "preseance": "10",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO708590"
+        },
+        "libelle": null,
+        "missionSuivanteRef": null,
+        "missionPrecedenteRef": null
       },
       {
         "@xsi:type": "MandatSimple_Type",
@@ -486,52 +532,6 @@
         "organes": {
           "organeRef": "PO675743"
         }
-      },
-      {
-        "@xsi:type": "MandatMission_Type",
-        "uid": "PM712168",
-        "acteurRef": "PA267673",
-        "legislature": "14",
-        "typeOrgane": "MISINFO",
-        "dateDebut": "2014-10-02",
-        "datePublication": null,
-        "dateFin": "2015-05-06",
-        "preseance": "10",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Membre",
-          "libQualite": "Membre",
-          "libQualiteSex": "Membre"
-        },
-        "organes": {
-          "organeRef": "PO712165"
-        },
-        "libelle": null,
-        "missionSuivanteRef": null,
-        "missionPrecedenteRef": null
-      },
-      {
-        "@xsi:type": "MandatMission_Type",
-        "uid": "PM708624",
-        "acteurRef": "PA267673",
-        "legislature": "14",
-        "typeOrgane": "MISINFO",
-        "dateDebut": "2014-12-17",
-        "datePublication": null,
-        "dateFin": "2015-12-09",
-        "preseance": "10",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Membre",
-          "libQualite": "Membre",
-          "libQualiteSex": "Membre"
-        },
-        "organes": {
-          "organeRef": "PO708590"
-        },
-        "libelle": null,
-        "missionSuivanteRef": null,
-        "missionPrecedenteRef": null
       },
       {
         "@xsi:type": "MandatSimple_Type",
@@ -817,46 +817,6 @@
         }
       },
       {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM288540",
-        "acteurRef": "PA267673",
-        "legislature": "12",
-        "typeOrgane": "GEVI",
-        "dateDebut": "2003-01-21",
-        "datePublication": null,
-        "dateFin": "2007-06-19",
-        "preseance": "8",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Vice-Président",
-          "libQualite": "Vice-Président",
-          "libQualiteSex": "Vice-Président"
-        },
-        "organes": {
-          "organeRef": "PO274049"
-        }
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM684148",
-        "acteurRef": "PA267673",
-        "legislature": "14",
-        "typeOrgane": "GEVI",
-        "dateDebut": "2012-11-07",
-        "datePublication": null,
-        "dateFin": "2017-06-20",
-        "preseance": "8",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Vice-Président",
-          "libQualite": "Vice-Président",
-          "libQualiteSex": "Vice-Président"
-        },
-        "organes": {
-          "organeRef": "PO675838"
-        }
-      },
-      {
         "@xsi:type": "MandatParlementaire_type",
         "uid": "PM775865",
         "acteurRef": "PA267673",
@@ -895,6 +855,46 @@
           "mandatRemplaceRef": null
         },
         "collaborateurs": null
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM288540",
+        "acteurRef": "PA267673",
+        "legislature": "12",
+        "typeOrgane": "GEVI",
+        "dateDebut": "2003-01-21",
+        "datePublication": null,
+        "dateFin": "2007-06-19",
+        "preseance": "8",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Vice-Président",
+          "libQualite": "Vice-Président",
+          "libQualiteSex": "Vice-Président"
+        },
+        "organes": {
+          "organeRef": "PO274049"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM684148",
+        "acteurRef": "PA267673",
+        "legislature": "14",
+        "typeOrgane": "GEVI",
+        "dateDebut": "2012-11-07",
+        "datePublication": null,
+        "dateFin": "2017-06-20",
+        "preseance": "8",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Vice-Président",
+          "libQualite": "Vice-Président",
+          "libQualiteSex": "Vice-Président"
+        },
+        "organes": {
+          "organeRef": "PO675838"
+        }
       },
       {
         "@xsi:type": "MandatSimple_Type",
@@ -1158,46 +1158,6 @@
       },
       {
         "@xsi:type": "MandatSimple_Type",
-        "uid": "PM678000",
-        "acteurRef": "PA267673",
-        "legislature": "14",
-        "typeOrgane": "API",
-        "dateDebut": "2012-07-31",
-        "datePublication": null,
-        "dateFin": "2017-06-20",
-        "preseance": "44",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Suppléant",
-          "libQualite": "Membre suppléant",
-          "libQualiteSex": "Membre suppléant"
-        },
-        "organes": {
-          "organeRef": "PO58974"
-        }
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM274021",
-        "acteurRef": "PA267673",
-        "legislature": "12",
-        "typeOrgane": "API",
-        "dateDebut": "2002-07-20",
-        "datePublication": "2002-07-20",
-        "dateFin": "2007-06-19",
-        "preseance": "44",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Suppléant",
-          "libQualite": "Membre suppléant",
-          "libQualiteSex": "Membre suppléant"
-        },
-        "organes": {
-          "organeRef": "PO58974"
-        }
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
         "uid": "PM425990",
         "acteurRef": "PA267673",
         "legislature": "13",
@@ -1298,6 +1258,26 @@
       },
       {
         "@xsi:type": "MandatSimple_Type",
+        "uid": "PM678000",
+        "acteurRef": "PA267673",
+        "legislature": "14",
+        "typeOrgane": "API",
+        "dateDebut": "2012-07-31",
+        "datePublication": null,
+        "dateFin": "2017-06-20",
+        "preseance": "44",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Suppléant",
+          "libQualite": "Membre suppléant",
+          "libQualiteSex": "Membre suppléant"
+        },
+        "organes": {
+          "organeRef": "PO58974"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
         "uid": "PM426429",
         "acteurRef": "PA267673",
         "legislature": "13",
@@ -1314,6 +1294,26 @@
         },
         "organes": {
           "organeRef": "PO60280"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM274021",
+        "acteurRef": "PA267673",
+        "legislature": "12",
+        "typeOrgane": "API",
+        "dateDebut": "2002-07-20",
+        "datePublication": "2002-07-20",
+        "dateFin": "2007-06-19",
+        "preseance": "44",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Suppléant",
+          "libQualite": "Membre suppléant",
+          "libQualiteSex": "Membre suppléant"
+        },
+        "organes": {
+          "organeRef": "PO58974"
         }
       },
       {
@@ -7497,147 +7497,6 @@
         }
       },
       {
-        "@xsi:type": "MandatParlementaire_type",
-        "uid": "PM267675",
-        "acteurRef": "PA267673",
-        "legislature": "12",
-        "typeOrgane": "ASSEMBLEE",
-        "dateDebut": "2002-06-19",
-        "datePublication": null,
-        "dateFin": "2007-06-19",
-        "preseance": "50",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "membre",
-          "libQualite": "membre",
-          "libQualiteSex": "membre"
-        },
-        "organes": {
-          "organeRef": "PO230434"
-        },
-        "suppleants": {
-          "suppleant": {
-            "dateDebut": "2002-06-19",
-            "dateFin": "2007-06-19",
-            "suppleantRef": "PA267674"
-          }
-        },
-        "chambre": null,
-        "election": {
-          "lieu": {
-            "region": "Occitanie",
-            "regionType": "Métropolitain",
-            "departement": "Tarn",
-            "numDepartement": "81",
-            "numCirco": "3"
-          },
-          "causeMandat": "élections générales",
-          "refCirconscription": "PO230896"
-        },
-        "mandature": {
-          "datePriseFonction": "2002-06-19",
-          "causeFin": "Fin de législature",
-          "premiereElection": "0",
-          "placeHemicycle": null,
-          "mandatRemplaceRef": null
-        },
-        "collaborateurs": null
-      },
-      {
-        "@xsi:type": "MandatParlementaire_type",
-        "uid": "PM645249",
-        "acteurRef": "PA267673",
-        "legislature": "14",
-        "typeOrgane": "ASSEMBLEE",
-        "dateDebut": "2012-06-20",
-        "datePublication": null,
-        "dateFin": "2017-06-20",
-        "preseance": "50",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "membre",
-          "libQualite": "membre",
-          "libQualiteSex": "membre"
-        },
-        "organes": {
-          "organeRef": "PO644420"
-        },
-        "suppleants": {
-          "suppleant": {
-            "dateDebut": "2012-06-20",
-            "dateFin": "2017-06-20",
-            "suppleantRef": "PA643005"
-          }
-        },
-        "chambre": null,
-        "election": {
-          "lieu": {
-            "region": "Occitanie",
-            "regionType": "Métropolitain",
-            "departement": "Tarn",
-            "numDepartement": "81",
-            "numCirco": "1"
-          },
-          "causeMandat": "élections générales",
-          "refCirconscription": "PO644880"
-        },
-        "mandature": {
-          "datePriseFonction": "2012-06-20",
-          "causeFin": "Fin de législature",
-          "premiereElection": "1",
-          "placeHemicycle": null,
-          "mandatRemplaceRef": null
-        },
-        "collaborateurs": null
-      },
-      {
-        "@xsi:type": "MandatParlementaire_type",
-        "uid": "PM386213",
-        "acteurRef": "PA267673",
-        "legislature": "13",
-        "typeOrgane": "ASSEMBLEE",
-        "dateDebut": "2007-06-20",
-        "datePublication": null,
-        "dateFin": "2012-06-19",
-        "preseance": "50",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "membre",
-          "libQualite": "membre",
-          "libQualiteSex": "membre"
-        },
-        "organes": {
-          "organeRef": "PO384266"
-        },
-        "suppleants": {
-          "suppleant": {
-            "dateDebut": "2007-06-20",
-            "dateFin": "2012-06-19",
-            "suppleantRef": "PA267674"
-          }
-        },
-        "chambre": null,
-        "election": {
-          "lieu": {
-            "region": "Occitanie",
-            "regionType": "Métropolitain",
-            "departement": "Tarn",
-            "numDepartement": "81",
-            "numCirco": "3"
-          },
-          "causeMandat": "élections générales",
-          "refCirconscription": "PO384728"
-        },
-        "mandature": {
-          "datePriseFonction": "2007-06-20",
-          "causeFin": "Fin de législature",
-          "premiereElection": "1",
-          "placeHemicycle": null,
-          "mandatRemplaceRef": null
-        },
-        "collaborateurs": null
-      },
-      {
         "@xsi:type": "MandatSimple_Type",
         "uid": "PM410818",
         "acteurRef": "PA267673",
@@ -8056,6 +7915,147 @@
         "organes": {
           "organeRef": "PO285075"
         }
+      },
+      {
+        "@xsi:type": "MandatParlementaire_type",
+        "uid": "PM267675",
+        "acteurRef": "PA267673",
+        "legislature": "12",
+        "typeOrgane": "ASSEMBLEE",
+        "dateDebut": "2002-06-19",
+        "datePublication": null,
+        "dateFin": "2007-06-19",
+        "preseance": "50",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "membre",
+          "libQualite": "membre",
+          "libQualiteSex": "membre"
+        },
+        "organes": {
+          "organeRef": "PO230434"
+        },
+        "suppleants": {
+          "suppleant": {
+            "dateDebut": "2002-06-19",
+            "dateFin": "2007-06-19",
+            "suppleantRef": "PA267674"
+          }
+        },
+        "chambre": null,
+        "election": {
+          "lieu": {
+            "region": "Occitanie",
+            "regionType": "Métropolitain",
+            "departement": "Tarn",
+            "numDepartement": "81",
+            "numCirco": "3"
+          },
+          "causeMandat": "élections générales",
+          "refCirconscription": "PO230896"
+        },
+        "mandature": {
+          "datePriseFonction": "2002-06-19",
+          "causeFin": "Fin de législature",
+          "premiereElection": "0",
+          "placeHemicycle": null,
+          "mandatRemplaceRef": null
+        },
+        "collaborateurs": null
+      },
+      {
+        "@xsi:type": "MandatParlementaire_type",
+        "uid": "PM645249",
+        "acteurRef": "PA267673",
+        "legislature": "14",
+        "typeOrgane": "ASSEMBLEE",
+        "dateDebut": "2012-06-20",
+        "datePublication": null,
+        "dateFin": "2017-06-20",
+        "preseance": "50",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "membre",
+          "libQualite": "membre",
+          "libQualiteSex": "membre"
+        },
+        "organes": {
+          "organeRef": "PO644420"
+        },
+        "suppleants": {
+          "suppleant": {
+            "dateDebut": "2012-06-20",
+            "dateFin": "2017-06-20",
+            "suppleantRef": "PA643005"
+          }
+        },
+        "chambre": null,
+        "election": {
+          "lieu": {
+            "region": "Occitanie",
+            "regionType": "Métropolitain",
+            "departement": "Tarn",
+            "numDepartement": "81",
+            "numCirco": "1"
+          },
+          "causeMandat": "élections générales",
+          "refCirconscription": "PO644880"
+        },
+        "mandature": {
+          "datePriseFonction": "2012-06-20",
+          "causeFin": "Fin de législature",
+          "premiereElection": "1",
+          "placeHemicycle": null,
+          "mandatRemplaceRef": null
+        },
+        "collaborateurs": null
+      },
+      {
+        "@xsi:type": "MandatParlementaire_type",
+        "uid": "PM386213",
+        "acteurRef": "PA267673",
+        "legislature": "13",
+        "typeOrgane": "ASSEMBLEE",
+        "dateDebut": "2007-06-20",
+        "datePublication": null,
+        "dateFin": "2012-06-19",
+        "preseance": "50",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "membre",
+          "libQualite": "membre",
+          "libQualiteSex": "membre"
+        },
+        "organes": {
+          "organeRef": "PO384266"
+        },
+        "suppleants": {
+          "suppleant": {
+            "dateDebut": "2007-06-20",
+            "dateFin": "2012-06-19",
+            "suppleantRef": "PA267674"
+          }
+        },
+        "chambre": null,
+        "election": {
+          "lieu": {
+            "region": "Occitanie",
+            "regionType": "Métropolitain",
+            "departement": "Tarn",
+            "numDepartement": "81",
+            "numCirco": "3"
+          },
+          "causeMandat": "élections générales",
+          "refCirconscription": "PO384728"
+        },
+        "mandature": {
+          "datePriseFonction": "2007-06-20",
+          "causeFin": "Fin de législature",
+          "premiereElection": "1",
+          "placeHemicycle": null,
+          "mandatRemplaceRef": null
+        },
+        "collaborateurs": null
       },
       {
         "@xsi:type": "MandatSimple_Type",

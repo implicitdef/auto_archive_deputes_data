@@ -343,26 +343,6 @@
         }
       },
       {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM738870",
-        "acteurRef": "PA721314",
-        "legislature": "15",
-        "typeOrgane": "GEVI",
-        "dateDebut": "2017-10-10",
-        "datePublication": null,
-        "dateFin": "2022-06-21",
-        "preseance": "20",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Membre",
-          "libQualite": "Membre",
-          "libQualiteSex": "Membre"
-        },
-        "organes": {
-          "organeRef": "PO733217"
-        }
-      },
-      {
         "@xsi:type": "MandatMission_Type",
         "uid": "PM779589",
         "acteurRef": "PA721314",
@@ -654,6 +634,26 @@
         "libelle": null,
         "missionSuivanteRef": null,
         "missionPrecedenteRef": null
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM738870",
+        "acteurRef": "PA721314",
+        "legislature": "15",
+        "typeOrgane": "GEVI",
+        "dateDebut": "2017-10-10",
+        "datePublication": null,
+        "dateFin": "2022-06-21",
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO733217"
+        }
       },
       {
         "@xsi:type": "MandatSimple_Type",
@@ -2785,53 +2785,6 @@
         }
       },
       {
-        "@xsi:type": "MandatParlementaire_type",
-        "uid": "PM723236",
-        "acteurRef": "PA721314",
-        "legislature": "15",
-        "typeOrgane": "ASSEMBLEE",
-        "dateDebut": "2017-06-18",
-        "datePublication": null,
-        "dateFin": "2022-06-21",
-        "preseance": "50",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "membre",
-          "libQualite": "membre",
-          "libQualiteSex": "membre"
-        },
-        "organes": {
-          "organeRef": "PO717460"
-        },
-        "suppleants": {
-          "suppleant": {
-            "dateDebut": "2017-06-18",
-            "dateFin": "2022-06-21",
-            "suppleantRef": "PA721318"
-          }
-        },
-        "chambre": null,
-        "election": {
-          "lieu": {
-            "region": "Grand Est",
-            "regionType": "Métropolitain",
-            "departement": "Haut-Rhin",
-            "numDepartement": "68",
-            "numCirco": "4"
-          },
-          "causeMandat": "élections générales",
-          "refCirconscription": "PO718120"
-        },
-        "mandature": {
-          "datePriseFonction": "2017-06-21",
-          "causeFin": "Fin de législature",
-          "premiereElection": "0",
-          "placeHemicycle": "079",
-          "mandatRemplaceRef": null
-        },
-        "collaborateurs": null
-      },
-      {
         "@xsi:type": "MandatSimple_Type",
         "uid": "PM821408",
         "acteurRef": "PA721314",
@@ -2910,6 +2863,53 @@
         "organes": {
           "organeRef": "PO747225"
         }
+      },
+      {
+        "@xsi:type": "MandatParlementaire_type",
+        "uid": "PM723236",
+        "acteurRef": "PA721314",
+        "legislature": "15",
+        "typeOrgane": "ASSEMBLEE",
+        "dateDebut": "2017-06-18",
+        "datePublication": null,
+        "dateFin": "2022-06-21",
+        "preseance": "50",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "membre",
+          "libQualite": "membre",
+          "libQualiteSex": "membre"
+        },
+        "organes": {
+          "organeRef": "PO717460"
+        },
+        "suppleants": {
+          "suppleant": {
+            "dateDebut": "2017-06-18",
+            "dateFin": "2022-06-21",
+            "suppleantRef": "PA721318"
+          }
+        },
+        "chambre": null,
+        "election": {
+          "lieu": {
+            "region": "Grand Est",
+            "regionType": "Métropolitain",
+            "departement": "Haut-Rhin",
+            "numDepartement": "68",
+            "numCirco": "4"
+          },
+          "causeMandat": "élections générales",
+          "refCirconscription": "PO718120"
+        },
+        "mandature": {
+          "datePriseFonction": "2017-06-21",
+          "causeFin": "Fin de législature",
+          "premiereElection": "0",
+          "placeHemicycle": "079",
+          "mandatRemplaceRef": null
+        },
+        "collaborateurs": null
       },
       {
         "@xsi:type": "MandatSimple_Type",

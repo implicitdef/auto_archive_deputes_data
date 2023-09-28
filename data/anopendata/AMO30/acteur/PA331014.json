@@ -1291,6 +1291,26 @@
       },
       {
         "@xsi:type": "MandatSimple_Type",
+        "uid": "PM387230",
+        "acteurRef": "PA331014",
+        "legislature": "13",
+        "typeOrgane": "GP",
+        "dateDebut": "2007-06-20",
+        "datePublication": null,
+        "dateFin": "2007-06-26",
+        "preseance": "28",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Député non-inscrit",
+          "libQualite": "Député non-inscrit",
+          "libQualiteSex": "Députée non-inscrite"
+        },
+        "organes": {
+          "organeRef": "PO387155"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
         "uid": "PM401045",
         "acteurRef": "PA331014",
         "legislature": "13",
@@ -1931,26 +1951,6 @@
       },
       {
         "@xsi:type": "MandatSimple_Type",
-        "uid": "PM387230",
-        "acteurRef": "PA331014",
-        "legislature": "13",
-        "typeOrgane": "GP",
-        "dateDebut": "2007-06-20",
-        "datePublication": null,
-        "dateFin": "2007-06-26",
-        "preseance": "28",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Député non-inscrit",
-          "libQualite": "Député non-inscrit",
-          "libQualiteSex": "Députée non-inscrite"
-        },
-        "organes": {
-          "organeRef": "PO387155"
-        }
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
         "uid": "PM716628",
         "acteurRef": "PA331014",
         "legislature": "14",
@@ -2177,6 +2177,53 @@
         "collaborateurs": null
       },
       {
+        "@xsi:type": "MandatParlementaire_type",
+        "uid": "PM645422",
+        "acteurRef": "PA331014",
+        "legislature": "14",
+        "typeOrgane": "ASSEMBLEE",
+        "dateDebut": "2012-06-20",
+        "datePublication": null,
+        "dateFin": "2017-06-20",
+        "preseance": "50",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "membre",
+          "libQualite": "membre",
+          "libQualiteSex": "membre"
+        },
+        "organes": {
+          "organeRef": "PO644420"
+        },
+        "suppleants": {
+          "suppleant": {
+            "dateDebut": "2012-06-20",
+            "dateFin": "2017-06-20",
+            "suppleantRef": "PA341014"
+          }
+        },
+        "chambre": null,
+        "election": {
+          "lieu": {
+            "region": "Nouvelle-Aquitaine",
+            "regionType": "Métropolitain",
+            "departement": "Charente-Maritime",
+            "numDepartement": "17",
+            "numCirco": "3"
+          },
+          "causeMandat": "élections générales",
+          "refCirconscription": "PO644494"
+        },
+        "mandature": {
+          "datePriseFonction": "2012-06-20",
+          "causeFin": "Fin de législature",
+          "premiereElection": "1",
+          "placeHemicycle": null,
+          "mandatRemplaceRef": null
+        },
+        "collaborateurs": null
+      },
+      {
         "@xsi:type": "MandatSimple_Type",
         "uid": "PM686743",
         "acteurRef": "PA331014",
@@ -2235,53 +2282,6 @@
         "organes": {
           "organeRef": "PO675815"
         }
-      },
-      {
-        "@xsi:type": "MandatParlementaire_type",
-        "uid": "PM645422",
-        "acteurRef": "PA331014",
-        "legislature": "14",
-        "typeOrgane": "ASSEMBLEE",
-        "dateDebut": "2012-06-20",
-        "datePublication": null,
-        "dateFin": "2017-06-20",
-        "preseance": "50",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "membre",
-          "libQualite": "membre",
-          "libQualiteSex": "membre"
-        },
-        "organes": {
-          "organeRef": "PO644420"
-        },
-        "suppleants": {
-          "suppleant": {
-            "dateDebut": "2012-06-20",
-            "dateFin": "2017-06-20",
-            "suppleantRef": "PA341014"
-          }
-        },
-        "chambre": null,
-        "election": {
-          "lieu": {
-            "region": "Nouvelle-Aquitaine",
-            "regionType": "Métropolitain",
-            "departement": "Charente-Maritime",
-            "numDepartement": "17",
-            "numCirco": "3"
-          },
-          "causeMandat": "élections générales",
-          "refCirconscription": "PO644494"
-        },
-        "mandature": {
-          "datePriseFonction": "2012-06-20",
-          "causeFin": "Fin de législature",
-          "premiereElection": "1",
-          "placeHemicycle": null,
-          "mandatRemplaceRef": null
-        },
-        "collaborateurs": null
       },
       {
         "@xsi:type": "MandatSimple_Type",

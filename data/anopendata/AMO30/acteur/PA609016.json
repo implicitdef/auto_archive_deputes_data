@@ -132,6 +132,27 @@
         }
       },
       {
+        "@xsi:type": "MandatAvecSuppleant_Type",
+        "uid": "PM670977",
+        "acteurRef": "PA609016",
+        "legislature": "14",
+        "typeOrgane": "OFFPAR",
+        "dateDebut": "2012-07-11",
+        "datePublication": "2012-07-11",
+        "dateFin": "2016-05-13",
+        "preseance": "24",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO273589"
+        },
+        "suppleants": null
+      },
+      {
         "@xsi:type": "MandatParlementaire_type",
         "uid": "PM690212",
         "acteurRef": "PA609016",
@@ -170,27 +191,6 @@
           "mandatRemplaceRef": null
         },
         "collaborateurs": null
-      },
-      {
-        "@xsi:type": "MandatAvecSuppleant_Type",
-        "uid": "PM670977",
-        "acteurRef": "PA609016",
-        "legislature": "14",
-        "typeOrgane": "OFFPAR",
-        "dateDebut": "2012-07-11",
-        "datePublication": "2012-07-11",
-        "dateFin": "2016-05-13",
-        "preseance": "24",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Membre",
-          "libQualite": "Membre",
-          "libQualiteSex": "Membre"
-        },
-        "organes": {
-          "organeRef": "PO273589"
-        },
-        "suppleants": null
       },
       {
         "@xsi:type": "MandatMission_Type",
@@ -942,53 +942,6 @@
         }
       },
       {
-        "@xsi:type": "MandatParlementaire_type",
-        "uid": "PM645074",
-        "acteurRef": "PA609016",
-        "legislature": "14",
-        "typeOrgane": "ASSEMBLEE",
-        "dateDebut": "2012-06-20",
-        "datePublication": null,
-        "dateFin": "2017-06-20",
-        "preseance": "50",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "membre",
-          "libQualite": "membre",
-          "libQualiteSex": "membre"
-        },
-        "organes": {
-          "organeRef": "PO644420"
-        },
-        "suppleants": {
-          "suppleant": {
-            "dateDebut": "2012-06-20",
-            "dateFin": "2017-06-20",
-            "suppleantRef": "PA642936"
-          }
-        },
-        "chambre": null,
-        "election": {
-          "lieu": {
-            "region": "Ile-de-France",
-            "regionType": "Métropolitain",
-            "departement": "Paris",
-            "numDepartement": "75",
-            "numCirco": "10"
-          },
-          "causeMandat": "élections générales",
-          "refCirconscription": "PO644825"
-        },
-        "mandature": {
-          "datePriseFonction": "2012-06-20",
-          "causeFin": "Fin de législature",
-          "premiereElection": "0",
-          "placeHemicycle": null,
-          "mandatRemplaceRef": null
-        },
-        "collaborateurs": null
-      },
-      {
         "@xsi:type": "MandatSimple_Type",
         "uid": "PM692170",
         "acteurRef": "PA609016",
@@ -1047,6 +1000,53 @@
         "organes": {
           "organeRef": "PO687098"
         }
+      },
+      {
+        "@xsi:type": "MandatParlementaire_type",
+        "uid": "PM645074",
+        "acteurRef": "PA609016",
+        "legislature": "14",
+        "typeOrgane": "ASSEMBLEE",
+        "dateDebut": "2012-06-20",
+        "datePublication": null,
+        "dateFin": "2017-06-20",
+        "preseance": "50",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "membre",
+          "libQualite": "membre",
+          "libQualiteSex": "membre"
+        },
+        "organes": {
+          "organeRef": "PO644420"
+        },
+        "suppleants": {
+          "suppleant": {
+            "dateDebut": "2012-06-20",
+            "dateFin": "2017-06-20",
+            "suppleantRef": "PA642936"
+          }
+        },
+        "chambre": null,
+        "election": {
+          "lieu": {
+            "region": "Ile-de-France",
+            "regionType": "Métropolitain",
+            "departement": "Paris",
+            "numDepartement": "75",
+            "numCirco": "10"
+          },
+          "causeMandat": "élections générales",
+          "refCirconscription": "PO644825"
+        },
+        "mandature": {
+          "datePriseFonction": "2012-06-20",
+          "causeFin": "Fin de législature",
+          "premiereElection": "0",
+          "placeHemicycle": null,
+          "mandatRemplaceRef": null
+        },
+        "collaborateurs": null
       },
       {
         "@xsi:type": "MandatSimple_Type",

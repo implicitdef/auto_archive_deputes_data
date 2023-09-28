@@ -708,6 +708,26 @@
       },
       {
         "@xsi:type": "MandatSimple_Type",
+        "uid": "PM827491",
+        "acteurRef": "PA719600",
+        "legislature": "16",
+        "typeOrgane": "COMPER",
+        "dateDebut": "2023-09-28",
+        "datePublication": "2023-09-28",
+        "dateFin": null,
+        "preseance": "32",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO59051"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
         "uid": "PM801620",
         "acteurRef": "PA719600",
         "legislature": "16",
@@ -814,7 +834,7 @@
         "typeOrgane": "COMPER",
         "dateDebut": "2023-09-27",
         "datePublication": "2023-09-27",
-        "dateFin": null,
+        "dateFin": "2023-09-27",
         "preseance": "32",
         "nominPrincipale": "1",
         "infosQualite": {
@@ -1727,53 +1747,6 @@
         }
       },
       {
-        "@xsi:type": "MandatParlementaire_type",
-        "uid": "PM722708",
-        "acteurRef": "PA719600",
-        "legislature": "15",
-        "typeOrgane": "ASSEMBLEE",
-        "dateDebut": "2017-06-18",
-        "datePublication": null,
-        "dateFin": "2022-06-21",
-        "preseance": "50",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "membre",
-          "libQualite": "membre",
-          "libQualiteSex": "membre"
-        },
-        "organes": {
-          "organeRef": "PO717460"
-        },
-        "suppleants": {
-          "suppleant": {
-            "dateDebut": "2017-06-18",
-            "dateFin": "2022-06-21",
-            "suppleantRef": "PA719604"
-          }
-        },
-        "chambre": null,
-        "election": {
-          "lieu": {
-            "region": "Nouvelle-Aquitaine",
-            "regionType": "Métropolitain",
-            "departement": "Gironde",
-            "numDepartement": "33",
-            "numCirco": "6"
-          },
-          "causeMandat": "élections générales",
-          "refCirconscription": "PO717732"
-        },
-        "mandature": {
-          "datePriseFonction": "2017-06-21",
-          "causeFin": "Fin de législature",
-          "premiereElection": "0",
-          "placeHemicycle": "416",
-          "mandatRemplaceRef": null
-        },
-        "collaborateurs": null
-      },
-      {
         "@xsi:type": "MandatSimple_Type",
         "uid": "PM820377",
         "acteurRef": "PA719600",
@@ -1912,6 +1885,53 @@
         "organes": {
           "organeRef": "PO746982"
         }
+      },
+      {
+        "@xsi:type": "MandatParlementaire_type",
+        "uid": "PM722708",
+        "acteurRef": "PA719600",
+        "legislature": "15",
+        "typeOrgane": "ASSEMBLEE",
+        "dateDebut": "2017-06-18",
+        "datePublication": null,
+        "dateFin": "2022-06-21",
+        "preseance": "50",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "membre",
+          "libQualite": "membre",
+          "libQualiteSex": "membre"
+        },
+        "organes": {
+          "organeRef": "PO717460"
+        },
+        "suppleants": {
+          "suppleant": {
+            "dateDebut": "2017-06-18",
+            "dateFin": "2022-06-21",
+            "suppleantRef": "PA719604"
+          }
+        },
+        "chambre": null,
+        "election": {
+          "lieu": {
+            "region": "Nouvelle-Aquitaine",
+            "regionType": "Métropolitain",
+            "departement": "Gironde",
+            "numDepartement": "33",
+            "numCirco": "6"
+          },
+          "causeMandat": "élections générales",
+          "refCirconscription": "PO717732"
+        },
+        "mandature": {
+          "datePriseFonction": "2017-06-21",
+          "causeFin": "Fin de législature",
+          "premiereElection": "0",
+          "placeHemicycle": "416",
+          "mandatRemplaceRef": null
+        },
+        "collaborateurs": null
       },
       {
         "@xsi:type": "MandatParlementaire_type",

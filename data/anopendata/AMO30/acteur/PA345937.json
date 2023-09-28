@@ -202,26 +202,6 @@
       },
       {
         "@xsi:type": "MandatSimple_Type",
-        "uid": "PM396969",
-        "acteurRef": "PA345937",
-        "legislature": "13",
-        "typeOrgane": "GEVI",
-        "dateDebut": "2007-10-08",
-        "datePublication": null,
-        "dateFin": "2009-07-24",
-        "preseance": "20",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Membre",
-          "libQualite": "Membre",
-          "libQualiteSex": "Membre"
-        },
-        "organes": {
-          "organeRef": "PO393498"
-        }
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
         "uid": "PM393590",
         "acteurRef": "PA345937",
         "legislature": "13",
@@ -258,6 +238,26 @@
         },
         "organes": {
           "organeRef": "PO702090"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM396969",
+        "acteurRef": "PA345937",
+        "legislature": "13",
+        "typeOrgane": "GEVI",
+        "dateDebut": "2007-10-08",
+        "datePublication": null,
+        "dateFin": "2009-07-24",
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO393498"
         }
       },
       {
@@ -405,26 +405,6 @@
       },
       {
         "@xsi:type": "MandatSimple_Type",
-        "uid": "PM695220",
-        "acteurRef": "PA345937",
-        "legislature": "14",
-        "typeOrgane": "GEVI",
-        "dateDebut": "2013-06-12",
-        "datePublication": null,
-        "dateFin": "2017-06-20",
-        "preseance": "8",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Vice-Président",
-          "libQualite": "Vice-Président",
-          "libQualiteSex": "Vice-Président"
-        },
-        "organes": {
-          "organeRef": "PO675743"
-        }
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
         "uid": "PM705483",
         "acteurRef": "PA345937",
         "legislature": "14",
@@ -441,6 +421,26 @@
         },
         "organes": {
           "organeRef": "PO704848"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM695220",
+        "acteurRef": "PA345937",
+        "legislature": "14",
+        "typeOrgane": "GEVI",
+        "dateDebut": "2013-06-12",
+        "datePublication": null,
+        "dateFin": "2017-06-20",
+        "preseance": "8",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Vice-Président",
+          "libQualite": "Vice-Président",
+          "libQualiteSex": "Vice-Président"
+        },
+        "organes": {
+          "organeRef": "PO675743"
         }
       },
       {
@@ -2827,53 +2827,6 @@
         }
       },
       {
-        "@xsi:type": "MandatParlementaire_type",
-        "uid": "PM645177",
-        "acteurRef": "PA345937",
-        "legislature": "14",
-        "typeOrgane": "ASSEMBLEE",
-        "dateDebut": "2012-06-20",
-        "datePublication": null,
-        "dateFin": "2017-06-20",
-        "preseance": "50",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "membre",
-          "libQualite": "membre",
-          "libQualiteSex": "membre"
-        },
-        "organes": {
-          "organeRef": "PO644420"
-        },
-        "suppleants": {
-          "suppleant": {
-            "dateDebut": "2012-06-20",
-            "dateFin": "2017-06-20",
-            "suppleantRef": "PA642997"
-          }
-        },
-        "chambre": null,
-        "election": {
-          "lieu": {
-            "region": "Ile-de-France",
-            "regionType": "Métropolitain",
-            "departement": "Yvelines",
-            "numDepartement": "78",
-            "numCirco": "10"
-          },
-          "causeMandat": "élections générales",
-          "refCirconscription": "PO644867"
-        },
-        "mandature": {
-          "datePriseFonction": "2012-06-20",
-          "causeFin": "Fin de législature",
-          "premiereElection": "1",
-          "placeHemicycle": null,
-          "mandatRemplaceRef": null
-        },
-        "collaborateurs": null
-      },
-      {
         "@xsi:type": "MandatSimple_Type",
         "uid": "PM408362",
         "acteurRef": "PA345937",
@@ -2972,6 +2925,53 @@
         "organes": {
           "organeRef": "PO686424"
         }
+      },
+      {
+        "@xsi:type": "MandatParlementaire_type",
+        "uid": "PM645177",
+        "acteurRef": "PA345937",
+        "legislature": "14",
+        "typeOrgane": "ASSEMBLEE",
+        "dateDebut": "2012-06-20",
+        "datePublication": null,
+        "dateFin": "2017-06-20",
+        "preseance": "50",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "membre",
+          "libQualite": "membre",
+          "libQualiteSex": "membre"
+        },
+        "organes": {
+          "organeRef": "PO644420"
+        },
+        "suppleants": {
+          "suppleant": {
+            "dateDebut": "2012-06-20",
+            "dateFin": "2017-06-20",
+            "suppleantRef": "PA642997"
+          }
+        },
+        "chambre": null,
+        "election": {
+          "lieu": {
+            "region": "Ile-de-France",
+            "regionType": "Métropolitain",
+            "departement": "Yvelines",
+            "numDepartement": "78",
+            "numCirco": "10"
+          },
+          "causeMandat": "élections générales",
+          "refCirconscription": "PO644867"
+        },
+        "mandature": {
+          "datePriseFonction": "2012-06-20",
+          "causeFin": "Fin de législature",
+          "premiereElection": "1",
+          "placeHemicycle": null,
+          "mandatRemplaceRef": null
+        },
+        "collaborateurs": null
       },
       {
         "@xsi:type": "MandatSimple_Type",

@@ -222,46 +222,6 @@
       },
       {
         "@xsi:type": "MandatSimple_Type",
-        "uid": "PM753935",
-        "acteurRef": "PA720878",
-        "legislature": "15",
-        "typeOrgane": "GEVI",
-        "dateDebut": "2018-03-20",
-        "datePublication": null,
-        "dateFin": "2022-06-21",
-        "preseance": "20",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Membre",
-          "libQualite": "Membre",
-          "libQualiteSex": "Membre"
-        },
-        "organes": {
-          "organeRef": "PO733047"
-        }
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM735522",
-        "acteurRef": "PA720878",
-        "legislature": "15",
-        "typeOrgane": "GEVI",
-        "dateDebut": "2017-09-28",
-        "datePublication": null,
-        "dateFin": "2022-06-21",
-        "preseance": "20",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Membre",
-          "libQualite": "Membre",
-          "libQualiteSex": "Membre"
-        },
-        "organes": {
-          "organeRef": "PO733462"
-        }
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
         "uid": "PM772035",
         "acteurRef": "PA720878",
         "legislature": "15",
@@ -322,6 +282,26 @@
         "libelle": null,
         "missionSuivanteRef": null,
         "missionPrecedenteRef": null
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM753935",
+        "acteurRef": "PA720878",
+        "legislature": "15",
+        "typeOrgane": "GEVI",
+        "dateDebut": "2018-03-20",
+        "datePublication": null,
+        "dateFin": "2022-06-21",
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO733047"
+        }
       },
       {
         "@xsi:type": "MandatMission_Type",
@@ -433,6 +413,26 @@
         },
         "organes": {
           "organeRef": "PO757134"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM735522",
+        "acteurRef": "PA720878",
+        "legislature": "15",
+        "typeOrgane": "GEVI",
+        "dateDebut": "2017-09-28",
+        "datePublication": null,
+        "dateFin": "2022-06-21",
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO733462"
         }
       },
       {
@@ -1756,53 +1756,6 @@
         "missionPrecedenteRef": null
       },
       {
-        "@xsi:type": "MandatParlementaire_type",
-        "uid": "PM723102",
-        "acteurRef": "PA720878",
-        "legislature": "15",
-        "typeOrgane": "ASSEMBLEE",
-        "dateDebut": "2017-06-18",
-        "datePublication": null,
-        "dateFin": "2022-06-21",
-        "preseance": "50",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "membre",
-          "libQualite": "membre",
-          "libQualiteSex": "membre"
-        },
-        "organes": {
-          "organeRef": "PO717460"
-        },
-        "suppleants": {
-          "suppleant": {
-            "dateDebut": "2017-06-18",
-            "dateFin": "2022-06-21",
-            "suppleantRef": "PA720882"
-          }
-        },
-        "chambre": null,
-        "election": {
-          "lieu": {
-            "region": "Ile-de-France",
-            "regionType": "Métropolitain",
-            "departement": "Val-de-Marne",
-            "numDepartement": "94",
-            "numCirco": "3"
-          },
-          "causeMandat": "élections générales",
-          "refCirconscription": "PO718452"
-        },
-        "mandature": {
-          "datePriseFonction": "2017-06-21",
-          "causeFin": "Fin de législature",
-          "premiereElection": "0",
-          "placeHemicycle": null,
-          "mandatRemplaceRef": null
-        },
-        "collaborateurs": null
-      },
-      {
         "@xsi:type": "MandatSimple_Type",
         "uid": "PM757162",
         "acteurRef": "PA720878",
@@ -1881,6 +1834,53 @@
         "organes": {
           "organeRef": "PO747220"
         }
+      },
+      {
+        "@xsi:type": "MandatParlementaire_type",
+        "uid": "PM723102",
+        "acteurRef": "PA720878",
+        "legislature": "15",
+        "typeOrgane": "ASSEMBLEE",
+        "dateDebut": "2017-06-18",
+        "datePublication": null,
+        "dateFin": "2022-06-21",
+        "preseance": "50",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "membre",
+          "libQualite": "membre",
+          "libQualiteSex": "membre"
+        },
+        "organes": {
+          "organeRef": "PO717460"
+        },
+        "suppleants": {
+          "suppleant": {
+            "dateDebut": "2017-06-18",
+            "dateFin": "2022-06-21",
+            "suppleantRef": "PA720882"
+          }
+        },
+        "chambre": null,
+        "election": {
+          "lieu": {
+            "region": "Ile-de-France",
+            "regionType": "Métropolitain",
+            "departement": "Val-de-Marne",
+            "numDepartement": "94",
+            "numCirco": "3"
+          },
+          "causeMandat": "élections générales",
+          "refCirconscription": "PO718452"
+        },
+        "mandature": {
+          "datePriseFonction": "2017-06-21",
+          "causeFin": "Fin de législature",
+          "premiereElection": "0",
+          "placeHemicycle": null,
+          "mandatRemplaceRef": null
+        },
+        "collaborateurs": null
       },
       {
         "@xsi:type": "MandatSimple_Type",
