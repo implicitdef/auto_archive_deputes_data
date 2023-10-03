@@ -192,6 +192,26 @@
       },
       {
         "@xsi:type": "MandatSimple_Type",
+        "uid": "PM827535",
+        "acteurRef": "PA719190",
+        "legislature": "16",
+        "typeOrgane": "GA",
+        "dateDebut": "2023-10-02",
+        "datePublication": null,
+        "dateFin": null,
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO807461"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
         "uid": "PM826849",
         "acteurRef": "PA719190",
         "legislature": "16",
@@ -250,13 +270,22 @@
           "mandatRemplaceRef": null
         },
         "collaborateurs": {
-          "collaborateur": {
-            "qualite": "M.",
-            "prenom": "Alexandre",
-            "nom": "Kuntzmann",
-            "dateDebut": null,
-            "dateFin": null
-          }
+          "collaborateur": [
+            {
+              "qualite": "M.",
+              "prenom": "Alexandre",
+              "nom": "Kuntzmann",
+              "dateDebut": null,
+              "dateFin": null
+            },
+            {
+              "qualite": "M.",
+              "prenom": "Antoine",
+              "nom": "Guiony",
+              "dateDebut": null,
+              "dateFin": null
+            }
+          ]
         }
       }
     ]
