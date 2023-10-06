@@ -209,3 +209,7 @@ export function unnestDirContents(folderA: string): void {
   }
   rmDirIfExists(folderBPath)
 }
+
+export function getLast<A>(arr: A[]): A | undefined {
+  return arr[arr.length - 1]
+}
