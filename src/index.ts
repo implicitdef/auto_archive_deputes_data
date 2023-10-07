@@ -1,3 +1,4 @@
+import 'dotenv/config'
 import { fetchAnOpenData } from './anopendata/fetchAnOpenData'
 import { fetchElectionsPartiellesFromMinistere } from './electionsPartiellesFromMinistereInterieur'
 import { fetchElectionsPartiellesFromWikipedia } from './electionsPartiellesFromWikipedia'
@@ -8,6 +9,7 @@ import {
   nosdeputesFetchWeeklyStats,
 } from './nosdeputesFetch'
 import { fetchWikipediaParagraphs } from './wikipedia/fetchWikipediaParagraphs'
+import { createWikipediaSummaries } from './wikipedia/fetchWikipediaSummaries'
 import { fetchWikipediaUrls } from './wikipedia/fetchWikipediaUrls'
 
 type Command =
@@ -17,6 +19,7 @@ type Command =
   | 'fetch_photos'
   | 'update_wikipedia_urls'
   | 'update_wikipedia_paragraphs'
+  | 'update_wikipedia_summaries'
   | 'update_wikipedia_affaires'
   | 'update_elections_partielles'
 
@@ -42,6 +45,9 @@ async function start() {
       break
     case 'update_wikipedia_paragraphs':
       await fetchWikipediaParagraphs()
+      break
+    case 'update_wikipedia_summaries':
+      await createWikipediaSummaries()
       break
     case 'update_wikipedia_affaires':
       // unused for now, needs lot of rework
@@ -90,6 +96,9 @@ function readCommandArgument(): Command {
   }
   if (args.includes('update_wikipedia_paragraphs')) {
     return 'update_wikipedia_paragraphs'
+  }
+  if (args.includes('update_wikipedia_summaries')) {
+    return 'update_wikipedia_summaries'
   }
   if (args.includes('update_elections_partielles')) {
     return 'update_elections_partielles'

@@ -18,7 +18,7 @@ import {
 } from './wikipediaTreeUtils'
 import { SimplifiedTree, simplifyTree } from './wikipediaSimplifiedTreeUtils'
 
-const WIKIPEDIA_DATA_DIR = path.join(DATA_DIR, 'wikipedia')
+export const WIKIPEDIA_DATA_DIR = path.join(DATA_DIR, 'wikipedia')
 export const WIKIPEDIA_PARAGRAPHS_DATA_DIR = path.join(
   WIKIPEDIA_DATA_DIR,
   'paragraphs',
@@ -92,6 +92,10 @@ const titlesToRemove = [
   'Filmographie',
   'Discographie',
   'Ouvrages',
+  'Ouvrages et expositions',
+  'Expositions photographiques',
+  'Ouvrages photographiques',
+  'Dans la fiction',
   'Documentaires',
   'Articles connexes',
   'Liens externes',

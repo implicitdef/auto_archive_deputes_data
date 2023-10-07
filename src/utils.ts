@@ -2,6 +2,7 @@ import { execSync } from 'child_process'
 import fs from 'fs'
 import path from 'path'
 import JSON5 from 'json5'
+import yaml from 'js-yaml'
 import fetch from 'node-fetch'
 import StreamZip from 'node-stream-zip'
 
@@ -82,11 +83,11 @@ export function readFileAsString(filePath: string): string {
 }
 
 export function readFileAsJson5(filePath: string): any {
-  return JSON5.parse(
-    fs.readFileSync(filePath, {
-      encoding: 'utf8',
-    }),
-  )
+  return JSON5.parse(readFileAsString(filePath))
+}
+
+export function readFileAsYaml(filePath: string): any {
+  return yaml.load(readFileAsString(filePath))
 }
 
 export function readFilesInSubdir(subDir: string): string[] {
@@ -212,4 +213,11 @@ export function unnestDirContents(folderA: string): void {
 
 export function getLast<A>(arr: A[]): A | undefined {
   return arr[arr.length - 1]
+}
+
+export function sum(arr: number[]) {
+  if (arr.length === 0) {
+    return 0
+  }
+  return arr.reduce((acc, curr) => acc + curr, 0)
 }
