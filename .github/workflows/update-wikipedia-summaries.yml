@@ -1,9 +1,10 @@
 on:
   workflow_dispatch:
-  schedule:
-    # this job is very slow AND expensive
-    - cron: '0 5 * * 5' # every Friday at 5:00 AM
-    # so a few hours after the wikipedia paragraphs job
+  # DISABLED FOR NOW. I want to do all affaires_manual, then start this job again to update affaires_manual periodically
+  # schedule:
+  #   # this job is very slow AND expensive
+  #   - cron: '0 5 * * 5' # every Friday at 5:00 AM
+  #   # so a few hours after the wikipedia paragraphs job
 
 jobs:
   main-job:
