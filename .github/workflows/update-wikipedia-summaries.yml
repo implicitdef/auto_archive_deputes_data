@@ -1,8 +1,9 @@
 on:
   workflow_dispatch:
   schedule:
-    # this job is pretty slow, we don't need to run it that often
-    - cron: '15 2 * * 5' # every Friday at 2:15 AM (so a bit after the wikipedia urls job)
+    # this job is very slow AND expensive
+    - cron: '0 5 * * 5' # every Friday at 5:00 AM
+    # so a few hours after the wikipedia paragraphs job
 
 jobs:
   main-job:
@@ -18,7 +19,7 @@ jobs:
       - run: node --version
       - run: yarn --version
       - run: yarn install --frozen-lockfile
-      - run: yarn start update_wikipedia_paragraphs
+      - run: yarn start update_wikipedia_summaries
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
       - uses: stefanzweifel/git-auto-commit-action@v4
