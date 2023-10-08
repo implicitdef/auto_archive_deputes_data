@@ -16,6 +16,8 @@ jobs:
           cache: 'yarn'
       - run: yarn install --frozen-lockfile
       - run: yarn start update_elections_partielles
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: Auto commit of elections partielles data from interieur.gouv.fr

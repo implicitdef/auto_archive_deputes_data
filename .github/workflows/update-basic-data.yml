@@ -18,6 +18,8 @@ jobs:
       - run: yarn --version
       - run: yarn install --frozen-lockfile
       - run: yarn start update_nosdeputes_basic_data --latestLegislatureOnly
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: Auto commit of basic deputes data from NosDeputes.fr
