@@ -47,6 +47,6 @@ function extractFileName(filePath: string): string {
 function copyToFolder(filePath: string, dirName: string) {
   const fileName = extractFileName(filePath)
   const targetPath = path.join(dirName, extractFileName(filePath))
-  console.log(`Copying ${fileName}`)
+  console.log(`Copying to ${targetPath}`)
   copyFileSync(filePath, targetPath)
 }
