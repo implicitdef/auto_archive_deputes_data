@@ -246,52 +246,6 @@
         }
       },
       {
-        "@xsi:type": "MandatMission_Type",
-        "uid": "PM806172",
-        "acteurRef": "PA722344",
-        "legislature": "16",
-        "typeOrgane": "MISINFO",
-        "dateDebut": "2022-11-23",
-        "datePublication": null,
-        "dateFin": "2023-06-28",
-        "preseance": "10",
-        "nominPrincipale": "0",
-        "infosQualite": {
-          "codeQualite": "Membre",
-          "libQualite": "Membre",
-          "libQualiteSex": "Membre"
-        },
-        "organes": {
-          "organeRef": "PO806169"
-        },
-        "libelle": null,
-        "missionSuivanteRef": null,
-        "missionPrecedenteRef": null
-      },
-      {
-        "@xsi:type": "MandatMission_Type",
-        "uid": "PM806174",
-        "acteurRef": "PA722344",
-        "legislature": "16",
-        "typeOrgane": "MISINFO",
-        "dateDebut": "2022-11-23",
-        "datePublication": null,
-        "dateFin": "2023-06-28",
-        "preseance": "5",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Co-rapporteur",
-          "libQualite": "Co-rapporteur",
-          "libQualiteSex": "Co-rapporteur"
-        },
-        "organes": {
-          "organeRef": "PO806169"
-        },
-        "libelle": null,
-        "missionSuivanteRef": null,
-        "missionPrecedenteRef": null
-      },
-      {
         "@xsi:type": "MandatSimple_Type",
         "uid": "PM808716",
         "acteurRef": "PA722344",
@@ -350,6 +304,52 @@
         "organes": {
           "organeRef": "PO733462"
         }
+      },
+      {
+        "@xsi:type": "MandatMission_Type",
+        "uid": "PM806172",
+        "acteurRef": "PA722344",
+        "legislature": "16",
+        "typeOrgane": "MISINFO",
+        "dateDebut": "2022-11-23",
+        "datePublication": null,
+        "dateFin": "2023-06-28",
+        "preseance": "10",
+        "nominPrincipale": "0",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO806169"
+        },
+        "libelle": null,
+        "missionSuivanteRef": null,
+        "missionPrecedenteRef": null
+      },
+      {
+        "@xsi:type": "MandatMission_Type",
+        "uid": "PM806174",
+        "acteurRef": "PA722344",
+        "legislature": "16",
+        "typeOrgane": "MISINFO",
+        "dateDebut": "2022-11-23",
+        "datePublication": null,
+        "dateFin": "2023-06-28",
+        "preseance": "5",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Co-rapporteur",
+          "libQualite": "Co-rapporteur",
+          "libQualiteSex": "Co-rapporteur"
+        },
+        "organes": {
+          "organeRef": "PO806169"
+        },
+        "libelle": null,
+        "missionSuivanteRef": null,
+        "missionPrecedenteRef": null
       },
       {
         "@xsi:type": "MandatSimple_Type",
@@ -712,6 +712,46 @@
         }
       },
       {
+        "@xsi:type": "MandatParlementaire_type",
+        "uid": "PM823687",
+        "acteurRef": "PA722344",
+        "legislature": "16",
+        "typeOrgane": "BUREAU",
+        "dateDebut": "2023-05-10",
+        "datePublication": null,
+        "dateFin": "2023-10-02",
+        "preseance": "25",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Secrétaire",
+          "libQualite": "Secrétaire de l'Assemblée nationale",
+          "libQualiteSex": "Secrétaire de l'Assemblée nationale"
+        },
+        "organes": {
+          "organeRef": "PO800442"
+        },
+        "suppleants": null,
+        "chambre": null,
+        "election": {
+          "lieu": {
+            "region": null,
+            "regionType": null,
+            "departement": null,
+            "numDepartement": null,
+            "numCirco": null
+          },
+          "causeMandat": null
+        },
+        "mandature": {
+          "datePriseFonction": null,
+          "causeFin": null,
+          "premiereElection": "0",
+          "placeHemicycle": null,
+          "mandatRemplaceRef": null
+        },
+        "collaborateurs": null
+      },
+      {
         "@xsi:type": "MandatSimple_Type",
         "uid": "PM764268",
         "acteurRef": "PA722344",
@@ -790,46 +830,6 @@
         "organes": {
           "organeRef": "PO756933"
         }
-      },
-      {
-        "@xsi:type": "MandatParlementaire_type",
-        "uid": "PM823687",
-        "acteurRef": "PA722344",
-        "legislature": "16",
-        "typeOrgane": "BUREAU",
-        "dateDebut": "2023-05-10",
-        "datePublication": null,
-        "dateFin": "2023-10-02",
-        "preseance": "25",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Secrétaire",
-          "libQualite": "Secrétaire de l'Assemblée nationale",
-          "libQualiteSex": "Secrétaire de l'Assemblée nationale"
-        },
-        "organes": {
-          "organeRef": "PO800442"
-        },
-        "suppleants": null,
-        "chambre": null,
-        "election": {
-          "lieu": {
-            "region": null,
-            "regionType": null,
-            "departement": null,
-            "numDepartement": null,
-            "numCirco": null
-          },
-          "causeMandat": null
-        },
-        "mandature": {
-          "datePriseFonction": null,
-          "causeFin": null,
-          "premiereElection": "0",
-          "placeHemicycle": null,
-          "mandatRemplaceRef": null
-        },
-        "collaborateurs": null
       },
       {
         "@xsi:type": "MandatSimple_Type",

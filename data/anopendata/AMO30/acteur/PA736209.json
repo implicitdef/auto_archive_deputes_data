@@ -59,6 +59,27 @@
   "mandats": {
     "mandat": [
       {
+        "@xsi:type": "MandatAvecSuppleant_Type",
+        "uid": "PM742809",
+        "acteurRef": "PA736209",
+        "legislature": null,
+        "typeOrgane": "OFFPAR",
+        "dateDebut": "2017-11-09",
+        "datePublication": "2017-11-10",
+        "dateFin": null,
+        "preseance": "24",
+        "nominPrincipale": "0",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO273589"
+        },
+        "suppleants": null
+      },
+      {
         "@xsi:type": "MandatSimple_Type",
         "uid": "PM770283",
         "acteurRef": "PA736209",
@@ -97,27 +118,6 @@
         "organes": {
           "organeRef": "PO748821"
         }
-      },
-      {
-        "@xsi:type": "MandatAvecSuppleant_Type",
-        "uid": "PM742809",
-        "acteurRef": "PA736209",
-        "legislature": null,
-        "typeOrgane": "OFFPAR",
-        "dateDebut": "2017-11-09",
-        "datePublication": "2017-11-10",
-        "dateFin": null,
-        "preseance": "24",
-        "nominPrincipale": "0",
-        "infosQualite": {
-          "codeQualite": "Membre",
-          "libQualite": "Membre",
-          "libQualiteSex": "Membre"
-        },
-        "organes": {
-          "organeRef": "PO273589"
-        },
-        "suppleants": null
       },
       {
         "@xsi:type": "MandatSimple_Type",
@@ -501,46 +501,6 @@
         }
       },
       {
-        "@xsi:type": "MandatParlementaire_type",
-        "uid": "PM736400",
-        "acteurRef": "PA736209",
-        "legislature": null,
-        "typeOrgane": "SENAT",
-        "dateDebut": "2017-10-02",
-        "datePublication": null,
-        "dateFin": null,
-        "preseance": "20",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Sénateur",
-          "libQualite": "SENATEUR",
-          "libQualiteSex": "Sénateur 5ème République"
-        },
-        "organes": {
-          "organeRef": "PO78718"
-        },
-        "suppleants": null,
-        "chambre": null,
-        "election": {
-          "lieu": {
-            "region": null,
-            "regionType": null,
-            "departement": null,
-            "numDepartement": "46",
-            "numCirco": null
-          },
-          "causeMandat": null
-        },
-        "mandature": {
-          "datePriseFonction": null,
-          "causeFin": null,
-          "premiereElection": "0",
-          "placeHemicycle": null,
-          "mandatRemplaceRef": null
-        },
-        "collaborateurs": null
-      },
-      {
         "@xsi:type": "MandatSimple_Type",
         "uid": "PM756795",
         "acteurRef": "PA736209",
@@ -579,6 +539,46 @@
         "organes": {
           "organeRef": "PO763218"
         }
+      },
+      {
+        "@xsi:type": "MandatParlementaire_type",
+        "uid": "PM736400",
+        "acteurRef": "PA736209",
+        "legislature": null,
+        "typeOrgane": "SENAT",
+        "dateDebut": "2017-10-02",
+        "datePublication": null,
+        "dateFin": "2023-10-01",
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Sénateur",
+          "libQualite": "SENATEUR",
+          "libQualiteSex": "Sénateur 5ème République"
+        },
+        "organes": {
+          "organeRef": "PO78718"
+        },
+        "suppleants": null,
+        "chambre": null,
+        "election": {
+          "lieu": {
+            "region": null,
+            "regionType": null,
+            "departement": null,
+            "numDepartement": "46",
+            "numCirco": null
+          },
+          "causeMandat": null
+        },
+        "mandature": {
+          "datePriseFonction": null,
+          "causeFin": null,
+          "premiereElection": "0",
+          "placeHemicycle": null,
+          "mandatRemplaceRef": null
+        },
+        "collaborateurs": null
       }
     ]
   }

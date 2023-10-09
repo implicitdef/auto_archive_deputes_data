@@ -8,7 +8,7 @@
       "civ": "Mme",
       "prenom": "Annick",
       "nom": "Girardin",
-      "alpha": "GirardinA",
+      "alpha": "Girardin_annick",
       "trigramme": {
         "@xsi:nil": "true"
       }
@@ -75,6 +75,15 @@
         "poids": null,
         "adresseDeRattachement": null,
         "valElec": "www.annickgirardin.net"
+      },
+      {
+        "@xsi:type": "AdresseSiteWeb_Type",
+        "uid": "AD828084",
+        "type": "23",
+        "typeLibelle": "Url sénateur",
+        "poids": null,
+        "adresseDeRattachement": null,
+        "valElec": "https://www.senat.fr/senateur/girardin_annick21032x.html"
       }
     ]
   },
@@ -443,27 +452,24 @@
         }
       },
       {
-        "@xsi:type": "MandatMission_Type",
-        "uid": "PM688406",
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM828920",
         "acteurRef": "PA337633",
-        "legislature": "14",
-        "typeOrgane": "MISINFO",
-        "dateDebut": "2012-12-05",
-        "datePublication": "2012-12-06",
-        "dateFin": "2014-05-09",
-        "preseance": "10",
+        "legislature": null,
+        "typeOrgane": "GROUPESENAT",
+        "dateDebut": "2023-10-03",
+        "datePublication": null,
+        "dateFin": null,
+        "preseance": "4",
         "nominPrincipale": "1",
         "infosQualite": {
           "codeQualite": "Membre",
           "libQualite": "Membre",
-          "libQualiteSex": "Membre"
+          "libQualiteSex": "Membre du"
         },
         "organes": {
-          "organeRef": "PO683565"
-        },
-        "libelle": null,
-        "missionSuivanteRef": null,
-        "missionPrecedenteRef": null
+          "organeRef": "PO77714"
+        }
       },
       {
         "@xsi:type": "MandatSimple_Type",
@@ -507,6 +513,26 @@
       },
       {
         "@xsi:type": "MandatSimple_Type",
+        "uid": "PM828918",
+        "acteurRef": "PA337633",
+        "legislature": null,
+        "typeOrgane": "COMSENAT",
+        "dateDebut": "2023-10-04",
+        "datePublication": null,
+        "dateFin": null,
+        "preseance": "10",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO211490"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
         "uid": "PM404411",
         "acteurRef": "PA337633",
         "legislature": "13",
@@ -524,6 +550,29 @@
         "organes": {
           "organeRef": "PO393433"
         }
+      },
+      {
+        "@xsi:type": "MandatMission_Type",
+        "uid": "PM688406",
+        "acteurRef": "PA337633",
+        "legislature": "14",
+        "typeOrgane": "MISINFO",
+        "dateDebut": "2012-12-05",
+        "datePublication": "2012-12-06",
+        "dateFin": "2014-05-09",
+        "preseance": "10",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO683565"
+        },
+        "libelle": null,
+        "missionSuivanteRef": null,
+        "missionPrecedenteRef": null
       },
       {
         "@xsi:type": "MandatSimple_Type",
@@ -2225,6 +2274,46 @@
         "organes": {
           "organeRef": "PO393338"
         }
+      },
+      {
+        "@xsi:type": "MandatParlementaire_type",
+        "uid": "PM828916",
+        "acteurRef": "PA337633",
+        "legislature": null,
+        "typeOrgane": "SENAT",
+        "dateDebut": "2023-10-02",
+        "datePublication": null,
+        "dateFin": null,
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Sénateur",
+          "libQualite": "SENATEUR",
+          "libQualiteSex": "Sénateur 5ème République"
+        },
+        "organes": {
+          "organeRef": "PO78718"
+        },
+        "suppleants": null,
+        "chambre": null,
+        "election": {
+          "lieu": {
+            "region": null,
+            "regionType": null,
+            "departement": null,
+            "numDepartement": "975",
+            "numCirco": null
+          },
+          "causeMandat": null
+        },
+        "mandature": {
+          "datePriseFonction": null,
+          "causeFin": null,
+          "premiereElection": "0",
+          "placeHemicycle": null,
+          "mandatRemplaceRef": null
+        },
+        "collaborateurs": null
       },
       {
         "@xsi:type": "MandatSimple_Type",

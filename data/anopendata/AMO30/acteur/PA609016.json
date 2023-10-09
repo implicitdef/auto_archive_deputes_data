@@ -299,6 +299,26 @@
         }
       },
       {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM703137",
+        "acteurRef": "PA609016",
+        "legislature": "14",
+        "typeOrgane": "CNPS",
+        "dateDebut": "2014-09-09",
+        "datePublication": "2014-09-10",
+        "dateFin": "2015-08-18",
+        "preseance": "16",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Rapporteur",
+          "libQualite": "Rapporteur",
+          "libQualiteSex": "Rapporteur"
+        },
+        "organes": {
+          "organeRef": "PO702808"
+        }
+      },
+      {
         "@xsi:type": "MandatMission_Type",
         "uid": "PM710321",
         "acteurRef": "PA609016",
@@ -320,26 +340,6 @@
         "libelle": null,
         "missionSuivanteRef": null,
         "missionPrecedenteRef": null
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM703137",
-        "acteurRef": "PA609016",
-        "legislature": "14",
-        "typeOrgane": "CNPS",
-        "dateDebut": "2014-09-09",
-        "datePublication": "2014-09-10",
-        "dateFin": "2015-08-18",
-        "preseance": "16",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Rapporteur",
-          "libQualite": "Rapporteur",
-          "libQualiteSex": "Rapporteur"
-        },
-        "organes": {
-          "organeRef": "PO702808"
-        }
       },
       {
         "@xsi:type": "MandatSimple_Type",
@@ -542,46 +542,6 @@
         }
       },
       {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM696840",
-        "acteurRef": "PA609016",
-        "legislature": "14",
-        "typeOrgane": "ORGEXTPARL",
-        "dateDebut": "2013-09-05",
-        "datePublication": "2013-09-06",
-        "dateFin": "2017-06-20",
-        "preseance": "20",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Titulaire",
-          "libQualite": "Membre titulaire",
-          "libQualiteSex": "Membre titulaire"
-        },
-        "organes": {
-          "organeRef": "PO696836"
-        }
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM678269",
-        "acteurRef": "PA609016",
-        "legislature": "14",
-        "typeOrgane": "ORGEXTPARL",
-        "dateDebut": "2012-09-21",
-        "datePublication": "2012-09-22",
-        "dateFin": "2017-06-20",
-        "preseance": "20",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Titulaire",
-          "libQualite": "Membre titulaire",
-          "libQualiteSex": "Membre titulaire"
-        },
-        "organes": {
-          "organeRef": "PO60170"
-        }
-      },
-      {
         "@xsi:type": "MandatParlementaire_type",
         "uid": "PM656841",
         "acteurRef": "PA609016",
@@ -620,6 +580,46 @@
           "mandatRemplaceRef": null
         },
         "collaborateurs": null
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM696840",
+        "acteurRef": "PA609016",
+        "legislature": "14",
+        "typeOrgane": "ORGEXTPARL",
+        "dateDebut": "2013-09-05",
+        "datePublication": "2013-09-06",
+        "dateFin": "2017-06-20",
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Titulaire",
+          "libQualite": "Membre titulaire",
+          "libQualiteSex": "Membre titulaire"
+        },
+        "organes": {
+          "organeRef": "PO696836"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM678269",
+        "acteurRef": "PA609016",
+        "legislature": "14",
+        "typeOrgane": "ORGEXTPARL",
+        "dateDebut": "2012-09-21",
+        "datePublication": "2012-09-22",
+        "dateFin": "2017-06-20",
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Titulaire",
+          "libQualite": "Membre titulaire",
+          "libQualiteSex": "Membre titulaire"
+        },
+        "organes": {
+          "organeRef": "PO60170"
+        }
       },
       {
         "@xsi:type": "MandatSimple_Type",
@@ -942,53 +942,6 @@
         }
       },
       {
-        "@xsi:type": "MandatParlementaire_type",
-        "uid": "PM645074",
-        "acteurRef": "PA609016",
-        "legislature": "14",
-        "typeOrgane": "ASSEMBLEE",
-        "dateDebut": "2012-06-20",
-        "datePublication": null,
-        "dateFin": "2017-06-20",
-        "preseance": "50",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "membre",
-          "libQualite": "membre",
-          "libQualiteSex": "membre"
-        },
-        "organes": {
-          "organeRef": "PO644420"
-        },
-        "suppleants": {
-          "suppleant": {
-            "dateDebut": "2012-06-20",
-            "dateFin": "2017-06-20",
-            "suppleantRef": "PA642936"
-          }
-        },
-        "chambre": null,
-        "election": {
-          "lieu": {
-            "region": "Ile-de-France",
-            "regionType": "Métropolitain",
-            "departement": "Paris",
-            "numDepartement": "75",
-            "numCirco": "10"
-          },
-          "causeMandat": "élections générales",
-          "refCirconscription": "PO644825"
-        },
-        "mandature": {
-          "datePriseFonction": "2012-06-20",
-          "causeFin": "Fin de législature",
-          "premiereElection": "0",
-          "placeHemicycle": null,
-          "mandatRemplaceRef": null
-        },
-        "collaborateurs": null
-      },
-      {
         "@xsi:type": "MandatSimple_Type",
         "uid": "PM692170",
         "acteurRef": "PA609016",
@@ -1047,6 +1000,53 @@
         "organes": {
           "organeRef": "PO687098"
         }
+      },
+      {
+        "@xsi:type": "MandatParlementaire_type",
+        "uid": "PM645074",
+        "acteurRef": "PA609016",
+        "legislature": "14",
+        "typeOrgane": "ASSEMBLEE",
+        "dateDebut": "2012-06-20",
+        "datePublication": null,
+        "dateFin": "2017-06-20",
+        "preseance": "50",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "membre",
+          "libQualite": "membre",
+          "libQualiteSex": "membre"
+        },
+        "organes": {
+          "organeRef": "PO644420"
+        },
+        "suppleants": {
+          "suppleant": {
+            "dateDebut": "2012-06-20",
+            "dateFin": "2017-06-20",
+            "suppleantRef": "PA642936"
+          }
+        },
+        "chambre": null,
+        "election": {
+          "lieu": {
+            "region": "Ile-de-France",
+            "regionType": "Métropolitain",
+            "departement": "Paris",
+            "numDepartement": "75",
+            "numCirco": "10"
+          },
+          "causeMandat": "élections générales",
+          "refCirconscription": "PO644825"
+        },
+        "mandature": {
+          "datePriseFonction": "2012-06-20",
+          "causeFin": "Fin de législature",
+          "premiereElection": "0",
+          "placeHemicycle": null,
+          "mandatRemplaceRef": null
+        },
+        "collaborateurs": null
       },
       {
         "@xsi:type": "MandatSimple_Type",

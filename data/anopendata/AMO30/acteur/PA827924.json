@@ -1,0 +1,143 @@
+{
+  "uid": {
+    "@xsi:type": "IdActeur_type",
+    "#text": "PA827924"
+  },
+  "etatCivil": {
+    "ident": {
+      "civ": "M.",
+      "prenom": "Christophe",
+      "nom": "Chaillou",
+      "alpha": "Chaillou_christophe",
+      "trigramme": {
+        "@xsi:nil": "true"
+      }
+    },
+    "infoNaissance": {
+      "dateNais": "1964-11-13",
+      "villeNais": {
+        "@xsi:nil": "true"
+      },
+      "depNais": {
+        "@xsi:nil": "true"
+      },
+      "paysNais": {
+        "@xsi:nil": "true"
+      }
+    },
+    "dateDeces": {
+      "@xsi:nil": "true"
+    }
+  },
+  "profession": {
+    "libelleCourant": {
+      "@xsi:nil": "true"
+    },
+    "socProcINSEE": {
+      "catSocPro": {
+        "@xsi:nil": "true"
+      },
+      "famSocPro": {
+        "@xsi:nil": "true"
+      }
+    }
+  },
+  "uri_hatvp": {
+    "@xsi:nil": "true"
+  },
+  "adresses": {
+    "adresse": {
+      "@xsi:type": "AdresseSiteWeb_Type",
+      "uid": "AD828056",
+      "type": "23",
+      "typeLibelle": "Url sénateur",
+      "poids": null,
+      "adresseDeRattachement": null,
+      "valElec": "https://www.senat.fr/senateur/chaillou_christophe21057h.html"
+    }
+  },
+  "mandats": {
+    "mandat": [
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM828554",
+        "acteurRef": "PA827924",
+        "legislature": null,
+        "typeOrgane": "GROUPESENAT",
+        "dateDebut": "2023-10-03",
+        "datePublication": null,
+        "dateFin": null,
+        "preseance": "4",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO77710"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM828552",
+        "acteurRef": "PA827924",
+        "legislature": null,
+        "typeOrgane": "COMSENAT",
+        "dateDebut": "2023-10-04",
+        "datePublication": null,
+        "dateFin": null,
+        "preseance": "10",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO211495"
+        }
+      },
+      {
+        "@xsi:type": "MandatParlementaire_type",
+        "uid": "PM828550",
+        "acteurRef": "PA827924",
+        "legislature": null,
+        "typeOrgane": "SENAT",
+        "dateDebut": "2023-10-02",
+        "datePublication": null,
+        "dateFin": null,
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Sénateur",
+          "libQualite": "SENATEUR",
+          "libQualiteSex": "SENATEUR"
+        },
+        "organes": {
+          "organeRef": "PO78718"
+        },
+        "suppleants": null,
+        "chambre": null,
+        "election": {
+          "lieu": {
+            "region": null,
+            "regionType": null,
+            "departement": null,
+            "numDepartement": "45",
+            "numCirco": null
+          },
+          "causeMandat": null
+        },
+        "mandature": {
+          "datePriseFonction": null,
+          "causeFin": null,
+          "premiereElection": "0",
+          "placeHemicycle": null,
+          "mandatRemplaceRef": null
+        },
+        "collaborateurs": null
+      }
+    ]
+  }
+}

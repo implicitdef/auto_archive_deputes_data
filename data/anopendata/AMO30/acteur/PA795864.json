@@ -126,6 +126,26 @@
         }
       },
       {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM826460",
+        "acteurRef": "PA795864",
+        "legislature": "16",
+        "typeOrgane": "CNPS",
+        "dateDebut": "2023-07-14",
+        "datePublication": "2023-07-14",
+        "dateFin": null,
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO826232"
+        }
+      },
+      {
         "@xsi:type": "MandatMission_Type",
         "uid": "PM824289",
         "acteurRef": "PA795864",
@@ -147,26 +167,6 @@
         "libelle": null,
         "missionSuivanteRef": null,
         "missionPrecedenteRef": null
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM826460",
-        "acteurRef": "PA795864",
-        "legislature": "16",
-        "typeOrgane": "CNPS",
-        "dateDebut": "2023-07-14",
-        "datePublication": "2023-07-14",
-        "dateFin": null,
-        "preseance": "20",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Membre",
-          "libQualite": "Membre",
-          "libQualiteSex": "Membre"
-        },
-        "organes": {
-          "organeRef": "PO826232"
-        }
       },
       {
         "@xsi:type": "MandatSimple_Type",
@@ -246,6 +246,26 @@
         },
         "organes": {
           "organeRef": "PO419865"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM816618",
+        "acteurRef": "PA795864",
+        "legislature": "16",
+        "typeOrgane": "CMP",
+        "dateDebut": "2023-01-24",
+        "datePublication": "2023-01-26",
+        "dateFin": "2023-02-07",
+        "preseance": "16",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Rapporteur",
+          "libQualite": "Rapporteur",
+          "libQualiteSex": "Rapporteur"
+        },
+        "organes": {
+          "organeRef": "PO814996"
         }
       },
       {
@@ -390,46 +410,6 @@
       },
       {
         "@xsi:type": "MandatSimple_Type",
-        "uid": "PM817045",
-        "acteurRef": "PA795864",
-        "legislature": "16",
-        "typeOrgane": "COMPER",
-        "dateDebut": "2023-01-28",
-        "datePublication": "2023-01-28",
-        "dateFin": "2023-01-30",
-        "preseance": "32",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Membre",
-          "libQualite": "Membre",
-          "libQualiteSex": "Membre"
-        },
-        "organes": {
-          "organeRef": "PO420120"
-        }
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM816618",
-        "acteurRef": "PA795864",
-        "legislature": "16",
-        "typeOrgane": "CMP",
-        "dateDebut": "2023-01-24",
-        "datePublication": "2023-01-26",
-        "dateFin": "2023-02-07",
-        "preseance": "16",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Rapporteur",
-          "libQualite": "Rapporteur",
-          "libQualiteSex": "Rapporteur"
-        },
-        "organes": {
-          "organeRef": "PO814996"
-        }
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
         "uid": "PM815678",
         "acteurRef": "PA795864",
         "legislature": "16",
@@ -446,6 +426,26 @@
         },
         "organes": {
           "organeRef": "PO814996"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM817045",
+        "acteurRef": "PA795864",
+        "legislature": "16",
+        "typeOrgane": "COMPER",
+        "dateDebut": "2023-01-28",
+        "datePublication": "2023-01-28",
+        "dateFin": "2023-01-30",
+        "preseance": "32",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO420120"
         }
       },
       {
@@ -755,13 +755,6 @@
         },
         "collaborateurs": {
           "collaborateur": [
-            {
-              "qualite": "M.",
-              "prenom": "Nicolas-Robert",
-              "nom": "Ballester",
-              "dateDebut": null,
-              "dateFin": null
-            },
             {
               "qualite": "M.",
               "prenom": "Kilien",

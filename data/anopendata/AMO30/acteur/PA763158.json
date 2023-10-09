@@ -60,26 +60,6 @@
     "mandat": [
       {
         "@xsi:type": "MandatSimple_Type",
-        "uid": "PM818405",
-        "acteurRef": "PA763158",
-        "legislature": null,
-        "typeOrgane": "COMSPSENAT",
-        "dateDebut": "2023-02-01",
-        "datePublication": null,
-        "dateFin": null,
-        "preseance": null,
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": null,
-          "libQualite": "Membre",
-          "libQualiteSex": null
-        },
-        "organes": {
-          "organeRef": "PO818371"
-        }
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
         "uid": "PM777734",
         "acteurRef": "PA763158",
         "legislature": null,
@@ -100,13 +80,33 @@
       },
       {
         "@xsi:type": "MandatSimple_Type",
+        "uid": "PM818405",
+        "acteurRef": "PA763158",
+        "legislature": null,
+        "typeOrgane": "COMSPSENAT",
+        "dateDebut": "2023-02-01",
+        "datePublication": null,
+        "dateFin": null,
+        "preseance": null,
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": null,
+          "libQualite": "Membre",
+          "libQualiteSex": null
+        },
+        "organes": {
+          "organeRef": "PO818371"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
         "uid": "PM763166",
         "acteurRef": "PA763158",
         "legislature": null,
         "typeOrgane": "COMSENAT",
         "dateDebut": "2019-03-06",
         "datePublication": null,
-        "dateFin": null,
+        "dateFin": "2023-10-01",
         "preseance": "10",
         "nominPrincipale": "1",
         "infosQualite": {
@@ -237,6 +237,46 @@
         "organes": {
           "organeRef": "PO286005"
         }
+      },
+      {
+        "@xsi:type": "MandatParlementaire_type",
+        "uid": "PM828414",
+        "acteurRef": "PA763158",
+        "legislature": null,
+        "typeOrgane": "SENAT",
+        "dateDebut": "2023-10-04",
+        "datePublication": null,
+        "dateFin": null,
+        "preseance": null,
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": null,
+          "libQualite": "Secrétaire",
+          "libQualiteSex": null
+        },
+        "organes": {
+          "organeRef": "PO78718"
+        },
+        "suppleants": null,
+        "chambre": null,
+        "election": {
+          "lieu": {
+            "region": null,
+            "regionType": null,
+            "departement": null,
+            "numDepartement": null,
+            "numCirco": null
+          },
+          "causeMandat": null
+        },
+        "mandature": {
+          "datePriseFonction": null,
+          "causeFin": null,
+          "premiereElection": "0",
+          "placeHemicycle": null,
+          "mandatRemplaceRef": null
+        },
+        "collaborateurs": null
       },
       {
         "@xsi:type": "MandatParlementaire_type",

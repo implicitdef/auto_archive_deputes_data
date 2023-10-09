@@ -1,0 +1,137 @@
+{
+  "uid": {
+    "@xsi:type": "IdActeur_type",
+    "#text": "PA267387"
+  },
+  "etatCivil": {
+    "ident": {
+      "civ": "M.",
+      "prenom": "Stéphane",
+      "nom": "Fouassin",
+      "alpha": "Fouassin_stephane",
+      "trigramme": {
+        "@xsi:nil": "true"
+      }
+    },
+    "infoNaissance": {
+      "dateNais": "1960-10-17",
+      "villeNais": {
+        "@xsi:nil": "true"
+      },
+      "depNais": {
+        "@xsi:nil": "true"
+      },
+      "paysNais": {
+        "@xsi:nil": "true"
+      }
+    },
+    "dateDeces": {
+      "@xsi:nil": "true"
+    }
+  },
+  "profession": {
+    "libelleCourant": "Médecin",
+    "socProcINSEE": {
+      "catSocPro": "Professions libérales et assimilés",
+      "famSocPro": "Cadres et professions intellectuelles supérieures"
+    }
+  },
+  "uri_hatvp": {
+    "@xsi:nil": "true"
+  },
+  "adresses": {
+    "adresse": {
+      "@xsi:type": "AdresseSiteWeb_Type",
+      "uid": "AD828082",
+      "type": "23",
+      "typeLibelle": "Url sénateur",
+      "poids": null,
+      "adresseDeRattachement": null,
+      "valElec": "https://www.senat.fr/senateur/fouassin_stephane21033y.html"
+    }
+  },
+  "mandats": {
+    "mandat": [
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM828372",
+        "acteurRef": "PA267387",
+        "legislature": null,
+        "typeOrgane": "COMSENAT",
+        "dateDebut": "2023-10-04",
+        "datePublication": null,
+        "dateFin": null,
+        "preseance": "10",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO516753"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM828374",
+        "acteurRef": "PA267387",
+        "legislature": null,
+        "typeOrgane": "GROUPESENAT",
+        "dateDebut": "2023-10-03",
+        "datePublication": null,
+        "dateFin": null,
+        "preseance": "8",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre apparenté",
+          "libQualite": "Membre apparenté",
+          "libQualiteSex": "Membre apparenté"
+        },
+        "organes": {
+          "organeRef": "PO732421"
+        }
+      },
+      {
+        "@xsi:type": "MandatParlementaire_type",
+        "uid": "PM828370",
+        "acteurRef": "PA267387",
+        "legislature": null,
+        "typeOrgane": "SENAT",
+        "dateDebut": "2023-10-02",
+        "datePublication": null,
+        "dateFin": null,
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Sénateur",
+          "libQualite": "SENATEUR",
+          "libQualiteSex": "SENATEUR"
+        },
+        "organes": {
+          "organeRef": "PO78718"
+        },
+        "suppleants": null,
+        "chambre": null,
+        "election": {
+          "lieu": {
+            "region": null,
+            "regionType": null,
+            "departement": null,
+            "numDepartement": "974",
+            "numCirco": null
+          },
+          "causeMandat": null
+        },
+        "mandature": {
+          "datePriseFonction": null,
+          "causeFin": null,
+          "premiereElection": "0",
+          "placeHemicycle": null,
+          "mandatRemplaceRef": null
+        },
+        "collaborateurs": null
+      }
+    ]
+  }
+}

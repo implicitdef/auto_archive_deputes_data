@@ -59,6 +59,47 @@
   "mandats": {
     "mandat": [
       {
+        "@xsi:type": "MandatAvecSuppleant_Type",
+        "uid": "PM756326",
+        "acteurRef": "PA703536",
+        "legislature": null,
+        "typeOrgane": "OFFPAR",
+        "dateDebut": "2018-05-24",
+        "datePublication": "2018-05-24",
+        "dateFin": null,
+        "preseance": "24",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO756284"
+        },
+        "suppleants": null
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM704933",
+        "acteurRef": "PA703536",
+        "legislature": null,
+        "typeOrgane": "DELEGSENAT",
+        "dateDebut": "2014-10-29",
+        "datePublication": null,
+        "dateFin": "2017-10-17",
+        "preseance": "4",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO436945"
+        }
+      },
+      {
         "@xsi:type": "MandatSimple_Type",
         "uid": "PM819883",
         "acteurRef": "PA703536",
@@ -119,15 +160,15 @@
         }
       },
       {
-        "@xsi:type": "MandatAvecSuppleant_Type",
-        "uid": "PM756326",
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM741491",
         "acteurRef": "PA703536",
         "legislature": null,
-        "typeOrgane": "OFFPAR",
-        "dateDebut": "2018-05-24",
-        "datePublication": "2018-05-24",
-        "dateFin": null,
-        "preseance": "24",
+        "typeOrgane": "DELEGSENAT",
+        "dateDebut": "2017-10-18",
+        "datePublication": null,
+        "dateFin": "2020-09-30",
+        "preseance": "4",
         "nominPrincipale": "1",
         "infosQualite": {
           "codeQualite": "Membre",
@@ -135,9 +176,8 @@
           "libQualiteSex": "Membre"
         },
         "organes": {
-          "organeRef": "PO756284"
-        },
-        "suppleants": null
+          "organeRef": "PO436945"
+        }
       },
       {
         "@xsi:type": "MandatSimple_Type",
@@ -157,46 +197,6 @@
         },
         "organes": {
           "organeRef": "PO818371"
-        }
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM704933",
-        "acteurRef": "PA703536",
-        "legislature": null,
-        "typeOrgane": "DELEGSENAT",
-        "dateDebut": "2014-10-29",
-        "datePublication": null,
-        "dateFin": "2017-10-17",
-        "preseance": "4",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Membre",
-          "libQualite": "Membre",
-          "libQualiteSex": "Membre"
-        },
-        "organes": {
-          "organeRef": "PO436945"
-        }
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM741491",
-        "acteurRef": "PA703536",
-        "legislature": null,
-        "typeOrgane": "DELEGSENAT",
-        "dateDebut": "2017-10-18",
-        "datePublication": null,
-        "dateFin": "2020-09-30",
-        "preseance": "4",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Membre",
-          "libQualite": "Membre",
-          "libQualiteSex": "Membre"
-        },
-        "organes": {
-          "organeRef": "PO436945"
         }
       },
       {
@@ -267,7 +267,7 @@
         "typeOrgane": "COMSENAT",
         "dateDebut": "2017-10-04",
         "datePublication": null,
-        "dateFin": null,
+        "dateFin": "2023-10-01",
         "preseance": "10",
         "nominPrincipale": "1",
         "infosQualite": {

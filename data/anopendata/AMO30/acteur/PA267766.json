@@ -209,6 +209,26 @@
         }
       },
       {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM781235",
+        "acteurRef": "PA267766",
+        "legislature": "15",
+        "typeOrgane": "CNPS",
+        "dateDebut": "2021-02-14",
+        "datePublication": "2021-02-14",
+        "dateFin": "2021-08-22",
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO780850"
+        }
+      },
+      {
         "@xsi:type": "MandatMission_Type",
         "uid": "PM783066",
         "acteurRef": "PA267766",
@@ -230,26 +250,6 @@
         "libelle": null,
         "missionSuivanteRef": null,
         "missionPrecedenteRef": null
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM781235",
-        "acteurRef": "PA267766",
-        "legislature": "15",
-        "typeOrgane": "CNPS",
-        "dateDebut": "2021-02-14",
-        "datePublication": "2021-02-14",
-        "dateFin": "2021-08-22",
-        "preseance": "20",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Membre",
-          "libQualite": "Membre",
-          "libQualiteSex": "Membre"
-        },
-        "organes": {
-          "organeRef": "PO780850"
-        }
       },
       {
         "@xsi:type": "MandatMission_Type",
@@ -1945,26 +1945,6 @@
       },
       {
         "@xsi:type": "MandatSimple_Type",
-        "uid": "PM783035",
-        "acteurRef": "PA267766",
-        "legislature": "15",
-        "typeOrgane": "COMPER",
-        "dateDebut": "2021-05-11",
-        "datePublication": "2021-05-12",
-        "dateFin": "2022-06-21",
-        "preseance": "16",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Secrétaire",
-          "libQualite": "Secrétaire",
-          "libQualiteSex": "Secrétaire"
-        },
-        "organes": {
-          "organeRef": "PO419865"
-        }
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
         "uid": "PM764327",
         "acteurRef": "PA267766",
         "legislature": "15",
@@ -1981,6 +1961,26 @@
         },
         "organes": {
           "organeRef": "PO763211"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM783035",
+        "acteurRef": "PA267766",
+        "legislature": "15",
+        "typeOrgane": "COMPER",
+        "dateDebut": "2021-05-11",
+        "datePublication": "2021-05-12",
+        "dateFin": "2022-06-21",
+        "preseance": "16",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Secrétaire",
+          "libQualite": "Secrétaire",
+          "libQualiteSex": "Secrétaire"
+        },
+        "organes": {
+          "organeRef": "PO419865"
         }
       },
       {
@@ -2102,53 +2102,6 @@
         "organes": {
           "organeRef": "PO822133"
         }
-      },
-      {
-        "@xsi:type": "MandatParlementaire_type",
-        "uid": "PM722970",
-        "acteurRef": "PA267766",
-        "legislature": "15",
-        "typeOrgane": "ASSEMBLEE",
-        "dateDebut": "2017-06-18",
-        "datePublication": null,
-        "dateFin": "2022-06-21",
-        "preseance": "50",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "membre",
-          "libQualite": "membre",
-          "libQualiteSex": "membre"
-        },
-        "organes": {
-          "organeRef": "PO717460"
-        },
-        "suppleants": {
-          "suppleant": {
-            "dateDebut": "2017-06-18",
-            "dateFin": "2022-06-21",
-            "suppleantRef": "PA720464"
-          }
-        },
-        "chambre": null,
-        "election": {
-          "lieu": {
-            "region": "Hauts-de-France",
-            "regionType": "Métropolitain",
-            "departement": "Nord",
-            "numDepartement": "59",
-            "numCirco": "18"
-          },
-          "causeMandat": "élections générales",
-          "refCirconscription": "PO718010"
-        },
-        "mandature": {
-          "datePriseFonction": "2017-06-21",
-          "causeFin": "Fin de législature",
-          "premiereElection": "0",
-          "placeHemicycle": "241",
-          "mandatRemplaceRef": null
-        },
-        "collaborateurs": null
       },
       {
         "@xsi:type": "MandatSimple_Type",
@@ -2289,6 +2242,53 @@
         "organes": {
           "organeRef": "PO810622"
         }
+      },
+      {
+        "@xsi:type": "MandatParlementaire_type",
+        "uid": "PM722970",
+        "acteurRef": "PA267766",
+        "legislature": "15",
+        "typeOrgane": "ASSEMBLEE",
+        "dateDebut": "2017-06-18",
+        "datePublication": null,
+        "dateFin": "2022-06-21",
+        "preseance": "50",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "membre",
+          "libQualite": "membre",
+          "libQualiteSex": "membre"
+        },
+        "organes": {
+          "organeRef": "PO717460"
+        },
+        "suppleants": {
+          "suppleant": {
+            "dateDebut": "2017-06-18",
+            "dateFin": "2022-06-21",
+            "suppleantRef": "PA720464"
+          }
+        },
+        "chambre": null,
+        "election": {
+          "lieu": {
+            "region": "Hauts-de-France",
+            "regionType": "Métropolitain",
+            "departement": "Nord",
+            "numDepartement": "59",
+            "numCirco": "18"
+          },
+          "causeMandat": "élections générales",
+          "refCirconscription": "PO718010"
+        },
+        "mandature": {
+          "datePriseFonction": "2017-06-21",
+          "causeFin": "Fin de législature",
+          "premiereElection": "0",
+          "placeHemicycle": "241",
+          "mandatRemplaceRef": null
+        },
+        "collaborateurs": null
       },
       {
         "@xsi:type": "MandatSimple_Type",

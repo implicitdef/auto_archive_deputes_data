@@ -257,29 +257,6 @@
         }
       },
       {
-        "@xsi:type": "MandatMission_Type",
-        "uid": "PM756744",
-        "acteurRef": "PA719600",
-        "legislature": "15",
-        "typeOrgane": "MISINFO",
-        "dateDebut": "2018-04-11",
-        "datePublication": null,
-        "dateFin": "2019-02-20",
-        "preseance": "10",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Membre",
-          "libQualite": "Membre",
-          "libQualiteSex": "Membre"
-        },
-        "organes": {
-          "organeRef": "PO754002"
-        },
-        "libelle": null,
-        "missionSuivanteRef": null,
-        "missionPrecedenteRef": null
-      },
-      {
         "@xsi:type": "MandatSimple_Type",
         "uid": "PM779142",
         "acteurRef": "PA719600",
@@ -318,6 +295,49 @@
         "organes": {
           "organeRef": "PO779099"
         }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM786997",
+        "acteurRef": "PA719600",
+        "legislature": "15",
+        "typeOrgane": "CNPS",
+        "dateDebut": "2021-11-04",
+        "datePublication": "2021-11-04",
+        "dateFin": "2022-02-14",
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO786857"
+        }
+      },
+      {
+        "@xsi:type": "MandatMission_Type",
+        "uid": "PM756744",
+        "acteurRef": "PA719600",
+        "legislature": "15",
+        "typeOrgane": "MISINFO",
+        "dateDebut": "2018-04-11",
+        "datePublication": null,
+        "dateFin": "2019-02-20",
+        "preseance": "10",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO754002"
+        },
+        "libelle": null,
+        "missionSuivanteRef": null,
+        "missionPrecedenteRef": null
       },
       {
         "@xsi:type": "MandatMission_Type",
@@ -479,26 +499,6 @@
         "libelle": null,
         "missionSuivanteRef": null,
         "missionPrecedenteRef": null
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM786997",
-        "acteurRef": "PA719600",
-        "legislature": "15",
-        "typeOrgane": "CNPS",
-        "dateDebut": "2021-11-04",
-        "datePublication": "2021-11-04",
-        "dateFin": "2022-02-14",
-        "preseance": "20",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Membre",
-          "libQualite": "Membre",
-          "libQualiteSex": "Membre"
-        },
-        "organes": {
-          "organeRef": "PO786857"
-        }
       },
       {
         "@xsi:type": "MandatSimple_Type",
@@ -1747,53 +1747,6 @@
         }
       },
       {
-        "@xsi:type": "MandatParlementaire_type",
-        "uid": "PM722708",
-        "acteurRef": "PA719600",
-        "legislature": "15",
-        "typeOrgane": "ASSEMBLEE",
-        "dateDebut": "2017-06-18",
-        "datePublication": null,
-        "dateFin": "2022-06-21",
-        "preseance": "50",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "membre",
-          "libQualite": "membre",
-          "libQualiteSex": "membre"
-        },
-        "organes": {
-          "organeRef": "PO717460"
-        },
-        "suppleants": {
-          "suppleant": {
-            "dateDebut": "2017-06-18",
-            "dateFin": "2022-06-21",
-            "suppleantRef": "PA719604"
-          }
-        },
-        "chambre": null,
-        "election": {
-          "lieu": {
-            "region": "Nouvelle-Aquitaine",
-            "regionType": "Métropolitain",
-            "departement": "Gironde",
-            "numDepartement": "33",
-            "numCirco": "6"
-          },
-          "causeMandat": "élections générales",
-          "refCirconscription": "PO717732"
-        },
-        "mandature": {
-          "datePriseFonction": "2017-06-21",
-          "causeFin": "Fin de législature",
-          "premiereElection": "0",
-          "placeHemicycle": "416",
-          "mandatRemplaceRef": null
-        },
-        "collaborateurs": null
-      },
-      {
         "@xsi:type": "MandatSimple_Type",
         "uid": "PM820377",
         "acteurRef": "PA719600",
@@ -1932,6 +1885,53 @@
         "organes": {
           "organeRef": "PO746982"
         }
+      },
+      {
+        "@xsi:type": "MandatParlementaire_type",
+        "uid": "PM722708",
+        "acteurRef": "PA719600",
+        "legislature": "15",
+        "typeOrgane": "ASSEMBLEE",
+        "dateDebut": "2017-06-18",
+        "datePublication": null,
+        "dateFin": "2022-06-21",
+        "preseance": "50",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "membre",
+          "libQualite": "membre",
+          "libQualiteSex": "membre"
+        },
+        "organes": {
+          "organeRef": "PO717460"
+        },
+        "suppleants": {
+          "suppleant": {
+            "dateDebut": "2017-06-18",
+            "dateFin": "2022-06-21",
+            "suppleantRef": "PA719604"
+          }
+        },
+        "chambre": null,
+        "election": {
+          "lieu": {
+            "region": "Nouvelle-Aquitaine",
+            "regionType": "Métropolitain",
+            "departement": "Gironde",
+            "numDepartement": "33",
+            "numCirco": "6"
+          },
+          "causeMandat": "élections générales",
+          "refCirconscription": "PO717732"
+        },
+        "mandature": {
+          "datePriseFonction": "2017-06-21",
+          "causeFin": "Fin de législature",
+          "premiereElection": "0",
+          "placeHemicycle": "416",
+          "mandatRemplaceRef": null
+        },
+        "collaborateurs": null
       },
       {
         "@xsi:type": "MandatParlementaire_type",

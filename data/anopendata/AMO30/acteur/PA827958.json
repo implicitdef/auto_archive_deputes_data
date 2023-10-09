@@ -1,0 +1,143 @@
+{
+  "uid": {
+    "@xsi:type": "IdActeur_type",
+    "#text": "PA827958"
+  },
+  "etatCivil": {
+    "ident": {
+      "civ": "Mme",
+      "prenom": "Marie-Claude",
+      "nom": "Lermytte",
+      "alpha": "Lermytte_marie_claude",
+      "trigramme": {
+        "@xsi:nil": "true"
+      }
+    },
+    "infoNaissance": {
+      "dateNais": "1965-06-04",
+      "villeNais": {
+        "@xsi:nil": "true"
+      },
+      "depNais": {
+        "@xsi:nil": "true"
+      },
+      "paysNais": {
+        "@xsi:nil": "true"
+      }
+    },
+    "dateDeces": {
+      "@xsi:nil": "true"
+    }
+  },
+  "profession": {
+    "libelleCourant": {
+      "@xsi:nil": "true"
+    },
+    "socProcINSEE": {
+      "catSocPro": {
+        "@xsi:nil": "true"
+      },
+      "famSocPro": {
+        "@xsi:nil": "true"
+      }
+    }
+  },
+  "uri_hatvp": {
+    "@xsi:nil": "true"
+  },
+  "adresses": {
+    "adresse": {
+      "@xsi:type": "AdresseSiteWeb_Type",
+      "uid": "AD828100",
+      "type": "23",
+      "typeLibelle": "Url sénateur",
+      "poids": null,
+      "adresseDeRattachement": null,
+      "valElec": "https://www.senat.fr/senateur/lermytte_marie_claude21087p.html"
+    }
+  },
+  "mandats": {
+    "mandat": [
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM828694",
+        "acteurRef": "PA827958",
+        "legislature": null,
+        "typeOrgane": "GROUPESENAT",
+        "dateDebut": "2023-10-03",
+        "datePublication": null,
+        "dateFin": null,
+        "preseance": "4",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre du"
+        },
+        "organes": {
+          "organeRef": "PO741019"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM828692",
+        "acteurRef": "PA827958",
+        "legislature": null,
+        "typeOrgane": "COMSENAT",
+        "dateDebut": "2023-10-04",
+        "datePublication": null,
+        "dateFin": null,
+        "preseance": "10",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO211493"
+        }
+      },
+      {
+        "@xsi:type": "MandatParlementaire_type",
+        "uid": "PM828690",
+        "acteurRef": "PA827958",
+        "legislature": null,
+        "typeOrgane": "SENAT",
+        "dateDebut": "2023-10-02",
+        "datePublication": null,
+        "dateFin": null,
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Sénateur",
+          "libQualite": "SENATEUR",
+          "libQualiteSex": "Sénateur 5ème République"
+        },
+        "organes": {
+          "organeRef": "PO78718"
+        },
+        "suppleants": null,
+        "chambre": null,
+        "election": {
+          "lieu": {
+            "region": null,
+            "regionType": null,
+            "departement": null,
+            "numDepartement": "59",
+            "numCirco": null
+          },
+          "causeMandat": null
+        },
+        "mandature": {
+          "datePriseFonction": null,
+          "causeFin": null,
+          "premiereElection": "0",
+          "placeHemicycle": null,
+          "mandatRemplaceRef": null
+        },
+        "collaborateurs": null
+      }
+    ]
+  }
+}

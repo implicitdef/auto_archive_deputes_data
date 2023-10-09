@@ -1,0 +1,143 @@
+{
+  "uid": {
+    "@xsi:type": "IdActeur_type",
+    "#text": "PA827940"
+  },
+  "etatCivil": {
+    "ident": {
+      "civ": "M.",
+      "prenom": "Sébastien",
+      "nom": "Fagnen",
+      "alpha": "Fagnen_sebastien",
+      "trigramme": {
+        "@xsi:nil": "true"
+      }
+    },
+    "infoNaissance": {
+      "dateNais": "1987-11-08",
+      "villeNais": {
+        "@xsi:nil": "true"
+      },
+      "depNais": {
+        "@xsi:nil": "true"
+      },
+      "paysNais": {
+        "@xsi:nil": "true"
+      }
+    },
+    "dateDeces": {
+      "@xsi:nil": "true"
+    }
+  },
+  "profession": {
+    "libelleCourant": {
+      "@xsi:nil": "true"
+    },
+    "socProcINSEE": {
+      "catSocPro": {
+        "@xsi:nil": "true"
+      },
+      "famSocPro": {
+        "@xsi:nil": "true"
+      }
+    }
+  },
+  "uri_hatvp": {
+    "@xsi:nil": "true"
+  },
+  "adresses": {
+    "adresse": {
+      "@xsi:type": "AdresseSiteWeb_Type",
+      "uid": "AD828076",
+      "type": "23",
+      "typeLibelle": "Url sénateur",
+      "poids": null,
+      "adresseDeRattachement": null,
+      "valElec": "https://www.senat.fr/senateur/fagnen_sebastien21062e.html"
+    }
+  },
+  "mandats": {
+    "mandat": [
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM828626",
+        "acteurRef": "PA827940",
+        "legislature": null,
+        "typeOrgane": "GROUPESENAT",
+        "dateDebut": "2023-10-03",
+        "datePublication": null,
+        "dateFin": null,
+        "preseance": "4",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO77710"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM828624",
+        "acteurRef": "PA827940",
+        "legislature": null,
+        "typeOrgane": "COMSENAT",
+        "dateDebut": "2023-10-04",
+        "datePublication": null,
+        "dateFin": null,
+        "preseance": "10",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO516754"
+        }
+      },
+      {
+        "@xsi:type": "MandatParlementaire_type",
+        "uid": "PM828622",
+        "acteurRef": "PA827940",
+        "legislature": null,
+        "typeOrgane": "SENAT",
+        "dateDebut": "2023-10-02",
+        "datePublication": null,
+        "dateFin": null,
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Sénateur",
+          "libQualite": "SENATEUR",
+          "libQualiteSex": "SENATEUR"
+        },
+        "organes": {
+          "organeRef": "PO78718"
+        },
+        "suppleants": null,
+        "chambre": null,
+        "election": {
+          "lieu": {
+            "region": null,
+            "regionType": null,
+            "departement": null,
+            "numDepartement": "50",
+            "numCirco": null
+          },
+          "causeMandat": null
+        },
+        "mandature": {
+          "datePriseFonction": null,
+          "causeFin": null,
+          "premiereElection": "0",
+          "placeHemicycle": null,
+          "mandatRemplaceRef": null
+        },
+        "collaborateurs": null
+      }
+    ]
+  }
+}

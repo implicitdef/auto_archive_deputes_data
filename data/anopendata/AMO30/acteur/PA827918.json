@@ -1,0 +1,143 @@
+{
+  "uid": {
+    "@xsi:type": "IdActeur_type",
+    "#text": "PA827918"
+  },
+  "etatCivil": {
+    "ident": {
+      "civ": "M.",
+      "prenom": "Guislain",
+      "nom": "Cambier",
+      "alpha": "Cambier_guislain",
+      "trigramme": {
+        "@xsi:nil": "true"
+      }
+    },
+    "infoNaissance": {
+      "dateNais": "1971-07-18",
+      "villeNais": {
+        "@xsi:nil": "true"
+      },
+      "depNais": {
+        "@xsi:nil": "true"
+      },
+      "paysNais": {
+        "@xsi:nil": "true"
+      }
+    },
+    "dateDeces": {
+      "@xsi:nil": "true"
+    }
+  },
+  "profession": {
+    "libelleCourant": {
+      "@xsi:nil": "true"
+    },
+    "socProcINSEE": {
+      "catSocPro": {
+        "@xsi:nil": "true"
+      },
+      "famSocPro": {
+        "@xsi:nil": "true"
+      }
+    }
+  },
+  "uri_hatvp": {
+    "@xsi:nil": "true"
+  },
+  "adresses": {
+    "adresse": {
+      "@xsi:type": "AdresseSiteWeb_Type",
+      "uid": "AD828050",
+      "type": "23",
+      "typeLibelle": "Url sénateur",
+      "poids": null,
+      "adresseDeRattachement": null,
+      "valElec": "https://www.senat.fr/senateur/cambier_guislain21083k.html"
+    }
+  },
+  "mandats": {
+    "mandat": [
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM828486",
+        "acteurRef": "PA827918",
+        "legislature": null,
+        "typeOrgane": "GROUPESENAT",
+        "dateDebut": "2023-10-03",
+        "datePublication": null,
+        "dateFin": null,
+        "preseance": "4",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO309463"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM828484",
+        "acteurRef": "PA827918",
+        "legislature": null,
+        "typeOrgane": "COMSENAT",
+        "dateDebut": "2023-10-04",
+        "datePublication": null,
+        "dateFin": null,
+        "preseance": "10",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO516753"
+        }
+      },
+      {
+        "@xsi:type": "MandatParlementaire_type",
+        "uid": "PM828482",
+        "acteurRef": "PA827918",
+        "legislature": null,
+        "typeOrgane": "SENAT",
+        "dateDebut": "2023-10-02",
+        "datePublication": null,
+        "dateFin": null,
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Sénateur",
+          "libQualite": "SENATEUR",
+          "libQualiteSex": "SENATEUR"
+        },
+        "organes": {
+          "organeRef": "PO78718"
+        },
+        "suppleants": null,
+        "chambre": null,
+        "election": {
+          "lieu": {
+            "region": null,
+            "regionType": null,
+            "departement": null,
+            "numDepartement": "59",
+            "numCirco": null
+          },
+          "causeMandat": null
+        },
+        "mandature": {
+          "datePriseFonction": null,
+          "causeFin": null,
+          "premiereElection": "0",
+          "placeHemicycle": null,
+          "mandatRemplaceRef": null
+        },
+        "collaborateurs": null
+      }
+    ]
+  }
+}
