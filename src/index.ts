@@ -11,6 +11,7 @@ import {
 import { fetchWikipediaParagraphs } from './wikipedia/fetchWikipediaParagraphs'
 import { createWikipediaSummaries } from './wikipedia/fetchWikipediaSummaries'
 import { fetchWikipediaUrls } from './wikipedia/fetchWikipediaUrls'
+import { tmpTool } from './wikipedia/tmpTool'
 
 type Command =
   | 'update_an_open_data'
@@ -20,8 +21,8 @@ type Command =
   | 'update_wikipedia_urls'
   | 'update_wikipedia_paragraphs'
   | 'update_wikipedia_summaries'
-  | 'update_wikipedia_affaires'
   | 'update_elections_partielles'
+  | 'tmptool'
 
 const MINISTERE_INTERIEUR_ENABLED = false
 
@@ -49,11 +50,6 @@ async function start() {
     case 'update_wikipedia_summaries':
       await createWikipediaSummaries()
       break
-    case 'update_wikipedia_affaires':
-      // unused for now, needs lot of rework
-      // await updateWikipediaAffaires()
-      throw new Error('not implemented')
-      break
     case 'update_elections_partielles':
       // on scanne deux sources différentes
       // il y a des différences qu'il faudra analyser
@@ -65,6 +61,9 @@ async function start() {
         // Mais de toute façon on utilisera probablement uniquement wikipedia
         await fetchElectionsPartiellesFromMinistere()
       }
+      break
+    case 'tmptool':
+      await tmpTool()
       break
   }
 }
@@ -103,8 +102,8 @@ function readCommandArgument(): Command {
   if (args.includes('update_elections_partielles')) {
     return 'update_elections_partielles'
   }
-  if (args.includes('update_wikipedia_affaires')) {
-    return 'update_wikipedia_affaires'
+  if (args.includes('tmptool')) {
+    return 'tmptool'
   }
   throw new Error('Missing or unknown command')
 }
