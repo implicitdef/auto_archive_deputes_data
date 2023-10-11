@@ -3145,6 +3145,53 @@
         }
       },
       {
+        "@xsi:type": "MandatParlementaire_type",
+        "uid": "PM723290",
+        "acteurRef": "PA721486",
+        "legislature": "15",
+        "typeOrgane": "ASSEMBLEE",
+        "dateDebut": "2017-06-18",
+        "datePublication": null,
+        "dateFin": "2022-06-21",
+        "preseance": "50",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "membre",
+          "libQualite": "membre",
+          "libQualiteSex": "membre"
+        },
+        "organes": {
+          "organeRef": "PO717460"
+        },
+        "suppleants": {
+          "suppleant": {
+            "dateDebut": "2017-06-18",
+            "dateFin": "2022-06-21",
+            "suppleantRef": "PA721490"
+          }
+        },
+        "chambre": null,
+        "election": {
+          "lieu": {
+            "region": "Grand Est",
+            "regionType": "Métropolitain",
+            "departement": "Vosges",
+            "numDepartement": "88",
+            "numCirco": "3"
+          },
+          "causeMandat": "élections générales",
+          "refCirconscription": "PO718400"
+        },
+        "mandature": {
+          "datePriseFonction": "2017-06-21",
+          "causeFin": "Fin de législature",
+          "premiereElection": "0",
+          "placeHemicycle": "245",
+          "mandatRemplaceRef": null
+        },
+        "collaborateurs": null
+      },
+      {
         "@xsi:type": "MandatSimple_Type",
         "uid": "PM821561",
         "acteurRef": "PA721486",
@@ -3303,53 +3350,6 @@
         "organes": {
           "organeRef": "PO807306"
         }
-      },
-      {
-        "@xsi:type": "MandatParlementaire_type",
-        "uid": "PM723290",
-        "acteurRef": "PA721486",
-        "legislature": "15",
-        "typeOrgane": "ASSEMBLEE",
-        "dateDebut": "2017-06-18",
-        "datePublication": null,
-        "dateFin": "2022-06-21",
-        "preseance": "50",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "membre",
-          "libQualite": "membre",
-          "libQualiteSex": "membre"
-        },
-        "organes": {
-          "organeRef": "PO717460"
-        },
-        "suppleants": {
-          "suppleant": {
-            "dateDebut": "2017-06-18",
-            "dateFin": "2022-06-21",
-            "suppleantRef": "PA721490"
-          }
-        },
-        "chambre": null,
-        "election": {
-          "lieu": {
-            "region": "Grand Est",
-            "regionType": "Métropolitain",
-            "departement": "Vosges",
-            "numDepartement": "88",
-            "numCirco": "3"
-          },
-          "causeMandat": "élections générales",
-          "refCirconscription": "PO718400"
-        },
-        "mandature": {
-          "datePriseFonction": "2017-06-21",
-          "causeFin": "Fin de législature",
-          "premiereElection": "0",
-          "placeHemicycle": "245",
-          "mandatRemplaceRef": null
-        },
-        "collaborateurs": null
       },
       {
         "@xsi:type": "MandatSimple_Type",

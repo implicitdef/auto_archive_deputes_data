@@ -60,6 +60,26 @@
     "mandat": [
       {
         "@xsi:type": "MandatSimple_Type",
+        "uid": "PM829769",
+        "acteurRef": "PA429889",
+        "legislature": null,
+        "typeOrgane": "COMSPSENAT",
+        "dateDebut": "2023-10-05",
+        "datePublication": null,
+        "dateFin": null,
+        "preseance": null,
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": null,
+          "libQualite": "Membre",
+          "libQualiteSex": null
+        },
+        "organes": {
+          "organeRef": "PO824648"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
         "uid": "PM767696",
         "acteurRef": "PA429889",
         "legislature": null,
@@ -100,46 +120,6 @@
       },
       {
         "@xsi:type": "MandatSimple_Type",
-        "uid": "PM699983",
-        "acteurRef": "PA429889",
-        "legislature": null,
-        "typeOrgane": "COMSPSENAT",
-        "dateDebut": "2014-02-05",
-        "datePublication": null,
-        "dateFin": "2014-04-13",
-        "preseance": "4",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Rapporteur",
-          "libQualite": "Rapporteur",
-          "libQualiteSex": "Rapporteure"
-        },
-        "organes": {
-          "organeRef": "PO699895"
-        }
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM824706",
-        "acteurRef": "PA429889",
-        "legislature": null,
-        "typeOrgane": "COMSPSENAT",
-        "dateDebut": "2023-06-01",
-        "datePublication": null,
-        "dateFin": "2023-10-01",
-        "preseance": null,
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": null,
-          "libQualite": "Membre",
-          "libQualiteSex": null
-        },
-        "organes": {
-          "organeRef": "PO824648"
-        }
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
         "uid": "PM15715839",
         "acteurRef": "PA429889",
         "legislature": null,
@@ -176,6 +156,46 @@
         },
         "organes": {
           "organeRef": "PO310693"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM699983",
+        "acteurRef": "PA429889",
+        "legislature": null,
+        "typeOrgane": "COMSPSENAT",
+        "dateDebut": "2014-02-05",
+        "datePublication": null,
+        "dateFin": "2014-04-13",
+        "preseance": "4",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Rapporteur",
+          "libQualite": "Rapporteur",
+          "libQualiteSex": "Rapporteure"
+        },
+        "organes": {
+          "organeRef": "PO699895"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM824706",
+        "acteurRef": "PA429889",
+        "legislature": null,
+        "typeOrgane": "COMSPSENAT",
+        "dateDebut": "2023-06-01",
+        "datePublication": null,
+        "dateFin": "2023-10-01",
+        "preseance": null,
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": null,
+          "libQualite": "Membre",
+          "libQualiteSex": null
+        },
+        "organes": {
+          "organeRef": "PO824648"
         }
       },
       {
@@ -825,6 +845,46 @@
             "regionType": null,
             "departement": null,
             "numDepartement": null,
+            "numCirco": null
+          },
+          "causeMandat": null
+        },
+        "mandature": {
+          "datePriseFonction": null,
+          "causeFin": null,
+          "premiereElection": "0",
+          "placeHemicycle": null,
+          "mandatRemplaceRef": null
+        },
+        "collaborateurs": null
+      },
+      {
+        "@xsi:type": "MandatParlementaire_type",
+        "uid": "PM829767",
+        "acteurRef": "PA429889",
+        "legislature": null,
+        "typeOrgane": "SENAT",
+        "dateDebut": "2023-10-02",
+        "datePublication": null,
+        "dateFin": null,
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Sénateur",
+          "libQualite": "SENATEUR",
+          "libQualiteSex": "Sénateur 5ème République"
+        },
+        "organes": {
+          "organeRef": "PO78718"
+        },
+        "suppleants": null,
+        "chambre": null,
+        "election": {
+          "lieu": {
+            "region": null,
+            "regionType": null,
+            "departement": null,
+            "numDepartement": "94",
             "numCirco": null
           },
           "causeMandat": null

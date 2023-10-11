@@ -1485,6 +1485,53 @@
         }
       },
       {
+        "@xsi:type": "MandatParlementaire_type",
+        "uid": "PM722650",
+        "acteurRef": "PA719396",
+        "legislature": "15",
+        "typeOrgane": "ASSEMBLEE",
+        "dateDebut": "2017-06-18",
+        "datePublication": null,
+        "dateFin": "2022-06-21",
+        "preseance": "50",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "membre",
+          "libQualite": "membre",
+          "libQualiteSex": "membre"
+        },
+        "organes": {
+          "organeRef": "PO717460"
+        },
+        "suppleants": {
+          "suppleant": {
+            "dateDebut": "2017-06-18",
+            "dateFin": "2022-06-21",
+            "suppleantRef": "PA719400"
+          }
+        },
+        "chambre": null,
+        "election": {
+          "lieu": {
+            "region": "Bretagne",
+            "regionType": "Métropolitain",
+            "departement": "Finistère",
+            "numDepartement": "29",
+            "numCirco": "2"
+          },
+          "causeMandat": "élections générales",
+          "refCirconscription": "PO717682"
+        },
+        "mandature": {
+          "datePriseFonction": "2017-06-21",
+          "causeFin": "Fin de législature",
+          "premiereElection": "0",
+          "placeHemicycle": "192",
+          "mandatRemplaceRef": null
+        },
+        "collaborateurs": null
+      },
+      {
         "@xsi:type": "MandatSimple_Type",
         "uid": "PM819196",
         "acteurRef": "PA719396",
@@ -1543,53 +1590,6 @@
         "organes": {
           "organeRef": "PO807261"
         }
-      },
-      {
-        "@xsi:type": "MandatParlementaire_type",
-        "uid": "PM722650",
-        "acteurRef": "PA719396",
-        "legislature": "15",
-        "typeOrgane": "ASSEMBLEE",
-        "dateDebut": "2017-06-18",
-        "datePublication": null,
-        "dateFin": "2022-06-21",
-        "preseance": "50",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "membre",
-          "libQualite": "membre",
-          "libQualiteSex": "membre"
-        },
-        "organes": {
-          "organeRef": "PO717460"
-        },
-        "suppleants": {
-          "suppleant": {
-            "dateDebut": "2017-06-18",
-            "dateFin": "2022-06-21",
-            "suppleantRef": "PA719400"
-          }
-        },
-        "chambre": null,
-        "election": {
-          "lieu": {
-            "region": "Bretagne",
-            "regionType": "Métropolitain",
-            "departement": "Finistère",
-            "numDepartement": "29",
-            "numCirco": "2"
-          },
-          "causeMandat": "élections générales",
-          "refCirconscription": "PO717682"
-        },
-        "mandature": {
-          "datePriseFonction": "2017-06-21",
-          "causeFin": "Fin de législature",
-          "premiereElection": "0",
-          "placeHemicycle": "192",
-          "mandatRemplaceRef": null
-        },
-        "collaborateurs": null
       },
       {
         "@xsi:type": "MandatSimple_Type",

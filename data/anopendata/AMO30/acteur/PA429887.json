@@ -60,26 +60,6 @@
     "mandat": [
       {
         "@xsi:type": "MandatSimple_Type",
-        "uid": "PM818433",
-        "acteurRef": "PA429887",
-        "legislature": null,
-        "typeOrgane": "COMSPSENAT",
-        "dateDebut": "2023-02-01",
-        "datePublication": null,
-        "dateFin": null,
-        "preseance": null,
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": null,
-          "libQualite": "Membre",
-          "libQualiteSex": "Membre"
-        },
-        "organes": {
-          "organeRef": "PO818358"
-        }
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
         "uid": "PM437004",
         "acteurRef": "PA429887",
         "legislature": null,
@@ -96,6 +76,26 @@
         },
         "organes": {
           "organeRef": "PO436945"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM818433",
+        "acteurRef": "PA429887",
+        "legislature": null,
+        "typeOrgane": "COMSPSENAT",
+        "dateDebut": "2023-02-01",
+        "datePublication": null,
+        "dateFin": null,
+        "preseance": null,
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": null,
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO818358"
         }
       },
       {
@@ -585,6 +585,46 @@
             "regionType": null,
             "departement": null,
             "numDepartement": null,
+            "numCirco": null
+          },
+          "causeMandat": null
+        },
+        "mandature": {
+          "datePriseFonction": null,
+          "causeFin": null,
+          "premiereElection": "0",
+          "placeHemicycle": null,
+          "mandatRemplaceRef": null
+        },
+        "collaborateurs": null
+      },
+      {
+        "@xsi:type": "MandatParlementaire_type",
+        "uid": "PM829759",
+        "acteurRef": "PA429887",
+        "legislature": null,
+        "typeOrgane": "SENAT",
+        "dateDebut": "2023-10-02",
+        "datePublication": null,
+        "dateFin": null,
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Sénateur",
+          "libQualite": "SENATEUR",
+          "libQualiteSex": "SENATEUR"
+        },
+        "organes": {
+          "organeRef": "PO78718"
+        },
+        "suppleants": null,
+        "chambre": null,
+        "election": {
+          "lieu": {
+            "region": null,
+            "regionType": null,
+            "departement": null,
+            "numDepartement": "44",
             "numCirco": null
           },
           "causeMandat": null

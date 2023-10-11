@@ -1575,6 +1575,53 @@
         }
       },
       {
+        "@xsi:type": "MandatParlementaire_type",
+        "uid": "PM645179",
+        "acteurRef": "PA607193",
+        "legislature": "14",
+        "typeOrgane": "ASSEMBLEE",
+        "dateDebut": "2012-06-20",
+        "datePublication": null,
+        "dateFin": "2017-06-20",
+        "preseance": "50",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "membre",
+          "libQualite": "membre",
+          "libQualiteSex": "membre"
+        },
+        "organes": {
+          "organeRef": "PO644420"
+        },
+        "suppleants": {
+          "suppleant": {
+            "dateDebut": "2012-06-20",
+            "dateFin": "2017-06-20",
+            "suppleantRef": "PA642811"
+          }
+        },
+        "chambre": null,
+        "election": {
+          "lieu": {
+            "region": "Pays de la Loire",
+            "regionType": "Métropolitain",
+            "departement": "Loire-Atlantique",
+            "numDepartement": "44",
+            "numCirco": "10"
+          },
+          "causeMandat": "élections générales",
+          "refCirconscription": "PO644633"
+        },
+        "mandature": {
+          "datePriseFonction": "2012-06-20",
+          "causeFin": "Fin de législature",
+          "premiereElection": "0",
+          "placeHemicycle": "411",
+          "mandatRemplaceRef": null
+        },
+        "collaborateurs": null
+      },
+      {
         "@xsi:type": "MandatSimple_Type",
         "uid": "PM694195",
         "acteurRef": "PA607193",
@@ -1633,53 +1680,6 @@
         "organes": {
           "organeRef": "PO701621"
         }
-      },
-      {
-        "@xsi:type": "MandatParlementaire_type",
-        "uid": "PM645179",
-        "acteurRef": "PA607193",
-        "legislature": "14",
-        "typeOrgane": "ASSEMBLEE",
-        "dateDebut": "2012-06-20",
-        "datePublication": null,
-        "dateFin": "2017-06-20",
-        "preseance": "50",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "membre",
-          "libQualite": "membre",
-          "libQualiteSex": "membre"
-        },
-        "organes": {
-          "organeRef": "PO644420"
-        },
-        "suppleants": {
-          "suppleant": {
-            "dateDebut": "2012-06-20",
-            "dateFin": "2017-06-20",
-            "suppleantRef": "PA642811"
-          }
-        },
-        "chambre": null,
-        "election": {
-          "lieu": {
-            "region": "Pays de la Loire",
-            "regionType": "Métropolitain",
-            "departement": "Loire-Atlantique",
-            "numDepartement": "44",
-            "numCirco": "10"
-          },
-          "causeMandat": "élections générales",
-          "refCirconscription": "PO644633"
-        },
-        "mandature": {
-          "datePriseFonction": "2012-06-20",
-          "causeFin": "Fin de législature",
-          "premiereElection": "0",
-          "placeHemicycle": "411",
-          "mandatRemplaceRef": null
-        },
-        "collaborateurs": null
       },
       {
         "@xsi:type": "MandatSimple_Type",
