@@ -109,6 +109,26 @@
   "mandats": {
     "mandat": [
       {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM829967",
+        "acteurRef": "PA720230",
+        "legislature": "16",
+        "typeOrgane": "DELEGBUREAU",
+        "dateDebut": "2023-10-11",
+        "datePublication": null,
+        "dateFin": null,
+        "preseance": "24",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO802614"
+        }
+      },
+      {
         "@xsi:type": "MandatAvecSuppleant_Type",
         "uid": "PM802077",
         "acteurRef": "PA720230",
@@ -278,29 +298,6 @@
         }
       },
       {
-        "@xsi:type": "MandatMission_Type",
-        "uid": "PM751933",
-        "acteurRef": "PA720230",
-        "legislature": "15",
-        "typeOrgane": "MISINFO",
-        "dateDebut": "2018-02-08",
-        "datePublication": null,
-        "dateFin": "2018-09-12",
-        "preseance": "10",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Membre",
-          "libQualite": "Membre",
-          "libQualiteSex": "Membre"
-        },
-        "organes": {
-          "organeRef": "PO751920"
-        },
-        "libelle": null,
-        "missionSuivanteRef": null,
-        "missionPrecedenteRef": null
-      },
-      {
         "@xsi:type": "MandatSimple_Type",
         "uid": "PM743861",
         "acteurRef": "PA720230",
@@ -361,6 +358,49 @@
         }
       },
       {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM735932",
+        "acteurRef": "PA720230",
+        "legislature": "15",
+        "typeOrgane": "GEVI",
+        "dateDebut": "2017-09-29",
+        "datePublication": null,
+        "dateFin": "2017-11-07",
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO733688"
+        }
+      },
+      {
+        "@xsi:type": "MandatMission_Type",
+        "uid": "PM751933",
+        "acteurRef": "PA720230",
+        "legislature": "15",
+        "typeOrgane": "MISINFO",
+        "dateDebut": "2018-02-08",
+        "datePublication": null,
+        "dateFin": "2018-09-12",
+        "preseance": "10",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO751920"
+        },
+        "libelle": null,
+        "missionSuivanteRef": null,
+        "missionPrecedenteRef": null
+      },
+      {
         "@xsi:type": "MandatMission_Type",
         "uid": "PM762159",
         "acteurRef": "PA720230",
@@ -405,26 +445,6 @@
         "libelle": null,
         "missionSuivanteRef": null,
         "missionPrecedenteRef": null
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM735932",
-        "acteurRef": "PA720230",
-        "legislature": "15",
-        "typeOrgane": "GEVI",
-        "dateDebut": "2017-09-29",
-        "datePublication": null,
-        "dateFin": "2017-11-07",
-        "preseance": "20",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Membre",
-          "libQualite": "Membre",
-          "libQualiteSex": "Membre"
-        },
-        "organes": {
-          "organeRef": "PO733688"
-        }
       },
       {
         "@xsi:type": "MandatMission_Type",
