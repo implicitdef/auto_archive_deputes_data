@@ -1,10 +1,10 @@
 import { execSync } from 'child_process'
 import fs from 'fs'
-import path from 'path'
-import JSON5 from 'json5'
 import yaml from 'js-yaml'
+import JSON5 from 'json5'
 import fetch from 'node-fetch'
 import StreamZip from 'node-stream-zip'
+import path from 'path'
 
 export const WORKDIR = 'tmp'
 export const LATEST_LEGISLATURE = 16
@@ -220,4 +220,19 @@ export function sum(arr: number[]) {
     return 0
   }
   return arr.reduce((acc, curr) => acc + curr, 0)
+}
+
+export function extractFileName(filePath: string): string {
+  return path.basename(filePath)
+}
+
+export function copyToFolder(filePath: string, dirName: string) {
+  const fileName = extractFileName(filePath)
+  const targetPath = path.join(dirName, extractFileName(filePath))
+  console.log(`Copying to ${targetPath}`)
+  fs.copyFileSync(filePath, targetPath)
+}
+
+export function sortAlphabetically(arr: string[]): string[] {
+  return arr.slice().sort((a, b) => a.localeCompare(b))
 }
