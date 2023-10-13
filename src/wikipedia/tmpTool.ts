@@ -29,7 +29,7 @@ export function tmpTool() {
     return manualFilesNames.includes(fileName)
   }
 
-  const filesToCopy = sourceFiles.filter(_ => !isCopiedAlready(_)).slice(0, 5)
+  const filesToCopy = sourceFiles.filter(_ => !isCopiedAlready(_)).slice(0, 15)
 
   filesToCopy.forEach(f => {
     copyToFolder(f, WIKIPEDIA_AFFAIRES_MANUAL_DATA_DIR)
