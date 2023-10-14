@@ -123,6 +123,29 @@
         }
       },
       {
+        "@xsi:type": "MandatMission_Type",
+        "uid": "PM806034",
+        "acteurRef": "PA794410",
+        "legislature": "16",
+        "typeOrgane": "MISINFO",
+        "dateDebut": "2022-11-17",
+        "datePublication": null,
+        "dateFin": "2023-01-11",
+        "preseance": "10",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO805031"
+        },
+        "libelle": null,
+        "missionSuivanteRef": null,
+        "missionPrecedenteRef": null
+      },
+      {
         "@xsi:type": "MandatSimple_Type",
         "uid": "PM812612",
         "acteurRef": "PA794410",
@@ -241,29 +264,6 @@
         "organes": {
           "organeRef": "PO822430"
         }
-      },
-      {
-        "@xsi:type": "MandatMission_Type",
-        "uid": "PM806034",
-        "acteurRef": "PA794410",
-        "legislature": "16",
-        "typeOrgane": "MISINFO",
-        "dateDebut": "2022-11-17",
-        "datePublication": null,
-        "dateFin": "2023-01-11",
-        "preseance": "10",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Membre",
-          "libQualite": "Membre",
-          "libQualiteSex": "Membre"
-        },
-        "organes": {
-          "organeRef": "PO805031"
-        },
-        "libelle": null,
-        "missionSuivanteRef": null,
-        "missionPrecedenteRef": null
       },
       {
         "@xsi:type": "MandatSimple_Type",
@@ -3191,6 +3191,13 @@
               "qualite": "M.",
               "prenom": "Olivier",
               "nom": "Stano",
+              "dateDebut": null,
+              "dateFin": null
+            },
+            {
+              "qualite": "M.",
+              "prenom": "Bernard",
+              "nom": "Mourot",
               "dateDebut": null,
               "dateFin": null
             },
