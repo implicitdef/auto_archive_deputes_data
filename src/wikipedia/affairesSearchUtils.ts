@@ -35,6 +35,7 @@ const keywords = [
   'favoritisme',
   'clientelisme',
   'premiere instance',
+  'procedure abusive',
   'cassation',
   'corruption',
   'proces',
