@@ -25,9 +25,7 @@
         "@xsi:nil": "true"
       }
     },
-    "dateDeces": {
-      "@xsi:nil": "true"
-    }
+    "dateDeces": "2023-10-06"
   },
   "profession": {
     "libelleCourant": {
@@ -58,6 +56,26 @@
   },
   "mandats": {
     "mandat": [
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM777890",
+        "acteurRef": "PA736161",
+        "legislature": null,
+        "typeOrgane": "COMSPSENAT",
+        "dateDebut": "2020-10-07",
+        "datePublication": null,
+        "dateFin": "2021-08-02",
+        "preseance": null,
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": null,
+          "libQualite": "Secrétaire",
+          "libQualiteSex": null
+        },
+        "organes": {
+          "organeRef": "PO767640"
+        }
+      },
       {
         "@xsi:type": "MandatSimple_Type",
         "uid": "PM778397",
@@ -156,26 +174,6 @@
         },
         "organes": {
           "organeRef": "PO436945"
-        }
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM777890",
-        "acteurRef": "PA736161",
-        "legislature": null,
-        "typeOrgane": "COMSPSENAT",
-        "dateDebut": "2020-10-07",
-        "datePublication": null,
-        "dateFin": "2021-08-02",
-        "preseance": null,
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": null,
-          "libQualite": "Secrétaire",
-          "libQualiteSex": null
-        },
-        "organes": {
-          "organeRef": "PO767640"
         }
       },
       {

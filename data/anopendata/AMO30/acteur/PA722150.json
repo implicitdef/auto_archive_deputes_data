@@ -748,6 +748,46 @@
       },
       {
         "@xsi:type": "MandatSimple_Type",
+        "uid": "PM801819",
+        "acteurRef": "PA722150",
+        "legislature": "16",
+        "typeOrgane": "COMPER",
+        "dateDebut": "2022-06-30",
+        "datePublication": "2022-07-01",
+        "dateFin": null,
+        "preseance": "1",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Président",
+          "libQualite": "Président",
+          "libQualiteSex": "Président"
+        },
+        "organes": {
+          "organeRef": "PO59051"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM731859",
+        "acteurRef": "PA722150",
+        "legislature": "15",
+        "typeOrgane": "COMPER",
+        "dateDebut": "2017-06-29",
+        "datePublication": "2017-06-29",
+        "dateFin": "2022-06-21",
+        "preseance": "32",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO59051"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
         "uid": "PM802920",
         "acteurRef": "PA722150",
         "legislature": "16",
@@ -888,26 +928,6 @@
       },
       {
         "@xsi:type": "MandatSimple_Type",
-        "uid": "PM801819",
-        "acteurRef": "PA722150",
-        "legislature": "16",
-        "typeOrgane": "COMPER",
-        "dateDebut": "2022-06-30",
-        "datePublication": "2022-07-01",
-        "dateFin": null,
-        "preseance": "1",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Président",
-          "libQualite": "Président",
-          "libQualiteSex": "Président"
-        },
-        "organes": {
-          "organeRef": "PO59051"
-        }
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
         "uid": "PM781547",
         "acteurRef": "PA722150",
         "legislature": "15",
@@ -1044,26 +1064,6 @@
         },
         "organes": {
           "organeRef": "PO802774"
-        }
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM731859",
-        "acteurRef": "PA722150",
-        "legislature": "15",
-        "typeOrgane": "COMPER",
-        "dateDebut": "2017-06-29",
-        "datePublication": "2017-06-29",
-        "dateFin": "2022-06-21",
-        "preseance": "32",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Membre",
-          "libQualite": "Membre",
-          "libQualiteSex": "Membre"
-        },
-        "organes": {
-          "organeRef": "PO59051"
         }
       },
       {
@@ -1227,46 +1227,6 @@
         "collaborateurs": null
       },
       {
-        "@xsi:type": "MandatParlementaire_type",
-        "uid": "PM742602",
-        "acteurRef": "PA722150",
-        "legislature": "15",
-        "typeOrgane": "BUREAU",
-        "dateDebut": "2017-11-08",
-        "datePublication": null,
-        "dateFin": "2018-01-16",
-        "preseance": "7",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Vice-Président",
-          "libQualite": "Vice-président de l'Assemblée nationale",
-          "libQualiteSex": "Vice-président de l'Assemblée nationale"
-        },
-        "organes": {
-          "organeRef": "PO725349"
-        },
-        "suppleants": null,
-        "chambre": null,
-        "election": {
-          "lieu": {
-            "region": null,
-            "regionType": null,
-            "departement": null,
-            "numDepartement": null,
-            "numCirco": null
-          },
-          "causeMandat": null
-        },
-        "mandature": {
-          "datePriseFonction": null,
-          "causeFin": null,
-          "premiereElection": "0",
-          "placeHemicycle": null,
-          "mandatRemplaceRef": null
-        },
-        "collaborateurs": null
-      },
-      {
         "@xsi:type": "MandatSimple_Type",
         "uid": "PM763511",
         "acteurRef": "PA722150",
@@ -1307,6 +1267,46 @@
         }
       },
       {
+        "@xsi:type": "MandatParlementaire_type",
+        "uid": "PM742602",
+        "acteurRef": "PA722150",
+        "legislature": "15",
+        "typeOrgane": "BUREAU",
+        "dateDebut": "2017-11-08",
+        "datePublication": null,
+        "dateFin": "2018-01-16",
+        "preseance": "7",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Vice-Président",
+          "libQualite": "Vice-président de l'Assemblée nationale",
+          "libQualiteSex": "Vice-président de l'Assemblée nationale"
+        },
+        "organes": {
+          "organeRef": "PO725349"
+        },
+        "suppleants": null,
+        "chambre": null,
+        "election": {
+          "lieu": {
+            "region": null,
+            "regionType": null,
+            "departement": null,
+            "numDepartement": null,
+            "numCirco": null
+          },
+          "causeMandat": null
+        },
+        "mandature": {
+          "datePriseFonction": null,
+          "causeFin": null,
+          "premiereElection": "0",
+          "placeHemicycle": null,
+          "mandatRemplaceRef": null
+        },
+        "collaborateurs": null
+      },
+      {
         "@xsi:type": "MandatAvecSuppleant_Type",
         "uid": "PM802908",
         "acteurRef": "PA722150",
@@ -1326,6 +1326,46 @@
           "organeRef": "PO402232"
         },
         "suppleants": null
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM724784",
+        "acteurRef": "PA722150",
+        "legislature": "15",
+        "typeOrgane": "GP",
+        "dateDebut": "2017-06-21",
+        "datePublication": null,
+        "dateFin": "2017-06-26",
+        "preseance": "28",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Député non-inscrit",
+          "libQualite": "Député non-inscrit",
+          "libQualiteSex": "Député non-inscrit"
+        },
+        "organes": {
+          "organeRef": "PO723569"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM797446",
+        "acteurRef": "PA722150",
+        "legislature": "16",
+        "typeOrgane": "GP",
+        "dateDebut": "2022-06-22",
+        "datePublication": null,
+        "dateFin": "2022-06-28",
+        "preseance": "28",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Député non-inscrit",
+          "libQualite": "Député non-inscrit",
+          "libQualiteSex": "Député non-inscrit"
+        },
+        "organes": {
+          "organeRef": "PO793087"
+        }
       },
       {
         "@xsi:type": "MandatSimple_Type",
@@ -1465,46 +1505,6 @@
         },
         "organes": {
           "organeRef": "PO807306"
-        }
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM724784",
-        "acteurRef": "PA722150",
-        "legislature": "15",
-        "typeOrgane": "GP",
-        "dateDebut": "2017-06-21",
-        "datePublication": null,
-        "dateFin": "2017-06-26",
-        "preseance": "28",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Député non-inscrit",
-          "libQualite": "Député non-inscrit",
-          "libQualiteSex": "Député non-inscrit"
-        },
-        "organes": {
-          "organeRef": "PO723569"
-        }
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM797446",
-        "acteurRef": "PA722150",
-        "legislature": "16",
-        "typeOrgane": "GP",
-        "dateDebut": "2022-06-22",
-        "datePublication": null,
-        "dateFin": "2022-06-28",
-        "preseance": "28",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Député non-inscrit",
-          "libQualite": "Député non-inscrit",
-          "libQualiteSex": "Député non-inscrit"
-        },
-        "organes": {
-          "organeRef": "PO793087"
         }
       },
       {
