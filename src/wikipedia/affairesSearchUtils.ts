@@ -27,6 +27,7 @@ const keywords = [
   'enquete',
   'condamn',
   'harcelement',
+  'emploi fictif',
   'mis en examen',
   'mise en examen',
   `prise illegale`,
