@@ -431,46 +431,6 @@
       },
       {
         "@xsi:type": "MandatSimple_Type",
-        "uid": "PM713372",
-        "acteurRef": "PA610752",
-        "legislature": "14",
-        "typeOrgane": "GP",
-        "dateDebut": "2016-05-25",
-        "datePublication": null,
-        "dateFin": "2017-06-20",
-        "preseance": "24",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Membre apparenté",
-          "libQualite": "Apparenté au",
-          "libQualiteSex": "Apparenté au"
-        },
-        "organes": {
-          "organeRef": "PO713077"
-        }
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM656321",
-        "acteurRef": "PA610752",
-        "legislature": "14",
-        "typeOrgane": "GP",
-        "dateDebut": "2012-06-26",
-        "datePublication": null,
-        "dateFin": "2016-05-24",
-        "preseance": "24",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Membre apparenté",
-          "libQualite": "Apparenté au",
-          "libQualiteSex": "Apparenté au"
-        },
-        "organes": {
-          "organeRef": "PO656002"
-        }
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
         "uid": "PM684219",
         "acteurRef": "PA610752",
         "legislature": "14",
@@ -491,6 +451,26 @@
       },
       {
         "@xsi:type": "MandatSimple_Type",
+        "uid": "PM713372",
+        "acteurRef": "PA610752",
+        "legislature": "14",
+        "typeOrgane": "GP",
+        "dateDebut": "2016-05-25",
+        "datePublication": null,
+        "dateFin": "2017-06-20",
+        "preseance": "24",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre apparenté",
+          "libQualite": "Apparenté au",
+          "libQualiteSex": "Apparenté au"
+        },
+        "organes": {
+          "organeRef": "PO713077"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
         "uid": "PM684216",
         "acteurRef": "PA610752",
         "legislature": "14",
@@ -507,6 +487,26 @@
         },
         "organes": {
           "organeRef": "PO675719"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM656321",
+        "acteurRef": "PA610752",
+        "legislature": "14",
+        "typeOrgane": "GP",
+        "dateDebut": "2012-06-26",
+        "datePublication": null,
+        "dateFin": "2016-05-24",
+        "preseance": "24",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre apparenté",
+          "libQualite": "Apparenté au",
+          "libQualiteSex": "Apparenté au"
+        },
+        "organes": {
+          "organeRef": "PO656002"
         }
       },
       {
@@ -548,53 +548,6 @@
         "organes": {
           "organeRef": "PO675843"
         }
-      },
-      {
-        "@xsi:type": "MandatParlementaire_type",
-        "uid": "PM645299",
-        "acteurRef": "PA610752",
-        "legislature": "14",
-        "typeOrgane": "ASSEMBLEE",
-        "dateDebut": "2012-06-20",
-        "datePublication": null,
-        "dateFin": "2017-06-20",
-        "preseance": "50",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "membre",
-          "libQualite": "membre",
-          "libQualiteSex": "membre"
-        },
-        "organes": {
-          "organeRef": "PO644420"
-        },
-        "suppleants": {
-          "suppleant": {
-            "dateDebut": "2012-06-20",
-            "dateFin": "2017-06-20",
-            "suppleantRef": "PA643101"
-          }
-        },
-        "chambre": null,
-        "election": {
-          "lieu": {
-            "region": "Mayotte",
-            "regionType": "Dom",
-            "departement": "Mayotte",
-            "numDepartement": "976",
-            "numCirco": "1"
-          },
-          "causeMandat": "élections générales",
-          "refCirconscription": "PO644992"
-        },
-        "mandature": {
-          "datePriseFonction": "2012-06-20",
-          "causeFin": "Fin de législature",
-          "premiereElection": "0",
-          "placeHemicycle": null,
-          "mandatRemplaceRef": null
-        },
-        "collaborateurs": null
       },
       {
         "@xsi:type": "MandatSimple_Type",
@@ -655,6 +608,53 @@
         "organes": {
           "organeRef": "PO675719"
         }
+      },
+      {
+        "@xsi:type": "MandatParlementaire_type",
+        "uid": "PM645299",
+        "acteurRef": "PA610752",
+        "legislature": "14",
+        "typeOrgane": "ASSEMBLEE",
+        "dateDebut": "2012-06-20",
+        "datePublication": null,
+        "dateFin": "2017-06-20",
+        "preseance": "50",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "membre",
+          "libQualite": "membre",
+          "libQualiteSex": "membre"
+        },
+        "organes": {
+          "organeRef": "PO644420"
+        },
+        "suppleants": {
+          "suppleant": {
+            "dateDebut": "2012-06-20",
+            "dateFin": "2017-06-20",
+            "suppleantRef": "PA643101"
+          }
+        },
+        "chambre": null,
+        "election": {
+          "lieu": {
+            "region": "Mayotte",
+            "regionType": "Dom",
+            "departement": "Mayotte",
+            "numDepartement": "976",
+            "numCirco": "1"
+          },
+          "causeMandat": "élections générales",
+          "refCirconscription": "PO644992"
+        },
+        "mandature": {
+          "datePriseFonction": "2012-06-20",
+          "causeFin": "Fin de législature",
+          "premiereElection": "0",
+          "placeHemicycle": null,
+          "mandatRemplaceRef": null
+        },
+        "collaborateurs": null
       }
     ]
   }

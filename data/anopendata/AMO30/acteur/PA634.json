@@ -2351,26 +2351,6 @@
       },
       {
         "@xsi:type": "MandatSimple_Type",
-        "uid": "PM387417",
-        "acteurRef": "PA634",
-        "legislature": "13",
-        "typeOrgane": "GP",
-        "dateDebut": "2007-06-20",
-        "datePublication": null,
-        "dateFin": "2007-06-26",
-        "preseance": "28",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Député non-inscrit",
-          "libQualite": "Député non-inscrit",
-          "libQualiteSex": "Député non-inscrit"
-        },
-        "organes": {
-          "organeRef": "PO387155"
-        }
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
         "uid": "PM282437",
         "acteurRef": "PA634",
         "legislature": "12",
@@ -2727,6 +2707,26 @@
         },
         "organes": {
           "organeRef": "PO392835"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM387417",
+        "acteurRef": "PA634",
+        "legislature": "13",
+        "typeOrgane": "GP",
+        "dateDebut": "2007-06-20",
+        "datePublication": null,
+        "dateFin": "2007-06-26",
+        "preseance": "28",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Député non-inscrit",
+          "libQualite": "Député non-inscrit",
+          "libQualiteSex": "Député non-inscrit"
+        },
+        "organes": {
+          "organeRef": "PO387155"
         }
       },
       {
@@ -7450,100 +7450,6 @@
         }
       },
       {
-        "@xsi:type": "MandatParlementaire_type",
-        "uid": "PM386072",
-        "acteurRef": "PA634",
-        "legislature": "13",
-        "typeOrgane": "ASSEMBLEE",
-        "dateDebut": "2007-06-20",
-        "datePublication": null,
-        "dateFin": "2012-06-19",
-        "preseance": "50",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "membre",
-          "libQualite": "membre",
-          "libQualiteSex": "membre"
-        },
-        "organes": {
-          "organeRef": "PO384266"
-        },
-        "suppleants": {
-          "suppleant": {
-            "dateDebut": "2007-06-20",
-            "dateFin": "2012-06-19",
-            "suppleantRef": "PA343483"
-          }
-        },
-        "chambre": null,
-        "election": {
-          "lieu": {
-            "region": "Bretagne",
-            "regionType": "Métropolitain",
-            "departement": "Morbihan",
-            "numDepartement": "56",
-            "numCirco": "4"
-          },
-          "causeMandat": "élections générales",
-          "refCirconscription": "PO384527"
-        },
-        "mandature": {
-          "datePriseFonction": "2007-06-20",
-          "causeFin": "Fin de législature",
-          "premiereElection": "1",
-          "placeHemicycle": null,
-          "mandatRemplaceRef": null
-        },
-        "collaborateurs": null
-      },
-      {
-        "@xsi:type": "MandatParlementaire_type",
-        "uid": "PM267053",
-        "acteurRef": "PA634",
-        "legislature": "12",
-        "typeOrgane": "ASSEMBLEE",
-        "dateDebut": "2002-06-19",
-        "datePublication": null,
-        "dateFin": "2007-06-19",
-        "preseance": "50",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "membre",
-          "libQualite": "membre",
-          "libQualiteSex": "membre"
-        },
-        "organes": {
-          "organeRef": "PO230434"
-        },
-        "suppleants": {
-          "suppleant": {
-            "dateDebut": "2002-06-19",
-            "dateFin": "2007-06-19",
-            "suppleantRef": "PA267052"
-          }
-        },
-        "chambre": null,
-        "election": {
-          "lieu": {
-            "region": "Bretagne",
-            "regionType": "Métropolitain",
-            "departement": "Morbihan",
-            "numDepartement": "56",
-            "numCirco": "4"
-          },
-          "causeMandat": "élections générales",
-          "refCirconscription": "PO230695"
-        },
-        "mandature": {
-          "datePriseFonction": "2002-06-19",
-          "causeFin": "Fin de législature",
-          "premiereElection": "1",
-          "placeHemicycle": null,
-          "mandatRemplaceRef": null
-        },
-        "collaborateurs": null
-      },
-      {
         "@xsi:type": "MandatSimple_Type",
         "uid": "PM291288",
         "acteurRef": "PA634",
@@ -7702,6 +7608,100 @@
         "organes": {
           "organeRef": "PO393268"
         }
+      },
+      {
+        "@xsi:type": "MandatParlementaire_type",
+        "uid": "PM386072",
+        "acteurRef": "PA634",
+        "legislature": "13",
+        "typeOrgane": "ASSEMBLEE",
+        "dateDebut": "2007-06-20",
+        "datePublication": null,
+        "dateFin": "2012-06-19",
+        "preseance": "50",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "membre",
+          "libQualite": "membre",
+          "libQualiteSex": "membre"
+        },
+        "organes": {
+          "organeRef": "PO384266"
+        },
+        "suppleants": {
+          "suppleant": {
+            "dateDebut": "2007-06-20",
+            "dateFin": "2012-06-19",
+            "suppleantRef": "PA343483"
+          }
+        },
+        "chambre": null,
+        "election": {
+          "lieu": {
+            "region": "Bretagne",
+            "regionType": "Métropolitain",
+            "departement": "Morbihan",
+            "numDepartement": "56",
+            "numCirco": "4"
+          },
+          "causeMandat": "élections générales",
+          "refCirconscription": "PO384527"
+        },
+        "mandature": {
+          "datePriseFonction": "2007-06-20",
+          "causeFin": "Fin de législature",
+          "premiereElection": "1",
+          "placeHemicycle": null,
+          "mandatRemplaceRef": null
+        },
+        "collaborateurs": null
+      },
+      {
+        "@xsi:type": "MandatParlementaire_type",
+        "uid": "PM267053",
+        "acteurRef": "PA634",
+        "legislature": "12",
+        "typeOrgane": "ASSEMBLEE",
+        "dateDebut": "2002-06-19",
+        "datePublication": null,
+        "dateFin": "2007-06-19",
+        "preseance": "50",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "membre",
+          "libQualite": "membre",
+          "libQualiteSex": "membre"
+        },
+        "organes": {
+          "organeRef": "PO230434"
+        },
+        "suppleants": {
+          "suppleant": {
+            "dateDebut": "2002-06-19",
+            "dateFin": "2007-06-19",
+            "suppleantRef": "PA267052"
+          }
+        },
+        "chambre": null,
+        "election": {
+          "lieu": {
+            "region": "Bretagne",
+            "regionType": "Métropolitain",
+            "departement": "Morbihan",
+            "numDepartement": "56",
+            "numCirco": "4"
+          },
+          "causeMandat": "élections générales",
+          "refCirconscription": "PO230695"
+        },
+        "mandature": {
+          "datePriseFonction": "2002-06-19",
+          "causeFin": "Fin de législature",
+          "premiereElection": "1",
+          "placeHemicycle": null,
+          "mandatRemplaceRef": null
+        },
+        "collaborateurs": null
       }
     ]
   }
