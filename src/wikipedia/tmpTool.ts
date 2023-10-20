@@ -17,6 +17,7 @@ export function tmpTool() {
   let cptInvalid = 0
   let cptDone = 0
   let cptEmpty = 0
+  let nextFileToWorkOn: string | null = null
   manualFiles.forEach(f => {
     const content = readFileAsYaml(f)
     const res = affairesArraySchema.safeParse(content)
@@ -27,10 +28,14 @@ export function tmpTool() {
         cptEmpty++
       }
     } else {
+      if (!nextFileToWorkOn) {
+        nextFileToWorkOn = f
+      }
       cptInvalid++
     }
   })
   console.log({ cptDone, cptInvalid, cptEmpty })
+  console.log('Next file to work on :', nextFileToWorkOn)
 }
 
 const affairesArraySchema = z.array(
