@@ -289,6 +289,26 @@
       },
       {
         "@xsi:type": "MandatSimple_Type",
+        "uid": "PM771374",
+        "acteurRef": "PA721600",
+        "legislature": "15",
+        "typeOrgane": "GEVI",
+        "dateDebut": "2020-04-14",
+        "datePublication": null,
+        "dateFin": "2022-06-21",
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO733622"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
         "uid": "PM766811",
         "acteurRef": "PA721600",
         "legislature": "15",
@@ -309,14 +329,14 @@
       },
       {
         "@xsi:type": "MandatSimple_Type",
-        "uid": "PM771374",
+        "uid": "PM742146",
         "acteurRef": "PA721600",
         "legislature": "15",
-        "typeOrgane": "GEVI",
-        "dateDebut": "2020-04-14",
-        "datePublication": null,
+        "typeOrgane": "API",
+        "dateDebut": "2017-10-27",
+        "datePublication": "2017-10-28",
         "dateFin": "2022-06-21",
-        "preseance": "20",
+        "preseance": "40",
         "nominPrincipale": "1",
         "infosQualite": {
           "codeQualite": "Membre",
@@ -324,7 +344,7 @@
           "libQualiteSex": "Membre"
         },
         "organes": {
-          "organeRef": "PO733622"
+          "organeRef": "PO201115"
         }
       },
       {
@@ -385,26 +405,6 @@
         },
         "organes": {
           "organeRef": "PO773520"
-        }
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM742146",
-        "acteurRef": "PA721600",
-        "legislature": "15",
-        "typeOrgane": "API",
-        "dateDebut": "2017-10-27",
-        "datePublication": "2017-10-28",
-        "dateFin": "2022-06-21",
-        "preseance": "40",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Membre",
-          "libQualite": "Membre",
-          "libQualiteSex": "Membre"
-        },
-        "organes": {
-          "organeRef": "PO201115"
         }
       },
       {
@@ -591,46 +591,6 @@
         }
       },
       {
-        "@xsi:type": "MandatParlementaire_type",
-        "uid": "PM732223",
-        "acteurRef": "PA721600",
-        "legislature": "15",
-        "typeOrgane": "BUREAU",
-        "dateDebut": "2017-06-28",
-        "datePublication": null,
-        "dateFin": "2022-06-21",
-        "preseance": "12",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Questeur",
-          "libQualite": "Questeur de l'Assemblée nationale",
-          "libQualiteSex": "Questeure de l'Assemblée nationale"
-        },
-        "organes": {
-          "organeRef": "PO725349"
-        },
-        "suppleants": null,
-        "chambre": null,
-        "election": {
-          "lieu": {
-            "region": null,
-            "regionType": null,
-            "departement": null,
-            "numDepartement": null,
-            "numCirco": null
-          },
-          "causeMandat": null
-        },
-        "mandature": {
-          "datePriseFonction": null,
-          "causeFin": null,
-          "premiereElection": "0",
-          "placeHemicycle": null,
-          "mandatRemplaceRef": null
-        },
-        "collaborateurs": null
-      },
-      {
         "@xsi:type": "MandatSimple_Type",
         "uid": "PM747936",
         "acteurRef": "PA721600",
@@ -711,24 +671,44 @@
         }
       },
       {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM724706",
+        "@xsi:type": "MandatParlementaire_type",
+        "uid": "PM732223",
         "acteurRef": "PA721600",
         "legislature": "15",
-        "typeOrgane": "GP",
-        "dateDebut": "2017-06-21",
+        "typeOrgane": "BUREAU",
+        "dateDebut": "2017-06-28",
         "datePublication": null,
-        "dateFin": "2017-06-26",
-        "preseance": "28",
+        "dateFin": "2022-06-21",
+        "preseance": "12",
         "nominPrincipale": "1",
         "infosQualite": {
-          "codeQualite": "Député non-inscrit",
-          "libQualite": "Député non-inscrit",
-          "libQualiteSex": "Députée non-inscrite"
+          "codeQualite": "Questeur",
+          "libQualite": "Questeur de l'Assemblée nationale",
+          "libQualiteSex": "Questeure de l'Assemblée nationale"
         },
         "organes": {
-          "organeRef": "PO723569"
-        }
+          "organeRef": "PO725349"
+        },
+        "suppleants": null,
+        "chambre": null,
+        "election": {
+          "lieu": {
+            "region": null,
+            "regionType": null,
+            "departement": null,
+            "numDepartement": null,
+            "numCirco": null
+          },
+          "causeMandat": null
+        },
+        "mandature": {
+          "datePriseFonction": null,
+          "causeFin": null,
+          "premiereElection": "0",
+          "placeHemicycle": null,
+          "mandatRemplaceRef": null
+        },
+        "collaborateurs": null
       },
       {
         "@xsi:type": "MandatSimple_Type",
@@ -828,6 +808,26 @@
         },
         "organes": {
           "organeRef": "PO747271"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM724706",
+        "acteurRef": "PA721600",
+        "legislature": "15",
+        "typeOrgane": "GP",
+        "dateDebut": "2017-06-21",
+        "datePublication": null,
+        "dateFin": "2017-06-26",
+        "preseance": "28",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Député non-inscrit",
+          "libQualite": "Député non-inscrit",
+          "libQualiteSex": "Députée non-inscrite"
+        },
+        "organes": {
+          "organeRef": "PO723569"
         }
       },
       {

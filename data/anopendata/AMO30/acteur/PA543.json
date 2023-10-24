@@ -63,6 +63,46 @@
   "mandats": {
     "mandat": [
       {
+        "@xsi:type": "MandatParlementaire_type",
+        "uid": "PM690213",
+        "acteurRef": "PA543",
+        "legislature": "14",
+        "typeOrgane": "CONFPT",
+        "dateDebut": "2012-06-20",
+        "datePublication": null,
+        "dateFin": "2017-06-20",
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO690204"
+        },
+        "suppleants": null,
+        "chambre": null,
+        "election": {
+          "lieu": {
+            "region": null,
+            "regionType": null,
+            "departement": null,
+            "numDepartement": null,
+            "numCirco": null
+          },
+          "causeMandat": null
+        },
+        "mandature": {
+          "datePriseFonction": null,
+          "causeFin": null,
+          "premiereElection": "0",
+          "placeHemicycle": null,
+          "mandatRemplaceRef": null
+        },
+        "collaborateurs": null
+      },
+      {
         "@xsi:type": "MandatAvecSuppleant_Type",
         "uid": "PM677166",
         "acteurRef": "PA543",
@@ -103,46 +143,6 @@
           "organeRef": "PO415287"
         },
         "suppleants": null
-      },
-      {
-        "@xsi:type": "MandatParlementaire_type",
-        "uid": "PM690213",
-        "acteurRef": "PA543",
-        "legislature": "14",
-        "typeOrgane": "CONFPT",
-        "dateDebut": "2012-06-20",
-        "datePublication": null,
-        "dateFin": "2017-06-20",
-        "preseance": "20",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Membre",
-          "libQualite": "Membre",
-          "libQualiteSex": "Membre"
-        },
-        "organes": {
-          "organeRef": "PO690204"
-        },
-        "suppleants": null,
-        "chambre": null,
-        "election": {
-          "lieu": {
-            "region": null,
-            "regionType": null,
-            "departement": null,
-            "numDepartement": null,
-            "numCirco": null
-          },
-          "causeMandat": null
-        },
-        "mandature": {
-          "datePriseFonction": null,
-          "causeFin": null,
-          "premiereElection": "0",
-          "placeHemicycle": null,
-          "mandatRemplaceRef": null
-        },
-        "collaborateurs": null
       },
       {
         "@xsi:type": "MandatMission_Type",
@@ -258,6 +258,26 @@
       },
       {
         "@xsi:type": "MandatSimple_Type",
+        "uid": "PM415163",
+        "acteurRef": "PA543",
+        "legislature": "13",
+        "typeOrgane": "GEVI",
+        "dateDebut": "2008-07-30",
+        "datePublication": null,
+        "dateFin": "2012-06-19",
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO414614"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
         "uid": "PM416411",
         "acteurRef": "PA543",
         "legislature": "13",
@@ -318,26 +338,6 @@
       },
       {
         "@xsi:type": "MandatSimple_Type",
-        "uid": "PM415163",
-        "acteurRef": "PA543",
-        "legislature": "13",
-        "typeOrgane": "GEVI",
-        "dateDebut": "2008-07-30",
-        "datePublication": null,
-        "dateFin": "2012-06-19",
-        "preseance": "20",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Membre",
-          "libQualite": "Membre",
-          "libQualiteSex": "Membre"
-        },
-        "organes": {
-          "organeRef": "PO414614"
-        }
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
         "uid": "PM682347",
         "acteurRef": "PA543",
         "legislature": "14",
@@ -354,46 +354,6 @@
         },
         "organes": {
           "organeRef": "PO675787"
-        }
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM446223",
-        "acteurRef": "PA543",
-        "legislature": "13",
-        "typeOrgane": "CNPE",
-        "dateDebut": "2011-12-13",
-        "datePublication": "2011-12-14",
-        "dateFin": "2012-03-07",
-        "preseance": "20",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Membre",
-          "libQualite": "Membre",
-          "libQualiteSex": "Membre"
-        },
-        "organes": {
-          "organeRef": "PO446215"
-        }
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM713862",
-        "acteurRef": "PA543",
-        "legislature": "14",
-        "typeOrgane": "CNPE",
-        "dateDebut": "2016-06-17",
-        "datePublication": "2016-06-18",
-        "dateFin": "2016-12-20",
-        "preseance": "20",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Membre",
-          "libQualite": "Membre",
-          "libQualiteSex": "Membre"
-        },
-        "organes": {
-          "organeRef": "PO713684"
         }
       },
       {
@@ -474,6 +434,46 @@
         },
         "organes": {
           "organeRef": "PO201115"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM446223",
+        "acteurRef": "PA543",
+        "legislature": "13",
+        "typeOrgane": "CNPE",
+        "dateDebut": "2011-12-13",
+        "datePublication": "2011-12-14",
+        "dateFin": "2012-03-07",
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO446215"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM713862",
+        "acteurRef": "PA543",
+        "legislature": "14",
+        "typeOrgane": "CNPE",
+        "dateDebut": "2016-06-17",
+        "datePublication": "2016-06-18",
+        "dateFin": "2016-12-20",
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO713684"
         }
       },
       {
@@ -862,6 +862,26 @@
       },
       {
         "@xsi:type": "MandatSimple_Type",
+        "uid": "PM688150",
+        "acteurRef": "PA543",
+        "legislature": "14",
+        "typeOrgane": "GEVI",
+        "dateDebut": "2013-01-17",
+        "datePublication": null,
+        "dateFin": "2015-10-14",
+        "preseance": "8",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Vice-Président",
+          "libQualite": "Vice-Président",
+          "libQualiteSex": "Vice-Président"
+        },
+        "organes": {
+          "organeRef": "PO675787"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
         "uid": "PM418529",
         "acteurRef": "PA543",
         "legislature": "13",
@@ -922,14 +942,14 @@
       },
       {
         "@xsi:type": "MandatSimple_Type",
-        "uid": "PM688150",
+        "uid": "PM404510",
         "acteurRef": "PA543",
-        "legislature": "14",
-        "typeOrgane": "GEVI",
-        "dateDebut": "2013-01-17",
-        "datePublication": null,
-        "dateFin": "2015-10-14",
-        "preseance": "8",
+        "legislature": "13",
+        "typeOrgane": "API",
+        "dateDebut": "2007-11-27",
+        "datePublication": "2007-11-28",
+        "dateFin": "2012-06-19",
+        "preseance": "4",
         "nominPrincipale": "1",
         "infosQualite": {
           "codeQualite": "Vice-Président",
@@ -937,7 +957,7 @@
           "libQualiteSex": "Vice-Président"
         },
         "organes": {
-          "organeRef": "PO675787"
+          "organeRef": "PO201115"
         }
       },
       {
@@ -1438,26 +1458,6 @@
         },
         "organes": {
           "organeRef": "PO60196"
-        }
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM404510",
-        "acteurRef": "PA543",
-        "legislature": "13",
-        "typeOrgane": "API",
-        "dateDebut": "2007-11-27",
-        "datePublication": "2007-11-28",
-        "dateFin": "2012-06-19",
-        "preseance": "4",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Vice-Président",
-          "libQualite": "Vice-Président",
-          "libQualiteSex": "Vice-Président"
-        },
-        "organes": {
-          "organeRef": "PO201115"
         }
       },
       {
@@ -3948,46 +3948,6 @@
         "collaborateurs": null
       },
       {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM709746",
-        "acteurRef": "PA543",
-        "legislature": "14",
-        "typeOrgane": "GA",
-        "dateDebut": "2015-10-14",
-        "datePublication": null,
-        "dateFin": "2017-06-20",
-        "preseance": "8",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Vice-Président",
-          "libQualite": "Vice-Président",
-          "libQualiteSex": "Vice-Président"
-        },
-        "organes": {
-          "organeRef": "PO709724"
-        }
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM406082",
-        "acteurRef": "PA543",
-        "legislature": "13",
-        "typeOrgane": "GA",
-        "dateDebut": "2007-12-18",
-        "datePublication": null,
-        "dateFin": "2012-06-19",
-        "preseance": "8",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Vice-Président",
-          "libQualite": "Vice-Président",
-          "libQualiteSex": "Vice-Président"
-        },
-        "organes": {
-          "organeRef": "PO392915"
-        }
-      },
-      {
         "@xsi:type": "MandatParlementaire_type",
         "uid": "PM386054",
         "acteurRef": "PA543",
@@ -4033,6 +3993,93 @@
           "mandatRemplaceRef": null
         },
         "collaborateurs": null
+      },
+      {
+        "@xsi:type": "MandatParlementaire_type",
+        "uid": "PM645064",
+        "acteurRef": "PA543",
+        "legislature": "14",
+        "typeOrgane": "ASSEMBLEE",
+        "dateDebut": "2012-06-20",
+        "datePublication": null,
+        "dateFin": "2017-06-20",
+        "preseance": "50",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "membre",
+          "libQualite": "membre",
+          "libQualiteSex": "membre"
+        },
+        "organes": {
+          "organeRef": "PO644420"
+        },
+        "suppleants": {
+          "suppleant": {
+            "dateDebut": "2012-06-20",
+            "dateFin": "2017-06-20",
+            "suppleantRef": "PA547"
+          }
+        },
+        "chambre": null,
+        "election": {
+          "lieu": {
+            "region": "Ile-de-France",
+            "regionType": "Métropolitain",
+            "departement": "Paris",
+            "numDepartement": "75",
+            "numCirco": "7"
+          },
+          "causeMandat": "élections générales",
+          "refCirconscription": "PO644822"
+        },
+        "mandature": {
+          "datePriseFonction": "2012-06-20",
+          "causeFin": "Fin de législature",
+          "premiereElection": "1",
+          "placeHemicycle": null,
+          "mandatRemplaceRef": null
+        },
+        "collaborateurs": null
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM709746",
+        "acteurRef": "PA543",
+        "legislature": "14",
+        "typeOrgane": "GA",
+        "dateDebut": "2015-10-14",
+        "datePublication": null,
+        "dateFin": "2017-06-20",
+        "preseance": "8",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Vice-Président",
+          "libQualite": "Vice-Président",
+          "libQualiteSex": "Vice-Président"
+        },
+        "organes": {
+          "organeRef": "PO709724"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM406082",
+        "acteurRef": "PA543",
+        "legislature": "13",
+        "typeOrgane": "GA",
+        "dateDebut": "2007-12-18",
+        "datePublication": null,
+        "dateFin": "2012-06-19",
+        "preseance": "8",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Vice-Président",
+          "libQualite": "Vice-Président",
+          "libQualiteSex": "Vice-Président"
+        },
+        "organes": {
+          "organeRef": "PO392915"
+        }
       },
       {
         "@xsi:type": "MandatSimple_Type",
@@ -4233,53 +4280,6 @@
         "organes": {
           "organeRef": "PO393338"
         }
-      },
-      {
-        "@xsi:type": "MandatParlementaire_type",
-        "uid": "PM645064",
-        "acteurRef": "PA543",
-        "legislature": "14",
-        "typeOrgane": "ASSEMBLEE",
-        "dateDebut": "2012-06-20",
-        "datePublication": null,
-        "dateFin": "2017-06-20",
-        "preseance": "50",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "membre",
-          "libQualite": "membre",
-          "libQualiteSex": "membre"
-        },
-        "organes": {
-          "organeRef": "PO644420"
-        },
-        "suppleants": {
-          "suppleant": {
-            "dateDebut": "2012-06-20",
-            "dateFin": "2017-06-20",
-            "suppleantRef": "PA547"
-          }
-        },
-        "chambre": null,
-        "election": {
-          "lieu": {
-            "region": "Ile-de-France",
-            "regionType": "Métropolitain",
-            "departement": "Paris",
-            "numDepartement": "75",
-            "numCirco": "7"
-          },
-          "causeMandat": "élections générales",
-          "refCirconscription": "PO644822"
-        },
-        "mandature": {
-          "datePriseFonction": "2012-06-20",
-          "causeFin": "Fin de législature",
-          "premiereElection": "1",
-          "placeHemicycle": null,
-          "mandatRemplaceRef": null
-        },
-        "collaborateurs": null
       },
       {
         "@xsi:type": "MandatSimple_Type",

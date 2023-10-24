@@ -132,27 +132,6 @@
         }
       },
       {
-        "@xsi:type": "MandatAvecSuppleant_Type",
-        "uid": "PM670977",
-        "acteurRef": "PA609016",
-        "legislature": "14",
-        "typeOrgane": "OFFPAR",
-        "dateDebut": "2012-07-11",
-        "datePublication": "2012-07-11",
-        "dateFin": "2016-05-13",
-        "preseance": "24",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Membre",
-          "libQualite": "Membre",
-          "libQualiteSex": "Membre"
-        },
-        "organes": {
-          "organeRef": "PO273589"
-        },
-        "suppleants": null
-      },
-      {
         "@xsi:type": "MandatParlementaire_type",
         "uid": "PM690212",
         "acteurRef": "PA609016",
@@ -191,6 +170,27 @@
           "mandatRemplaceRef": null
         },
         "collaborateurs": null
+      },
+      {
+        "@xsi:type": "MandatAvecSuppleant_Type",
+        "uid": "PM670977",
+        "acteurRef": "PA609016",
+        "legislature": "14",
+        "typeOrgane": "OFFPAR",
+        "dateDebut": "2012-07-11",
+        "datePublication": "2012-07-11",
+        "dateFin": "2016-05-13",
+        "preseance": "24",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO273589"
+        },
+        "suppleants": null
       },
       {
         "@xsi:type": "MandatMission_Type",
@@ -299,26 +299,6 @@
         }
       },
       {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM703137",
-        "acteurRef": "PA609016",
-        "legislature": "14",
-        "typeOrgane": "CNPS",
-        "dateDebut": "2014-09-09",
-        "datePublication": "2014-09-10",
-        "dateFin": "2015-08-18",
-        "preseance": "16",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Rapporteur",
-          "libQualite": "Rapporteur",
-          "libQualiteSex": "Rapporteur"
-        },
-        "organes": {
-          "organeRef": "PO702808"
-        }
-      },
-      {
         "@xsi:type": "MandatMission_Type",
         "uid": "PM710321",
         "acteurRef": "PA609016",
@@ -340,6 +320,26 @@
         "libelle": null,
         "missionSuivanteRef": null,
         "missionPrecedenteRef": null
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM703137",
+        "acteurRef": "PA609016",
+        "legislature": "14",
+        "typeOrgane": "CNPS",
+        "dateDebut": "2014-09-09",
+        "datePublication": "2014-09-10",
+        "dateFin": "2015-08-18",
+        "preseance": "16",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Rapporteur",
+          "libQualite": "Rapporteur",
+          "libQualiteSex": "Rapporteur"
+        },
+        "organes": {
+          "organeRef": "PO702808"
+        }
       },
       {
         "@xsi:type": "MandatSimple_Type",
@@ -542,46 +542,6 @@
         }
       },
       {
-        "@xsi:type": "MandatParlementaire_type",
-        "uid": "PM656841",
-        "acteurRef": "PA609016",
-        "legislature": "14",
-        "typeOrgane": "BUREAU",
-        "dateDebut": "2012-06-27",
-        "datePublication": null,
-        "dateFin": "2016-05-09",
-        "preseance": "7",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Vice-Président",
-          "libQualite": "Vice-président de l'Assemblée nationale",
-          "libQualiteSex": "Vice-président de l'Assemblée nationale"
-        },
-        "organes": {
-          "organeRef": "PO654796"
-        },
-        "suppleants": null,
-        "chambre": null,
-        "election": {
-          "lieu": {
-            "region": null,
-            "regionType": null,
-            "departement": null,
-            "numDepartement": null,
-            "numCirco": null
-          },
-          "causeMandat": null
-        },
-        "mandature": {
-          "datePriseFonction": null,
-          "causeFin": null,
-          "premiereElection": "0",
-          "placeHemicycle": null,
-          "mandatRemplaceRef": null
-        },
-        "collaborateurs": null
-      },
-      {
         "@xsi:type": "MandatSimple_Type",
         "uid": "PM696840",
         "acteurRef": "PA609016",
@@ -622,24 +582,44 @@
         }
       },
       {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM712755",
+        "@xsi:type": "MandatParlementaire_type",
+        "uid": "PM656841",
         "acteurRef": "PA609016",
         "legislature": "14",
-        "typeOrgane": "GP",
-        "dateDebut": "2016-05-11",
-        "datePublication": "2016-05-11",
-        "dateFin": "2017-06-20",
-        "preseance": "28",
+        "typeOrgane": "BUREAU",
+        "dateDebut": "2012-06-27",
+        "datePublication": null,
+        "dateFin": "2016-05-09",
+        "preseance": "7",
         "nominPrincipale": "1",
         "infosQualite": {
-          "codeQualite": "Député non-inscrit",
-          "libQualite": "Député non-inscrit",
-          "libQualiteSex": "Député non-inscrit"
+          "codeQualite": "Vice-Président",
+          "libQualite": "Vice-président de l'Assemblée nationale",
+          "libQualiteSex": "Vice-président de l'Assemblée nationale"
         },
         "organes": {
-          "organeRef": "PO645633"
-        }
+          "organeRef": "PO654796"
+        },
+        "suppleants": null,
+        "chambre": null,
+        "election": {
+          "lieu": {
+            "region": null,
+            "regionType": null,
+            "departement": null,
+            "numDepartement": null,
+            "numCirco": null
+          },
+          "causeMandat": null
+        },
+        "mandature": {
+          "datePriseFonction": null,
+          "causeFin": null,
+          "premiereElection": "0",
+          "placeHemicycle": null,
+          "mandatRemplaceRef": null
+        },
+        "collaborateurs": null
       },
       {
         "@xsi:type": "MandatSimple_Type",
@@ -719,6 +699,26 @@
         },
         "organes": {
           "organeRef": "PO686249"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM712755",
+        "acteurRef": "PA609016",
+        "legislature": "14",
+        "typeOrgane": "GP",
+        "dateDebut": "2016-05-11",
+        "datePublication": "2016-05-11",
+        "dateFin": "2017-06-20",
+        "preseance": "28",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Député non-inscrit",
+          "libQualite": "Député non-inscrit",
+          "libQualiteSex": "Député non-inscrit"
+        },
+        "organes": {
+          "organeRef": "PO645633"
         }
       },
       {

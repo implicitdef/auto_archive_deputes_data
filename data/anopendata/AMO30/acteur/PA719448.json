@@ -764,46 +764,6 @@
         }
       },
       {
-        "@xsi:type": "MandatParlementaire_type",
-        "uid": "PM775114",
-        "acteurRef": "PA719448",
-        "legislature": "15",
-        "typeOrgane": "BUREAU",
-        "dateDebut": "2020-10-01",
-        "datePublication": null,
-        "dateFin": "2022-06-21",
-        "preseance": "21",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Secrétaire",
-          "libQualite": "Secrétaire de l'Assemblée nationale",
-          "libQualiteSex": "Secrétaire de l'Assemblée nationale"
-        },
-        "organes": {
-          "organeRef": "PO725349"
-        },
-        "suppleants": null,
-        "chambre": null,
-        "election": {
-          "lieu": {
-            "region": null,
-            "regionType": null,
-            "departement": null,
-            "numDepartement": null,
-            "numCirco": null
-          },
-          "causeMandat": null
-        },
-        "mandature": {
-          "datePriseFonction": null,
-          "causeFin": null,
-          "premiereElection": "0",
-          "placeHemicycle": null,
-          "mandatRemplaceRef": null
-        },
-        "collaborateurs": null
-      },
-      {
         "@xsi:type": "MandatSimple_Type",
         "uid": "PM768079",
         "acteurRef": "PA719448",
@@ -844,64 +804,44 @@
         }
       },
       {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM787585",
+        "@xsi:type": "MandatParlementaire_type",
+        "uid": "PM775114",
         "acteurRef": "PA719448",
         "legislature": "15",
-        "typeOrgane": "GP",
-        "dateDebut": "2020-10-17",
+        "typeOrgane": "BUREAU",
+        "dateDebut": "2020-10-01",
         "datePublication": null,
-        "dateFin": "2020-10-25",
-        "preseance": "28",
+        "dateFin": "2022-06-21",
+        "preseance": "21",
         "nominPrincipale": "1",
         "infosQualite": {
-          "codeQualite": "Député non-inscrit",
-          "libQualite": "Député non-inscrit",
-          "libQualiteSex": "Députée non-inscrite"
+          "codeQualite": "Secrétaire",
+          "libQualite": "Secrétaire de l'Assemblée nationale",
+          "libQualiteSex": "Secrétaire de l'Assemblée nationale"
         },
         "organes": {
-          "organeRef": "PO723569"
-        }
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM724374",
-        "acteurRef": "PA719448",
-        "legislature": "15",
-        "typeOrgane": "GP",
-        "dateDebut": "2017-06-21",
-        "datePublication": null,
-        "dateFin": "2017-06-26",
-        "preseance": "28",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Député non-inscrit",
-          "libQualite": "Député non-inscrit",
-          "libQualiteSex": "Députée non-inscrite"
+          "organeRef": "PO725349"
         },
-        "organes": {
-          "organeRef": "PO723569"
-        }
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM769447",
-        "acteurRef": "PA719448",
-        "legislature": "15",
-        "typeOrgane": "GP",
-        "dateDebut": "2020-01-22",
-        "datePublication": "2020-01-22",
-        "dateFin": "2020-05-19",
-        "preseance": "24",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Membre apparenté",
-          "libQualite": "Apparenté au",
-          "libQualiteSex": "Apparentée au"
+        "suppleants": null,
+        "chambre": null,
+        "election": {
+          "lieu": {
+            "region": null,
+            "regionType": null,
+            "departement": null,
+            "numDepartement": null,
+            "numCirco": null
+          },
+          "causeMandat": null
         },
-        "organes": {
-          "organeRef": "PO730964"
-        }
+        "mandature": {
+          "datePriseFonction": null,
+          "causeFin": null,
+          "premiereElection": "0",
+          "placeHemicycle": null,
+          "mandatRemplaceRef": null
+        },
+        "collaborateurs": null
       },
       {
         "@xsi:type": "MandatSimple_Type",
@@ -1301,6 +1241,66 @@
         },
         "organes": {
           "organeRef": "PO763254"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM787585",
+        "acteurRef": "PA719448",
+        "legislature": "15",
+        "typeOrgane": "GP",
+        "dateDebut": "2020-10-17",
+        "datePublication": null,
+        "dateFin": "2020-10-25",
+        "preseance": "28",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Député non-inscrit",
+          "libQualite": "Député non-inscrit",
+          "libQualiteSex": "Députée non-inscrite"
+        },
+        "organes": {
+          "organeRef": "PO723569"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM724374",
+        "acteurRef": "PA719448",
+        "legislature": "15",
+        "typeOrgane": "GP",
+        "dateDebut": "2017-06-21",
+        "datePublication": null,
+        "dateFin": "2017-06-26",
+        "preseance": "28",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Député non-inscrit",
+          "libQualite": "Député non-inscrit",
+          "libQualiteSex": "Députée non-inscrite"
+        },
+        "organes": {
+          "organeRef": "PO723569"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM769447",
+        "acteurRef": "PA719448",
+        "legislature": "15",
+        "typeOrgane": "GP",
+        "dateDebut": "2020-01-22",
+        "datePublication": "2020-01-22",
+        "dateFin": "2020-05-19",
+        "preseance": "24",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre apparenté",
+          "libQualite": "Apparenté au",
+          "libQualiteSex": "Apparentée au"
+        },
+        "organes": {
+          "organeRef": "PO730964"
         }
       },
       {

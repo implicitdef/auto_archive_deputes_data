@@ -211,26 +211,6 @@
         "missionPrecedenteRef": null
       },
       {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM425618",
-        "acteurRef": "PA1452",
-        "legislature": "13",
-        "typeOrgane": "CNPS",
-        "dateDebut": "2010-11-10",
-        "datePublication": "2011-11-11",
-        "dateFin": "2011-06-23",
-        "preseance": "20",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Membre",
-          "libQualite": "Membre",
-          "libQualiteSex": "Membre"
-        },
-        "organes": {
-          "organeRef": "PO425550"
-        }
-      },
-      {
         "@xsi:type": "MandatMission_Type",
         "uid": "PM309075",
         "acteurRef": "PA1452",
@@ -252,6 +232,26 @@
         "libelle": null,
         "missionSuivanteRef": null,
         "missionPrecedenteRef": null
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM425618",
+        "acteurRef": "PA1452",
+        "legislature": "13",
+        "typeOrgane": "CNPS",
+        "dateDebut": "2010-11-10",
+        "datePublication": "2011-11-11",
+        "dateFin": "2011-06-23",
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO425550"
+        }
       },
       {
         "@xsi:type": "MandatSimple_Type",
@@ -318,26 +318,6 @@
       },
       {
         "@xsi:type": "MandatSimple_Type",
-        "uid": "PM423403",
-        "acteurRef": "PA1452",
-        "legislature": "13",
-        "typeOrgane": "CNPE",
-        "dateDebut": "2010-03-30",
-        "datePublication": "2010-03-31",
-        "dateFin": "2010-03-30",
-        "preseance": "20",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Membre",
-          "libQualite": "Membre",
-          "libQualiteSex": "Membre"
-        },
-        "organes": {
-          "organeRef": "PO423145"
-        }
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
         "uid": "PM395835",
         "acteurRef": "PA1452",
         "legislature": "13",
@@ -354,6 +334,26 @@
         },
         "organes": {
           "organeRef": "PO206064"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM423403",
+        "acteurRef": "PA1452",
+        "legislature": "13",
+        "typeOrgane": "CNPE",
+        "dateDebut": "2010-03-30",
+        "datePublication": "2010-03-31",
+        "dateFin": "2010-03-30",
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO423145"
         }
       },
       {
@@ -616,46 +616,6 @@
         "organes": {
           "organeRef": "PO323289"
         }
-      },
-      {
-        "@xsi:type": "MandatParlementaire_type",
-        "uid": "PM390337",
-        "acteurRef": "PA1452",
-        "legislature": "13",
-        "typeOrgane": "BUREAU",
-        "dateDebut": "2007-06-27",
-        "datePublication": "2007-06-28",
-        "dateFin": "2008-10-01",
-        "preseance": "10",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Vice-Président",
-          "libQualite": "Vice-président de l'Assemblée nationale",
-          "libQualiteSex": "Vice-présidente de l'Assemblée nationale"
-        },
-        "organes": {
-          "organeRef": "PO389368"
-        },
-        "suppleants": null,
-        "chambre": null,
-        "election": {
-          "lieu": {
-            "region": null,
-            "regionType": null,
-            "departement": null,
-            "numDepartement": null,
-            "numCirco": null
-          },
-          "causeMandat": null
-        },
-        "mandature": {
-          "datePriseFonction": null,
-          "causeFin": null,
-          "premiereElection": "0",
-          "placeHemicycle": null,
-          "mandatRemplaceRef": null
-        },
-        "collaborateurs": null
       },
       {
         "@xsi:type": "MandatSimple_Type",
@@ -1996,6 +1956,46 @@
         "organes": {
           "organeRef": "PO402850"
         }
+      },
+      {
+        "@xsi:type": "MandatParlementaire_type",
+        "uid": "PM390337",
+        "acteurRef": "PA1452",
+        "legislature": "13",
+        "typeOrgane": "BUREAU",
+        "dateDebut": "2007-06-27",
+        "datePublication": "2007-06-28",
+        "dateFin": "2008-10-01",
+        "preseance": "10",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Vice-Président",
+          "libQualite": "Vice-président de l'Assemblée nationale",
+          "libQualiteSex": "Vice-présidente de l'Assemblée nationale"
+        },
+        "organes": {
+          "organeRef": "PO389368"
+        },
+        "suppleants": null,
+        "chambre": null,
+        "election": {
+          "lieu": {
+            "region": null,
+            "regionType": null,
+            "departement": null,
+            "numDepartement": null,
+            "numCirco": null
+          },
+          "causeMandat": null
+        },
+        "mandature": {
+          "datePriseFonction": null,
+          "causeFin": null,
+          "premiereElection": "0",
+          "placeHemicycle": null,
+          "mandatRemplaceRef": null
+        },
+        "collaborateurs": null
       },
       {
         "@xsi:type": "MandatSimple_Type",
