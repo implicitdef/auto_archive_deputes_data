@@ -26,7 +26,7 @@ type DeputesJsonFileFromNosDeputes = {
     }
   }[]
 }
-type DeputeFinalWithLegislature = {
+export type DeputeFinalWithLegislature = {
   // the same depute can be present in NosDeputes with different values in each legislature
   // we need to distinguish them
   legislature: number
@@ -36,13 +36,14 @@ type DeputeFinalWithLegislature = {
   nom: string
 }
 
+export const NOSDEPUTES_BASIC_DATA_FILE = path.join(
+  DATA_DIR,
+  'nosdeputes',
+  'basicdata',
+  'nosdeputes_basic_data.json',
+)
+
 export async function nosdeputesFetchBasicData(legislatureArg: LegislatureArg) {
-  const filePath = path.join(
-    DATA_DIR,
-    'nosdeputes',
-    'basicdata',
-    'nosdeputes_basic_data.json',
-  )
   const newData: DeputeFinalWithLegislature[] = (
     await Promise.all(
       nosDeputesLegislatures
@@ -68,7 +69,9 @@ export async function nosdeputesFetchBasicData(legislatureArg: LegislatureArg) {
         }),
     )
   ).flat()
-  const existingData = readFileAsJson(filePath) as DeputeFinalWithLegislature[]
+  const existingData = readFileAsJson(
+    NOSDEPUTES_BASIC_DATA_FILE,
+  ) as DeputeFinalWithLegislature[]
 
   const existingDataWithoutDataToOverride = existingData.filter(dOld => {
     // If we have new data for this depute, we prefer to discard the old and keep the new
@@ -81,8 +84,8 @@ export async function nosdeputesFetchBasicData(legislatureArg: LegislatureArg) {
     [...existingDataWithoutDataToOverride, ...newData],
     _ => `${_.legislature}_${_.id_an}`,
   )
-  console.log(`Writing to file ${filePath}`)
-  writeToFile(filePath, JSON.stringify(mergedData, null, 2))
+  console.log(`Writing to file ${NOSDEPUTES_BASIC_DATA_FILE}`)
+  writeToFile(NOSDEPUTES_BASIC_DATA_FILE, JSON.stringify(mergedData, null, 2))
 }
 
 export async function nosdeputesFetchWeeklyStats(

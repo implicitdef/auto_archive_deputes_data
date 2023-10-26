@@ -1,14 +1,28 @@
 import path from 'path'
-import { listFilesInFolder, readFileAsYaml, sortAlphabetically } from '../utils'
+import {
+  extractFileName,
+  listFilesInFolder,
+  readFileAsJson,
+  readFileAsYaml,
+  sortAlphabetically,
+} from '../utils'
 import { WIKIPEDIA_DATA_DIR } from './fetchWikipediaUrls'
 import { z } from 'zod'
+import {
+  DeputeFinalWithLegislature,
+  NOSDEPUTES_BASIC_DATA_FILE,
+} from '../nosdeputesFetch'
 
 export const WIKIPEDIA_AFFAIRES_MANUAL_DATA_DIR = path.join(
   WIKIPEDIA_DATA_DIR,
   'affaires_manual',
 )
+
+const LEGISLATURES_TO_PRIORIZE = [16]
 export function tmpTool() {
   console.log('--- tmpTool')
+
+  const ndData = readNosDeputesBasicData()
 
   const manualFiles = sortAlphabetically(
     listFilesInFolder(WIKIPEDIA_AFFAIRES_MANUAL_DATA_DIR),
@@ -19,23 +33,37 @@ export function tmpTool() {
   let cptEmpty = 0
   let nextFileToWorkOn: string | null = null
   manualFiles.forEach(f => {
-    const content = readFileAsYaml(f)
-    const res = affairesArraySchema.safeParse(content)
-    if (res.success) {
-      if (res.data.length > 0) {
-        cptDone++
+    const filename = extractFileName(f)
+    const idAn = filename.split('_')[0]
+    const legislatures = ndData
+      .filter(_ => _.id_an === idAn)
+      .map(_ => _.legislature)
+    const isPriorizedDepute = legislatures.some(_ =>
+      LEGISLATURES_TO_PRIORIZE.includes(_),
+    )
+    if (isPriorizedDepute) {
+      const content = readFileAsYaml(f)
+      const res = affairesArraySchema.safeParse(content)
+      if (res.success) {
+        if (res.data.length > 0) {
+          cptDone++
+        } else {
+          cptEmpty++
+        }
       } else {
-        cptEmpty++
+        if (!nextFileToWorkOn) {
+          nextFileToWorkOn = f
+        }
+        cptInvalid++
       }
-    } else {
-      if (!nextFileToWorkOn) {
-        nextFileToWorkOn = f
-      }
-      cptInvalid++
     }
   })
-  console.log({ cptDone, cptInvalid, cptEmpty })
-  console.log('Next file to work on :', nextFileToWorkOn)
+  console.log('Etat des lieux pour les législature', LEGISLATURES_TO_PRIORIZE, {
+    cptDone,
+    cptInvalid,
+    cptEmpty,
+  })
+  console.log('Prochain fichier sur lequel travailler :', nextFileToWorkOn)
 }
 
 const affairesArraySchema = z.array(
@@ -49,3 +77,9 @@ const affairesArraySchema = z.array(
 
 export type AffairesArray = z.infer<typeof affairesArraySchema>
 export type Affaire = AffairesArray[number]
+
+function readNosDeputesBasicData() {
+  return readFileAsJson(
+    NOSDEPUTES_BASIC_DATA_FILE,
+  ) as DeputeFinalWithLegislature[]
+}
