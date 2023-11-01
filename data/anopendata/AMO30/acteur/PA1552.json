@@ -60,26 +60,6 @@
     "mandat": [
       {
         "@xsi:type": "MandatSimple_Type",
-        "uid": "PM310467",
-        "acteurRef": "PA1552",
-        "legislature": null,
-        "typeOrgane": "GROUPESENAT",
-        "dateDebut": "2005-02-22",
-        "datePublication": "2005-02-23",
-        "dateFin": "2012-12-03",
-        "preseance": "4",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Membre",
-          "libQualite": "Membre",
-          "libQualiteSex": "Membre"
-        },
-        "organes": {
-          "organeRef": "PO286005"
-        }
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
         "uid": "PM310512",
         "acteurRef": "PA1552",
         "legislature": null,
@@ -96,6 +76,26 @@
         },
         "organes": {
           "organeRef": "PO211492"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM310467",
+        "acteurRef": "PA1552",
+        "legislature": null,
+        "typeOrgane": "GROUPESENAT",
+        "dateDebut": "2005-02-22",
+        "datePublication": "2005-02-23",
+        "dateFin": "2012-12-03",
+        "preseance": "4",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO286005"
         }
       },
       {
@@ -219,6 +219,46 @@
         }
       },
       {
+        "@xsi:type": "MandatParlementaire_type",
+        "uid": "PM310468",
+        "acteurRef": "PA1552",
+        "legislature": null,
+        "typeOrgane": "SENAT",
+        "dateDebut": "2005-02-21",
+        "datePublication": "2005-02-22",
+        "dateFin": "2014-09-30",
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Sénateur",
+          "libQualite": "SENATEUR",
+          "libQualiteSex": "SENATEUR"
+        },
+        "organes": {
+          "organeRef": "PO78718"
+        },
+        "suppleants": null,
+        "chambre": null,
+        "election": {
+          "lieu": {
+            "region": null,
+            "regionType": null,
+            "departement": null,
+            "numDepartement": "67",
+            "numCirco": null
+          },
+          "causeMandat": null
+        },
+        "mandature": {
+          "datePriseFonction": null,
+          "causeFin": null,
+          "premiereElection": "0",
+          "placeHemicycle": null,
+          "mandatRemplaceRef": null
+        },
+        "collaborateurs": null
+      },
+      {
         "@xsi:type": "MandatSimple_Type",
         "uid": "PM314270",
         "acteurRef": "PA1552",
@@ -277,46 +317,6 @@
         "organes": {
           "organeRef": "PO58977"
         }
-      },
-      {
-        "@xsi:type": "MandatParlementaire_type",
-        "uid": "PM310468",
-        "acteurRef": "PA1552",
-        "legislature": null,
-        "typeOrgane": "SENAT",
-        "dateDebut": "2005-02-21",
-        "datePublication": "2005-02-22",
-        "dateFin": "2014-09-30",
-        "preseance": "20",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Sénateur",
-          "libQualite": "SENATEUR",
-          "libQualiteSex": "SENATEUR"
-        },
-        "organes": {
-          "organeRef": "PO78718"
-        },
-        "suppleants": null,
-        "chambre": null,
-        "election": {
-          "lieu": {
-            "region": null,
-            "regionType": null,
-            "departement": null,
-            "numDepartement": "67",
-            "numCirco": null
-          },
-          "causeMandat": null
-        },
-        "mandature": {
-          "datePriseFonction": null,
-          "causeFin": null,
-          "premiereElection": "0",
-          "placeHemicycle": null,
-          "mandatRemplaceRef": null
-        },
-        "collaborateurs": null
       }
     ]
   }

@@ -70,6 +70,46 @@
       },
       {
         "@xsi:type": "MandatSimple_Type",
+        "uid": "PM704064",
+        "acteurRef": "PA1919",
+        "legislature": null,
+        "typeOrgane": "COMSENAT",
+        "dateDebut": "2014-10-08",
+        "datePublication": null,
+        "dateFin": "2017-10-01",
+        "preseance": "10",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO211491"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM416031",
+        "acteurRef": "PA1919",
+        "legislature": null,
+        "typeOrgane": "COMSENAT",
+        "dateDebut": "2008-10-07",
+        "datePublication": null,
+        "dateFin": "2011-09-30",
+        "preseance": null,
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": null,
+          "libQualite": "Président",
+          "libQualiteSex": "Président"
+        },
+        "organes": {
+          "organeRef": "PO211490"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
         "uid": "PM517997",
         "acteurRef": "PA1919",
         "legislature": null,
@@ -166,46 +206,6 @@
         },
         "organes": {
           "organeRef": "PO201115"
-        }
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM704064",
-        "acteurRef": "PA1919",
-        "legislature": null,
-        "typeOrgane": "COMSENAT",
-        "dateDebut": "2014-10-08",
-        "datePublication": null,
-        "dateFin": "2017-10-01",
-        "preseance": "10",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Membre",
-          "libQualite": "Membre",
-          "libQualiteSex": "Membre"
-        },
-        "organes": {
-          "organeRef": "PO211491"
-        }
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM416031",
-        "acteurRef": "PA1919",
-        "legislature": null,
-        "typeOrgane": "COMSENAT",
-        "dateDebut": "2008-10-07",
-        "datePublication": null,
-        "dateFin": "2011-09-30",
-        "preseance": null,
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": null,
-          "libQualite": "Président",
-          "libQualiteSex": "Président"
-        },
-        "organes": {
-          "organeRef": "PO211490"
         }
       },
       {
@@ -450,6 +450,66 @@
       },
       {
         "@xsi:type": "MandatSimple_Type",
+        "uid": "PM430377",
+        "acteurRef": "PA1919",
+        "legislature": null,
+        "typeOrgane": "COMSENAT",
+        "dateDebut": "2011-10-01",
+        "datePublication": null,
+        "dateFin": "2014-10-07",
+        "preseance": null,
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": null,
+          "libQualite": "Vice-Président",
+          "libQualiteSex": "Vice-Président"
+        },
+        "organes": {
+          "organeRef": "PO211490"
+        }
+      },
+      {
+        "@xsi:type": "MandatParlementaire_type",
+        "uid": "PM429940",
+        "acteurRef": "PA1919",
+        "legislature": null,
+        "typeOrgane": "SENAT",
+        "dateDebut": "2011-10-01",
+        "datePublication": null,
+        "dateFin": "2017-10-01",
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Sénateur",
+          "libQualite": "SENATEUR",
+          "libQualiteSex": "SENATEUR"
+        },
+        "organes": {
+          "organeRef": "PO78718"
+        },
+        "suppleants": null,
+        "chambre": null,
+        "election": {
+          "lieu": {
+            "region": null,
+            "regionType": null,
+            "departement": null,
+            "numDepartement": "59",
+            "numCirco": null
+          },
+          "causeMandat": null
+        },
+        "mandature": {
+          "datePriseFonction": null,
+          "causeFin": null,
+          "premiereElection": "0",
+          "placeHemicycle": null,
+          "mandatRemplaceRef": null
+        },
+        "collaborateurs": null
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
         "uid": "PM304418",
         "acteurRef": "PA1919",
         "legislature": null,
@@ -529,24 +589,44 @@
         }
       },
       {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM430377",
+        "@xsi:type": "MandatParlementaire_type",
+        "uid": "PM227172",
         "acteurRef": "PA1919",
         "legislature": null,
-        "typeOrgane": "COMSENAT",
-        "dateDebut": "2011-10-01",
-        "datePublication": null,
-        "dateFin": "2014-10-07",
-        "preseance": null,
+        "typeOrgane": "SENAT",
+        "dateDebut": "2001-10-01",
+        "datePublication": "2001-10-02",
+        "dateFin": "2011-09-30",
+        "preseance": "20",
         "nominPrincipale": "1",
         "infosQualite": {
-          "codeQualite": null,
-          "libQualite": "Vice-Président",
-          "libQualiteSex": "Vice-Président"
+          "codeQualite": "Sénateur",
+          "libQualite": "SENATEUR",
+          "libQualiteSex": "SENATEUR"
         },
         "organes": {
-          "organeRef": "PO211490"
-        }
+          "organeRef": "PO78718"
+        },
+        "suppleants": null,
+        "chambre": null,
+        "election": {
+          "lieu": {
+            "region": null,
+            "regionType": null,
+            "departement": null,
+            "numDepartement": "59",
+            "numCirco": null
+          },
+          "causeMandat": null
+        },
+        "mandature": {
+          "datePriseFonction": null,
+          "causeFin": null,
+          "premiereElection": "0",
+          "placeHemicycle": null,
+          "mandatRemplaceRef": null
+        },
+        "collaborateurs": null
       },
       {
         "@xsi:type": "MandatSimple_Type",
@@ -587,86 +667,6 @@
         "organes": {
           "organeRef": "PO58977"
         }
-      },
-      {
-        "@xsi:type": "MandatParlementaire_type",
-        "uid": "PM429940",
-        "acteurRef": "PA1919",
-        "legislature": null,
-        "typeOrgane": "SENAT",
-        "dateDebut": "2011-10-01",
-        "datePublication": null,
-        "dateFin": "2017-10-01",
-        "preseance": "20",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Sénateur",
-          "libQualite": "SENATEUR",
-          "libQualiteSex": "SENATEUR"
-        },
-        "organes": {
-          "organeRef": "PO78718"
-        },
-        "suppleants": null,
-        "chambre": null,
-        "election": {
-          "lieu": {
-            "region": null,
-            "regionType": null,
-            "departement": null,
-            "numDepartement": "59",
-            "numCirco": null
-          },
-          "causeMandat": null
-        },
-        "mandature": {
-          "datePriseFonction": null,
-          "causeFin": null,
-          "premiereElection": "0",
-          "placeHemicycle": null,
-          "mandatRemplaceRef": null
-        },
-        "collaborateurs": null
-      },
-      {
-        "@xsi:type": "MandatParlementaire_type",
-        "uid": "PM227172",
-        "acteurRef": "PA1919",
-        "legislature": null,
-        "typeOrgane": "SENAT",
-        "dateDebut": "2001-10-01",
-        "datePublication": "2001-10-02",
-        "dateFin": "2011-09-30",
-        "preseance": "20",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Sénateur",
-          "libQualite": "SENATEUR",
-          "libQualiteSex": "SENATEUR"
-        },
-        "organes": {
-          "organeRef": "PO78718"
-        },
-        "suppleants": null,
-        "chambre": null,
-        "election": {
-          "lieu": {
-            "region": null,
-            "regionType": null,
-            "departement": null,
-            "numDepartement": "59",
-            "numCirco": null
-          },
-          "causeMandat": null
-        },
-        "mandature": {
-          "datePriseFonction": null,
-          "causeFin": null,
-          "premiereElection": "0",
-          "placeHemicycle": null,
-          "mandatRemplaceRef": null
-        },
-        "collaborateurs": null
       },
       {
         "@xsi:type": "MandatSimple_Type",
