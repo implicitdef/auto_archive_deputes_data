@@ -121,6 +121,26 @@
       },
       {
         "@xsi:type": "MandatSimple_Type",
+        "uid": "PM415766",
+        "acteurRef": "PA415448",
+        "legislature": null,
+        "typeOrgane": "GROUPESENAT",
+        "dateDebut": "2008-10-01",
+        "datePublication": null,
+        "dateFin": null,
+        "preseance": "4",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO286005"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
         "uid": "PM777624",
         "acteurRef": "PA415448",
         "legislature": null,
@@ -217,26 +237,6 @@
         },
         "organes": {
           "organeRef": "PO211494"
-        }
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM415766",
-        "acteurRef": "PA415448",
-        "legislature": null,
-        "typeOrgane": "GROUPESENAT",
-        "dateDebut": "2008-10-01",
-        "datePublication": null,
-        "dateFin": null,
-        "preseance": "4",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Membre",
-          "libQualite": "Membre",
-          "libQualiteSex": "Membre"
-        },
-        "organes": {
-          "organeRef": "PO286005"
         }
       },
       {
@@ -1660,86 +1660,6 @@
         }
       },
       {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM704167",
-        "acteurRef": "PA415448",
-        "legislature": null,
-        "typeOrgane": "COMSENAT",
-        "dateDebut": "2014-10-09",
-        "datePublication": null,
-        "dateFin": "2017-10-03",
-        "preseance": "5",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Rapporteur général",
-          "libQualite": "Rapporteur général",
-          "libQualiteSex": "Rapporteur général"
-        },
-        "organes": {
-          "organeRef": "PO211494"
-        }
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM741346",
-        "acteurRef": "PA415448",
-        "legislature": null,
-        "typeOrgane": "COMSENAT",
-        "dateDebut": "2017-10-05",
-        "datePublication": null,
-        "dateFin": "2020-10-05",
-        "preseance": "5",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Rapporteur général",
-          "libQualite": "Rapporteur général",
-          "libQualiteSex": "Rapporteur général"
-        },
-        "organes": {
-          "organeRef": "PO211494"
-        }
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM430452",
-        "acteurRef": "PA415448",
-        "legislature": null,
-        "typeOrgane": "COMSENAT",
-        "dateDebut": "2011-10-01",
-        "datePublication": null,
-        "dateFin": "2014-10-07",
-        "preseance": null,
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": null,
-          "libQualite": "Vice-Président",
-          "libQualiteSex": "Vice-Président"
-        },
-        "organes": {
-          "organeRef": "PO211494"
-        }
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM777622",
-        "acteurRef": "PA415448",
-        "legislature": null,
-        "typeOrgane": "COMSENAT",
-        "dateDebut": "2020-10-07",
-        "datePublication": null,
-        "dateFin": "2023-10-01",
-        "preseance": null,
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": null,
-          "libQualite": "Vice-Président",
-          "libQualiteSex": "Vice-Président"
-        },
-        "organes": {
-          "organeRef": "PO211494"
-        }
-      },
-      {
         "@xsi:type": "MandatParlementaire_type",
         "uid": "PM703610",
         "acteurRef": "PA415448",
@@ -1778,6 +1698,46 @@
           "mandatRemplaceRef": null
         },
         "collaborateurs": null
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM704167",
+        "acteurRef": "PA415448",
+        "legislature": null,
+        "typeOrgane": "COMSENAT",
+        "dateDebut": "2014-10-09",
+        "datePublication": null,
+        "dateFin": "2017-10-03",
+        "preseance": "5",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Rapporteur général",
+          "libQualite": "Rapporteur général",
+          "libQualiteSex": "Rapporteur général"
+        },
+        "organes": {
+          "organeRef": "PO211494"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM741346",
+        "acteurRef": "PA415448",
+        "legislature": null,
+        "typeOrgane": "COMSENAT",
+        "dateDebut": "2017-10-05",
+        "datePublication": null,
+        "dateFin": "2020-10-05",
+        "preseance": "5",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Rapporteur général",
+          "libQualite": "Rapporteur général",
+          "libQualiteSex": "Rapporteur général"
+        },
+        "organes": {
+          "organeRef": "PO211494"
+        }
       },
       {
         "@xsi:type": "MandatParlementaire_type",
@@ -1820,6 +1780,26 @@
         "collaborateurs": null
       },
       {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM430452",
+        "acteurRef": "PA415448",
+        "legislature": null,
+        "typeOrgane": "COMSENAT",
+        "dateDebut": "2011-10-01",
+        "datePublication": null,
+        "dateFin": "2014-10-07",
+        "preseance": null,
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": null,
+          "libQualite": "Vice-Président",
+          "libQualiteSex": "Vice-Président"
+        },
+        "organes": {
+          "organeRef": "PO211494"
+        }
+      },
+      {
         "@xsi:type": "MandatParlementaire_type",
         "uid": "PM775789",
         "acteurRef": "PA415448",
@@ -1858,6 +1838,26 @@
           "mandatRemplaceRef": null
         },
         "collaborateurs": null
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM777622",
+        "acteurRef": "PA415448",
+        "legislature": null,
+        "typeOrgane": "COMSENAT",
+        "dateDebut": "2020-10-07",
+        "datePublication": null,
+        "dateFin": "2023-10-01",
+        "preseance": null,
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": null,
+          "libQualite": "Vice-Président",
+          "libQualiteSex": "Vice-Président"
+        },
+        "organes": {
+          "organeRef": "PO211494"
+        }
       },
       {
         "@xsi:type": "MandatSimple_Type",
