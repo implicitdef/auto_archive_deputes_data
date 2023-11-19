@@ -6,7 +6,7 @@ import { queryOccurencesLeMonde } from './gallicagramClient'
 import pLimit from 'p-limit'
 
 export const MEDIATISATION_DATA_DIR = path.join(DATA_DIR, 'mediatisation')
-export const MEDIATISATION_URLS_JSON_FILE = path.join(
+export const MEDIATISATION_JSON_FILE = path.join(
   MEDIATISATION_DATA_DIR,
   'mediatisation.json',
 )
@@ -31,8 +31,8 @@ export async function fetchMediatisation() {
     ),
   )
 
-  console.log(`Writing to ${MEDIATISATION_URLS_JSON_FILE}`)
-  writeToFile(MEDIATISATION_URLS_JSON_FILE, JSON.stringify(res, null, 2))
+  console.log(`Writing to ${MEDIATISATION_JSON_FILE}`)
+  writeToFile(MEDIATISATION_JSON_FILE, JSON.stringify(res, null, 2))
 }
 
 export async function getRecentOccurencesLeMonde({
