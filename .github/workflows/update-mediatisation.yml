@@ -1,8 +1,7 @@
 on:
   workflow_dispatch:
   schedule:
-    # this job is very slow, we don't need to run it that often
-    - cron: '15 2 * * 5' # every Friday at 2:15 AM (so a bit after the wikipedia urls job)
+    - cron: '0 4 * * *' # every day at 4h
 
 jobs:
   main-job:
@@ -18,9 +17,9 @@ jobs:
       - run: node --version
       - run: yarn --version
       - run: yarn install --frozen-lockfile
-      - run: yarn start update_wikipedia_paragraphs
+      - run: yarn start update_mediatisation
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: Auto commit of wikipedia paragraphs
+          commit_message: Auto commit of mediatisation data from gallicagram

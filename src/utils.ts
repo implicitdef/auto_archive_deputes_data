@@ -236,3 +236,9 @@ export function copyToFolder(filePath: string, dirName: string) {
 export function sortAlphabetically(arr: string[]): string[] {
   return arr.slice().sort((a, b) => a.localeCompare(b))
 }
+
+export function padStartWithZeroes(str: string, targetLength: number): string {
+  const diff = targetLength - str.length
+  if (diff <= 0) return str
+  return `${'0'.repeat(diff)}${str}`
+}

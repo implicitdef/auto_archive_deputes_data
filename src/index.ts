@@ -12,6 +12,8 @@ import { fetchWikipediaParagraphs } from './wikipedia/fetchWikipediaParagraphs'
 import { createWikipediaSummaries } from './wikipedia/fetchWikipediaSummaries'
 import { fetchWikipediaUrls } from './wikipedia/fetchWikipediaUrls'
 import { tmpTool } from './wikipedia/tmpTool'
+import { queryOccurencesLeMonde } from './mediatisation/gallicagramClient'
+import { fetchMediatisation } from './mediatisation/fetchMediatisation'
 
 type Command =
   | 'update_an_open_data'
@@ -22,6 +24,7 @@ type Command =
   | 'update_wikipedia_paragraphs'
   | 'update_wikipedia_summaries'
   | 'update_elections_partielles'
+  | 'update_mediatisation'
   | 'tmptool'
 
 const MINISTERE_INTERIEUR_ENABLED = false
@@ -62,6 +65,9 @@ async function start() {
         await fetchElectionsPartiellesFromMinistere()
       }
       break
+    case 'update_mediatisation':
+      await fetchMediatisation()
+      break
     case 'tmptool':
       await tmpTool()
       break
@@ -101,6 +107,9 @@ function readCommandArgument(): Command {
   }
   if (args.includes('update_elections_partielles')) {
     return 'update_elections_partielles'
+  }
+  if (args.includes('update_mediatisation')) {
+    return 'update_mediatisation'
   }
   if (args.includes('tmptool')) {
     return 'tmptool'
