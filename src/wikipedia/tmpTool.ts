@@ -1,19 +1,18 @@
+import { sortBy } from 'lodash'
 import path from 'path'
+import { z } from 'zod'
+import { MEDIATISATION_JSON_FILE } from '../mediatisation/fetchMediatisation'
+import {
+  DeputeFinalWithLegislature,
+  NOSDEPUTES_BASIC_DATA_FILE,
+} from '../nosdeputesFetch'
 import {
   extractFileName,
   listFilesInFolder,
   readFileAsJson,
   readFileAsYaml,
-  sortAlphabetically,
 } from '../utils'
 import { WIKIPEDIA_DATA_DIR } from './fetchWikipediaUrls'
-import { z } from 'zod'
-import {
-  DeputeFinalWithLegislature,
-  NOSDEPUTES_BASIC_DATA_FILE,
-} from '../nosdeputesFetch'
-import { MEDIATISATION_JSON_FILE } from '../mediatisation/fetchMediatisation'
-import { sortBy } from 'lodash'
 
 export const WIKIPEDIA_AFFAIRES_MANUAL_DATA_DIR = path.join(
   WIKIPEDIA_DATA_DIR,
@@ -42,7 +41,9 @@ export function tmpTool() {
     const parsingRes = affairesArraySchema.safeParse(content)
     const status = parsingRes.success
       ? parsingRes.data.length > 0
-        ? 'done'
+        ? parsingRes.data.every(_ => _.to_rework !== true)
+          ? 'done'
+          : 'to_rework'
         : 'empty'
       : 'invalid'
 
@@ -61,6 +62,7 @@ export function tmpTool() {
   )
 
   const cptDone = res.filter(_ => _.status === 'done').length
+  const cptToRework = res.filter(_ => _.status === 'to_rework').length
   const cptInvalid = res.filter(_ => _.status === 'invalid').length
   const cptEmpty = res.filter(_ => _.status === 'empty').length
   const nextFileToWorkOn = res.find(_ => _.status === 'invalid')?.filename
@@ -71,6 +73,7 @@ export function tmpTool() {
 
   console.log('Etat des lieux pour la législature', LATEST_LEGISLATURE, {
     cptDone,
+    cptToRework,
     cptInvalid,
     cptEmpty,
   })
@@ -83,8 +86,17 @@ const affairesArraySchema = z.array(
   z.object({
     title: z.string(),
     subtitle: z.string().optional(),
-    text: z.array(z.union([z.string(), z.array(z.string())])), // (string | string[])[]
-    sources: z.array(z.string()),
+    text: z.union([
+      // (string | string[])[]
+      z.array(z.union([z.string(), z.array(z.string())])),
+      // {factual_events : string[], legal_process: string[]}
+      z.object({
+        factual_events: z.array(z.string()),
+        legal_process: z.array(z.string()),
+      }),
+    ]),
+    sources: z.array(z.string()).nullable(),
+    to_rework: z.boolean().optional(),
   }),
 )
 
