@@ -148,7 +148,13 @@
         "organes": {
           "organeRef": "PO58996"
         },
-        "suppleants": null
+        "suppleants": {
+          "suppleant": {
+            "dateDebut": "2023-10-18",
+            "dateFin": null,
+            "suppleantRef": "PA794278"
+          }
+        }
       },
       {
         "@xsi:type": "MandatAvecSuppleant_Type",
@@ -765,6 +771,26 @@
       },
       {
         "@xsi:type": "MandatSimple_Type",
+        "uid": "PM832537",
+        "acteurRef": "PA719202",
+        "legislature": "16",
+        "typeOrgane": "COMPER",
+        "dateDebut": "2023-12-01",
+        "datePublication": "2023-12-01",
+        "dateFin": null,
+        "preseance": "32",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO59046"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
         "uid": "PM801614",
         "acteurRef": "PA719202",
         "legislature": "16",
@@ -1011,7 +1037,7 @@
         "typeOrgane": "COMPER",
         "dateDebut": "2023-11-30",
         "datePublication": "2023-11-30",
-        "dateFin": null,
+        "dateFin": "2023-11-30",
         "preseance": "32",
         "nominPrincipale": "1",
         "infosQualite": {
