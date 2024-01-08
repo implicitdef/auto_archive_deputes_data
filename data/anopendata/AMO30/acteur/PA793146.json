@@ -473,7 +473,7 @@
         "typeOrgane": "CMP",
         "dateDebut": "2023-11-29",
         "datePublication": "2023-11-30",
-        "dateFin": null,
+        "dateFin": "2023-12-18",
         "preseance": "28",
         "nominPrincipale": "1",
         "infosQualite": {
@@ -503,26 +503,6 @@
         },
         "organes": {
           "organeRef": "PO822178"
-        }
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM818183",
-        "acteurRef": "PA793146",
-        "legislature": "16",
-        "typeOrgane": "GE",
-        "dateDebut": "2023-02-02",
-        "datePublication": null,
-        "dateFin": null,
-        "preseance": "8",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Vice-Président",
-          "libQualite": "Vice-Président",
-          "libQualiteSex": "Vice-Président"
-        },
-        "organes": {
-          "organeRef": "PO808322"
         }
       },
       {
@@ -571,22 +551,33 @@
           "mandatRemplaceRef": null
         },
         "collaborateurs": {
-          "collaborateur": [
-            {
-              "qualite": "M.",
-              "prenom": "Hermann",
-              "nom": "Mauvais",
-              "dateDebut": null,
-              "dateFin": null
-            },
-            {
-              "qualite": "M.",
-              "prenom": "Antoine",
-              "nom": "Contrant",
-              "dateDebut": null,
-              "dateFin": null
-            }
-          ]
+          "collaborateur": {
+            "qualite": "M.",
+            "prenom": "Hermann",
+            "nom": "Mauvais",
+            "dateDebut": null,
+            "dateFin": null
+          }
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM818183",
+        "acteurRef": "PA793146",
+        "legislature": "16",
+        "typeOrgane": "GE",
+        "dateDebut": "2023-02-02",
+        "datePublication": null,
+        "dateFin": null,
+        "preseance": "8",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Vice-Président",
+          "libQualite": "Vice-Président",
+          "libQualiteSex": "Vice-Président"
+        },
+        "organes": {
+          "organeRef": "PO808322"
         }
       }
     ]
