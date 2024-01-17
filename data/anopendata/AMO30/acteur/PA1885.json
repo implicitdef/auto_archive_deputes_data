@@ -30,7 +30,9 @@
       "famSocPro": "Cadres et professions intellectuelles supérieures"
     }
   },
-  "uri_hatvp": "/tribun/resources/html/defautDeclarationActeur.html",
+  "uri_hatvp": {
+    "@xsi:nil": "true"
+  },
   "adresses": {
     "adresse": [
       {
@@ -82,6 +84,26 @@
       },
       {
         "@xsi:type": "MandatSimple_Type",
+        "uid": "PM288095",
+        "acteurRef": "PA1885",
+        "legislature": null,
+        "typeOrgane": "API",
+        "dateDebut": "2002-07-30",
+        "datePublication": null,
+        "dateFin": "2008-09-30",
+        "preseance": "40",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO206064"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
         "uid": "PM89642",
         "acteurRef": "PA1885",
         "legislature": null,
@@ -118,26 +140,6 @@
         },
         "organes": {
           "organeRef": "PO211491"
-        }
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM288095",
-        "acteurRef": "PA1885",
-        "legislature": null,
-        "typeOrgane": "API",
-        "dateDebut": "2002-07-30",
-        "datePublication": null,
-        "dateFin": "2008-09-30",
-        "preseance": "40",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Membre",
-          "libQualite": "Membre",
-          "libQualiteSex": "Membre"
-        },
-        "organes": {
-          "organeRef": "PO206064"
         }
       },
       {

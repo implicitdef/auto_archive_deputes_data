@@ -285,6 +285,26 @@
       },
       {
         "@xsi:type": "MandatSimple_Type",
+        "uid": "PM680222",
+        "acteurRef": "PA331014",
+        "legislature": "14",
+        "typeOrgane": "API",
+        "dateDebut": "2012-10-12",
+        "datePublication": null,
+        "dateFin": "2017-06-20",
+        "preseance": "40",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO201115"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
         "uid": "PM425628",
         "acteurRef": "PA331014",
         "legislature": "13",
@@ -301,6 +321,26 @@
         },
         "organes": {
           "organeRef": "PO425550"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM684477",
+        "acteurRef": "PA331014",
+        "legislature": "14",
+        "typeOrgane": "API",
+        "dateDebut": "2012-11-14",
+        "datePublication": null,
+        "dateFin": "2017-06-20",
+        "preseance": "38",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Secrétaire",
+          "libQualite": "Secrétaire",
+          "libQualiteSex": "Secrétaire"
+        },
+        "organes": {
+          "organeRef": "PO201115"
         }
       },
       {
@@ -365,46 +405,6 @@
         "libelle": null,
         "missionSuivanteRef": null,
         "missionPrecedenteRef": null
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM680222",
-        "acteurRef": "PA331014",
-        "legislature": "14",
-        "typeOrgane": "API",
-        "dateDebut": "2012-10-12",
-        "datePublication": null,
-        "dateFin": "2017-06-20",
-        "preseance": "40",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Membre",
-          "libQualite": "Membre",
-          "libQualiteSex": "Membre"
-        },
-        "organes": {
-          "organeRef": "PO201115"
-        }
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM684477",
-        "acteurRef": "PA331014",
-        "legislature": "14",
-        "typeOrgane": "API",
-        "dateDebut": "2012-11-14",
-        "datePublication": null,
-        "dateFin": "2017-06-20",
-        "preseance": "38",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Secrétaire",
-          "libQualite": "Secrétaire",
-          "libQualiteSex": "Secrétaire"
-        },
-        "organes": {
-          "organeRef": "PO201115"
-        }
       },
       {
         "@xsi:type": "MandatSimple_Type",
@@ -611,6 +611,26 @@
       },
       {
         "@xsi:type": "MandatSimple_Type",
+        "uid": "PM708806",
+        "acteurRef": "PA331014",
+        "legislature": "14",
+        "typeOrgane": "API",
+        "dateDebut": "2015-03-31",
+        "datePublication": null,
+        "dateFin": "2017-06-20",
+        "preseance": "44",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Suppléant",
+          "libQualite": "Membre suppléant",
+          "libQualiteSex": "Membre suppléante"
+        },
+        "organes": {
+          "organeRef": "PO304272"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
         "uid": "PM420742",
         "acteurRef": "PA331014",
         "legislature": "13",
@@ -707,26 +727,6 @@
         },
         "organes": {
           "organeRef": "PO419865"
-        }
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM708806",
-        "acteurRef": "PA331014",
-        "legislature": "14",
-        "typeOrgane": "API",
-        "dateDebut": "2015-03-31",
-        "datePublication": null,
-        "dateFin": "2017-06-20",
-        "preseance": "44",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Suppléant",
-          "libQualite": "Membre suppléant",
-          "libQualiteSex": "Membre suppléante"
-        },
-        "organes": {
-          "organeRef": "PO304272"
         }
       },
       {
@@ -2177,6 +2177,53 @@
         "collaborateurs": null
       },
       {
+        "@xsi:type": "MandatParlementaire_type",
+        "uid": "PM645422",
+        "acteurRef": "PA331014",
+        "legislature": "14",
+        "typeOrgane": "ASSEMBLEE",
+        "dateDebut": "2012-06-20",
+        "datePublication": null,
+        "dateFin": "2017-06-20",
+        "preseance": "50",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "membre",
+          "libQualite": "membre",
+          "libQualiteSex": "membre"
+        },
+        "organes": {
+          "organeRef": "PO644420"
+        },
+        "suppleants": {
+          "suppleant": {
+            "dateDebut": "2012-06-20",
+            "dateFin": "2017-06-20",
+            "suppleantRef": "PA341014"
+          }
+        },
+        "chambre": null,
+        "election": {
+          "lieu": {
+            "region": "Nouvelle-Aquitaine",
+            "regionType": "Métropolitain",
+            "departement": "Charente-Maritime",
+            "numDepartement": "17",
+            "numCirco": "3"
+          },
+          "causeMandat": "élections générales",
+          "refCirconscription": "PO644494"
+        },
+        "mandature": {
+          "datePriseFonction": "2012-06-20",
+          "causeFin": "Fin de législature",
+          "premiereElection": "1",
+          "placeHemicycle": null,
+          "mandatRemplaceRef": null
+        },
+        "collaborateurs": null
+      },
+      {
         "@xsi:type": "MandatSimple_Type",
         "uid": "PM686743",
         "acteurRef": "PA331014",
@@ -2235,53 +2282,6 @@
         "organes": {
           "organeRef": "PO675815"
         }
-      },
-      {
-        "@xsi:type": "MandatParlementaire_type",
-        "uid": "PM645422",
-        "acteurRef": "PA331014",
-        "legislature": "14",
-        "typeOrgane": "ASSEMBLEE",
-        "dateDebut": "2012-06-20",
-        "datePublication": null,
-        "dateFin": "2017-06-20",
-        "preseance": "50",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "membre",
-          "libQualite": "membre",
-          "libQualiteSex": "membre"
-        },
-        "organes": {
-          "organeRef": "PO644420"
-        },
-        "suppleants": {
-          "suppleant": {
-            "dateDebut": "2012-06-20",
-            "dateFin": "2017-06-20",
-            "suppleantRef": "PA341014"
-          }
-        },
-        "chambre": null,
-        "election": {
-          "lieu": {
-            "region": "Nouvelle-Aquitaine",
-            "regionType": "Métropolitain",
-            "departement": "Charente-Maritime",
-            "numDepartement": "17",
-            "numCirco": "3"
-          },
-          "causeMandat": "élections générales",
-          "refCirconscription": "PO644494"
-        },
-        "mandature": {
-          "datePriseFonction": "2012-06-20",
-          "causeFin": "Fin de législature",
-          "premiereElection": "1",
-          "placeHemicycle": null,
-          "mandatRemplaceRef": null
-        },
-        "collaborateurs": null
       },
       {
         "@xsi:type": "MandatSimple_Type",
