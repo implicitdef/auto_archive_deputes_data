@@ -506,6 +506,26 @@
         }
       },
       {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM818183",
+        "acteurRef": "PA793146",
+        "legislature": "16",
+        "typeOrgane": "GE",
+        "dateDebut": "2023-02-02",
+        "datePublication": null,
+        "dateFin": null,
+        "preseance": "8",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Vice-Président",
+          "libQualite": "Vice-Président",
+          "libQualiteSex": "Vice-Président"
+        },
+        "organes": {
+          "organeRef": "PO808322"
+        }
+      },
+      {
         "@xsi:type": "MandatParlementaire_type",
         "uid": "PM796173",
         "acteurRef": "PA793146",
@@ -551,33 +571,22 @@
           "mandatRemplaceRef": null
         },
         "collaborateurs": {
-          "collaborateur": {
-            "qualite": "M.",
-            "prenom": "Hermann",
-            "nom": "Mauvais",
-            "dateDebut": null,
-            "dateFin": null
-          }
-        }
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM818183",
-        "acteurRef": "PA793146",
-        "legislature": "16",
-        "typeOrgane": "GE",
-        "dateDebut": "2023-02-02",
-        "datePublication": null,
-        "dateFin": null,
-        "preseance": "8",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Vice-Président",
-          "libQualite": "Vice-Président",
-          "libQualiteSex": "Vice-Président"
-        },
-        "organes": {
-          "organeRef": "PO808322"
+          "collaborateur": [
+            {
+              "qualite": "M.",
+              "prenom": "Hermann",
+              "nom": "Mauvais",
+              "dateDebut": null,
+              "dateFin": null
+            },
+            {
+              "qualite": "Mme",
+              "prenom": "Maryline",
+              "nom": "Georgeon",
+              "dateDebut": null,
+              "dateFin": null
+            }
+          ]
         }
       }
     ]
