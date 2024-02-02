@@ -102,6 +102,26 @@
         }
       },
       {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM803684",
+        "acteurRef": "PA794470",
+        "legislature": "16",
+        "typeOrgane": "API",
+        "dateDebut": "2022-09-07",
+        "datePublication": null,
+        "dateFin": null,
+        "preseance": "40",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO206064"
+        }
+      },
+      {
         "@xsi:type": "MandatMission_Type",
         "uid": "PM834269",
         "acteurRef": "PA794470",
@@ -148,24 +168,27 @@
         "missionPrecedenteRef": null
       },
       {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM803684",
+        "@xsi:type": "MandatMission_Type",
+        "uid": "PM834425",
         "acteurRef": "PA794470",
         "legislature": "16",
-        "typeOrgane": "API",
-        "dateDebut": "2022-09-07",
+        "typeOrgane": "MISINFO",
+        "dateDebut": "2024-01-24",
         "datePublication": null,
         "dateFin": null,
-        "preseance": "40",
+        "preseance": "9",
         "nominPrincipale": "1",
         "infosQualite": {
-          "codeQualite": "Membre",
-          "libQualite": "Membre",
-          "libQualiteSex": "Membre"
+          "codeQualite": "Rapporteur",
+          "libQualite": "Rapporteur",
+          "libQualiteSex": "Rapporteure"
         },
         "organes": {
-          "organeRef": "PO206064"
-        }
+          "organeRef": "PO833934"
+        },
+        "libelle": null,
+        "missionSuivanteRef": null,
+        "missionPrecedenteRef": null
       },
       {
         "@xsi:type": "MandatMission_Type",
@@ -182,29 +205,6 @@
           "codeQualite": "Membre",
           "libQualite": "Membre",
           "libQualiteSex": "Membre"
-        },
-        "organes": {
-          "organeRef": "PO833934"
-        },
-        "libelle": null,
-        "missionSuivanteRef": null,
-        "missionPrecedenteRef": null
-      },
-      {
-        "@xsi:type": "MandatMission_Type",
-        "uid": "PM833970",
-        "acteurRef": "PA794470",
-        "legislature": "16",
-        "typeOrgane": "MISINFO",
-        "dateDebut": "2024-01-24",
-        "datePublication": null,
-        "dateFin": null,
-        "preseance": "5",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Co-rapporteur",
-          "libQualite": "Co-rapporteur",
-          "libQualiteSex": "Co-rapporteure"
         },
         "organes": {
           "organeRef": "PO833934"
