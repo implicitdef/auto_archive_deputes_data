@@ -968,6 +968,26 @@
         }
       },
       {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM813039",
+        "acteurRef": "PA794802",
+        "legislature": "16",
+        "typeOrgane": "GA",
+        "dateDebut": "2022-12-15",
+        "datePublication": null,
+        "dateFin": null,
+        "preseance": "8",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Vice-Président",
+          "libQualite": "Vice-Président",
+          "libQualiteSex": "Vice-Président"
+        },
+        "organes": {
+          "organeRef": "PO808111"
+        }
+      },
+      {
         "@xsi:type": "MandatParlementaire_type",
         "uid": "PM797127",
         "acteurRef": "PA794802",
@@ -1013,33 +1033,22 @@
           "mandatRemplaceRef": null
         },
         "collaborateurs": {
-          "collaborateur": {
-            "qualite": "Mme",
-            "prenom": "Nadège",
-            "nom": "Heiligenstein",
-            "dateDebut": null,
-            "dateFin": null
-          }
-        }
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM813039",
-        "acteurRef": "PA794802",
-        "legislature": "16",
-        "typeOrgane": "GA",
-        "dateDebut": "2022-12-15",
-        "datePublication": null,
-        "dateFin": null,
-        "preseance": "8",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Vice-Président",
-          "libQualite": "Vice-Président",
-          "libQualiteSex": "Vice-Président"
-        },
-        "organes": {
-          "organeRef": "PO808111"
+          "collaborateur": [
+            {
+              "qualite": "Mme",
+              "prenom": "Nadège",
+              "nom": "Heiligenstein",
+              "dateDebut": null,
+              "dateFin": null
+            },
+            {
+              "qualite": "M.",
+              "prenom": "Loïc",
+              "nom": "Théréau",
+              "dateDebut": null,
+              "dateFin": null
+            }
+          ]
         }
       }
     ]
