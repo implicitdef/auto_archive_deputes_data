@@ -9,9 +9,7 @@
       "prenom": "Philippe",
       "nom": "Vigier",
       "alpha": "VigierP",
-      "trigramme": {
-        "@xsi:nil": "true"
-      }
+      "trigramme": "PVG"
     },
     "infoNaissance": {
       "dateNais": "1958-02-03",
@@ -812,6 +810,26 @@
       },
       {
         "@xsi:type": "MandatSimple_Type",
+        "uid": "PM834937",
+        "acteurRef": "PA331582",
+        "legislature": "16",
+        "typeOrgane": "GP",
+        "dateDebut": "2024-02-13",
+        "datePublication": null,
+        "dateFin": null,
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre du",
+          "libQualiteSex": "Membre du"
+        },
+        "organes": {
+          "organeRef": "PO800484"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
         "uid": "PM774898",
         "acteurRef": "PA331582",
         "legislature": "15",
@@ -1432,6 +1450,26 @@
       },
       {
         "@xsi:type": "MandatSimple_Type",
+        "uid": "PM834911",
+        "acteurRef": "PA331582",
+        "legislature": "16",
+        "typeOrgane": "COMPER",
+        "dateDebut": "2024-02-13",
+        "datePublication": "2024-02-13",
+        "dateFin": null,
+        "preseance": "32",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO420120"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
         "uid": "PM770436",
         "acteurRef": "PA331582",
         "legislature": "15",
@@ -1808,6 +1846,26 @@
         },
         "organes": {
           "organeRef": "PO723569"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM834865",
+        "acteurRef": "PA331582",
+        "legislature": "16",
+        "typeOrgane": "GP",
+        "dateDebut": "2024-02-12",
+        "datePublication": null,
+        "dateFin": "2024-02-12",
+        "preseance": "28",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Député non-inscrit",
+          "libQualite": "Député non-inscrit",
+          "libQualiteSex": "Député non-inscrit"
+        },
+        "organes": {
+          "organeRef": "PO793087"
         }
       },
       {
@@ -3036,6 +3094,56 @@
         "organes": {
           "organeRef": "PO675771"
         }
+      },
+      {
+        "@xsi:type": "MandatParlementaire_type",
+        "uid": "PM834864",
+        "acteurRef": "PA331582",
+        "legislature": "16",
+        "typeOrgane": "ASSEMBLEE",
+        "dateDebut": "2022-06-19",
+        "datePublication": null,
+        "dateFin": null,
+        "preseance": "50",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "membre",
+          "libQualite": "membre",
+          "libQualiteSex": "membre"
+        },
+        "organes": {
+          "organeRef": "PO791932"
+        },
+        "suppleants": {
+          "suppleant": {
+            "dateDebut": "2022-06-19",
+            "dateFin": null,
+            "suppleantRef": "PA793644"
+          }
+        },
+        "chambre": null,
+        "election": {
+          "lieu": {
+            "region": "Centre-Val de Loire",
+            "regionType": "Métropolitain",
+            "departement": "Eure-et-Loir",
+            "numDepartement": "28",
+            "numCirco": "4"
+          },
+          "causeMandat": "reprise de l'exercice du mandat d'un ancien membre du Gouvernement",
+          "refCirconscription": "PO792932"
+        },
+        "mandature": {
+          "datePriseFonction": "2024-02-12",
+          "causeFin": null,
+          "premiereElection": "1",
+          "placeHemicycle": null,
+          "mandatRemplaceRef": "PM796455"
+        },
+        "collaborateurs": [
+          null,
+          null
+        ]
       },
       {
         "@xsi:type": "MandatParlementaire_type",
