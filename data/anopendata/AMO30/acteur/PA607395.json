@@ -118,6 +118,46 @@
   "mandats": {
     "mandat": [
       {
+        "@xsi:type": "MandatParlementaire_type",
+        "uid": "PM835055",
+        "acteurRef": "PA607395",
+        "legislature": "16",
+        "typeOrgane": "CONFPT",
+        "dateDebut": "2024-02-14",
+        "datePublication": "2024-02-15",
+        "dateFin": null,
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO800480"
+        },
+        "suppleants": null,
+        "chambre": null,
+        "election": {
+          "lieu": {
+            "region": null,
+            "regionType": null,
+            "departement": null,
+            "numDepartement": null,
+            "numCirco": null
+          },
+          "causeMandat": null
+        },
+        "mandature": {
+          "datePriseFonction": null,
+          "causeFin": null,
+          "premiereElection": "0",
+          "placeHemicycle": null,
+          "mandatRemplaceRef": null
+        },
+        "collaborateurs": null
+      },
+      {
         "@xsi:type": "MandatSimple_Type",
         "uid": "PM802121",
         "acteurRef": "PA607395",
@@ -1103,7 +1143,7 @@
         "datePublication": "2023-06-01",
         "dateFin": null,
         "preseance": "32",
-        "nominPrincipale": "1",
+        "nominPrincipale": "0",
         "infosQualite": {
           "codeQualite": "Membre",
           "libQualite": "Membre",
@@ -1191,6 +1231,26 @@
         },
         "organes": {
           "organeRef": "PO59048"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM835054",
+        "acteurRef": "PA607395",
+        "legislature": "16",
+        "typeOrgane": "COMPER",
+        "dateDebut": "2024-02-14",
+        "datePublication": "2024-02-15",
+        "dateFin": null,
+        "preseance": "1",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Président",
+          "libQualite": "Président",
+          "libQualiteSex": "Président"
+        },
+        "organes": {
+          "organeRef": "PO419610"
         }
       },
       {
