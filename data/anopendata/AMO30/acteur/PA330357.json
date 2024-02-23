@@ -22,15 +22,13 @@
     }
   },
   "profession": {
-    "libelleCourant": "Assistant parlementaire",
+    "libelleCourant": "Cadre administratif",
     "socProcINSEE": {
       "catSocPro": "Cadres de la fonction publique, professions intellectuelles et  artistiques",
       "famSocPro": "Cadres et professions intellectuelles supérieures"
     }
   },
-  "uri_hatvp": {
-    "@xsi:nil": "true"
-  },
+  "uri_hatvp": "/tribun/resources/html/defautDeclarationActeur.html",
   "adresses": {
     "adresse": [
       {
@@ -58,24 +56,6 @@
       },
       {
         "@xsi:type": "AdresseSiteWeb_Type",
-        "uid": "AD725800",
-        "type": "22",
-        "typeLibelle": "Site internet",
-        "poids": null,
-        "adresseDeRattachement": null,
-        "valElec": "www.olivierdussopt.fr"
-      },
-      {
-        "@xsi:type": "AdresseMail_Type",
-        "uid": "AD726178",
-        "type": "15",
-        "typeLibelle": "Mèl",
-        "poids": null,
-        "adresseDeRattachement": null,
-        "valElec": "permanence@olivierdussopt.fr"
-      },
-      {
-        "@xsi:type": "AdresseSiteWeb_Type",
         "uid": "AD726578",
         "type": "24",
         "typeLibelle": "Twitter",
@@ -93,36 +73,18 @@
         "valElec": "olivier.dussopt@assemblee-nationale.fr"
       },
       {
-        "@xsi:type": "AdresseSiteWeb_Type",
-        "uid": "AD834893",
-        "type": "30",
-        "typeLibelle": "Linkedin",
-        "poids": null,
-        "adresseDeRattachement": null,
-        "valElec": "/in/olivierdussopt"
-      },
-      {
         "@xsi:type": "AdressePostale_Type",
         "uid": "AD834895",
         "type": "2",
         "typeLibelle": "Adresse publiée de circonscription",
         "poids": "22",
         "adresseDeRattachement": null,
-        "intitule": null,
+        "intitule": "Permanence parlementaire",
         "numeroRue": "1",
-        "nomRue": "Sadi Carnot",
+        "nomRue": "Rue Sadi Carnot",
         "complementAdresse": null,
         "codePostal": "07100",
-        "ville": "ANNONAY"
-      },
-      {
-        "@xsi:type": "AdresseSiteWeb_Type",
-        "uid": "AD834897",
-        "type": "29",
-        "typeLibelle": "Instagram",
-        "poids": null,
-        "adresseDeRattachement": null,
-        "valElec": "@olivierdussopt"
+        "ville": "Annonay"
       }
     ]
   },
@@ -1910,10 +1872,24 @@
           "placeHemicycle": "251",
           "mandatRemplaceRef": "PM796194"
         },
-        "collaborateurs": [
-          null,
-          null
-        ]
+        "collaborateurs": {
+          "collaborateur": [
+            {
+              "qualite": "Mme",
+              "prenom": "Marillac",
+              "nom": "Pontier",
+              "dateDebut": null,
+              "dateFin": null
+            },
+            {
+              "qualite": "M.",
+              "prenom": "Felix",
+              "nom": "Meysen",
+              "dateDebut": null,
+              "dateFin": null
+            }
+          ]
+        }
       },
       {
         "@xsi:type": "MandatParlementaire_type",
