@@ -1002,13 +1002,33 @@
       },
       {
         "@xsi:type": "MandatSimple_Type",
+        "uid": "PM835319",
+        "acteurRef": "PA267780",
+        "legislature": "16",
+        "typeOrgane": "COMPER",
+        "dateDebut": "2024-02-28",
+        "datePublication": "2024-02-28",
+        "dateFin": null,
+        "preseance": "32",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO59048"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
         "uid": "PM834991",
         "acteurRef": "PA267780",
         "legislature": "16",
         "typeOrgane": "COMPER",
         "dateDebut": "2024-02-14",
         "datePublication": "2024-02-14",
-        "dateFin": null,
+        "dateFin": "2024-02-27",
         "preseance": "32",
         "nominPrincipale": "1",
         "infosQualite": {
@@ -2100,13 +2120,22 @@
           "mandatRemplaceRef": "PM797388"
         },
         "collaborateurs": {
-          "collaborateur": {
-            "qualite": "M.",
-            "prenom": "Johnny",
-            "nom": "Villion",
-            "dateDebut": null,
-            "dateFin": null
-          }
+          "collaborateur": [
+            {
+              "qualite": "M.",
+              "prenom": "Johnny",
+              "nom": "Villion",
+              "dateDebut": null,
+              "dateFin": null
+            },
+            {
+              "qualite": "Mme",
+              "prenom": "Clémence",
+              "nom": "Fort",
+              "dateDebut": null,
+              "dateFin": null
+            }
+          ]
         }
       }
     ]

@@ -54,7 +54,7 @@
         "typeLibelle": "Mèl",
         "poids": null,
         "adresseDeRattachement": null,
-        "valElec": "cab.olivierbecht@gmail.com"
+        "valElec": "cabinet.becht@gmail.com"
       },
       {
         "@xsi:type": "AdressePostale_Type",
@@ -95,7 +95,7 @@
         "typeLibelle": "Téléphone",
         "poids": "22",
         "adresseDeRattachement": "AD725862",
-        "valElec": "0784737584"
+        "valElec": "06 37 42 69 81"
       }
     ]
   },
@@ -710,6 +710,26 @@
       },
       {
         "@xsi:type": "MandatSimple_Type",
+        "uid": "PM835290",
+        "acteurRef": "PA642935",
+        "legislature": "16",
+        "typeOrgane": "COMPER",
+        "dateDebut": "2024-02-28",
+        "datePublication": "2024-02-28",
+        "dateFin": null,
+        "preseance": "32",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO59046"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
         "uid": "PM731758",
         "acteurRef": "PA642935",
         "legislature": "15",
@@ -736,7 +756,7 @@
         "typeOrgane": "COMPER",
         "dateDebut": "2024-02-14",
         "datePublication": "2024-02-14",
-        "dateFin": null,
+        "dateFin": "2024-02-27",
         "preseance": "32",
         "nominPrincipale": "1",
         "infosQualite": {
@@ -1707,10 +1727,24 @@
           "placeHemicycle": "281",
           "mandatRemplaceRef": "PM797154"
         },
-        "collaborateurs": [
-          null,
-          null
-        ]
+        "collaborateurs": {
+          "collaborateur": [
+            {
+              "qualite": "M.",
+              "prenom": "Antoine",
+              "nom": "Ehret",
+              "dateDebut": null,
+              "dateFin": null
+            },
+            {
+              "qualite": "M.",
+              "prenom": "Georges-Fabrice",
+              "nom": "Blum",
+              "dateDebut": null,
+              "dateFin": null
+            }
+          ]
+        }
       }
     ]
   }
