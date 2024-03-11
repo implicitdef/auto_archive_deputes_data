@@ -1,0 +1,130 @@
+{
+  "uid": {
+    "@xsi:type": "IdActeur_type",
+    "#text": "PA795708"
+  },
+  "etatCivil": {
+    "ident": {
+      "civ": "M.",
+      "prenom": "Eric",
+      "nom": "Husson",
+      "alpha": "Husson",
+      "trigramme": "EHU"
+    },
+    "infoNaissance": {
+      "dateNais": "1963-07-06",
+      "villeNais": {
+        "@xsi:nil": "true"
+      },
+      "depNais": {
+        "@xsi:nil": "true"
+      },
+      "paysNais": {
+        "@xsi:nil": "true"
+      }
+    },
+    "dateDeces": {
+      "@xsi:nil": "true"
+    }
+  },
+  "profession": {
+    "libelleCourant": {
+      "@xsi:nil": "true"
+    },
+    "socProcINSEE": {
+      "catSocPro": {
+        "@xsi:nil": "true"
+      },
+      "famSocPro": {
+        "@xsi:nil": "true"
+      }
+    }
+  },
+  "uri_hatvp": {
+    "@xsi:nil": "true"
+  },
+  "adresses": {
+    "adresse": {
+      "@xsi:type": "AdressePostale_Type",
+      "uid": "AD795710",
+      "type": "0",
+      "typeLibelle": "Adresse officielle",
+      "poids": "1",
+      "adresseDeRattachement": null,
+      "intitule": "Assemblée nationale,",
+      "numeroRue": "126",
+      "nomRue": "Rue de l'Université,",
+      "complementAdresse": null,
+      "codePostal": "75355",
+      "ville": "Paris 07 SP"
+    }
+  },
+  "mandats": {
+    "mandat": [
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM835644",
+        "acteurRef": "PA795708",
+        "legislature": "16",
+        "typeOrgane": "GP",
+        "dateDebut": "2024-03-09",
+        "datePublication": null,
+        "dateFin": null,
+        "preseance": "28",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Député non-inscrit",
+          "libQualite": "Député non-inscrit",
+          "libQualiteSex": "Député non-inscrit"
+        },
+        "organes": {
+          "organeRef": "PO793087"
+        }
+      },
+      {
+        "@xsi:type": "MandatParlementaire_type",
+        "uid": "PM835637",
+        "acteurRef": "PA795708",
+        "legislature": "16",
+        "typeOrgane": "ASSEMBLEE",
+        "dateDebut": "2022-06-19",
+        "datePublication": null,
+        "dateFin": null,
+        "preseance": "50",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "membre",
+          "libQualite": "membre",
+          "libQualiteSex": "membre"
+        },
+        "organes": {
+          "organeRef": "PO791932"
+        },
+        "suppleants": null,
+        "chambre": null,
+        "election": {
+          "lieu": {
+            "region": "Ile-de-France",
+            "regionType": "Métropolitain",
+            "departement": "Essonne",
+            "numDepartement": "91",
+            "numCirco": "9"
+          },
+          "causeMandat": "remplacement d'un député nommé au Gouvernement",
+          "refCirconscription": "PO792494"
+        },
+        "mandature": {
+          "datePriseFonction": "2024-03-09",
+          "causeFin": null,
+          "premiereElection": "0",
+          "placeHemicycle": null,
+          "mandatRemplaceRef": null
+        },
+        "collaborateurs": [
+          null,
+          null
+        ]
+      }
+    ]
+  }
+}

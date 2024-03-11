@@ -1,0 +1,130 @@
+{
+  "uid": {
+    "@xsi:type": "IdActeur_type",
+    "#text": "PA795354"
+  },
+  "etatCivil": {
+    "ident": {
+      "civ": "Mme",
+      "prenom": "Juliette",
+      "nom": "Vilgrain",
+      "alpha": "Vilgrain",
+      "trigramme": "JVI"
+    },
+    "infoNaissance": {
+      "dateNais": "1960-05-07",
+      "villeNais": {
+        "@xsi:nil": "true"
+      },
+      "depNais": {
+        "@xsi:nil": "true"
+      },
+      "paysNais": {
+        "@xsi:nil": "true"
+      }
+    },
+    "dateDeces": {
+      "@xsi:nil": "true"
+    }
+  },
+  "profession": {
+    "libelleCourant": {
+      "@xsi:nil": "true"
+    },
+    "socProcINSEE": {
+      "catSocPro": {
+        "@xsi:nil": "true"
+      },
+      "famSocPro": {
+        "@xsi:nil": "true"
+      }
+    }
+  },
+  "uri_hatvp": {
+    "@xsi:nil": "true"
+  },
+  "adresses": {
+    "adresse": {
+      "@xsi:type": "AdressePostale_Type",
+      "uid": "AD795356",
+      "type": "0",
+      "typeLibelle": "Adresse officielle",
+      "poids": "1",
+      "adresseDeRattachement": null,
+      "intitule": "Assemblée nationale,",
+      "numeroRue": "126",
+      "nomRue": "Rue de l'Université,",
+      "complementAdresse": null,
+      "codePostal": "75355",
+      "ville": "Paris 07 SP"
+    }
+  },
+  "mandats": {
+    "mandat": [
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM835647",
+        "acteurRef": "PA795354",
+        "legislature": "16",
+        "typeOrgane": "GP",
+        "dateDebut": "2024-03-09",
+        "datePublication": null,
+        "dateFin": null,
+        "preseance": "28",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Député non-inscrit",
+          "libQualite": "Député non-inscrit",
+          "libQualiteSex": "Députée non-inscrite"
+        },
+        "organes": {
+          "organeRef": "PO793087"
+        }
+      },
+      {
+        "@xsi:type": "MandatParlementaire_type",
+        "uid": "PM835643",
+        "acteurRef": "PA795354",
+        "legislature": "16",
+        "typeOrgane": "ASSEMBLEE",
+        "dateDebut": "2022-06-19",
+        "datePublication": null,
+        "dateFin": null,
+        "preseance": "50",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "membre",
+          "libQualite": "membre",
+          "libQualiteSex": "membre"
+        },
+        "organes": {
+          "organeRef": "PO791932"
+        },
+        "suppleants": null,
+        "chambre": null,
+        "election": {
+          "lieu": {
+            "region": "Ile-de-France",
+            "regionType": "Métropolitain",
+            "departement": "Seine-et-Marne",
+            "numDepartement": "77",
+            "numCirco": "2"
+          },
+          "causeMandat": "remplacement d'un député nommé au Gouvernement",
+          "refCirconscription": "PO792388"
+        },
+        "mandature": {
+          "datePriseFonction": "2024-03-09",
+          "causeFin": null,
+          "premiereElection": "0",
+          "placeHemicycle": null,
+          "mandatRemplaceRef": null
+        },
+        "collaborateurs": [
+          null,
+          null
+        ]
+      }
+    ]
+  }
+}
