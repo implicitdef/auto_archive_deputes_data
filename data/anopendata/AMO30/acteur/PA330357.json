@@ -28,7 +28,9 @@
       "famSocPro": "Cadres et professions intellectuelles supérieures"
     }
   },
-  "uri_hatvp": "https://www.hatvp.fr/pages_nominatives/dussopt-olivier",
+  "uri_hatvp": {
+    "@xsi:nil": "true"
+  },
   "adresses": {
     "adresse": [
       {
@@ -117,6 +119,24 @@
         "complementAdresse": null,
         "codePostal": "07300",
         "ville": "Tournon-sur-Rhône"
+      },
+      {
+        "@xsi:type": "AdresseSiteWeb_Type",
+        "uid": "AD835663",
+        "type": "22",
+        "typeLibelle": "Site internet",
+        "poids": null,
+        "adresseDeRattachement": null,
+        "valElec": "www.olivierdussopt.fr"
+      },
+      {
+        "@xsi:type": "AdresseMail_Type",
+        "uid": "AD835665",
+        "type": "15",
+        "typeLibelle": "Mèl",
+        "poids": null,
+        "adresseDeRattachement": null,
+        "valElec": "permanence@olivierdussopt.fr"
       }
     ]
   },

@@ -40,9 +40,7 @@
       }
     }
   },
-  "uri_hatvp": {
-    "@xsi:nil": "true"
-  },
+  "uri_hatvp": "/tribun/resources/html/defautDeclarationActeur.html",
   "adresses": {
     "adresse": {
       "@xsi:type": "AdressePostale_Type",
@@ -63,13 +61,73 @@
     "mandat": [
       {
         "@xsi:type": "MandatSimple_Type",
+        "uid": "PM835687",
+        "acteurRef": "PA795124",
+        "legislature": "16",
+        "typeOrgane": "DELEG",
+        "dateDebut": "2024-03-12",
+        "datePublication": "2024-03-12",
+        "dateFin": null,
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO744127"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM835668",
+        "acteurRef": "PA795124",
+        "legislature": "16",
+        "typeOrgane": "GP",
+        "dateDebut": "2024-03-10",
+        "datePublication": null,
+        "dateFin": null,
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre du",
+          "libQualiteSex": "Membre du"
+        },
+        "organes": {
+          "organeRef": "PO800484"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM835698",
+        "acteurRef": "PA795124",
+        "legislature": "16",
+        "typeOrgane": "COMPER",
+        "dateDebut": "2024-03-12",
+        "datePublication": "2024-03-12",
+        "dateFin": null,
+        "preseance": "32",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO419865"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
         "uid": "PM835645",
         "acteurRef": "PA795124",
         "legislature": "16",
         "typeOrgane": "GP",
         "dateDebut": "2024-03-09",
         "datePublication": null,
-        "dateFin": null,
+        "dateFin": "2024-03-09",
         "preseance": "28",
         "nominPrincipale": "1",
         "infosQualite": {
@@ -117,7 +175,7 @@
           "datePriseFonction": "2024-03-09",
           "causeFin": null,
           "premiereElection": "0",
-          "placeHemicycle": null,
+          "placeHemicycle": "269",
           "mandatRemplaceRef": null
         },
         "collaborateurs": [

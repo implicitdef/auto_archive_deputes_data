@@ -7,11 +7,9 @@
     "ident": {
       "civ": "Mme",
       "prenom": "Véronique",
-      "nom": "De Montchalin",
-      "alpha": "DeMontchalin",
-      "trigramme": {
-        "@xsi:nil": "true"
-      }
+      "nom": "de Montchalin",
+      "alpha": "Montchalin (de)",
+      "trigramme": "VDMC"
     },
     "infoNaissance": {
       "dateNais": "1948-06-20",
@@ -42,9 +40,7 @@
       }
     }
   },
-  "uri_hatvp": {
-    "@xsi:nil": "true"
-  },
+  "uri_hatvp": "/tribun/resources/html/defautDeclarationActeur.html",
   "adresses": {
     "adresse": {
       "@xsi:type": "AdressePostale_Type",
@@ -65,13 +61,53 @@
     "mandat": [
       {
         "@xsi:type": "MandatSimple_Type",
+        "uid": "PM835667",
+        "acteurRef": "PA719376",
+        "legislature": "16",
+        "typeOrgane": "GP",
+        "dateDebut": "2024-03-10",
+        "datePublication": null,
+        "dateFin": null,
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre du",
+          "libQualiteSex": "Membre du"
+        },
+        "organes": {
+          "organeRef": "PO800538"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM835689",
+        "acteurRef": "PA719376",
+        "legislature": "16",
+        "typeOrgane": "COMPER",
+        "dateDebut": "2024-03-12",
+        "datePublication": "2024-03-12",
+        "dateFin": null,
+        "preseance": "32",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO419604"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
         "uid": "PM835646",
         "acteurRef": "PA719376",
         "legislature": "16",
         "typeOrgane": "GP",
         "dateDebut": "2024-03-09",
         "datePublication": null,
-        "dateFin": null,
+        "dateFin": "2024-03-09",
         "preseance": "28",
         "nominPrincipale": "1",
         "infosQualite": {
@@ -119,7 +155,7 @@
           "datePriseFonction": "2024-03-09",
           "causeFin": null,
           "premiereElection": "0",
-          "placeHemicycle": null,
+          "placeHemicycle": "400",
           "mandatRemplaceRef": null
         },
         "collaborateurs": [
