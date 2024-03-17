@@ -13,49 +13,82 @@
     },
     "infoNaissance": {
       "dateNais": "1963-07-06",
-      "villeNais": {
-        "@xsi:nil": "true"
-      },
-      "depNais": {
-        "@xsi:nil": "true"
-      },
-      "paysNais": {
-        "@xsi:nil": "true"
-      }
+      "villeNais": "Chateaudun",
+      "depNais": "Eure-et-Loir",
+      "paysNais": "France"
     },
     "dateDeces": {
       "@xsi:nil": "true"
     }
   },
   "profession": {
-    "libelleCourant": {
-      "@xsi:nil": "true"
-    },
+    "libelleCourant": "cadre d'entreprise",
     "socProcINSEE": {
-      "catSocPro": {
-        "@xsi:nil": "true"
-      },
-      "famSocPro": {
-        "@xsi:nil": "true"
-      }
+      "catSocPro": "Cadres d'entreprise",
+      "famSocPro": "Cadres et professions intellectuelles supérieures"
     }
   },
-  "uri_hatvp": "/tribun/resources/html/defautDeclarationActeur.html",
+  "uri_hatvp": {
+    "@xsi:nil": "true"
+  },
   "adresses": {
-    "adresse": {
-      "@xsi:type": "AdressePostale_Type",
-      "uid": "AD795710",
-      "type": "0",
-      "typeLibelle": "Adresse officielle",
-      "poids": "1",
-      "adresseDeRattachement": null,
-      "intitule": "Assemblée nationale,",
-      "numeroRue": "126",
-      "nomRue": "Rue de l'Université,",
-      "complementAdresse": null,
-      "codePostal": "75355",
-      "ville": "Paris 07 SP"
-    }
+    "adresse": [
+      {
+        "@xsi:type": "AdressePostale_Type",
+        "uid": "AD795710",
+        "type": "0",
+        "typeLibelle": "Adresse officielle",
+        "poids": "1",
+        "adresseDeRattachement": null,
+        "intitule": "Assemblée nationale,",
+        "numeroRue": "126",
+        "nomRue": "Rue de l'Université,",
+        "complementAdresse": null,
+        "codePostal": "75355",
+        "ville": "Paris 07 SP"
+      },
+      {
+        "@xsi:type": "AdresseMail_Type",
+        "uid": "AD835811",
+        "type": "15",
+        "typeLibelle": "Mèl",
+        "poids": null,
+        "adresseDeRattachement": null,
+        "valElec": "eric.husson@assemblee-nationale.fr"
+      },
+      {
+        "@xsi:type": "AdresseSiteWeb_Type",
+        "uid": "AD835932",
+        "type": "25",
+        "typeLibelle": "Facebook",
+        "poids": null,
+        "adresseDeRattachement": null,
+        "valElec": "profile.php?id=61556761027173"
+      },
+      {
+        "@xsi:type": "AdressePostale_Type",
+        "uid": "AD835934",
+        "type": "2",
+        "typeLibelle": "Adresse publiée de circonscription",
+        "poids": "22",
+        "adresseDeRattachement": null,
+        "intitule": null,
+        "numeroRue": "14",
+        "nomRue": "Rue de mainville",
+        "complementAdresse": null,
+        "codePostal": "91210",
+        "ville": "Draveil"
+      },
+      {
+        "@xsi:type": "AdresseTelephonique_Type",
+        "uid": "AD835936",
+        "type": "11",
+        "typeLibelle": "Téléphone",
+        "poids": "22",
+        "adresseDeRattachement": "AD835934",
+        "valElec": "0788603160"
+      }
+    ]
   },
   "mandats": {
     "mandat": [

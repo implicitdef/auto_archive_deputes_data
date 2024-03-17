@@ -62,8 +62,8 @@
         "poids": "2",
         "adresseDeRattachement": null,
         "intitule": "Permanence parlementaire",
-        "numeroRue": "3",
-        "nomRue": "Avenue des Pyrénées",
+        "numeroRue": "13",
+        "nomRue": "Rue Saint-Jacques",
         "complementAdresse": null,
         "codePostal": "31600",
         "ville": "Muret"
@@ -94,6 +94,24 @@
         "poids": null,
         "adresseDeRattachement": null,
         "valElec": "christophe_bex"
+      },
+      {
+        "@xsi:type": "AdresseTelephonique_Type",
+        "uid": "AD835711",
+        "type": "11",
+        "typeLibelle": "Téléphone",
+        "poids": null,
+        "adresseDeRattachement": null,
+        "valElec": "05 62 48 98 79"
+      },
+      {
+        "@xsi:type": "AdresseTelephonique_Type",
+        "uid": "AD835713",
+        "type": "11",
+        "typeLibelle": "Téléphone",
+        "poids": "2",
+        "adresseDeRattachement": "AD816545",
+        "valElec": "05 62 48 98 79"
       }
     ]
   },
@@ -157,6 +175,26 @@
         },
         "organes": {
           "organeRef": "PO805243"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM835730",
+        "acteurRef": "PA793772",
+        "legislature": "16",
+        "typeOrgane": "CNPE",
+        "dateDebut": "2024-03-13",
+        "datePublication": "2024-03-13",
+        "dateFin": null,
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO835509"
         }
       },
       {

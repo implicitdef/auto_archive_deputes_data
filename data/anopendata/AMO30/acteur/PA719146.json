@@ -71,6 +71,29 @@
         "poids": null,
         "adresseDeRattachement": null,
         "valElec": "Jean-Felix.Acquaviva@assemblee-nationale.fr"
+      },
+      {
+        "@xsi:type": "AdressePostale_Type",
+        "uid": "AD835878",
+        "type": "2",
+        "typeLibelle": "Adresse publiée de circonscription",
+        "poids": "2",
+        "adresseDeRattachement": null,
+        "intitule": "Centre commercial a Fiumara",
+        "numeroRue": null,
+        "nomRue": "Ponte Novu",
+        "complementAdresse": null,
+        "codePostal": "20235",
+        "ville": "Castello-di-Rostino"
+      },
+      {
+        "@xsi:type": "AdresseTelephonique_Type",
+        "uid": "AD835880",
+        "type": "11",
+        "typeLibelle": "Téléphone",
+        "poids": "2",
+        "adresseDeRattachement": "AD835878",
+        "valElec": "04 95 61 15 89"
       }
     ]
   },
@@ -487,6 +510,26 @@
       },
       {
         "@xsi:type": "MandatSimple_Type",
+        "uid": "PM835864",
+        "acteurRef": "PA719146",
+        "legislature": "16",
+        "typeOrgane": "COMPER",
+        "dateDebut": "2024-03-14",
+        "datePublication": "2024-03-14",
+        "dateFin": null,
+        "preseance": "32",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO420120"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
         "uid": "PM770439",
         "acteurRef": "PA719146",
         "legislature": "15",
@@ -613,7 +656,7 @@
         "typeOrgane": "COMPER",
         "dateDebut": "2024-03-07",
         "datePublication": "2024-03-07",
-        "dateFin": null,
+        "dateFin": "2024-03-13",
         "preseance": "32",
         "nominPrincipale": "1",
         "infosQualite": {

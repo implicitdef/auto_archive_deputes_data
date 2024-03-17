@@ -13,49 +13,64 @@
     },
     "infoNaissance": {
       "dateNais": "1965-11-09",
-      "villeNais": {
-        "@xsi:nil": "true"
-      },
-      "depNais": {
-        "@xsi:nil": "true"
-      },
-      "paysNais": {
-        "@xsi:nil": "true"
-      }
+      "villeNais": "Chambéry",
+      "depNais": "Savoie",
+      "paysNais": "France"
     },
     "dateDeces": {
       "@xsi:nil": "true"
     }
   },
   "profession": {
-    "libelleCourant": {
-      "@xsi:nil": "true"
-    },
+    "libelleCourant": "Cadre commercial",
     "socProcINSEE": {
-      "catSocPro": {
-        "@xsi:nil": "true"
-      },
-      "famSocPro": {
-        "@xsi:nil": "true"
-      }
+      "catSocPro": "Cadres d'entreprise",
+      "famSocPro": "Cadres et professions intellectuelles supérieures"
     }
   },
-  "uri_hatvp": "/tribun/resources/html/defautDeclarationActeur.html",
+  "uri_hatvp": {
+    "@xsi:nil": "true"
+  },
   "adresses": {
-    "adresse": {
-      "@xsi:type": "AdressePostale_Type",
-      "uid": "AD795126",
-      "type": "0",
-      "typeLibelle": "Adresse officielle",
-      "poids": "1",
-      "adresseDeRattachement": null,
-      "intitule": "Assemblée nationale,",
-      "numeroRue": "126",
-      "nomRue": "Rue de l'Université,",
-      "complementAdresse": null,
-      "codePostal": "75355",
-      "ville": "Paris 07 SP"
-    }
+    "adresse": [
+      {
+        "@xsi:type": "AdressePostale_Type",
+        "uid": "AD795126",
+        "type": "0",
+        "typeLibelle": "Adresse officielle",
+        "poids": "1",
+        "adresseDeRattachement": null,
+        "intitule": "Assemblée nationale,",
+        "numeroRue": "126",
+        "nomRue": "Rue de l'Université,",
+        "complementAdresse": null,
+        "codePostal": "75355",
+        "ville": "Paris 07 SP"
+      },
+      {
+        "@xsi:type": "AdresseMail_Type",
+        "uid": "AD835815",
+        "type": "15",
+        "typeLibelle": "Mèl",
+        "poids": null,
+        "adresseDeRattachement": null,
+        "valElec": "didier.padey@assemblee-nationale.fr"
+      },
+      {
+        "@xsi:type": "AdressePostale_Type",
+        "uid": "AD835950",
+        "type": "2",
+        "typeLibelle": "Adresse publiée de circonscription",
+        "poids": "22",
+        "adresseDeRattachement": null,
+        "intitule": null,
+        "numeroRue": "213",
+        "nomRue": "Marie de Solms",
+        "complementAdresse": null,
+        "codePostal": "73100",
+        "ville": "Aix-Les-Bains"
+      }
+    ]
   },
   "mandats": {
     "mandat": [
@@ -77,6 +92,26 @@
         },
         "organes": {
           "organeRef": "PO744127"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM835883",
+        "acteurRef": "PA795124",
+        "legislature": "16",
+        "typeOrgane": "ORGEXTPARL",
+        "dateDebut": "2024-03-13",
+        "datePublication": "2024-03-14",
+        "dateFin": null,
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Titulaire",
+          "libQualite": "Membre titulaire",
+          "libQualiteSex": "Membre titulaire"
+        },
+        "organes": {
+          "organeRef": "PO717436"
         }
       },
       {

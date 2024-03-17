@@ -13,52 +13,134 @@
     },
     "infoNaissance": {
       "dateNais": "1960-05-07",
-      "villeNais": {
-        "@xsi:nil": "true"
-      },
-      "depNais": {
-        "@xsi:nil": "true"
-      },
-      "paysNais": {
-        "@xsi:nil": "true"
-      }
+      "villeNais": "Boulogne-Billancourt",
+      "depNais": "Hauts-de-Seine",
+      "paysNais": "France"
     },
     "dateDeces": {
       "@xsi:nil": "true"
     }
   },
   "profession": {
-    "libelleCourant": {
-      "@xsi:nil": "true"
-    },
+    "libelleCourant": "Cadre d'entreprise",
     "socProcINSEE": {
-      "catSocPro": {
-        "@xsi:nil": "true"
-      },
-      "famSocPro": {
-        "@xsi:nil": "true"
-      }
+      "catSocPro": "Cadres d'entreprise",
+      "famSocPro": "Cadres et professions intellectuelles supérieures"
     }
   },
-  "uri_hatvp": "/tribun/resources/html/defautDeclarationActeur.html",
+  "uri_hatvp": {
+    "@xsi:nil": "true"
+  },
   "adresses": {
-    "adresse": {
-      "@xsi:type": "AdressePostale_Type",
-      "uid": "AD795356",
-      "type": "0",
-      "typeLibelle": "Adresse officielle",
-      "poids": "1",
-      "adresseDeRattachement": null,
-      "intitule": "Assemblée nationale,",
-      "numeroRue": "126",
-      "nomRue": "Rue de l'Université,",
-      "complementAdresse": null,
-      "codePostal": "75355",
-      "ville": "Paris 07 SP"
-    }
+    "adresse": [
+      {
+        "@xsi:type": "AdressePostale_Type",
+        "uid": "AD795356",
+        "type": "0",
+        "typeLibelle": "Adresse officielle",
+        "poids": "1",
+        "adresseDeRattachement": null,
+        "intitule": "Assemblée nationale,",
+        "numeroRue": "126",
+        "nomRue": "Rue de l'Université,",
+        "complementAdresse": null,
+        "codePostal": "75355",
+        "ville": "Paris 07 SP"
+      },
+      {
+        "@xsi:type": "AdresseMail_Type",
+        "uid": "AD835813",
+        "type": "15",
+        "typeLibelle": "Mèl",
+        "poids": null,
+        "adresseDeRattachement": null,
+        "valElec": "juliette.vilgrain@assemblee-nationale.fr"
+      },
+      {
+        "@xsi:type": "AdresseSiteWeb_Type",
+        "uid": "AD835942",
+        "type": "29",
+        "typeLibelle": "Instagram",
+        "poids": null,
+        "adresseDeRattachement": null,
+        "valElec": "@vilgrainjuliette"
+      },
+      {
+        "@xsi:type": "AdresseSiteWeb_Type",
+        "uid": "AD835944",
+        "type": "25",
+        "typeLibelle": "Facebook",
+        "poids": null,
+        "adresseDeRattachement": null,
+        "valElec": "profile.php?id=100081283090845"
+      },
+      {
+        "@xsi:type": "AdresseSiteWeb_Type",
+        "uid": "AD835946",
+        "type": "24",
+        "typeLibelle": "Twitter",
+        "poids": null,
+        "adresseDeRattachement": null,
+        "valElec": "@JVilgrain"
+      },
+      {
+        "@xsi:type": "AdressePostale_Type",
+        "uid": "AD835948",
+        "type": "2",
+        "typeLibelle": "Adresse publiée de circonscription",
+        "poids": "22",
+        "adresseDeRattachement": null,
+        "intitule": null,
+        "numeroRue": "25",
+        "nomRue": "Place Napoléon Bonaparte",
+        "complementAdresse": null,
+        "codePostal": "77300",
+        "ville": "Fontainebleau"
+      }
+    ]
   },
   "mandats": {
     "mandat": [
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM835748",
+        "acteurRef": "PA795354",
+        "legislature": "16",
+        "typeOrgane": "CNPE",
+        "dateDebut": "2024-03-13",
+        "datePublication": "2024-03-13",
+        "dateFin": null,
+        "preseance": "20",
+        "nominPrincipale": "0",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO835509"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM835873",
+        "acteurRef": "PA795354",
+        "legislature": "16",
+        "typeOrgane": "CNPE",
+        "dateDebut": "2024-03-13",
+        "datePublication": "2024-03-14",
+        "dateFin": null,
+        "preseance": "14",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Secrétaire",
+          "libQualite": "Secrétaire",
+          "libQualiteSex": "Secrétaire"
+        },
+        "organes": {
+          "organeRef": "PO835509"
+        }
+      },
       {
         "@xsi:type": "MandatSimple_Type",
         "uid": "PM835669",
@@ -81,13 +163,33 @@
       },
       {
         "@xsi:type": "MandatSimple_Type",
+        "uid": "PM835850",
+        "acteurRef": "PA795354",
+        "legislature": "16",
+        "typeOrgane": "COMPER",
+        "dateDebut": "2024-03-14",
+        "datePublication": "2024-03-14",
+        "dateFin": null,
+        "preseance": "32",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO419865"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
         "uid": "PM835699",
         "acteurRef": "PA795354",
         "legislature": "16",
         "typeOrgane": "COMPER",
         "dateDebut": "2024-03-12",
         "datePublication": "2024-03-12",
-        "dateFin": null,
+        "dateFin": "2024-03-13",
         "preseance": "32",
         "nominPrincipale": "1",
         "infosQualite": {
@@ -158,10 +260,15 @@
           "placeHemicycle": "221",
           "mandatRemplaceRef": null
         },
-        "collaborateurs": [
-          null,
-          null
-        ]
+        "collaborateurs": {
+          "collaborateur": {
+            "qualite": "M.",
+            "prenom": "Guillaume",
+            "nom": "Serot Almeras Latour",
+            "dateDebut": null,
+            "dateFin": null
+          }
+        }
       }
     ]
   }
