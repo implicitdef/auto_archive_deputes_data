@@ -167,7 +167,7 @@
         "typeOrgane": "COMPER",
         "dateDebut": "2024-03-14",
         "datePublication": "2024-03-14",
-        "dateFin": null,
+        "dateFin": "2024-03-18",
         "preseance": "32",
         "nominPrincipale": "1",
         "infosQualite": {
@@ -177,6 +177,26 @@
         },
         "organes": {
           "organeRef": "PO419865"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM835984",
+        "acteurRef": "PA795354",
+        "legislature": "16",
+        "typeOrgane": "COMPER",
+        "dateDebut": "2024-03-19",
+        "datePublication": "2024-03-19",
+        "dateFin": null,
+        "preseance": "32",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO420120"
         }
       },
       {
@@ -259,13 +279,22 @@
           "mandatRemplaceRef": null
         },
         "collaborateurs": {
-          "collaborateur": {
-            "qualite": "M.",
-            "prenom": "Guillaume",
-            "nom": "Serot Almeras Latour",
-            "dateDebut": null,
-            "dateFin": null
-          }
+          "collaborateur": [
+            {
+              "qualite": "M.",
+              "prenom": "Guillaume",
+              "nom": "Serot Almeras Latour",
+              "dateDebut": null,
+              "dateFin": null
+            },
+            {
+              "qualite": "Mme",
+              "prenom": "Lucie",
+              "nom": "Lamine",
+              "dateDebut": null,
+              "dateFin": null
+            }
+          ]
         }
       }
     ]
