@@ -62,6 +62,38 @@
         "poids": null,
         "adresseDeRattachement": null,
         "valElec": "romain.daubie"
+      },
+      {
+        "@xsi:type": "AdressePostale_Type",
+        "uid": "AD837229",
+        "type": "2",
+        "typeLibelle": "Adresse publiée de circonscription",
+        "poids": "2",
+        "adresseDeRattachement": null,
+        "intitule": null,
+        "numeroRue": "77",
+        "nomRue": "Grande rue",
+        "complementAdresse": "BP129",
+        "codePostal": "01120",
+        "ville": "MONTLUEL"
+      },
+      {
+        "@xsi:type": "AdresseTelephonique_Type",
+        "uid": "AD837231",
+        "type": "11",
+        "typeLibelle": "Téléphone",
+        "poids": "2",
+        "adresseDeRattachement": "AD837229",
+        "valElec": "04 81 65 74 43"
+      },
+      {
+        "@xsi:type": "AdresseSiteWeb_Type",
+        "uid": "AD837235",
+        "type": "22",
+        "typeLibelle": "Site internet",
+        "poids": "2",
+        "adresseDeRattachement": "AD837229",
+        "valElec": "romain-daubie.fr"
       }
     ]
   },
@@ -85,6 +117,26 @@
         },
         "organes": {
           "organeRef": "PO806430"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM837227",
+        "acteurRef": "PA793122",
+        "legislature": "16",
+        "typeOrgane": "GEVI",
+        "dateDebut": "2024-04-25",
+        "datePublication": null,
+        "dateFin": null,
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO807673"
         }
       },
       {
