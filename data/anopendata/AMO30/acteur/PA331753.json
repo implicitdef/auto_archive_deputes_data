@@ -74,27 +74,6 @@
   "mandats": {
     "mandat": [
       {
-        "@xsi:type": "MandatAvecSuppleant_Type",
-        "uid": "PM425302",
-        "acteurRef": "PA331753",
-        "legislature": "13",
-        "typeOrgane": "OFFPAR",
-        "dateDebut": "2010-10-13",
-        "datePublication": "2010-10-14",
-        "dateFin": "2011-06-29",
-        "preseance": "24",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Membre",
-          "libQualite": "Membre",
-          "libQualiteSex": "Membre"
-        },
-        "organes": {
-          "organeRef": "PO425285"
-        },
-        "suppleants": null
-      },
-      {
         "@xsi:type": "MandatParlementaire_type",
         "uid": "PM690224",
         "acteurRef": "PA331753",
@@ -133,6 +112,27 @@
           "mandatRemplaceRef": null
         },
         "collaborateurs": null
+      },
+      {
+        "@xsi:type": "MandatAvecSuppleant_Type",
+        "uid": "PM425302",
+        "acteurRef": "PA331753",
+        "legislature": "13",
+        "typeOrgane": "OFFPAR",
+        "dateDebut": "2010-10-13",
+        "datePublication": "2010-10-14",
+        "dateFin": "2011-06-29",
+        "preseance": "24",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO425285"
+        },
+        "suppleants": null
       },
       {
         "@xsi:type": "MandatAvecSuppleant_Type",
@@ -1402,26 +1402,6 @@
       },
       {
         "@xsi:type": "MandatSimple_Type",
-        "uid": "PM387290",
-        "acteurRef": "PA331753",
-        "legislature": "13",
-        "typeOrgane": "GP",
-        "dateDebut": "2007-06-20",
-        "datePublication": null,
-        "dateFin": "2007-06-26",
-        "preseance": "28",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Député non-inscrit",
-          "libQualite": "Député non-inscrit",
-          "libQualiteSex": "Députée non-inscrite"
-        },
-        "organes": {
-          "organeRef": "PO387155"
-        }
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
         "uid": "PM678686",
         "acteurRef": "PA331753",
         "legislature": "14",
@@ -1498,6 +1478,26 @@
         },
         "organes": {
           "organeRef": "PO393458"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM387290",
+        "acteurRef": "PA331753",
+        "legislature": "13",
+        "typeOrgane": "GP",
+        "dateDebut": "2007-06-20",
+        "datePublication": null,
+        "dateFin": "2007-06-26",
+        "preseance": "28",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Député non-inscrit",
+          "libQualite": "Député non-inscrit",
+          "libQualiteSex": "Députée non-inscrite"
+        },
+        "organes": {
+          "organeRef": "PO387155"
         }
       },
       {
