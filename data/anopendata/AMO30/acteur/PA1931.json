@@ -65,6 +65,29 @@
   "mandats": {
     "mandat": [
       {
+        "@xsi:type": "MandatMission_Type",
+        "uid": "PM711736",
+        "acteurRef": "PA1931",
+        "legislature": "14",
+        "typeOrgane": "MISINFOCOM",
+        "dateDebut": "2016-02-03",
+        "datePublication": null,
+        "dateFin": "2016-10-05",
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO711732"
+        },
+        "libelle": null,
+        "missionSuivanteRef": null,
+        "missionPrecedenteRef": null
+      },
+      {
         "@xsi:type": "MandatSimple_Type",
         "uid": "PM15425766",
         "acteurRef": "PA1931",
@@ -123,29 +146,6 @@
         "organes": {
           "organeRef": "PO59054"
         }
-      },
-      {
-        "@xsi:type": "MandatMission_Type",
-        "uid": "PM711736",
-        "acteurRef": "PA1931",
-        "legislature": "14",
-        "typeOrgane": "MISINFOCOM",
-        "dateDebut": "2016-02-03",
-        "datePublication": null,
-        "dateFin": "2016-10-05",
-        "preseance": "20",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Membre",
-          "libQualite": "Membre",
-          "libQualiteSex": "Membre"
-        },
-        "organes": {
-          "organeRef": "PO711732"
-        },
-        "libelle": null,
-        "missionSuivanteRef": null,
-        "missionPrecedenteRef": null
       },
       {
         "@xsi:type": "MandatMission_Type",
@@ -614,6 +614,26 @@
         }
       },
       {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM685008",
+        "acteurRef": "PA1931",
+        "legislature": "14",
+        "typeOrgane": "GP",
+        "dateDebut": "2012-11-27",
+        "datePublication": "2012-11-28",
+        "dateFin": "2013-01-15",
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre du",
+          "libQualiteSex": "Membre du"
+        },
+        "organes": {
+          "organeRef": "PO684957"
+        }
+      },
+      {
         "@xsi:type": "MandatMission_Type",
         "uid": "PM711745",
         "acteurRef": "PA1931",
@@ -635,26 +655,6 @@
         "libelle": null,
         "missionSuivanteRef": null,
         "missionPrecedenteRef": null
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM685008",
-        "acteurRef": "PA1931",
-        "legislature": "14",
-        "typeOrgane": "GP",
-        "dateDebut": "2012-11-27",
-        "datePublication": "2012-11-28",
-        "dateFin": "2013-01-15",
-        "preseance": "20",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Membre",
-          "libQualite": "Membre du",
-          "libQualiteSex": "Membre du"
-        },
-        "organes": {
-          "organeRef": "PO684957"
-        }
       },
       {
         "@xsi:type": "MandatSimple_Type",
@@ -1337,6 +1337,46 @@
         },
         "organes": {
           "organeRef": "PO694566"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM642623",
+        "acteurRef": "PA1931",
+        "legislature": "13",
+        "typeOrgane": "GP",
+        "dateDebut": "2012-06-17",
+        "datePublication": null,
+        "dateFin": "2012-06-19",
+        "preseance": "28",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Député non-inscrit",
+          "libQualite": "Député non-inscrit",
+          "libQualiteSex": "Député non-inscrit"
+        },
+        "organes": {
+          "organeRef": "PO387155"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM387555",
+        "acteurRef": "PA1931",
+        "legislature": "13",
+        "typeOrgane": "GP",
+        "dateDebut": "2007-06-20",
+        "datePublication": null,
+        "dateFin": "2007-06-26",
+        "preseance": "28",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Député non-inscrit",
+          "libQualite": "Député non-inscrit",
+          "libQualiteSex": "Député non-inscrit"
+        },
+        "organes": {
+          "organeRef": "PO387155"
         }
       },
       {
@@ -6337,46 +6377,6 @@
         },
         "organes": {
           "organeRef": "PO392704"
-        }
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM642623",
-        "acteurRef": "PA1931",
-        "legislature": "13",
-        "typeOrgane": "GP",
-        "dateDebut": "2012-06-17",
-        "datePublication": null,
-        "dateFin": "2012-06-19",
-        "preseance": "28",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Député non-inscrit",
-          "libQualite": "Député non-inscrit",
-          "libQualiteSex": "Député non-inscrit"
-        },
-        "organes": {
-          "organeRef": "PO387155"
-        }
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM387555",
-        "acteurRef": "PA1931",
-        "legislature": "13",
-        "typeOrgane": "GP",
-        "dateDebut": "2007-06-20",
-        "datePublication": null,
-        "dateFin": "2007-06-26",
-        "preseance": "28",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Député non-inscrit",
-          "libQualite": "Député non-inscrit",
-          "libQualiteSex": "Député non-inscrit"
-        },
-        "organes": {
-          "organeRef": "PO387155"
         }
       },
       {
