@@ -9,7 +9,9 @@
       "prenom": "Marie-Charlotte",
       "nom": "Garin",
       "alpha": "Garin",
-      "trigramme": "MGA"
+      "trigramme": {
+        "@xsi:nil": "true"
+      }
     },
     "infoNaissance": {
       "dateNais": "1995-09-02",
@@ -125,9 +127,9 @@
         "typeOrgane": "DELEG",
         "dateDebut": "2022-07-13",
         "datePublication": "2022-07-13",
-        "dateFin": null,
+        "dateFin": "2024-06-09",
         "preseance": "20",
-        "nominPrincipale": "0",
+        "nominPrincipale": "1",
         "infosQualite": {
           "codeQualite": "Membre",
           "libQualite": "Membre",
@@ -165,36 +167,13 @@
         "typeOrgane": "MISINFO",
         "dateDebut": "2023-12-05",
         "datePublication": "2023-12-05",
-        "dateFin": null,
+        "dateFin": "2024-06-09",
         "preseance": "10",
         "nominPrincipale": "0",
         "infosQualite": {
           "codeQualite": "Membre",
           "libQualite": "Membre",
           "libQualiteSex": "Membre"
-        },
-        "organes": {
-          "organeRef": "PO832837"
-        },
-        "libelle": null,
-        "missionSuivanteRef": null,
-        "missionPrecedenteRef": null
-      },
-      {
-        "@xsi:type": "MandatMission_Type",
-        "uid": "PM832868",
-        "acteurRef": "PA795010",
-        "legislature": "16",
-        "typeOrgane": "MISINFO",
-        "dateDebut": "2023-12-05",
-        "datePublication": "2023-12-05",
-        "dateFin": null,
-        "preseance": "5",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Co-rapporteur",
-          "libQualite": "Co-rapporteur",
-          "libQualiteSex": "Co-rapporteure"
         },
         "organes": {
           "organeRef": "PO832837"
@@ -231,7 +210,7 @@
         "typeOrgane": "DELEG",
         "dateDebut": "2022-07-20",
         "datePublication": "2022-07-21",
-        "dateFin": null,
+        "dateFin": "2024-06-09",
         "preseance": "8",
         "nominPrincipale": "1",
         "infosQualite": {
@@ -251,7 +230,7 @@
         "typeOrgane": "GP",
         "dateDebut": "2022-06-29",
         "datePublication": "2022-06-29",
-        "dateFin": null,
+        "dateFin": "2024-06-09",
         "preseance": "20",
         "nominPrincipale": "1",
         "infosQualite": {
@@ -262,6 +241,29 @@
         "organes": {
           "organeRef": "PO800526"
         }
+      },
+      {
+        "@xsi:type": "MandatMission_Type",
+        "uid": "PM832868",
+        "acteurRef": "PA795010",
+        "legislature": "16",
+        "typeOrgane": "MISINFO",
+        "dateDebut": "2023-12-05",
+        "datePublication": "2023-12-05",
+        "dateFin": "2024-06-09",
+        "preseance": "5",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Co-rapporteur",
+          "libQualite": "Co-rapporteur",
+          "libQualiteSex": "Co-rapporteure"
+        },
+        "organes": {
+          "organeRef": "PO832837"
+        },
+        "libelle": null,
+        "missionSuivanteRef": null,
+        "missionPrecedenteRef": null
       },
       {
         "@xsi:type": "MandatSimple_Type",
@@ -291,7 +293,7 @@
         "typeOrgane": "COMPER",
         "dateDebut": "2024-03-28",
         "datePublication": "2024-03-28",
-        "dateFin": null,
+        "dateFin": "2024-06-09",
         "preseance": "32",
         "nominPrincipale": "1",
         "infosQualite": {
@@ -451,7 +453,7 @@
         "typeOrgane": "GE",
         "dateDebut": "2023-01-30",
         "datePublication": null,
-        "dateFin": null,
+        "dateFin": "2024-06-09",
         "preseance": "20",
         "nominPrincipale": "1",
         "infosQualite": {
@@ -471,7 +473,7 @@
         "typeOrgane": "GE",
         "dateDebut": "2023-02-06",
         "datePublication": null,
-        "dateFin": null,
+        "dateFin": "2024-06-09",
         "preseance": "20",
         "nominPrincipale": "1",
         "infosQualite": {
@@ -491,7 +493,7 @@
         "typeOrgane": "GE",
         "dateDebut": "2023-02-07",
         "datePublication": null,
-        "dateFin": null,
+        "dateFin": "2024-06-09",
         "preseance": "20",
         "nominPrincipale": "1",
         "infosQualite": {
@@ -531,7 +533,7 @@
         "typeOrgane": "GA",
         "dateDebut": "2023-05-15",
         "datePublication": null,
-        "dateFin": null,
+        "dateFin": "2024-06-09",
         "preseance": "20",
         "nominPrincipale": "1",
         "infosQualite": {
@@ -591,7 +593,7 @@
         "typeOrgane": "ASSEMBLEE",
         "dateDebut": "2022-06-19",
         "datePublication": null,
-        "dateFin": null,
+        "dateFin": "2024-06-09",
         "preseance": "50",
         "nominPrincipale": "1",
         "infosQualite": {
@@ -605,7 +607,7 @@
         "suppleants": {
           "suppleant": {
             "dateDebut": "2022-06-19",
-            "dateFin": null,
+            "dateFin": "2024-06-09",
             "suppleantRef": "PA795014"
           }
         },
@@ -623,36 +625,12 @@
         },
         "mandature": {
           "datePriseFonction": "2022-06-22",
-          "causeFin": null,
+          "causeFin": "Fin de législature",
           "premiereElection": "0",
           "placeHemicycle": "502",
           "mandatRemplaceRef": null
         },
-        "collaborateurs": {
-          "collaborateur": [
-            {
-              "qualite": "Mme",
-              "prenom": "Anne-Lise",
-              "nom": "Meurier",
-              "dateDebut": null,
-              "dateFin": null
-            },
-            {
-              "qualite": "M.",
-              "prenom": "Quentin",
-              "nom": "Dagbert",
-              "dateDebut": null,
-              "dateFin": null
-            },
-            {
-              "qualite": "Mme",
-              "prenom": "Mélanie",
-              "nom": "Adam",
-              "dateDebut": null,
-              "dateFin": null
-            }
-          ]
-        }
+        "collaborateurs": null
       }
     ]
   }

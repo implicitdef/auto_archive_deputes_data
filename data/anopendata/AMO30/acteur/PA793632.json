@@ -9,7 +9,9 @@
       "prenom": "Timothée",
       "nom": "Houssin",
       "alpha": "Houssin",
-      "trigramme": "THO"
+      "trigramme": {
+        "@xsi:nil": "true"
+      }
     },
     "infoNaissance": {
       "dateNais": "1988-07-29",
@@ -144,7 +146,7 @@
         "typeOrgane": "GP",
         "dateDebut": "2022-06-29",
         "datePublication": "2022-06-29",
-        "dateFin": null,
+        "dateFin": "2024-06-09",
         "preseance": "20",
         "nominPrincipale": "1",
         "infosQualite": {
@@ -204,7 +206,7 @@
         "typeOrgane": "COMPER",
         "dateDebut": "2023-10-13",
         "datePublication": "2023-10-13",
-        "dateFin": null,
+        "dateFin": "2024-06-09",
         "preseance": "32",
         "nominPrincipale": "1",
         "infosQualite": {
@@ -224,7 +226,7 @@
         "typeOrgane": "GE",
         "dateDebut": "2023-01-12",
         "datePublication": null,
-        "dateFin": null,
+        "dateFin": "2024-06-09",
         "preseance": "20",
         "nominPrincipale": "0",
         "infosQualite": {
@@ -244,7 +246,7 @@
         "typeOrgane": "GE",
         "dateDebut": "2023-02-07",
         "datePublication": null,
-        "dateFin": null,
+        "dateFin": "2024-06-09",
         "preseance": "20",
         "nominPrincipale": "1",
         "infosQualite": {
@@ -284,9 +286,9 @@
         "typeOrgane": "GA",
         "dateDebut": "2022-12-21",
         "datePublication": null,
-        "dateFin": null,
+        "dateFin": "2024-06-09",
         "preseance": "20",
-        "nominPrincipale": "0",
+        "nominPrincipale": "1",
         "infosQualite": {
           "codeQualite": "Membre",
           "libQualite": "Membre",
@@ -304,7 +306,7 @@
         "typeOrgane": "GA",
         "dateDebut": "2022-12-21",
         "datePublication": null,
-        "dateFin": null,
+        "dateFin": "2024-06-09",
         "preseance": "20",
         "nominPrincipale": "1",
         "infosQualite": {
@@ -324,7 +326,7 @@
         "typeOrgane": "GA",
         "dateDebut": "2022-12-22",
         "datePublication": null,
-        "dateFin": null,
+        "dateFin": "2024-06-09",
         "preseance": "20",
         "nominPrincipale": "0",
         "infosQualite": {
@@ -344,7 +346,7 @@
         "typeOrgane": "GA",
         "dateDebut": "2023-10-18",
         "datePublication": null,
-        "dateFin": null,
+        "dateFin": "2024-06-09",
         "preseance": "20",
         "nominPrincipale": "1",
         "infosQualite": {
@@ -364,9 +366,9 @@
         "typeOrgane": "GA",
         "dateDebut": "2022-12-21",
         "datePublication": null,
-        "dateFin": null,
+        "dateFin": "2024-06-09",
         "preseance": "20",
-        "nominPrincipale": "0",
+        "nominPrincipale": "1",
         "infosQualite": {
           "codeQualite": "Membre",
           "libQualite": "Membre",
@@ -384,9 +386,9 @@
         "typeOrgane": "GA",
         "dateDebut": "2022-12-21",
         "datePublication": null,
-        "dateFin": null,
+        "dateFin": "2024-06-09",
         "preseance": "20",
-        "nominPrincipale": "0",
+        "nominPrincipale": "1",
         "infosQualite": {
           "codeQualite": "Membre",
           "libQualite": "Membre",
@@ -417,6 +419,53 @@
         }
       },
       {
+        "@xsi:type": "MandatParlementaire_type",
+        "uid": "PM796443",
+        "acteurRef": "PA793632",
+        "legislature": "16",
+        "typeOrgane": "ASSEMBLEE",
+        "dateDebut": "2022-06-19",
+        "datePublication": null,
+        "dateFin": "2024-06-09",
+        "preseance": "50",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "membre",
+          "libQualite": "membre",
+          "libQualiteSex": "membre"
+        },
+        "organes": {
+          "organeRef": "PO791932"
+        },
+        "suppleants": {
+          "suppleant": {
+            "dateDebut": "2022-06-19",
+            "dateFin": "2024-06-09",
+            "suppleantRef": "PA793636"
+          }
+        },
+        "chambre": null,
+        "election": {
+          "lieu": {
+            "region": "Normandie",
+            "regionType": "Métropolitain",
+            "departement": "Eure",
+            "numDepartement": "27",
+            "numCirco": "5"
+          },
+          "causeMandat": "élections générales",
+          "refCirconscription": "PO792940"
+        },
+        "mandature": {
+          "datePriseFonction": "2022-06-22",
+          "causeFin": "Fin de législature",
+          "premiereElection": "0",
+          "placeHemicycle": "143",
+          "mandatRemplaceRef": null
+        },
+        "collaborateurs": null
+      },
+      {
         "@xsi:type": "MandatSimple_Type",
         "uid": "PM815199",
         "acteurRef": "PA793632",
@@ -424,7 +473,7 @@
         "typeOrgane": "GE",
         "dateDebut": "2023-01-12",
         "datePublication": null,
-        "dateFin": null,
+        "dateFin": "2024-06-09",
         "preseance": "4",
         "nominPrincipale": "1",
         "infosQualite": {
@@ -444,7 +493,7 @@
         "typeOrgane": "GA",
         "dateDebut": "2022-12-22",
         "datePublication": null,
-        "dateFin": null,
+        "dateFin": "2024-06-09",
         "preseance": "8",
         "nominPrincipale": "1",
         "infosQualite": {
@@ -464,7 +513,7 @@
         "typeOrgane": "GA",
         "dateDebut": "2022-12-22",
         "datePublication": null,
-        "dateFin": null,
+        "dateFin": "2024-06-09",
         "preseance": "8",
         "nominPrincipale": "1",
         "infosQualite": {
@@ -484,7 +533,7 @@
         "typeOrgane": "GA",
         "dateDebut": "2022-12-22",
         "datePublication": null,
-        "dateFin": null,
+        "dateFin": "2024-06-09",
         "preseance": "8",
         "nominPrincipale": "1",
         "infosQualite": {
@@ -504,7 +553,7 @@
         "typeOrgane": "GA",
         "dateDebut": "2022-12-22",
         "datePublication": null,
-        "dateFin": null,
+        "dateFin": "2024-06-09",
         "preseance": "8",
         "nominPrincipale": "1",
         "infosQualite": {
@@ -514,77 +563,6 @@
         },
         "organes": {
           "organeRef": "PO807825"
-        }
-      },
-      {
-        "@xsi:type": "MandatParlementaire_type",
-        "uid": "PM796443",
-        "acteurRef": "PA793632",
-        "legislature": "16",
-        "typeOrgane": "ASSEMBLEE",
-        "dateDebut": "2022-06-19",
-        "datePublication": null,
-        "dateFin": null,
-        "preseance": "50",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "membre",
-          "libQualite": "membre",
-          "libQualiteSex": "membre"
-        },
-        "organes": {
-          "organeRef": "PO791932"
-        },
-        "suppleants": {
-          "suppleant": {
-            "dateDebut": "2022-06-19",
-            "dateFin": null,
-            "suppleantRef": "PA793636"
-          }
-        },
-        "chambre": null,
-        "election": {
-          "lieu": {
-            "region": "Normandie",
-            "regionType": "Métropolitain",
-            "departement": "Eure",
-            "numDepartement": "27",
-            "numCirco": "5"
-          },
-          "causeMandat": "élections générales",
-          "refCirconscription": "PO792940"
-        },
-        "mandature": {
-          "datePriseFonction": "2022-06-22",
-          "causeFin": null,
-          "premiereElection": "0",
-          "placeHemicycle": "143",
-          "mandatRemplaceRef": null
-        },
-        "collaborateurs": {
-          "collaborateur": [
-            {
-              "qualite": "M.",
-              "prenom": "Dylan",
-              "nom": "Cauvin-Merrant",
-              "dateDebut": null,
-              "dateFin": null
-            },
-            {
-              "qualite": "M.",
-              "prenom": "Rémi",
-              "nom": "Scholtz",
-              "dateDebut": null,
-              "dateFin": null
-            },
-            {
-              "qualite": "Mme",
-              "prenom": "Nolwenn",
-              "nom": "Bethenod",
-              "dateDebut": null,
-              "dateFin": null
-            }
-          ]
         }
       }
     ]

@@ -9,7 +9,9 @@
       "prenom": "Louis",
       "nom": "Margueritte",
       "alpha": "Margueritte",
-      "trigramme": "LMR"
+      "trigramme": {
+        "@xsi:nil": "true"
+      }
     },
     "infoNaissance": {
       "dateNais": "1984-09-10",
@@ -171,33 +173,13 @@
       },
       {
         "@xsi:type": "MandatSimple_Type",
-        "uid": "PM816471",
-        "acteurRef": "PA794974",
-        "legislature": "16",
-        "typeOrgane": "ORGEXTPARL",
-        "dateDebut": "2022-11-22",
-        "datePublication": "2022-11-23",
-        "dateFin": null,
-        "preseance": "20",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Titulaire",
-          "libQualite": "Membre titulaire",
-          "libQualiteSex": "Membre titulaire"
-        },
-        "organes": {
-          "organeRef": "PO763346"
-        }
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
         "uid": "PM800787",
         "acteurRef": "PA794974",
         "legislature": "16",
         "typeOrgane": "GP",
         "dateDebut": "2022-06-29",
         "datePublication": "2022-06-29",
-        "dateFin": null,
+        "dateFin": "2024-06-09",
         "preseance": "20",
         "nominPrincipale": "1",
         "infosQualite": {
@@ -377,7 +359,7 @@
         "typeOrgane": "COMPER",
         "dateDebut": "2024-05-30",
         "datePublication": "2024-05-30",
-        "dateFin": null,
+        "dateFin": "2024-06-09",
         "preseance": "32",
         "nominPrincipale": "1",
         "infosQualite": {
@@ -631,6 +613,26 @@
       },
       {
         "@xsi:type": "MandatSimple_Type",
+        "uid": "PM816471",
+        "acteurRef": "PA794974",
+        "legislature": "16",
+        "typeOrgane": "ORGEXTPARL",
+        "dateDebut": "2022-11-22",
+        "datePublication": "2022-11-23",
+        "dateFin": "2024-06-09",
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Titulaire",
+          "libQualite": "Membre titulaire",
+          "libQualiteSex": "Membre titulaire"
+        },
+        "organes": {
+          "organeRef": "PO763346"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
         "uid": "PM797224",
         "acteurRef": "PA794974",
         "legislature": "16",
@@ -657,7 +659,7 @@
         "typeOrgane": "ASSEMBLEE",
         "dateDebut": "2022-06-19",
         "datePublication": null,
-        "dateFin": null,
+        "dateFin": "2024-06-09",
         "preseance": "50",
         "nominPrincipale": "1",
         "infosQualite": {
@@ -671,7 +673,7 @@
         "suppleants": {
           "suppleant": {
             "dateDebut": "2022-06-19",
-            "dateFin": null,
+            "dateFin": "2024-06-09",
             "suppleantRef": "PA794978"
           }
         },
@@ -689,36 +691,12 @@
         },
         "mandature": {
           "datePriseFonction": "2022-06-22",
-          "causeFin": null,
+          "causeFin": "Fin de législature",
           "premiereElection": "0",
           "placeHemicycle": "445",
           "mandatRemplaceRef": null
         },
-        "collaborateurs": {
-          "collaborateur": [
-            {
-              "qualite": "Mme",
-              "prenom": "Marine",
-              "nom": "Mangione",
-              "dateDebut": null,
-              "dateFin": null
-            },
-            {
-              "qualite": "M.",
-              "prenom": "Roméo",
-              "nom": "Lomazzi",
-              "dateDebut": null,
-              "dateFin": null
-            },
-            {
-              "qualite": "Mme",
-              "prenom": "Saâdiya",
-              "nom": "El Hayani",
-              "dateDebut": null,
-              "dateFin": null
-            }
-          ]
-        }
+        "collaborateurs": null
       }
     ]
   }

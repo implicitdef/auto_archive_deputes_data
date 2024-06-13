@@ -9,7 +9,9 @@
       "prenom": "Julien",
       "nom": "Bayou",
       "alpha": "Bayou",
-      "trigramme": "JBL"
+      "trigramme": {
+        "@xsi:nil": "true"
+      }
     },
     "infoNaissance": {
       "dateNais": "1980-06-11",
@@ -95,27 +97,6 @@
   "mandats": {
     "mandat": [
       {
-        "@xsi:type": "MandatAvecSuppleant_Type",
-        "uid": "PM832407",
-        "acteurRef": "PA795058",
-        "legislature": "16",
-        "typeOrgane": "CJR",
-        "dateDebut": "2023-10-18",
-        "datePublication": null,
-        "dateFin": null,
-        "preseance": "5",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Juge suppléant",
-          "libQualite": "Juge suppléant",
-          "libQualiteSex": "Juge suppléant"
-        },
-        "organes": {
-          "organeRef": "PO58996"
-        },
-        "suppleants": null
-      },
-      {
         "@xsi:type": "MandatParlementaire_type",
         "uid": "PM801068",
         "acteurRef": "PA795058",
@@ -154,6 +135,27 @@
           "mandatRemplaceRef": null
         },
         "collaborateurs": null
+      },
+      {
+        "@xsi:type": "MandatAvecSuppleant_Type",
+        "uid": "PM832407",
+        "acteurRef": "PA795058",
+        "legislature": "16",
+        "typeOrgane": "CJR",
+        "dateDebut": "2023-10-18",
+        "datePublication": null,
+        "dateFin": "2024-06-09",
+        "preseance": "5",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Juge suppléant",
+          "libQualite": "Juge suppléant",
+          "libQualiteSex": "Juge suppléant"
+        },
+        "organes": {
+          "organeRef": "PO58996"
+        },
+        "suppleants": null
       },
       {
         "@xsi:type": "MandatMission_Type",
@@ -286,7 +288,7 @@
         "typeOrgane": "COMPER",
         "dateDebut": "2024-02-14",
         "datePublication": "2024-02-14",
-        "dateFin": null,
+        "dateFin": "2024-06-09",
         "preseance": "32",
         "nominPrincipale": "1",
         "infosQualite": {
@@ -546,7 +548,7 @@
         "typeOrgane": "GE",
         "dateDebut": "2023-03-03",
         "datePublication": null,
-        "dateFin": null,
+        "dateFin": "2024-06-09",
         "preseance": "20",
         "nominPrincipale": "1",
         "infosQualite": {
@@ -566,7 +568,7 @@
         "typeOrgane": "GE",
         "dateDebut": "2023-02-15",
         "datePublication": null,
-        "dateFin": null,
+        "dateFin": "2024-06-09",
         "preseance": "20",
         "nominPrincipale": "1",
         "infosQualite": {
@@ -586,9 +588,9 @@
         "typeOrgane": "GE",
         "dateDebut": "2023-02-13",
         "datePublication": null,
-        "dateFin": null,
+        "dateFin": "2024-06-09",
         "preseance": "20",
-        "nominPrincipale": "0",
+        "nominPrincipale": "1",
         "infosQualite": {
           "codeQualite": "Membre",
           "libQualite": "Membre",
@@ -626,7 +628,7 @@
         "typeOrgane": "GP",
         "dateDebut": "2024-04-03",
         "datePublication": "2024-04-03",
-        "dateFin": null,
+        "dateFin": "2024-06-09",
         "preseance": "28",
         "nominPrincipale": "1",
         "infosQualite": {
@@ -666,7 +668,7 @@
         "typeOrgane": "GA",
         "dateDebut": "2022-12-08",
         "datePublication": null,
-        "dateFin": null,
+        "dateFin": "2024-06-09",
         "preseance": "20",
         "nominPrincipale": "1",
         "infosQualite": {
@@ -686,7 +688,7 @@
         "typeOrgane": "GA",
         "dateDebut": "2023-10-02",
         "datePublication": null,
-        "dateFin": null,
+        "dateFin": "2024-06-09",
         "preseance": "20",
         "nominPrincipale": "1",
         "infosQualite": {
@@ -706,9 +708,9 @@
         "typeOrgane": "GA",
         "dateDebut": "2022-12-08",
         "datePublication": null,
-        "dateFin": null,
+        "dateFin": "2024-06-09",
         "preseance": "20",
-        "nominPrincipale": "0",
+        "nominPrincipale": "1",
         "infosQualite": {
           "codeQualite": "Membre",
           "libQualite": "Membre",
@@ -739,6 +741,53 @@
         }
       },
       {
+        "@xsi:type": "MandatParlementaire_type",
+        "uid": "PM797277",
+        "acteurRef": "PA795058",
+        "legislature": "16",
+        "typeOrgane": "ASSEMBLEE",
+        "dateDebut": "2022-06-19",
+        "datePublication": null,
+        "dateFin": "2024-06-09",
+        "preseance": "50",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "membre",
+          "libQualite": "membre",
+          "libQualiteSex": "membre"
+        },
+        "organes": {
+          "organeRef": "PO791932"
+        },
+        "suppleants": {
+          "suppleant": {
+            "dateDebut": "2022-06-19",
+            "dateFin": "2024-06-09",
+            "suppleantRef": "PA795062"
+          }
+        },
+        "chambre": null,
+        "election": {
+          "lieu": {
+            "region": "Ile-de-France",
+            "regionType": "Métropolitain",
+            "departement": "Paris",
+            "numDepartement": "75",
+            "numCirco": "5"
+          },
+          "causeMandat": "élections générales",
+          "refCirconscription": "PO792334"
+        },
+        "mandature": {
+          "datePriseFonction": "2022-06-22",
+          "causeFin": "Fin de législature",
+          "premiereElection": "0",
+          "placeHemicycle": "524",
+          "mandatRemplaceRef": null
+        },
+        "collaborateurs": null
+      },
+      {
         "@xsi:type": "MandatSimple_Type",
         "uid": "PM821856",
         "acteurRef": "PA795058",
@@ -746,7 +795,7 @@
         "typeOrgane": "GE",
         "dateDebut": "2023-03-14",
         "datePublication": null,
-        "dateFin": null,
+        "dateFin": "2024-06-09",
         "preseance": "8",
         "nominPrincipale": "1",
         "infosQualite": {
@@ -766,7 +815,7 @@
         "typeOrgane": "GA",
         "dateDebut": "2022-12-22",
         "datePublication": null,
-        "dateFin": null,
+        "dateFin": "2024-06-09",
         "preseance": "8",
         "nominPrincipale": "1",
         "infosQualite": {
@@ -776,77 +825,6 @@
         },
         "organes": {
           "organeRef": "PO807286"
-        }
-      },
-      {
-        "@xsi:type": "MandatParlementaire_type",
-        "uid": "PM797277",
-        "acteurRef": "PA795058",
-        "legislature": "16",
-        "typeOrgane": "ASSEMBLEE",
-        "dateDebut": "2022-06-19",
-        "datePublication": null,
-        "dateFin": null,
-        "preseance": "50",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "membre",
-          "libQualite": "membre",
-          "libQualiteSex": "membre"
-        },
-        "organes": {
-          "organeRef": "PO791932"
-        },
-        "suppleants": {
-          "suppleant": {
-            "dateDebut": "2022-06-19",
-            "dateFin": null,
-            "suppleantRef": "PA795062"
-          }
-        },
-        "chambre": null,
-        "election": {
-          "lieu": {
-            "region": "Ile-de-France",
-            "regionType": "Métropolitain",
-            "departement": "Paris",
-            "numDepartement": "75",
-            "numCirco": "5"
-          },
-          "causeMandat": "élections générales",
-          "refCirconscription": "PO792334"
-        },
-        "mandature": {
-          "datePriseFonction": "2022-06-22",
-          "causeFin": null,
-          "premiereElection": "0",
-          "placeHemicycle": "524",
-          "mandatRemplaceRef": null
-        },
-        "collaborateurs": {
-          "collaborateur": [
-            {
-              "qualite": "M.",
-              "prenom": "Jérôme",
-              "nom": "Poirié",
-              "dateDebut": null,
-              "dateFin": null
-            },
-            {
-              "qualite": "Mme",
-              "prenom": "Coline",
-              "nom": "Ach",
-              "dateDebut": null,
-              "dateFin": null
-            },
-            {
-              "qualite": "Mme",
-              "prenom": "Sophia",
-              "nom": "Taouri",
-              "dateDebut": null,
-              "dateFin": null
-            }
-          ]
         }
       }
     ]

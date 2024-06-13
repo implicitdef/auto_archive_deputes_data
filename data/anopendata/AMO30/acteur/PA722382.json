@@ -9,7 +9,9 @@
       "prenom": "Benjamin",
       "nom": "Dirx",
       "alpha": "Dirx",
-      "trigramme": "BDI"
+      "trigramme": {
+        "@xsi:nil": "true"
+      }
     },
     "infoNaissance": {
       "dateNais": "1979-01-25",
@@ -128,34 +130,13 @@
         "typeOrgane": "COMNL",
         "dateDebut": "2022-07-13",
         "datePublication": "2022-07-13",
-        "dateFin": null,
+        "dateFin": "2024-06-09",
         "preseance": "20",
-        "nominPrincipale": "0",
+        "nominPrincipale": "1",
         "infosQualite": {
           "codeQualite": "Membre",
           "libQualite": "Membre",
           "libQualiteSex": "Membre"
-        },
-        "organes": {
-          "organeRef": "PO271860"
-        },
-        "suppleants": null
-      },
-      {
-        "@xsi:type": "MandatAvecSuppleant_Type",
-        "uid": "PM802413",
-        "acteurRef": "PA722382",
-        "legislature": "16",
-        "typeOrgane": "COMNL",
-        "dateDebut": "2022-07-19",
-        "datePublication": "2022-07-20",
-        "dateFin": null,
-        "preseance": "16",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Secrétaire",
-          "libQualite": "Secrétaire",
-          "libQualiteSex": "Secrétaire"
         },
         "organes": {
           "organeRef": "PO271860"
@@ -290,6 +271,27 @@
         "missionPrecedenteRef": null
       },
       {
+        "@xsi:type": "MandatAvecSuppleant_Type",
+        "uid": "PM802413",
+        "acteurRef": "PA722382",
+        "legislature": "16",
+        "typeOrgane": "COMNL",
+        "dateDebut": "2022-07-19",
+        "datePublication": "2022-07-20",
+        "dateFin": "2024-06-09",
+        "preseance": "16",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Secrétaire",
+          "libQualite": "Secrétaire",
+          "libQualiteSex": "Secrétaire"
+        },
+        "organes": {
+          "organeRef": "PO271860"
+        },
+        "suppleants": null
+      },
+      {
         "@xsi:type": "MandatSimple_Type",
         "uid": "PM731282",
         "acteurRef": "PA722382",
@@ -317,7 +319,7 @@
         "typeOrgane": "GP",
         "dateDebut": "2022-06-29",
         "datePublication": "2022-06-29",
-        "dateFin": null,
+        "dateFin": "2024-06-09",
         "preseance": "20",
         "nominPrincipale": "1",
         "infosQualite": {
@@ -406,33 +408,13 @@
         "typeOrgane": "COMPER",
         "dateDebut": "2022-06-30",
         "datePublication": "2022-06-30",
-        "dateFin": null,
+        "dateFin": "2024-06-09",
         "preseance": "32",
         "nominPrincipale": "0",
         "infosQualite": {
           "codeQualite": "Membre",
           "libQualite": "Membre",
           "libQualiteSex": "Membre"
-        },
-        "organes": {
-          "organeRef": "PO59048"
-        }
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM801797",
-        "acteurRef": "PA722382",
-        "legislature": "16",
-        "typeOrgane": "COMPER",
-        "dateDebut": "2022-06-30",
-        "datePublication": "2022-07-01",
-        "dateFin": null,
-        "preseance": "16",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Secrétaire",
-          "libQualite": "Secrétaire",
-          "libQualiteSex": "Secrétaire"
         },
         "organes": {
           "organeRef": "PO59048"
@@ -486,7 +468,7 @@
         "typeOrgane": "CMP",
         "dateDebut": "2024-05-22",
         "datePublication": "2024-05-24",
-        "dateFin": null,
+        "dateFin": "2024-06-09",
         "preseance": "20",
         "nominPrincipale": "1",
         "infosQualite": {
@@ -786,6 +768,26 @@
       },
       {
         "@xsi:type": "MandatSimple_Type",
+        "uid": "PM801797",
+        "acteurRef": "PA722382",
+        "legislature": "16",
+        "typeOrgane": "COMPER",
+        "dateDebut": "2022-06-30",
+        "datePublication": "2022-07-01",
+        "dateFin": "2024-06-09",
+        "preseance": "16",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Secrétaire",
+          "libQualite": "Secrétaire",
+          "libQualiteSex": "Secrétaire"
+        },
+        "organes": {
+          "organeRef": "PO59048"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
         "uid": "PM768319",
         "acteurRef": "PA722382",
         "legislature": "15",
@@ -852,7 +854,7 @@
         "typeOrgane": "ASSEMBLEE",
         "dateDebut": "2022-06-19",
         "datePublication": null,
-        "dateFin": null,
+        "dateFin": "2024-06-09",
         "preseance": "50",
         "nominPrincipale": "1",
         "infosQualite": {
@@ -866,7 +868,7 @@
         "suppleants": {
           "suppleant": {
             "dateDebut": "2022-06-19",
-            "dateFin": null,
+            "dateFin": "2024-06-09",
             "suppleantRef": "PA794962"
           }
         },
@@ -884,36 +886,12 @@
         },
         "mandature": {
           "datePriseFonction": "2022-06-22",
-          "causeFin": null,
+          "causeFin": "Fin de législature",
           "premiereElection": "1",
           "placeHemicycle": "336",
           "mandatRemplaceRef": null
         },
-        "collaborateurs": {
-          "collaborateur": [
-            {
-              "qualite": "Mme",
-              "prenom": "Cécile",
-              "nom": "Muschotti",
-              "dateDebut": null,
-              "dateFin": null
-            },
-            {
-              "qualite": "Mme",
-              "prenom": "Christine",
-              "nom": "Christiansen",
-              "dateDebut": null,
-              "dateFin": null
-            },
-            {
-              "qualite": "Mme",
-              "prenom": "Léa",
-              "nom": "Hauray",
-              "dateDebut": null,
-              "dateFin": null
-            }
-          ]
-        }
+        "collaborateurs": null
       },
       {
         "@xsi:type": "MandatParlementaire_type",

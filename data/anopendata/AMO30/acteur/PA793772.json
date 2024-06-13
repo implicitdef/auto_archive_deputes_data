@@ -9,7 +9,9 @@
       "prenom": "Christophe",
       "nom": "Bex",
       "alpha": "Bex",
-      "trigramme": "CBE"
+      "trigramme": {
+        "@xsi:nil": "true"
+      }
     },
     "infoNaissance": {
       "dateNais": "1961-11-14",
@@ -139,26 +141,6 @@
       },
       {
         "@xsi:type": "MandatSimple_Type",
-        "uid": "PM803736",
-        "acteurRef": "PA793772",
-        "legislature": "16",
-        "typeOrgane": "API",
-        "dateDebut": "2022-09-07",
-        "datePublication": null,
-        "dateFin": null,
-        "preseance": "44",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Suppléant",
-          "libQualite": "Membre suppléant",
-          "libQualiteSex": "Membre suppléant"
-        },
-        "organes": {
-          "organeRef": "PO58974"
-        }
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
         "uid": "PM815589",
         "acteurRef": "PA793772",
         "legislature": "16",
@@ -185,7 +167,7 @@
         "typeOrgane": "CNPE",
         "dateDebut": "2024-03-13",
         "datePublication": "2024-03-13",
-        "dateFin": null,
+        "dateFin": "2024-06-09",
         "preseance": "20",
         "nominPrincipale": "1",
         "infosQualite": {
@@ -205,7 +187,7 @@
         "typeOrgane": "GP",
         "dateDebut": "2022-06-29",
         "datePublication": "2022-06-29",
-        "dateFin": null,
+        "dateFin": "2024-06-09",
         "preseance": "20",
         "nominPrincipale": "1",
         "infosQualite": {
@@ -215,6 +197,26 @@
         },
         "organes": {
           "organeRef": "PO800490"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM803736",
+        "acteurRef": "PA793772",
+        "legislature": "16",
+        "typeOrgane": "API",
+        "dateDebut": "2022-09-07",
+        "datePublication": null,
+        "dateFin": "2024-06-09",
+        "preseance": "44",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Suppléant",
+          "libQualite": "Membre suppléant",
+          "libQualiteSex": "Membre suppléant"
+        },
+        "organes": {
+          "organeRef": "PO58974"
         }
       },
       {
@@ -345,7 +347,7 @@
         "typeOrgane": "COMPER",
         "dateDebut": "2023-06-06",
         "datePublication": "2023-06-06",
-        "dateFin": null,
+        "dateFin": "2024-06-09",
         "preseance": "32",
         "nominPrincipale": "1",
         "infosQualite": {
@@ -405,7 +407,7 @@
         "typeOrgane": "GE",
         "dateDebut": "2023-01-26",
         "datePublication": null,
-        "dateFin": null,
+        "dateFin": "2024-06-09",
         "preseance": "20",
         "nominPrincipale": "1",
         "infosQualite": {
@@ -425,7 +427,7 @@
         "typeOrgane": "GE",
         "dateDebut": "2023-01-12",
         "datePublication": null,
-        "dateFin": null,
+        "dateFin": "2024-06-09",
         "preseance": "20",
         "nominPrincipale": "0",
         "infosQualite": {
@@ -445,7 +447,7 @@
         "typeOrgane": "GE",
         "dateDebut": "2023-01-12",
         "datePublication": null,
-        "dateFin": null,
+        "dateFin": "2024-06-09",
         "preseance": "1",
         "nominPrincipale": "1",
         "infosQualite": {
@@ -465,7 +467,7 @@
         "typeOrgane": "GA",
         "dateDebut": "2022-12-09",
         "datePublication": null,
-        "dateFin": null,
+        "dateFin": "2024-06-09",
         "preseance": "20",
         "nominPrincipale": "1",
         "infosQualite": {
@@ -485,7 +487,7 @@
         "typeOrgane": "ASSEMBLEE",
         "dateDebut": "2022-06-19",
         "datePublication": null,
-        "dateFin": null,
+        "dateFin": "2024-06-09",
         "preseance": "50",
         "nominPrincipale": "1",
         "infosQualite": {
@@ -499,7 +501,7 @@
         "suppleants": {
           "suppleant": {
             "dateDebut": "2022-06-19",
-            "dateFin": null,
+            "dateFin": "2024-06-09",
             "suppleantRef": "PA793776"
           }
         },
@@ -517,43 +519,12 @@
         },
         "mandature": {
           "datePriseFonction": "2022-06-22",
-          "causeFin": null,
+          "causeFin": "Fin de législature",
           "premiereElection": "0",
           "placeHemicycle": "557",
           "mandatRemplaceRef": null
         },
-        "collaborateurs": {
-          "collaborateur": [
-            {
-              "qualite": "M.",
-              "prenom": "Loic",
-              "nom": "Muria",
-              "dateDebut": null,
-              "dateFin": null
-            },
-            {
-              "qualite": "Mme",
-              "prenom": "Fanny",
-              "nom": "Fossier",
-              "dateDebut": null,
-              "dateFin": null
-            },
-            {
-              "qualite": "Mme",
-              "prenom": "Ihsane",
-              "nom": "Darkrim",
-              "dateDebut": null,
-              "dateFin": null
-            },
-            {
-              "qualite": "M.",
-              "prenom": "Julien",
-              "nom": "Cestac",
-              "dateDebut": null,
-              "dateFin": null
-            }
-          ]
-        }
+        "collaborateurs": null
       }
     ]
   }

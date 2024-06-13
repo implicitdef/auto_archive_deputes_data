@@ -276,26 +276,6 @@
       },
       {
         "@xsi:type": "MandatSimple_Type",
-        "uid": "PM414856",
-        "acteurRef": "PA1094",
-        "legislature": "13",
-        "typeOrgane": "GEVI",
-        "dateDebut": "2008-07-18",
-        "datePublication": null,
-        "dateFin": "2012-06-19",
-        "preseance": "20",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Membre",
-          "libQualite": "Membre",
-          "libQualiteSex": "Membre"
-        },
-        "organes": {
-          "organeRef": "PO414614"
-        }
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
         "uid": "PM395829",
         "acteurRef": "PA1094",
         "legislature": "13",
@@ -312,6 +292,26 @@
         },
         "organes": {
           "organeRef": "PO206064"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM414856",
+        "acteurRef": "PA1094",
+        "legislature": "13",
+        "typeOrgane": "GEVI",
+        "dateDebut": "2008-07-18",
+        "datePublication": null,
+        "dateFin": "2012-06-19",
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO414614"
         }
       },
       {
@@ -1215,6 +1215,46 @@
         }
       },
       {
+        "@xsi:type": "MandatParlementaire_type",
+        "uid": "PM390344",
+        "acteurRef": "PA1094",
+        "legislature": "13",
+        "typeOrgane": "BUREAU",
+        "dateDebut": "2007-06-27",
+        "datePublication": "2007-06-28",
+        "dateFin": "2010-10-05",
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Secrétaire",
+          "libQualite": "Secrétaire de l'Assemblée nationale",
+          "libQualiteSex": "Secrétaire de l'Assemblée nationale"
+        },
+        "organes": {
+          "organeRef": "PO389368"
+        },
+        "suppleants": null,
+        "chambre": null,
+        "election": {
+          "lieu": {
+            "region": null,
+            "regionType": null,
+            "departement": null,
+            "numDepartement": null,
+            "numCirco": null
+          },
+          "causeMandat": null
+        },
+        "mandature": {
+          "datePriseFonction": null,
+          "causeFin": null,
+          "premiereElection": "0",
+          "placeHemicycle": null,
+          "mandatRemplaceRef": null
+        },
+        "collaborateurs": null
+      },
+      {
         "@xsi:type": "MandatSimple_Type",
         "uid": "PM282655",
         "acteurRef": "PA1094",
@@ -1553,46 +1593,6 @@
         "organes": {
           "organeRef": "PO393161"
         }
-      },
-      {
-        "@xsi:type": "MandatParlementaire_type",
-        "uid": "PM390344",
-        "acteurRef": "PA1094",
-        "legislature": "13",
-        "typeOrgane": "BUREAU",
-        "dateDebut": "2007-06-27",
-        "datePublication": "2007-06-28",
-        "dateFin": "2010-10-05",
-        "preseance": "20",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Secrétaire",
-          "libQualite": "Secrétaire de l'Assemblée nationale",
-          "libQualiteSex": "Secrétaire de l'Assemblée nationale"
-        },
-        "organes": {
-          "organeRef": "PO389368"
-        },
-        "suppleants": null,
-        "chambre": null,
-        "election": {
-          "lieu": {
-            "region": null,
-            "regionType": null,
-            "departement": null,
-            "numDepartement": null,
-            "numCirco": null
-          },
-          "causeMandat": null
-        },
-        "mandature": {
-          "datePriseFonction": null,
-          "causeFin": null,
-          "premiereElection": "0",
-          "placeHemicycle": null,
-          "mandatRemplaceRef": null
-        },
-        "collaborateurs": null
       },
       {
         "@xsi:type": "MandatSimple_Type",

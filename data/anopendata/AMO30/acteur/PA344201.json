@@ -9,7 +9,9 @@
       "prenom": "Bertrand",
       "nom": "Petit",
       "alpha": "Petit",
-      "trigramme": "BEP"
+      "trigramme": {
+        "@xsi:nil": "true"
+      }
     },
     "infoNaissance": {
       "dateNais": "1964-08-28",
@@ -169,7 +171,7 @@
         "typeOrgane": "GP",
         "dateDebut": "2023-10-19",
         "datePublication": "2023-10-19",
-        "dateFin": null,
+        "dateFin": "2024-06-09",
         "preseance": "20",
         "nominPrincipale": "1",
         "infosQualite": {
@@ -309,7 +311,7 @@
         "typeOrgane": "COMPER",
         "dateDebut": "2024-05-01",
         "datePublication": "2024-05-01",
-        "dateFin": null,
+        "dateFin": "2024-06-09",
         "preseance": "32",
         "nominPrincipale": "1",
         "infosQualite": {
@@ -549,9 +551,9 @@
         "typeOrgane": "GE",
         "dateDebut": "2023-02-01",
         "datePublication": null,
-        "dateFin": null,
+        "dateFin": "2024-06-09",
         "preseance": "20",
-        "nominPrincipale": "0",
+        "nominPrincipale": "1",
         "infosQualite": {
           "codeQualite": "Membre",
           "libQualite": "Membre",
@@ -589,7 +591,7 @@
         "typeOrgane": "GE",
         "dateDebut": "2023-02-08",
         "datePublication": null,
-        "dateFin": null,
+        "dateFin": "2024-06-09",
         "preseance": "8",
         "nominPrincipale": "1",
         "infosQualite": {
@@ -609,7 +611,7 @@
         "typeOrgane": "ASSEMBLEE",
         "dateDebut": "2023-01-29",
         "datePublication": "2023-01-30",
-        "dateFin": null,
+        "dateFin": "2024-06-09",
         "preseance": "50",
         "nominPrincipale": "1",
         "infosQualite": {
@@ -623,7 +625,7 @@
         "suppleants": {
           "suppleant": {
             "dateDebut": "2023-01-29",
-            "dateFin": null,
+            "dateFin": "2024-06-09",
             "suppleantRef": "PA817356"
           }
         },
@@ -641,50 +643,12 @@
         },
         "mandature": {
           "datePriseFonction": "2023-01-29",
-          "causeFin": null,
+          "causeFin": "Fin de législature",
           "premiereElection": "1",
           "placeHemicycle": "461",
           "mandatRemplaceRef": null
         },
-        "collaborateurs": {
-          "collaborateur": [
-            {
-              "qualite": "M.",
-              "prenom": "Gabin",
-              "nom": "Lorgnier",
-              "dateDebut": null,
-              "dateFin": null
-            },
-            {
-              "qualite": "Mme",
-              "prenom": "Sophie",
-              "nom": "Warot",
-              "dateDebut": null,
-              "dateFin": null
-            },
-            {
-              "qualite": "Mme",
-              "prenom": "Laëtitia",
-              "nom": "Quagebeur",
-              "dateDebut": null,
-              "dateFin": null
-            },
-            {
-              "qualite": "Mme",
-              "prenom": "Martine",
-              "nom": "Kobiela",
-              "dateDebut": null,
-              "dateFin": null
-            },
-            {
-              "qualite": "M.",
-              "prenom": "Léopold",
-              "nom": "Comtet",
-              "dateDebut": null,
-              "dateFin": null
-            }
-          ]
-        }
+        "collaborateurs": null
       },
       {
         "@xsi:type": "MandatParlementaire_type",

@@ -63,6 +63,26 @@
   "mandats": {
     "mandat": [
       {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM15429230",
+        "acteurRef": "PA1946",
+        "legislature": null,
+        "typeOrgane": "GOUVERNEMENT",
+        "dateDebut": "2011-06-29",
+        "datePublication": "2011-06-30",
+        "dateFin": "2012-05-10",
+        "preseance": "50",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "membre",
+          "libQualite": "membre",
+          "libQualiteSex": "membre"
+        },
+        "organes": {
+          "organeRef": "PO425695"
+        }
+      },
+      {
         "@xsi:type": "MandatAvecSuppleant_Type",
         "uid": "PM663943",
         "acteurRef": "PA1946",
@@ -82,26 +102,6 @@
           "organeRef": "PO415287"
         },
         "suppleants": null
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM15429230",
-        "acteurRef": "PA1946",
-        "legislature": null,
-        "typeOrgane": "GOUVERNEMENT",
-        "dateDebut": "2011-06-29",
-        "datePublication": "2011-06-30",
-        "dateFin": "2012-05-10",
-        "preseance": "50",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "membre",
-          "libQualite": "membre",
-          "libQualiteSex": "membre"
-        },
-        "organes": {
-          "organeRef": "PO425695"
-        }
       },
       {
         "@xsi:type": "MandatAvecSuppleant_Type",
@@ -254,26 +254,6 @@
         "missionPrecedenteRef": null
       },
       {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM425666",
-        "acteurRef": "PA1946",
-        "legislature": "13",
-        "typeOrgane": "CNPS",
-        "dateDebut": "2010-11-10",
-        "datePublication": "2010-11-11",
-        "dateFin": "2011-06-23",
-        "preseance": "20",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Membre",
-          "libQualite": "Membre",
-          "libQualiteSex": "Membre"
-        },
-        "organes": {
-          "organeRef": "PO425550"
-        }
-      },
-      {
         "@xsi:type": "MandatMission_Type",
         "uid": "PM412143",
         "acteurRef": "PA1946",
@@ -295,6 +275,26 @@
         "libelle": null,
         "missionSuivanteRef": null,
         "missionPrecedenteRef": null
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM425666",
+        "acteurRef": "PA1946",
+        "legislature": "13",
+        "typeOrgane": "CNPS",
+        "dateDebut": "2010-11-10",
+        "datePublication": "2010-11-11",
+        "dateFin": "2011-06-23",
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO425550"
+        }
       },
       {
         "@xsi:type": "MandatSimple_Type",

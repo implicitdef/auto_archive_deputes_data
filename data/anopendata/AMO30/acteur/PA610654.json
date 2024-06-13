@@ -9,7 +9,9 @@
       "prenom": "Jean-Philippe",
       "nom": "Nilor",
       "alpha": "Nilor",
-      "trigramme": "JNI"
+      "trigramme": {
+        "@xsi:nil": "true"
+      }
     },
     "infoNaissance": {
       "dateNais": "1965-05-15",
@@ -121,33 +123,13 @@
       },
       {
         "@xsi:type": "MandatSimple_Type",
-        "uid": "PM802195",
-        "acteurRef": "PA610654",
-        "legislature": "16",
-        "typeOrgane": "DELEG",
-        "dateDebut": "2022-07-13",
-        "datePublication": "2022-07-13",
-        "dateFin": null,
-        "preseance": "21",
-        "nominPrincipale": "0",
-        "infosQualite": {
-          "codeQualite": "Membre de droit",
-          "libQualite": "Membre de droit",
-          "libQualiteSex": "Membre de droit"
-        },
-        "organes": {
-          "organeRef": "PO675659"
-        }
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
         "uid": "PM802769",
         "acteurRef": "PA610654",
         "legislature": "16",
         "typeOrgane": "DELEG",
         "dateDebut": "2022-07-13",
         "datePublication": "2022-07-13",
-        "dateFin": null,
+        "dateFin": "2024-06-09",
         "preseance": "20",
         "nominPrincipale": "1",
         "infosQualite": {
@@ -324,26 +306,6 @@
       },
       {
         "@xsi:type": "MandatSimple_Type",
-        "uid": "PM835401",
-        "acteurRef": "PA610654",
-        "legislature": "16",
-        "typeOrgane": "ORGEXTPARL",
-        "dateDebut": "2024-02-28",
-        "datePublication": "2024-02-29",
-        "dateFin": null,
-        "preseance": "20",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Titulaire",
-          "libQualite": "Membre titulaire",
-          "libQualiteSex": "Membre titulaire"
-        },
-        "organes": {
-          "organeRef": "PO835384"
-        }
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
         "uid": "PM694363",
         "acteurRef": "PA610654",
         "legislature": "14",
@@ -444,6 +406,26 @@
       },
       {
         "@xsi:type": "MandatSimple_Type",
+        "uid": "PM802195",
+        "acteurRef": "PA610654",
+        "legislature": "16",
+        "typeOrgane": "DELEG",
+        "dateDebut": "2022-07-13",
+        "datePublication": "2022-07-13",
+        "dateFin": "2024-06-09",
+        "preseance": "21",
+        "nominPrincipale": "0",
+        "infosQualite": {
+          "codeQualite": "Membre de droit",
+          "libQualite": "Membre de droit",
+          "libQualiteSex": "Membre de droit"
+        },
+        "organes": {
+          "organeRef": "PO675659"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
         "uid": "PM731538",
         "acteurRef": "PA610654",
         "legislature": "15",
@@ -490,7 +472,7 @@
         "typeOrgane": "GP",
         "dateDebut": "2022-06-29",
         "datePublication": "2022-06-29",
-        "dateFin": null,
+        "dateFin": "2024-06-09",
         "preseance": "20",
         "nominPrincipale": "1",
         "infosQualite": {
@@ -1950,7 +1932,7 @@
         "typeOrgane": "COMPER",
         "dateDebut": "2024-06-06",
         "datePublication": "2024-06-06",
-        "dateFin": null,
+        "dateFin": "2024-06-09",
         "preseance": "32",
         "nominPrincipale": "1",
         "infosQualite": {
@@ -2364,6 +2346,26 @@
       },
       {
         "@xsi:type": "MandatSimple_Type",
+        "uid": "PM835401",
+        "acteurRef": "PA610654",
+        "legislature": "16",
+        "typeOrgane": "ORGEXTPARL",
+        "dateDebut": "2024-02-28",
+        "datePublication": "2024-02-29",
+        "dateFin": "2024-06-09",
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Titulaire",
+          "libQualite": "Membre titulaire",
+          "libQualiteSex": "Membre titulaire"
+        },
+        "organes": {
+          "organeRef": "PO835384"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
         "uid": "PM759985",
         "acteurRef": "PA610654",
         "legislature": "15",
@@ -2737,6 +2739,53 @@
         "collaborateurs": null
       },
       {
+        "@xsi:type": "MandatParlementaire_type",
+        "uid": "PM797724",
+        "acteurRef": "PA610654",
+        "legislature": "16",
+        "typeOrgane": "ASSEMBLEE",
+        "dateDebut": "2022-06-19",
+        "datePublication": null,
+        "dateFin": "2024-06-09",
+        "preseance": "50",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "membre",
+          "libQualite": "membre",
+          "libQualiteSex": "membre"
+        },
+        "organes": {
+          "organeRef": "PO791932"
+        },
+        "suppleants": {
+          "suppleant": {
+            "dateDebut": "2022-06-19",
+            "dateFin": "2024-06-09",
+            "suppleantRef": "PA721020"
+          }
+        },
+        "chambre": null,
+        "election": {
+          "lieu": {
+            "region": "Martinique",
+            "regionType": "Dom",
+            "departement": "Martinique",
+            "numDepartement": "972",
+            "numCirco": "4"
+          },
+          "causeMandat": "élections générales",
+          "refCirconscription": "PO792706"
+        },
+        "mandature": {
+          "datePriseFonction": "2022-06-22",
+          "causeFin": "Fin de législature",
+          "premiereElection": "1",
+          "placeHemicycle": "632",
+          "mandatRemplaceRef": null
+        },
+        "collaborateurs": null
+      },
+      {
         "@xsi:type": "MandatSimple_Type",
         "uid": "PM742383",
         "acteurRef": "PA610654",
@@ -2774,91 +2823,6 @@
         },
         "organes": {
           "organeRef": "PO733592"
-        }
-      },
-      {
-        "@xsi:type": "MandatParlementaire_type",
-        "uid": "PM797724",
-        "acteurRef": "PA610654",
-        "legislature": "16",
-        "typeOrgane": "ASSEMBLEE",
-        "dateDebut": "2022-06-19",
-        "datePublication": null,
-        "dateFin": null,
-        "preseance": "50",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "membre",
-          "libQualite": "membre",
-          "libQualiteSex": "membre"
-        },
-        "organes": {
-          "organeRef": "PO791932"
-        },
-        "suppleants": {
-          "suppleant": {
-            "dateDebut": "2022-06-19",
-            "dateFin": null,
-            "suppleantRef": "PA721020"
-          }
-        },
-        "chambre": null,
-        "election": {
-          "lieu": {
-            "region": "Martinique",
-            "regionType": "Dom",
-            "departement": "Martinique",
-            "numDepartement": "972",
-            "numCirco": "4"
-          },
-          "causeMandat": "élections générales",
-          "refCirconscription": "PO792706"
-        },
-        "mandature": {
-          "datePriseFonction": "2022-06-22",
-          "causeFin": null,
-          "premiereElection": "1",
-          "placeHemicycle": "632",
-          "mandatRemplaceRef": null
-        },
-        "collaborateurs": {
-          "collaborateur": [
-            {
-              "qualite": "Mme",
-              "prenom": "Christine",
-              "nom": "Lérandy",
-              "dateDebut": null,
-              "dateFin": null
-            },
-            {
-              "qualite": "Mme",
-              "prenom": "Aurélie",
-              "nom": "Nella",
-              "dateDebut": null,
-              "dateFin": null
-            },
-            {
-              "qualite": "Mme",
-              "prenom": "Narcise",
-              "nom": "Thérèse",
-              "dateDebut": null,
-              "dateFin": null
-            },
-            {
-              "qualite": "M.",
-              "prenom": "Ludony",
-              "nom": "Zongo",
-              "dateDebut": null,
-              "dateFin": null
-            },
-            {
-              "qualite": "Mme",
-              "prenom": "Anne",
-              "nom": "Berisson",
-              "dateDebut": null,
-              "dateFin": null
-            }
-          ]
         }
       }
     ]

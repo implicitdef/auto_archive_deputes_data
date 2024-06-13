@@ -144,26 +144,6 @@
         }
       },
       {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM399379",
-        "acteurRef": "PA2189",
-        "legislature": "13",
-        "typeOrgane": "GEVI",
-        "dateDebut": "2007-10-15",
-        "datePublication": null,
-        "dateFin": "2010-03-01",
-        "preseance": "20",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Membre",
-          "libQualite": "Membre",
-          "libQualiteSex": "Membre"
-        },
-        "organes": {
-          "organeRef": "PO393228"
-        }
-      },
-      {
         "@xsi:type": "MandatMission_Type",
         "uid": "PM393822",
         "acteurRef": "PA2189",
@@ -185,6 +165,26 @@
         "libelle": null,
         "missionSuivanteRef": null,
         "missionPrecedenteRef": null
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM399379",
+        "acteurRef": "PA2189",
+        "legislature": "13",
+        "typeOrgane": "GEVI",
+        "dateDebut": "2007-10-15",
+        "datePublication": null,
+        "dateFin": "2010-03-01",
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO393228"
+        }
       },
       {
         "@xsi:type": "MandatMission_Type",
@@ -769,6 +769,46 @@
         "organes": {
           "organeRef": "PO324183"
         }
+      },
+      {
+        "@xsi:type": "MandatParlementaire_type",
+        "uid": "PM272240",
+        "acteurRef": "PA2189",
+        "legislature": "12",
+        "typeOrgane": "BUREAU",
+        "dateDebut": "2002-06-26",
+        "datePublication": "2002-06-27",
+        "dateFin": "2007-06-19",
+        "preseance": "14",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Questeur",
+          "libQualite": "Questeur de l'Assemblée nationale",
+          "libQualiteSex": "Questeur de l'Assemblée nationale"
+        },
+        "organes": {
+          "organeRef": "PO272205"
+        },
+        "suppleants": null,
+        "chambre": null,
+        "election": {
+          "lieu": {
+            "region": null,
+            "regionType": null,
+            "departement": null,
+            "numDepartement": null,
+            "numCirco": null
+          },
+          "causeMandat": null
+        },
+        "mandature": {
+          "datePriseFonction": null,
+          "causeFin": null,
+          "premiereElection": "0",
+          "placeHemicycle": null,
+          "mandatRemplaceRef": null
+        },
+        "collaborateurs": null
       },
       {
         "@xsi:type": "MandatSimple_Type",
@@ -1389,46 +1429,6 @@
         "organes": {
           "organeRef": "PO285067"
         }
-      },
-      {
-        "@xsi:type": "MandatParlementaire_type",
-        "uid": "PM272240",
-        "acteurRef": "PA2189",
-        "legislature": "12",
-        "typeOrgane": "BUREAU",
-        "dateDebut": "2002-06-26",
-        "datePublication": "2002-06-27",
-        "dateFin": "2007-06-19",
-        "preseance": "14",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Questeur",
-          "libQualite": "Questeur de l'Assemblée nationale",
-          "libQualiteSex": "Questeur de l'Assemblée nationale"
-        },
-        "organes": {
-          "organeRef": "PO272205"
-        },
-        "suppleants": null,
-        "chambre": null,
-        "election": {
-          "lieu": {
-            "region": null,
-            "regionType": null,
-            "departement": null,
-            "numDepartement": null,
-            "numCirco": null
-          },
-          "causeMandat": null
-        },
-        "mandature": {
-          "datePriseFonction": null,
-          "causeFin": null,
-          "premiereElection": "0",
-          "placeHemicycle": null,
-          "mandatRemplaceRef": null
-        },
-        "collaborateurs": null
       },
       {
         "@xsi:type": "MandatSimple_Type",

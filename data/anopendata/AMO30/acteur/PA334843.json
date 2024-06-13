@@ -244,66 +244,6 @@
         }
       },
       {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM682414",
-        "acteurRef": "PA334843",
-        "legislature": "14",
-        "typeOrgane": "GEVI",
-        "dateDebut": "2012-10-17",
-        "datePublication": null,
-        "dateFin": "2017-06-20",
-        "preseance": "20",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Membre",
-          "libQualite": "Membre",
-          "libQualiteSex": "Membre"
-        },
-        "organes": {
-          "organeRef": "PO675743"
-        }
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM742641",
-        "acteurRef": "PA334843",
-        "legislature": "15",
-        "typeOrgane": "GEVI",
-        "dateDebut": "2017-11-08",
-        "datePublication": null,
-        "dateFin": "2020-06-17",
-        "preseance": "14",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Secrétaire",
-          "libQualite": "Secrétaire",
-          "libQualiteSex": "Secrétaire"
-        },
-        "organes": {
-          "organeRef": "PO733217"
-        }
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM393592",
-        "acteurRef": "PA334843",
-        "legislature": "13",
-        "typeOrgane": "CNPS",
-        "dateDebut": "2007-07-24",
-        "datePublication": "2007-07-24",
-        "dateFin": "2007-08-02",
-        "preseance": "20",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Membre",
-          "libQualite": "Membre",
-          "libQualiteSex": "Membre"
-        },
-        "organes": {
-          "organeRef": "PO392640"
-        }
-      },
-      {
         "@xsi:type": "MandatMission_Type",
         "uid": "PM710898",
         "acteurRef": "PA334843",
@@ -348,6 +288,46 @@
       },
       {
         "@xsi:type": "MandatSimple_Type",
+        "uid": "PM682414",
+        "acteurRef": "PA334843",
+        "legislature": "14",
+        "typeOrgane": "GEVI",
+        "dateDebut": "2012-10-17",
+        "datePublication": null,
+        "dateFin": "2017-06-20",
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO675743"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM742641",
+        "acteurRef": "PA334843",
+        "legislature": "15",
+        "typeOrgane": "GEVI",
+        "dateDebut": "2017-11-08",
+        "datePublication": null,
+        "dateFin": "2020-06-17",
+        "preseance": "14",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Secrétaire",
+          "libQualite": "Secrétaire",
+          "libQualiteSex": "Secrétaire"
+        },
+        "organes": {
+          "organeRef": "PO733217"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
         "uid": "PM677950",
         "acteurRef": "PA334843",
         "legislature": "14",
@@ -364,6 +344,26 @@
         },
         "organes": {
           "organeRef": "PO206064"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM393592",
+        "acteurRef": "PA334843",
+        "legislature": "13",
+        "typeOrgane": "CNPS",
+        "dateDebut": "2007-07-24",
+        "datePublication": "2007-07-24",
+        "dateFin": "2007-08-02",
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO392640"
         }
       },
       {
@@ -1089,6 +1089,27 @@
           "mandatRemplaceRef": null
         },
         "collaborateurs": null
+      },
+      {
+        "@xsi:type": "MandatAvecSuppleant_Type",
+        "uid": "PM733763",
+        "acteurRef": "PA334843",
+        "legislature": "15",
+        "typeOrgane": "OFFPAR",
+        "dateDebut": "2017-07-25",
+        "datePublication": "2017-07-25",
+        "dateFin": "2020-06-17",
+        "preseance": "12",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre nommé par le Président de l'Assemblée nationale",
+          "libQualite": "Membre nommé par le Président de l'Assemblée nationale",
+          "libQualiteSex": "Membre nommé par le Président de l'Assemblée nationale"
+        },
+        "organes": {
+          "organeRef": "PO402232"
+        },
+        "suppleants": null
       },
       {
         "@xsi:type": "MandatSimple_Type",
@@ -2569,27 +2590,6 @@
         "organes": {
           "organeRef": "PO746992"
         }
-      },
-      {
-        "@xsi:type": "MandatAvecSuppleant_Type",
-        "uid": "PM733763",
-        "acteurRef": "PA334843",
-        "legislature": "15",
-        "typeOrgane": "OFFPAR",
-        "dateDebut": "2017-07-25",
-        "datePublication": "2017-07-25",
-        "dateFin": "2020-06-17",
-        "preseance": "12",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Membre nommé par le Président de l'Assemblée nationale",
-          "libQualite": "Membre nommé par le Président de l'Assemblée nationale",
-          "libQualiteSex": "Membre nommé par le Président de l'Assemblée nationale"
-        },
-        "organes": {
-          "organeRef": "PO402232"
-        },
-        "suppleants": null
       },
       {
         "@xsi:type": "MandatSimple_Type",
@@ -4312,6 +4312,100 @@
         }
       },
       {
+        "@xsi:type": "MandatParlementaire_type",
+        "uid": "PM645589",
+        "acteurRef": "PA334843",
+        "legislature": "14",
+        "typeOrgane": "ASSEMBLEE",
+        "dateDebut": "2012-06-20",
+        "datePublication": null,
+        "dateFin": "2017-06-20",
+        "preseance": "50",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "membre",
+          "libQualite": "membre",
+          "libQualiteSex": "membre"
+        },
+        "organes": {
+          "organeRef": "PO644420"
+        },
+        "suppleants": {
+          "suppleant": {
+            "dateDebut": "2012-06-20",
+            "dateFin": "2017-06-20",
+            "suppleantRef": "PA642925"
+          }
+        },
+        "chambre": null,
+        "election": {
+          "lieu": {
+            "region": "Auvergne-Rhône-Alpes",
+            "regionType": "Métropolitain",
+            "departement": "Rhône",
+            "numDepartement": "69",
+            "numCirco": "8"
+          },
+          "causeMandat": "élections générales",
+          "refCirconscription": "PO644787"
+        },
+        "mandature": {
+          "datePriseFonction": "2012-06-20",
+          "causeFin": "Fin de législature",
+          "premiereElection": "1",
+          "placeHemicycle": null,
+          "mandatRemplaceRef": null
+        },
+        "collaborateurs": null
+      },
+      {
+        "@xsi:type": "MandatParlementaire_type",
+        "uid": "PM386557",
+        "acteurRef": "PA334843",
+        "legislature": "13",
+        "typeOrgane": "ASSEMBLEE",
+        "dateDebut": "2007-06-20",
+        "datePublication": null,
+        "dateFin": "2012-06-19",
+        "preseance": "50",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "membre",
+          "libQualite": "membre",
+          "libQualiteSex": "membre"
+        },
+        "organes": {
+          "organeRef": "PO384266"
+        },
+        "suppleants": {
+          "suppleant": {
+            "dateDebut": "2007-06-20",
+            "dateFin": "2012-06-19",
+            "suppleantRef": "PA344838"
+          }
+        },
+        "chambre": null,
+        "election": {
+          "lieu": {
+            "region": "Auvergne-Rhône-Alpes",
+            "regionType": "Métropolitain",
+            "departement": "Rhône",
+            "numDepartement": "69",
+            "numCirco": "8"
+          },
+          "causeMandat": "élections générales",
+          "refCirconscription": "PO384633"
+        },
+        "mandature": {
+          "datePriseFonction": "2007-06-20",
+          "causeFin": "Fin de législature",
+          "premiereElection": "0",
+          "placeHemicycle": null,
+          "mandatRemplaceRef": null
+        },
+        "collaborateurs": null
+      },
+      {
         "@xsi:type": "MandatSimple_Type",
         "uid": "PM408568",
         "acteurRef": "PA334843",
@@ -4450,100 +4544,6 @@
         "organes": {
           "organeRef": "PO746791"
         }
-      },
-      {
-        "@xsi:type": "MandatParlementaire_type",
-        "uid": "PM645589",
-        "acteurRef": "PA334843",
-        "legislature": "14",
-        "typeOrgane": "ASSEMBLEE",
-        "dateDebut": "2012-06-20",
-        "datePublication": null,
-        "dateFin": "2017-06-20",
-        "preseance": "50",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "membre",
-          "libQualite": "membre",
-          "libQualiteSex": "membre"
-        },
-        "organes": {
-          "organeRef": "PO644420"
-        },
-        "suppleants": {
-          "suppleant": {
-            "dateDebut": "2012-06-20",
-            "dateFin": "2017-06-20",
-            "suppleantRef": "PA642925"
-          }
-        },
-        "chambre": null,
-        "election": {
-          "lieu": {
-            "region": "Auvergne-Rhône-Alpes",
-            "regionType": "Métropolitain",
-            "departement": "Rhône",
-            "numDepartement": "69",
-            "numCirco": "8"
-          },
-          "causeMandat": "élections générales",
-          "refCirconscription": "PO644787"
-        },
-        "mandature": {
-          "datePriseFonction": "2012-06-20",
-          "causeFin": "Fin de législature",
-          "premiereElection": "1",
-          "placeHemicycle": null,
-          "mandatRemplaceRef": null
-        },
-        "collaborateurs": null
-      },
-      {
-        "@xsi:type": "MandatParlementaire_type",
-        "uid": "PM386557",
-        "acteurRef": "PA334843",
-        "legislature": "13",
-        "typeOrgane": "ASSEMBLEE",
-        "dateDebut": "2007-06-20",
-        "datePublication": null,
-        "dateFin": "2012-06-19",
-        "preseance": "50",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "membre",
-          "libQualite": "membre",
-          "libQualiteSex": "membre"
-        },
-        "organes": {
-          "organeRef": "PO384266"
-        },
-        "suppleants": {
-          "suppleant": {
-            "dateDebut": "2007-06-20",
-            "dateFin": "2012-06-19",
-            "suppleantRef": "PA344838"
-          }
-        },
-        "chambre": null,
-        "election": {
-          "lieu": {
-            "region": "Auvergne-Rhône-Alpes",
-            "regionType": "Métropolitain",
-            "departement": "Rhône",
-            "numDepartement": "69",
-            "numCirco": "8"
-          },
-          "causeMandat": "élections générales",
-          "refCirconscription": "PO384633"
-        },
-        "mandature": {
-          "datePriseFonction": "2007-06-20",
-          "causeFin": "Fin de législature",
-          "premiereElection": "0",
-          "placeHemicycle": null,
-          "mandatRemplaceRef": null
-        },
-        "collaborateurs": null
       },
       {
         "@xsi:type": "MandatSimple_Type",

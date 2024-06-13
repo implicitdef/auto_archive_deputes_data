@@ -63,27 +63,6 @@
   "mandats": {
     "mandat": [
       {
-        "@xsi:type": "MandatAvecSuppleant_Type",
-        "uid": "PM705738",
-        "acteurRef": "PA1963",
-        "legislature": "14",
-        "typeOrgane": "COMNL",
-        "dateDebut": "2015-01-14",
-        "datePublication": "2015-01-15",
-        "dateFin": "2017-06-20",
-        "preseance": "20",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Membre",
-          "libQualite": "Membre",
-          "libQualiteSex": "Membre"
-        },
-        "organes": {
-          "organeRef": "PO420375"
-        },
-        "suppleants": null
-      },
-      {
         "@xsi:type": "MandatMission_Type",
         "uid": "PM709917",
         "acteurRef": "PA1963",
@@ -105,6 +84,27 @@
         "libelle": null,
         "missionSuivanteRef": null,
         "missionPrecedenteRef": null
+      },
+      {
+        "@xsi:type": "MandatAvecSuppleant_Type",
+        "uid": "PM705738",
+        "acteurRef": "PA1963",
+        "legislature": "14",
+        "typeOrgane": "COMNL",
+        "dateDebut": "2015-01-14",
+        "datePublication": "2015-01-15",
+        "dateFin": "2017-06-20",
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO420375"
+        },
+        "suppleants": null
       },
       {
         "@xsi:type": "MandatSimple_Type",
@@ -656,26 +656,6 @@
         }
       },
       {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM684919",
-        "acteurRef": "PA1963",
-        "legislature": "14",
-        "typeOrgane": "GA",
-        "dateDebut": "2012-11-21",
-        "datePublication": null,
-        "dateFin": "2017-06-20",
-        "preseance": "8",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Vice-Président",
-          "libQualite": "Vice-Président",
-          "libQualiteSex": "Vice-Président"
-        },
-        "organes": {
-          "organeRef": "PO675796"
-        }
-      },
-      {
         "@xsi:type": "MandatParlementaire_type",
         "uid": "PM645466",
         "acteurRef": "PA1963",
@@ -721,6 +701,26 @@
           "mandatRemplaceRef": null
         },
         "collaborateurs": null
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM684919",
+        "acteurRef": "PA1963",
+        "legislature": "14",
+        "typeOrgane": "GA",
+        "dateDebut": "2012-11-21",
+        "datePublication": null,
+        "dateFin": "2017-06-20",
+        "preseance": "8",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Vice-Président",
+          "libQualite": "Vice-Président",
+          "libQualiteSex": "Vice-Président"
+        },
+        "organes": {
+          "organeRef": "PO675796"
+        }
       }
     ]
   }

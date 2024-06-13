@@ -9,7 +9,9 @@
       "prenom": "Martine",
       "nom": "Froger",
       "alpha": "Froger",
-      "trigramme": "FRG"
+      "trigramme": {
+        "@xsi:nil": "true"
+      }
     },
     "infoNaissance": {
       "dateNais": "1961-06-11",
@@ -75,9 +77,9 @@
         "typeOrgane": "MISINFOPRE",
         "dateDebut": "2024-04-04",
         "datePublication": "2024-04-05",
-        "dateFin": null,
+        "dateFin": "2024-06-09",
         "preseance": "20",
-        "nominPrincipale": "0",
+        "nominPrincipale": "1",
         "infosQualite": {
           "codeQualite": "Membre",
           "libQualite": "Membre",
@@ -118,7 +120,7 @@
         "typeOrgane": "MISINFO",
         "dateDebut": "2023-10-25",
         "datePublication": "2023-10-25",
-        "dateFin": null,
+        "dateFin": "2024-06-09",
         "preseance": "10",
         "nominPrincipale": "1",
         "infosQualite": {
@@ -141,7 +143,7 @@
         "typeOrgane": "CNPE",
         "dateDebut": "2024-02-14",
         "datePublication": "2024-02-14",
-        "dateFin": null,
+        "dateFin": "2024-06-09",
         "preseance": "20",
         "nominPrincipale": "1",
         "infosQualite": {
@@ -161,7 +163,7 @@
         "typeOrgane": "GP",
         "dateDebut": "2023-05-09",
         "datePublication": "2023-05-10",
-        "dateFin": null,
+        "dateFin": "2024-06-09",
         "preseance": "20",
         "nominPrincipale": "1",
         "infosQualite": {
@@ -181,7 +183,7 @@
         "typeOrgane": "MISINFOPRE",
         "dateDebut": "2024-04-30",
         "datePublication": "2024-05-01",
-        "dateFin": null,
+        "dateFin": "2024-06-09",
         "preseance": "8",
         "nominPrincipale": "1",
         "infosQualite": {
@@ -244,7 +246,7 @@
         "typeOrgane": "COMPER",
         "dateDebut": "2024-06-05",
         "datePublication": "2024-06-05",
-        "dateFin": null,
+        "dateFin": "2024-06-09",
         "preseance": "32",
         "nominPrincipale": "1",
         "infosQualite": {
@@ -304,7 +306,7 @@
         "typeOrgane": "GA",
         "dateDebut": "2024-02-12",
         "datePublication": null,
-        "dateFin": null,
+        "dateFin": "2024-06-09",
         "preseance": "20",
         "nominPrincipale": "1",
         "infosQualite": {
@@ -324,7 +326,7 @@
         "typeOrgane": "GA",
         "dateDebut": "2024-02-12",
         "datePublication": null,
-        "dateFin": null,
+        "dateFin": "2024-06-09",
         "preseance": "20",
         "nominPrincipale": "1",
         "infosQualite": {
@@ -364,7 +366,7 @@
         "typeOrgane": "ASSEMBLEE",
         "dateDebut": "2023-04-02",
         "datePublication": "2023-04-02",
-        "dateFin": null,
+        "dateFin": "2024-06-09",
         "preseance": "50",
         "nominPrincipale": "1",
         "infosQualite": {
@@ -378,7 +380,7 @@
         "suppleants": {
           "suppleant": {
             "dateDebut": "2023-04-02",
-            "dateFin": null,
+            "dateFin": "2024-06-09",
             "suppleantRef": "PA822621"
           }
         },
@@ -396,36 +398,12 @@
         },
         "mandature": {
           "datePriseFonction": "2023-04-02",
-          "causeFin": null,
+          "causeFin": "Fin de législature",
           "premiereElection": "0",
           "placeHemicycle": "220",
           "mandatRemplaceRef": null
         },
-        "collaborateurs": {
-          "collaborateur": [
-            {
-              "qualite": "Mme",
-              "prenom": "Sandra",
-              "nom": "El Ouarghi",
-              "dateDebut": null,
-              "dateFin": null
-            },
-            {
-              "qualite": "Mme",
-              "prenom": "Mylène",
-              "nom": "Facchetti",
-              "dateDebut": null,
-              "dateFin": null
-            },
-            {
-              "qualite": "Mme",
-              "prenom": "Valérie",
-              "nom": "Barreto",
-              "dateDebut": null,
-              "dateFin": null
-            }
-          ]
-        }
+        "collaborateurs": null
       }
     ]
   }

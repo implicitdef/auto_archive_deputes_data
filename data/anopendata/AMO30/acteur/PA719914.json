@@ -9,7 +9,9 @@
       "prenom": "Geneviève",
       "nom": "Darrieussecq",
       "alpha": "Darrieussecq",
-      "trigramme": "GDI"
+      "trigramme": {
+        "@xsi:nil": "true"
+      }
     },
     "infoNaissance": {
       "dateNais": "1956-03-04",
@@ -196,7 +198,7 @@
         "typeOrgane": "API",
         "dateDebut": "2023-09-23",
         "datePublication": "2023-09-23",
-        "dateFin": null,
+        "dateFin": "2024-06-09",
         "preseance": "41",
         "nominPrincipale": "1",
         "infosQualite": {
@@ -216,7 +218,7 @@
         "typeOrgane": "CNPS",
         "dateDebut": "2024-04-10",
         "datePublication": "2024-04-11",
-        "dateFin": null,
+        "dateFin": "2024-06-09",
         "preseance": "14",
         "nominPrincipale": "1",
         "infosQualite": {
@@ -236,7 +238,7 @@
         "typeOrgane": "CNPS",
         "dateDebut": "2024-04-10",
         "datePublication": "2024-04-10",
-        "dateFin": null,
+        "dateFin": "2024-06-09",
         "preseance": "20",
         "nominPrincipale": "0",
         "infosQualite": {
@@ -250,33 +252,13 @@
       },
       {
         "@xsi:type": "MandatSimple_Type",
-        "uid": "PM836676",
-        "acteurRef": "PA719914",
-        "legislature": "16",
-        "typeOrgane": "ORGEXTPARL",
-        "dateDebut": "2024-03-29",
-        "datePublication": "2024-03-30",
-        "dateFin": null,
-        "preseance": "20",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Titulaire",
-          "libQualite": "Membre titulaire",
-          "libQualiteSex": "Membre titulaire"
-        },
-        "organes": {
-          "organeRef": "PO717436"
-        }
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
         "uid": "PM826874",
         "acteurRef": "PA719914",
         "legislature": "16",
         "typeOrgane": "GP",
         "dateDebut": "2023-08-24",
         "datePublication": "2023-08-24",
-        "dateFin": null,
+        "dateFin": "2024-06-09",
         "preseance": "20",
         "nominPrincipale": "1",
         "infosQualite": {
@@ -456,7 +438,7 @@
         "typeOrgane": "COMPER",
         "dateDebut": "2024-02-28",
         "datePublication": "2024-02-28",
-        "dateFin": null,
+        "dateFin": "2024-06-09",
         "preseance": "32",
         "nominPrincipale": "1",
         "infosQualite": {
@@ -486,6 +468,26 @@
         },
         "organes": {
           "organeRef": "PO59046"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM836676",
+        "acteurRef": "PA719914",
+        "legislature": "16",
+        "typeOrgane": "ORGEXTPARL",
+        "dateDebut": "2024-03-29",
+        "datePublication": "2024-03-30",
+        "dateFin": "2024-06-09",
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Titulaire",
+          "libQualite": "Membre titulaire",
+          "libQualiteSex": "Membre titulaire"
+        },
+        "organes": {
+          "organeRef": "PO717436"
         }
       },
       {
@@ -643,7 +645,7 @@
         "typeOrgane": "ASSEMBLEE",
         "dateDebut": "2022-06-19",
         "datePublication": null,
-        "dateFin": null,
+        "dateFin": "2024-06-09",
         "preseance": "50",
         "nominPrincipale": "1",
         "infosQualite": {
@@ -657,7 +659,7 @@
         "suppleants": {
           "suppleant": {
             "dateDebut": "2022-06-19",
-            "dateFin": null,
+            "dateFin": "2024-06-09",
             "suppleantRef": "PA719918"
           }
         },
@@ -675,36 +677,12 @@
         },
         "mandature": {
           "datePriseFonction": "2023-08-21",
-          "causeFin": null,
+          "causeFin": "Fin de législature",
           "premiereElection": "1",
           "placeHemicycle": "257",
           "mandatRemplaceRef": "PM796764"
         },
-        "collaborateurs": {
-          "collaborateur": [
-            {
-              "qualite": "Mme",
-              "prenom": "Marie-Pierre",
-              "nom": "Gazo",
-              "dateDebut": null,
-              "dateFin": null
-            },
-            {
-              "qualite": "Mme",
-              "prenom": "Juliette",
-              "nom": "Fricot",
-              "dateDebut": null,
-              "dateFin": null
-            },
-            {
-              "qualite": "M.",
-              "prenom": "Fabien",
-              "nom": "Lainé",
-              "dateDebut": null,
-              "dateFin": null
-            }
-          ]
-        }
+        "collaborateurs": null
       },
       {
         "@xsi:type": "MandatParlementaire_type",

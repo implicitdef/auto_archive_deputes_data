@@ -9,7 +9,9 @@
       "prenom": "Didier",
       "nom": "Padey",
       "alpha": "Padey",
-      "trigramme": "DPY"
+      "trigramme": {
+        "@xsi:nil": "true"
+      }
     },
     "infoNaissance": {
       "dateNais": "1965-11-09",
@@ -80,7 +82,7 @@
         "typeOrgane": "DELEG",
         "dateDebut": "2024-03-12",
         "datePublication": "2024-03-12",
-        "dateFin": null,
+        "dateFin": "2024-06-09",
         "preseance": "20",
         "nominPrincipale": "1",
         "infosQualite": {
@@ -100,7 +102,7 @@
         "typeOrgane": "GEVI",
         "dateDebut": "2024-06-04",
         "datePublication": null,
-        "dateFin": null,
+        "dateFin": "2024-06-09",
         "preseance": "20",
         "nominPrincipale": "1",
         "infosQualite": {
@@ -114,33 +116,13 @@
       },
       {
         "@xsi:type": "MandatSimple_Type",
-        "uid": "PM835883",
-        "acteurRef": "PA795124",
-        "legislature": "16",
-        "typeOrgane": "ORGEXTPARL",
-        "dateDebut": "2024-03-13",
-        "datePublication": "2024-03-14",
-        "dateFin": null,
-        "preseance": "20",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Titulaire",
-          "libQualite": "Membre titulaire",
-          "libQualiteSex": "Membre titulaire"
-        },
-        "organes": {
-          "organeRef": "PO717436"
-        }
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
         "uid": "PM835668",
         "acteurRef": "PA795124",
         "legislature": "16",
         "typeOrgane": "GP",
         "dateDebut": "2024-03-10",
         "datePublication": null,
-        "dateFin": null,
+        "dateFin": "2024-06-09",
         "preseance": "20",
         "nominPrincipale": "1",
         "infosQualite": {
@@ -160,7 +142,7 @@
         "typeOrgane": "COMPER",
         "dateDebut": "2024-03-12",
         "datePublication": "2024-03-12",
-        "dateFin": null,
+        "dateFin": "2024-06-09",
         "preseance": "32",
         "nominPrincipale": "1",
         "infosQualite": {
@@ -174,13 +156,33 @@
       },
       {
         "@xsi:type": "MandatSimple_Type",
+        "uid": "PM835883",
+        "acteurRef": "PA795124",
+        "legislature": "16",
+        "typeOrgane": "ORGEXTPARL",
+        "dateDebut": "2024-03-13",
+        "datePublication": "2024-03-14",
+        "dateFin": "2024-06-09",
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Titulaire",
+          "libQualite": "Membre titulaire",
+          "libQualiteSex": "Membre titulaire"
+        },
+        "organes": {
+          "organeRef": "PO717436"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
         "uid": "PM836783",
         "acteurRef": "PA795124",
         "legislature": "16",
         "typeOrgane": "GE",
         "dateDebut": "2024-04-04",
         "datePublication": null,
-        "dateFin": null,
+        "dateFin": "2024-06-09",
         "preseance": "20",
         "nominPrincipale": "1",
         "infosQualite": {
@@ -200,7 +202,7 @@
         "typeOrgane": "GE",
         "dateDebut": "2024-06-04",
         "datePublication": null,
-        "dateFin": null,
+        "dateFin": "2024-06-09",
         "preseance": "20",
         "nominPrincipale": "1",
         "infosQualite": {
@@ -220,7 +222,7 @@
         "typeOrgane": "GE",
         "dateDebut": "2024-04-11",
         "datePublication": null,
-        "dateFin": null,
+        "dateFin": "2024-06-09",
         "preseance": "20",
         "nominPrincipale": "1",
         "infosQualite": {
@@ -240,7 +242,7 @@
         "typeOrgane": "GE",
         "dateDebut": "2024-04-11",
         "datePublication": null,
-        "dateFin": null,
+        "dateFin": "2024-06-09",
         "preseance": "20",
         "nominPrincipale": "1",
         "infosQualite": {
@@ -260,7 +262,7 @@
         "typeOrgane": "GE",
         "dateDebut": "2024-04-12",
         "datePublication": null,
-        "dateFin": null,
+        "dateFin": "2024-06-09",
         "preseance": "20",
         "nominPrincipale": "1",
         "infosQualite": {
@@ -280,7 +282,7 @@
         "typeOrgane": "GE",
         "dateDebut": "2024-06-04",
         "datePublication": null,
-        "dateFin": null,
+        "dateFin": "2024-06-09",
         "preseance": "20",
         "nominPrincipale": "1",
         "infosQualite": {
@@ -300,7 +302,7 @@
         "typeOrgane": "GA",
         "dateDebut": "2024-06-04",
         "datePublication": null,
-        "dateFin": null,
+        "dateFin": "2024-06-09",
         "preseance": "20",
         "nominPrincipale": "1",
         "infosQualite": {
@@ -320,7 +322,7 @@
         "typeOrgane": "GA",
         "dateDebut": "2024-06-04",
         "datePublication": null,
-        "dateFin": null,
+        "dateFin": "2024-06-09",
         "preseance": "20",
         "nominPrincipale": "1",
         "infosQualite": {
@@ -340,7 +342,7 @@
         "typeOrgane": "GA",
         "dateDebut": "2024-06-04",
         "datePublication": null,
-        "dateFin": null,
+        "dateFin": "2024-06-09",
         "preseance": "20",
         "nominPrincipale": "1",
         "infosQualite": {
@@ -360,7 +362,7 @@
         "typeOrgane": "GA",
         "dateDebut": "2024-04-15",
         "datePublication": null,
-        "dateFin": null,
+        "dateFin": "2024-06-09",
         "preseance": "20",
         "nominPrincipale": "1",
         "infosQualite": {
@@ -400,7 +402,7 @@
         "typeOrgane": "ASSEMBLEE",
         "dateDebut": "2022-06-19",
         "datePublication": null,
-        "dateFin": null,
+        "dateFin": "2024-06-09",
         "preseance": "50",
         "nominPrincipale": "1",
         "infosQualite": {
@@ -426,36 +428,12 @@
         },
         "mandature": {
           "datePriseFonction": "2024-03-09",
-          "causeFin": null,
+          "causeFin": "Fin de législature",
           "premiereElection": "0",
           "placeHemicycle": "269",
           "mandatRemplaceRef": null
         },
-        "collaborateurs": {
-          "collaborateur": [
-            {
-              "qualite": "M.",
-              "prenom": "Félix",
-              "nom": "Caron",
-              "dateDebut": null,
-              "dateFin": null
-            },
-            {
-              "qualite": "Mme",
-              "prenom": "Margot",
-              "nom": "Jouanny",
-              "dateDebut": null,
-              "dateFin": null
-            },
-            {
-              "qualite": "Mme",
-              "prenom": "Karine",
-              "nom": "Paccalin",
-              "dateDebut": null,
-              "dateFin": null
-            }
-          ]
-        }
+        "collaborateurs": null
       }
     ]
   }

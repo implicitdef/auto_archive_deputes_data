@@ -9,7 +9,9 @@
       "prenom": "Annaïg",
       "nom": "Le Meur",
       "alpha": "Le Meur",
-      "trigramme": "ALM"
+      "trigramme": {
+        "@xsi:nil": "true"
+      }
     },
     "infoNaissance": {
       "dateNais": "1973-04-29",
@@ -132,7 +134,7 @@
         "typeOrgane": "MISINFOPRE",
         "dateDebut": "2023-06-28",
         "datePublication": "2023-06-29",
-        "dateFin": null,
+        "dateFin": "2024-06-09",
         "preseance": "20",
         "nominPrincipale": "1",
         "infosQualite": {
@@ -277,26 +279,6 @@
         "missionPrecedenteRef": null
       },
       {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM774149",
-        "acteurRef": "PA719388",
-        "legislature": "15",
-        "typeOrgane": "CNPS",
-        "dateDebut": "2020-07-27",
-        "datePublication": "2020-07-28",
-        "dateFin": "2020-10-28",
-        "preseance": "20",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Membre",
-          "libQualite": "Membre",
-          "libQualiteSex": "Membre"
-        },
-        "organes": {
-          "organeRef": "PO770932"
-        }
-      },
-      {
         "@xsi:type": "MandatMission_Type",
         "uid": "PM805635",
         "acteurRef": "PA719388",
@@ -367,6 +349,26 @@
       },
       {
         "@xsi:type": "MandatSimple_Type",
+        "uid": "PM774149",
+        "acteurRef": "PA719388",
+        "legislature": "15",
+        "typeOrgane": "CNPS",
+        "dateDebut": "2020-07-27",
+        "datePublication": "2020-07-28",
+        "dateFin": "2020-10-28",
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO770932"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
         "uid": "PM786995",
         "acteurRef": "PA719388",
         "legislature": "15",
@@ -407,26 +409,6 @@
       },
       {
         "@xsi:type": "MandatSimple_Type",
-        "uid": "PM803243",
-        "acteurRef": "PA719388",
-        "legislature": "16",
-        "typeOrgane": "ORGEXTPARL",
-        "dateDebut": "2022-08-03",
-        "datePublication": "2022-08-04",
-        "dateFin": null,
-        "preseance": "20",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Titulaire",
-          "libQualite": "Membre titulaire",
-          "libQualiteSex": "Membre titulaire"
-        },
-        "organes": {
-          "organeRef": "PO229333"
-        }
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
         "uid": "PM731039",
         "acteurRef": "PA719388",
         "legislature": "15",
@@ -453,7 +435,7 @@
         "typeOrgane": "GP",
         "dateDebut": "2022-06-29",
         "datePublication": "2022-06-29",
-        "dateFin": null,
+        "dateFin": "2024-06-09",
         "preseance": "20",
         "nominPrincipale": "1",
         "infosQualite": {
@@ -848,7 +830,7 @@
         "typeOrgane": "COMPER",
         "dateDebut": "2023-10-31",
         "datePublication": "2023-10-31",
-        "dateFin": null,
+        "dateFin": "2024-06-09",
         "preseance": "32",
         "nominPrincipale": "1",
         "infosQualite": {
@@ -919,6 +901,46 @@
         "organes": {
           "organeRef": "PO772371"
         }
+      },
+      {
+        "@xsi:type": "MandatParlementaire_type",
+        "uid": "PM732233",
+        "acteurRef": "PA719388",
+        "legislature": "15",
+        "typeOrgane": "BUREAU",
+        "dateDebut": "2017-06-28",
+        "datePublication": null,
+        "dateFin": "2019-09-30",
+        "preseance": "28",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Secrétaire",
+          "libQualite": "Secrétaire de l'Assemblée nationale",
+          "libQualiteSex": "Secrétaire de l'Assemblée nationale"
+        },
+        "organes": {
+          "organeRef": "PO725349"
+        },
+        "suppleants": null,
+        "chambre": null,
+        "election": {
+          "lieu": {
+            "region": null,
+            "regionType": null,
+            "departement": null,
+            "numDepartement": null,
+            "numCirco": null
+          },
+          "causeMandat": null
+        },
+        "mandature": {
+          "datePriseFonction": null,
+          "causeFin": null,
+          "premiereElection": "0",
+          "placeHemicycle": null,
+          "mandatRemplaceRef": null
+        },
+        "collaborateurs": null
       },
       {
         "@xsi:type": "MandatSimple_Type",
@@ -1001,44 +1023,24 @@
         }
       },
       {
-        "@xsi:type": "MandatParlementaire_type",
-        "uid": "PM732233",
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM803243",
         "acteurRef": "PA719388",
-        "legislature": "15",
-        "typeOrgane": "BUREAU",
-        "dateDebut": "2017-06-28",
-        "datePublication": null,
-        "dateFin": "2019-09-30",
-        "preseance": "28",
+        "legislature": "16",
+        "typeOrgane": "ORGEXTPARL",
+        "dateDebut": "2022-08-03",
+        "datePublication": "2022-08-04",
+        "dateFin": "2024-06-09",
+        "preseance": "20",
         "nominPrincipale": "1",
         "infosQualite": {
-          "codeQualite": "Secrétaire",
-          "libQualite": "Secrétaire de l'Assemblée nationale",
-          "libQualiteSex": "Secrétaire de l'Assemblée nationale"
+          "codeQualite": "Titulaire",
+          "libQualite": "Membre titulaire",
+          "libQualiteSex": "Membre titulaire"
         },
         "organes": {
-          "organeRef": "PO725349"
-        },
-        "suppleants": null,
-        "chambre": null,
-        "election": {
-          "lieu": {
-            "region": null,
-            "regionType": null,
-            "departement": null,
-            "numDepartement": null,
-            "numCirco": null
-          },
-          "causeMandat": null
-        },
-        "mandature": {
-          "datePriseFonction": null,
-          "causeFin": null,
-          "premiereElection": "0",
-          "placeHemicycle": null,
-          "mandatRemplaceRef": null
-        },
-        "collaborateurs": null
+          "organeRef": "PO229333"
+        }
       },
       {
         "@xsi:type": "MandatSimple_Type",
@@ -1088,7 +1090,7 @@
         "typeOrgane": "GE",
         "dateDebut": "2023-01-12",
         "datePublication": null,
-        "dateFin": null,
+        "dateFin": "2024-06-09",
         "preseance": "20",
         "nominPrincipale": "0",
         "infosQualite": {
@@ -1148,7 +1150,7 @@
         "typeOrgane": "GE",
         "dateDebut": "2023-02-06",
         "datePublication": null,
-        "dateFin": null,
+        "dateFin": "2024-06-09",
         "preseance": "20",
         "nominPrincipale": "0",
         "infosQualite": {
@@ -1328,7 +1330,7 @@
         "typeOrgane": "GA",
         "dateDebut": "2023-01-23",
         "datePublication": null,
-        "dateFin": null,
+        "dateFin": "2024-06-09",
         "preseance": "20",
         "nominPrincipale": "1",
         "infosQualite": {
@@ -1448,7 +1450,7 @@
         "typeOrgane": "GE",
         "dateDebut": "2023-02-06",
         "datePublication": null,
-        "dateFin": null,
+        "dateFin": "2024-06-09",
         "preseance": "8",
         "nominPrincipale": "1",
         "infosQualite": {
@@ -1461,24 +1463,51 @@
         }
       },
       {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM815250",
+        "@xsi:type": "MandatParlementaire_type",
+        "uid": "PM796458",
         "acteurRef": "PA719388",
         "legislature": "16",
-        "typeOrgane": "GE",
-        "dateDebut": "2023-01-12",
+        "typeOrgane": "ASSEMBLEE",
+        "dateDebut": "2022-06-19",
         "datePublication": null,
-        "dateFin": null,
-        "preseance": "4",
+        "dateFin": "2024-06-09",
+        "preseance": "50",
         "nominPrincipale": "1",
         "infosQualite": {
-          "codeQualite": "Co-Président",
-          "libQualite": "Co-Président",
-          "libQualiteSex": "Co-Présidente"
+          "codeQualite": "membre",
+          "libQualite": "membre",
+          "libQualiteSex": "membre"
         },
         "organes": {
-          "organeRef": "PO807886"
-        }
+          "organeRef": "PO791932"
+        },
+        "suppleants": {
+          "suppleant": {
+            "dateDebut": "2022-06-19",
+            "dateFin": "2024-06-09",
+            "suppleantRef": "PA793648"
+          }
+        },
+        "chambre": null,
+        "election": {
+          "lieu": {
+            "region": "Bretagne",
+            "regionType": "Métropolitain",
+            "departement": "Finistère",
+            "numDepartement": "29",
+            "numCirco": "1"
+          },
+          "causeMandat": "élections générales",
+          "refCirconscription": "PO792934"
+        },
+        "mandature": {
+          "datePriseFonction": "2022-06-22",
+          "causeFin": "Fin de législature",
+          "premiereElection": "1",
+          "placeHemicycle": "380",
+          "mandatRemplaceRef": null
+        },
+        "collaborateurs": null
       },
       {
         "@xsi:type": "MandatParlementaire_type",
@@ -1526,6 +1555,26 @@
           "mandatRemplaceRef": null
         },
         "collaborateurs": null
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM815250",
+        "acteurRef": "PA719388",
+        "legislature": "16",
+        "typeOrgane": "GE",
+        "dateDebut": "2023-01-12",
+        "datePublication": null,
+        "dateFin": "2024-06-09",
+        "preseance": "4",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Co-Président",
+          "libQualite": "Co-Président",
+          "libQualiteSex": "Co-Présidente"
+        },
+        "organes": {
+          "organeRef": "PO807886"
+        }
       },
       {
         "@xsi:type": "MandatSimple_Type",
@@ -1585,84 +1634,6 @@
         },
         "organes": {
           "organeRef": "PO733352"
-        }
-      },
-      {
-        "@xsi:type": "MandatParlementaire_type",
-        "uid": "PM796458",
-        "acteurRef": "PA719388",
-        "legislature": "16",
-        "typeOrgane": "ASSEMBLEE",
-        "dateDebut": "2022-06-19",
-        "datePublication": null,
-        "dateFin": null,
-        "preseance": "50",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "membre",
-          "libQualite": "membre",
-          "libQualiteSex": "membre"
-        },
-        "organes": {
-          "organeRef": "PO791932"
-        },
-        "suppleants": {
-          "suppleant": {
-            "dateDebut": "2022-06-19",
-            "dateFin": null,
-            "suppleantRef": "PA793648"
-          }
-        },
-        "chambre": null,
-        "election": {
-          "lieu": {
-            "region": "Bretagne",
-            "regionType": "Métropolitain",
-            "departement": "Finistère",
-            "numDepartement": "29",
-            "numCirco": "1"
-          },
-          "causeMandat": "élections générales",
-          "refCirconscription": "PO792934"
-        },
-        "mandature": {
-          "datePriseFonction": "2022-06-22",
-          "causeFin": null,
-          "premiereElection": "1",
-          "placeHemicycle": "380",
-          "mandatRemplaceRef": null
-        },
-        "collaborateurs": {
-          "collaborateur": [
-            {
-              "qualite": "M.",
-              "prenom": "William",
-              "nom": "Calvez",
-              "dateDebut": null,
-              "dateFin": null
-            },
-            {
-              "qualite": "Mme",
-              "prenom": "Vanessa",
-              "nom": "Photiou",
-              "dateDebut": null,
-              "dateFin": null
-            },
-            {
-              "qualite": "M.",
-              "prenom": "Baptiste",
-              "nom": "Gaborit",
-              "dateDebut": null,
-              "dateFin": null
-            },
-            {
-              "qualite": "Mme",
-              "prenom": "Marion",
-              "nom": "Audo",
-              "dateDebut": null,
-              "dateFin": null
-            }
-          ]
         }
       }
     ]

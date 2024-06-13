@@ -677,6 +677,26 @@
       },
       {
         "@xsi:type": "MandatSimple_Type",
+        "uid": "PM429536",
+        "acteurRef": "PA267719",
+        "legislature": "13",
+        "typeOrgane": "CNPE",
+        "dateDebut": "2011-07-12",
+        "datePublication": "2011-07-14",
+        "dateFin": "2011-11-30",
+        "preseance": "1",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Président",
+          "libQualite": "Président",
+          "libQualiteSex": "Président"
+        },
+        "organes": {
+          "organeRef": "PO428772"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
         "uid": "PM421566",
         "acteurRef": "PA267719",
         "legislature": "13",
@@ -756,24 +776,84 @@
         }
       },
       {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM429536",
+        "@xsi:type": "MandatParlementaire_type",
+        "uid": "PM390338",
         "acteurRef": "PA267719",
         "legislature": "13",
-        "typeOrgane": "CNPE",
-        "dateDebut": "2011-07-12",
-        "datePublication": "2011-07-14",
-        "dateFin": "2011-11-30",
-        "preseance": "1",
+        "typeOrgane": "BUREAU",
+        "dateDebut": "2007-06-27",
+        "datePublication": "2007-06-28",
+        "dateFin": "2012-06-19",
+        "preseance": "12",
         "nominPrincipale": "1",
         "infosQualite": {
-          "codeQualite": "Président",
-          "libQualite": "Président",
-          "libQualiteSex": "Président"
+          "codeQualite": "Questeur",
+          "libQualite": "Questeur de l'Assemblée nationale",
+          "libQualiteSex": "Questeur de l'Assemblée nationale"
         },
         "organes": {
-          "organeRef": "PO428772"
-        }
+          "organeRef": "PO389368"
+        },
+        "suppleants": null,
+        "chambre": null,
+        "election": {
+          "lieu": {
+            "region": null,
+            "regionType": null,
+            "departement": null,
+            "numDepartement": null,
+            "numCirco": null
+          },
+          "causeMandat": null
+        },
+        "mandature": {
+          "datePriseFonction": null,
+          "causeFin": null,
+          "premiereElection": "0",
+          "placeHemicycle": null,
+          "mandatRemplaceRef": null
+        },
+        "collaborateurs": null
+      },
+      {
+        "@xsi:type": "MandatParlementaire_type",
+        "uid": "PM314165",
+        "acteurRef": "PA267719",
+        "legislature": "12",
+        "typeOrgane": "BUREAU",
+        "dateDebut": "2005-10-04",
+        "datePublication": "2005-10-05",
+        "dateFin": "2007-06-19",
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Secrétaire",
+          "libQualite": "Secrétaire de l'Assemblée nationale",
+          "libQualiteSex": "Secrétaire de l'Assemblée nationale"
+        },
+        "organes": {
+          "organeRef": "PO272205"
+        },
+        "suppleants": null,
+        "chambre": null,
+        "election": {
+          "lieu": {
+            "region": null,
+            "regionType": null,
+            "departement": null,
+            "numDepartement": null,
+            "numCirco": null
+          },
+          "causeMandat": null
+        },
+        "mandature": {
+          "datePriseFonction": null,
+          "causeFin": null,
+          "premiereElection": "0",
+          "placeHemicycle": null,
+          "mandatRemplaceRef": null
+        },
+        "collaborateurs": null
       },
       {
         "@xsi:type": "MandatSimple_Type",
@@ -1714,86 +1794,6 @@
         "organes": {
           "organeRef": "PO287326"
         }
-      },
-      {
-        "@xsi:type": "MandatParlementaire_type",
-        "uid": "PM390338",
-        "acteurRef": "PA267719",
-        "legislature": "13",
-        "typeOrgane": "BUREAU",
-        "dateDebut": "2007-06-27",
-        "datePublication": "2007-06-28",
-        "dateFin": "2012-06-19",
-        "preseance": "12",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Questeur",
-          "libQualite": "Questeur de l'Assemblée nationale",
-          "libQualiteSex": "Questeur de l'Assemblée nationale"
-        },
-        "organes": {
-          "organeRef": "PO389368"
-        },
-        "suppleants": null,
-        "chambre": null,
-        "election": {
-          "lieu": {
-            "region": null,
-            "regionType": null,
-            "departement": null,
-            "numDepartement": null,
-            "numCirco": null
-          },
-          "causeMandat": null
-        },
-        "mandature": {
-          "datePriseFonction": null,
-          "causeFin": null,
-          "premiereElection": "0",
-          "placeHemicycle": null,
-          "mandatRemplaceRef": null
-        },
-        "collaborateurs": null
-      },
-      {
-        "@xsi:type": "MandatParlementaire_type",
-        "uid": "PM314165",
-        "acteurRef": "PA267719",
-        "legislature": "12",
-        "typeOrgane": "BUREAU",
-        "dateDebut": "2005-10-04",
-        "datePublication": "2005-10-05",
-        "dateFin": "2007-06-19",
-        "preseance": "20",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Secrétaire",
-          "libQualite": "Secrétaire de l'Assemblée nationale",
-          "libQualiteSex": "Secrétaire de l'Assemblée nationale"
-        },
-        "organes": {
-          "organeRef": "PO272205"
-        },
-        "suppleants": null,
-        "chambre": null,
-        "election": {
-          "lieu": {
-            "region": null,
-            "regionType": null,
-            "departement": null,
-            "numDepartement": null,
-            "numCirco": null
-          },
-          "causeMandat": null
-        },
-        "mandature": {
-          "datePriseFonction": null,
-          "causeFin": null,
-          "premiereElection": "0",
-          "placeHemicycle": null,
-          "mandatRemplaceRef": null
-        },
-        "collaborateurs": null
       },
       {
         "@xsi:type": "MandatSimple_Type",

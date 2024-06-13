@@ -72,6 +72,26 @@
   "mandats": {
     "mandat": [
       {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM15715827",
+        "acteurRef": "PA1886",
+        "legislature": null,
+        "typeOrgane": "GOUVERNEMENT",
+        "dateDebut": "2016-12-07",
+        "datePublication": "2016-12-07",
+        "dateFin": "2017-03-21",
+        "preseance": "50",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "membre",
+          "libQualite": "membre",
+          "libQualiteSex": "membre"
+        },
+        "organes": {
+          "organeRef": "PO715793"
+        }
+      },
+      {
         "@xsi:type": "MandatParlementaire_type",
         "uid": "PM690225",
         "acteurRef": "PA1886",
@@ -152,26 +172,6 @@
           "organeRef": "PO271850"
         },
         "suppleants": null
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM15715827",
-        "acteurRef": "PA1886",
-        "legislature": null,
-        "typeOrgane": "GOUVERNEMENT",
-        "dateDebut": "2016-12-07",
-        "datePublication": "2016-12-07",
-        "dateFin": "2017-03-21",
-        "preseance": "50",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "membre",
-          "libQualite": "membre",
-          "libQualiteSex": "membre"
-        },
-        "organes": {
-          "organeRef": "PO715793"
-        }
       },
       {
         "@xsi:type": "MandatSimple_Type",
@@ -1504,6 +1504,100 @@
         }
       },
       {
+        "@xsi:type": "MandatParlementaire_type",
+        "uid": "PM267975",
+        "acteurRef": "PA1886",
+        "legislature": "12",
+        "typeOrgane": "ASSEMBLEE",
+        "dateDebut": "2002-06-19",
+        "datePublication": null,
+        "dateFin": "2007-06-19",
+        "preseance": "50",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "membre",
+          "libQualite": "membre",
+          "libQualiteSex": "membre"
+        },
+        "organes": {
+          "organeRef": "PO230434"
+        },
+        "suppleants": {
+          "suppleant": {
+            "dateDebut": "2002-06-19",
+            "dateFin": "2007-06-19",
+            "suppleantRef": "PA1170"
+          }
+        },
+        "chambre": null,
+        "election": {
+          "lieu": {
+            "region": "Ile-de-France",
+            "regionType": "Métropolitain",
+            "departement": "Seine-Saint-Denis",
+            "numDepartement": "93",
+            "numCirco": "1"
+          },
+          "causeMandat": "élections générales",
+          "refCirconscription": "PO230956"
+        },
+        "mandature": {
+          "datePriseFonction": "2002-06-19",
+          "causeFin": "Fin de législature",
+          "premiereElection": "1",
+          "placeHemicycle": null,
+          "mandatRemplaceRef": null
+        },
+        "collaborateurs": null
+      },
+      {
+        "@xsi:type": "MandatParlementaire_type",
+        "uid": "PM386347",
+        "acteurRef": "PA1886",
+        "legislature": "13",
+        "typeOrgane": "ASSEMBLEE",
+        "dateDebut": "2007-06-20",
+        "datePublication": null,
+        "dateFin": "2012-06-19",
+        "preseance": "50",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "membre",
+          "libQualite": "membre",
+          "libQualiteSex": "membre"
+        },
+        "organes": {
+          "organeRef": "PO384266"
+        },
+        "suppleants": {
+          "suppleant": {
+            "dateDebut": "2007-06-20",
+            "dateFin": "2012-06-19",
+            "suppleantRef": "PA346932"
+          }
+        },
+        "chambre": null,
+        "election": {
+          "lieu": {
+            "region": "Ile-de-France",
+            "regionType": "Métropolitain",
+            "departement": "Seine-Saint-Denis",
+            "numDepartement": "93",
+            "numCirco": "1"
+          },
+          "causeMandat": "élections générales",
+          "refCirconscription": "PO384788"
+        },
+        "mandature": {
+          "datePriseFonction": "2007-06-20",
+          "causeFin": "Fin de législature",
+          "premiereElection": "1",
+          "placeHemicycle": null,
+          "mandatRemplaceRef": null
+        },
+        "collaborateurs": null
+      },
+      {
         "@xsi:type": "MandatSimple_Type",
         "uid": "PM701734",
         "acteurRef": "PA1886",
@@ -1602,100 +1696,6 @@
         "organes": {
           "organeRef": "PO274159"
         }
-      },
-      {
-        "@xsi:type": "MandatParlementaire_type",
-        "uid": "PM267975",
-        "acteurRef": "PA1886",
-        "legislature": "12",
-        "typeOrgane": "ASSEMBLEE",
-        "dateDebut": "2002-06-19",
-        "datePublication": null,
-        "dateFin": "2007-06-19",
-        "preseance": "50",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "membre",
-          "libQualite": "membre",
-          "libQualiteSex": "membre"
-        },
-        "organes": {
-          "organeRef": "PO230434"
-        },
-        "suppleants": {
-          "suppleant": {
-            "dateDebut": "2002-06-19",
-            "dateFin": "2007-06-19",
-            "suppleantRef": "PA1170"
-          }
-        },
-        "chambre": null,
-        "election": {
-          "lieu": {
-            "region": "Ile-de-France",
-            "regionType": "Métropolitain",
-            "departement": "Seine-Saint-Denis",
-            "numDepartement": "93",
-            "numCirco": "1"
-          },
-          "causeMandat": "élections générales",
-          "refCirconscription": "PO230956"
-        },
-        "mandature": {
-          "datePriseFonction": "2002-06-19",
-          "causeFin": "Fin de législature",
-          "premiereElection": "1",
-          "placeHemicycle": null,
-          "mandatRemplaceRef": null
-        },
-        "collaborateurs": null
-      },
-      {
-        "@xsi:type": "MandatParlementaire_type",
-        "uid": "PM386347",
-        "acteurRef": "PA1886",
-        "legislature": "13",
-        "typeOrgane": "ASSEMBLEE",
-        "dateDebut": "2007-06-20",
-        "datePublication": null,
-        "dateFin": "2012-06-19",
-        "preseance": "50",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "membre",
-          "libQualite": "membre",
-          "libQualiteSex": "membre"
-        },
-        "organes": {
-          "organeRef": "PO384266"
-        },
-        "suppleants": {
-          "suppleant": {
-            "dateDebut": "2007-06-20",
-            "dateFin": "2012-06-19",
-            "suppleantRef": "PA346932"
-          }
-        },
-        "chambre": null,
-        "election": {
-          "lieu": {
-            "region": "Ile-de-France",
-            "regionType": "Métropolitain",
-            "departement": "Seine-Saint-Denis",
-            "numDepartement": "93",
-            "numCirco": "1"
-          },
-          "causeMandat": "élections générales",
-          "refCirconscription": "PO384788"
-        },
-        "mandature": {
-          "datePriseFonction": "2007-06-20",
-          "causeFin": "Fin de législature",
-          "premiereElection": "1",
-          "placeHemicycle": null,
-          "mandatRemplaceRef": null
-        },
-        "collaborateurs": null
       },
       {
         "@xsi:type": "MandatParlementaire_type",

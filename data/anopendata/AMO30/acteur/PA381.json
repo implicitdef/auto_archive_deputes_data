@@ -209,6 +209,27 @@
         }
       },
       {
+        "@xsi:type": "MandatAvecSuppleant_Type",
+        "uid": "PM677186",
+        "acteurRef": "PA381",
+        "legislature": "14",
+        "typeOrgane": "COMNL",
+        "dateDebut": "2012-07-25",
+        "datePublication": "2012-07-25",
+        "dateFin": "2017-06-20",
+        "preseance": "1",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Président",
+          "libQualite": "Président",
+          "libQualiteSex": "Président"
+        },
+        "organes": {
+          "organeRef": "PO420375"
+        },
+        "suppleants": null
+      },
+      {
         "@xsi:type": "MandatSimple_Type",
         "uid": "PM656041",
         "acteurRef": "PA381",
@@ -247,27 +268,6 @@
         "organes": {
           "organeRef": "PO713077"
         }
-      },
-      {
-        "@xsi:type": "MandatAvecSuppleant_Type",
-        "uid": "PM677186",
-        "acteurRef": "PA381",
-        "legislature": "14",
-        "typeOrgane": "COMNL",
-        "dateDebut": "2012-07-25",
-        "datePublication": "2012-07-25",
-        "dateFin": "2017-06-20",
-        "preseance": "1",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Président",
-          "libQualite": "Président",
-          "libQualiteSex": "Président"
-        },
-        "organes": {
-          "organeRef": "PO420375"
-        },
-        "suppleants": null
       },
       {
         "@xsi:type": "MandatSimple_Type",
@@ -874,6 +874,26 @@
       },
       {
         "@xsi:type": "MandatSimple_Type",
+        "uid": "PM387683",
+        "acteurRef": "PA381",
+        "legislature": "13",
+        "typeOrgane": "GP",
+        "dateDebut": "2007-06-20",
+        "datePublication": null,
+        "dateFin": "2007-06-26",
+        "preseance": "28",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Député non-inscrit",
+          "libQualite": "Député non-inscrit",
+          "libQualiteSex": "Député non-inscrit"
+        },
+        "organes": {
+          "organeRef": "PO387155"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
         "uid": "PM399528",
         "acteurRef": "PA381",
         "legislature": "13",
@@ -1154,26 +1174,6 @@
       },
       {
         "@xsi:type": "MandatSimple_Type",
-        "uid": "PM387683",
-        "acteurRef": "PA381",
-        "legislature": "13",
-        "typeOrgane": "GP",
-        "dateDebut": "2007-06-20",
-        "datePublication": null,
-        "dateFin": "2007-06-26",
-        "preseance": "28",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Député non-inscrit",
-          "libQualite": "Député non-inscrit",
-          "libQualiteSex": "Député non-inscrit"
-        },
-        "organes": {
-          "organeRef": "PO387155"
-        }
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
         "uid": "PM280852",
         "acteurRef": "PA381",
         "legislature": "12",
@@ -1230,46 +1230,6 @@
         },
         "organes": {
           "organeRef": "PO393187"
-        }
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM293291",
-        "acteurRef": "PA381",
-        "legislature": "12",
-        "typeOrgane": "GA",
-        "dateDebut": "2006-03-19",
-        "datePublication": null,
-        "dateFin": "2007-06-19",
-        "preseance": "8",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Vice-Président",
-          "libQualite": "Vice-Président",
-          "libQualiteSex": "Vice-Président"
-        },
-        "organes": {
-          "organeRef": "PO274193"
-        }
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM289302",
-        "acteurRef": "PA381",
-        "legislature": "12",
-        "typeOrgane": "GA",
-        "dateDebut": "2002-11-27",
-        "datePublication": null,
-        "dateFin": "2007-06-19",
-        "preseance": "8",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Vice-Président",
-          "libQualite": "Vice-Président",
-          "libQualiteSex": "Vice-Président"
-        },
-        "organes": {
-          "organeRef": "PO274203"
         }
       },
       {
@@ -1412,6 +1372,46 @@
           "mandatRemplaceRef": null
         },
         "collaborateurs": null
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM293291",
+        "acteurRef": "PA381",
+        "legislature": "12",
+        "typeOrgane": "GA",
+        "dateDebut": "2006-03-19",
+        "datePublication": null,
+        "dateFin": "2007-06-19",
+        "preseance": "8",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Vice-Président",
+          "libQualite": "Vice-Président",
+          "libQualiteSex": "Vice-Président"
+        },
+        "organes": {
+          "organeRef": "PO274193"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM289302",
+        "acteurRef": "PA381",
+        "legislature": "12",
+        "typeOrgane": "GA",
+        "dateDebut": "2002-11-27",
+        "datePublication": null,
+        "dateFin": "2007-06-19",
+        "preseance": "8",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Vice-Président",
+          "libQualite": "Vice-Président",
+          "libQualiteSex": "Vice-Président"
+        },
+        "organes": {
+          "organeRef": "PO274203"
+        }
       },
       {
         "@xsi:type": "MandatSimple_Type",
