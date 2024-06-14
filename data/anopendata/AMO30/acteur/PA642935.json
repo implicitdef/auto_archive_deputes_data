@@ -30,7 +30,9 @@
       "famSocPro": "Cadres et professions intellectuelles supérieures"
     }
   },
-  "uri_hatvp": "https://www.hatvp.fr/pages_nominatives/becht-olivier",
+  "uri_hatvp": {
+    "@xsi:nil": "true"
+  },
   "adresses": {
     "adresse": [
       {
@@ -248,6 +250,46 @@
         }
       },
       {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM734406",
+        "acteurRef": "PA642935",
+        "legislature": "15",
+        "typeOrgane": "API",
+        "dateDebut": "2017-08-02",
+        "datePublication": "2017-08-03",
+        "dateFin": "2022-06-21",
+        "preseance": "41",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Titulaire",
+          "libQualite": "Membre titulaire",
+          "libQualiteSex": "Membre titulaire"
+        },
+        "organes": {
+          "organeRef": "PO304272"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM779833",
+        "acteurRef": "PA642935",
+        "legislature": "15",
+        "typeOrgane": "GEVI",
+        "dateDebut": "2021-01-21",
+        "datePublication": null,
+        "dateFin": "2022-06-21",
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO733622"
+        }
+      },
+      {
         "@xsi:type": "MandatMission_Type",
         "uid": "PM758886",
         "acteurRef": "PA642935",
@@ -317,6 +359,26 @@
         "missionPrecedenteRef": null
       },
       {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM766776",
+        "acteurRef": "PA642935",
+        "legislature": "15",
+        "typeOrgane": "CNPS",
+        "dateDebut": "2019-07-24",
+        "datePublication": "2019-07-25",
+        "dateFin": "2021-05-31",
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO766718"
+        }
+      },
+      {
         "@xsi:type": "MandatMission_Type",
         "uid": "PM743821",
         "acteurRef": "PA642935",
@@ -361,66 +423,6 @@
         "libelle": null,
         "missionSuivanteRef": null,
         "missionPrecedenteRef": null
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM734406",
-        "acteurRef": "PA642935",
-        "legislature": "15",
-        "typeOrgane": "API",
-        "dateDebut": "2017-08-02",
-        "datePublication": "2017-08-03",
-        "dateFin": "2022-06-21",
-        "preseance": "41",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Titulaire",
-          "libQualite": "Membre titulaire",
-          "libQualiteSex": "Membre titulaire"
-        },
-        "organes": {
-          "organeRef": "PO304272"
-        }
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM779833",
-        "acteurRef": "PA642935",
-        "legislature": "15",
-        "typeOrgane": "GEVI",
-        "dateDebut": "2021-01-21",
-        "datePublication": null,
-        "dateFin": "2022-06-21",
-        "preseance": "20",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Membre",
-          "libQualite": "Membre",
-          "libQualiteSex": "Membre"
-        },
-        "organes": {
-          "organeRef": "PO733622"
-        }
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM766776",
-        "acteurRef": "PA642935",
-        "legislature": "15",
-        "typeOrgane": "CNPS",
-        "dateDebut": "2019-07-24",
-        "datePublication": "2019-07-25",
-        "dateFin": "2021-05-31",
-        "preseance": "20",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Membre",
-          "libQualite": "Membre",
-          "libQualiteSex": "Membre"
-        },
-        "organes": {
-          "organeRef": "PO766718"
-        }
       },
       {
         "@xsi:type": "MandatSimple_Type",

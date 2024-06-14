@@ -30,7 +30,9 @@
       "famSocPro": "Cadres et professions intellectuelles supérieures"
     }
   },
-  "uri_hatvp": "https://www.hatvp.fr/pages_nominatives/ruffin-francois",
+  "uri_hatvp": {
+    "@xsi:nil": "true"
+  },
   "adresses": {
     "adresse": [
       {
@@ -120,6 +122,27 @@
   "mandats": {
     "mandat": [
       {
+        "@xsi:type": "MandatAvecSuppleant_Type",
+        "uid": "PM834537",
+        "acteurRef": "PA722142",
+        "legislature": "16",
+        "typeOrgane": "COMNL",
+        "dateDebut": "2024-02-07",
+        "datePublication": "2024-02-07",
+        "dateFin": "2024-02-07",
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO415287"
+        },
+        "suppleants": null
+      },
+      {
         "@xsi:type": "MandatMission_Type",
         "uid": "PM779668",
         "acteurRef": "PA722142",
@@ -141,27 +164,6 @@
         "libelle": null,
         "missionSuivanteRef": null,
         "missionPrecedenteRef": null
-      },
-      {
-        "@xsi:type": "MandatAvecSuppleant_Type",
-        "uid": "PM834537",
-        "acteurRef": "PA722142",
-        "legislature": "16",
-        "typeOrgane": "COMNL",
-        "dateDebut": "2024-02-07",
-        "datePublication": "2024-02-07",
-        "dateFin": "2024-02-07",
-        "preseance": "20",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Membre",
-          "libQualite": "Membre",
-          "libQualiteSex": "Membre"
-        },
-        "organes": {
-          "organeRef": "PO415287"
-        },
-        "suppleants": null
       },
       {
         "@xsi:type": "MandatMission_Type",
@@ -459,6 +461,26 @@
         },
         "organes": {
           "organeRef": "PO800490"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM748017",
+        "acteurRef": "PA722142",
+        "legislature": "15",
+        "typeOrgane": "ORGEXTPARL",
+        "dateDebut": "2018-01-10",
+        "datePublication": "2018-01-11",
+        "dateFin": "2022-06-21",
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Titulaire",
+          "libQualite": "Membre titulaire",
+          "libQualiteSex": "Membre titulaire"
+        },
+        "organes": {
+          "organeRef": "PO717436"
         }
       },
       {
@@ -1479,26 +1501,6 @@
         },
         "organes": {
           "organeRef": "PO419610"
-        }
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM748017",
-        "acteurRef": "PA722142",
-        "legislature": "15",
-        "typeOrgane": "ORGEXTPARL",
-        "dateDebut": "2018-01-10",
-        "datePublication": "2018-01-11",
-        "dateFin": "2022-06-21",
-        "preseance": "20",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Titulaire",
-          "libQualite": "Membre titulaire",
-          "libQualiteSex": "Membre titulaire"
-        },
-        "organes": {
-          "organeRef": "PO717436"
         }
       },
       {

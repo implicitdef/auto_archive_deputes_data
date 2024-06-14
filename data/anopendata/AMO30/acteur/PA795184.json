@@ -32,7 +32,9 @@
       "famSocPro": "Sans profession déclarée"
     }
   },
-  "uri_hatvp": "https://www.hatvp.fr/pages_nominatives/le-gayic-tematai-24219",
+  "uri_hatvp": {
+    "@xsi:nil": "true"
+  },
   "adresses": {
     "adresse": [
       {
@@ -103,29 +105,6 @@
         }
       },
       {
-        "@xsi:type": "MandatMission_Type",
-        "uid": "PM830273",
-        "acteurRef": "PA795184",
-        "legislature": "16",
-        "typeOrgane": "MISINFO",
-        "dateDebut": "2023-10-18",
-        "datePublication": null,
-        "dateFin": "2024-06-09",
-        "preseance": "10",
-        "nominPrincipale": "0",
-        "infosQualite": {
-          "codeQualite": "Membre",
-          "libQualite": "Membre",
-          "libQualiteSex": "Membre"
-        },
-        "organes": {
-          "organeRef": "PO830245"
-        },
-        "libelle": null,
-        "missionSuivanteRef": null,
-        "missionPrecedenteRef": null
-      },
-      {
         "@xsi:type": "MandatSimple_Type",
         "uid": "PM813930",
         "acteurRef": "PA795184",
@@ -166,6 +145,49 @@
         }
       },
       {
+        "@xsi:type": "MandatMission_Type",
+        "uid": "PM830273",
+        "acteurRef": "PA795184",
+        "legislature": "16",
+        "typeOrgane": "MISINFO",
+        "dateDebut": "2023-10-18",
+        "datePublication": null,
+        "dateFin": "2024-06-09",
+        "preseance": "10",
+        "nominPrincipale": "0",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO830245"
+        },
+        "libelle": null,
+        "missionSuivanteRef": null,
+        "missionPrecedenteRef": null
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM802182",
+        "acteurRef": "PA795184",
+        "legislature": "16",
+        "typeOrgane": "DELEG",
+        "dateDebut": "2022-07-13",
+        "datePublication": "2022-07-13",
+        "dateFin": "2024-06-09",
+        "preseance": "21",
+        "nominPrincipale": "0",
+        "infosQualite": {
+          "codeQualite": "Membre de droit",
+          "libQualite": "Membre de droit",
+          "libQualiteSex": "Membre de droit"
+        },
+        "organes": {
+          "organeRef": "PO675659"
+        }
+      },
+      {
         "@xsi:type": "MandatSimple_Type",
         "uid": "PM800845",
         "acteurRef": "PA795184",
@@ -187,22 +209,22 @@
       },
       {
         "@xsi:type": "MandatSimple_Type",
-        "uid": "PM802182",
+        "uid": "PM813931",
         "acteurRef": "PA795184",
         "legislature": "16",
-        "typeOrgane": "DELEG",
-        "dateDebut": "2022-07-13",
-        "datePublication": "2022-07-13",
+        "typeOrgane": "GEVI",
+        "dateDebut": "2022-12-20",
+        "datePublication": null,
         "dateFin": "2024-06-09",
-        "preseance": "21",
-        "nominPrincipale": "0",
+        "preseance": "8",
+        "nominPrincipale": "1",
         "infosQualite": {
-          "codeQualite": "Membre de droit",
-          "libQualite": "Membre de droit",
-          "libQualiteSex": "Membre de droit"
+          "codeQualite": "Vice-Président",
+          "libQualite": "Vice-Président",
+          "libQualiteSex": "Vice-Président"
         },
         "organes": {
-          "organeRef": "PO675659"
+          "organeRef": "PO808106"
         }
       },
       {
@@ -227,26 +249,6 @@
         "libelle": null,
         "missionSuivanteRef": null,
         "missionPrecedenteRef": null
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM813931",
-        "acteurRef": "PA795184",
-        "legislature": "16",
-        "typeOrgane": "GEVI",
-        "dateDebut": "2022-12-20",
-        "datePublication": null,
-        "dateFin": "2024-06-09",
-        "preseance": "8",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Vice-Président",
-          "libQualite": "Vice-Président",
-          "libQualiteSex": "Vice-Président"
-        },
-        "organes": {
-          "organeRef": "PO808106"
-        }
       },
       {
         "@xsi:type": "MandatSimple_Type",

@@ -32,7 +32,9 @@
       "famSocPro": "Artisans, commerçants et chefs d'entreprise"
     }
   },
-  "uri_hatvp": "https://www.hatvp.fr/pages_nominatives/thillaye-sabine",
+  "uri_hatvp": {
+    "@xsi:nil": "true"
+  },
   "adresses": {
     "adresse": [
       {
@@ -204,6 +206,27 @@
         "suppleants": null
       },
       {
+        "@xsi:type": "MandatAvecSuppleant_Type",
+        "uid": "PM801984",
+        "acteurRef": "PA719822",
+        "legislature": "16",
+        "typeOrgane": "COMNL",
+        "dateDebut": "2022-07-06",
+        "datePublication": "2022-07-06",
+        "dateFin": "2022-07-06",
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO415287"
+        },
+        "suppleants": null
+      },
+      {
         "@xsi:type": "MandatMission_Type",
         "uid": "PM787674",
         "acteurRef": "PA719822",
@@ -225,27 +248,6 @@
         "libelle": null,
         "missionSuivanteRef": null,
         "missionPrecedenteRef": null
-      },
-      {
-        "@xsi:type": "MandatAvecSuppleant_Type",
-        "uid": "PM801984",
-        "acteurRef": "PA719822",
-        "legislature": "16",
-        "typeOrgane": "COMNL",
-        "dateDebut": "2022-07-06",
-        "datePublication": "2022-07-06",
-        "dateFin": "2022-07-06",
-        "preseance": "20",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Membre",
-          "libQualite": "Membre",
-          "libQualiteSex": "Membre"
-        },
-        "organes": {
-          "organeRef": "PO415287"
-        },
-        "suppleants": null
       },
       {
         "@xsi:type": "MandatMission_Type",
@@ -719,6 +721,26 @@
       },
       {
         "@xsi:type": "MandatSimple_Type",
+        "uid": "PM826212",
+        "acteurRef": "PA719822",
+        "legislature": "16",
+        "typeOrgane": "CMP",
+        "dateDebut": "2023-07-10",
+        "datePublication": "2023-07-11",
+        "dateFin": "2023-07-13",
+        "preseance": "16",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Rapporteur",
+          "libQualite": "Rapporteur",
+          "libQualiteSex": "Rapporteure"
+        },
+        "organes": {
+          "organeRef": "PO826014"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
         "uid": "PM823836",
         "acteurRef": "PA719822",
         "legislature": "16",
@@ -779,6 +801,26 @@
       },
       {
         "@xsi:type": "MandatSimple_Type",
+        "uid": "PM826157",
+        "acteurRef": "PA719822",
+        "legislature": "16",
+        "typeOrgane": "CMP",
+        "dateDebut": "2023-07-05",
+        "datePublication": "2023-07-06",
+        "dateFin": "2023-07-13",
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Titulaire",
+          "libQualite": "Membre titulaire",
+          "libQualiteSex": "Membre titulaire"
+        },
+        "organes": {
+          "organeRef": "PO826014"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
         "uid": "PM823793",
         "acteurRef": "PA719822",
         "legislature": "16",
@@ -835,46 +877,6 @@
         },
         "organes": {
           "organeRef": "PO59051"
-        }
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM826212",
-        "acteurRef": "PA719822",
-        "legislature": "16",
-        "typeOrgane": "CMP",
-        "dateDebut": "2023-07-10",
-        "datePublication": "2023-07-11",
-        "dateFin": "2023-07-13",
-        "preseance": "16",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Rapporteur",
-          "libQualite": "Rapporteur",
-          "libQualiteSex": "Rapporteure"
-        },
-        "organes": {
-          "organeRef": "PO826014"
-        }
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM826157",
-        "acteurRef": "PA719822",
-        "legislature": "16",
-        "typeOrgane": "CMP",
-        "dateDebut": "2023-07-05",
-        "datePublication": "2023-07-06",
-        "dateFin": "2023-07-13",
-        "preseance": "20",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Titulaire",
-          "libQualite": "Membre titulaire",
-          "libQualiteSex": "Membre titulaire"
-        },
-        "organes": {
-          "organeRef": "PO826014"
         }
       },
       {

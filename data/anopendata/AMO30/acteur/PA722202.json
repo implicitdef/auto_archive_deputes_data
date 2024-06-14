@@ -30,7 +30,9 @@
       "famSocPro": "Cadres et professions intellectuelles supérieures"
     }
   },
-  "uri_hatvp": "https://www.hatvp.fr/pages_nominatives/jumel-sebastien",
+  "uri_hatvp": {
+    "@xsi:nil": "true"
+  },
   "adresses": {
     "adresse": [
       {
@@ -251,6 +253,26 @@
         }
       },
       {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM735783",
+        "acteurRef": "PA722202",
+        "legislature": "15",
+        "typeOrgane": "GEVI",
+        "dateDebut": "2017-09-28",
+        "datePublication": null,
+        "dateFin": "2022-06-21",
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO733217"
+        }
+      },
+      {
         "@xsi:type": "MandatMission_Type",
         "uid": "PM762488",
         "acteurRef": "PA722202",
@@ -389,49 +411,6 @@
         "missionPrecedenteRef": null
       },
       {
-        "@xsi:type": "MandatMission_Type",
-        "uid": "PM833375",
-        "acteurRef": "PA722202",
-        "legislature": "16",
-        "typeOrgane": "MISINFO",
-        "dateDebut": "2023-07-19",
-        "datePublication": null,
-        "dateFin": "2024-01-11",
-        "preseance": "5",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Co-rapporteur",
-          "libQualite": "Co-rapporteur",
-          "libQualiteSex": "Co-rapporteur"
-        },
-        "organes": {
-          "organeRef": "PO833347"
-        },
-        "libelle": null,
-        "missionSuivanteRef": null,
-        "missionPrecedenteRef": null
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM735783",
-        "acteurRef": "PA722202",
-        "legislature": "15",
-        "typeOrgane": "GEVI",
-        "dateDebut": "2017-09-28",
-        "datePublication": null,
-        "dateFin": "2022-06-21",
-        "preseance": "20",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Membre",
-          "libQualite": "Membre",
-          "libQualiteSex": "Membre"
-        },
-        "organes": {
-          "organeRef": "PO733217"
-        }
-      },
-      {
         "@xsi:type": "MandatSimple_Type",
         "uid": "PM757354",
         "acteurRef": "PA722202",
@@ -470,6 +449,29 @@
         "organes": {
           "organeRef": "PO825530"
         }
+      },
+      {
+        "@xsi:type": "MandatMission_Type",
+        "uid": "PM833375",
+        "acteurRef": "PA722202",
+        "legislature": "16",
+        "typeOrgane": "MISINFO",
+        "dateDebut": "2023-07-19",
+        "datePublication": null,
+        "dateFin": "2024-01-11",
+        "preseance": "5",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Co-rapporteur",
+          "libQualite": "Co-rapporteur",
+          "libQualiteSex": "Co-rapporteur"
+        },
+        "organes": {
+          "organeRef": "PO833347"
+        },
+        "libelle": null,
+        "missionSuivanteRef": null,
+        "missionPrecedenteRef": null
       },
       {
         "@xsi:type": "MandatSimple_Type",
@@ -653,6 +655,26 @@
         "libelle": null,
         "missionSuivanteRef": null,
         "missionPrecedenteRef": null
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM805401",
+        "acteurRef": "PA722202",
+        "legislature": "16",
+        "typeOrgane": "CNPE",
+        "dateDebut": "2022-10-26",
+        "datePublication": "2022-10-27",
+        "dateFin": "2023-03-30",
+        "preseance": "8",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Vice-Président",
+          "libQualite": "Vice-Président",
+          "libQualiteSex": "Vice-Président"
+        },
+        "organes": {
+          "organeRef": "PO805243"
+        }
       },
       {
         "@xsi:type": "MandatSimple_Type",
@@ -1672,26 +1694,6 @@
         },
         "organes": {
           "organeRef": "PO419604"
-        }
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM805401",
-        "acteurRef": "PA722202",
-        "legislature": "16",
-        "typeOrgane": "CNPE",
-        "dateDebut": "2022-10-26",
-        "datePublication": "2022-10-27",
-        "dateFin": "2023-03-30",
-        "preseance": "8",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Vice-Président",
-          "libQualite": "Vice-Président",
-          "libQualiteSex": "Vice-Président"
-        },
-        "organes": {
-          "organeRef": "PO805243"
         }
       },
       {

@@ -30,7 +30,9 @@
       "famSocPro": "Cadres et professions intellectuelles supérieures"
     }
   },
-  "uri_hatvp": "https://www.hatvp.fr/pages_nominatives/piquemal-francois-24200",
+  "uri_hatvp": {
+    "@xsi:nil": "true"
+  },
   "adresses": {
     "adresse": [
       {
@@ -215,6 +217,26 @@
         }
       },
       {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM826907",
+        "acteurRef": "PA793756",
+        "legislature": "16",
+        "typeOrgane": "CNPS",
+        "dateDebut": "2023-08-29",
+        "datePublication": "2023-08-29",
+        "dateFin": "2023-08-29",
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO826232"
+        }
+      },
+      {
         "@xsi:type": "MandatMission_Type",
         "uid": "PM837117",
         "acteurRef": "PA793756",
@@ -259,26 +281,6 @@
         "libelle": null,
         "missionSuivanteRef": null,
         "missionPrecedenteRef": null
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM826907",
-        "acteurRef": "PA793756",
-        "legislature": "16",
-        "typeOrgane": "CNPS",
-        "dateDebut": "2023-08-29",
-        "datePublication": "2023-08-29",
-        "dateFin": "2023-08-29",
-        "preseance": "20",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Membre",
-          "libQualite": "Membre",
-          "libQualiteSex": "Membre"
-        },
-        "organes": {
-          "organeRef": "PO826232"
-        }
       },
       {
         "@xsi:type": "MandatSimple_Type",
@@ -341,6 +343,26 @@
         },
         "organes": {
           "organeRef": "PO800490"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM826092",
+        "acteurRef": "PA793756",
+        "legislature": "16",
+        "typeOrgane": "CNPE",
+        "dateDebut": "2023-07-05",
+        "datePublication": "2023-07-06",
+        "dateFin": "2023-12-19",
+        "preseance": "8",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Vice-Président",
+          "libQualite": "Vice-Président",
+          "libQualiteSex": "Vice-Président"
+        },
+        "organes": {
+          "organeRef": "PO825320"
         }
       },
       {
@@ -641,26 +663,6 @@
         },
         "organes": {
           "organeRef": "PO59048"
-        }
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM826092",
-        "acteurRef": "PA793756",
-        "legislature": "16",
-        "typeOrgane": "CNPE",
-        "dateDebut": "2023-07-05",
-        "datePublication": "2023-07-06",
-        "dateFin": "2023-12-19",
-        "preseance": "8",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Vice-Président",
-          "libQualite": "Vice-Président",
-          "libQualiteSex": "Vice-Président"
-        },
-        "organes": {
-          "organeRef": "PO825320"
         }
       },
       {

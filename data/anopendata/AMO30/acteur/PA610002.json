@@ -30,7 +30,9 @@
       "famSocPro": "Cadres et professions intellectuelles supérieures"
     }
   },
-  "uri_hatvp": "https://www.hatvp.fr/pages_nominatives/sas-eva",
+  "uri_hatvp": {
+    "@xsi:nil": "true"
+  },
   "adresses": {
     "adresse": [
       {
@@ -294,6 +296,26 @@
         "missionPrecedenteRef": null
       },
       {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM712076",
+        "acteurRef": "PA610002",
+        "legislature": "14",
+        "typeOrgane": "CNPS",
+        "dateDebut": "2016-03-23",
+        "datePublication": "2016-03-23",
+        "dateFin": "2016-04-14",
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO697810"
+        }
+      },
+      {
         "@xsi:type": "MandatMission_Type",
         "uid": "PM688411",
         "acteurRef": "PA610002",
@@ -317,6 +339,26 @@
         "missionPrecedenteRef": null
       },
       {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM678377",
+        "acteurRef": "PA610002",
+        "legislature": "14",
+        "typeOrgane": "CNPS",
+        "dateDebut": "2012-09-25",
+        "datePublication": "2012-09-26",
+        "dateFin": "2012-11-22",
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO678157"
+        }
+      },
+      {
         "@xsi:type": "MandatMission_Type",
         "uid": "PM810382",
         "acteurRef": "PA610002",
@@ -338,46 +380,6 @@
         "libelle": null,
         "missionSuivanteRef": null,
         "missionPrecedenteRef": null
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM712076",
-        "acteurRef": "PA610002",
-        "legislature": "14",
-        "typeOrgane": "CNPS",
-        "dateDebut": "2016-03-23",
-        "datePublication": "2016-03-23",
-        "dateFin": "2016-04-14",
-        "preseance": "20",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Membre",
-          "libQualite": "Membre",
-          "libQualiteSex": "Membre"
-        },
-        "organes": {
-          "organeRef": "PO697810"
-        }
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM678377",
-        "acteurRef": "PA610002",
-        "legislature": "14",
-        "typeOrgane": "CNPS",
-        "dateDebut": "2012-09-25",
-        "datePublication": "2012-09-26",
-        "dateFin": "2012-11-22",
-        "preseance": "20",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Membre",
-          "libQualite": "Membre",
-          "libQualiteSex": "Membre"
-        },
-        "organes": {
-          "organeRef": "PO678157"
-        }
       },
       {
         "@xsi:type": "MandatSimple_Type",
@@ -1624,46 +1626,6 @@
       },
       {
         "@xsi:type": "MandatSimple_Type",
-        "uid": "PM699466",
-        "acteurRef": "PA610002",
-        "legislature": "14",
-        "typeOrgane": "COMPER",
-        "dateDebut": "2014-01-16",
-        "datePublication": "2014-01-16",
-        "dateFin": "2017-06-20",
-        "preseance": "8",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Vice-Président",
-          "libQualite": "Vice-président",
-          "libQualiteSex": "Vice-présidente"
-        },
-        "organes": {
-          "organeRef": "PO59048"
-        }
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM659254",
-        "acteurRef": "PA610002",
-        "legislature": "14",
-        "typeOrgane": "COMPER",
-        "dateDebut": "2012-06-29",
-        "datePublication": "2012-06-29",
-        "dateFin": "2013-01-07",
-        "preseance": "8",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Vice-Président",
-          "libQualite": "Vice-président",
-          "libQualiteSex": "Vice-présidente"
-        },
-        "organes": {
-          "organeRef": "PO59048"
-        }
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
         "uid": "PM687174",
         "acteurRef": "PA610002",
         "legislature": "14",
@@ -1680,6 +1642,26 @@
         },
         "organes": {
           "organeRef": "PO687137"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM699466",
+        "acteurRef": "PA610002",
+        "legislature": "14",
+        "typeOrgane": "COMPER",
+        "dateDebut": "2014-01-16",
+        "datePublication": "2014-01-16",
+        "dateFin": "2017-06-20",
+        "preseance": "8",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Vice-Président",
+          "libQualite": "Vice-président",
+          "libQualiteSex": "Vice-présidente"
+        },
+        "organes": {
+          "organeRef": "PO59048"
         }
       },
       {
@@ -1780,6 +1762,26 @@
         },
         "organes": {
           "organeRef": "PO683757"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM659254",
+        "acteurRef": "PA610002",
+        "legislature": "14",
+        "typeOrgane": "COMPER",
+        "dateDebut": "2012-06-29",
+        "datePublication": "2012-06-29",
+        "dateFin": "2013-01-07",
+        "preseance": "8",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Vice-Président",
+          "libQualite": "Vice-président",
+          "libQualiteSex": "Vice-présidente"
+        },
+        "organes": {
+          "organeRef": "PO59048"
         }
       },
       {

@@ -30,7 +30,9 @@
       "famSocPro": "Cadres et professions intellectuelles supérieures"
     }
   },
-  "uri_hatvp": "https://www.hatvp.fr/pages_nominatives/baptiste-christian",
+  "uri_hatvp": {
+    "@xsi:nil": "true"
+  },
   "adresses": {
     "adresse": [
       {
@@ -167,6 +169,26 @@
           "codeQualite": "Membre",
           "libQualite": "Membre",
           "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO832903"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM833300",
+        "acteurRef": "PA643143",
+        "legislature": "16",
+        "typeOrgane": "CNPE",
+        "dateDebut": "2023-12-20",
+        "datePublication": "2023-12-21",
+        "dateFin": "2024-05-27",
+        "preseance": "8",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Vice-Président",
+          "libQualite": "Vice-Président",
+          "libQualiteSex": "Vice-Président"
         },
         "organes": {
           "organeRef": "PO832903"
@@ -390,26 +412,6 @@
         },
         "organes": {
           "organeRef": "PO59046"
-        }
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM833300",
-        "acteurRef": "PA643143",
-        "legislature": "16",
-        "typeOrgane": "CNPE",
-        "dateDebut": "2023-12-20",
-        "datePublication": "2023-12-21",
-        "dateFin": "2024-05-27",
-        "preseance": "8",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Vice-Président",
-          "libQualite": "Vice-Président",
-          "libQualiteSex": "Vice-Président"
-        },
-        "organes": {
-          "organeRef": "PO832903"
         }
       },
       {

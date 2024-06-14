@@ -30,7 +30,9 @@
       "famSocPro": "Cadres et professions intellectuelles supérieures"
     }
   },
-  "uri_hatvp": "https://www.hatvp.fr/pages_nominatives/francois-thibaut-24221",
+  "uri_hatvp": {
+    "@xsi:nil": "true"
+  },
   "adresses": {
     "adresse": [
       {
@@ -116,29 +118,6 @@
         }
       },
       {
-        "@xsi:type": "MandatMission_Type",
-        "uid": "PM805195",
-        "acteurRef": "PA794538",
-        "legislature": "16",
-        "typeOrgane": "MISINFO",
-        "dateDebut": "2022-10-12",
-        "datePublication": null,
-        "dateFin": "2023-07-19",
-        "preseance": "10",
-        "nominPrincipale": "0",
-        "infosQualite": {
-          "codeQualite": "Membre",
-          "libQualite": "Membre",
-          "libQualiteSex": "Membre"
-        },
-        "organes": {
-          "organeRef": "PO805193"
-        },
-        "libelle": null,
-        "missionSuivanteRef": null,
-        "missionPrecedenteRef": null
-      },
-      {
         "@xsi:type": "MandatSimple_Type",
         "uid": "PM803755",
         "acteurRef": "PA794538",
@@ -197,6 +176,29 @@
         "organes": {
           "organeRef": "PO58976"
         }
+      },
+      {
+        "@xsi:type": "MandatMission_Type",
+        "uid": "PM805195",
+        "acteurRef": "PA794538",
+        "legislature": "16",
+        "typeOrgane": "MISINFO",
+        "dateDebut": "2022-10-12",
+        "datePublication": null,
+        "dateFin": "2023-07-19",
+        "preseance": "10",
+        "nominPrincipale": "0",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO805193"
+        },
+        "libelle": null,
+        "missionSuivanteRef": null,
+        "missionPrecedenteRef": null
       },
       {
         "@xsi:type": "MandatSimple_Type",
@@ -283,6 +285,26 @@
       },
       {
         "@xsi:type": "MandatSimple_Type",
+        "uid": "PM796978",
+        "acteurRef": "PA794538",
+        "legislature": "16",
+        "typeOrgane": "GP",
+        "dateDebut": "2022-06-22",
+        "datePublication": null,
+        "dateFin": "2022-06-28",
+        "preseance": "28",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Député non-inscrit",
+          "libQualite": "Député non-inscrit",
+          "libQualiteSex": "Député non-inscrit"
+        },
+        "organes": {
+          "organeRef": "PO793087"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
         "uid": "PM818084",
         "acteurRef": "PA794538",
         "legislature": "16",
@@ -359,26 +381,6 @@
         },
         "organes": {
           "organeRef": "PO807421"
-        }
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM796978",
-        "acteurRef": "PA794538",
-        "legislature": "16",
-        "typeOrgane": "GP",
-        "dateDebut": "2022-06-22",
-        "datePublication": null,
-        "dateFin": "2022-06-28",
-        "preseance": "28",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Député non-inscrit",
-          "libQualite": "Député non-inscrit",
-          "libQualiteSex": "Député non-inscrit"
-        },
-        "organes": {
-          "organeRef": "PO793087"
         }
       },
       {

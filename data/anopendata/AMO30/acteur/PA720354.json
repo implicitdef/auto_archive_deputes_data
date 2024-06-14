@@ -30,7 +30,9 @@
       "famSocPro": "Professions Intermédiaires"
     }
   },
-  "uri_hatvp": "https://www.hatvp.fr/pages_nominatives/jacques-jean-michel",
+  "uri_hatvp": {
+    "@xsi:nil": "true"
+  },
   "adresses": {
     "adresse": [
       {
@@ -182,6 +184,26 @@
         }
       },
       {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM734435",
+        "acteurRef": "PA720354",
+        "legislature": "15",
+        "typeOrgane": "API",
+        "dateDebut": "2017-08-02",
+        "datePublication": "2017-08-03",
+        "dateFin": "2022-06-21",
+        "preseance": "40",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO58976"
+        }
+      },
+      {
         "@xsi:type": "MandatMission_Type",
         "uid": "PM781988",
         "acteurRef": "PA720354",
@@ -203,26 +225,6 @@
         "libelle": null,
         "missionSuivanteRef": null,
         "missionPrecedenteRef": null
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM734435",
-        "acteurRef": "PA720354",
-        "legislature": "15",
-        "typeOrgane": "API",
-        "dateDebut": "2017-08-02",
-        "datePublication": "2017-08-03",
-        "dateFin": "2022-06-21",
-        "preseance": "40",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Membre",
-          "libQualite": "Membre",
-          "libQualiteSex": "Membre"
-        },
-        "organes": {
-          "organeRef": "PO58976"
-        }
       },
       {
         "@xsi:type": "MandatMission_Type",
@@ -378,6 +380,26 @@
       },
       {
         "@xsi:type": "MandatSimple_Type",
+        "uid": "PM826158",
+        "acteurRef": "PA720354",
+        "legislature": "16",
+        "typeOrgane": "CMP",
+        "dateDebut": "2023-07-05",
+        "datePublication": "2023-07-06",
+        "dateFin": "2023-07-13",
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Titulaire",
+          "libQualite": "Membre titulaire",
+          "libQualiteSex": "Membre titulaire"
+        },
+        "organes": {
+          "organeRef": "PO826014"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
         "uid": "PM731988",
         "acteurRef": "PA720354",
         "legislature": "15",
@@ -454,26 +476,6 @@
         },
         "organes": {
           "organeRef": "PO59046"
-        }
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM826158",
-        "acteurRef": "PA720354",
-        "legislature": "16",
-        "typeOrgane": "CMP",
-        "dateDebut": "2023-07-05",
-        "datePublication": "2023-07-06",
-        "dateFin": "2023-07-13",
-        "preseance": "20",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Titulaire",
-          "libQualite": "Membre titulaire",
-          "libQualiteSex": "Membre titulaire"
-        },
-        "organes": {
-          "organeRef": "PO826014"
         }
       },
       {

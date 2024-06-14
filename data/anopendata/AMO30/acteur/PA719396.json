@@ -30,7 +30,9 @@
       "famSocPro": "Cadres et professions intellectuelles supérieures"
     }
   },
-  "uri_hatvp": "https://www.hatvp.fr/pages_nominatives/larsonneur-jean-charles",
+  "uri_hatvp": {
+    "@xsi:nil": "true"
+  },
   "adresses": {
     "adresse": [
       {
@@ -203,29 +205,6 @@
         }
       },
       {
-        "@xsi:type": "MandatMission_Type",
-        "uid": "PM806205",
-        "acteurRef": "PA719396",
-        "legislature": "16",
-        "typeOrgane": "MISINFO",
-        "dateDebut": "2022-10-18",
-        "datePublication": null,
-        "dateFin": "2023-02-15",
-        "preseance": "10",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Membre",
-          "libQualite": "Membre",
-          "libQualiteSex": "Membre"
-        },
-        "organes": {
-          "organeRef": "PO805408"
-        },
-        "libelle": null,
-        "missionSuivanteRef": null,
-        "missionPrecedenteRef": null
-      },
-      {
         "@xsi:type": "MandatSimple_Type",
         "uid": "PM803725",
         "acteurRef": "PA719396",
@@ -263,6 +242,89 @@
         },
         "organes": {
           "organeRef": "PO807673"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM734439",
+        "acteurRef": "PA719396",
+        "legislature": "15",
+        "typeOrgane": "API",
+        "dateDebut": "2017-08-02",
+        "datePublication": "2017-08-03",
+        "dateFin": "2022-06-21",
+        "preseance": "41",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Titulaire",
+          "libQualite": "Membre titulaire",
+          "libQualiteSex": "Membre titulaire"
+        },
+        "organes": {
+          "organeRef": "PO58974"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM812897",
+        "acteurRef": "PA719396",
+        "legislature": "16",
+        "typeOrgane": "GEVI",
+        "dateDebut": "2022-12-14",
+        "datePublication": null,
+        "dateFin": "2024-06-09",
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO807673"
+        }
+      },
+      {
+        "@xsi:type": "MandatMission_Type",
+        "uid": "PM806205",
+        "acteurRef": "PA719396",
+        "legislature": "16",
+        "typeOrgane": "MISINFO",
+        "dateDebut": "2022-10-18",
+        "datePublication": null,
+        "dateFin": "2023-02-15",
+        "preseance": "10",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO805408"
+        },
+        "libelle": null,
+        "missionSuivanteRef": null,
+        "missionPrecedenteRef": null
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM771666",
+        "acteurRef": "PA719396",
+        "legislature": "15",
+        "typeOrgane": "CNPS",
+        "dateDebut": "2020-05-09",
+        "datePublication": "2020-05-10",
+        "dateFin": "2020-06-10",
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO771611"
         }
       },
       {
@@ -335,26 +397,6 @@
         "missionPrecedenteRef": null
       },
       {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM734439",
-        "acteurRef": "PA719396",
-        "legislature": "15",
-        "typeOrgane": "API",
-        "dateDebut": "2017-08-02",
-        "datePublication": "2017-08-03",
-        "dateFin": "2022-06-21",
-        "preseance": "41",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Titulaire",
-          "libQualite": "Membre titulaire",
-          "libQualiteSex": "Membre titulaire"
-        },
-        "organes": {
-          "organeRef": "PO58974"
-        }
-      },
-      {
         "@xsi:type": "MandatMission_Type",
         "uid": "PM782001",
         "acteurRef": "PA719396",
@@ -376,26 +418,6 @@
         "libelle": null,
         "missionSuivanteRef": null,
         "missionPrecedenteRef": null
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM812897",
-        "acteurRef": "PA719396",
-        "legislature": "16",
-        "typeOrgane": "GEVI",
-        "dateDebut": "2022-12-14",
-        "datePublication": null,
-        "dateFin": "2024-06-09",
-        "preseance": "20",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Membre",
-          "libQualite": "Membre",
-          "libQualiteSex": "Membre"
-        },
-        "organes": {
-          "organeRef": "PO807673"
-        }
       },
       {
         "@xsi:type": "MandatMission_Type",
@@ -511,26 +533,6 @@
         "libelle": null,
         "missionSuivanteRef": null,
         "missionPrecedenteRef": null
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM771666",
-        "acteurRef": "PA719396",
-        "legislature": "15",
-        "typeOrgane": "CNPS",
-        "dateDebut": "2020-05-09",
-        "datePublication": "2020-05-10",
-        "dateFin": "2020-06-10",
-        "preseance": "20",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Membre",
-          "libQualite": "Membre",
-          "libQualiteSex": "Membre"
-        },
-        "organes": {
-          "organeRef": "PO771611"
-        }
       },
       {
         "@xsi:type": "MandatSimple_Type",
@@ -1596,66 +1598,6 @@
         }
       },
       {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM819196",
-        "acteurRef": "PA719396",
-        "legislature": "16",
-        "typeOrgane": "GE",
-        "dateDebut": "2023-02-08",
-        "datePublication": null,
-        "dateFin": "2024-06-09",
-        "preseance": "8",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Vice-Président",
-          "libQualite": "Vice-Président",
-          "libQualiteSex": "Vice-Président"
-        },
-        "organes": {
-          "organeRef": "PO807301"
-        }
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM819708",
-        "acteurRef": "PA719396",
-        "legislature": "16",
-        "typeOrgane": "GE",
-        "dateDebut": "2023-02-13",
-        "datePublication": null,
-        "dateFin": "2024-06-09",
-        "preseance": "8",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Vice-Président",
-          "libQualite": "Vice-Président",
-          "libQualiteSex": "Vice-Président"
-        },
-        "organes": {
-          "organeRef": "PO810668"
-        }
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM822140",
-        "acteurRef": "PA719396",
-        "legislature": "16",
-        "typeOrgane": "GE",
-        "dateDebut": "2023-03-22",
-        "datePublication": null,
-        "dateFin": "2024-06-09",
-        "preseance": "8",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Vice-Président",
-          "libQualite": "Vice-Président",
-          "libQualiteSex": "Vice-Président"
-        },
-        "organes": {
-          "organeRef": "PO807261"
-        }
-      },
-      {
         "@xsi:type": "MandatParlementaire_type",
         "uid": "PM722650",
         "acteurRef": "PA719396",
@@ -1703,6 +1645,46 @@
         "collaborateurs": null
       },
       {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM819196",
+        "acteurRef": "PA719396",
+        "legislature": "16",
+        "typeOrgane": "GE",
+        "dateDebut": "2023-02-08",
+        "datePublication": null,
+        "dateFin": "2024-06-09",
+        "preseance": "8",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Vice-Président",
+          "libQualite": "Vice-Président",
+          "libQualiteSex": "Vice-Président"
+        },
+        "organes": {
+          "organeRef": "PO807301"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM819708",
+        "acteurRef": "PA719396",
+        "legislature": "16",
+        "typeOrgane": "GE",
+        "dateDebut": "2023-02-13",
+        "datePublication": null,
+        "dateFin": "2024-06-09",
+        "preseance": "8",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Vice-Président",
+          "libQualite": "Vice-Président",
+          "libQualiteSex": "Vice-Président"
+        },
+        "organes": {
+          "organeRef": "PO810668"
+        }
+      },
+      {
         "@xsi:type": "MandatParlementaire_type",
         "uid": "PM796461",
         "acteurRef": "PA719396",
@@ -1748,6 +1730,26 @@
           "mandatRemplaceRef": null
         },
         "collaborateurs": null
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM822140",
+        "acteurRef": "PA719396",
+        "legislature": "16",
+        "typeOrgane": "GE",
+        "dateDebut": "2023-03-22",
+        "datePublication": null,
+        "dateFin": "2024-06-09",
+        "preseance": "8",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Vice-Président",
+          "libQualite": "Vice-Président",
+          "libQualiteSex": "Vice-Président"
+        },
+        "organes": {
+          "organeRef": "PO807261"
+        }
       },
       {
         "@xsi:type": "MandatSimple_Type",

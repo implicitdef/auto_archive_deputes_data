@@ -30,7 +30,9 @@
       "famSocPro": "Sans profession déclarée"
     }
   },
-  "uri_hatvp": "https://www.hatvp.fr/pages_nominatives/boyard-louis-24178",
+  "uri_hatvp": {
+    "@xsi:nil": "true"
+  },
   "adresses": {
     "adresse": [
       {
@@ -166,6 +168,46 @@
         "organes": {
           "organeRef": "PO800490"
         }
+      },
+      {
+        "@xsi:type": "MandatParlementaire_type",
+        "uid": "PM800469",
+        "acteurRef": "PA795318",
+        "legislature": "16",
+        "typeOrgane": "BUREAU",
+        "dateDebut": "2022-06-28",
+        "datePublication": null,
+        "dateFin": "2022-06-28",
+        "preseance": "30",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Secrétaire d'âge",
+          "libQualite": "Secrétaire d'âge de l'Assemblée nationale",
+          "libQualiteSex": "Secrétaire d'âge de l'Assemblée nationale"
+        },
+        "organes": {
+          "organeRef": "PO800439"
+        },
+        "suppleants": null,
+        "chambre": null,
+        "election": {
+          "lieu": {
+            "region": null,
+            "regionType": null,
+            "departement": null,
+            "numDepartement": null,
+            "numCirco": null
+          },
+          "causeMandat": null
+        },
+        "mandature": {
+          "datePriseFonction": null,
+          "causeFin": null,
+          "premiereElection": "0",
+          "placeHemicycle": null,
+          "mandatRemplaceRef": null
+        },
+        "collaborateurs": null
       },
       {
         "@xsi:type": "MandatSimple_Type",
@@ -446,46 +488,6 @@
         "organes": {
           "organeRef": "PO420120"
         }
-      },
-      {
-        "@xsi:type": "MandatParlementaire_type",
-        "uid": "PM800469",
-        "acteurRef": "PA795318",
-        "legislature": "16",
-        "typeOrgane": "BUREAU",
-        "dateDebut": "2022-06-28",
-        "datePublication": null,
-        "dateFin": "2022-06-28",
-        "preseance": "30",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Secrétaire d'âge",
-          "libQualite": "Secrétaire d'âge de l'Assemblée nationale",
-          "libQualiteSex": "Secrétaire d'âge de l'Assemblée nationale"
-        },
-        "organes": {
-          "organeRef": "PO800439"
-        },
-        "suppleants": null,
-        "chambre": null,
-        "election": {
-          "lieu": {
-            "region": null,
-            "regionType": null,
-            "departement": null,
-            "numDepartement": null,
-            "numCirco": null
-          },
-          "causeMandat": null
-        },
-        "mandature": {
-          "datePriseFonction": null,
-          "causeFin": null,
-          "premiereElection": "0",
-          "placeHemicycle": null,
-          "mandatRemplaceRef": null
-        },
-        "collaborateurs": null
       },
       {
         "@xsi:type": "MandatSimple_Type",

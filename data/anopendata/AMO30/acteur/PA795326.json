@@ -30,7 +30,9 @@
       "famSocPro": "Artisans, commerçants et chefs d'entreprise"
     }
   },
-  "uri_hatvp": "https://www.hatvp.fr/pages_nominatives/weissberg-christopher-20755",
+  "uri_hatvp": {
+    "@xsi:nil": "true"
+  },
   "adresses": {
     "adresse": [
       {
@@ -119,52 +121,6 @@
         }
       },
       {
-        "@xsi:type": "MandatMission_Type",
-        "uid": "PM826611",
-        "acteurRef": "PA795326",
-        "legislature": "16",
-        "typeOrgane": "MISINFO",
-        "dateDebut": "2023-07-20",
-        "datePublication": null,
-        "dateFin": "2024-04-02",
-        "preseance": "10",
-        "nominPrincipale": "0",
-        "infosQualite": {
-          "codeQualite": "Membre",
-          "libQualite": "Membre",
-          "libQualiteSex": "Membre"
-        },
-        "organes": {
-          "organeRef": "PO826607"
-        },
-        "libelle": null,
-        "missionSuivanteRef": null,
-        "missionPrecedenteRef": null
-      },
-      {
-        "@xsi:type": "MandatMission_Type",
-        "uid": "PM826613",
-        "acteurRef": "PA795326",
-        "legislature": "16",
-        "typeOrgane": "MISINFO",
-        "dateDebut": "2023-07-20",
-        "datePublication": null,
-        "dateFin": "2024-04-02",
-        "preseance": "9",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Rapporteur",
-          "libQualite": "Rapporteur",
-          "libQualiteSex": "Rapporteur"
-        },
-        "organes": {
-          "organeRef": "PO826607"
-        },
-        "libelle": null,
-        "missionSuivanteRef": null,
-        "missionPrecedenteRef": null
-      },
-      {
         "@xsi:type": "MandatSimple_Type",
         "uid": "PM815130",
         "acteurRef": "PA795326",
@@ -183,29 +139,6 @@
         "organes": {
           "organeRef": "PO201115"
         }
-      },
-      {
-        "@xsi:type": "MandatMission_Type",
-        "uid": "PM805196",
-        "acteurRef": "PA795326",
-        "legislature": "16",
-        "typeOrgane": "MISINFO",
-        "dateDebut": "2022-10-12",
-        "datePublication": null,
-        "dateFin": "2023-07-19",
-        "preseance": "10",
-        "nominPrincipale": "0",
-        "infosQualite": {
-          "codeQualite": "Membre",
-          "libQualite": "Membre",
-          "libQualiteSex": "Membre"
-        },
-        "organes": {
-          "organeRef": "PO805193"
-        },
-        "libelle": null,
-        "missionSuivanteRef": null,
-        "missionPrecedenteRef": null
       },
       {
         "@xsi:type": "MandatSimple_Type",
@@ -268,6 +201,75 @@
         }
       },
       {
+        "@xsi:type": "MandatMission_Type",
+        "uid": "PM826611",
+        "acteurRef": "PA795326",
+        "legislature": "16",
+        "typeOrgane": "MISINFO",
+        "dateDebut": "2023-07-20",
+        "datePublication": null,
+        "dateFin": "2024-04-02",
+        "preseance": "10",
+        "nominPrincipale": "0",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO826607"
+        },
+        "libelle": null,
+        "missionSuivanteRef": null,
+        "missionPrecedenteRef": null
+      },
+      {
+        "@xsi:type": "MandatMission_Type",
+        "uid": "PM826613",
+        "acteurRef": "PA795326",
+        "legislature": "16",
+        "typeOrgane": "MISINFO",
+        "dateDebut": "2023-07-20",
+        "datePublication": null,
+        "dateFin": "2024-04-02",
+        "preseance": "9",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Rapporteur",
+          "libQualite": "Rapporteur",
+          "libQualiteSex": "Rapporteur"
+        },
+        "organes": {
+          "organeRef": "PO826607"
+        },
+        "libelle": null,
+        "missionSuivanteRef": null,
+        "missionPrecedenteRef": null
+      },
+      {
+        "@xsi:type": "MandatMission_Type",
+        "uid": "PM805196",
+        "acteurRef": "PA795326",
+        "legislature": "16",
+        "typeOrgane": "MISINFO",
+        "dateDebut": "2022-10-12",
+        "datePublication": null,
+        "dateFin": "2023-07-19",
+        "preseance": "10",
+        "nominPrincipale": "0",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO805193"
+        },
+        "libelle": null,
+        "missionSuivanteRef": null,
+        "missionPrecedenteRef": null
+      },
+      {
         "@xsi:type": "MandatSimple_Type",
         "uid": "PM837541",
         "acteurRef": "PA795326",
@@ -306,6 +308,29 @@
         "organes": {
           "organeRef": "PO800538"
         }
+      },
+      {
+        "@xsi:type": "MandatMission_Type",
+        "uid": "PM805237",
+        "acteurRef": "PA795326",
+        "legislature": "16",
+        "typeOrgane": "MISINFO",
+        "dateDebut": "2022-10-12",
+        "datePublication": null,
+        "dateFin": "2023-07-19",
+        "preseance": "5",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Co-rapporteur",
+          "libQualite": "Co-rapporteur",
+          "libQualiteSex": "Co-rapporteur"
+        },
+        "organes": {
+          "organeRef": "PO805193"
+        },
+        "libelle": null,
+        "missionSuivanteRef": null,
+        "missionPrecedenteRef": null
       },
       {
         "@xsi:type": "MandatSimple_Type",
@@ -706,29 +731,6 @@
         "organes": {
           "organeRef": "PO419610"
         }
-      },
-      {
-        "@xsi:type": "MandatMission_Type",
-        "uid": "PM805237",
-        "acteurRef": "PA795326",
-        "legislature": "16",
-        "typeOrgane": "MISINFO",
-        "dateDebut": "2022-10-12",
-        "datePublication": null,
-        "dateFin": "2023-07-19",
-        "preseance": "5",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Co-rapporteur",
-          "libQualite": "Co-rapporteur",
-          "libQualiteSex": "Co-rapporteur"
-        },
-        "organes": {
-          "organeRef": "PO805193"
-        },
-        "libelle": null,
-        "missionSuivanteRef": null,
-        "missionPrecedenteRef": null
       },
       {
         "@xsi:type": "MandatSimple_Type",

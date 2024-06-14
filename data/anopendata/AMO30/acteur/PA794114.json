@@ -30,7 +30,9 @@
       "famSocPro": "Professions Intermédiaires"
     }
   },
-  "uri_hatvp": "https://www.hatvp.fr/pages_nominatives/mandon-emmanuel",
+  "uri_hatvp": {
+    "@xsi:nil": "true"
+  },
   "adresses": {
     "adresse": [
       {
@@ -99,29 +101,6 @@
         "organes": {
           "organeRef": "PO806430"
         }
-      },
-      {
-        "@xsi:type": "MandatMission_Type",
-        "uid": "PM833381",
-        "acteurRef": "PA794114",
-        "legislature": "16",
-        "typeOrgane": "MISINFO",
-        "dateDebut": "2023-07-19",
-        "datePublication": null,
-        "dateFin": "2024-01-11",
-        "preseance": "10",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Membre",
-          "libQualite": "Membre",
-          "libQualiteSex": "Membre"
-        },
-        "organes": {
-          "organeRef": "PO833347"
-        },
-        "libelle": null,
-        "missionSuivanteRef": null,
-        "missionPrecedenteRef": null
       },
       {
         "@xsi:type": "MandatSimple_Type",
@@ -222,6 +201,29 @@
         "organes": {
           "organeRef": "PO807106"
         }
+      },
+      {
+        "@xsi:type": "MandatMission_Type",
+        "uid": "PM833381",
+        "acteurRef": "PA794114",
+        "legislature": "16",
+        "typeOrgane": "MISINFO",
+        "dateDebut": "2023-07-19",
+        "datePublication": null,
+        "dateFin": "2024-01-11",
+        "preseance": "10",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO833347"
+        },
+        "libelle": null,
+        "missionSuivanteRef": null,
+        "missionPrecedenteRef": null
       },
       {
         "@xsi:type": "MandatSimple_Type",
@@ -385,6 +387,26 @@
       },
       {
         "@xsi:type": "MandatSimple_Type",
+        "uid": "PM802463",
+        "acteurRef": "PA794114",
+        "legislature": "16",
+        "typeOrgane": "CMP",
+        "dateDebut": "2022-07-19",
+        "datePublication": "2022-07-21",
+        "dateFin": "2022-07-26",
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Titulaire",
+          "libQualite": "Membre titulaire",
+          "libQualiteSex": "Membre titulaire"
+        },
+        "organes": {
+          "organeRef": "PO802351"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
         "uid": "PM805949",
         "acteurRef": "PA794114",
         "legislature": "16",
@@ -441,26 +463,6 @@
         },
         "organes": {
           "organeRef": "PO59048"
-        }
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM802463",
-        "acteurRef": "PA794114",
-        "legislature": "16",
-        "typeOrgane": "CMP",
-        "dateDebut": "2022-07-19",
-        "datePublication": "2022-07-21",
-        "dateFin": "2022-07-26",
-        "preseance": "20",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Titulaire",
-          "libQualite": "Membre titulaire",
-          "libQualiteSex": "Membre titulaire"
-        },
-        "organes": {
-          "organeRef": "PO802351"
         }
       },
       {

@@ -32,7 +32,9 @@
       "famSocPro": "Sans profession déclarée"
     }
   },
-  "uri_hatvp": "https://www.hatvp.fr/pages_nominatives/lavalette-laure-24134",
+  "uri_hatvp": {
+    "@xsi:nil": "true"
+  },
   "adresses": {
     "adresse": [
       {
@@ -244,26 +246,6 @@
       },
       {
         "@xsi:type": "MandatSimple_Type",
-        "uid": "PM820857",
-        "acteurRef": "PA795912",
-        "legislature": "16",
-        "typeOrgane": "GE",
-        "dateDebut": "2023-02-24",
-        "datePublication": null,
-        "dateFin": "2024-06-09",
-        "preseance": "20",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Membre",
-          "libQualite": "Membre",
-          "libQualiteSex": "Membre"
-        },
-        "organes": {
-          "organeRef": "PO810653"
-        }
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
         "uid": "PM797752",
         "acteurRef": "PA795912",
         "legislature": "16",
@@ -280,6 +262,26 @@
         },
         "organes": {
           "organeRef": "PO793087"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM820857",
+        "acteurRef": "PA795912",
+        "legislature": "16",
+        "typeOrgane": "GE",
+        "dateDebut": "2023-02-24",
+        "datePublication": null,
+        "dateFin": "2024-06-09",
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO810653"
         }
       },
       {

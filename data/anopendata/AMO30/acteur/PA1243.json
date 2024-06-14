@@ -134,6 +134,46 @@
         "suppleants": null
       },
       {
+        "@xsi:type": "MandatParlementaire_type",
+        "uid": "PM690220",
+        "acteurRef": "PA1243",
+        "legislature": "14",
+        "typeOrgane": "CONFPT",
+        "dateDebut": "2012-06-20",
+        "datePublication": null,
+        "dateFin": "2014-05-09",
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO690204"
+        },
+        "suppleants": null,
+        "chambre": null,
+        "election": {
+          "lieu": {
+            "region": null,
+            "regionType": null,
+            "departement": null,
+            "numDepartement": null,
+            "numCirco": null
+          },
+          "causeMandat": null
+        },
+        "mandature": {
+          "datePriseFonction": null,
+          "causeFin": null,
+          "premiereElection": "0",
+          "placeHemicycle": null,
+          "mandatRemplaceRef": null
+        },
+        "collaborateurs": null
+      },
+      {
         "@xsi:type": "MandatSimple_Type",
         "uid": "PM15714739",
         "acteurRef": "PA1243",
@@ -212,46 +252,6 @@
         "organes": {
           "organeRef": "PO700706"
         }
-      },
-      {
-        "@xsi:type": "MandatParlementaire_type",
-        "uid": "PM690220",
-        "acteurRef": "PA1243",
-        "legislature": "14",
-        "typeOrgane": "CONFPT",
-        "dateDebut": "2012-06-20",
-        "datePublication": null,
-        "dateFin": "2014-05-09",
-        "preseance": "20",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Membre",
-          "libQualite": "Membre",
-          "libQualiteSex": "Membre"
-        },
-        "organes": {
-          "organeRef": "PO690204"
-        },
-        "suppleants": null,
-        "chambre": null,
-        "election": {
-          "lieu": {
-            "region": null,
-            "regionType": null,
-            "departement": null,
-            "numDepartement": null,
-            "numCirco": null
-          },
-          "causeMandat": null
-        },
-        "mandature": {
-          "datePriseFonction": null,
-          "causeFin": null,
-          "premiereElection": "0",
-          "placeHemicycle": null,
-          "mandatRemplaceRef": null
-        },
-        "collaborateurs": null
       },
       {
         "@xsi:type": "MandatAvecSuppleant_Type",
@@ -398,27 +398,6 @@
         }
       },
       {
-        "@xsi:type": "MandatAvecSuppleant_Type",
-        "uid": "PM677203",
-        "acteurRef": "PA1243",
-        "legislature": "14",
-        "typeOrgane": "COMNL",
-        "dateDebut": "2012-07-25",
-        "datePublication": "2012-07-25",
-        "dateFin": "2014-04-23",
-        "preseance": "19",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Membre de droit",
-          "libQualite": "Membre de droit",
-          "libQualiteSex": "Membre de droit"
-        },
-        "organes": {
-          "organeRef": "PO420375"
-        },
-        "suppleants": null
-      },
-      {
         "@xsi:type": "MandatSimple_Type",
         "uid": "PM656130",
         "acteurRef": "PA1243",
@@ -457,6 +436,27 @@
         "organes": {
           "organeRef": "PO389507"
         }
+      },
+      {
+        "@xsi:type": "MandatAvecSuppleant_Type",
+        "uid": "PM677203",
+        "acteurRef": "PA1243",
+        "legislature": "14",
+        "typeOrgane": "COMNL",
+        "dateDebut": "2012-07-25",
+        "datePublication": "2012-07-25",
+        "dateFin": "2014-04-23",
+        "preseance": "19",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre de droit",
+          "libQualite": "Membre de droit",
+          "libQualiteSex": "Membre de droit"
+        },
+        "organes": {
+          "organeRef": "PO420375"
+        },
+        "suppleants": null
       },
       {
         "@xsi:type": "MandatSimple_Type",
@@ -556,66 +556,6 @@
         },
         "organes": {
           "organeRef": "PO700849"
-        }
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM420652",
-        "acteurRef": "PA1243",
-        "legislature": "13",
-        "typeOrgane": "COMPER",
-        "dateDebut": "2009-07-01",
-        "datePublication": "2009-07-01",
-        "dateFin": "2012-06-19",
-        "preseance": "32",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Membre",
-          "libQualite": "Membre",
-          "libQualiteSex": "Membre"
-        },
-        "organes": {
-          "organeRef": "PO59048"
-        }
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM390480",
-        "acteurRef": "PA1243",
-        "legislature": "13",
-        "typeOrgane": "COMPER",
-        "dateDebut": "2007-06-27",
-        "datePublication": "2007-06-28",
-        "dateFin": "2009-06-30",
-        "preseance": "32",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Membre",
-          "libQualite": "Membre",
-          "libQualiteSex": "Membre"
-        },
-        "organes": {
-          "organeRef": "PO59045"
-        }
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM657291",
-        "acteurRef": "PA1243",
-        "legislature": "14",
-        "typeOrgane": "COMPER",
-        "dateDebut": "2012-06-28",
-        "datePublication": "2012-06-28",
-        "dateFin": "2014-05-09",
-        "preseance": "32",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Membre",
-          "libQualite": "Membre",
-          "libQualiteSex": "Membre"
-        },
-        "organes": {
-          "organeRef": "PO59048"
         }
       },
       {
@@ -920,6 +860,46 @@
       },
       {
         "@xsi:type": "MandatSimple_Type",
+        "uid": "PM420652",
+        "acteurRef": "PA1243",
+        "legislature": "13",
+        "typeOrgane": "COMPER",
+        "dateDebut": "2009-07-01",
+        "datePublication": "2009-07-01",
+        "dateFin": "2012-06-19",
+        "preseance": "32",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO59048"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM390480",
+        "acteurRef": "PA1243",
+        "legislature": "13",
+        "typeOrgane": "COMPER",
+        "dateDebut": "2007-06-27",
+        "datePublication": "2007-06-28",
+        "dateFin": "2009-06-30",
+        "preseance": "32",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO59045"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
         "uid": "PM416506",
         "acteurRef": "PA1243",
         "legislature": "13",
@@ -1056,6 +1036,26 @@
         },
         "organes": {
           "organeRef": "PO440466"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM657291",
+        "acteurRef": "PA1243",
+        "legislature": "14",
+        "typeOrgane": "COMPER",
+        "dateDebut": "2012-06-28",
+        "datePublication": "2012-06-28",
+        "dateFin": "2014-05-09",
+        "preseance": "32",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO59048"
         }
       },
       {
@@ -1296,26 +1296,6 @@
         },
         "organes": {
           "organeRef": "PO416217"
-        }
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM387411",
-        "acteurRef": "PA1243",
-        "legislature": "13",
-        "typeOrgane": "GP",
-        "dateDebut": "2007-06-20",
-        "datePublication": null,
-        "dateFin": "2007-06-26",
-        "preseance": "28",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Député non-inscrit",
-          "libQualite": "Député non-inscrit",
-          "libQualiteSex": "Député non-inscrit"
-        },
-        "organes": {
-          "organeRef": "PO387155"
         }
       },
       {
@@ -1620,6 +1600,26 @@
       },
       {
         "@xsi:type": "MandatSimple_Type",
+        "uid": "PM387411",
+        "acteurRef": "PA1243",
+        "legislature": "13",
+        "typeOrgane": "GP",
+        "dateDebut": "2007-06-20",
+        "datePublication": null,
+        "dateFin": "2007-06-26",
+        "preseance": "28",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Député non-inscrit",
+          "libQualite": "Député non-inscrit",
+          "libQualiteSex": "Député non-inscrit"
+        },
+        "organes": {
+          "organeRef": "PO387155"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
         "uid": "PM397949",
         "acteurRef": "PA1243",
         "legislature": "13",
@@ -1660,26 +1660,6 @@
       },
       {
         "@xsi:type": "MandatSimple_Type",
-        "uid": "PM659248",
-        "acteurRef": "PA1243",
-        "legislature": "14",
-        "typeOrgane": "COMPER",
-        "dateDebut": "2012-06-29",
-        "datePublication": "2012-06-29",
-        "dateFin": "2014-04-22",
-        "preseance": "4",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Rapporteur général",
-          "libQualite": "Rapporteur général",
-          "libQualiteSex": "Rapporteur général"
-        },
-        "organes": {
-          "organeRef": "PO59048"
-        }
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
         "uid": "PM394230",
         "acteurRef": "PA1243",
         "legislature": "13",
@@ -1716,6 +1696,26 @@
         },
         "organes": {
           "organeRef": "PO426026"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM659248",
+        "acteurRef": "PA1243",
+        "legislature": "14",
+        "typeOrgane": "COMPER",
+        "dateDebut": "2012-06-29",
+        "datePublication": "2012-06-29",
+        "dateFin": "2014-04-22",
+        "preseance": "4",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Rapporteur général",
+          "libQualite": "Rapporteur général",
+          "libQualiteSex": "Rapporteur général"
+        },
+        "organes": {
+          "organeRef": "PO59048"
         }
       },
       {

@@ -30,7 +30,9 @@
       "famSocPro": "Cadres et professions intellectuelles supérieures"
     }
   },
-  "uri_hatvp": "https://www.hatvp.fr/pages_nominatives/kervran-loic",
+  "uri_hatvp": {
+    "@xsi:nil": "true"
+  },
   "adresses": {
     "adresse": [
       {
@@ -254,29 +256,6 @@
         }
       },
       {
-        "@xsi:type": "MandatMission_Type",
-        "uid": "PM781984",
-        "acteurRef": "PA719052",
-        "legislature": "15",
-        "typeOrgane": "MISINFO",
-        "dateDebut": "2021-03-10",
-        "datePublication": null,
-        "dateFin": "2021-07-06",
-        "preseance": "10",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Membre",
-          "libQualite": "Membre",
-          "libQualiteSex": "Membre"
-        },
-        "organes": {
-          "organeRef": "PO781981"
-        },
-        "libelle": null,
-        "missionSuivanteRef": null,
-        "missionPrecedenteRef": null
-      },
-      {
         "@xsi:type": "MandatSimple_Type",
         "uid": "PM739275",
         "acteurRef": "PA719052",
@@ -335,6 +314,29 @@
         "organes": {
           "organeRef": "PO201115"
         }
+      },
+      {
+        "@xsi:type": "MandatMission_Type",
+        "uid": "PM781984",
+        "acteurRef": "PA719052",
+        "legislature": "15",
+        "typeOrgane": "MISINFO",
+        "dateDebut": "2021-03-10",
+        "datePublication": null,
+        "dateFin": "2021-07-06",
+        "preseance": "10",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO781981"
+        },
+        "libelle": null,
+        "missionSuivanteRef": null,
+        "missionPrecedenteRef": null
       },
       {
         "@xsi:type": "MandatMission_Type",
@@ -528,6 +530,26 @@
       },
       {
         "@xsi:type": "MandatSimple_Type",
+        "uid": "PM784514",
+        "acteurRef": "PA719052",
+        "legislature": "15",
+        "typeOrgane": "CMP",
+        "dateDebut": "2021-07-09",
+        "datePublication": "2021-07-10",
+        "dateFin": "2021-07-22",
+        "preseance": "16",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Rapporteur",
+          "libQualite": "Rapporteur",
+          "libQualiteSex": "Rapporteur"
+        },
+        "organes": {
+          "organeRef": "PO784060"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
         "uid": "PM784378",
         "acteurRef": "PA719052",
         "legislature": "15",
@@ -664,26 +686,6 @@
         },
         "organes": {
           "organeRef": "PO59051"
-        }
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM784514",
-        "acteurRef": "PA719052",
-        "legislature": "15",
-        "typeOrgane": "CMP",
-        "dateDebut": "2021-07-09",
-        "datePublication": "2021-07-10",
-        "dateFin": "2021-07-22",
-        "preseance": "16",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Rapporteur",
-          "libQualite": "Rapporteur",
-          "libQualiteSex": "Rapporteur"
-        },
-        "organes": {
-          "organeRef": "PO784060"
         }
       },
       {
@@ -1451,26 +1453,6 @@
       },
       {
         "@xsi:type": "MandatSimple_Type",
-        "uid": "PM801801",
-        "acteurRef": "PA719052",
-        "legislature": "16",
-        "typeOrgane": "COMPER",
-        "dateDebut": "2022-06-30",
-        "datePublication": "2022-07-01",
-        "dateFin": "2024-06-09",
-        "preseance": "8",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Vice-Président",
-          "libQualite": "Vice-président",
-          "libQualiteSex": "Vice-président"
-        },
-        "organes": {
-          "organeRef": "PO59046"
-        }
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
         "uid": "PM838332",
         "acteurRef": "PA719052",
         "legislature": "16",
@@ -1487,6 +1469,26 @@
         },
         "organes": {
           "organeRef": "PO838264"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM801801",
+        "acteurRef": "PA719052",
+        "legislature": "16",
+        "typeOrgane": "COMPER",
+        "dateDebut": "2022-06-30",
+        "datePublication": "2022-07-01",
+        "dateFin": "2024-06-09",
+        "preseance": "8",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Vice-Président",
+          "libQualite": "Vice-président",
+          "libQualiteSex": "Vice-président"
+        },
+        "organes": {
+          "organeRef": "PO59046"
         }
       },
       {

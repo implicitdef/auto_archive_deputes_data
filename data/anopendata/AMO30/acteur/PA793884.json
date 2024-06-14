@@ -30,7 +30,9 @@
       "famSocPro": "Cadres et professions intellectuelles supérieures"
     }
   },
-  "uri_hatvp": "https://www.hatvp.fr/pages_nominatives/rome-sebastien-24186",
+  "uri_hatvp": {
+    "@xsi:nil": "true"
+  },
   "adresses": {
     "adresse": [
       {
@@ -142,6 +144,26 @@
         }
       },
       {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM810899",
+        "acteurRef": "PA793884",
+        "legislature": "16",
+        "typeOrgane": "GEVI",
+        "dateDebut": "2022-12-09",
+        "datePublication": null,
+        "dateFin": "2024-06-09",
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO807106"
+        }
+      },
+      {
         "@xsi:type": "MandatMission_Type",
         "uid": "PM833383",
         "acteurRef": "PA793884",
@@ -163,26 +185,6 @@
         "libelle": null,
         "missionSuivanteRef": null,
         "missionPrecedenteRef": null
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM810899",
-        "acteurRef": "PA793884",
-        "legislature": "16",
-        "typeOrgane": "GEVI",
-        "dateDebut": "2022-12-09",
-        "datePublication": null,
-        "dateFin": "2024-06-09",
-        "preseance": "20",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Membre",
-          "libQualite": "Membre",
-          "libQualiteSex": "Membre"
-        },
-        "organes": {
-          "organeRef": "PO807106"
-        }
       },
       {
         "@xsi:type": "MandatMission_Type",
@@ -318,6 +320,26 @@
       },
       {
         "@xsi:type": "MandatSimple_Type",
+        "uid": "PM831030",
+        "acteurRef": "PA793884",
+        "legislature": "16",
+        "typeOrgane": "CMP",
+        "dateDebut": "2023-11-02",
+        "datePublication": "2023-11-07",
+        "dateFin": "2023-12-18",
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Titulaire",
+          "libQualite": "Membre titulaire",
+          "libQualiteSex": "Membre titulaire"
+        },
+        "organes": {
+          "organeRef": "PO830672"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
         "uid": "PM801595",
         "acteurRef": "PA793884",
         "legislature": "16",
@@ -354,26 +376,6 @@
         },
         "organes": {
           "organeRef": "PO59048"
-        }
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM831030",
-        "acteurRef": "PA793884",
-        "legislature": "16",
-        "typeOrgane": "CMP",
-        "dateDebut": "2023-11-02",
-        "datePublication": "2023-11-07",
-        "dateFin": "2023-12-18",
-        "preseance": "20",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Titulaire",
-          "libQualite": "Membre titulaire",
-          "libQualiteSex": "Membre titulaire"
-        },
-        "organes": {
-          "organeRef": "PO830672"
         }
       },
       {

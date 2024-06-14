@@ -30,7 +30,9 @@
       "famSocPro": "Cadres et professions intellectuelles supérieures"
     }
   },
-  "uri_hatvp": "https://www.hatvp.fr/pages_nominatives/haury-yannick",
+  "uri_hatvp": {
+    "@xsi:nil": "true"
+  },
   "adresses": {
     "adresse": [
       {
@@ -125,6 +127,26 @@
         "missionPrecedenteRef": null
       },
       {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM825392",
+        "acteurRef": "PA720054",
+        "legislature": "16",
+        "typeOrgane": "DELEG",
+        "dateDebut": "2023-06-22",
+        "datePublication": "2023-06-22",
+        "dateFin": "2023-06-22",
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO675659"
+        }
+      },
+      {
         "@xsi:type": "MandatMission_Type",
         "uid": "PM762401",
         "acteurRef": "PA720054",
@@ -146,26 +168,6 @@
         "libelle": null,
         "missionSuivanteRef": null,
         "missionPrecedenteRef": null
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM825392",
-        "acteurRef": "PA720054",
-        "legislature": "16",
-        "typeOrgane": "DELEG",
-        "dateDebut": "2023-06-22",
-        "datePublication": "2023-06-22",
-        "dateFin": "2023-06-22",
-        "preseance": "20",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Membre",
-          "libQualite": "Membre",
-          "libQualiteSex": "Membre"
-        },
-        "organes": {
-          "organeRef": "PO675659"
-        }
       },
       {
         "@xsi:type": "MandatMission_Type",
@@ -271,29 +273,6 @@
         }
       },
       {
-        "@xsi:type": "MandatMission_Type",
-        "uid": "PM783070",
-        "acteurRef": "PA720054",
-        "legislature": "15",
-        "typeOrgane": "MISINFO",
-        "dateDebut": "2021-05-12",
-        "datePublication": null,
-        "dateFin": "2022-01-26",
-        "preseance": "10",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Membre",
-          "libQualite": "Membre",
-          "libQualiteSex": "Membre"
-        },
-        "organes": {
-          "organeRef": "PO783038"
-        },
-        "libelle": null,
-        "missionSuivanteRef": null,
-        "missionPrecedenteRef": null
-      },
-      {
         "@xsi:type": "MandatSimple_Type",
         "uid": "PM815066",
         "acteurRef": "PA720054",
@@ -354,6 +333,49 @@
         }
       },
       {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM809916",
+        "acteurRef": "PA720054",
+        "legislature": "16",
+        "typeOrgane": "GEVI",
+        "dateDebut": "2022-12-08",
+        "datePublication": null,
+        "dateFin": "2024-06-09",
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO808156"
+        }
+      },
+      {
+        "@xsi:type": "MandatMission_Type",
+        "uid": "PM783070",
+        "acteurRef": "PA720054",
+        "legislature": "15",
+        "typeOrgane": "MISINFO",
+        "dateDebut": "2021-05-12",
+        "datePublication": null,
+        "dateFin": "2022-01-26",
+        "preseance": "10",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO783038"
+        },
+        "libelle": null,
+        "missionSuivanteRef": null,
+        "missionPrecedenteRef": null
+      },
+      {
         "@xsi:type": "MandatMission_Type",
         "uid": "PM740608",
         "acteurRef": "PA720054",
@@ -375,26 +397,6 @@
         "libelle": null,
         "missionSuivanteRef": null,
         "missionPrecedenteRef": null
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM809916",
-        "acteurRef": "PA720054",
-        "legislature": "16",
-        "typeOrgane": "GEVI",
-        "dateDebut": "2022-12-08",
-        "datePublication": null,
-        "dateFin": "2024-06-09",
-        "preseance": "20",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Membre",
-          "libQualite": "Membre",
-          "libQualiteSex": "Membre"
-        },
-        "organes": {
-          "organeRef": "PO808156"
-        }
       },
       {
         "@xsi:type": "MandatMission_Type",
@@ -483,6 +485,29 @@
         }
       },
       {
+        "@xsi:type": "MandatMission_Type",
+        "uid": "PM751201",
+        "acteurRef": "PA720054",
+        "legislature": "15",
+        "typeOrgane": "MISINFOPRE",
+        "dateDebut": "2017-11-23",
+        "datePublication": "2017-11-24",
+        "dateFin": "2018-11-14",
+        "preseance": "16",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Rapporteur",
+          "libQualite": "Rapporteur",
+          "libQualiteSex": "Rapporteur"
+        },
+        "organes": {
+          "organeRef": "PO743158"
+        },
+        "libelle": null,
+        "missionSuivanteRef": null,
+        "missionPrecedenteRef": null
+      },
+      {
         "@xsi:type": "MandatSimple_Type",
         "uid": "PM800662",
         "acteurRef": "PA720054",
@@ -521,29 +546,6 @@
         "organes": {
           "organeRef": "PO730964"
         }
-      },
-      {
-        "@xsi:type": "MandatMission_Type",
-        "uid": "PM751201",
-        "acteurRef": "PA720054",
-        "legislature": "15",
-        "typeOrgane": "MISINFOPRE",
-        "dateDebut": "2017-11-23",
-        "datePublication": "2017-11-24",
-        "dateFin": "2018-11-14",
-        "preseance": "16",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Rapporteur",
-          "libQualite": "Rapporteur",
-          "libQualiteSex": "Rapporteur"
-        },
-        "organes": {
-          "organeRef": "PO743158"
-        },
-        "libelle": null,
-        "missionSuivanteRef": null,
-        "missionPrecedenteRef": null
       },
       {
         "@xsi:type": "MandatSimple_Type",

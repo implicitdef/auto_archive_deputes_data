@@ -30,7 +30,9 @@
       "famSocPro": "Cadres et professions intellectuelles supérieures"
     }
   },
-  "uri_hatvp": "https://www.hatvp.fr/pages_nominatives/melchior-graziella",
+  "uri_hatvp": {
+    "@xsi:nil": "true"
+  },
   "adresses": {
     "adresse": [
       {
@@ -111,6 +113,26 @@
   "mandats": {
     "mandat": [
       {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM802081",
+        "acteurRef": "PA719338",
+        "legislature": "16",
+        "typeOrgane": "DELEG",
+        "dateDebut": "2022-07-13",
+        "datePublication": "2022-07-13",
+        "dateFin": "2024-06-09",
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO201269"
+        }
+      },
+      {
         "@xsi:type": "MandatMission_Type",
         "uid": "PM772741",
         "acteurRef": "PA719338",
@@ -132,26 +154,6 @@
         "libelle": null,
         "missionSuivanteRef": null,
         "missionPrecedenteRef": null
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM802081",
-        "acteurRef": "PA719338",
-        "legislature": "16",
-        "typeOrgane": "DELEG",
-        "dateDebut": "2022-07-13",
-        "datePublication": "2022-07-13",
-        "dateFin": "2024-06-09",
-        "preseance": "20",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Membre",
-          "libQualite": "Membre",
-          "libQualiteSex": "Membre"
-        },
-        "organes": {
-          "organeRef": "PO201269"
-        }
       },
       {
         "@xsi:type": "MandatSimple_Type",
@@ -1588,26 +1590,6 @@
       },
       {
         "@xsi:type": "MandatSimple_Type",
-        "uid": "PM767331",
-        "acteurRef": "PA719338",
-        "legislature": "15",
-        "typeOrgane": "COMPER",
-        "dateDebut": "2019-10-01",
-        "datePublication": "2019-10-02",
-        "dateFin": "2020-09-30",
-        "preseance": "16",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Secrétaire",
-          "libQualite": "Secrétaire",
-          "libQualiteSex": "Secrétaire"
-        },
-        "organes": {
-          "organeRef": "PO419610"
-        }
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
         "uid": "PM768975",
         "acteurRef": "PA719338",
         "legislature": "15",
@@ -1644,6 +1626,26 @@
         },
         "organes": {
           "organeRef": "PO835915"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM767331",
+        "acteurRef": "PA719338",
+        "legislature": "15",
+        "typeOrgane": "COMPER",
+        "dateDebut": "2019-10-01",
+        "datePublication": "2019-10-02",
+        "dateFin": "2020-09-30",
+        "preseance": "16",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Secrétaire",
+          "libQualite": "Secrétaire",
+          "libQualiteSex": "Secrétaire"
+        },
+        "organes": {
+          "organeRef": "PO419610"
         }
       },
       {

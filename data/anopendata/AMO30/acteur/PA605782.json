@@ -30,7 +30,9 @@
       "famSocPro": "Cadres et professions intellectuelles supérieures"
     }
   },
-  "uri_hatvp": "https://www.hatvp.fr/pages_nominatives/marcangeli-laurent",
+  "uri_hatvp": {
+    "@xsi:nil": "true"
+  },
   "adresses": {
     "adresse": [
       {
@@ -110,6 +112,26 @@
         "collaborateurs": null
       },
       {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM804469",
+        "acteurRef": "PA605782",
+        "legislature": "16",
+        "typeOrgane": "DELEG",
+        "dateDebut": "2022-09-23",
+        "datePublication": "2022-09-23",
+        "dateFin": "2024-04-10",
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO804431"
+        }
+      },
+      {
         "@xsi:type": "MandatMission_Type",
         "uid": "PM677411",
         "acteurRef": "PA605782",
@@ -131,26 +153,6 @@
         "libelle": null,
         "missionSuivanteRef": null,
         "missionPrecedenteRef": null
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM804469",
-        "acteurRef": "PA605782",
-        "legislature": "16",
-        "typeOrgane": "DELEG",
-        "dateDebut": "2022-09-23",
-        "datePublication": "2022-09-23",
-        "dateFin": "2024-04-10",
-        "preseance": "20",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Membre",
-          "libQualite": "Membre",
-          "libQualiteSex": "Membre"
-        },
-        "organes": {
-          "organeRef": "PO804431"
-        }
       },
       {
         "@xsi:type": "MandatSimple_Type",
@@ -900,6 +902,26 @@
       },
       {
         "@xsi:type": "MandatSimple_Type",
+        "uid": "PM825203",
+        "acteurRef": "PA605782",
+        "legislature": "16",
+        "typeOrgane": "CMP",
+        "dateDebut": "2023-06-15",
+        "datePublication": "2023-06-16",
+        "dateFin": "2023-06-29",
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Titulaire",
+          "libQualite": "Membre titulaire",
+          "libQualiteSex": "Membre titulaire"
+        },
+        "organes": {
+          "organeRef": "PO824749"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
         "uid": "PM805697",
         "acteurRef": "PA605782",
         "legislature": "16",
@@ -960,46 +982,6 @@
       },
       {
         "@xsi:type": "MandatSimple_Type",
-        "uid": "PM657083",
-        "acteurRef": "PA605782",
-        "legislature": "14",
-        "typeOrgane": "COMPER",
-        "dateDebut": "2012-06-28",
-        "datePublication": "2012-06-28",
-        "dateFin": "2013-06-10",
-        "preseance": "32",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Membre",
-          "libQualite": "Membre",
-          "libQualiteSex": "Membre"
-        },
-        "organes": {
-          "organeRef": "PO420120"
-        }
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM825203",
-        "acteurRef": "PA605782",
-        "legislature": "16",
-        "typeOrgane": "CMP",
-        "dateDebut": "2023-06-15",
-        "datePublication": "2023-06-16",
-        "dateFin": "2023-06-29",
-        "preseance": "20",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Titulaire",
-          "libQualite": "Membre titulaire",
-          "libQualiteSex": "Membre titulaire"
-        },
-        "organes": {
-          "organeRef": "PO824749"
-        }
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
         "uid": "PM825293",
         "acteurRef": "PA605782",
         "legislature": "16",
@@ -1016,6 +998,26 @@
         },
         "organes": {
           "organeRef": "PO824749"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM657083",
+        "acteurRef": "PA605782",
+        "legislature": "14",
+        "typeOrgane": "COMPER",
+        "dateDebut": "2012-06-28",
+        "datePublication": "2012-06-28",
+        "dateFin": "2013-06-10",
+        "preseance": "32",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO420120"
         }
       },
       {

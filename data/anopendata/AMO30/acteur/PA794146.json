@@ -32,7 +32,9 @@
       "famSocPro": "Retraités"
     }
   },
-  "uri_hatvp": "https://www.hatvp.fr/pages_nominatives/laernoes-julie-17811",
+  "uri_hatvp": {
+    "@xsi:nil": "true"
+  },
   "adresses": {
     "adresse": [
       {
@@ -120,6 +122,27 @@
         "suppleants": null
       },
       {
+        "@xsi:type": "MandatAvecSuppleant_Type",
+        "uid": "PM801988",
+        "acteurRef": "PA794146",
+        "legislature": "16",
+        "typeOrgane": "COMNL",
+        "dateDebut": "2022-07-06",
+        "datePublication": "2022-07-06",
+        "dateFin": "2024-01-23",
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO415287"
+        },
+        "suppleants": null
+      },
+      {
         "@xsi:type": "MandatMission_Type",
         "uid": "PM821577",
         "acteurRef": "PA794146",
@@ -141,27 +164,6 @@
         "libelle": null,
         "missionSuivanteRef": null,
         "missionPrecedenteRef": null
-      },
-      {
-        "@xsi:type": "MandatAvecSuppleant_Type",
-        "uid": "PM801988",
-        "acteurRef": "PA794146",
-        "legislature": "16",
-        "typeOrgane": "COMNL",
-        "dateDebut": "2022-07-06",
-        "datePublication": "2022-07-06",
-        "dateFin": "2024-01-23",
-        "preseance": "20",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Membre",
-          "libQualite": "Membre",
-          "libQualiteSex": "Membre"
-        },
-        "organes": {
-          "organeRef": "PO415287"
-        },
-        "suppleants": null
       },
       {
         "@xsi:type": "MandatMission_Type",
@@ -227,6 +229,26 @@
         }
       },
       {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM837751",
+        "acteurRef": "PA794146",
+        "legislature": "16",
+        "typeOrgane": "CNPS",
+        "dateDebut": "2024-05-14",
+        "datePublication": "2024-05-14",
+        "dateFin": "2024-06-09",
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO836892"
+        }
+      },
+      {
         "@xsi:type": "MandatMission_Type",
         "uid": "PM838138",
         "acteurRef": "PA794146",
@@ -248,26 +270,6 @@
         "libelle": null,
         "missionSuivanteRef": null,
         "missionPrecedenteRef": null
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM837751",
-        "acteurRef": "PA794146",
-        "legislature": "16",
-        "typeOrgane": "CNPS",
-        "dateDebut": "2024-05-14",
-        "datePublication": "2024-05-14",
-        "dateFin": "2024-06-09",
-        "preseance": "20",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Membre",
-          "libQualite": "Membre",
-          "libQualiteSex": "Membre"
-        },
-        "organes": {
-          "organeRef": "PO836892"
-        }
       },
       {
         "@xsi:type": "MandatSimple_Type",
@@ -347,6 +349,26 @@
         },
         "organes": {
           "organeRef": "PO800526"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM805400",
+        "acteurRef": "PA794146",
+        "legislature": "16",
+        "typeOrgane": "CNPE",
+        "dateDebut": "2022-10-26",
+        "datePublication": "2022-10-27",
+        "dateFin": "2023-03-30",
+        "preseance": "8",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Vice-Président",
+          "libQualite": "Vice-Président",
+          "libQualiteSex": "Vice-Présidente"
+        },
+        "organes": {
+          "organeRef": "PO805243"
         }
       },
       {
@@ -651,26 +673,6 @@
       },
       {
         "@xsi:type": "MandatSimple_Type",
-        "uid": "PM805400",
-        "acteurRef": "PA794146",
-        "legislature": "16",
-        "typeOrgane": "CNPE",
-        "dateDebut": "2022-10-26",
-        "datePublication": "2022-10-27",
-        "dateFin": "2023-03-30",
-        "preseance": "8",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Vice-Président",
-          "libQualite": "Vice-Président",
-          "libQualiteSex": "Vice-Présidente"
-        },
-        "organes": {
-          "organeRef": "PO805243"
-        }
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
         "uid": "PM803341",
         "acteurRef": "PA794146",
         "legislature": "16",
@@ -711,6 +713,26 @@
       },
       {
         "@xsi:type": "MandatSimple_Type",
+        "uid": "PM796738",
+        "acteurRef": "PA794146",
+        "legislature": "16",
+        "typeOrgane": "GP",
+        "dateDebut": "2022-06-22",
+        "datePublication": null,
+        "dateFin": "2022-06-28",
+        "preseance": "28",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Député non-inscrit",
+          "libQualite": "Député non-inscrit",
+          "libQualiteSex": "Députée non-inscrite"
+        },
+        "organes": {
+          "organeRef": "PO793087"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
         "uid": "PM825255",
         "acteurRef": "PA794146",
         "legislature": "16",
@@ -747,26 +769,6 @@
         },
         "organes": {
           "organeRef": "PO810736"
-        }
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM796738",
-        "acteurRef": "PA794146",
-        "legislature": "16",
-        "typeOrgane": "GP",
-        "dateDebut": "2022-06-22",
-        "datePublication": null,
-        "dateFin": "2022-06-28",
-        "preseance": "28",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Député non-inscrit",
-          "libQualite": "Député non-inscrit",
-          "libQualiteSex": "Députée non-inscrite"
-        },
-        "organes": {
-          "organeRef": "PO793087"
         }
       },
       {

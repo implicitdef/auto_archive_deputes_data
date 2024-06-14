@@ -32,7 +32,9 @@
       "famSocPro": "Cadres et professions intellectuelles supérieures"
     }
   },
-  "uri_hatvp": "https://www.hatvp.fr/pages_nominatives/schellenberger-raphael",
+  "uri_hatvp": {
+    "@xsi:nil": "true"
+  },
   "adresses": {
     "adresse": [
       {
@@ -152,6 +154,67 @@
         "suppleants": null
       },
       {
+        "@xsi:type": "MandatAvecSuppleant_Type",
+        "uid": "PM744646",
+        "acteurRef": "PA721314",
+        "legislature": "15",
+        "typeOrgane": "COMNL",
+        "dateDebut": "2017-12-05",
+        "datePublication": "2017-12-05",
+        "dateFin": "2019-06-13",
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO415287"
+        },
+        "suppleants": null
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM802140",
+        "acteurRef": "PA721314",
+        "legislature": "16",
+        "typeOrgane": "DELEG",
+        "dateDebut": "2022-07-13",
+        "datePublication": "2022-07-13",
+        "dateFin": "2024-06-09",
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO744127"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM759413",
+        "acteurRef": "PA721314",
+        "legislature": "15",
+        "typeOrgane": "DELEG",
+        "dateDebut": "2018-10-09",
+        "datePublication": "2018-10-10",
+        "dateFin": "2022-06-21",
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO744127"
+        }
+      },
+      {
         "@xsi:type": "MandatMission_Type",
         "uid": "PM738963",
         "acteurRef": "PA721314",
@@ -198,27 +261,6 @@
         "missionPrecedenteRef": null
       },
       {
-        "@xsi:type": "MandatAvecSuppleant_Type",
-        "uid": "PM744646",
-        "acteurRef": "PA721314",
-        "legislature": "15",
-        "typeOrgane": "COMNL",
-        "dateDebut": "2017-12-05",
-        "datePublication": "2017-12-05",
-        "dateFin": "2019-06-13",
-        "preseance": "20",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Membre",
-          "libQualite": "Membre",
-          "libQualiteSex": "Membre"
-        },
-        "organes": {
-          "organeRef": "PO415287"
-        },
-        "suppleants": null
-      },
-      {
         "@xsi:type": "MandatMission_Type",
         "uid": "PM748298",
         "acteurRef": "PA721314",
@@ -240,46 +282,6 @@
         "libelle": null,
         "missionSuivanteRef": null,
         "missionPrecedenteRef": null
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM802140",
-        "acteurRef": "PA721314",
-        "legislature": "16",
-        "typeOrgane": "DELEG",
-        "dateDebut": "2022-07-13",
-        "datePublication": "2022-07-13",
-        "dateFin": "2024-06-09",
-        "preseance": "20",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Membre",
-          "libQualite": "Membre",
-          "libQualiteSex": "Membre"
-        },
-        "organes": {
-          "organeRef": "PO744127"
-        }
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM759413",
-        "acteurRef": "PA721314",
-        "legislature": "15",
-        "typeOrgane": "DELEG",
-        "dateDebut": "2018-10-09",
-        "datePublication": "2018-10-10",
-        "dateFin": "2022-06-21",
-        "preseance": "20",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Membre",
-          "libQualite": "Membre",
-          "libQualiteSex": "Membre"
-        },
-        "organes": {
-          "organeRef": "PO744127"
-        }
       },
       {
         "@xsi:type": "MandatMission_Type",
@@ -345,6 +347,26 @@
         }
       },
       {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM738870",
+        "acteurRef": "PA721314",
+        "legislature": "15",
+        "typeOrgane": "GEVI",
+        "dateDebut": "2017-10-10",
+        "datePublication": null,
+        "dateFin": "2022-06-21",
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO733217"
+        }
+      },
+      {
         "@xsi:type": "MandatMission_Type",
         "uid": "PM779589",
         "acteurRef": "PA721314",
@@ -366,6 +388,26 @@
         "libelle": null,
         "missionSuivanteRef": null,
         "missionPrecedenteRef": null
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM825634",
+        "acteurRef": "PA721314",
+        "legislature": "16",
+        "typeOrgane": "CNPS",
+        "dateDebut": "2023-06-28",
+        "datePublication": "2023-06-28",
+        "dateFin": "2023-10-11",
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO825530"
+        }
       },
       {
         "@xsi:type": "MandatMission_Type",
@@ -414,6 +456,26 @@
         "missionPrecedenteRef": null
       },
       {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM781219",
+        "acteurRef": "PA721314",
+        "legislature": "15",
+        "typeOrgane": "CNPS",
+        "dateDebut": "2021-02-14",
+        "datePublication": "2021-02-14",
+        "dateFin": "2021-08-22",
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO780850"
+        }
+      },
+      {
         "@xsi:type": "MandatMission_Type",
         "uid": "PM782996",
         "acteurRef": "PA721314",
@@ -458,6 +520,26 @@
         "libelle": null,
         "missionSuivanteRef": null,
         "missionPrecedenteRef": null
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM838013",
+        "acteurRef": "PA721314",
+        "legislature": "16",
+        "typeOrgane": "CNPS",
+        "dateDebut": "2024-05-18",
+        "datePublication": "2024-05-18",
+        "dateFin": "2024-06-09",
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO837835"
+        }
       },
       {
         "@xsi:type": "MandatMission_Type",
@@ -596,86 +678,6 @@
         "libelle": null,
         "missionSuivanteRef": null,
         "missionPrecedenteRef": null
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM738870",
-        "acteurRef": "PA721314",
-        "legislature": "15",
-        "typeOrgane": "GEVI",
-        "dateDebut": "2017-10-10",
-        "datePublication": null,
-        "dateFin": "2022-06-21",
-        "preseance": "20",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Membre",
-          "libQualite": "Membre",
-          "libQualiteSex": "Membre"
-        },
-        "organes": {
-          "organeRef": "PO733217"
-        }
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM825634",
-        "acteurRef": "PA721314",
-        "legislature": "16",
-        "typeOrgane": "CNPS",
-        "dateDebut": "2023-06-28",
-        "datePublication": "2023-06-28",
-        "dateFin": "2023-10-11",
-        "preseance": "20",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Membre",
-          "libQualite": "Membre",
-          "libQualiteSex": "Membre"
-        },
-        "organes": {
-          "organeRef": "PO825530"
-        }
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM781219",
-        "acteurRef": "PA721314",
-        "legislature": "15",
-        "typeOrgane": "CNPS",
-        "dateDebut": "2021-02-14",
-        "datePublication": "2021-02-14",
-        "dateFin": "2021-08-22",
-        "preseance": "20",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Membre",
-          "libQualite": "Membre",
-          "libQualiteSex": "Membre"
-        },
-        "organes": {
-          "organeRef": "PO780850"
-        }
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM838013",
-        "acteurRef": "PA721314",
-        "legislature": "16",
-        "typeOrgane": "CNPS",
-        "dateDebut": "2024-05-18",
-        "datePublication": "2024-05-18",
-        "dateFin": "2024-06-09",
-        "preseance": "20",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Membre",
-          "libQualite": "Membre",
-          "libQualiteSex": "Membre"
-        },
-        "organes": {
-          "organeRef": "PO837835"
-        }
       },
       {
         "@xsi:type": "MandatSimple_Type",
@@ -848,6 +850,26 @@
       },
       {
         "@xsi:type": "MandatSimple_Type",
+        "uid": "PM805398",
+        "acteurRef": "PA721314",
+        "legislature": "16",
+        "typeOrgane": "CNPE",
+        "dateDebut": "2022-10-26",
+        "datePublication": "2022-10-27",
+        "dateFin": "2023-03-30",
+        "preseance": "1",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Président",
+          "libQualite": "Président",
+          "libQualiteSex": "Président"
+        },
+        "organes": {
+          "organeRef": "PO805243"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
         "uid": "PM769872",
         "acteurRef": "PA721314",
         "legislature": "15",
@@ -855,266 +877,6 @@
         "dateDebut": "2020-01-30",
         "datePublication": "2020-01-30",
         "dateFin": "2021-10-05",
-        "preseance": "32",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Membre",
-          "libQualite": "Membre",
-          "libQualiteSex": "Membre"
-        },
-        "organes": {
-          "organeRef": "PO59051"
-        }
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM786124",
-        "acteurRef": "PA721314",
-        "legislature": "15",
-        "typeOrgane": "COMPER",
-        "dateDebut": "2021-10-06",
-        "datePublication": "2021-10-06",
-        "dateFin": "2021-10-07",
-        "preseance": "32",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Membre",
-          "libQualite": "Membre",
-          "libQualiteSex": "Membre"
-        },
-        "organes": {
-          "organeRef": "PO419865"
-        }
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM755708",
-        "acteurRef": "PA721314",
-        "legislature": "15",
-        "typeOrgane": "COMPER",
-        "dateDebut": "2018-04-19",
-        "datePublication": "2018-04-19",
-        "dateFin": "2018-06-20",
-        "preseance": "32",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Membre",
-          "libQualite": "Membre",
-          "libQualiteSex": "Membre"
-        },
-        "organes": {
-          "organeRef": "PO59051"
-        }
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM821937",
-        "acteurRef": "PA721314",
-        "legislature": "16",
-        "typeOrgane": "COMPER",
-        "dateDebut": "2023-03-16",
-        "datePublication": "2023-03-16",
-        "dateFin": "2024-06-09",
-        "preseance": "32",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Membre",
-          "libQualite": "Membre",
-          "libQualiteSex": "Membre"
-        },
-        "organes": {
-          "organeRef": "PO59051"
-        }
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM755610",
-        "acteurRef": "PA721314",
-        "legislature": "15",
-        "typeOrgane": "COMPER",
-        "dateDebut": "2018-04-18",
-        "datePublication": "2018-04-18",
-        "dateFin": "2018-04-18",
-        "preseance": "32",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Membre",
-          "libQualite": "Membre",
-          "libQualiteSex": "Membre"
-        },
-        "organes": {
-          "organeRef": "PO419865"
-        }
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM821906",
-        "acteurRef": "PA721314",
-        "legislature": "16",
-        "typeOrgane": "COMPER",
-        "dateDebut": "2023-03-15",
-        "datePublication": "2023-03-15",
-        "dateFin": "2023-03-15",
-        "preseance": "32",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Membre",
-          "libQualite": "Membre",
-          "libQualiteSex": "Membre"
-        },
-        "organes": {
-          "organeRef": "PO59047"
-        }
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM758993",
-        "acteurRef": "PA721314",
-        "legislature": "15",
-        "typeOrgane": "COMPER",
-        "dateDebut": "2018-09-20",
-        "datePublication": "2018-09-20",
-        "dateFin": "2020-01-28",
-        "preseance": "32",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Membre",
-          "libQualite": "Membre",
-          "libQualiteSex": "Membre"
-        },
-        "organes": {
-          "organeRef": "PO59051"
-        }
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM757188",
-        "acteurRef": "PA721314",
-        "legislature": "15",
-        "typeOrgane": "COMPER",
-        "dateDebut": "2018-06-23",
-        "datePublication": "2018-06-23",
-        "dateFin": "2018-09-14",
-        "preseance": "32",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Membre",
-          "libQualite": "Membre",
-          "libQualiteSex": "Membre"
-        },
-        "organes": {
-          "organeRef": "PO59051"
-        }
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM757157",
-        "acteurRef": "PA721314",
-        "legislature": "15",
-        "typeOrgane": "COMPER",
-        "dateDebut": "2018-06-21",
-        "datePublication": "2018-06-21",
-        "dateFin": "2018-06-22",
-        "preseance": "32",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Membre",
-          "libQualite": "Membre",
-          "libQualiteSex": "Membre"
-        },
-        "organes": {
-          "organeRef": "PO419604"
-        }
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM786189",
-        "acteurRef": "PA721314",
-        "legislature": "15",
-        "typeOrgane": "COMPER",
-        "dateDebut": "2021-10-08",
-        "datePublication": "2021-10-08",
-        "dateFin": "2022-06-21",
-        "preseance": "32",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Membre",
-          "libQualite": "Membre",
-          "libQualiteSex": "Membre"
-        },
-        "organes": {
-          "organeRef": "PO59051"
-        }
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM758935",
-        "acteurRef": "PA721314",
-        "legislature": "15",
-        "typeOrgane": "COMPER",
-        "dateDebut": "2018-09-15",
-        "datePublication": "2018-09-15",
-        "dateFin": "2018-09-19",
-        "preseance": "32",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Membre",
-          "libQualite": "Membre",
-          "libQualiteSex": "Membre"
-        },
-        "organes": {
-          "organeRef": "PO419865"
-        }
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM731869",
-        "acteurRef": "PA721314",
-        "legislature": "15",
-        "typeOrgane": "COMPER",
-        "dateDebut": "2017-06-29",
-        "datePublication": "2017-06-29",
-        "dateFin": "2018-04-17",
-        "preseance": "32",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Membre",
-          "libQualite": "Membre",
-          "libQualiteSex": "Membre"
-        },
-        "organes": {
-          "organeRef": "PO59051"
-        }
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM769691",
-        "acteurRef": "PA721314",
-        "legislature": "15",
-        "typeOrgane": "COMPER",
-        "dateDebut": "2020-01-29",
-        "datePublication": "2020-01-29",
-        "dateFin": "2020-01-29",
-        "preseance": "32",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Membre",
-          "libQualite": "Membre",
-          "libQualiteSex": "Membre"
-        },
-        "organes": {
-          "organeRef": "PO419865"
-        }
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM801716",
-        "acteurRef": "PA721314",
-        "legislature": "16",
-        "typeOrgane": "COMPER",
-        "dateDebut": "2022-06-30",
-        "datePublication": "2022-06-30",
-        "dateFin": "2023-03-14",
         "preseance": "32",
         "nominPrincipale": "1",
         "infosQualite": {
@@ -1328,6 +1090,26 @@
       },
       {
         "@xsi:type": "MandatSimple_Type",
+        "uid": "PM786124",
+        "acteurRef": "PA721314",
+        "legislature": "15",
+        "typeOrgane": "COMPER",
+        "dateDebut": "2021-10-06",
+        "datePublication": "2021-10-06",
+        "dateFin": "2021-10-07",
+        "preseance": "32",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO419865"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
         "uid": "PM825471",
         "acteurRef": "PA721314",
         "legislature": "16",
@@ -1344,6 +1126,26 @@
         },
         "organes": {
           "organeRef": "PO825231"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM755708",
+        "acteurRef": "PA721314",
+        "legislature": "15",
+        "typeOrgane": "COMPER",
+        "dateDebut": "2018-04-19",
+        "datePublication": "2018-04-19",
+        "dateFin": "2018-06-20",
+        "preseance": "32",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO59051"
         }
       },
       {
@@ -1388,22 +1190,82 @@
       },
       {
         "@xsi:type": "MandatSimple_Type",
-        "uid": "PM805398",
+        "uid": "PM821937",
         "acteurRef": "PA721314",
         "legislature": "16",
-        "typeOrgane": "CNPE",
-        "dateDebut": "2022-10-26",
-        "datePublication": "2022-10-27",
-        "dateFin": "2023-03-30",
-        "preseance": "1",
+        "typeOrgane": "COMPER",
+        "dateDebut": "2023-03-16",
+        "datePublication": "2023-03-16",
+        "dateFin": "2024-06-09",
+        "preseance": "32",
         "nominPrincipale": "1",
         "infosQualite": {
-          "codeQualite": "Président",
-          "libQualite": "Président",
-          "libQualiteSex": "Président"
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
         },
         "organes": {
-          "organeRef": "PO805243"
+          "organeRef": "PO59051"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM755610",
+        "acteurRef": "PA721314",
+        "legislature": "15",
+        "typeOrgane": "COMPER",
+        "dateDebut": "2018-04-18",
+        "datePublication": "2018-04-18",
+        "dateFin": "2018-04-18",
+        "preseance": "32",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO419865"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM821906",
+        "acteurRef": "PA721314",
+        "legislature": "16",
+        "typeOrgane": "COMPER",
+        "dateDebut": "2023-03-15",
+        "datePublication": "2023-03-15",
+        "dateFin": "2023-03-15",
+        "preseance": "32",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO59047"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM758993",
+        "acteurRef": "PA721314",
+        "legislature": "15",
+        "typeOrgane": "COMPER",
+        "dateDebut": "2018-09-20",
+        "datePublication": "2018-09-20",
+        "dateFin": "2020-01-28",
+        "preseance": "32",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO59051"
         }
       },
       {
@@ -1468,6 +1330,26 @@
       },
       {
         "@xsi:type": "MandatSimple_Type",
+        "uid": "PM757188",
+        "acteurRef": "PA721314",
+        "legislature": "15",
+        "typeOrgane": "COMPER",
+        "dateDebut": "2018-06-23",
+        "datePublication": "2018-06-23",
+        "dateFin": "2018-09-14",
+        "preseance": "32",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO59051"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
         "uid": "PM802783",
         "acteurRef": "PA721314",
         "legislature": "16",
@@ -1504,6 +1386,46 @@
         },
         "organes": {
           "organeRef": "PO789151"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM757157",
+        "acteurRef": "PA721314",
+        "legislature": "15",
+        "typeOrgane": "COMPER",
+        "dateDebut": "2018-06-21",
+        "datePublication": "2018-06-21",
+        "dateFin": "2018-06-22",
+        "preseance": "32",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO419604"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM786189",
+        "acteurRef": "PA721314",
+        "legislature": "15",
+        "typeOrgane": "COMPER",
+        "dateDebut": "2021-10-08",
+        "datePublication": "2021-10-08",
+        "dateFin": "2022-06-21",
+        "preseance": "32",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO59051"
         }
       },
       {
@@ -1628,6 +1550,26 @@
       },
       {
         "@xsi:type": "MandatSimple_Type",
+        "uid": "PM758935",
+        "acteurRef": "PA721314",
+        "legislature": "15",
+        "typeOrgane": "COMPER",
+        "dateDebut": "2018-09-15",
+        "datePublication": "2018-09-15",
+        "dateFin": "2018-09-19",
+        "preseance": "32",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO419865"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
         "uid": "PM778984",
         "acteurRef": "PA721314",
         "legislature": "15",
@@ -1644,6 +1586,26 @@
         },
         "organes": {
           "organeRef": "PO778858"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM731869",
+        "acteurRef": "PA721314",
+        "legislature": "15",
+        "typeOrgane": "COMPER",
+        "dateDebut": "2017-06-29",
+        "datePublication": "2017-06-29",
+        "dateFin": "2018-04-17",
+        "preseance": "32",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO59051"
         }
       },
       {
@@ -1724,6 +1686,46 @@
         },
         "organes": {
           "organeRef": "PO776050"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM769691",
+        "acteurRef": "PA721314",
+        "legislature": "15",
+        "typeOrgane": "COMPER",
+        "dateDebut": "2020-01-29",
+        "datePublication": "2020-01-29",
+        "dateFin": "2020-01-29",
+        "preseance": "32",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO419865"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM801716",
+        "acteurRef": "PA721314",
+        "legislature": "16",
+        "typeOrgane": "COMPER",
+        "dateDebut": "2022-06-30",
+        "datePublication": "2022-06-30",
+        "dateFin": "2023-03-14",
+        "preseance": "32",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO59051"
         }
       },
       {
@@ -2328,6 +2330,26 @@
       },
       {
         "@xsi:type": "MandatSimple_Type",
+        "uid": "PM724659",
+        "acteurRef": "PA721314",
+        "legislature": "15",
+        "typeOrgane": "GP",
+        "dateDebut": "2017-06-21",
+        "datePublication": null,
+        "dateFin": "2017-06-26",
+        "preseance": "28",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Député non-inscrit",
+          "libQualite": "Député non-inscrit",
+          "libQualiteSex": "Député non-inscrit"
+        },
+        "organes": {
+          "organeRef": "PO723569"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
         "uid": "PM765412",
         "acteurRef": "PA721314",
         "legislature": "15",
@@ -2484,6 +2506,26 @@
         },
         "organes": {
           "organeRef": "PO810607"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM797152",
+        "acteurRef": "PA721314",
+        "legislature": "16",
+        "typeOrgane": "GP",
+        "dateDebut": "2022-06-22",
+        "datePublication": null,
+        "dateFin": "2022-06-28",
+        "preseance": "28",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Député non-inscrit",
+          "libQualite": "Député non-inscrit",
+          "libQualiteSex": "Député non-inscrit"
+        },
+        "organes": {
+          "organeRef": "PO793087"
         }
       },
       {
@@ -2684,46 +2726,6 @@
         },
         "organes": {
           "organeRef": "PO807603"
-        }
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM724659",
-        "acteurRef": "PA721314",
-        "legislature": "15",
-        "typeOrgane": "GP",
-        "dateDebut": "2017-06-21",
-        "datePublication": null,
-        "dateFin": "2017-06-26",
-        "preseance": "28",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Député non-inscrit",
-          "libQualite": "Député non-inscrit",
-          "libQualiteSex": "Député non-inscrit"
-        },
-        "organes": {
-          "organeRef": "PO723569"
-        }
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM797152",
-        "acteurRef": "PA721314",
-        "legislature": "16",
-        "typeOrgane": "GP",
-        "dateDebut": "2022-06-22",
-        "datePublication": null,
-        "dateFin": "2022-06-28",
-        "preseance": "28",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Député non-inscrit",
-          "libQualite": "Député non-inscrit",
-          "libQualiteSex": "Député non-inscrit"
-        },
-        "organes": {
-          "organeRef": "PO793087"
         }
       },
       {

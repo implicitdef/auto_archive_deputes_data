@@ -30,7 +30,9 @@
       "famSocPro": "Cadres et professions intellectuelles supérieures"
     }
   },
-  "uri_hatvp": "https://www.hatvp.fr/pages_nominatives/kamardine-mansour",
+  "uri_hatvp": {
+    "@xsi:nil": "true"
+  },
   "adresses": {
     "adresse": [
       {
@@ -266,29 +268,6 @@
         }
       },
       {
-        "@xsi:type": "MandatMission_Type",
-        "uid": "PM835332",
-        "acteurRef": "PA267901",
-        "legislature": "16",
-        "typeOrgane": "MISINFO",
-        "dateDebut": "2024-02-28",
-        "datePublication": null,
-        "dateFin": "2024-06-09",
-        "preseance": "9",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Rapporteur",
-          "libQualite": "Rapporteur",
-          "libQualiteSex": "Rapporteur"
-        },
-        "organes": {
-          "organeRef": "PO835328"
-        },
-        "libelle": null,
-        "missionSuivanteRef": null,
-        "missionPrecedenteRef": null
-      },
-      {
         "@xsi:type": "MandatSimple_Type",
         "uid": "PM803692",
         "acteurRef": "PA267901",
@@ -369,29 +348,6 @@
         }
       },
       {
-        "@xsi:type": "MandatMission_Type",
-        "uid": "PM835331",
-        "acteurRef": "PA267901",
-        "legislature": "16",
-        "typeOrgane": "MISINFO",
-        "dateDebut": "2024-02-28",
-        "datePublication": null,
-        "dateFin": "2024-06-09",
-        "preseance": "10",
-        "nominPrincipale": "0",
-        "infosQualite": {
-          "codeQualite": "Membre",
-          "libQualite": "Membre",
-          "libQualiteSex": "Membre"
-        },
-        "organes": {
-          "organeRef": "PO835328"
-        },
-        "libelle": null,
-        "missionSuivanteRef": null,
-        "missionPrecedenteRef": null
-      },
-      {
         "@xsi:type": "MandatSimple_Type",
         "uid": "PM805140",
         "acteurRef": "PA267901",
@@ -450,6 +406,52 @@
         "organes": {
           "organeRef": "PO779099"
         }
+      },
+      {
+        "@xsi:type": "MandatMission_Type",
+        "uid": "PM835332",
+        "acteurRef": "PA267901",
+        "legislature": "16",
+        "typeOrgane": "MISINFO",
+        "dateDebut": "2024-02-28",
+        "datePublication": null,
+        "dateFin": "2024-06-09",
+        "preseance": "9",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Rapporteur",
+          "libQualite": "Rapporteur",
+          "libQualiteSex": "Rapporteur"
+        },
+        "organes": {
+          "organeRef": "PO835328"
+        },
+        "libelle": null,
+        "missionSuivanteRef": null,
+        "missionPrecedenteRef": null
+      },
+      {
+        "@xsi:type": "MandatMission_Type",
+        "uid": "PM835331",
+        "acteurRef": "PA267901",
+        "legislature": "16",
+        "typeOrgane": "MISINFO",
+        "dateDebut": "2024-02-28",
+        "datePublication": null,
+        "dateFin": "2024-06-09",
+        "preseance": "10",
+        "nominPrincipale": "0",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO835328"
+        },
+        "libelle": null,
+        "missionSuivanteRef": null,
+        "missionPrecedenteRef": null
       },
       {
         "@xsi:type": "MandatSimple_Type",
@@ -649,6 +651,26 @@
         },
         "organes": {
           "organeRef": "PO201115"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM833296",
+        "acteurRef": "PA267901",
+        "legislature": "16",
+        "typeOrgane": "CNPE",
+        "dateDebut": "2023-12-20",
+        "datePublication": "2023-12-21",
+        "dateFin": "2024-05-27",
+        "preseance": "1",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Président",
+          "libQualite": "Président",
+          "libQualiteSex": "Président"
+        },
+        "organes": {
+          "organeRef": "PO832903"
         }
       },
       {
@@ -1309,26 +1331,6 @@
         },
         "organes": {
           "organeRef": "PO59046"
-        }
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM833296",
-        "acteurRef": "PA267901",
-        "legislature": "16",
-        "typeOrgane": "CNPE",
-        "dateDebut": "2023-12-20",
-        "datePublication": "2023-12-21",
-        "dateFin": "2024-05-27",
-        "preseance": "1",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Président",
-          "libQualite": "Président",
-          "libQualiteSex": "Président"
-        },
-        "organes": {
-          "organeRef": "PO832903"
         }
       },
       {

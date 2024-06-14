@@ -123,6 +123,27 @@
         }
       },
       {
+        "@xsi:type": "MandatAvecSuppleant_Type",
+        "uid": "PM420614",
+        "acteurRef": "PA1893",
+        "legislature": "13",
+        "typeOrgane": "COMNL",
+        "dateDebut": "2009-07-01",
+        "datePublication": "2009-07-01",
+        "dateFin": "2009-10-26",
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO415287"
+        },
+        "suppleants": null
+      },
+      {
         "@xsi:type": "MandatSimple_Type",
         "uid": "PM15702968",
         "acteurRef": "PA1893",
@@ -201,27 +222,6 @@
         "organes": {
           "organeRef": "PO653199"
         }
-      },
-      {
-        "@xsi:type": "MandatAvecSuppleant_Type",
-        "uid": "PM420614",
-        "acteurRef": "PA1893",
-        "legislature": "13",
-        "typeOrgane": "COMNL",
-        "dateDebut": "2009-07-01",
-        "datePublication": "2009-07-01",
-        "dateFin": "2009-10-26",
-        "preseance": "20",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Membre",
-          "libQualite": "Membre",
-          "libQualiteSex": "Membre"
-        },
-        "organes": {
-          "organeRef": "PO415287"
-        },
-        "suppleants": null
       },
       {
         "@xsi:type": "MandatSimple_Type",
@@ -364,29 +364,6 @@
         }
       },
       {
-        "@xsi:type": "MandatMission_Type",
-        "uid": "PM713056",
-        "acteurRef": "PA1893",
-        "legislature": "14",
-        "typeOrgane": "MISINFO",
-        "dateDebut": "2016-05-11",
-        "datePublication": null,
-        "dateFin": "2017-02-21",
-        "preseance": "10",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Membre",
-          "libQualite": "Membre",
-          "libQualiteSex": "Membre"
-        },
-        "organes": {
-          "organeRef": "PO712526"
-        },
-        "libelle": null,
-        "missionSuivanteRef": null,
-        "missionPrecedenteRef": null
-      },
-      {
         "@xsi:type": "MandatSimple_Type",
         "uid": "PM403381",
         "acteurRef": "PA1893",
@@ -427,6 +404,49 @@
         }
       },
       {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM276757",
+        "acteurRef": "PA1893",
+        "legislature": "12",
+        "typeOrgane": "API",
+        "dateDebut": "2002-07-30",
+        "datePublication": null,
+        "dateFin": "2007-06-19",
+        "preseance": "38",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Secrétaire",
+          "libQualite": "Secrétaire",
+          "libQualiteSex": "Secrétaire"
+        },
+        "organes": {
+          "organeRef": "PO206064"
+        }
+      },
+      {
+        "@xsi:type": "MandatMission_Type",
+        "uid": "PM713056",
+        "acteurRef": "PA1893",
+        "legislature": "14",
+        "typeOrgane": "MISINFO",
+        "dateDebut": "2016-05-11",
+        "datePublication": null,
+        "dateFin": "2017-02-21",
+        "preseance": "10",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO712526"
+        },
+        "libelle": null,
+        "missionSuivanteRef": null,
+        "missionPrecedenteRef": null
+      },
+      {
         "@xsi:type": "MandatMission_Type",
         "uid": "PM714498",
         "acteurRef": "PA1893",
@@ -448,26 +468,6 @@
         "libelle": null,
         "missionSuivanteRef": null,
         "missionPrecedenteRef": null
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM276757",
-        "acteurRef": "PA1893",
-        "legislature": "12",
-        "typeOrgane": "API",
-        "dateDebut": "2002-07-30",
-        "datePublication": null,
-        "dateFin": "2007-06-19",
-        "preseance": "38",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Secrétaire",
-          "libQualite": "Secrétaire",
-          "libQualiteSex": "Secrétaire"
-        },
-        "organes": {
-          "organeRef": "PO206064"
-        }
       },
       {
         "@xsi:type": "MandatSimple_Type",
@@ -908,46 +908,6 @@
         "organes": {
           "organeRef": "PO285079"
         }
-      },
-      {
-        "@xsi:type": "MandatParlementaire_type",
-        "uid": "PM390340",
-        "acteurRef": "PA1893",
-        "legislature": "13",
-        "typeOrgane": "BUREAU",
-        "dateDebut": "2007-06-27",
-        "datePublication": "2007-06-28",
-        "dateFin": "2012-06-16",
-        "preseance": "12",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Questeur",
-          "libQualite": "Questeur de l'Assemblée nationale",
-          "libQualiteSex": "Questeure de l'Assemblée nationale"
-        },
-        "organes": {
-          "organeRef": "PO389368"
-        },
-        "suppleants": null,
-        "chambre": null,
-        "election": {
-          "lieu": {
-            "region": null,
-            "regionType": null,
-            "departement": null,
-            "numDepartement": null,
-            "numCirco": null
-          },
-          "causeMandat": null
-        },
-        "mandature": {
-          "datePriseFonction": null,
-          "causeFin": null,
-          "premiereElection": "0",
-          "placeHemicycle": null,
-          "mandatRemplaceRef": null
-        },
-        "collaborateurs": null
       },
       {
         "@xsi:type": "MandatSimple_Type",
@@ -1508,6 +1468,46 @@
         "organes": {
           "organeRef": "PO285126"
         }
+      },
+      {
+        "@xsi:type": "MandatParlementaire_type",
+        "uid": "PM390340",
+        "acteurRef": "PA1893",
+        "legislature": "13",
+        "typeOrgane": "BUREAU",
+        "dateDebut": "2007-06-27",
+        "datePublication": "2007-06-28",
+        "dateFin": "2012-06-16",
+        "preseance": "12",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Questeur",
+          "libQualite": "Questeur de l'Assemblée nationale",
+          "libQualiteSex": "Questeure de l'Assemblée nationale"
+        },
+        "organes": {
+          "organeRef": "PO389368"
+        },
+        "suppleants": null,
+        "chambre": null,
+        "election": {
+          "lieu": {
+            "region": null,
+            "regionType": null,
+            "departement": null,
+            "numDepartement": null,
+            "numCirco": null
+          },
+          "causeMandat": null
+        },
+        "mandature": {
+          "datePriseFonction": null,
+          "causeFin": null,
+          "premiereElection": "0",
+          "placeHemicycle": null,
+          "mandatRemplaceRef": null
+        },
+        "collaborateurs": null
       },
       {
         "@xsi:type": "MandatSimple_Type",

@@ -30,7 +30,9 @@
       "famSocPro": "Professions Intermédiaires"
     }
   },
-  "uri_hatvp": "https://www.hatvp.fr/pages_nominatives/kochert-stephanie-24212",
+  "uri_hatvp": {
+    "@xsi:nil": "true"
+  },
   "adresses": {
     "adresse": [
       {
@@ -237,6 +239,49 @@
       },
       {
         "@xsi:type": "MandatSimple_Type",
+        "uid": "PM804525",
+        "acteurRef": "PA794818",
+        "legislature": "16",
+        "typeOrgane": "API",
+        "dateDebut": "2022-09-26",
+        "datePublication": null,
+        "dateFin": "2024-06-09",
+        "preseance": "4",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Vice-Président",
+          "libQualite": "Vice-Président",
+          "libQualiteSex": "Vice-Présidente"
+        },
+        "organes": {
+          "organeRef": "PO304272"
+        }
+      },
+      {
+        "@xsi:type": "MandatMission_Type",
+        "uid": "PM825822",
+        "acteurRef": "PA794818",
+        "legislature": "16",
+        "typeOrgane": "MISINFO",
+        "dateDebut": "2023-06-28",
+        "datePublication": null,
+        "dateFin": "2024-06-09",
+        "preseance": "5",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Co-rapporteur",
+          "libQualite": "Co-rapporteur",
+          "libQualiteSex": "Co-rapporteure"
+        },
+        "organes": {
+          "organeRef": "PO825814"
+        },
+        "libelle": null,
+        "missionSuivanteRef": null,
+        "missionPrecedenteRef": null
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
         "uid": "PM801229",
         "acteurRef": "PA794818",
         "legislature": "16",
@@ -294,49 +339,6 @@
         "organes": {
           "organeRef": "PO419865"
         }
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM804525",
-        "acteurRef": "PA794818",
-        "legislature": "16",
-        "typeOrgane": "API",
-        "dateDebut": "2022-09-26",
-        "datePublication": null,
-        "dateFin": "2024-06-09",
-        "preseance": "4",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Vice-Président",
-          "libQualite": "Vice-Président",
-          "libQualiteSex": "Vice-Présidente"
-        },
-        "organes": {
-          "organeRef": "PO304272"
-        }
-      },
-      {
-        "@xsi:type": "MandatMission_Type",
-        "uid": "PM825822",
-        "acteurRef": "PA794818",
-        "legislature": "16",
-        "typeOrgane": "MISINFO",
-        "dateDebut": "2023-06-28",
-        "datePublication": null,
-        "dateFin": "2024-06-09",
-        "preseance": "5",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Co-rapporteur",
-          "libQualite": "Co-rapporteur",
-          "libQualiteSex": "Co-rapporteure"
-        },
-        "organes": {
-          "organeRef": "PO825814"
-        },
-        "libelle": null,
-        "missionSuivanteRef": null,
-        "missionPrecedenteRef": null
       },
       {
         "@xsi:type": "MandatSimple_Type",
