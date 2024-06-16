@@ -432,6 +432,29 @@
         }
       },
       {
+        "@xsi:type": "MandatMission_Type",
+        "uid": "PM678396",
+        "acteurRef": "PA2792",
+        "legislature": "14",
+        "typeOrgane": "MISINFOPRE",
+        "dateDebut": "2012-09-25",
+        "datePublication": "2012-09-26",
+        "dateFin": "2013-03-27",
+        "preseance": "8",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Secrétaire",
+          "libQualite": "Secrétaire",
+          "libQualiteSex": "Secrétaire"
+        },
+        "organes": {
+          "organeRef": "PO677887"
+        },
+        "libelle": null,
+        "missionSuivanteRef": null,
+        "missionPrecedenteRef": null
+      },
+      {
         "@xsi:type": "MandatSimple_Type",
         "uid": "PM389984",
         "acteurRef": "PA2792",
@@ -533,29 +556,6 @@
       },
       {
         "@xsi:type": "MandatMission_Type",
-        "uid": "PM678396",
-        "acteurRef": "PA2792",
-        "legislature": "14",
-        "typeOrgane": "MISINFOPRE",
-        "dateDebut": "2012-09-25",
-        "datePublication": "2012-09-26",
-        "dateFin": "2013-03-27",
-        "preseance": "8",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Secrétaire",
-          "libQualite": "Secrétaire",
-          "libQualiteSex": "Secrétaire"
-        },
-        "organes": {
-          "organeRef": "PO677887"
-        },
-        "libelle": null,
-        "missionSuivanteRef": null,
-        "missionPrecedenteRef": null
-      },
-      {
-        "@xsi:type": "MandatMission_Type",
         "uid": "PM707457",
         "acteurRef": "PA2792",
         "legislature": "14",
@@ -619,26 +619,6 @@
       },
       {
         "@xsi:type": "MandatSimple_Type",
-        "uid": "PM713920",
-        "acteurRef": "PA2792",
-        "legislature": "14",
-        "typeOrgane": "CMP",
-        "dateDebut": "2016-06-23",
-        "datePublication": "2016-06-24",
-        "dateFin": "2016-07-05",
-        "preseance": "20",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Titulaire",
-          "libQualite": "Membre titulaire",
-          "libQualiteSex": "Membre titulaire"
-        },
-        "organes": {
-          "organeRef": "PO713876"
-        }
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
         "uid": "PM420478",
         "acteurRef": "PA2792",
         "legislature": "13",
@@ -679,26 +659,6 @@
       },
       {
         "@xsi:type": "MandatSimple_Type",
-        "uid": "PM394059",
-        "acteurRef": "PA2792",
-        "legislature": "13",
-        "typeOrgane": "CMP",
-        "dateDebut": "2007-07-30",
-        "datePublication": "2007-01-31",
-        "dateFin": "2007-07-31",
-        "preseance": "20",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Titulaire",
-          "libQualite": "Membre titulaire",
-          "libQualiteSex": "Membre titulaire"
-        },
-        "organes": {
-          "organeRef": "PO393978"
-        }
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
         "uid": "PM271693",
         "acteurRef": "PA2792",
         "legislature": "12",
@@ -715,26 +675,6 @@
         },
         "organes": {
           "organeRef": "PO277060"
-        }
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM475758",
-        "acteurRef": "PA2792",
-        "legislature": "13",
-        "typeOrgane": "CMP",
-        "dateDebut": "2012-01-13",
-        "datePublication": "2012-01-14",
-        "dateFin": "2012-02-29",
-        "preseance": "20",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Titulaire",
-          "libQualite": "Membre titulaire",
-          "libQualiteSex": "Membre titulaire"
-        },
-        "organes": {
-          "organeRef": "PO474593"
         }
       },
       {
@@ -775,6 +715,66 @@
         },
         "organes": {
           "organeRef": "PO419610"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM713920",
+        "acteurRef": "PA2792",
+        "legislature": "14",
+        "typeOrgane": "CMP",
+        "dateDebut": "2016-06-23",
+        "datePublication": "2016-06-24",
+        "dateFin": "2016-07-05",
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Titulaire",
+          "libQualite": "Membre titulaire",
+          "libQualiteSex": "Membre titulaire"
+        },
+        "organes": {
+          "organeRef": "PO713876"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM394059",
+        "acteurRef": "PA2792",
+        "legislature": "13",
+        "typeOrgane": "CMP",
+        "dateDebut": "2007-07-30",
+        "datePublication": "2007-01-31",
+        "dateFin": "2007-07-31",
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Titulaire",
+          "libQualite": "Membre titulaire",
+          "libQualiteSex": "Membre titulaire"
+        },
+        "organes": {
+          "organeRef": "PO393978"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM475758",
+        "acteurRef": "PA2792",
+        "legislature": "13",
+        "typeOrgane": "CMP",
+        "dateDebut": "2012-01-13",
+        "datePublication": "2012-01-14",
+        "dateFin": "2012-02-29",
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Titulaire",
+          "libQualite": "Membre titulaire",
+          "libQualiteSex": "Membre titulaire"
+        },
+        "organes": {
+          "organeRef": "PO474593"
         }
       },
       {

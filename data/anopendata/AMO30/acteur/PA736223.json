@@ -59,6 +59,26 @@
   "mandats": {
     "mandat": [
       {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM778429",
+        "acteurRef": "PA736223",
+        "legislature": null,
+        "typeOrgane": "DELEGSENAT",
+        "dateDebut": "2020-10-20",
+        "datePublication": null,
+        "dateFin": "2023-10-01",
+        "preseance": "4",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO420388"
+        }
+      },
+      {
         "@xsi:type": "MandatAvecSuppleant_Type",
         "uid": "PM776196",
         "acteurRef": "PA736223",
@@ -80,6 +100,26 @@
         "suppleants": null
       },
       {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM742186",
+        "acteurRef": "PA736223",
+        "legislature": null,
+        "typeOrgane": "DELEGSENAT",
+        "dateDebut": "2017-10-26",
+        "datePublication": null,
+        "dateFin": null,
+        "preseance": null,
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": null,
+          "libQualite": "Secrétaire",
+          "libQualiteSex": "Secrétaire"
+        },
+        "organes": {
+          "organeRef": "PO420388"
+        }
+      },
+      {
         "@xsi:type": "MandatAvecSuppleant_Type",
         "uid": "PM831513",
         "acteurRef": "PA736223",
@@ -99,46 +139,6 @@
           "organeRef": "PO273589"
         },
         "suppleants": null
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM778429",
-        "acteurRef": "PA736223",
-        "legislature": null,
-        "typeOrgane": "DELEGSENAT",
-        "dateDebut": "2020-10-20",
-        "datePublication": null,
-        "dateFin": "2023-10-01",
-        "preseance": "4",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Membre",
-          "libQualite": "Membre",
-          "libQualiteSex": "Membre"
-        },
-        "organes": {
-          "organeRef": "PO420388"
-        }
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM742186",
-        "acteurRef": "PA736223",
-        "legislature": null,
-        "typeOrgane": "DELEGSENAT",
-        "dateDebut": "2017-10-26",
-        "datePublication": null,
-        "dateFin": null,
-        "preseance": null,
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": null,
-          "libQualite": "Secrétaire",
-          "libQualiteSex": "Secrétaire"
-        },
-        "organes": {
-          "organeRef": "PO420388"
-        }
       },
       {
         "@xsi:type": "MandatSimple_Type",
@@ -262,46 +262,6 @@
       },
       {
         "@xsi:type": "MandatSimple_Type",
-        "uid": "PM829294",
-        "acteurRef": "PA736223",
-        "legislature": null,
-        "typeOrgane": "COMSENAT",
-        "dateDebut": "2023-10-05",
-        "datePublication": null,
-        "dateFin": null,
-        "preseance": null,
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": null,
-          "libQualite": "Vice-Président",
-          "libQualiteSex": "Vice-Président"
-        },
-        "organes": {
-          "organeRef": "PO211493"
-        }
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM829296",
-        "acteurRef": "PA736223",
-        "legislature": null,
-        "typeOrgane": "COMSENAT",
-        "dateDebut": "2023-10-04",
-        "datePublication": null,
-        "dateFin": "2023-10-04",
-        "preseance": "10",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Membre",
-          "libQualite": "Membre",
-          "libQualiteSex": "Membre"
-        },
-        "organes": {
-          "organeRef": "PO211493"
-        }
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
         "uid": "PM829298",
         "acteurRef": "PA736223",
         "legislature": null,
@@ -362,6 +322,66 @@
       },
       {
         "@xsi:type": "MandatSimple_Type",
+        "uid": "PM831512",
+        "acteurRef": "PA736223",
+        "legislature": null,
+        "typeOrgane": "API",
+        "dateDebut": "2023-10-02",
+        "datePublication": null,
+        "dateFin": "2023-12-26",
+        "preseance": "40",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO201115"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM829294",
+        "acteurRef": "PA736223",
+        "legislature": null,
+        "typeOrgane": "COMSENAT",
+        "dateDebut": "2023-10-05",
+        "datePublication": null,
+        "dateFin": null,
+        "preseance": null,
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": null,
+          "libQualite": "Vice-Président",
+          "libQualiteSex": "Vice-Président"
+        },
+        "organes": {
+          "organeRef": "PO211493"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM829296",
+        "acteurRef": "PA736223",
+        "legislature": null,
+        "typeOrgane": "COMSENAT",
+        "dateDebut": "2023-10-04",
+        "datePublication": null,
+        "dateFin": "2023-10-04",
+        "preseance": "10",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO211493"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
         "uid": "PM778018",
         "acteurRef": "PA736223",
         "legislature": null,
@@ -398,26 +418,6 @@
         },
         "organes": {
           "organeRef": "PO211493"
-        }
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM831512",
-        "acteurRef": "PA736223",
-        "legislature": null,
-        "typeOrgane": "API",
-        "dateDebut": "2023-10-02",
-        "datePublication": null,
-        "dateFin": "2023-12-26",
-        "preseance": "40",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Membre",
-          "libQualite": "Membre",
-          "libQualiteSex": "Membre"
-        },
-        "organes": {
-          "organeRef": "PO201115"
         }
       },
       {

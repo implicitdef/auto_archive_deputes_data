@@ -427,26 +427,6 @@
       },
       {
         "@xsi:type": "MandatSimple_Type",
-        "uid": "PM697823",
-        "acteurRef": "PA606555",
-        "legislature": "14",
-        "typeOrgane": "CMP",
-        "dateDebut": "2013-10-15",
-        "datePublication": "2013-10-16",
-        "dateFin": "2013-10-31",
-        "preseance": "16",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Rapporteur",
-          "libQualite": "Rapporteur",
-          "libQualiteSex": "Rapporteure"
-        },
-        "organes": {
-          "organeRef": "PO697328"
-        }
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
         "uid": "PM657414",
         "acteurRef": "PA606555",
         "legislature": "14",
@@ -487,26 +467,6 @@
       },
       {
         "@xsi:type": "MandatSimple_Type",
-        "uid": "PM701418",
-        "acteurRef": "PA606555",
-        "legislature": "14",
-        "typeOrgane": "CMP",
-        "dateDebut": "2014-05-20",
-        "datePublication": "2014-05-21",
-        "dateFin": "2014-06-19",
-        "preseance": "20",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Titulaire",
-          "libQualite": "Membre titulaire",
-          "libQualiteSex": "Membre titulaire"
-        },
-        "organes": {
-          "organeRef": "PO701387"
-        }
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
         "uid": "PM710014",
         "acteurRef": "PA606555",
         "legislature": "14",
@@ -523,6 +483,46 @@
         },
         "organes": {
           "organeRef": "PO420120"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM697823",
+        "acteurRef": "PA606555",
+        "legislature": "14",
+        "typeOrgane": "CMP",
+        "dateDebut": "2013-10-15",
+        "datePublication": "2013-10-16",
+        "dateFin": "2013-10-31",
+        "preseance": "16",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Rapporteur",
+          "libQualite": "Rapporteur",
+          "libQualiteSex": "Rapporteure"
+        },
+        "organes": {
+          "organeRef": "PO697328"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM701418",
+        "acteurRef": "PA606555",
+        "legislature": "14",
+        "typeOrgane": "CMP",
+        "dateDebut": "2014-05-20",
+        "datePublication": "2014-05-21",
+        "dateFin": "2014-06-19",
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Titulaire",
+          "libQualite": "Membre titulaire",
+          "libQualiteSex": "Membre titulaire"
+        },
+        "organes": {
+          "organeRef": "PO701387"
         }
       },
       {
@@ -1926,6 +1926,53 @@
         }
       },
       {
+        "@xsi:type": "MandatParlementaire_type",
+        "uid": "PM645477",
+        "acteurRef": "PA606555",
+        "legislature": "14",
+        "typeOrgane": "ASSEMBLEE",
+        "dateDebut": "2012-06-20",
+        "datePublication": null,
+        "dateFin": "2017-06-20",
+        "preseance": "50",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "membre",
+          "libQualite": "membre",
+          "libQualiteSex": "membre"
+        },
+        "organes": {
+          "organeRef": "PO644420"
+        },
+        "suppleants": {
+          "suppleant": {
+            "dateDebut": "2012-06-20",
+            "dateFin": "2017-06-20",
+            "suppleantRef": "PA642746"
+          }
+        },
+        "chambre": null,
+        "election": {
+          "lieu": {
+            "region": "Occitanie",
+            "regionType": "Métropolitain",
+            "departement": "Hérault",
+            "numDepartement": "34",
+            "numCirco": "2"
+          },
+          "causeMandat": "élections générales",
+          "refCirconscription": "PO644576"
+        },
+        "mandature": {
+          "datePriseFonction": "2012-06-20",
+          "causeFin": "Fin de législature",
+          "premiereElection": "0",
+          "placeHemicycle": null,
+          "mandatRemplaceRef": null
+        },
+        "collaborateurs": null
+      },
+      {
         "@xsi:type": "MandatSimple_Type",
         "uid": "PM697324",
         "acteurRef": "PA606555",
@@ -2184,53 +2231,6 @@
         "organes": {
           "organeRef": "PO686372"
         }
-      },
-      {
-        "@xsi:type": "MandatParlementaire_type",
-        "uid": "PM645477",
-        "acteurRef": "PA606555",
-        "legislature": "14",
-        "typeOrgane": "ASSEMBLEE",
-        "dateDebut": "2012-06-20",
-        "datePublication": null,
-        "dateFin": "2017-06-20",
-        "preseance": "50",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "membre",
-          "libQualite": "membre",
-          "libQualiteSex": "membre"
-        },
-        "organes": {
-          "organeRef": "PO644420"
-        },
-        "suppleants": {
-          "suppleant": {
-            "dateDebut": "2012-06-20",
-            "dateFin": "2017-06-20",
-            "suppleantRef": "PA642746"
-          }
-        },
-        "chambre": null,
-        "election": {
-          "lieu": {
-            "region": "Occitanie",
-            "regionType": "Métropolitain",
-            "departement": "Hérault",
-            "numDepartement": "34",
-            "numCirco": "2"
-          },
-          "causeMandat": "élections générales",
-          "refCirconscription": "PO644576"
-        },
-        "mandature": {
-          "datePriseFonction": "2012-06-20",
-          "causeFin": "Fin de législature",
-          "premiereElection": "0",
-          "placeHemicycle": null,
-          "mandatRemplaceRef": null
-        },
-        "collaborateurs": null
       }
     ]
   }
