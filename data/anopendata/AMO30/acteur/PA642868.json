@@ -122,6 +122,29 @@
   "mandats": {
     "mandat": [
       {
+        "@xsi:type": "MandatMission_Type",
+        "uid": "PM759092",
+        "acteurRef": "PA642868",
+        "legislature": "15",
+        "typeOrgane": "MISINFOCOM",
+        "dateDebut": "2018-09-26",
+        "datePublication": "2018-09-27",
+        "dateFin": "2021-02-11",
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO757572"
+        },
+        "libelle": null,
+        "missionSuivanteRef": null,
+        "missionPrecedenteRef": null
+      },
+      {
         "@xsi:type": "MandatSimple_Type",
         "uid": "PM804470",
         "acteurRef": "PA642868",
@@ -186,29 +209,6 @@
       },
       {
         "@xsi:type": "MandatMission_Type",
-        "uid": "PM759092",
-        "acteurRef": "PA642868",
-        "legislature": "15",
-        "typeOrgane": "MISINFOCOM",
-        "dateDebut": "2018-09-26",
-        "datePublication": "2018-09-27",
-        "dateFin": "2021-02-11",
-        "preseance": "20",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Membre",
-          "libQualite": "Membre",
-          "libQualiteSex": "Membre"
-        },
-        "organes": {
-          "organeRef": "PO757572"
-        },
-        "libelle": null,
-        "missionSuivanteRef": null,
-        "missionPrecedenteRef": null
-      },
-      {
-        "@xsi:type": "MandatMission_Type",
         "uid": "PM763534",
         "acteurRef": "PA642868",
         "legislature": "15",
@@ -229,66 +229,6 @@
         "libelle": null,
         "missionSuivanteRef": null,
         "missionPrecedenteRef": null
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM746027",
-        "acteurRef": "PA642868",
-        "legislature": null,
-        "typeOrgane": "PARPOL",
-        "dateDebut": "2017-12-01",
-        "datePublication": null,
-        "dateFin": "2019-11-30",
-        "preseance": "5",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Membre",
-          "libQualite": "Membre",
-          "libQualiteSex": "Membre"
-        },
-        "organes": {
-          "organeRef": "PO744864"
-        }
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM768698",
-        "acteurRef": "PA642868",
-        "legislature": null,
-        "typeOrgane": "PARPOL",
-        "dateDebut": "2019-12-01",
-        "datePublication": null,
-        "dateFin": "2022-06-21",
-        "preseance": "5",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Membre",
-          "libQualite": "Membre",
-          "libQualiteSex": "Membre"
-        },
-        "organes": {
-          "organeRef": "PO684938"
-        }
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM806567",
-        "acteurRef": "PA642868",
-        "legislature": null,
-        "typeOrgane": "PARPOL",
-        "dateDebut": "2022-12-02",
-        "datePublication": null,
-        "dateFin": null,
-        "preseance": "5",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Membre",
-          "libQualite": "Membre",
-          "libQualiteSex": "Membre"
-        },
-        "organes": {
-          "organeRef": "PO806430"
-        }
       },
       {
         "@xsi:type": "MandatSimple_Type",
@@ -352,6 +292,26 @@
       },
       {
         "@xsi:type": "MandatSimple_Type",
+        "uid": "PM746027",
+        "acteurRef": "PA642868",
+        "legislature": null,
+        "typeOrgane": "PARPOL",
+        "dateDebut": "2017-12-01",
+        "datePublication": null,
+        "dateFin": "2019-11-30",
+        "preseance": "5",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO744864"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
         "uid": "PM769641",
         "acteurRef": "PA642868",
         "legislature": "15",
@@ -392,6 +352,26 @@
       },
       {
         "@xsi:type": "MandatSimple_Type",
+        "uid": "PM768698",
+        "acteurRef": "PA642868",
+        "legislature": null,
+        "typeOrgane": "PARPOL",
+        "dateDebut": "2019-12-01",
+        "datePublication": null,
+        "dateFin": "2022-06-21",
+        "preseance": "5",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO684938"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
         "uid": "PM760233",
         "acteurRef": "PA642868",
         "legislature": "15",
@@ -408,6 +388,26 @@
         },
         "organes": {
           "organeRef": "PO760148"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM806567",
+        "acteurRef": "PA642868",
+        "legislature": null,
+        "typeOrgane": "PARPOL",
+        "dateDebut": "2022-12-02",
+        "datePublication": null,
+        "dateFin": "2024-06-09",
+        "preseance": "5",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO806430"
         }
       },
       {

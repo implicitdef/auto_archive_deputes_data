@@ -104,6 +104,29 @@
   "mandats": {
     "mandat": [
       {
+        "@xsi:type": "MandatMission_Type",
+        "uid": "PM770495",
+        "acteurRef": "PA721808",
+        "legislature": "15",
+        "typeOrgane": "MISINFO",
+        "dateDebut": "2020-02-12",
+        "datePublication": null,
+        "dateFin": "2022-06-21",
+        "preseance": "9",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Rapporteur",
+          "libQualite": "Rapporteur",
+          "libQualiteSex": "Rapporteure"
+        },
+        "organes": {
+          "organeRef": "PO770488"
+        },
+        "libelle": null,
+        "missionSuivanteRef": null,
+        "missionPrecedenteRef": null
+      },
+      {
         "@xsi:type": "MandatSimple_Type",
         "uid": "PM780402",
         "acteurRef": "PA721808",
@@ -142,49 +165,6 @@
         "organes": {
           "organeRef": "PO744854"
         }
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM761503",
-        "acteurRef": "PA721808",
-        "legislature": null,
-        "typeOrgane": "PARPOL",
-        "dateDebut": "2018-12-01",
-        "datePublication": null,
-        "dateFin": "2020-11-30",
-        "preseance": "5",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Membre",
-          "libQualite": "Membre",
-          "libQualiteSex": "Membre"
-        },
-        "organes": {
-          "organeRef": "PO761294"
-        }
-      },
-      {
-        "@xsi:type": "MandatMission_Type",
-        "uid": "PM770495",
-        "acteurRef": "PA721808",
-        "legislature": "15",
-        "typeOrgane": "MISINFO",
-        "dateDebut": "2020-02-12",
-        "datePublication": null,
-        "dateFin": "2022-06-21",
-        "preseance": "9",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Rapporteur",
-          "libQualite": "Rapporteur",
-          "libQualiteSex": "Rapporteure"
-        },
-        "organes": {
-          "organeRef": "PO770488"
-        },
-        "libelle": null,
-        "missionSuivanteRef": null,
-        "missionPrecedenteRef": null
       },
       {
         "@xsi:type": "MandatSimple_Type",
@@ -274,6 +254,26 @@
         "libelle": null,
         "missionSuivanteRef": null,
         "missionPrecedenteRef": null
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM761503",
+        "acteurRef": "PA721808",
+        "legislature": null,
+        "typeOrgane": "PARPOL",
+        "dateDebut": "2018-12-01",
+        "datePublication": null,
+        "dateFin": "2020-11-30",
+        "preseance": "5",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO761294"
+        }
       },
       {
         "@xsi:type": "MandatSimple_Type",
