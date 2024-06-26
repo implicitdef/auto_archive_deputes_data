@@ -678,6 +678,53 @@
       },
       {
         "@xsi:type": "MandatParlementaire_type",
+        "uid": "PM797058",
+        "acteurRef": "PA720822",
+        "legislature": "16",
+        "typeOrgane": "ASSEMBLEE",
+        "dateDebut": "2022-06-19",
+        "datePublication": null,
+        "dateFin": "2024-06-09",
+        "preseance": "50",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "membre",
+          "libQualite": "membre",
+          "libQualiteSex": "membre"
+        },
+        "organes": {
+          "organeRef": "PO791932"
+        },
+        "suppleants": {
+          "suppleant": {
+            "dateDebut": "2022-06-19",
+            "dateFin": "2024-06-09",
+            "suppleantRef": "PA794682"
+          }
+        },
+        "chambre": null,
+        "election": {
+          "lieu": {
+            "region": "Hauts-de-France",
+            "regionType": "Métropolitain",
+            "departement": "Pas-de-Calais",
+            "numDepartement": "62",
+            "numCirco": "12"
+          },
+          "causeMandat": "élections générales",
+          "refCirconscription": "PO792202"
+        },
+        "mandature": {
+          "datePriseFonction": "2022-06-22",
+          "causeFin": "Fin de législature",
+          "premiereElection": "1",
+          "placeHemicycle": "052",
+          "mandatRemplaceRef": null
+        },
+        "collaborateurs": null
+      },
+      {
+        "@xsi:type": "MandatParlementaire_type",
         "uid": "PM723086",
         "acteurRef": "PA720822",
         "legislature": "15",
@@ -742,53 +789,6 @@
         "organes": {
           "organeRef": "PO808016"
         }
-      },
-      {
-        "@xsi:type": "MandatParlementaire_type",
-        "uid": "PM797058",
-        "acteurRef": "PA720822",
-        "legislature": "16",
-        "typeOrgane": "ASSEMBLEE",
-        "dateDebut": "2022-06-19",
-        "datePublication": null,
-        "dateFin": "2024-06-09",
-        "preseance": "50",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "membre",
-          "libQualite": "membre",
-          "libQualiteSex": "membre"
-        },
-        "organes": {
-          "organeRef": "PO791932"
-        },
-        "suppleants": {
-          "suppleant": {
-            "dateDebut": "2022-06-19",
-            "dateFin": "2024-06-09",
-            "suppleantRef": "PA794682"
-          }
-        },
-        "chambre": null,
-        "election": {
-          "lieu": {
-            "region": "Hauts-de-France",
-            "regionType": "Métropolitain",
-            "departement": "Pas-de-Calais",
-            "numDepartement": "62",
-            "numCirco": "12"
-          },
-          "causeMandat": "élections générales",
-          "refCirconscription": "PO792202"
-        },
-        "mandature": {
-          "datePriseFonction": "2022-06-22",
-          "causeFin": "Fin de législature",
-          "premiereElection": "1",
-          "placeHemicycle": "052",
-          "mandatRemplaceRef": null
-        },
-        "collaborateurs": null
       }
     ]
   }

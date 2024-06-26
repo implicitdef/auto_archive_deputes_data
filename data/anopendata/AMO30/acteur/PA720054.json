@@ -274,6 +274,46 @@
       },
       {
         "@xsi:type": "MandatSimple_Type",
+        "uid": "PM806696",
+        "acteurRef": "PA720054",
+        "legislature": null,
+        "typeOrgane": "PARPOL",
+        "dateDebut": "2022-12-02",
+        "datePublication": null,
+        "dateFin": "2024-06-09",
+        "preseance": "5",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO806430"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM761541",
+        "acteurRef": "PA720054",
+        "legislature": null,
+        "typeOrgane": "PARPOL",
+        "dateDebut": "2018-12-01",
+        "datePublication": null,
+        "dateFin": "2022-06-21",
+        "preseance": "5",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO761294"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
         "uid": "PM809916",
         "acteurRef": "PA720054",
         "legislature": "16",
@@ -290,6 +330,26 @@
         },
         "organes": {
           "organeRef": "PO808156"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM745193",
+        "acteurRef": "PA720054",
+        "legislature": null,
+        "typeOrgane": "PARPOL",
+        "dateDebut": "2017-12-01",
+        "datePublication": null,
+        "dateFin": "2018-11-30",
+        "preseance": "5",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO744854"
         }
       },
       {
@@ -316,26 +376,6 @@
         "missionPrecedenteRef": null
       },
       {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM806696",
-        "acteurRef": "PA720054",
-        "legislature": null,
-        "typeOrgane": "PARPOL",
-        "dateDebut": "2022-12-02",
-        "datePublication": null,
-        "dateFin": "2024-06-09",
-        "preseance": "5",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Membre",
-          "libQualite": "Membre",
-          "libQualiteSex": "Membre"
-        },
-        "organes": {
-          "organeRef": "PO806430"
-        }
-      },
-      {
         "@xsi:type": "MandatMission_Type",
         "uid": "PM740608",
         "acteurRef": "PA720054",
@@ -357,46 +397,6 @@
         "libelle": null,
         "missionSuivanteRef": null,
         "missionPrecedenteRef": null
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM761541",
-        "acteurRef": "PA720054",
-        "legislature": null,
-        "typeOrgane": "PARPOL",
-        "dateDebut": "2018-12-01",
-        "datePublication": null,
-        "dateFin": "2022-06-21",
-        "preseance": "5",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Membre",
-          "libQualite": "Membre",
-          "libQualiteSex": "Membre"
-        },
-        "organes": {
-          "organeRef": "PO761294"
-        }
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM745193",
-        "acteurRef": "PA720054",
-        "legislature": null,
-        "typeOrgane": "PARPOL",
-        "dateDebut": "2017-12-01",
-        "datePublication": null,
-        "dateFin": "2018-11-30",
-        "preseance": "5",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Membre",
-          "libQualite": "Membre",
-          "libQualiteSex": "Membre"
-        },
-        "organes": {
-          "organeRef": "PO744854"
-        }
       },
       {
         "@xsi:type": "MandatMission_Type",
@@ -1675,6 +1675,53 @@
         "collaborateurs": null
       },
       {
+        "@xsi:type": "MandatParlementaire_type",
+        "uid": "PM796752",
+        "acteurRef": "PA720054",
+        "legislature": "16",
+        "typeOrgane": "ASSEMBLEE",
+        "dateDebut": "2022-06-19",
+        "datePublication": null,
+        "dateFin": "2024-06-09",
+        "preseance": "50",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "membre",
+          "libQualite": "membre",
+          "libQualiteSex": "membre"
+        },
+        "organes": {
+          "organeRef": "PO791932"
+        },
+        "suppleants": {
+          "suppleant": {
+            "dateDebut": "2022-06-19",
+            "dateFin": "2024-06-09",
+            "suppleantRef": "PA794174"
+          }
+        },
+        "chambre": null,
+        "election": {
+          "lieu": {
+            "region": "Pays de la Loire",
+            "regionType": "Métropolitain",
+            "departement": "Loire-Atlantique",
+            "numDepartement": "44",
+            "numCirco": "9"
+          },
+          "causeMandat": "élections générales",
+          "refCirconscription": "PO791974"
+        },
+        "mandature": {
+          "datePriseFonction": "2022-06-22",
+          "causeFin": "Fin de législature",
+          "premiereElection": "1",
+          "placeHemicycle": "392",
+          "mandatRemplaceRef": null
+        },
+        "collaborateurs": null
+      },
+      {
         "@xsi:type": "MandatSimple_Type",
         "uid": "PM818681",
         "acteurRef": "PA720054",
@@ -1773,53 +1820,6 @@
         "organes": {
           "organeRef": "PO733387"
         }
-      },
-      {
-        "@xsi:type": "MandatParlementaire_type",
-        "uid": "PM796752",
-        "acteurRef": "PA720054",
-        "legislature": "16",
-        "typeOrgane": "ASSEMBLEE",
-        "dateDebut": "2022-06-19",
-        "datePublication": null,
-        "dateFin": "2024-06-09",
-        "preseance": "50",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "membre",
-          "libQualite": "membre",
-          "libQualiteSex": "membre"
-        },
-        "organes": {
-          "organeRef": "PO791932"
-        },
-        "suppleants": {
-          "suppleant": {
-            "dateDebut": "2022-06-19",
-            "dateFin": "2024-06-09",
-            "suppleantRef": "PA794174"
-          }
-        },
-        "chambre": null,
-        "election": {
-          "lieu": {
-            "region": "Pays de la Loire",
-            "regionType": "Métropolitain",
-            "departement": "Loire-Atlantique",
-            "numDepartement": "44",
-            "numCirco": "9"
-          },
-          "causeMandat": "élections générales",
-          "refCirconscription": "PO791974"
-        },
-        "mandature": {
-          "datePriseFonction": "2022-06-22",
-          "causeFin": "Fin de législature",
-          "premiereElection": "1",
-          "placeHemicycle": "392",
-          "mandatRemplaceRef": null
-        },
-        "collaborateurs": null
       }
     ]
   }

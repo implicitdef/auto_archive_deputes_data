@@ -111,6 +111,26 @@
       },
       {
         "@xsi:type": "MandatSimple_Type",
+        "uid": "PM806959",
+        "acteurRef": "PA795466",
+        "legislature": null,
+        "typeOrgane": "PARPOL",
+        "dateDebut": "2022-12-02",
+        "datePublication": null,
+        "dateFin": "2024-06-09",
+        "preseance": "5",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO744856"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
         "uid": "PM815125",
         "acteurRef": "PA795466",
         "legislature": "16",
@@ -147,26 +167,6 @@
         },
         "organes": {
           "organeRef": "PO807673"
-        }
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM806959",
-        "acteurRef": "PA795466",
-        "legislature": null,
-        "typeOrgane": "PARPOL",
-        "dateDebut": "2022-12-02",
-        "datePublication": null,
-        "dateFin": "2024-06-09",
-        "preseance": "5",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Membre",
-          "libQualite": "Membre",
-          "libQualiteSex": "Membre"
-        },
-        "organes": {
-          "organeRef": "PO744856"
         }
       },
       {
@@ -630,6 +630,53 @@
         }
       },
       {
+        "@xsi:type": "MandatParlementaire_type",
+        "uid": "PM797499",
+        "acteurRef": "PA795466",
+        "legislature": "16",
+        "typeOrgane": "ASSEMBLEE",
+        "dateDebut": "2022-06-19",
+        "datePublication": null,
+        "dateFin": "2024-06-09",
+        "preseance": "50",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "membre",
+          "libQualite": "membre",
+          "libQualiteSex": "membre"
+        },
+        "organes": {
+          "organeRef": "PO791932"
+        },
+        "suppleants": {
+          "suppleant": {
+            "dateDebut": "2022-06-19",
+            "dateFin": "2024-06-09",
+            "suppleantRef": "PA795470"
+          }
+        },
+        "chambre": null,
+        "election": {
+          "lieu": {
+            "region": "Ile-de-France",
+            "regionType": "Métropolitain",
+            "departement": "Seine-et-Marne",
+            "numDepartement": "77",
+            "numCirco": "7"
+          },
+          "causeMandat": "élections générales",
+          "refCirconscription": "PO792406"
+        },
+        "mandature": {
+          "datePriseFonction": "2022-06-22",
+          "causeFin": "Fin de législature",
+          "premiereElection": "0",
+          "placeHemicycle": "572",
+          "mandatRemplaceRef": null
+        },
+        "collaborateurs": null
+      },
+      {
         "@xsi:type": "MandatSimple_Type",
         "uid": "PM816576",
         "acteurRef": "PA795466",
@@ -708,53 +755,6 @@
         "organes": {
           "organeRef": "PO807226"
         }
-      },
-      {
-        "@xsi:type": "MandatParlementaire_type",
-        "uid": "PM797499",
-        "acteurRef": "PA795466",
-        "legislature": "16",
-        "typeOrgane": "ASSEMBLEE",
-        "dateDebut": "2022-06-19",
-        "datePublication": null,
-        "dateFin": "2024-06-09",
-        "preseance": "50",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "membre",
-          "libQualite": "membre",
-          "libQualiteSex": "membre"
-        },
-        "organes": {
-          "organeRef": "PO791932"
-        },
-        "suppleants": {
-          "suppleant": {
-            "dateDebut": "2022-06-19",
-            "dateFin": "2024-06-09",
-            "suppleantRef": "PA795470"
-          }
-        },
-        "chambre": null,
-        "election": {
-          "lieu": {
-            "region": "Ile-de-France",
-            "regionType": "Métropolitain",
-            "departement": "Seine-et-Marne",
-            "numDepartement": "77",
-            "numCirco": "7"
-          },
-          "causeMandat": "élections générales",
-          "refCirconscription": "PO792406"
-        },
-        "mandature": {
-          "datePriseFonction": "2022-06-22",
-          "causeFin": "Fin de législature",
-          "premiereElection": "0",
-          "placeHemicycle": "572",
-          "mandatRemplaceRef": null
-        },
-        "collaborateurs": null
       }
     ]
   }

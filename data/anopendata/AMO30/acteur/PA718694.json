@@ -119,6 +119,26 @@
     "mandat": [
       {
         "@xsi:type": "MandatSimple_Type",
+        "uid": "PM744971",
+        "acteurRef": "PA718694",
+        "legislature": null,
+        "typeOrgane": "PARPOL",
+        "dateDebut": "2017-12-01",
+        "datePublication": null,
+        "dateFin": "2018-11-30",
+        "preseance": "5",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO744854"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
         "uid": "PM736939",
         "acteurRef": "PA718694",
         "legislature": "15",
@@ -139,13 +159,13 @@
       },
       {
         "@xsi:type": "MandatSimple_Type",
-        "uid": "PM744971",
+        "uid": "PM761445",
         "acteurRef": "PA718694",
         "legislature": null,
         "typeOrgane": "PARPOL",
-        "dateDebut": "2017-12-01",
+        "dateDebut": "2018-12-01",
         "datePublication": null,
-        "dateFin": "2018-11-30",
+        "dateFin": "2022-06-21",
         "preseance": "5",
         "nominPrincipale": "1",
         "infosQualite": {
@@ -154,7 +174,7 @@
           "libQualiteSex": "Membre"
         },
         "organes": {
-          "organeRef": "PO744854"
+          "organeRef": "PO761294"
         }
       },
       {
@@ -179,26 +199,6 @@
         "libelle": null,
         "missionSuivanteRef": null,
         "missionPrecedenteRef": null
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM761445",
-        "acteurRef": "PA718694",
-        "legislature": null,
-        "typeOrgane": "PARPOL",
-        "dateDebut": "2018-12-01",
-        "datePublication": null,
-        "dateFin": "2022-06-21",
-        "preseance": "5",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Membre",
-          "libQualite": "Membre",
-          "libQualiteSex": "Membre"
-        },
-        "organes": {
-          "organeRef": "PO761294"
-        }
       },
       {
         "@xsi:type": "MandatMission_Type",
@@ -644,53 +644,6 @@
         }
       },
       {
-        "@xsi:type": "MandatParlementaire_type",
-        "uid": "PM722426",
-        "acteurRef": "PA718694",
-        "legislature": "15",
-        "typeOrgane": "ASSEMBLEE",
-        "dateDebut": "2017-06-18",
-        "datePublication": null,
-        "dateFin": "2022-06-21",
-        "preseance": "50",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "membre",
-          "libQualite": "membre",
-          "libQualiteSex": "membre"
-        },
-        "organes": {
-          "organeRef": "PO717460"
-        },
-        "suppleants": {
-          "suppleant": {
-            "dateDebut": "2017-06-18",
-            "dateFin": "2022-06-21",
-            "suppleantRef": "PA718698"
-          }
-        },
-        "chambre": null,
-        "election": {
-          "lieu": {
-            "region": "Hauts-de-France",
-            "regionType": "Métropolitain",
-            "departement": "Aisne",
-            "numDepartement": "02",
-            "numCirco": "4"
-          },
-          "causeMandat": "élections générales",
-          "refCirconscription": "PO717472"
-        },
-        "mandature": {
-          "datePriseFonction": "2017-06-21",
-          "causeFin": "Fin de législature",
-          "premiereElection": "0",
-          "placeHemicycle": null,
-          "mandatRemplaceRef": null
-        },
-        "collaborateurs": null
-      },
-      {
         "@xsi:type": "MandatSimple_Type",
         "uid": "PM753155",
         "acteurRef": "PA718694",
@@ -749,6 +702,53 @@
         "organes": {
           "organeRef": "PO747286"
         }
+      },
+      {
+        "@xsi:type": "MandatParlementaire_type",
+        "uid": "PM722426",
+        "acteurRef": "PA718694",
+        "legislature": "15",
+        "typeOrgane": "ASSEMBLEE",
+        "dateDebut": "2017-06-18",
+        "datePublication": null,
+        "dateFin": "2022-06-21",
+        "preseance": "50",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "membre",
+          "libQualite": "membre",
+          "libQualiteSex": "membre"
+        },
+        "organes": {
+          "organeRef": "PO717460"
+        },
+        "suppleants": {
+          "suppleant": {
+            "dateDebut": "2017-06-18",
+            "dateFin": "2022-06-21",
+            "suppleantRef": "PA718698"
+          }
+        },
+        "chambre": null,
+        "election": {
+          "lieu": {
+            "region": "Hauts-de-France",
+            "regionType": "Métropolitain",
+            "departement": "Aisne",
+            "numDepartement": "02",
+            "numCirco": "4"
+          },
+          "causeMandat": "élections générales",
+          "refCirconscription": "PO717472"
+        },
+        "mandature": {
+          "datePriseFonction": "2017-06-21",
+          "causeFin": "Fin de législature",
+          "premiereElection": "0",
+          "placeHemicycle": null,
+          "mandatRemplaceRef": null
+        },
+        "collaborateurs": null
       },
       {
         "@xsi:type": "MandatSimple_Type",

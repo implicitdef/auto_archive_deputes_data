@@ -162,6 +162,46 @@
       },
       {
         "@xsi:type": "MandatSimple_Type",
+        "uid": "PM806944",
+        "acteurRef": "PA774960",
+        "legislature": null,
+        "typeOrgane": "PARPOL",
+        "dateDebut": "2022-12-02",
+        "datePublication": null,
+        "dateFin": "2024-06-09",
+        "preseance": "5",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO684932"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM780378",
+        "acteurRef": "PA774960",
+        "legislature": null,
+        "typeOrgane": "PARPOL",
+        "dateDebut": "2020-12-01",
+        "datePublication": null,
+        "dateFin": "2022-06-21",
+        "preseance": "5",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO684932"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
         "uid": "PM803728",
         "acteurRef": "PA774960",
         "legislature": "16",
@@ -201,26 +241,6 @@
         }
       },
       {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM806944",
-        "acteurRef": "PA774960",
-        "legislature": null,
-        "typeOrgane": "PARPOL",
-        "dateDebut": "2022-12-02",
-        "datePublication": null,
-        "dateFin": "2024-06-09",
-        "preseance": "5",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Membre",
-          "libQualite": "Membre",
-          "libQualiteSex": "Membre"
-        },
-        "organes": {
-          "organeRef": "PO684932"
-        }
-      },
-      {
         "@xsi:type": "MandatMission_Type",
         "uid": "PM782022",
         "acteurRef": "PA774960",
@@ -242,26 +262,6 @@
         "libelle": null,
         "missionSuivanteRef": null,
         "missionPrecedenteRef": null
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM780378",
-        "acteurRef": "PA774960",
-        "legislature": null,
-        "typeOrgane": "PARPOL",
-        "dateDebut": "2020-12-01",
-        "datePublication": null,
-        "dateFin": "2022-06-21",
-        "preseance": "5",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Membre",
-          "libQualite": "Membre",
-          "libQualiteSex": "Membre"
-        },
-        "organes": {
-          "organeRef": "PO684932"
-        }
       },
       {
         "@xsi:type": "MandatMission_Type",
@@ -1979,6 +1979,53 @@
         }
       },
       {
+        "@xsi:type": "MandatParlementaire_type",
+        "uid": "PM797490",
+        "acteurRef": "PA774960",
+        "legislature": "16",
+        "typeOrgane": "ASSEMBLEE",
+        "dateDebut": "2022-06-19",
+        "datePublication": null,
+        "dateFin": "2024-06-09",
+        "preseance": "50",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "membre",
+          "libQualite": "membre",
+          "libQualiteSex": "membre"
+        },
+        "organes": {
+          "organeRef": "PO791932"
+        },
+        "suppleants": {
+          "suppleant": {
+            "dateDebut": "2022-06-19",
+            "dateFin": "2024-06-09",
+            "suppleantRef": "PA795450"
+          }
+        },
+        "chambre": null,
+        "election": {
+          "lieu": {
+            "region": "Ile-de-France",
+            "regionType": "Métropolitain",
+            "departement": "Val-de-Marne",
+            "numDepartement": "94",
+            "numCirco": "9"
+          },
+          "causeMandat": "élections générales",
+          "refCirconscription": "PO792638"
+        },
+        "mandature": {
+          "datePriseFonction": "2022-06-22",
+          "causeFin": "Fin de législature",
+          "premiereElection": "1",
+          "placeHemicycle": "433",
+          "mandatRemplaceRef": null
+        },
+        "collaborateurs": null
+      },
+      {
         "@xsi:type": "MandatSimple_Type",
         "uid": "PM776190",
         "acteurRef": "PA774960",
@@ -2100,53 +2147,6 @@
           "datePriseFonction": "2020-09-28",
           "causeFin": "Fin de législature",
           "premiereElection": "0",
-          "placeHemicycle": "433",
-          "mandatRemplaceRef": null
-        },
-        "collaborateurs": null
-      },
-      {
-        "@xsi:type": "MandatParlementaire_type",
-        "uid": "PM797490",
-        "acteurRef": "PA774960",
-        "legislature": "16",
-        "typeOrgane": "ASSEMBLEE",
-        "dateDebut": "2022-06-19",
-        "datePublication": null,
-        "dateFin": "2024-06-09",
-        "preseance": "50",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "membre",
-          "libQualite": "membre",
-          "libQualiteSex": "membre"
-        },
-        "organes": {
-          "organeRef": "PO791932"
-        },
-        "suppleants": {
-          "suppleant": {
-            "dateDebut": "2022-06-19",
-            "dateFin": "2024-06-09",
-            "suppleantRef": "PA795450"
-          }
-        },
-        "chambre": null,
-        "election": {
-          "lieu": {
-            "region": "Ile-de-France",
-            "regionType": "Métropolitain",
-            "departement": "Val-de-Marne",
-            "numDepartement": "94",
-            "numCirco": "9"
-          },
-          "causeMandat": "élections générales",
-          "refCirconscription": "PO792638"
-        },
-        "mandature": {
-          "datePriseFonction": "2022-06-22",
-          "causeFin": "Fin de législature",
-          "premiereElection": "1",
           "placeHemicycle": "433",
           "mandatRemplaceRef": null
         },

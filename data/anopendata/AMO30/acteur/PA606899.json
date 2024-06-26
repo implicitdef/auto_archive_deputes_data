@@ -72,6 +72,26 @@
   "mandats": {
     "mandat": [
       {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM685652",
+        "acteurRef": "PA606899",
+        "legislature": null,
+        "typeOrgane": "PARPOL",
+        "dateDebut": "2012-12-01",
+        "datePublication": null,
+        "dateFin": "2017-06-20",
+        "preseance": "5",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO684932"
+        }
+      },
+      {
         "@xsi:type": "MandatMission_Type",
         "uid": "PM710888",
         "acteurRef": "PA606899",
@@ -93,26 +113,6 @@
         "libelle": null,
         "missionSuivanteRef": null,
         "missionPrecedenteRef": null
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM685652",
-        "acteurRef": "PA606899",
-        "legislature": null,
-        "typeOrgane": "PARPOL",
-        "dateDebut": "2012-12-01",
-        "datePublication": null,
-        "dateFin": "2017-06-20",
-        "preseance": "5",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Membre",
-          "libQualite": "Membre",
-          "libQualiteSex": "Membre"
-        },
-        "organes": {
-          "organeRef": "PO684932"
-        }
       },
       {
         "@xsi:type": "MandatSimple_Type",
@@ -695,6 +695,46 @@
         }
       },
       {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM691432",
+        "acteurRef": "PA606899",
+        "legislature": "14",
+        "typeOrgane": "GA",
+        "dateDebut": "2013-02-13",
+        "datePublication": null,
+        "dateFin": "2017-06-20",
+        "preseance": "8",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Vice-Président",
+          "libQualite": "Vice-Président",
+          "libQualiteSex": "Vice-Président"
+        },
+        "organes": {
+          "organeRef": "PO675853"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM684686",
+        "acteurRef": "PA606899",
+        "legislature": "14",
+        "typeOrgane": "GA",
+        "dateDebut": "2012-11-20",
+        "datePublication": null,
+        "dateFin": "2017-06-20",
+        "preseance": "8",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Vice-Président",
+          "libQualite": "Vice-Président",
+          "libQualiteSex": "Vice-Président"
+        },
+        "organes": {
+          "organeRef": "PO675690"
+        }
+      },
+      {
         "@xsi:type": "MandatParlementaire_type",
         "uid": "PM645545",
         "acteurRef": "PA606899",
@@ -740,46 +780,6 @@
           "mandatRemplaceRef": null
         },
         "collaborateurs": null
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM691432",
-        "acteurRef": "PA606899",
-        "legislature": "14",
-        "typeOrgane": "GA",
-        "dateDebut": "2013-02-13",
-        "datePublication": null,
-        "dateFin": "2017-06-20",
-        "preseance": "8",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Vice-Président",
-          "libQualite": "Vice-Président",
-          "libQualiteSex": "Vice-Président"
-        },
-        "organes": {
-          "organeRef": "PO675853"
-        }
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM684686",
-        "acteurRef": "PA606899",
-        "legislature": "14",
-        "typeOrgane": "GA",
-        "dateDebut": "2012-11-20",
-        "datePublication": null,
-        "dateFin": "2017-06-20",
-        "preseance": "8",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Vice-Président",
-          "libQualite": "Vice-Président",
-          "libQualiteSex": "Vice-Président"
-        },
-        "organes": {
-          "organeRef": "PO675690"
-        }
       }
     ]
   }

@@ -104,6 +104,26 @@
       },
       {
         "@xsi:type": "MandatSimple_Type",
+        "uid": "PM685551",
+        "acteurRef": "PA2099",
+        "legislature": null,
+        "typeOrgane": "PARPOL",
+        "dateDebut": "2012-12-01",
+        "datePublication": null,
+        "dateFin": "2015-11-30",
+        "preseance": "5",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO684942"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
         "uid": "PM402841",
         "acteurRef": "PA2099",
         "legislature": "13",
@@ -160,6 +180,26 @@
         },
         "organes": {
           "organeRef": "PO675838"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM710541",
+        "acteurRef": "PA2099",
+        "legislature": null,
+        "typeOrgane": "PARPOL",
+        "dateDebut": "2015-12-01",
+        "datePublication": null,
+        "dateFin": "2017-06-20",
+        "preseance": "5",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO710396"
         }
       },
       {
@@ -347,26 +387,6 @@
       },
       {
         "@xsi:type": "MandatSimple_Type",
-        "uid": "PM685551",
-        "acteurRef": "PA2099",
-        "legislature": null,
-        "typeOrgane": "PARPOL",
-        "dateDebut": "2012-12-01",
-        "datePublication": null,
-        "dateFin": "2015-11-30",
-        "preseance": "5",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Membre",
-          "libQualite": "Membre",
-          "libQualiteSex": "Membre"
-        },
-        "organes": {
-          "organeRef": "PO684942"
-        }
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
         "uid": "PM416460",
         "acteurRef": "PA2099",
         "legislature": "13",
@@ -403,26 +423,6 @@
         },
         "organes": {
           "organeRef": "PO702808"
-        }
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM710541",
-        "acteurRef": "PA2099",
-        "legislature": null,
-        "typeOrgane": "PARPOL",
-        "dateDebut": "2015-12-01",
-        "datePublication": null,
-        "dateFin": "2017-06-20",
-        "preseance": "5",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Membre",
-          "libQualite": "Membre",
-          "libQualiteSex": "Membre"
-        },
-        "organes": {
-          "organeRef": "PO710396"
         }
       },
       {
@@ -9358,53 +9358,6 @@
         }
       },
       {
-        "@xsi:type": "MandatParlementaire_type",
-        "uid": "PM645101",
-        "acteurRef": "PA2099",
-        "legislature": "14",
-        "typeOrgane": "ASSEMBLEE",
-        "dateDebut": "2012-06-20",
-        "datePublication": null,
-        "dateFin": "2017-06-20",
-        "preseance": "50",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "membre",
-          "libQualite": "membre",
-          "libQualiteSex": "membre"
-        },
-        "organes": {
-          "organeRef": "PO644420"
-        },
-        "suppleants": {
-          "suppleant": {
-            "dateDebut": "2012-06-20",
-            "dateFin": "2017-06-20",
-            "suppleantRef": "PA342597"
-          }
-        },
-        "chambre": null,
-        "election": {
-          "lieu": {
-            "region": "Centre-Val de Loire",
-            "regionType": "Métropolitain",
-            "departement": "Loir-et-Cher",
-            "numDepartement": "41",
-            "numCirco": "2"
-          },
-          "causeMandat": "élections générales",
-          "refCirconscription": "PO644613"
-        },
-        "mandature": {
-          "datePriseFonction": "2012-06-20",
-          "causeFin": "Fin de législature",
-          "premiereElection": "1",
-          "placeHemicycle": null,
-          "mandatRemplaceRef": null
-        },
-        "collaborateurs": null
-      },
-      {
         "@xsi:type": "MandatSimple_Type",
         "uid": "PM413549",
         "acteurRef": "PA2099",
@@ -9503,6 +9456,53 @@
         "organes": {
           "organeRef": "PO402856"
         }
+      },
+      {
+        "@xsi:type": "MandatParlementaire_type",
+        "uid": "PM645101",
+        "acteurRef": "PA2099",
+        "legislature": "14",
+        "typeOrgane": "ASSEMBLEE",
+        "dateDebut": "2012-06-20",
+        "datePublication": null,
+        "dateFin": "2017-06-20",
+        "preseance": "50",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "membre",
+          "libQualite": "membre",
+          "libQualiteSex": "membre"
+        },
+        "organes": {
+          "organeRef": "PO644420"
+        },
+        "suppleants": {
+          "suppleant": {
+            "dateDebut": "2012-06-20",
+            "dateFin": "2017-06-20",
+            "suppleantRef": "PA342597"
+          }
+        },
+        "chambre": null,
+        "election": {
+          "lieu": {
+            "region": "Centre-Val de Loire",
+            "regionType": "Métropolitain",
+            "departement": "Loir-et-Cher",
+            "numDepartement": "41",
+            "numCirco": "2"
+          },
+          "causeMandat": "élections générales",
+          "refCirconscription": "PO644613"
+        },
+        "mandature": {
+          "datePriseFonction": "2012-06-20",
+          "causeFin": "Fin de législature",
+          "premiereElection": "1",
+          "placeHemicycle": null,
+          "mandatRemplaceRef": null
+        },
+        "collaborateurs": null
       },
       {
         "@xsi:type": "MandatSimple_Type",

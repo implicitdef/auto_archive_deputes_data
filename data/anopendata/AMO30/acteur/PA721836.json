@@ -227,6 +227,26 @@
         "missionPrecedenteRef": null
       },
       {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM745860",
+        "acteurRef": "PA721836",
+        "legislature": null,
+        "typeOrgane": "PARPOL",
+        "dateDebut": "2017-12-01",
+        "datePublication": null,
+        "dateFin": "2022-06-21",
+        "preseance": "5",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO684938"
+        }
+      },
+      {
         "@xsi:type": "MandatMission_Type",
         "uid": "PM746424",
         "acteurRef": "PA721836",
@@ -416,26 +436,6 @@
         },
         "organes": {
           "organeRef": "PO771964"
-        }
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM745860",
-        "acteurRef": "PA721836",
-        "legislature": null,
-        "typeOrgane": "PARPOL",
-        "dateDebut": "2017-12-01",
-        "datePublication": null,
-        "dateFin": "2022-06-21",
-        "preseance": "5",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Membre",
-          "libQualite": "Membre",
-          "libQualiteSex": "Membre"
-        },
-        "organes": {
-          "organeRef": "PO684938"
         }
       },
       {
@@ -1528,6 +1528,73 @@
         }
       },
       {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM753025",
+        "acteurRef": "PA721836",
+        "legislature": "15",
+        "typeOrgane": "GE",
+        "dateDebut": "2018-03-07",
+        "datePublication": null,
+        "dateFin": "2022-06-21",
+        "preseance": "8",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Vice-Président",
+          "libQualite": "Vice-Président",
+          "libQualiteSex": "Vice-Président"
+        },
+        "organes": {
+          "organeRef": "PO747099"
+        }
+      },
+      {
+        "@xsi:type": "MandatParlementaire_type",
+        "uid": "PM805157",
+        "acteurRef": "PA721836",
+        "legislature": "16",
+        "typeOrgane": "ASSEMBLEE",
+        "dateDebut": "2022-10-09",
+        "datePublication": null,
+        "dateFin": "2022-11-09",
+        "preseance": "50",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "membre",
+          "libQualite": "membre",
+          "libQualiteSex": "membre"
+        },
+        "organes": {
+          "organeRef": "PO791932"
+        },
+        "suppleants": {
+          "suppleant": {
+            "dateDebut": "2022-10-09",
+            "dateFin": "2022-11-09",
+            "suppleantRef": "PA805166"
+          }
+        },
+        "chambre": null,
+        "election": {
+          "lieu": {
+            "region": "Ile-de-France",
+            "regionType": "Métropolitain",
+            "departement": "Yvelines",
+            "numDepartement": "78",
+            "numCirco": "2"
+          },
+          "causeMandat": "élection partielle",
+          "refCirconscription": "PO792372"
+        },
+        "mandature": {
+          "datePriseFonction": "2022-10-10",
+          "causeFin": "Nomination comme membre du Gouvernement",
+          "premiereElection": "1",
+          "placeHemicycle": null,
+          "mandatRemplaceRef": null
+        },
+        "collaborateurs": null
+      },
+      {
         "@xsi:type": "MandatParlementaire_type",
         "uid": "PM723398",
         "acteurRef": "PA721836",
@@ -1575,26 +1642,6 @@
         "collaborateurs": null
       },
       {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM753025",
-        "acteurRef": "PA721836",
-        "legislature": "15",
-        "typeOrgane": "GE",
-        "dateDebut": "2018-03-07",
-        "datePublication": null,
-        "dateFin": "2022-06-21",
-        "preseance": "8",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Vice-Président",
-          "libQualite": "Vice-Président",
-          "libQualiteSex": "Vice-Président"
-        },
-        "organes": {
-          "organeRef": "PO747099"
-        }
-      },
-      {
         "@xsi:type": "MandatParlementaire_type",
         "uid": "PM797559",
         "acteurRef": "PA721836",
@@ -1634,53 +1681,6 @@
         },
         "mandature": {
           "datePriseFonction": "2022-06-22",
-          "causeFin": "Nomination comme membre du Gouvernement",
-          "premiereElection": "1",
-          "placeHemicycle": null,
-          "mandatRemplaceRef": null
-        },
-        "collaborateurs": null
-      },
-      {
-        "@xsi:type": "MandatParlementaire_type",
-        "uid": "PM805157",
-        "acteurRef": "PA721836",
-        "legislature": "16",
-        "typeOrgane": "ASSEMBLEE",
-        "dateDebut": "2022-10-09",
-        "datePublication": null,
-        "dateFin": "2022-11-09",
-        "preseance": "50",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "membre",
-          "libQualite": "membre",
-          "libQualiteSex": "membre"
-        },
-        "organes": {
-          "organeRef": "PO791932"
-        },
-        "suppleants": {
-          "suppleant": {
-            "dateDebut": "2022-10-09",
-            "dateFin": "2022-11-09",
-            "suppleantRef": "PA805166"
-          }
-        },
-        "chambre": null,
-        "election": {
-          "lieu": {
-            "region": "Ile-de-France",
-            "regionType": "Métropolitain",
-            "departement": "Yvelines",
-            "numDepartement": "78",
-            "numCirco": "2"
-          },
-          "causeMandat": "élection partielle",
-          "refCirconscription": "PO792372"
-        },
-        "mandature": {
-          "datePriseFonction": "2022-10-10",
           "causeFin": "Nomination comme membre du Gouvernement",
           "premiereElection": "1",
           "placeHemicycle": null,
