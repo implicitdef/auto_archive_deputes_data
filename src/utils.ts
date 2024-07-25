@@ -196,11 +196,16 @@ export function move({
 export function unnestDirContents(folderA: string): void {
   const subFiles = listFilesOrDirsInFolder(folderA)
   if (subFiles.length !== 1) {
-    throw new Error(`${folderA} contains ${subFiles.length} elements`)
+    console.log(
+      `${folderA} contains ${subFiles.length} elements, no need to hoist its content`,
+    )
+    return
   }
   const folderBPath = subFiles[0]
   if (!fs.statSync(folderBPath).isDirectory()) {
-    throw new Error(`${folderBPath} is not a directory!`)
+    throw new Error(
+      `${folderBPath} is not a directory, cannot hoist its content!`,
+    )
   }
   const contentsOfB = listFilesOrDirsInFolder(folderBPath)
   for (const itemPath of contentsOfB) {

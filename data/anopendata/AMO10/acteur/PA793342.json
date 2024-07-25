@@ -1,0 +1,181 @@
+{
+  "uid": {
+    "@xsi:type": "IdActeur_type",
+    "#text": "PA793342"
+  },
+  "etatCivil": {
+    "ident": {
+      "civ": "Mme",
+      "prenom": "Alexandra",
+      "nom": "Martin",
+      "alpha": "Martin1",
+      "trigramme": "AMT"
+    },
+    "infoNaissance": {
+      "dateNais": "1968-10-25",
+      "villeNais": "Nice",
+      "depNais": "Alpes-Maritimes",
+      "paysNais": "France"
+    },
+    "dateDeces": {
+      "@xsi:nil": "true"
+    }
+  },
+  "profession": {
+    "libelleCourant": "Employé civil et agent de service de la fonction publique",
+    "socProcINSEE": {
+      "catSocPro": "Employés de la fonction publique",
+      "famSocPro": "Employés"
+    }
+  },
+  "uri_hatvp": "https://www.hatvp.fr/pages_nominatives/martin-alexandra",
+  "adresses": {
+    "adresse": [
+      {
+        "@xsi:type": "AdressePostale_Type",
+        "uid": "AD793344",
+        "type": "0",
+        "typeLibelle": "Adresse officielle",
+        "poids": "1",
+        "adresseDeRattachement": null,
+        "intitule": "Assemblée nationale,",
+        "numeroRue": "126",
+        "nomRue": "Rue de l'Université,",
+        "complementAdresse": null,
+        "codePostal": "75355",
+        "ville": "Paris 07 SP"
+      },
+      {
+        "@xsi:type": "AdresseMail_Type",
+        "uid": "AD797917",
+        "type": "15",
+        "typeLibelle": "Mèl",
+        "poids": null,
+        "adresseDeRattachement": null,
+        "valElec": "alexandra.martin@assemblee-nationale.fr"
+      }
+    ]
+  },
+  "mandats": {
+    "mandat": [
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM845646",
+        "acteurRef": "PA793342",
+        "legislature": "17",
+        "typeOrgane": "GP",
+        "dateDebut": "2024-07-19",
+        "datePublication": "2024-07-19",
+        "dateFin": null,
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre du",
+          "libQualiteSex": "Membre du"
+        },
+        "organes": {
+          "organeRef": "PO845425"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM846245",
+        "acteurRef": "PA793342",
+        "legislature": "17",
+        "typeOrgane": "COMPER",
+        "dateDebut": "2024-07-20",
+        "datePublication": "2024-07-20",
+        "dateFin": null,
+        "preseance": "32",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO59046"
+        }
+      },
+      {
+        "@xsi:type": "MandatParlementaire_type",
+        "uid": "PM842345",
+        "acteurRef": "PA793342",
+        "legislature": "17",
+        "typeOrgane": "ASSEMBLEE",
+        "dateDebut": "2024-07-07",
+        "datePublication": null,
+        "dateFin": null,
+        "preseance": "50",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "membre",
+          "libQualite": "membre",
+          "libQualiteSex": "membre"
+        },
+        "organes": {
+          "organeRef": "PO838901"
+        },
+        "suppleants": {
+          "suppleant": {
+            "dateDebut": "2024-07-07",
+            "dateFin": null,
+            "suppleantRef": "PA224456"
+          }
+        },
+        "chambre": null,
+        "election": {
+          "lieu": {
+            "region": "Provence-Alpes-Côte d'Azur",
+            "regionType": "Métropolitain",
+            "departement": "Alpes-Maritimes",
+            "numDepartement": "06",
+            "numCirco": "8"
+          },
+          "causeMandat": "élections générales",
+          "refCirconscription": "PO839007"
+        },
+        "mandature": {
+          "datePriseFonction": "2024-07-08",
+          "causeFin": null,
+          "premiereElection": "1",
+          "placeHemicycle": "412",
+          "mandatRemplaceRef": null
+        },
+        "collaborateurs": {
+          "collaborateur": [
+            {
+              "qualite": "Mme",
+              "prenom": "Magali",
+              "nom": "Reilhes",
+              "dateDebut": null,
+              "dateFin": null
+            },
+            {
+              "qualite": "Mme",
+              "prenom": "Isabelle",
+              "nom": "Droguet",
+              "dateDebut": null,
+              "dateFin": null
+            },
+            {
+              "qualite": "Mme",
+              "prenom": "Marie-Line",
+              "nom": "Billon",
+              "dateDebut": null,
+              "dateFin": null
+            },
+            {
+              "qualite": "Mme",
+              "prenom": "Carla",
+              "nom": "Mata",
+              "dateDebut": null,
+              "dateFin": null
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
