@@ -1,6 +1,6 @@
 import path from 'path'
-import { readFileAsJson, readFilesInSubdir, WORKDIR } from '../utils'
 import { DATA_DIR } from '../nosdeputesFetch'
+import { readFileAsJson, readFilesInSubdir } from '../utils'
 
 function readOrganesAndFilter<Subtype extends OrganeJson>(
   filterFunction: (o: OrganeJson) => o is Subtype,
@@ -31,8 +31,9 @@ export function readAllComPerm(): OrganeComPerm[] {
 
 export function readAllDeputesAndMap<A>(
   mapFunction: (depute: ActeurJson, legislatures: number[]) => A,
+  dataset: 'AMO10' | 'AMO30' = 'AMO10',
 ): A[] {
-  const dir = path.join(DATA_DIR, 'anopendata', 'AMO30', 'acteur')
+  const dir = path.join(DATA_DIR, 'anopendata', dataset, 'acteur')
   const filenames = readFilesInSubdir(dir)
   const res: A[] = []
   filenames.flatMap(filename => {
