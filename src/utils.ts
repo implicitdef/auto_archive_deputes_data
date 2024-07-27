@@ -57,7 +57,7 @@ export function rmFileIfExists(file: string) {
 export function mkDirIfNeeded(dir: string) {
   if (!fs.existsSync(dir)) {
     console.log(`Creating directory ${dir}`)
-    fs.mkdirSync(dir)
+    fs.mkdirSync(dir, { recursive: true })
   }
 }
 
@@ -143,6 +143,49 @@ export function listFilesOrDirsInFolder(dirPath: string): string[] {
       `The path ${dirPath} either does not exist or it is not a directory.`,
     )
   }
+}
+
+export function copyFiles(
+  srcDir: string,
+  destDir: string,
+  conflictResolution:
+    | 'overwrite'
+    | 'ignore'
+    | 'throw'
+    | {
+        kind: 'mergeMethod'
+        method: (existingContent: any, newContent: any) => any
+      },
+) {
+  console.log(`Copying files from ${srcDir} to ${destDir}`)
+  mkDirIfNeeded(destDir)
+  const filesPaths = listFilesInFolder(srcDir)
+  filesPaths.forEach(srcFilePath => {
+    const filename = extractFileName(srcFilePath)
+    const destinationFilePath = path.join(destDir, filename)
+    if (fs.existsSync(destinationFilePath)) {
+      if (conflictResolution === 'throw') {
+        throw new Error(`File ${destinationFilePath} already exists.`)
+      } else if (conflictResolution === 'overwrite') {
+        copyFile(srcFilePath, destinationFilePath)
+      } else if (typeof conflictResolution === 'object') {
+        const { method } = conflictResolution
+        const sourceJson = readFileAsJson(srcFilePath)
+        const existingJson = readFileAsJson(destinationFilePath)
+        const mergedJson = method(existingJson, sourceJson)
+        writeToFile(
+          destinationFilePath,
+          JSON.stringify(mergedJson, null, 2) + '\n',
+        )
+      }
+    } else {
+      copyFile(srcFilePath, destinationFilePath)
+    }
+  })
+}
+
+export function copyFile(srcFilePath: string, destinationFilePath: string) {
+  fs.copyFileSync(srcFilePath, destinationFilePath)
 }
 
 export async function downloadFile({
@@ -255,5 +298,3 @@ type NotArray<T> = T extends any[] ? never : T
 export function forceArray<A extends NotArray<any>>(arrOrNot: A | A[]): A[] {
   return Array.isArray(arrOrNot) ? arrOrNot : [arrOrNot]
 }
-
-

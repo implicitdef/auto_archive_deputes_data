@@ -1,137 +1,153 @@
-import { writeFileSync } from 'fs'
+import * as lo from 'lodash'
 import path from 'path'
 import { DATA_DIR } from '../nosdeputesFetch'
 import {
   WORKDIR,
+  copyFiles,
   downloadFile,
+  forceArray,
   listFilesOrDirsInFolder,
   move,
-  readFileAsJson,
   rmDirIfExists,
   rmFileIfExists,
   unnestDirContents,
   unzipIntoDir,
 } from '../utils'
+import { cleanupJsonFile } from './cleanOpenData'
+import { ActeurJson } from './readFromAnOpenData'
 
-type Dataset = (typeof datasets)[number]
-const datasets = [
-  {
-    name: 'AMO30',
-    url: 'https://data.assemblee-nationale.fr/static/openData/repository/16/amo/tous_acteurs_mandats_organes_xi_legislature/AMO30_tous_acteurs_tous_mandats_tous_organes_historique.json.zip',
-  },
-  // AM010 seems to be the equivalent of AM030 for the new (17) legislature
-  {
-    name: 'AMO10',
-    url: 'https://data.assemblee-nationale.fr/static/openData/repository/17/amo/deputes_actifs_mandats_actifs_organes/AMO10_deputes_actifs_mandats_actifs_organes.json.zip',
-  },
-  // These are other datasets for the 17 legislature
-  // I think it's the same as AM010, just split differently
-  // {
-  //   name: 'AMO40',
-  //   url: 'https://data.assemblee-nationale.fr/static/openData/repository/17/amo/deputes_actifs_mandats_actifs_organes_divises/AMO40_deputes_actifs_mandats_actifs_organes_divises.json.zip',
-  // },
-  // {
-  //   name: 'AMO50',
-  //   url: 'https://data.assemblee-nationale.fr/static/openData/repository/17/amo/acteurs_mandats_organes_divises/AMO50_acteurs_mandats_organes_divises.json.zip',
-  // },
-] as const
+type Dataset = {
+  name: string
+  url: string
+}
+const AMO30: Dataset = {
+  name: 'AMO30',
+  url: 'https://data.assemblee-nationale.fr/static/openData/repository/16/amo/tous_acteurs_mandats_organes_xi_legislature/AMO30_tous_acteurs_tous_mandats_tous_organes_historique.json.zip',
+} as const
+const AMO10: Dataset = {
+  name: 'AMO10',
+  url: 'https://data.assemblee-nationale.fr/static/openData/repository/17/amo/deputes_actifs_mandats_actifs_organes/AMO10_deputes_actifs_mandats_actifs_organes.json.zip',
+} as const
 
-export async function fetchAndCleanAnOpenDataAllDatasets() {
-  await datasets.reduce(async (previousPromise, dataset) => {
-    await previousPromise
-    await fetchAndCleanDataset(dataset)
-  }, Promise.resolve())
+const anOpenDataWorkDir = path.join(WORKDIR, 'anopendata')
+
+export async function fetchAndMergeAnDatasets() {
+  const dirPathAmo30 = await fetchAndCleanDataset(AMO30)
+  const dirPathAmo10 = await fetchAndCleanDataset(AMO10)
+
+  const dirPathMerge = path.join(anOpenDataWorkDir, 'AMO30_AMO10_merged')
+  // TODO merge
+  rmDirIfExists(dirPathMerge)
+
+  copyFiles(
+    path.join(dirPathAmo30, 'acteur'),
+    path.join(dirPathMerge, 'acteur'),
+    'throw',
+  )
+  copyFiles(
+    path.join(dirPathAmo10, 'acteur'),
+    path.join(dirPathMerge, 'acteur'),
+    {
+      kind: 'mergeMethod',
+      method: mergeTwoVersionsOfActeurs,
+    },
+  )
+  copyFiles(
+    path.join(dirPathAmo30, 'organe'),
+    path.join(dirPathMerge, 'organe'),
+    'throw',
+  )
+  copyFiles(
+    path.join(dirPathAmo10, 'organe'),
+    path.join(dirPathMerge, 'organe'),
+    'overwrite',
+  )
+  copyFiles(
+    path.join(dirPathAmo30, 'deport'),
+    path.join(dirPathMerge, 'deport'),
+    'throw',
+  )
+  copyFiles(
+    path.join(dirPathAmo10, 'deport'),
+    path.join(dirPathMerge, 'deport'),
+    'overwrite',
+  )
+
+  const finalPath = path.join(DATA_DIR, 'anopendata', 'AMO30_AMO10_merged')
+  rmDirIfExists(finalPath)
+  console.log(`Moving ${dirPathMerge} to ${finalPath}`)
+  move({ currentPath: dirPathMerge, newPath: finalPath })
 }
 
-export async function fetchAndCleanDataset({ name, url }: Dataset) {
+export async function fetchAndCleanDataset({
+  name,
+  url,
+}: Dataset): Promise<string> {
   console.log(`~ Starting to work on dataset ${name} ~`)
-  const anOpenDataWorkDir = path.join(WORKDIR, 'anopendata')
   const zipPath = path.join(anOpenDataWorkDir, `${name}.zip`)
   const unzippedDirPath = path.join(anOpenDataWorkDir, name)
-  const finalPath = path.join(DATA_DIR, 'anopendata', name)
-  rmDirIfExists(anOpenDataWorkDir)
+  rmFileIfExists(zipPath)
+  rmDirIfExists(unzippedDirPath)
   await downloadFile({ url, targetPath: zipPath })
   await unzipIntoDir({ zipFile: zipPath, unzippedDirPath })
   rmFileIfExists(zipPath)
   // there's a single folder named 'json', we can hoist the contents
   unnestDirContents(unzippedDirPath)
-
   listFilesOrDirsInFolder(unzippedDirPath).forEach(subDirs => {
     listFilesOrDirsInFolder(subDirs).forEach(file => {
       cleanupJsonFile(file)
     })
   })
-
-  rmDirIfExists(finalPath)
-  console.log(`Moving ${unzippedDirPath} to ${finalPath}`)
-  move({ currentPath: unzippedDirPath, newPath: finalPath })
+  return unzippedDirPath
 }
 
-function cleanupJsonFile(filePath: string) {
-  const json = readFileAsJson(filePath)
-  // there is a useless root level, unnest it
-  const keys = Object.keys(json)
-  if (keys.length !== 1) {
-    throw new Error(`${filePath} contains ${keys.length} key(s) : ${keys}`)
+function mergeTwoVersionsOfActeurs(
+  amo30Version: ActeurJson,
+  amo10Version: ActeurJson,
+): ActeurJson {
+  return {
+    ...amo10Version,
+    // AMO10 seems to have uri HATVP, not amo30
+    uri_hatvp: amo10Version.uri_hatvp ?? amo30Version.uri_hatvp,
+    etatCivil: {
+      ...amo10Version.etatCivil,
+      // there's slight differences sometimes
+      // let's just keep AMO10
+      ident: amo10Version.etatCivil.ident ?? amo30Version.etatCivil.ident,
+      // idem
+      infoNaissance:
+        amo10Version.etatCivil.infoNaissance ??
+        amo30Version.etatCivil.infoNaissance,
+    },
+    profession: {
+      ...amo10Version.profession,
+      libelleCourant:
+        amo10Version.profession.libelleCourant ??
+        amo30Version.profession.libelleCourant,
+      socProcINSEE: {
+        catSocPro:
+          amo10Version.profession.socProcINSEE.catSocPro ??
+          amo30Version.profession.socProcINSEE.catSocPro,
+        famSocPro:
+          amo10Version.profession.socProcINSEE.famSocPro ??
+          amo30Version.profession.socProcINSEE.famSocPro,
+      },
+    },
+    // For adresses, there's numerous modifications/additions/deletions
+    // Let's just keep the latest from AMO10, it should be fine
+    adresses: amo10Version.adresses,
+    // For mandats, we have to use both versions
+    // because some mandats are only in AMO10 or AMO30
+    // There's some duplicates, but they have same uid and same everything,
+    // so we can just deduplicate based on the uid
+    mandats: {
+      mandat: lo.uniqBy(
+        [
+          ...forceArray(amo10Version.mandats.mandat),
+          ...forceArray(amo30Version.mandats.mandat),
+        ],
+        _ => _.uid,
+      ),
+    },
   }
-  let subJson = json[keys[0]]
-  subJson = removeUselessKeyFromJsonRecursively(subJson, '@xmlns:xsi')
-  subJson = removeUselessKeyFromJsonRecursively(subJson, '@xmlns')
-  subJson = removeNilObjects(subJson)
-  // overwrite the file with the new version
-  writeFileSync(filePath, JSON.stringify(subJson, null, 2))
-}
-
-function removeNilObjects(json: any) {
-  // sometimes theres things like :
-  //  "trigramme": {
-  //    "@xsi:nil": "true"
-  //  }
-  // let's just remove them
-  return removeSomeValuesRecursively(json, value => {
-    return (
-      typeof value === 'object' &&
-      value !== null &&
-      Object.keys(value).length === 1 &&
-      value['@xsi:nil'] === 'true'
-    )
-  })
-}
-function removeSomeValuesRecursively(
-  json: any,
-  shouldRemove: (value: any) => boolean,
-) {
-  function inner(o: any): any {
-    if (Array.isArray(o)) {
-      return o.map(item => inner(item))
-    } else if (typeof o === 'object' && o !== null) {
-      for (const key in o) {
-        const value = o[key]
-        if (shouldRemove(value)) {
-          delete o[key]
-        } else {
-          o[key] = inner(value)
-        }
-      }
-    }
-    return o
-  }
-  return inner(json)
-}
-
-function removeUselessKeyFromJsonRecursively(json: any, uselessKey: string) {
-  function inner(o: any): any {
-    if (Array.isArray(o)) {
-      return o.map(item => inner(item))
-    } else if (typeof o === 'object' && o !== null) {
-      if (o.hasOwnProperty(uselessKey)) {
-        delete o[uselessKey]
-      }
-      for (const key in o) {
-        o[key] = inner(o[key])
-      }
-    }
-    return o
-  }
-  return inner(json)
 }
