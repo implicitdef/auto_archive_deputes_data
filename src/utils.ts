@@ -47,6 +47,10 @@ export function rmDirIfExists(dir: string) {
   }
 }
 
+export function rmDirsIfExists(...dirs: string[]) {
+  dirs.forEach(rmDirIfExists)
+}
+
 export function rmFileIfExists(file: string) {
   if (fs.existsSync(file)) {
     console.log(`Cleaning file ${file}`)
@@ -57,7 +61,7 @@ export function rmFileIfExists(file: string) {
 export function mkDirIfNeeded(dir: string) {
   if (!fs.existsSync(dir)) {
     console.log(`Creating directory ${dir}`)
-    fs.mkdirSync(dir)
+    fs.mkdirSync(dir, { recursive: true })
   }
 }
 
@@ -143,6 +147,55 @@ export function listFilesOrDirsInFolder(dirPath: string): string[] {
       `The path ${dirPath} either does not exist or it is not a directory.`,
     )
   }
+}
+
+export type OnCopyingFileConflict =
+  | 'overwrite'
+  | 'ignore'
+  | 'throw'
+  | {
+      kind: 'mergeMethod'
+      method: (_: { jsonOfExistingFile: any; jsonOfFileToCopyIn: any }) => any
+    }
+
+export function copyFiles({
+  srcDir,
+  destDir,
+  onConflict,
+}: {
+  srcDir: string
+  destDir: string
+  onConflict: OnCopyingFileConflict
+}) {
+  console.log(`Copying files from ${srcDir} to ${destDir}`)
+  mkDirIfNeeded(destDir)
+  const filesPaths = listFilesInFolder(srcDir)
+  filesPaths.forEach(srcFilePath => {
+    const filename = extractFileName(srcFilePath)
+    const destinationFilePath = path.join(destDir, filename)
+    if (fs.existsSync(destinationFilePath)) {
+      if (onConflict === 'throw') {
+        throw new Error(`File ${destinationFilePath} already exists.`)
+      } else if (onConflict === 'overwrite') {
+        copyFile(srcFilePath, destinationFilePath)
+      } else if (typeof onConflict === 'object') {
+        const { method } = onConflict
+        const jsonOfFileToCopyIn = readFileAsJson(srcFilePath)
+        const jsonOfExistingFile = readFileAsJson(destinationFilePath)
+        const mergedJson = method({ jsonOfExistingFile, jsonOfFileToCopyIn })
+        writeToFile(
+          destinationFilePath,
+          JSON.stringify(mergedJson, null, 2) + '\n',
+        )
+      }
+    } else {
+      copyFile(srcFilePath, destinationFilePath)
+    }
+  })
+}
+
+export function copyFile(srcFilePath: string, destinationFilePath: string) {
+  fs.copyFileSync(srcFilePath, destinationFilePath)
 }
 
 export async function downloadFile({
@@ -246,4 +299,12 @@ export function padStartWithZeroes(str: string, targetLength: number): string {
   const diff = targetLength - str.length
   if (diff <= 0) return str
   return `${'0'.repeat(diff)}${str}`
+}
+
+type NotArray<T> = T extends any[] ? never : T
+
+// given something that can be either A or A[]
+// convert it to always be an array
+export function forceArray<A extends NotArray<any>>(arrOrNot: A | A[]): A[] {
+  return Array.isArray(arrOrNot) ? arrOrNot : [arrOrNot]
 }

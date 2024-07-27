@@ -1,5 +1,5 @@
 import 'dotenv/config'
-import { fetchAndCleanAnOpenDataAllDatasets } from './anopendata/fetchAnOpenData'
+import { fetchAndMergeAnDatasets } from './anopendata/fetchAnOpenData'
 import { fetchElectionsPartiellesFromMinistere } from './electionsPartiellesFromMinistereInterieur'
 import { fetchElectionsPartiellesFromWikipedia } from './electionsPartiellesFromWikipedia'
 import { fetchPhotos } from './fetchPhotos'
@@ -9,10 +9,10 @@ import {
   nosdeputesFetchBasicData,
   nosdeputesFetchWeeklyStats,
 } from './nosdeputesFetch'
+import { tmpTool } from './tmpTool'
 import { fetchWikipediaParagraphs } from './wikipedia/fetchWikipediaParagraphs'
 import { createWikipediaSummaries } from './wikipedia/fetchWikipediaSummaries'
 import { fetchWikipediaUrls } from './wikipedia/fetchWikipediaUrls'
-import { tmpTool } from './wikipedia/tmpTool'
 
 type Command =
   | 'update_an_open_data'
@@ -32,7 +32,7 @@ async function start() {
   console.log('Running script with arguments', process.argv.slice(2))
   switch (readCommandArgument()) {
     case 'update_an_open_data':
-      await fetchAndCleanAnOpenDataAllDatasets()
+      await fetchAndMergeAnDatasets()
       break
     case 'update_nosdeputes_basic_data':
       await nosdeputesFetchBasicData(readLegislatureArgument())

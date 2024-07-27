@@ -61,19 +61,37 @@ function alwaysAsArray<A>(arrayOrSingleElement: A[] | A): A[] {
 export type ActeurJson = {
   uid: { '#text': string }
   etatCivil: {
-    ident: { civ: 'M.' | 'Mme'; nom: string; prenom: string }
+    ident: {
+      civ: 'M.' | 'Mme'
+      nom: string
+      prenom: string
+      alpha: string
+      trigramme?: string
+    }
     infoNaissance: {
       dateNais: '1949-06-02T01:00:00.000+01:00'
+      villeNais?: string
+      depNais?: string
+      paysNais?: string
+    }
+  }
+  profession: {
+    libelleCourant?: string
+    socProcINSEE: {
+      catSocPro?: string
+      famSocPro?: string
     }
   }
   mandats: {
     mandat: Mandat[] | Mandat
   }
+  uri_hatvp?: string
+  adresses: { adresse?: Adresse[] | Adresse }
 
   // there are other fields
 }
 
-export type Mandat =
+export type Mandat = { uid: string } & (
   | MandatAssemblee
   | MandatGroupe
   | MandatComPerm
@@ -81,7 +99,7 @@ export type Mandat =
   | {
       typeOrgane: '__other__'
     }
-
+)
 export type MandatAssemblee = {
   typeOrgane: 'ASSEMBLEE'
   uid: string
@@ -117,6 +135,7 @@ export type MandatBureau = {
 
 export type MandatGroupe = {
   typeOrgane: 'GP'
+  uid: string
   legislature: string
   dateFin?: string
   infosQualite: {
@@ -127,6 +146,7 @@ export type MandatGroupe = {
 
 export type MandatComPerm = {
   typeOrgane: 'COMPER'
+  uid: string
   legislature: string
   dateFin?: string
   infosQualite: {
@@ -208,4 +228,9 @@ export function isOrganeGroupe(organe: OrganeJson): organe is OrganeGroupe {
 
 export function isOrganeComPerm(organe: OrganeJson): organe is OrganeComPerm {
   return organe.codeType === 'COMPER'
+}
+
+export type Adresse = {
+  uid: string
+  // there are other fields
 }
