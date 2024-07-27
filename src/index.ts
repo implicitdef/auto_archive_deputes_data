@@ -9,10 +9,10 @@ import {
   nosdeputesFetchBasicData,
   nosdeputesFetchWeeklyStats,
 } from './nosdeputesFetch'
+import { tmpTool } from './tmpTool'
 import { fetchWikipediaParagraphs } from './wikipedia/fetchWikipediaParagraphs'
 import { createWikipediaSummaries } from './wikipedia/fetchWikipediaSummaries'
 import { fetchWikipediaUrls } from './wikipedia/fetchWikipediaUrls'
-import { tmpTool } from './wikipedia/tmpTool'
 
 type Command =
   | 'update_an_open_data'

@@ -247,3 +247,13 @@ export function padStartWithZeroes(str: string, targetLength: number): string {
   if (diff <= 0) return str
   return `${'0'.repeat(diff)}${str}`
 }
+
+type NotArray<T> = T extends any[] ? never : T
+
+// given something that can be either A or A[]
+// convert it to always be an array
+export function forceArray<A extends NotArray<any>>(arrOrNot: A | A[]): A[] {
+  return Array.isArray(arrOrNot) ? arrOrNot : [arrOrNot]
+}
+
+
