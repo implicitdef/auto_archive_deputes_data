@@ -145,18 +145,24 @@ export function listFilesOrDirsInFolder(dirPath: string): string[] {
   }
 }
 
-export function copyFiles(
-  srcDir: string,
-  destDir: string,
-  conflictResolution:
-    | 'overwrite'
-    | 'ignore'
-    | 'throw'
-    | {
-        kind: 'mergeMethod'
-        method: (existingContent: any, newContent: any) => any
-      },
-) {
+export type OnCopyingFileConflict =
+  | 'overwrite'
+  | 'ignore'
+  | 'throw'
+  | {
+      kind: 'mergeMethod'
+      method: (_: { jsonOfExistingFile: any; jsonOfFileToCopyIn: any }) => any
+    }
+
+export function copyFiles({
+  srcDir,
+  destDir,
+  onConflict,
+}: {
+  srcDir: string
+  destDir: string
+  onConflict: OnCopyingFileConflict
+}) {
   console.log(`Copying files from ${srcDir} to ${destDir}`)
   mkDirIfNeeded(destDir)
   const filesPaths = listFilesInFolder(srcDir)
@@ -164,15 +170,15 @@ export function copyFiles(
     const filename = extractFileName(srcFilePath)
     const destinationFilePath = path.join(destDir, filename)
     if (fs.existsSync(destinationFilePath)) {
-      if (conflictResolution === 'throw') {
+      if (onConflict === 'throw') {
         throw new Error(`File ${destinationFilePath} already exists.`)
-      } else if (conflictResolution === 'overwrite') {
+      } else if (onConflict === 'overwrite') {
         copyFile(srcFilePath, destinationFilePath)
-      } else if (typeof conflictResolution === 'object') {
-        const { method } = conflictResolution
-        const sourceJson = readFileAsJson(srcFilePath)
-        const existingJson = readFileAsJson(destinationFilePath)
-        const mergedJson = method(existingJson, sourceJson)
+      } else if (typeof onConflict === 'object') {
+        const { method } = onConflict
+        const jsonOfFileToCopyIn = readFileAsJson(srcFilePath)
+        const jsonOfExistingFile = readFileAsJson(destinationFilePath)
+        const mergedJson = method({ jsonOfExistingFile, jsonOfFileToCopyIn })
         writeToFile(
           destinationFilePath,
           JSON.stringify(mergedJson, null, 2) + '\n',

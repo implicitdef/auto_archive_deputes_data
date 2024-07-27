@@ -2,6 +2,7 @@ import * as lo from 'lodash'
 import path from 'path'
 import { DATA_DIR } from '../nosdeputesFetch'
 import {
+  OnCopyingFileConflict,
   WORKDIR,
   copyFiles,
   downloadFile,
@@ -34,77 +35,79 @@ const anOpenDataWorkDir = path.join(WORKDIR, 'anopendata')
 export async function fetchAndMergeAnDatasets() {
   const dirPathAmo30 = await fetchAndCleanDataset(AMO30)
   const dirPathAmo10 = await fetchAndCleanDataset(AMO10)
-
   const dirPathMerge = path.join(anOpenDataWorkDir, 'AMO30_AMO10_merged')
-  // TODO merge
   rmDirIfExists(dirPathMerge)
-
-  copyFiles(
-    path.join(dirPathAmo30, 'acteur'),
-    path.join(dirPathMerge, 'acteur'),
-    'throw',
-  )
-  copyFiles(
-    path.join(dirPathAmo10, 'acteur'),
-    path.join(dirPathMerge, 'acteur'),
-    {
-      kind: 'mergeMethod',
-      method: mergeTwoVersionsOfActeurs,
-    },
-  )
-  copyFiles(
-    path.join(dirPathAmo30, 'organe'),
-    path.join(dirPathMerge, 'organe'),
-    'throw',
-  )
-  copyFiles(
-    path.join(dirPathAmo10, 'organe'),
-    path.join(dirPathMerge, 'organe'),
-    'overwrite',
-  )
-  copyFiles(
-    path.join(dirPathAmo30, 'deport'),
-    path.join(dirPathMerge, 'deport'),
-    'throw',
-  )
-  copyFiles(
-    path.join(dirPathAmo10, 'deport'),
-    path.join(dirPathMerge, 'deport'),
-    'overwrite',
-  )
-
+  mergeSubfolder({
+    dirPathAmo10,
+    dirPathAmo30,
+    dirPathMerge,
+    subfolderName: 'acteur',
+  })
+  mergeSubfolder({
+    dirPathAmo10,
+    dirPathAmo30,
+    dirPathMerge,
+    subfolderName: 'organe',
+  })
+  mergeSubfolder({
+    dirPathAmo10,
+    dirPathAmo30,
+    dirPathMerge,
+    subfolderName: 'deport',
+  })
   const finalPath = path.join(DATA_DIR, 'anopendata', 'AMO30_AMO10_merged')
   rmDirIfExists(finalPath)
   console.log(`Moving ${dirPathMerge} to ${finalPath}`)
   move({ currentPath: dirPathMerge, newPath: finalPath })
 }
 
-export async function fetchAndCleanDataset({
-  name,
-  url,
-}: Dataset): Promise<string> {
-  console.log(`~ Starting to work on dataset ${name} ~`)
-  const zipPath = path.join(anOpenDataWorkDir, `${name}.zip`)
-  const unzippedDirPath = path.join(anOpenDataWorkDir, name)
-  rmFileIfExists(zipPath)
-  rmDirIfExists(unzippedDirPath)
-  await downloadFile({ url, targetPath: zipPath })
-  await unzipIntoDir({ zipFile: zipPath, unzippedDirPath })
-  rmFileIfExists(zipPath)
-  // there's a single folder named 'json', we can hoist the contents
-  unnestDirContents(unzippedDirPath)
-  listFilesOrDirsInFolder(unzippedDirPath).forEach(subDirs => {
-    listFilesOrDirsInFolder(subDirs).forEach(file => {
-      cleanupJsonFile(file)
-    })
+function mergeSubfolder({
+  dirPathAmo10,
+  dirPathAmo30,
+  dirPathMerge,
+  subfolderName,
+}: {
+  dirPathAmo30: string
+  dirPathAmo10: string
+  dirPathMerge: string
+  subfolderName: 'acteur' | 'organe' | 'deport'
+}) {
+  const onConflict: OnCopyingFileConflict =
+    // When an acteur file is present both in AMO10 and AMO30
+    // there's interesting stuff to get from both
+    // we need to do a complex custom merge
+    subfolderName === 'acteur'
+      ? {
+          kind: 'mergeMethod',
+          method: ({ jsonOfExistingFile, jsonOfFileToCopyIn }) =>
+            mergeTwoVersionsOfActeurs({
+              amo10Version: jsonOfFileToCopyIn,
+              amo30Version: jsonOfExistingFile,
+            }),
+        }
+      : // for organes and deport, if the filename is the same
+        // then the files have exactly the same content
+        // we can keep either version
+        'overwrite'
+  copyFiles({
+    srcDir: path.join(dirPathAmo30, subfolderName),
+    destDir: path.join(dirPathMerge, subfolderName),
+    onConflict: 'throw',
   })
-  return unzippedDirPath
+  copyFiles({
+    srcDir: path.join(dirPathAmo10, subfolderName),
+    destDir: path.join(dirPathMerge, subfolderName),
+    onConflict,
+  })
 }
 
-function mergeTwoVersionsOfActeurs(
-  amo30Version: ActeurJson,
-  amo10Version: ActeurJson,
-): ActeurJson {
+function mergeTwoVersionsOfActeurs({
+  amo30Version,
+  amo10Version,
+}: {
+  amo30Version: ActeurJson
+  amo10Version: ActeurJson
+}): ActeurJson {
   return {
     ...amo10Version,
     // AMO10 seems to have uri HATVP, not amo30
@@ -150,4 +153,23 @@ function mergeTwoVersionsOfActeurs(
       ),
     },
   }
+}
+
+async function fetchAndCleanDataset({ name, url }: Dataset): Promise<string> {
+  console.log(`~ Starting to work on dataset ${name} ~`)
+  const zipPath = path.join(anOpenDataWorkDir, `${name}.zip`)
+  const unzippedDirPath = path.join(anOpenDataWorkDir, name)
+  rmFileIfExists(zipPath)
+  rmDirIfExists(unzippedDirPath)
+  await downloadFile({ url, targetPath: zipPath })
+  await unzipIntoDir({ zipFile: zipPath, unzippedDirPath })
+  rmFileIfExists(zipPath)
+  // there's a single folder named 'json', we can hoist the contents
+  unnestDirContents(unzippedDirPath)
+  listFilesOrDirsInFolder(unzippedDirPath).forEach(subDirs => {
+    listFilesOrDirsInFolder(subDirs).forEach(file => {
+      cleanupJsonFile(file)
+    })
+  })
+  return unzippedDirPath
 }
