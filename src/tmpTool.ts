@@ -1,11 +1,50 @@
+import { diff } from 'deep-diff'
 import * as lo from 'lodash'
+import path from 'path'
 import { ActeurJson } from './anopendata/readFromAnOpenData'
-import { forceArray } from './utils'
+import { DATA_DIR } from './nosdeputesFetch'
+import { forceArray, readFileAsJson, readFilesInSubdir } from './utils'
 
 export function tmpTool() {
   console.log('--- tmpTool')
   // TODO use this to merge
-  mergeTwoVersionsOfActeurs(null as any, null as any)
+  // mergeTwoVersionsOfActeurs(null as any, null as any)
+
+  const oldDeport = readDeports('AMO30')
+  const newDeports = readDeports('AMO10')
+  const allDeports = [...oldDeport, ...newDeports]
+  const intersection = newDeports.filter(_ =>
+    oldDeport.map(_ => _.uid).includes(_.uid),
+  )
+  const brandNew = newDeports.filter(
+    _ => !oldDeport.map(_ => _.uid).includes(_.uid),
+  )
+
+  console.log('stats : ', {
+    old: oldDeport.length,
+    new: newDeports.length,
+    intersection: intersection.length,
+    brandNew: brandNew.length,
+  })
+
+  intersection.forEach(newOrg => {
+    const { uid } = newOrg
+    const oldOrg = oldDeport.find(_ => _.uid === uid)
+    const differences = diff(oldOrg, newOrg)
+    if (differences) {
+      console.log(`${uid} => ${differences}.length differences`)
+    }
+  })
+}
+
+function readDeports(dataset: 'AMO30' | 'AMO10'): any[] {
+  const dir = path.join(DATA_DIR, 'anopendata', dataset, 'deport')
+  const filenames = readFilesInSubdir(dir)
+  const res = filenames.map(filename => {
+    const organeJson = readFileAsJson(path.join(dir, filename))
+    return organeJson
+  })
+  return res
 }
 
 function mergeTwoVersionsOfActeurs(
