@@ -7,7 +7,7 @@ import StreamZip from 'node-stream-zip'
 import path from 'path'
 
 export const WORKDIR = 'tmp'
-export const LATEST_LEGISLATURE = 16
+export const LATEST_LEGISLATURE = 17
 
 export function readFromEnv(name: string): string {
   const value = process.env[name]
