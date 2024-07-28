@@ -1,15 +1,15 @@
 import * as cheerio from 'cheerio'
 import slugify from 'slugify'
+import { readAllDeputesAndMap } from '../anopendata/readFromAnOpenData'
 import { fetchWithRetry } from '../fetchWithRetry'
+import { DATA_DIR } from '../nosdeputesFetch'
 import {
   readAliases,
   readHardcodedDeputesUrls,
   readKnownDeputesWithoutWikipediaPage,
 } from '../readHardcodedData'
-import { readAllDeputesAndMap } from '../anopendata/readFromAnOpenData'
-import { isNotNull, writeToFile } from '../utils'
+import { isNotNull, LATEST_LEGISLATURE, writeToFile } from '../utils'
 import path = require('path')
-import { DATA_DIR } from '../nosdeputesFetch'
 
 export type FoundWikipediaUrls = {
   id_an: string
@@ -125,7 +125,7 @@ type ResultForDepute = {
 
 async function readLinksForAllLegislatures() {
   const START_LEGISLATURE = 12
-  const MAX_LEGISLATURE = 16
+  const MAX_LEGISLATURE = LATEST_LEGISLATURE
   const legislatures = Array.from(
     { length: MAX_LEGISLATURE - START_LEGISLATURE + 1 },
     (_, index) => START_LEGISLATURE + index,
