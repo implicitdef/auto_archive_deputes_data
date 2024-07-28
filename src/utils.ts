@@ -167,9 +167,9 @@ export function copyFiles({
   destDir: string
   onConflict: OnCopyingFileConflict
 }) {
-  console.log(`Copying files from ${srcDir} to ${destDir}`)
-  mkDirIfNeeded(destDir)
   const filesPaths = listFilesInFolder(srcDir)
+  console.log(`Copying ${filesPaths.length} files from ${srcDir} to ${destDir}`)
+  mkDirIfNeeded(destDir)
   filesPaths.forEach(srcFilePath => {
     const filename = extractFileName(srcFilePath)
     const destinationFilePath = path.join(destDir, filename)
