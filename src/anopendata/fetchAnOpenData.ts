@@ -32,6 +32,11 @@ const AMO10: Dataset = {
 } as const
 
 const anOpenDataWorkDir = path.join(WORKDIR, 'anopendata')
+export const anOpenDataFinalDir = path.join(
+  DATA_DIR,
+  'anopendata',
+  'AMO30_AMO10_merged',
+)
 
 export async function fetchAndMergeAnDatasets() {
   const dirPathAmo30 = await fetchAndCleanDataset(AMO30)
@@ -56,7 +61,7 @@ export async function fetchAndMergeAnDatasets() {
     dirPathMerge,
     subfolderName: 'deport',
   })
-  const finalPath = path.join(DATA_DIR, 'anopendata', 'AMO30_AMO10_merged')
+  const finalPath = anOpenDataFinalDir
   rmDirIfExists(finalPath)
   console.log(`Moving ${dirPathMerge} to ${finalPath}`)
   move({ currentPath: dirPathMerge, newPath: finalPath })
