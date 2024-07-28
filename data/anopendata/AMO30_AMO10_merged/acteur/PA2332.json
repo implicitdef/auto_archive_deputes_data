@@ -1,0 +1,138 @@
+{
+  "uid": {
+    "@xsi:type": "IdActeur_type",
+    "#text": "PA2332"
+  },
+  "etatCivil": {
+    "ident": {
+      "civ": "M.",
+      "prenom": "Charles",
+      "nom": "Pasqua",
+      "alpha": "Pasqua"
+    },
+    "infoNaissance": {
+      "dateNais": "1927-04-18",
+      "villeNais": "Grasse",
+      "depNais": "Alpes-Maritimes"
+    },
+    "dateDeces": "2015-06-29"
+  },
+  "profession": {
+    "socProcINSEE": {}
+  },
+  "adresses": {
+    "adresse": {
+      "@xsi:type": "AdresseSiteWeb_Type",
+      "uid": "AD317319",
+      "type": "23",
+      "typeLibelle": "Url sénateur",
+      "poids": null,
+      "adresseDeRattachement": null,
+      "valElec": "https://www.senat.fr/senateur/pasqua_charles77053g.html"
+    }
+  },
+  "mandats": {
+    "mandat": [
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM308868",
+        "acteurRef": "PA2332",
+        "legislature": null,
+        "typeOrgane": "COMSENAT",
+        "dateDebut": "2004-10-06",
+        "datePublication": null,
+        "dateFin": "2011-09-30",
+        "preseance": "10",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO211491"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM304297",
+        "acteurRef": "PA2332",
+        "legislature": null,
+        "typeOrgane": "GROUPESENAT",
+        "dateDebut": "2004-10-05",
+        "datePublication": "2004-10-07",
+        "dateFin": "2011-09-30",
+        "preseance": "8",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre apparenté",
+          "libQualite": "Membre apparenté",
+          "libQualiteSex": "Membre apparenté"
+        },
+        "organes": {
+          "organeRef": "PO286005"
+        }
+      },
+      {
+        "@xsi:type": "MandatParlementaire_type",
+        "uid": "PM303965",
+        "acteurRef": "PA2332",
+        "legislature": null,
+        "typeOrgane": "SENAT",
+        "dateDebut": "2004-10-01",
+        "datePublication": "2004-10-02",
+        "dateFin": "2011-09-30",
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Sénateur",
+          "libQualite": "SENATEUR",
+          "libQualiteSex": "SENATEUR"
+        },
+        "organes": {
+          "organeRef": "PO78718"
+        },
+        "suppleants": null,
+        "chambre": null,
+        "election": {
+          "lieu": {
+            "region": null,
+            "regionType": null,
+            "departement": null,
+            "numDepartement": "92",
+            "numCirco": null
+          },
+          "causeMandat": null
+        },
+        "mandature": {
+          "datePriseFonction": null,
+          "causeFin": null,
+          "premiereElection": "0",
+          "placeHemicycle": null,
+          "mandatRemplaceRef": null
+        },
+        "collaborateurs": null
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM420992",
+        "acteurRef": "PA2332",
+        "legislature": null,
+        "typeOrgane": "CMP",
+        "dateDebut": "2009-07-07",
+        "datePublication": "2009-07-08",
+        "dateFin": "2009-09-01",
+        "preseance": "28",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Suppléant",
+          "libQualite": "Membre suppléant",
+          "libQualiteSex": "Membre suppléant"
+        },
+        "organes": {
+          "organeRef": "PO420973"
+        }
+      }
+    ]
+  }
+}

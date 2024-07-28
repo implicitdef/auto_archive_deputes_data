@@ -1,0 +1,115 @@
+{
+  "uid": {
+    "@xsi:type": "IdActeur_type",
+    "#text": "PA324"
+  },
+  "etatCivil": {
+    "ident": {
+      "civ": "M.",
+      "prenom": "Jean-Yves",
+      "nom": "Autexier",
+      "alpha": "Autexier"
+    },
+    "infoNaissance": {
+      "dateNais": "1950-01-05",
+      "villeNais": "Châtellerault",
+      "depNais": "Vienne"
+    }
+  },
+  "profession": {
+    "libelleCourant": "Cadre administratif",
+    "socProcINSEE": {}
+  },
+  "adresses": {
+    "adresse": [
+      {
+        "@xsi:type": "AdressePostale_Type",
+        "uid": "AD44776",
+        "type": "0",
+        "typeLibelle": "Adresse officielle",
+        "poids": "1",
+        "adresseDeRattachement": null,
+        "intitule": "Casier de la Poste,",
+        "numeroRue": null,
+        "nomRue": null,
+        "complementAdresse": "Palais Bourbon,",
+        "codePostal": "75355",
+        "ville": "Paris 07 SP"
+      },
+      {
+        "@xsi:type": "AdresseSiteWeb_Type",
+        "uid": "AD316870",
+        "type": "23",
+        "typeLibelle": "Url sénateur",
+        "poids": null,
+        "adresseDeRattachement": null,
+        "valElec": "https://www.senat.fr/senateur/autexier_jean_yves00001a.html"
+      }
+    ]
+  },
+  "mandats": {
+    "mandat": [
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM642609",
+        "acteurRef": "PA324",
+        "legislature": "13",
+        "typeOrgane": "GP",
+        "dateDebut": "2012-06-17",
+        "datePublication": null,
+        "dateFin": "2012-06-19",
+        "preseance": "28",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Député non-inscrit",
+          "libQualite": "Député non-inscrit",
+          "libQualiteSex": "Député non-inscrit"
+        },
+        "organes": {
+          "organeRef": "PO387155"
+        }
+      },
+      {
+        "@xsi:type": "MandatParlementaire_type",
+        "uid": "PM642574",
+        "acteurRef": "PA324",
+        "legislature": "13",
+        "typeOrgane": "ASSEMBLEE",
+        "dateDebut": "2007-06-20",
+        "datePublication": null,
+        "dateFin": "2012-06-19",
+        "preseance": "50",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "membre",
+          "libQualite": "membre",
+          "libQualiteSex": "membre"
+        },
+        "organes": {
+          "organeRef": "PO384266"
+        },
+        "suppleants": null,
+        "chambre": null,
+        "election": {
+          "lieu": {
+            "region": "Ile-de-France",
+            "regionType": "Métropolitain",
+            "departement": "Paris",
+            "numDepartement": "75",
+            "numCirco": "21"
+          },
+          "causeMandat": "remplacement d'un député nommé au Gouvernement",
+          "refCirconscription": "PO384682"
+        },
+        "mandature": {
+          "datePriseFonction": "2012-06-17",
+          "causeFin": "Fin de législature",
+          "premiereElection": "1",
+          "placeHemicycle": null,
+          "mandatRemplaceRef": null
+        },
+        "collaborateurs": null
+      }
+    ]
+  }
+}

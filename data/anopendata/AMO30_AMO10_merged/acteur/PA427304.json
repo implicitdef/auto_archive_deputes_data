@@ -1,0 +1,159 @@
+{
+  "uid": {
+    "@xsi:type": "IdActeur_type",
+    "#text": "PA427304"
+  },
+  "etatCivil": {
+    "ident": {
+      "civ": "M.",
+      "prenom": "Joël",
+      "nom": "Regnault",
+      "alpha": "Regnault"
+    },
+    "infoNaissance": {
+      "dateNais": "1949-11-05",
+      "villeNais": "Plaisir",
+      "depNais": "Yvelines",
+      "paysNais": "France"
+    }
+  },
+  "profession": {
+    "libelleCourant": "Exploitant agricole",
+    "socProcINSEE": {
+      "catSocPro": "Agriculteurs exploitants",
+      "famSocPro": "Agriculteurs exploitants"
+    }
+  },
+  "adresses": {
+    "adresse": [
+      {
+        "@xsi:type": "AdressePostale_Type",
+        "uid": "AD429615",
+        "type": "0",
+        "typeLibelle": "Adresse officielle",
+        "poids": "1",
+        "adresseDeRattachement": null,
+        "intitule": "Assemblée nationale,",
+        "numeroRue": "126",
+        "nomRue": "Rue de l'Université",
+        "complementAdresse": null,
+        "codePostal": "75355",
+        "ville": "Paris 07 SP"
+      },
+      {
+        "@xsi:type": "AdresseMail_Type",
+        "uid": "AD429775",
+        "type": "15",
+        "typeLibelle": "Mèl",
+        "poids": null,
+        "adresseDeRattachement": null,
+        "valElec": "le-maire@ville-plaisir.fr"
+      }
+    ]
+  },
+  "mandats": {
+    "mandat": [
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM429594",
+        "acteurRef": "PA427304",
+        "legislature": "13",
+        "typeOrgane": "GP",
+        "dateDebut": "2011-07-30",
+        "datePublication": "2011-07-31",
+        "dateFin": "2012-06-16",
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre du",
+          "libQualiteSex": "Membre du"
+        },
+        "organes": {
+          "organeRef": "PO389395"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM429602",
+        "acteurRef": "PA427304",
+        "legislature": "13",
+        "typeOrgane": "COMPER",
+        "dateDebut": "2011-08-02",
+        "datePublication": "2011-08-02",
+        "dateFin": "2012-06-16",
+        "preseance": "32",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO419865"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM429670",
+        "acteurRef": "PA427304",
+        "legislature": "13",
+        "typeOrgane": "GA",
+        "dateDebut": "2011-08-23",
+        "datePublication": null,
+        "dateFin": "2012-06-16",
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO392895"
+        }
+      },
+      {
+        "@xsi:type": "MandatParlementaire_type",
+        "uid": "PM429585",
+        "acteurRef": "PA427304",
+        "legislature": "13",
+        "typeOrgane": "ASSEMBLEE",
+        "dateDebut": "2009-10-18",
+        "datePublication": "2009-10-19",
+        "dateFin": "2012-06-16",
+        "preseance": "50",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "membre",
+          "libQualite": "membre",
+          "libQualiteSex": "membre"
+        },
+        "organes": {
+          "organeRef": "PO384266"
+        },
+        "suppleants": null,
+        "chambre": null,
+        "election": {
+          "lieu": {
+            "region": "Ile-de-France",
+            "regionType": "Métropolitain",
+            "departement": "Yvelines",
+            "numDepartement": "78",
+            "numCirco": "12"
+          },
+          "causeMandat": "remplacement d'un député nommé au Gouvernement",
+          "refCirconscription": "PO384715"
+        },
+        "mandature": {
+          "datePriseFonction": "2011-07-30",
+          "causeFin": "Reprise de l'exercice du mandat d'un ancien membre du Gouvernement",
+          "premiereElection": "0",
+          "placeHemicycle": null,
+          "mandatRemplaceRef": "PM386404"
+        },
+        "collaborateurs": null
+      }
+    ]
+  }
+}

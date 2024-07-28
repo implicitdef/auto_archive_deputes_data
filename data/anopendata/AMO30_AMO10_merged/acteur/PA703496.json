@@ -1,0 +1,115 @@
+{
+  "uid": {
+    "@xsi:type": "IdActeur_type",
+    "#text": "PA703496"
+  },
+  "etatCivil": {
+    "ident": {
+      "civ": "M.",
+      "prenom": "David",
+      "nom": "Rachline",
+      "alpha": "Rachline_david"
+    },
+    "infoNaissance": {
+      "dateNais": "1987-12-02"
+    }
+  },
+  "profession": {
+    "socProcINSEE": {}
+  },
+  "adresses": {
+    "adresse": {
+      "@xsi:type": "AdresseSiteWeb_Type",
+      "uid": "AD703744",
+      "type": "23",
+      "typeLibelle": "Url sénateur",
+      "poids": null,
+      "adresseDeRattachement": null,
+      "valElec": "https://www.senat.fr/senateur/rachline_david14247u.html"
+    }
+  },
+  "mandats": {
+    "mandat": [
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM703909",
+        "acteurRef": "PA703496",
+        "legislature": null,
+        "typeOrgane": "GROUPESENAT",
+        "dateDebut": "2014-10-07",
+        "datePublication": null,
+        "dateFin": "2017-09-30",
+        "preseance": "4",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO77708"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM703973",
+        "acteurRef": "PA703496",
+        "legislature": null,
+        "typeOrgane": "COMSENAT",
+        "dateDebut": "2014-10-08",
+        "datePublication": null,
+        "dateFin": "2017-09-30",
+        "preseance": "10",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO516754"
+        }
+      },
+      {
+        "@xsi:type": "MandatParlementaire_type",
+        "uid": "PM703675",
+        "acteurRef": "PA703496",
+        "legislature": null,
+        "typeOrgane": "SENAT",
+        "dateDebut": "2014-10-01",
+        "datePublication": null,
+        "dateFin": "2017-09-30",
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Sénateur",
+          "libQualite": "SENATEUR",
+          "libQualiteSex": "SENATEUR"
+        },
+        "organes": {
+          "organeRef": "PO78718"
+        },
+        "suppleants": null,
+        "chambre": null,
+        "election": {
+          "lieu": {
+            "region": null,
+            "regionType": null,
+            "departement": null,
+            "numDepartement": "83",
+            "numCirco": null
+          },
+          "causeMandat": null
+        },
+        "mandature": {
+          "datePriseFonction": null,
+          "causeFin": null,
+          "premiereElection": "0",
+          "placeHemicycle": null,
+          "mandatRemplaceRef": null
+        },
+        "collaborateurs": null
+      }
+    ]
+  }
+}

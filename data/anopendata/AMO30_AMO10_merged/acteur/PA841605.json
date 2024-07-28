@@ -1,0 +1,150 @@
+{
+  "uid": {
+    "@xsi:type": "IdActeur_type",
+    "#text": "PA841605"
+  },
+  "etatCivil": {
+    "ident": {
+      "civ": "M.",
+      "prenom": "Antoine",
+      "nom": "Golliot",
+      "alpha": "Golliot",
+      "trigramme": "AGO"
+    },
+    "infoNaissance": {
+      "dateNais": "1985-08-13",
+      "villeNais": "Saint-Martin-Boulogne",
+      "depNais": "Pas-de-Calais",
+      "paysNais": "France"
+    }
+  },
+  "profession": {
+    "libelleCourant": "(47) - Technicien",
+    "socProcINSEE": {
+      "catSocPro": "Techniciens",
+      "famSocPro": "Professions Intermédiaires"
+    }
+  },
+  "uri_hatvp": "https://www.hatvp.fr/pages_nominatives/golliot-antoine-27428",
+  "adresses": {
+    "adresse": [
+      {
+        "@xsi:type": "AdressePostale_Type",
+        "uid": "AD841607",
+        "type": "0",
+        "typeLibelle": "Adresse officielle",
+        "poids": "1",
+        "adresseDeRattachement": null,
+        "intitule": "Assemblée nationale,",
+        "numeroRue": "126",
+        "nomRue": "Rue de l'Université,",
+        "complementAdresse": null,
+        "codePostal": "75355",
+        "ville": "Paris 07 SP"
+      },
+      {
+        "@xsi:type": "AdresseMail_Type",
+        "uid": "AD843909",
+        "type": "15",
+        "typeLibelle": "Mèl",
+        "poids": null,
+        "adresseDeRattachement": null,
+        "valElec": "antoine.golliot@assemblee-nationale.fr"
+      }
+    ]
+  },
+  "mandats": {
+    "mandat": [
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM845920",
+        "acteurRef": "PA841605",
+        "legislature": "17",
+        "typeOrgane": "GP",
+        "dateDebut": "2024-07-19",
+        "datePublication": "2024-07-19",
+        "dateFin": null,
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre du",
+          "libQualiteSex": "Membre du"
+        },
+        "organes": {
+          "organeRef": "PO845401"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM846084",
+        "acteurRef": "PA841605",
+        "legislature": "17",
+        "typeOrgane": "COMPER",
+        "dateDebut": "2024-07-20",
+        "datePublication": "2024-07-20",
+        "dateFin": null,
+        "preseance": "32",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO419610"
+        }
+      },
+      {
+        "@xsi:type": "MandatParlementaire_type",
+        "uid": "PM843167",
+        "acteurRef": "PA841605",
+        "legislature": "17",
+        "typeOrgane": "ASSEMBLEE",
+        "dateDebut": "2024-07-07",
+        "datePublication": null,
+        "dateFin": null,
+        "preseance": "50",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "membre",
+          "libQualite": "membre",
+          "libQualiteSex": "membre"
+        },
+        "organes": {
+          "organeRef": "PO838901"
+        },
+        "suppleants": {
+          "suppleant": {
+            "dateDebut": "2024-07-07",
+            "dateFin": null,
+            "suppleantRef": "PA841609"
+          }
+        },
+        "chambre": null,
+        "election": {
+          "lieu": {
+            "region": "Hauts-de-France",
+            "regionType": "Métropolitain",
+            "departement": "Pas-de-Calais",
+            "numDepartement": "62",
+            "numCirco": "5"
+          },
+          "causeMandat": "élections générales",
+          "refCirconscription": "PO839633"
+        },
+        "mandature": {
+          "datePriseFonction": "2024-07-08",
+          "causeFin": null,
+          "premiereElection": "0",
+          "placeHemicycle": "263",
+          "mandatRemplaceRef": null
+        },
+        "collaborateurs": [
+          null,
+          null
+        ]
+      }
+    ]
+  }
+}

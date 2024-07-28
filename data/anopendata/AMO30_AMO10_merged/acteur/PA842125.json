@@ -1,0 +1,150 @@
+{
+  "uid": {
+    "@xsi:type": "IdActeur_type",
+    "#text": "PA842125"
+  },
+  "etatCivil": {
+    "ident": {
+      "civ": "M.",
+      "prenom": "Thomas",
+      "nom": "Lam",
+      "alpha": "Lam",
+      "trigramme": "TLM"
+    },
+    "infoNaissance": {
+      "dateNais": "1981-10-22",
+      "villeNais": "Villeurbanne",
+      "depNais": "Rhône",
+      "paysNais": "France"
+    }
+  },
+  "profession": {
+    "libelleCourant": "(23) - Chef d'entreprise de 10 salariés ou plus",
+    "socProcINSEE": {
+      "catSocPro": "Chefs d'entreprise de 10 salariés ou plus",
+      "famSocPro": "Artisans, commerçants et chefs d'entreprise"
+    }
+  },
+  "uri_hatvp": "https://www.hatvp.fr/pages_nominatives/lam-thomas-27453",
+  "adresses": {
+    "adresse": [
+      {
+        "@xsi:type": "AdressePostale_Type",
+        "uid": "AD842127",
+        "type": "0",
+        "typeLibelle": "Adresse officielle",
+        "poids": "1",
+        "adresseDeRattachement": null,
+        "intitule": "Assemblée nationale,",
+        "numeroRue": "126",
+        "nomRue": "Rue de l'Université,",
+        "complementAdresse": null,
+        "codePostal": "75355",
+        "ville": "Paris 07 SP"
+      },
+      {
+        "@xsi:type": "AdresseMail_Type",
+        "uid": "AD843950",
+        "type": "15",
+        "typeLibelle": "Mèl",
+        "poids": null,
+        "adresseDeRattachement": null,
+        "valElec": "thomas.lam@assemblee-nationale.fr"
+      }
+    ]
+  },
+  "mandats": {
+    "mandat": [
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM845868",
+        "acteurRef": "PA842125",
+        "legislature": "17",
+        "typeOrgane": "GP",
+        "dateDebut": "2024-07-19",
+        "datePublication": "2024-07-19",
+        "dateFin": null,
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre du",
+          "libQualiteSex": "Membre du"
+        },
+        "organes": {
+          "organeRef": "PO845470"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM846564",
+        "acteurRef": "PA842125",
+        "legislature": "17",
+        "typeOrgane": "COMPER",
+        "dateDebut": "2024-07-20",
+        "datePublication": "2024-07-20",
+        "dateFin": null,
+        "preseance": "32",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO419610"
+        }
+      },
+      {
+        "@xsi:type": "MandatParlementaire_type",
+        "uid": "PM843641",
+        "acteurRef": "PA842125",
+        "legislature": "17",
+        "typeOrgane": "ASSEMBLEE",
+        "dateDebut": "2024-07-07",
+        "datePublication": null,
+        "dateFin": null,
+        "preseance": "50",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "membre",
+          "libQualite": "membre",
+          "libQualiteSex": "membre"
+        },
+        "organes": {
+          "organeRef": "PO838901"
+        },
+        "suppleants": {
+          "suppleant": {
+            "dateDebut": "2024-07-07",
+            "dateFin": null,
+            "suppleantRef": "PA842129"
+          }
+        },
+        "chambre": null,
+        "election": {
+          "lieu": {
+            "region": "Ile-de-France",
+            "regionType": "Métropolitain",
+            "departement": "Hauts-de-Seine",
+            "numDepartement": "92",
+            "numCirco": "2"
+          },
+          "causeMandat": "élections générales",
+          "refCirconscription": "PO840025"
+        },
+        "mandature": {
+          "datePriseFonction": "2024-07-08",
+          "causeFin": null,
+          "premiereElection": "0",
+          "placeHemicycle": "339",
+          "mandatRemplaceRef": null
+        },
+        "collaborateurs": [
+          null,
+          null
+        ]
+      }
+    ]
+  }
+}

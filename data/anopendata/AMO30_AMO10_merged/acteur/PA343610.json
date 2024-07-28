@@ -1,0 +1,85 @@
+{
+  "uid": {
+    "@xsi:type": "IdActeur_type",
+    "#text": "PA343610"
+  },
+  "etatCivil": {
+    "ident": {
+      "civ": "Mme",
+      "prenom": "Joëlle",
+      "nom": "Borowski",
+      "alpha": "Borowski"
+    },
+    "infoNaissance": {
+      "dateNais": "1961-06-03"
+    }
+  },
+  "profession": {
+    "socProcINSEE": {}
+  },
+  "mandats": {
+    "mandat": [
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM642601",
+        "acteurRef": "PA343610",
+        "legislature": "13",
+        "typeOrgane": "GP",
+        "dateDebut": "2012-06-17",
+        "datePublication": null,
+        "dateFin": "2012-06-19",
+        "preseance": "28",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Député non-inscrit",
+          "libQualite": "Député non-inscrit",
+          "libQualiteSex": "Députée non-inscrite"
+        },
+        "organes": {
+          "organeRef": "PO387155"
+        }
+      },
+      {
+        "@xsi:type": "MandatParlementaire_type",
+        "uid": "PM642568",
+        "acteurRef": "PA343610",
+        "legislature": "13",
+        "typeOrgane": "ASSEMBLEE",
+        "dateDebut": "2007-06-20",
+        "datePublication": null,
+        "dateFin": "2012-06-19",
+        "preseance": "50",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "membre",
+          "libQualite": "membre",
+          "libQualiteSex": "membre"
+        },
+        "organes": {
+          "organeRef": "PO384266"
+        },
+        "suppleants": null,
+        "chambre": null,
+        "election": {
+          "lieu": {
+            "region": "Grand Est",
+            "regionType": "Métropolitain",
+            "departement": "Moselle",
+            "numDepartement": "57",
+            "numCirco": "8"
+          },
+          "causeMandat": "remplacement d'un député nommé au Gouvernement",
+          "refCirconscription": "PO384537"
+        },
+        "mandature": {
+          "datePriseFonction": "2012-06-17",
+          "causeFin": "Fin de législature",
+          "premiereElection": "0",
+          "placeHemicycle": null,
+          "mandatRemplaceRef": null
+        },
+        "collaborateurs": null
+      }
+    ]
+  }
+}

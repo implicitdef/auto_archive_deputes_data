@@ -1,0 +1,116 @@
+{
+  "uid": {
+    "@xsi:type": "IdActeur_type",
+    "#text": "PA1553"
+  },
+  "etatCivil": {
+    "ident": {
+      "civ": "M.",
+      "prenom": "Louis",
+      "nom": "Grillot",
+      "alpha": "Grillot"
+    },
+    "infoNaissance": {
+      "dateNais": "1932-04-18"
+    },
+    "dateDeces": "2022-08-12"
+  },
+  "profession": {
+    "socProcINSEE": {}
+  },
+  "adresses": {
+    "adresse": {
+      "@xsi:type": "AdresseSiteWeb_Type",
+      "uid": "AD317618",
+      "type": "23",
+      "typeLibelle": "Url sénateur",
+      "poids": null,
+      "adresseDeRattachement": null,
+      "valElec": "https://www.senat.fr/senateur/grillot_louis98003l.html"
+    }
+  },
+  "mandats": {
+    "mandat": [
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM320593",
+        "acteurRef": "PA1553",
+        "legislature": null,
+        "typeOrgane": "COMSENAT",
+        "dateDebut": "2001-10-03",
+        "datePublication": null,
+        "dateFin": "2008-09-30",
+        "preseance": "10",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO211492"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM302022",
+        "acteurRef": "PA1553",
+        "legislature": null,
+        "typeOrgane": "GROUPESENAT",
+        "dateDebut": "2004-05-17",
+        "datePublication": "2004-05-18",
+        "dateFin": "2008-09-30",
+        "preseance": "8",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre apparenté",
+          "libQualite": "Membre apparenté",
+          "libQualiteSex": "Membre apparenté"
+        },
+        "organes": {
+          "organeRef": "PO286005"
+        }
+      },
+      {
+        "@xsi:type": "MandatParlementaire_type",
+        "uid": "PM89607",
+        "acteurRef": "PA1553",
+        "legislature": null,
+        "typeOrgane": "SENAT",
+        "dateDebut": "1998-10-01",
+        "datePublication": "1998-10-02",
+        "dateFin": "2008-09-30",
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Sénateur",
+          "libQualite": "SENATEUR",
+          "libQualiteSex": "SENATEUR"
+        },
+        "organes": {
+          "organeRef": "PO78718"
+        },
+        "suppleants": null,
+        "chambre": null,
+        "election": {
+          "lieu": {
+            "region": null,
+            "regionType": null,
+            "departement": null,
+            "numDepartement": "21",
+            "numCirco": null
+          },
+          "causeMandat": null
+        },
+        "mandature": {
+          "datePriseFonction": null,
+          "causeFin": null,
+          "premiereElection": "0",
+          "placeHemicycle": null,
+          "mandatRemplaceRef": null
+        },
+        "collaborateurs": null
+      }
+    ]
+  }
+}

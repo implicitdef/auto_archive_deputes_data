@@ -1,0 +1,304 @@
+{
+  "uid": {
+    "@xsi:type": "IdActeur_type",
+    "#text": "PA1642"
+  },
+  "etatCivil": {
+    "ident": {
+      "civ": "M.",
+      "prenom": "Edmond",
+      "nom": "Hervé",
+      "alpha": "Herve edmond"
+    },
+    "infoNaissance": {
+      "dateNais": "1942-12-03",
+      "villeNais": "La Bouillie",
+      "depNais": "Côtes-d'Armor"
+    }
+  },
+  "profession": {
+    "libelleCourant": "Enseignant",
+    "socProcINSEE": {
+      "catSocPro": "Cadres de la fonction publique, professions intellectuelles et  artistiques",
+      "famSocPro": "Cadres et professions intellectuelles supérieures"
+    }
+  },
+  "adresses": {
+    "adresse": [
+      {
+        "@xsi:type": "AdressePostale_Type",
+        "uid": "AD45250",
+        "type": "0",
+        "typeLibelle": "Adresse officielle",
+        "poids": "1",
+        "adresseDeRattachement": null,
+        "intitule": "Casier de la Poste,",
+        "numeroRue": null,
+        "nomRue": null,
+        "complementAdresse": "Palais Bourbon,",
+        "codePostal": "75355",
+        "ville": "Paris 07 SP"
+      },
+      {
+        "@xsi:type": "AdresseMail_Type",
+        "uid": "AD191290",
+        "type": "15",
+        "typeLibelle": "Mèl",
+        "poids": null,
+        "adresseDeRattachement": null,
+        "valElec": "eherve@assemblee-nationale.fr"
+      },
+      {
+        "@xsi:type": "AdresseTelephonique_Type",
+        "uid": "AD204249",
+        "type": "11",
+        "typeLibelle": "Téléphone",
+        "poids": "1",
+        "adresseDeRattachement": "AD45250",
+        "valElec": "01 40 63 72 38"
+      },
+      {
+        "@xsi:type": "AdresseTelephonique_Type",
+        "uid": "AD204250",
+        "type": "12",
+        "typeLibelle": "Télécopie",
+        "poids": "1",
+        "adresseDeRattachement": "AD45250",
+        "valElec": "01 40 63 95 48"
+      },
+      {
+        "@xsi:type": "AdresseSiteWeb_Type",
+        "uid": "AD415635",
+        "type": "23",
+        "typeLibelle": "Url sénateur",
+        "poids": null,
+        "adresseDeRattachement": null,
+        "valElec": "https://www.senat.fr/senateur/herve_edmond08027v.html"
+      }
+    ]
+  },
+  "mandats": {
+    "mandat": [
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM421659",
+        "acteurRef": "PA1642",
+        "legislature": null,
+        "typeOrgane": "DELEGSENAT",
+        "dateDebut": "2009-09-23",
+        "datePublication": null,
+        "dateFin": "2014-09-30",
+        "preseance": "4",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO420387"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM419099",
+        "acteurRef": "PA1642",
+        "legislature": null,
+        "typeOrgane": "COMSPSENAT",
+        "dateDebut": "2009-04-29",
+        "datePublication": null,
+        "dateFin": "2009-06-30",
+        "preseance": null,
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": null,
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO419077"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM702010",
+        "acteurRef": "PA1642",
+        "legislature": null,
+        "typeOrgane": "COMSPSENAT",
+        "dateDebut": "2014-06-18",
+        "datePublication": null,
+        "dateFin": "2014-09-30",
+        "preseance": null,
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": null,
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO701979"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM415770",
+        "acteurRef": "PA1642",
+        "legislature": null,
+        "typeOrgane": "GROUPESENAT",
+        "dateDebut": "2008-10-01",
+        "datePublication": null,
+        "dateFin": "2014-09-30",
+        "preseance": "4",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO77710"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM415950",
+        "acteurRef": "PA1642",
+        "legislature": null,
+        "typeOrgane": "COMSENAT",
+        "dateDebut": "2008-10-07",
+        "datePublication": null,
+        "dateFin": "2014-09-30",
+        "preseance": "10",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO211494"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM685330",
+        "acteurRef": "PA1642",
+        "legislature": null,
+        "typeOrgane": "CMP",
+        "dateDebut": "2012-12-04",
+        "datePublication": "2012-12-05",
+        "dateFin": "2012-12-19",
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Titulaire",
+          "libQualite": "Membre titulaire",
+          "libQualiteSex": "Membre titulaire"
+        },
+        "organes": {
+          "organeRef": "PO685148"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM685294",
+        "acteurRef": "PA1642",
+        "legislature": null,
+        "typeOrgane": "CMP",
+        "dateDebut": "2012-12-04",
+        "datePublication": "2012-12-05",
+        "dateFin": "2012-12-19",
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Titulaire",
+          "libQualite": "Membre titulaire",
+          "libQualiteSex": "Membre titulaire"
+        },
+        "organes": {
+          "organeRef": "PO684249"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM423052",
+        "acteurRef": "PA1642",
+        "legislature": null,
+        "typeOrgane": "CMP",
+        "dateDebut": "2010-02-17",
+        "datePublication": "2010-02-18",
+        "dateFin": "2010-02-25",
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Titulaire",
+          "libQualite": "Membre titulaire",
+          "libQualiteSex": "Membre titulaire"
+        },
+        "organes": {
+          "organeRef": "PO423028"
+        }
+      },
+      {
+        "@xsi:type": "MandatParlementaire_type",
+        "uid": "PM415552",
+        "acteurRef": "PA1642",
+        "legislature": null,
+        "typeOrgane": "SENAT",
+        "dateDebut": "2008-10-01",
+        "datePublication": null,
+        "dateFin": "2014-09-30",
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Sénateur",
+          "libQualite": "SENATEUR",
+          "libQualiteSex": "SENATEUR"
+        },
+        "organes": {
+          "organeRef": "PO78718"
+        },
+        "suppleants": null,
+        "chambre": null,
+        "election": {
+          "lieu": {
+            "region": null,
+            "regionType": null,
+            "departement": null,
+            "numDepartement": "35",
+            "numCirco": null
+          },
+          "causeMandat": null
+        },
+        "mandature": {
+          "datePriseFonction": null,
+          "causeFin": null,
+          "premiereElection": "0",
+          "placeHemicycle": null,
+          "mandatRemplaceRef": null
+        },
+        "collaborateurs": null
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM422491",
+        "acteurRef": "PA1642",
+        "legislature": null,
+        "typeOrgane": "CMP",
+        "dateDebut": "2009-12-09",
+        "datePublication": "2009-12-10",
+        "dateFin": "2010-01-12",
+        "preseance": "28",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Suppléant",
+          "libQualite": "Membre suppléant",
+          "libQualiteSex": "Membre suppléant"
+        },
+        "organes": {
+          "organeRef": "PO422457"
+        }
+      }
+    ]
+  }
+}

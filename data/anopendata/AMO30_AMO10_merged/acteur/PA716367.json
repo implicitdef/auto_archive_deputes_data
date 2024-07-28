@@ -1,0 +1,135 @@
+{
+  "uid": {
+    "@xsi:type": "IdActeur_type",
+    "#text": "PA716367"
+  },
+  "etatCivil": {
+    "ident": {
+      "civ": "Mme",
+      "prenom": "Marie-France",
+      "nom": "de Rose",
+      "alpha": "Rose"
+    },
+    "infoNaissance": {
+      "dateNais": "1943-04-25"
+    }
+  },
+  "profession": {
+    "socProcINSEE": {}
+  },
+  "adresses": {
+    "adresse": {
+      "@xsi:type": "AdresseSiteWeb_Type",
+      "uid": "AD716371",
+      "type": "23",
+      "typeLibelle": "Url sénateur",
+      "poids": null,
+      "adresseDeRattachement": null,
+      "valElec": "https://www.senat.fr/senateur/de_rose_marie_france14363x.html"
+    }
+  },
+  "mandats": {
+    "mandat": [
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM716368",
+        "acteurRef": "PA716367",
+        "legislature": null,
+        "typeOrgane": "GROUPESENAT",
+        "dateDebut": "2017-01-01",
+        "datePublication": null,
+        "dateFin": "2017-01-04",
+        "preseance": "4",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre du"
+        },
+        "organes": {
+          "organeRef": "PO77708"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM716369",
+        "acteurRef": "PA716367",
+        "legislature": null,
+        "typeOrgane": "GROUPESENAT",
+        "dateDebut": "2017-01-05",
+        "datePublication": null,
+        "dateFin": "2017-10-01",
+        "preseance": "4",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre du"
+        },
+        "organes": {
+          "organeRef": "PO286005"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM716491",
+        "acteurRef": "PA716367",
+        "legislature": null,
+        "typeOrgane": "COMSENAT",
+        "dateDebut": "2017-01-10",
+        "datePublication": null,
+        "dateFin": "2017-10-01",
+        "preseance": "10",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO211490"
+        }
+      },
+      {
+        "@xsi:type": "MandatParlementaire_type",
+        "uid": "PM716370",
+        "acteurRef": "PA716367",
+        "legislature": null,
+        "typeOrgane": "SENAT",
+        "dateDebut": "2017-01-01",
+        "datePublication": null,
+        "dateFin": "2017-10-01",
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Sénateur",
+          "libQualite": "SENATEUR",
+          "libQualiteSex": "Sénateur 5ème République"
+        },
+        "organes": {
+          "organeRef": "PO78718"
+        },
+        "suppleants": null,
+        "chambre": null,
+        "election": {
+          "lieu": {
+            "region": null,
+            "regionType": null,
+            "departement": null,
+            "numDepartement": "92",
+            "numCirco": null
+          },
+          "causeMandat": null
+        },
+        "mandature": {
+          "datePriseFonction": null,
+          "causeFin": null,
+          "premiereElection": "0",
+          "placeHemicycle": null,
+          "mandatRemplaceRef": null
+        },
+        "collaborateurs": null
+      }
+    ]
+  }
+}

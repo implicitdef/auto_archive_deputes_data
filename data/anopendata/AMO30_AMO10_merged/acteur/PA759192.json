@@ -1,0 +1,205 @@
+{
+  "uid": {
+    "@xsi:type": "IdActeur_type",
+    "#text": "PA759192"
+  },
+  "etatCivil": {
+    "ident": {
+      "civ": "M.",
+      "prenom": "Jean-Luc",
+      "nom": "Poudroux",
+      "alpha": "Poudroux"
+    },
+    "infoNaissance": {
+      "dateNais": "1950-08-29",
+      "villeNais": "Saint-Leu",
+      "depNais": "Réunion",
+      "paysNais": "France"
+    }
+  },
+  "profession": {
+    "libelleCourant": "Retraité de l'éducation nationale",
+    "socProcINSEE": {
+      "catSocPro": "Anciens cadres et professions intermédiaires",
+      "famSocPro": "Retraités"
+    }
+  },
+  "adresses": {
+    "adresse": [
+      {
+        "@xsi:type": "AdressePostale_Type",
+        "uid": "AD760197",
+        "type": "0",
+        "typeLibelle": "Adresse officielle",
+        "poids": "1",
+        "adresseDeRattachement": null,
+        "intitule": "Assemblée nationale",
+        "numeroRue": "126",
+        "nomRue": "Rue de l'Université,",
+        "complementAdresse": null,
+        "codePostal": "75355",
+        "ville": "Paris 07 SP"
+      },
+      {
+        "@xsi:type": "AdresseMail_Type",
+        "uid": "AD761978",
+        "type": "15",
+        "typeLibelle": "Mèl",
+        "poids": null,
+        "adresseDeRattachement": null,
+        "valElec": "Jean-Luc.Poudroux@assemblee-nationale.fr"
+      }
+    ]
+  },
+  "mandats": {
+    "mandat": [
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM760295",
+        "acteurRef": "PA759192",
+        "legislature": "15",
+        "typeOrgane": "DELEG",
+        "dateDebut": "2018-10-02",
+        "datePublication": "2018-11-16",
+        "dateFin": "2022-06-21",
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO675659"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM759249",
+        "acteurRef": "PA759192",
+        "legislature": "15",
+        "typeOrgane": "DELEG",
+        "dateDebut": "2018-10-02",
+        "datePublication": "2018-10-03",
+        "dateFin": "2018-11-15",
+        "preseance": "21",
+        "nominPrincipale": "0",
+        "infosQualite": {
+          "codeQualite": "Membre de droit",
+          "libQualite": "Membre de droit",
+          "libQualiteSex": "Membre de droit"
+        },
+        "organes": {
+          "organeRef": "PO675659"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM761273",
+        "acteurRef": "PA759192",
+        "legislature": null,
+        "typeOrgane": "PARPOL",
+        "dateDebut": "2018-12-01",
+        "datePublication": null,
+        "dateFin": "2022-06-21",
+        "preseance": "5",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO710396"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM759217",
+        "acteurRef": "PA759192",
+        "legislature": "15",
+        "typeOrgane": "COMPER",
+        "dateDebut": "2018-10-02",
+        "datePublication": "2018-10-03",
+        "dateFin": "2022-06-21",
+        "preseance": "32",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO419865"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM759199",
+        "acteurRef": "PA759192",
+        "legislature": "15",
+        "typeOrgane": "GP",
+        "dateDebut": "2018-10-01",
+        "datePublication": "2018-10-02",
+        "dateFin": "2022-06-21",
+        "preseance": "24",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre apparenté",
+          "libQualite": "Apparenté au",
+          "libQualiteSex": "Apparenté au"
+        },
+        "organes": {
+          "organeRef": "PO730934"
+        }
+      },
+      {
+        "@xsi:type": "MandatParlementaire_type",
+        "uid": "PM759197",
+        "acteurRef": "PA759192",
+        "legislature": "15",
+        "typeOrgane": "ASSEMBLEE",
+        "dateDebut": "2018-09-30",
+        "datePublication": null,
+        "dateFin": "2022-06-21",
+        "preseance": "50",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "membre",
+          "libQualite": "membre",
+          "libQualiteSex": "membre"
+        },
+        "organes": {
+          "organeRef": "PO717460"
+        },
+        "suppleants": {
+          "suppleant": {
+            "dateDebut": "2018-09-30",
+            "dateFin": "2022-06-21",
+            "suppleantRef": "PA759194"
+          }
+        },
+        "chambre": null,
+        "election": {
+          "lieu": {
+            "region": "Réunion",
+            "regionType": "Dom",
+            "departement": "Réunion",
+            "numDepartement": "974",
+            "numCirco": "7"
+          },
+          "causeMandat": "élection partielle, remplacement d'un député démissionnaire d'office",
+          "refCirconscription": "PO718572"
+        },
+        "mandature": {
+          "datePriseFonction": "2018-10-01",
+          "causeFin": "Fin de législature",
+          "premiereElection": "0",
+          "placeHemicycle": null,
+          "mandatRemplaceRef": null
+        },
+        "collaborateurs": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "uid": {
+    "@xsi:type": "IdActeur_type",
+    "#text": "PA823"
+  },
+  "etatCivil": {
+    "ident": {
+      "civ": "Mme",
+      "prenom": "Françoise",
+      "nom": "Charpentier",
+      "alpha": "Charpentier"
+    },
+    "infoNaissance": {
+      "dateNais": "1948-06-22",
+      "villeNais": "Goes",
+      "depNais": "Pyrénées-Atlantiques"
+    }
+  },
+  "profession": {
+    "libelleCourant": "Sans profession déclarée",
+    "socProcINSEE": {
+      "catSocPro": "Sans profession déclarée",
+      "famSocPro": "Sans profession déclarée"
+    }
+  },
+  "adresses": {
+    "adresse": {
+      "@xsi:type": "AdressePostale_Type",
+      "uid": "AD382705",
+      "type": "0",
+      "typeLibelle": "Adresse officielle",
+      "poids": "1",
+      "adresseDeRattachement": null,
+      "intitule": "Casier de la Poste,",
+      "numeroRue": null,
+      "nomRue": null,
+      "complementAdresse": "Palais Bourbon,",
+      "codePostal": "75355",
+      "ville": "Paris 07 SP"
+    }
+  },
+  "mandats": {
+    "mandat": [
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM382717",
+        "acteurRef": "PA823",
+        "legislature": "12",
+        "typeOrgane": "GP",
+        "dateDebut": "2007-03-06",
+        "datePublication": "2007-03-07",
+        "dateFin": "2007-06-19",
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre du",
+          "libQualiteSex": "Membre du"
+        },
+        "organes": {
+          "organeRef": "PO270903"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM382795",
+        "acteurRef": "PA823",
+        "legislature": "12",
+        "typeOrgane": "COMPER",
+        "dateDebut": "2007-03-21",
+        "datePublication": "2007-03-21",
+        "dateFin": "2007-06-19",
+        "preseance": "32",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO59045"
+        }
+      },
+      {
+        "@xsi:type": "MandatParlementaire_type",
+        "uid": "PM382703",
+        "acteurRef": "PA823",
+        "legislature": "12",
+        "typeOrgane": "ASSEMBLEE",
+        "dateDebut": "2002-06-19",
+        "datePublication": null,
+        "dateFin": "2007-06-19",
+        "preseance": "50",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "membre",
+          "libQualite": "membre",
+          "libQualiteSex": "membre"
+        },
+        "organes": {
+          "organeRef": "PO230434"
+        },
+        "suppleants": null,
+        "chambre": null,
+        "election": {
+          "lieu": {
+            "region": "Normandie",
+            "regionType": "Métropolitain",
+            "departement": "Eure",
+            "numDepartement": "27",
+            "numCirco": "1"
+          },
+          "causeMandat": "remplacement d'un député nommé au Conseil Constitutionnel",
+          "refCirconscription": "PO230546"
+        },
+        "mandature": {
+          "datePriseFonction": "2007-03-05",
+          "causeFin": "Fin de législature",
+          "premiereElection": "1",
+          "placeHemicycle": null,
+          "mandatRemplaceRef": null
+        },
+        "collaborateurs": null
+      }
+    ]
+  }
+}

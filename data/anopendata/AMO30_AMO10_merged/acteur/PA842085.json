@@ -1,0 +1,182 @@
+{
+  "uid": {
+    "@xsi:type": "IdActeur_type",
+    "#text": "PA842085"
+  },
+  "etatCivil": {
+    "ident": {
+      "civ": "M.",
+      "prenom": "Sébastien",
+      "nom": "Humbert",
+      "alpha": "Humbert",
+      "trigramme": "SHU"
+    },
+    "infoNaissance": {
+      "dateNais": "1990-07-10",
+      "villeNais": "Epinal",
+      "depNais": "Vosges",
+      "paysNais": "France"
+    }
+  },
+  "profession": {
+    "libelleCourant": "(33) - Cadre de la fonction publique",
+    "socProcINSEE": {
+      "catSocPro": "Cadres de la fonction publique, professions intellectuelles et  artistiques",
+      "famSocPro": "Cadres et professions intellectuelles supérieures"
+    }
+  },
+  "uri_hatvp": "https://www.hatvp.fr/pages_nominatives/humbert-sebastien-27437",
+  "adresses": {
+    "adresse": [
+      {
+        "@xsi:type": "AdressePostale_Type",
+        "uid": "AD842087",
+        "type": "0",
+        "typeLibelle": "Adresse officielle",
+        "poids": "1",
+        "adresseDeRattachement": null,
+        "intitule": "Assemblée nationale,",
+        "numeroRue": "126",
+        "nomRue": "Rue de l'Université,",
+        "complementAdresse": null,
+        "codePostal": "75355",
+        "ville": "Paris 07 SP"
+      },
+      {
+        "@xsi:type": "AdresseMail_Type",
+        "uid": "AD843946",
+        "type": "15",
+        "typeLibelle": "Mèl",
+        "poids": null,
+        "adresseDeRattachement": null,
+        "valElec": "sebastien.humbert@assemblee-nationale.fr"
+      },
+      {
+        "@xsi:type": "AdresseSiteWeb_Type",
+        "uid": "AD844316",
+        "type": "25",
+        "typeLibelle": "Facebook",
+        "poids": null,
+        "adresseDeRattachement": null,
+        "valElec": "SebastienHumbertRN"
+      },
+      {
+        "@xsi:type": "AdresseSiteWeb_Type",
+        "uid": "AD844336",
+        "type": "22",
+        "typeLibelle": "Site internet",
+        "poids": null,
+        "adresseDeRattachement": null,
+        "valElec": "sebastienhumbert.fr/"
+      },
+      {
+        "@xsi:type": "AdresseSiteWeb_Type",
+        "uid": "AD844382",
+        "type": "24",
+        "typeLibelle": "Twitter",
+        "poids": null,
+        "adresseDeRattachement": null,
+        "valElec": "@Seb_Humbert"
+      }
+    ]
+  },
+  "mandats": {
+    "mandat": [
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM845929",
+        "acteurRef": "PA842085",
+        "legislature": "17",
+        "typeOrgane": "GP",
+        "dateDebut": "2024-07-19",
+        "datePublication": "2024-07-19",
+        "dateFin": null,
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre du",
+          "libQualiteSex": "Membre du"
+        },
+        "organes": {
+          "organeRef": "PO845401"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM846372",
+        "acteurRef": "PA842085",
+        "legislature": "17",
+        "typeOrgane": "COMPER",
+        "dateDebut": "2024-07-20",
+        "datePublication": "2024-07-20",
+        "dateFin": null,
+        "preseance": "32",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO419865"
+        }
+      },
+      {
+        "@xsi:type": "MandatParlementaire_type",
+        "uid": "PM843617",
+        "acteurRef": "PA842085",
+        "legislature": "17",
+        "typeOrgane": "ASSEMBLEE",
+        "dateDebut": "2024-07-07",
+        "datePublication": null,
+        "dateFin": null,
+        "preseance": "50",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "membre",
+          "libQualite": "membre",
+          "libQualiteSex": "membre"
+        },
+        "organes": {
+          "organeRef": "PO838901"
+        },
+        "suppleants": {
+          "suppleant": {
+            "dateDebut": "2024-07-07",
+            "dateFin": null,
+            "suppleantRef": "PA842089"
+          }
+        },
+        "chambre": null,
+        "election": {
+          "lieu": {
+            "region": "Grand Est",
+            "regionType": "Métropolitain",
+            "departement": "Vosges",
+            "numDepartement": "88",
+            "numCirco": "4"
+          },
+          "causeMandat": "élections générales",
+          "refCirconscription": "PO839991"
+        },
+        "mandature": {
+          "datePriseFonction": "2024-07-08",
+          "causeFin": null,
+          "premiereElection": "0",
+          "placeHemicycle": "305",
+          "mandatRemplaceRef": null
+        },
+        "collaborateurs": {
+          "collaborateur": {
+            "qualite": "M.",
+            "prenom": "Charles",
+            "nom": "François",
+            "dateDebut": null,
+            "dateFin": null
+          }
+        }
+      }
+    ]
+  }
+}

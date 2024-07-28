@@ -1,0 +1,115 @@
+{
+  "uid": {
+    "@xsi:type": "IdActeur_type",
+    "#text": "PA700196"
+  },
+  "etatCivil": {
+    "ident": {
+      "civ": "Mme",
+      "prenom": "Patricia",
+      "nom": "Bordas",
+      "alpha": "Bordas_patricia"
+    },
+    "infoNaissance": {
+      "dateNais": "1956-06-05"
+    }
+  },
+  "profession": {
+    "socProcINSEE": {}
+  },
+  "adresses": {
+    "adresse": {
+      "@xsi:type": "AdresseSiteWeb_Type",
+      "uid": "AD700199",
+      "type": "23",
+      "typeLibelle": "Url sénateur",
+      "poids": null,
+      "adresseDeRattachement": null,
+      "valElec": "https://www.senat.fr/senateur/bordas_patricia14002l.html"
+    }
+  },
+  "mandats": {
+    "mandat": [
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM700197",
+        "acteurRef": "PA700196",
+        "legislature": null,
+        "typeOrgane": "GROUPESENAT",
+        "dateDebut": "2014-02-14",
+        "datePublication": null,
+        "dateFin": "2014-09-30",
+        "preseance": "4",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre du"
+        },
+        "organes": {
+          "organeRef": "PO77710"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM700356",
+        "acteurRef": "PA700196",
+        "legislature": null,
+        "typeOrgane": "COMSENAT",
+        "dateDebut": "2014-02-21",
+        "datePublication": null,
+        "dateFin": "2014-09-30",
+        "preseance": "10",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO211493"
+        }
+      },
+      {
+        "@xsi:type": "MandatParlementaire_type",
+        "uid": "PM700198",
+        "acteurRef": "PA700196",
+        "legislature": null,
+        "typeOrgane": "SENAT",
+        "dateDebut": "2014-02-14",
+        "datePublication": null,
+        "dateFin": "2014-09-30",
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Sénateur",
+          "libQualite": "SENATEUR",
+          "libQualiteSex": "Sénateur 5ème République"
+        },
+        "organes": {
+          "organeRef": "PO78718"
+        },
+        "suppleants": null,
+        "chambre": null,
+        "election": {
+          "lieu": {
+            "region": null,
+            "regionType": null,
+            "departement": null,
+            "numDepartement": "19",
+            "numCirco": null
+          },
+          "causeMandat": null
+        },
+        "mandature": {
+          "datePriseFonction": null,
+          "causeFin": null,
+          "premiereElection": "0",
+          "placeHemicycle": null,
+          "mandatRemplaceRef": null
+        },
+        "collaborateurs": null
+      }
+    ]
+  }
+}

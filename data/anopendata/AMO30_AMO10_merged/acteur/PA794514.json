@@ -1,0 +1,123 @@
+{
+  "uid": {
+    "@xsi:type": "IdActeur_type",
+    "#text": "PA794514"
+  },
+  "etatCivil": {
+    "ident": {
+      "civ": "M.",
+      "prenom": "Patrice",
+      "nom": "Vergriete",
+      "alpha": "Vergriete"
+    },
+    "infoNaissance": {
+      "dateNais": "1968-07-04",
+      "villeNais": "Dunkerque",
+      "depNais": "Nord",
+      "paysNais": "France"
+    }
+  },
+  "profession": {
+    "socProcINSEE": {}
+  },
+  "adresses": {
+    "adresse": {
+      "@xsi:type": "AdressePostale_Type",
+      "uid": "AD794516",
+      "type": "0",
+      "typeLibelle": "Adresse officielle",
+      "poids": "1",
+      "adresseDeRattachement": null,
+      "intitule": "Assemblée nationale,",
+      "numeroRue": "126",
+      "nomRue": "Rue de l'Université,",
+      "complementAdresse": null,
+      "codePostal": "75355",
+      "ville": "Paris 07 SP"
+    }
+  },
+  "mandats": {
+    "mandat": [
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM15826671",
+        "acteurRef": "PA794514",
+        "legislature": null,
+        "typeOrgane": "GOUVERNEMENT",
+        "dateDebut": "2023-07-21",
+        "datePublication": "2023-07-21",
+        "dateFin": "2024-01-09",
+        "preseance": "50",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "membre",
+          "libQualite": "membre",
+          "libQualiteSex": "membre"
+        },
+        "organes": {
+          "organeRef": "PO791579"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM15834801",
+        "acteurRef": "PA794514",
+        "legislature": null,
+        "typeOrgane": "GOUVERNEMENT",
+        "dateDebut": "2024-02-09",
+        "datePublication": "2024-02-09",
+        "dateFin": null,
+        "preseance": "50",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "membre",
+          "libQualite": "membre",
+          "libQualiteSex": "membre"
+        },
+        "organes": {
+          "organeRef": "PO833673"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM826671",
+        "acteurRef": "PA794514",
+        "legislature": null,
+        "typeOrgane": "MINISTERE",
+        "dateDebut": "2023-07-21",
+        "datePublication": "2023-07-21",
+        "dateFin": "2024-01-09",
+        "preseance": "40",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Ministre délégué",
+          "libQualite": "Ministre délégué",
+          "libQualiteSex": "Ministre délégué"
+        },
+        "organes": {
+          "organeRef": "PO826668"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM834801",
+        "acteurRef": "PA794514",
+        "legislature": null,
+        "typeOrgane": "MINISTERE",
+        "dateDebut": "2024-02-09",
+        "datePublication": "2024-02-09",
+        "dateFin": null,
+        "preseance": "40",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Ministre délégué",
+          "libQualite": "Ministre délégué",
+          "libQualiteSex": "Ministre délégué"
+        },
+        "organes": {
+          "organeRef": "PO834748"
+        }
+      }
+    ]
+  }
+}

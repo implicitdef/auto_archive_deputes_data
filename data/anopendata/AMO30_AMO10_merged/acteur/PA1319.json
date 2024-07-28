@@ -1,0 +1,308 @@
+{
+  "uid": {
+    "@xsi:type": "IdActeur_type",
+    "#text": "PA1319"
+  },
+  "etatCivil": {
+    "ident": {
+      "civ": "M.",
+      "prenom": "Gaston",
+      "nom": "Flosse",
+      "alpha": "Flosse"
+    },
+    "infoNaissance": {
+      "dateNais": "1931-06-24",
+      "villeNais": "Rikitea",
+      "depNais": "Polynésie Française",
+      "paysNais": "Polynésie Francaise"
+    }
+  },
+  "profession": {
+    "libelleCourant": "Agent général d'assurance",
+    "socProcINSEE": {
+      "catSocPro": "Commerçants et assimilés",
+      "famSocPro": "Artisans, commerçants et chefs d'entreprise"
+    }
+  },
+  "adresses": {
+    "adresse": [
+      {
+        "@xsi:type": "AdressePostale_Type",
+        "uid": "AD44793",
+        "type": "0",
+        "typeLibelle": "Adresse officielle",
+        "poids": "1",
+        "adresseDeRattachement": null,
+        "intitule": "Casier de la Poste,",
+        "numeroRue": null,
+        "nomRue": null,
+        "complementAdresse": "Palais Bourbon,",
+        "codePostal": "75355",
+        "ville": "Paris 07 SP"
+      },
+      {
+        "@xsi:type": "AdressePostale_Type",
+        "uid": "AD47139",
+        "type": "1",
+        "typeLibelle": "Adresse publiée pour Paris ou sa région",
+        "poids": "11",
+        "adresseDeRattachement": null,
+        "intitule": "Présidence du Gouvernement,",
+        "numeroRue": null,
+        "nomRue": null,
+        "complementAdresse": null,
+        "codePostal": "97900",
+        "ville": "Papeete"
+      },
+      {
+        "@xsi:type": "AdresseTelephonique_Type",
+        "uid": "AD48782",
+        "type": "11",
+        "typeLibelle": "Téléphone",
+        "poids": "1",
+        "adresseDeRattachement": "AD44793",
+        "valElec": "01 40 63 75 85"
+      },
+      {
+        "@xsi:type": "AdresseTelephonique_Type",
+        "uid": "AD48947",
+        "type": "11",
+        "typeLibelle": "Téléphone",
+        "poids": "11",
+        "adresseDeRattachement": "AD47139",
+        "valElec": "06 89 54 34 50"
+      },
+      {
+        "@xsi:type": "AdresseTelephonique_Type",
+        "uid": "AD50179",
+        "type": "12",
+        "typeLibelle": "Télécopie",
+        "poids": "1",
+        "adresseDeRattachement": "AD44793",
+        "valElec": "01 40 63 75 83"
+      },
+      {
+        "@xsi:type": "AdresseTelephonique_Type",
+        "uid": "AD50283",
+        "type": "12",
+        "typeLibelle": "Télécopie",
+        "poids": "11",
+        "adresseDeRattachement": "AD47139",
+        "valElec": "00 689 41 97 81"
+      },
+      {
+        "@xsi:type": "AdresseSiteWeb_Type",
+        "uid": "AD317667",
+        "type": "23",
+        "typeLibelle": "Url sénateur",
+        "poids": null,
+        "adresseDeRattachement": null,
+        "valElec": "https://www.senat.fr/senateur/flosse_gaston98052v.html"
+      }
+    ]
+  },
+  "mandats": {
+    "mandat": [
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM437023",
+        "acteurRef": "PA1319",
+        "legislature": null,
+        "typeOrgane": "DELEGSENAT",
+        "dateDebut": "2011-11-30",
+        "datePublication": null,
+        "dateFin": "2014-09-16",
+        "preseance": "4",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO436945"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM415764",
+        "acteurRef": "PA1319",
+        "legislature": null,
+        "typeOrgane": "GROUPESENAT",
+        "dateDebut": "2008-10-02",
+        "datePublication": null,
+        "dateFin": "2014-09-16",
+        "preseance": "4",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO77708"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM286480",
+        "acteurRef": "PA1319",
+        "legislature": null,
+        "typeOrgane": "GROUPESENAT",
+        "dateDebut": "2002-12-11",
+        "datePublication": "2002-12-11",
+        "dateFin": "2008-10-01",
+        "preseance": "4",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO286005"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM382004",
+        "acteurRef": "PA1319",
+        "legislature": null,
+        "typeOrgane": "COMSENAT",
+        "dateDebut": "2007-01-18",
+        "datePublication": null,
+        "dateFin": "2011-09-30",
+        "preseance": "10",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO211495"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM430332",
+        "acteurRef": "PA1319",
+        "legislature": null,
+        "typeOrgane": "COMSENAT",
+        "dateDebut": "2011-10-01",
+        "datePublication": null,
+        "dateFin": "2014-09-16",
+        "preseance": "10",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO211490"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM394240",
+        "acteurRef": "PA1319",
+        "legislature": null,
+        "typeOrgane": "CMP",
+        "dateDebut": "2007-08-02",
+        "datePublication": "2007-08-03",
+        "dateFin": "2007-08-02",
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Titulaire",
+          "libQualite": "Membre titulaire",
+          "libQualiteSex": "Membre titulaire"
+        },
+        "organes": {
+          "organeRef": "PO394215"
+        }
+      },
+      {
+        "@xsi:type": "MandatParlementaire_type",
+        "uid": "PM89528",
+        "acteurRef": "PA1319",
+        "legislature": null,
+        "typeOrgane": "SENAT",
+        "dateDebut": "1998-10-01",
+        "datePublication": "1998-10-02",
+        "dateFin": "2008-09-30",
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Sénateur",
+          "libQualite": "SENATEUR",
+          "libQualiteSex": "SENATEUR"
+        },
+        "organes": {
+          "organeRef": "PO78718"
+        },
+        "suppleants": null,
+        "chambre": null,
+        "election": {
+          "lieu": {
+            "region": null,
+            "regionType": null,
+            "departement": null,
+            "numDepartement": "987",
+            "numCirco": null
+          },
+          "causeMandat": null
+        },
+        "mandature": {
+          "datePriseFonction": null,
+          "causeFin": null,
+          "premiereElection": "0",
+          "placeHemicycle": null,
+          "mandatRemplaceRef": null
+        },
+        "collaborateurs": null
+      },
+      {
+        "@xsi:type": "MandatParlementaire_type",
+        "uid": "PM415611",
+        "acteurRef": "PA1319",
+        "legislature": null,
+        "typeOrgane": "SENAT",
+        "dateDebut": "2008-10-01",
+        "datePublication": null,
+        "dateFin": "2014-09-16",
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Sénateur",
+          "libQualite": "SENATEUR",
+          "libQualiteSex": "SENATEUR"
+        },
+        "organes": {
+          "organeRef": "PO78718"
+        },
+        "suppleants": null,
+        "chambre": null,
+        "election": {
+          "lieu": {
+            "region": null,
+            "regionType": null,
+            "departement": null,
+            "numDepartement": "987",
+            "numCirco": null
+          },
+          "causeMandat": null
+        },
+        "mandature": {
+          "datePriseFonction": null,
+          "causeFin": null,
+          "premiereElection": "0",
+          "placeHemicycle": null,
+          "mandatRemplaceRef": null
+        },
+        "collaborateurs": null
+      }
+    ]
+  }
+}

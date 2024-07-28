@@ -1,0 +1,62 @@
+{
+  "uid": {
+    "@xsi:type": "IdActeur_type",
+    "#text": "PA833735"
+  },
+  "etatCivil": {
+    "ident": {
+      "civ": "M.",
+      "prenom": "Stéphane",
+      "nom": "Séjourné",
+      "alpha": "Sejourne"
+    },
+    "infoNaissance": {}
+  },
+  "profession": {
+    "socProcINSEE": {}
+  },
+  "mandats": {
+    "mandat": [
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM15833737",
+        "acteurRef": "PA833735",
+        "legislature": null,
+        "typeOrgane": "GOUVERNEMENT",
+        "dateDebut": "2024-01-12",
+        "datePublication": "2024-01-12",
+        "dateFin": null,
+        "preseance": "50",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "membre",
+          "libQualite": "membre",
+          "libQualiteSex": "membre"
+        },
+        "organes": {
+          "organeRef": "PO833673"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM833737",
+        "acteurRef": "PA833735",
+        "legislature": null,
+        "typeOrgane": "MINISTERE",
+        "dateDebut": "2024-01-12",
+        "datePublication": "2024-01-12",
+        "dateFin": null,
+        "preseance": "30",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Ministre",
+          "libQualite": "Ministre",
+          "libQualiteSex": "Ministre"
+        },
+        "organes": {
+          "organeRef": "PO833683"
+        }
+      }
+    ]
+  }
+}
