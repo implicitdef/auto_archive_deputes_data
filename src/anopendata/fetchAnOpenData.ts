@@ -10,6 +10,7 @@ import {
   listFilesOrDirsInFolder,
   move,
   rmDirIfExists,
+  rmDirsIfExists,
   rmFileIfExists,
   unnestDirContents,
   unzipIntoDir,
@@ -59,6 +60,7 @@ export async function fetchAndMergeAnDatasets() {
   rmDirIfExists(finalPath)
   console.log(`Moving ${dirPathMerge} to ${finalPath}`)
   move({ currentPath: dirPathMerge, newPath: finalPath })
+  rmDirsIfExists(dirPathAmo10, dirPathAmo30, dirPathMerge)
 }
 
 function mergeSubfolder({

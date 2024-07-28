@@ -47,6 +47,10 @@ export function rmDirIfExists(dir: string) {
   }
 }
 
+export function rmDirsIfExists(...dirs: string[]) {
+  dirs.forEach(rmDirIfExists)
+}
+
 export function rmFileIfExists(file: string) {
   if (fs.existsSync(file)) {
     console.log(`Cleaning file ${file}`)
