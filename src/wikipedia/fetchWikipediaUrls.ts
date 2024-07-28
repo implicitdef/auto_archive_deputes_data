@@ -1,4 +1,5 @@
 import * as cheerio from 'cheerio'
+import lo from 'lodash'
 import slugify from 'slugify'
 import { readAllDeputesAndMap } from '../anopendata/readFromAnOpenData'
 import { fetchWithRetry } from '../fetchWithRetry'
@@ -46,11 +47,14 @@ export async function fetchWikipediaUrls(): Promise<void> {
   }
   const successes = allDeputesAfterMapping.filter(isFound)
   console.log(`Found ${successes.length} wikipedia URL`)
-  const foundWikipediaUrls: FoundWikipediaUrls = successes.map(_ => ({
-    id_an: _.id_an,
-    name: _.name,
-    url: _.wikipedia_link,
-  }))
+  const foundWikipediaUrls: FoundWikipediaUrls = lo.sortBy(
+    successes.map(_ => ({
+      id_an: _.id_an,
+      name: _.name,
+      url: _.wikipedia_link,
+    })),
+    _ => _.id_an,
+  )
   console.log(`Writing to ${WIKIPEDIA_URLS_JSON_FILE}`)
   writeToFile(
     WIKIPEDIA_URLS_JSON_FILE,
