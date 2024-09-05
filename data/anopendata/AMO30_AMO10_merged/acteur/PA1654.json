@@ -50,6 +50,29 @@
         "poids": null,
         "adresseDeRattachement": null,
         "valElec": "francois.hollande@assemblee-nationale.fr"
+      },
+      {
+        "@xsi:type": "AdressePostale_Type",
+        "uid": "AD847065",
+        "type": "2",
+        "typeLibelle": "Adresse publiée de circonscription",
+        "poids": "2",
+        "adresseDeRattachement": null,
+        "intitule": null,
+        "numeroRue": "17",
+        "nomRue": "Quai Alfred de Chammard",
+        "complementAdresse": "BP 121",
+        "codePostal": "19004",
+        "ville": "Tulle"
+      },
+      {
+        "@xsi:type": "AdresseTelephonique_Type",
+        "uid": "AD847067",
+        "type": "11",
+        "typeLibelle": "Téléphone",
+        "poids": "2",
+        "adresseDeRattachement": "AD847065",
+        "valElec": "05 55 27 40 04"
       }
     ]
   },
@@ -187,6 +210,13 @@
               "qualite": "Mme",
               "prenom": "Carole",
               "nom": "Nangéroni",
+              "dateDebut": null,
+              "dateFin": null
+            },
+            {
+              "qualite": "M.",
+              "prenom": "Baptiste",
+              "nom": "Labbat",
               "dateDebut": null,
               "dateFin": null
             }
