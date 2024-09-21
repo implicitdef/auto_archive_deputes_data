@@ -106,6 +106,27 @@
   "mandats": {
     "mandat": [
       {
+        "@xsi:type": "MandatAvecSuppleant_Type",
+        "uid": "PM847552",
+        "acteurRef": "PA642988",
+        "legislature": "17",
+        "typeOrgane": "COMNL",
+        "dateDebut": "2024-09-20",
+        "datePublication": "2024-09-20",
+        "dateFin": null,
+        "preseance": "24",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Titulaire",
+          "libQualite": "Membre titulaire",
+          "libQualiteSex": "Membre titulaire"
+        },
+        "organes": {
+          "organeRef": "PO271850"
+        },
+        "suppleants": null
+      },
+      {
         "@xsi:type": "MandatSimple_Type",
         "uid": "PM845754",
         "acteurRef": "PA642988",
@@ -191,13 +212,22 @@
           "mandatRemplaceRef": null
         },
         "collaborateurs": {
-          "collaborateur": {
-            "qualite": "Mme",
-            "prenom": "Gaëlle",
-            "nom": "CROQUIN",
-            "dateDebut": null,
-            "dateFin": null
-          }
+          "collaborateur": [
+            {
+              "qualite": "Mme",
+              "prenom": "Gaëlle",
+              "nom": "CROQUIN",
+              "dateDebut": null,
+              "dateFin": null
+            },
+            {
+              "qualite": "Mme",
+              "prenom": "Pascale",
+              "nom": "Demuru",
+              "dateDebut": null,
+              "dateFin": null
+            }
+          ]
         }
       },
       {

@@ -132,6 +132,27 @@
   "mandats": {
     "mandat": [
       {
+        "@xsi:type": "MandatAvecSuppleant_Type",
+        "uid": "PM847303",
+        "acteurRef": "PA719550",
+        "legislature": "17",
+        "typeOrgane": "COMNL",
+        "dateDebut": "2024-09-20",
+        "datePublication": "2024-09-20",
+        "dateFin": null,
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO415287"
+        },
+        "suppleants": null
+      },
+      {
         "@xsi:type": "MandatSimple_Type",
         "uid": "PM845608",
         "acteurRef": "PA719550",
@@ -217,13 +238,22 @@
           "mandatRemplaceRef": null
         },
         "collaborateurs": {
-          "collaborateur": {
-            "qualite": "Mme",
-            "prenom": "Charlotte",
-            "nom": "Nicollet",
-            "dateDebut": null,
-            "dateFin": null
-          }
+          "collaborateur": [
+            {
+              "qualite": "Mme",
+              "prenom": "Guénaëlle",
+              "nom": "Lauden",
+              "dateDebut": null,
+              "dateFin": null
+            },
+            {
+              "qualite": "Mme",
+              "prenom": "Charlotte",
+              "nom": "Nicollet",
+              "dateDebut": null,
+              "dateFin": null
+            }
+          ]
         }
       },
       {
