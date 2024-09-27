@@ -70,13 +70,27 @@
         "valElec": "s.hablot"
       },
       {
-        "@xsi:type": "AdresseMail_Type",
-        "uid": "AD844860",
-        "type": "15",
-        "typeLibelle": "Mèl",
-        "poids": null,
+        "@xsi:type": "AdressePostale_Type",
+        "uid": "AD847891",
+        "type": "2",
+        "typeLibelle": "Adresse publiée de circonscription",
+        "poids": "2",
         "adresseDeRattachement": null,
-        "valElec": "shablot@vandoeuvre.fr"
+        "intitule": null,
+        "numeroRue": "4",
+        "nomRue": "Place de Paris",
+        "complementAdresse": null,
+        "codePostal": "54500",
+        "ville": "Vandoeuvre-lès-Nancy"
+      },
+      {
+        "@xsi:type": "AdresseTelephonique_Type",
+        "uid": "AD847895",
+        "type": "11",
+        "typeLibelle": "Téléphone",
+        "poids": "2",
+        "adresseDeRattachement": "AD847891",
+        "valElec": "09 53 64 05 29"
       }
     ]
   },
