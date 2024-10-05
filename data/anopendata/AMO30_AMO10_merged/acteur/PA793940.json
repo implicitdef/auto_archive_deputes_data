@@ -92,6 +92,27 @@
   "mandats": {
     "mandat": [
       {
+        "@xsi:type": "MandatAvecSuppleant_Type",
+        "uid": "PM848302",
+        "acteurRef": "PA793940",
+        "legislature": "17",
+        "typeOrgane": "COMNL",
+        "dateDebut": "2024-10-04",
+        "datePublication": "2024-10-04",
+        "dateFin": null,
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO420375"
+        },
+        "suppleants": null
+      },
+      {
         "@xsi:type": "MandatSimple_Type",
         "uid": "PM845494",
         "acteurRef": "PA793940",
@@ -177,13 +198,22 @@
           "mandatRemplaceRef": null
         },
         "collaborateurs": {
-          "collaborateur": {
-            "qualite": "M.",
-            "prenom": "David",
-            "nom": "Tomasella",
-            "dateDebut": null,
-            "dateFin": null
-          }
+          "collaborateur": [
+            {
+              "qualite": "M.",
+              "prenom": "David",
+              "nom": "Tomasella",
+              "dateDebut": null,
+              "dateFin": null
+            },
+            {
+              "qualite": "M.",
+              "prenom": "Thomas",
+              "nom": "Defortescu",
+              "dateDebut": null,
+              "dateFin": null
+            }
+          ]
         }
       },
       {
