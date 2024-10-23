@@ -1,0 +1,84 @@
+{
+  "uid": {
+    "@xsi:type": "IdActeur_type",
+    "#text": "PA841801"
+  },
+  "etatCivil": {
+    "ident": {
+      "civ": "Mme",
+      "prenom": "Danièle",
+      "nom": "Carteron",
+      "alpha": "Carteron",
+      "trigramme": "DCA"
+    },
+    "infoNaissance": {
+      "dateNais": "1984-10-31"
+    }
+  },
+  "profession": {
+    "socProcINSEE": {}
+  },
+  "uri_hatvp": "/tribun/resources/html/defautDeclarationActeur.html",
+  "adresses": {
+    "adresse": {
+      "@xsi:type": "AdressePostale_Type",
+      "uid": "AD841803",
+      "type": "0",
+      "typeLibelle": "Adresse officielle",
+      "poids": "1",
+      "adresseDeRattachement": null,
+      "intitule": "Assemblée nationale,",
+      "numeroRue": "126",
+      "nomRue": "Rue de l'Université,",
+      "complementAdresse": null,
+      "codePostal": "75355",
+      "ville": "Paris 07 SP"
+    }
+  },
+  "mandats": {
+    "mandat": {
+      "@xsi:type": "MandatParlementaire_type",
+      "uid": "PM849141",
+      "acteurRef": "PA841801",
+      "legislature": "17",
+      "typeOrgane": "ASSEMBLEE",
+      "dateDebut": "2024-07-07",
+      "datePublication": null,
+      "dateFin": null,
+      "preseance": "50",
+      "nominPrincipale": "1",
+      "infosQualite": {
+        "codeQualite": "membre",
+        "libQualite": "membre",
+        "libQualiteSex": "membre"
+      },
+      "organes": {
+        "organeRef": "PO838901"
+      },
+      "suppleants": null,
+      "chambre": null,
+      "election": {
+        "lieu": {
+          "region": "Auvergne-Rhône-Alpes",
+          "regionType": "Métropolitain",
+          "departement": "Haute-Savoie",
+          "numDepartement": "74",
+          "numCirco": "2"
+        },
+        "causeMandat": "remplacement d'un député nommé au Gouvernement",
+        "refCirconscription": "PO839777"
+      },
+      "mandature": {
+        "datePriseFonction": "2024-10-22",
+        "causeFin": null,
+        "premiereElection": "0",
+        "placeHemicycle": null,
+        "mandatRemplaceRef": null
+      },
+      "collaborateurs": [
+        null,
+        null
+      ]
+    }
+  }
+}

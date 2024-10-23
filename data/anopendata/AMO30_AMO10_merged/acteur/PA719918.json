@@ -8,7 +8,8 @@
       "civ": "M.",
       "prenom": "Fabien",
       "nom": "Lainé",
-      "alpha": "Laine"
+      "alpha": "Laine",
+      "trigramme": "FLI"
     },
     "infoNaissance": {
       "dateNais": "1976-04-15",
@@ -94,6 +95,50 @@
   },
   "mandats": {
     "mandat": [
+      {
+        "@xsi:type": "MandatParlementaire_type",
+        "uid": "PM849155",
+        "acteurRef": "PA719918",
+        "legislature": "17",
+        "typeOrgane": "ASSEMBLEE",
+        "dateDebut": "2024-07-07",
+        "datePublication": null,
+        "dateFin": null,
+        "preseance": "50",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "membre",
+          "libQualite": "membre",
+          "libQualiteSex": "membre"
+        },
+        "organes": {
+          "organeRef": "PO838901"
+        },
+        "suppleants": null,
+        "chambre": null,
+        "election": {
+          "lieu": {
+            "region": "Nouvelle-Aquitaine",
+            "regionType": "Métropolitain",
+            "departement": "Landes",
+            "numDepartement": "40",
+            "numCirco": "1"
+          },
+          "causeMandat": "remplacement d'un député nommé au Gouvernement",
+          "refCirconscription": "PO839331"
+        },
+        "mandature": {
+          "datePriseFonction": "2024-10-22",
+          "causeFin": null,
+          "premiereElection": "1",
+          "placeHemicycle": null,
+          "mandatRemplaceRef": null
+        },
+        "collaborateurs": [
+          null,
+          null
+        ]
+      },
       {
         "@xsi:type": "MandatSimple_Type",
         "uid": "PM745806",
