@@ -9,76 +9,136 @@
       "prenom": "Pauline",
       "nom": "Levasseur",
       "alpha": "Levasseur",
-      "trigramme": "PLE"
+      "trigramme": "PLV"
     },
     "infoNaissance": {
-      "dateNais": "1991-07-24"
+      "dateNais": "1991-07-24",
+      "villeNais": "Arras",
+      "depNais": "Pas-de-Calais",
+      "paysNais": "France"
     }
   },
   "profession": {
-    "socProcINSEE": {}
+    "libelleCourant": "Collaboratrice parlementaire",
+    "socProcINSEE": {
+      "catSocPro": "Cadres de la fonction publique, professions intellectuelles et  artistiques",
+      "famSocPro": "Cadres et professions intellectuelles supérieures"
+    }
   },
   "uri_hatvp": "/tribun/resources/html/defautDeclarationActeur.html",
   "adresses": {
-    "adresse": {
-      "@xsi:type": "AdressePostale_Type",
-      "uid": "AD841603",
-      "type": "0",
-      "typeLibelle": "Adresse officielle",
-      "poids": "1",
-      "adresseDeRattachement": null,
-      "intitule": "Assemblée nationale,",
-      "numeroRue": "126",
-      "nomRue": "Rue de l'Université,",
-      "complementAdresse": null,
-      "codePostal": "75355",
-      "ville": "Paris 07 SP"
-    }
+    "adresse": [
+      {
+        "@xsi:type": "AdressePostale_Type",
+        "uid": "AD841603",
+        "type": "0",
+        "typeLibelle": "Adresse officielle",
+        "poids": "1",
+        "adresseDeRattachement": null,
+        "intitule": "Assemblée nationale,",
+        "numeroRue": "126",
+        "nomRue": "Rue de l'Université,",
+        "complementAdresse": null,
+        "codePostal": "75355",
+        "ville": "Paris 07 SP"
+      },
+      {
+        "@xsi:type": "AdresseMail_Type",
+        "uid": "AD849236",
+        "type": "15",
+        "typeLibelle": "Mèl",
+        "poids": null,
+        "adresseDeRattachement": null,
+        "valElec": "pauline.levasseur@assemblee-nationale.fr"
+      }
+    ]
   },
   "mandats": {
-    "mandat": {
-      "@xsi:type": "MandatParlementaire_type",
-      "uid": "PM849131",
-      "acteurRef": "PA841601",
-      "legislature": "17",
-      "typeOrgane": "ASSEMBLEE",
-      "dateDebut": "2024-07-07",
-      "datePublication": null,
-      "dateFin": null,
-      "preseance": "50",
-      "nominPrincipale": "1",
-      "infosQualite": {
-        "codeQualite": "membre",
-        "libQualite": "membre",
-        "libQualiteSex": "membre"
-      },
-      "organes": {
-        "organeRef": "PO838901"
-      },
-      "suppleants": null,
-      "chambre": null,
-      "election": {
-        "lieu": {
-          "region": "Hauts-de-France",
-          "regionType": "Métropolitain",
-          "departement": "Pas-de-Calais",
-          "numDepartement": "62",
-          "numCirco": "2"
+    "mandat": [
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM849250",
+        "acteurRef": "PA841601",
+        "legislature": "17",
+        "typeOrgane": "GP",
+        "dateDebut": "2024-10-23",
+        "datePublication": "2024-10-23",
+        "dateFin": null,
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre du",
+          "libQualiteSex": "Membre du"
         },
-        "causeMandat": "remplacement d'un député nommé au Gouvernement",
-        "refCirconscription": "PO839611"
+        "organes": {
+          "organeRef": "PO845407"
+        }
       },
-      "mandature": {
-        "datePriseFonction": "2024-10-22",
-        "causeFin": null,
-        "premiereElection": "0",
-        "placeHemicycle": null,
-        "mandatRemplaceRef": null
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM849317",
+        "acteurRef": "PA841601",
+        "legislature": "17",
+        "typeOrgane": "COMPER",
+        "dateDebut": "2024-10-23",
+        "datePublication": "2024-10-23",
+        "dateFin": null,
+        "preseance": "32",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO59051"
+        }
       },
-      "collaborateurs": [
-        null,
-        null
-      ]
-    }
+      {
+        "@xsi:type": "MandatParlementaire_type",
+        "uid": "PM849131",
+        "acteurRef": "PA841601",
+        "legislature": "17",
+        "typeOrgane": "ASSEMBLEE",
+        "dateDebut": "2024-07-07",
+        "datePublication": null,
+        "dateFin": null,
+        "preseance": "50",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "membre",
+          "libQualite": "membre",
+          "libQualiteSex": "membre"
+        },
+        "organes": {
+          "organeRef": "PO838901"
+        },
+        "suppleants": null,
+        "chambre": null,
+        "election": {
+          "lieu": {
+            "region": "Hauts-de-France",
+            "regionType": "Métropolitain",
+            "departement": "Pas-de-Calais",
+            "numDepartement": "62",
+            "numCirco": "2"
+          },
+          "causeMandat": "remplacement d'un député nommé au Gouvernement",
+          "refCirconscription": "PO839611"
+        },
+        "mandature": {
+          "datePriseFonction": "2024-10-22",
+          "causeFin": null,
+          "premiereElection": "0",
+          "placeHemicycle": "326",
+          "mandatRemplaceRef": null
+        },
+        "collaborateurs": [
+          null,
+          null
+        ]
+      }
+    ]
   }
 }

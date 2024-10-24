@@ -8,76 +8,140 @@
       "civ": "Mme",
       "prenom": "Eliane",
       "nom": "Kremer",
-      "alpha": "Kremer"
+      "alpha": "Kremer",
+      "trigramme": "ekr"
     },
     "infoNaissance": {
-      "dateNais": "1956-03-12"
+      "dateNais": "1956-03-12",
+      "villeNais": "Saverne",
+      "depNais": "Bas-Rhin",
+      "paysNais": "France"
     }
   },
   "profession": {
-    "socProcINSEE": {}
+    "libelleCourant": "retraitée",
+    "socProcINSEE": {
+      "catSocPro": "Anciens cadres et professions intermédiaires",
+      "famSocPro": "Retraités"
+    }
   },
   "uri_hatvp": "/tribun/resources/html/defautDeclarationActeur.html",
   "adresses": {
-    "adresse": {
-      "@xsi:type": "AdressePostale_Type",
-      "uid": "AD722330",
-      "type": "0",
-      "typeLibelle": "Adresse officielle",
-      "poids": "1",
-      "adresseDeRattachement": null,
-      "intitule": "Assemblée nationale,",
-      "numeroRue": "126",
-      "nomRue": "Rue de l'Université,",
-      "complementAdresse": null,
-      "codePostal": "75355",
-      "ville": "Paris 07 SP"
-    }
+    "adresse": [
+      {
+        "@xsi:type": "AdressePostale_Type",
+        "uid": "AD722330",
+        "type": "0",
+        "typeLibelle": "Adresse officielle",
+        "poids": "1",
+        "adresseDeRattachement": null,
+        "intitule": "Assemblée nationale,",
+        "numeroRue": "126",
+        "nomRue": "Rue de l'Université,",
+        "complementAdresse": null,
+        "codePostal": "75355",
+        "ville": "Paris 07 SP"
+      },
+      {
+        "@xsi:type": "AdresseMail_Type",
+        "uid": "AD849208",
+        "type": "15",
+        "typeLibelle": "Mèl",
+        "poids": null,
+        "adresseDeRattachement": null,
+        "valElec": "eliane.kremer@assemblee-nationale.fr"
+      },
+      {
+        "@xsi:type": "AdressePostale_Type",
+        "uid": "AD849216",
+        "type": "2",
+        "typeLibelle": "Adresse publiée de circonscription",
+        "poids": "22",
+        "adresseDeRattachement": null,
+        "intitule": null,
+        "numeroRue": "9",
+        "nomRue": "Rue de la gare",
+        "complementAdresse": null,
+        "codePostal": "67700",
+        "ville": "Saverne"
+      },
+      {
+        "@xsi:type": "AdresseTelephonique_Type",
+        "uid": "AD849218",
+        "type": "11",
+        "typeLibelle": "Téléphone",
+        "poids": "22",
+        "adresseDeRattachement": "AD849216",
+        "valElec": "0388912588"
+      }
+    ]
   },
   "mandats": {
-    "mandat": {
-      "@xsi:type": "MandatParlementaire_type",
-      "uid": "PM849127",
-      "acteurRef": "PA722328",
-      "legislature": "17",
-      "typeOrgane": "ASSEMBLEE",
-      "dateDebut": "2024-07-07",
-      "datePublication": null,
-      "dateFin": null,
-      "preseance": "50",
-      "nominPrincipale": "1",
-      "infosQualite": {
-        "codeQualite": "membre",
-        "libQualite": "membre",
-        "libQualiteSex": "membre"
-      },
-      "organes": {
-        "organeRef": "PO838901"
-      },
-      "suppleants": null,
-      "chambre": null,
-      "election": {
-        "lieu": {
-          "region": "Grand Est",
-          "regionType": "Métropolitain",
-          "departement": "Bas-Rhin",
-          "numDepartement": "67",
-          "numCirco": "7"
+    "mandat": [
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM849256",
+        "acteurRef": "PA722328",
+        "legislature": "17",
+        "typeOrgane": "GP",
+        "dateDebut": "2024-10-23",
+        "datePublication": "2024-10-23",
+        "dateFin": null,
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre du",
+          "libQualiteSex": "Membre du"
         },
-        "causeMandat": "remplacement d'un député nommé au Gouvernement",
-        "refCirconscription": "PO839707"
+        "organes": {
+          "organeRef": "PO845425"
+        }
       },
-      "mandature": {
-        "datePriseFonction": "2024-10-22",
-        "causeFin": null,
-        "premiereElection": "0",
-        "placeHemicycle": null,
-        "mandatRemplaceRef": null
-      },
-      "collaborateurs": [
-        null,
-        null
-      ]
-    }
+      {
+        "@xsi:type": "MandatParlementaire_type",
+        "uid": "PM849127",
+        "acteurRef": "PA722328",
+        "legislature": "17",
+        "typeOrgane": "ASSEMBLEE",
+        "dateDebut": "2024-07-07",
+        "datePublication": null,
+        "dateFin": null,
+        "preseance": "50",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "membre",
+          "libQualite": "membre",
+          "libQualiteSex": "membre"
+        },
+        "organes": {
+          "organeRef": "PO838901"
+        },
+        "suppleants": null,
+        "chambre": null,
+        "election": {
+          "lieu": {
+            "region": "Grand Est",
+            "regionType": "Métropolitain",
+            "departement": "Bas-Rhin",
+            "numDepartement": "67",
+            "numCirco": "7"
+          },
+          "causeMandat": "remplacement d'un député nommé au Gouvernement",
+          "refCirconscription": "PO839707"
+        },
+        "mandature": {
+          "datePriseFonction": "2024-10-22",
+          "causeFin": null,
+          "premiereElection": "0",
+          "placeHemicycle": "164",
+          "mandatRemplaceRef": null
+        },
+        "collaborateurs": [
+          null,
+          null
+        ]
+      }
+    ]
   }
 }

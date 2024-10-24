@@ -9,76 +9,146 @@
       "prenom": "Pierre",
       "nom": "Marle",
       "alpha": "Marle",
-      "trigramme": "PMA"
+      "trigramme": "PML"
     },
     "infoNaissance": {
-      "dateNais": "1954-02-19"
+      "dateNais": "1954-02-19",
+      "villeNais": "Bollezeele",
+      "depNais": "Nord",
+      "paysNais": "France"
     }
   },
   "profession": {
+    "libelleCourant": "Directeur d'école primaire (retraité)",
     "socProcINSEE": {}
   },
-  "uri_hatvp": "/tribun/resources/html/defautDeclarationActeur.html",
   "adresses": {
-    "adresse": {
-      "@xsi:type": "AdressePostale_Type",
-      "uid": "AD794520",
-      "type": "0",
-      "typeLibelle": "Adresse officielle",
-      "poids": "1",
-      "adresseDeRattachement": null,
-      "intitule": "Assemblée nationale,",
-      "numeroRue": "126",
-      "nomRue": "Rue de l'Université,",
-      "complementAdresse": null,
-      "codePostal": "75355",
-      "ville": "Paris 07 SP"
-    }
+    "adresse": [
+      {
+        "@xsi:type": "AdressePostale_Type",
+        "uid": "AD794520",
+        "type": "0",
+        "typeLibelle": "Adresse officielle",
+        "poids": "1",
+        "adresseDeRattachement": null,
+        "intitule": "Assemblée nationale,",
+        "numeroRue": "126",
+        "nomRue": "Rue de l'Université,",
+        "complementAdresse": null,
+        "codePostal": "75355",
+        "ville": "Paris 07 SP"
+      },
+      {
+        "@xsi:type": "AdresseMail_Type",
+        "uid": "AD849226",
+        "type": "15",
+        "typeLibelle": "Mèl",
+        "poids": null,
+        "adresseDeRattachement": null,
+        "valElec": "pierre.marle@assemblee-nationale.fr"
+      },
+      {
+        "@xsi:type": "AdressePostale_Type",
+        "uid": "AD849270",
+        "type": "2",
+        "typeLibelle": "Adresse publiée de circonscription",
+        "poids": "22",
+        "adresseDeRattachement": null,
+        "intitule": null,
+        "numeroRue": null,
+        "nomRue": "Place du marché aux fruits",
+        "complementAdresse": null,
+        "codePostal": "59630",
+        "ville": "Bourbourg"
+      }
+    ]
   },
   "mandats": {
-    "mandat": {
-      "@xsi:type": "MandatParlementaire_type",
-      "uid": "PM849133",
-      "acteurRef": "PA794518",
-      "legislature": "17",
-      "typeOrgane": "ASSEMBLEE",
-      "dateDebut": "2024-07-07",
-      "datePublication": null,
-      "dateFin": null,
-      "preseance": "50",
-      "nominPrincipale": "1",
-      "infosQualite": {
-        "codeQualite": "membre",
-        "libQualite": "membre",
-        "libQualiteSex": "membre"
-      },
-      "organes": {
-        "organeRef": "PO838901"
-      },
-      "suppleants": null,
-      "chambre": null,
-      "election": {
-        "lieu": {
-          "region": "Hauts-de-France",
-          "regionType": "Métropolitain",
-          "departement": "Nord",
-          "numDepartement": "59",
-          "numCirco": "14"
+    "mandat": [
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM849263",
+        "acteurRef": "PA794518",
+        "legislature": "17",
+        "typeOrgane": "GP",
+        "dateDebut": "2024-10-23",
+        "datePublication": "2024-10-23",
+        "dateFin": null,
+        "preseance": "24",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre apparenté",
+          "libQualite": "Apparenté au",
+          "libQualiteSex": "Apparenté au"
         },
-        "causeMandat": "remplacement d'un député nommé au Gouvernement",
-        "refCirconscription": "PO839623"
+        "organes": {
+          "organeRef": "PO845470"
+        }
       },
-      "mandature": {
-        "datePriseFonction": "2024-10-22",
-        "causeFin": null,
-        "premiereElection": "0",
-        "placeHemicycle": null,
-        "mandatRemplaceRef": null
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM849305",
+        "acteurRef": "PA794518",
+        "legislature": "17",
+        "typeOrgane": "COMPER",
+        "dateDebut": "2024-10-23",
+        "datePublication": "2024-10-23",
+        "dateFin": null,
+        "preseance": "32",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO420120"
+        }
       },
-      "collaborateurs": [
-        null,
-        null
-      ]
-    }
+      {
+        "@xsi:type": "MandatParlementaire_type",
+        "uid": "PM849133",
+        "acteurRef": "PA794518",
+        "legislature": "17",
+        "typeOrgane": "ASSEMBLEE",
+        "dateDebut": "2024-07-07",
+        "datePublication": null,
+        "dateFin": null,
+        "preseance": "50",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "membre",
+          "libQualite": "membre",
+          "libQualiteSex": "membre"
+        },
+        "organes": {
+          "organeRef": "PO838901"
+        },
+        "suppleants": null,
+        "chambre": null,
+        "election": {
+          "lieu": {
+            "region": "Hauts-de-France",
+            "regionType": "Métropolitain",
+            "departement": "Nord",
+            "numDepartement": "59",
+            "numCirco": "14"
+          },
+          "causeMandat": "remplacement d'un député nommé au Gouvernement",
+          "refCirconscription": "PO839623"
+        },
+        "mandature": {
+          "datePriseFonction": "2024-10-22",
+          "causeFin": null,
+          "premiereElection": "0",
+          "placeHemicycle": "319",
+          "mandatRemplaceRef": null
+        },
+        "collaborateurs": [
+          null,
+          null
+        ]
+      }
+    ]
   }
 }

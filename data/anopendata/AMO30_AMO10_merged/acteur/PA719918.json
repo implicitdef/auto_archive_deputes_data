@@ -25,6 +25,7 @@
       "famSocPro": "Cadres et professions intellectuelles supérieures"
     }
   },
+  "uri_hatvp": "/tribun/resources/html/defautDeclarationActeur.html",
   "adresses": {
     "adresse": [
       {
@@ -96,6 +97,46 @@
   "mandats": {
     "mandat": [
       {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM849259",
+        "acteurRef": "PA719918",
+        "legislature": "17",
+        "typeOrgane": "GP",
+        "dateDebut": "2024-10-23",
+        "datePublication": "2024-10-23",
+        "dateFin": null,
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre du",
+          "libQualiteSex": "Membre du"
+        },
+        "organes": {
+          "organeRef": "PO845454"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM849310",
+        "acteurRef": "PA719918",
+        "legislature": "17",
+        "typeOrgane": "COMPER",
+        "dateDebut": "2024-10-23",
+        "datePublication": "2024-10-23",
+        "dateFin": null,
+        "preseance": "32",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO59046"
+        }
+      },
+      {
         "@xsi:type": "MandatParlementaire_type",
         "uid": "PM849155",
         "acteurRef": "PA719918",
@@ -131,7 +172,7 @@
           "datePriseFonction": "2024-10-22",
           "causeFin": null,
           "premiereElection": "1",
-          "placeHemicycle": null,
+          "placeHemicycle": "361",
           "mandatRemplaceRef": null
         },
         "collaborateurs": [

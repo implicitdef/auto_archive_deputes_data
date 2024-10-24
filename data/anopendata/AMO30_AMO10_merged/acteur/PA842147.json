@@ -12,73 +12,133 @@
       "trigramme": "CMO"
     },
     "infoNaissance": {
-      "dateNais": "1963-01-09"
+      "dateNais": "1963-01-09",
+      "villeNais": "Marseille",
+      "depNais": "Bouches-du-Rhône",
+      "paysNais": "France"
     }
   },
   "profession": {
-    "socProcINSEE": {}
+    "libelleCourant": "Ingénieur - Responsable Support Technique Grands Comptes",
+    "socProcINSEE": {
+      "catSocPro": "Cadres d'entreprise",
+      "famSocPro": "Cadres et professions intellectuelles supérieures"
+    }
   },
   "uri_hatvp": "/tribun/resources/html/defautDeclarationActeur.html",
   "adresses": {
-    "adresse": {
-      "@xsi:type": "AdressePostale_Type",
-      "uid": "AD842149",
-      "type": "0",
-      "typeLibelle": "Adresse officielle",
-      "poids": "1",
-      "adresseDeRattachement": null,
-      "intitule": "Assemblée nationale,",
-      "numeroRue": "126",
-      "nomRue": "Rue de l'Université,",
-      "complementAdresse": null,
-      "codePostal": "75355",
-      "ville": "Paris 07 SP"
-    }
+    "adresse": [
+      {
+        "@xsi:type": "AdressePostale_Type",
+        "uid": "AD842149",
+        "type": "0",
+        "typeLibelle": "Adresse officielle",
+        "poids": "1",
+        "adresseDeRattachement": null,
+        "intitule": "Assemblée nationale,",
+        "numeroRue": "126",
+        "nomRue": "Rue de l'Université,",
+        "complementAdresse": null,
+        "codePostal": "75355",
+        "ville": "Paris 07 SP"
+      },
+      {
+        "@xsi:type": "AdresseMail_Type",
+        "uid": "AD849224",
+        "type": "15",
+        "typeLibelle": "Mèl",
+        "poids": null,
+        "adresseDeRattachement": null,
+        "valElec": "christophe.mongardien@assemblee-nationale.fr"
+      }
+    ]
   },
   "mandats": {
-    "mandat": {
-      "@xsi:type": "MandatParlementaire_type",
-      "uid": "PM849135",
-      "acteurRef": "PA842147",
-      "legislature": "17",
-      "typeOrgane": "ASSEMBLEE",
-      "dateDebut": "2024-07-07",
-      "datePublication": null,
-      "dateFin": null,
-      "preseance": "50",
-      "nominPrincipale": "1",
-      "infosQualite": {
-        "codeQualite": "membre",
-        "libQualite": "membre",
-        "libQualiteSex": "membre"
-      },
-      "organes": {
-        "organeRef": "PO838901"
-      },
-      "suppleants": null,
-      "chambre": null,
-      "election": {
-        "lieu": {
-          "region": "Ile-de-France",
-          "regionType": "Métropolitain",
-          "departement": "Hauts-de-Seine",
-          "numDepartement": "92",
-          "numCirco": "13"
+    "mandat": [
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM849252",
+        "acteurRef": "PA842147",
+        "legislature": "17",
+        "typeOrgane": "GP",
+        "dateDebut": "2024-10-23",
+        "datePublication": "2024-10-23",
+        "dateFin": null,
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre du",
+          "libQualiteSex": "Membre du"
         },
-        "causeMandat": "remplacement d'un député nommé au Gouvernement",
-        "refCirconscription": "PO840015"
+        "organes": {
+          "organeRef": "PO845407"
+        }
       },
-      "mandature": {
-        "datePriseFonction": "2024-10-22",
-        "causeFin": null,
-        "premiereElection": "0",
-        "placeHemicycle": null,
-        "mandatRemplaceRef": null
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM849306",
+        "acteurRef": "PA842147",
+        "legislature": "17",
+        "typeOrgane": "COMPER",
+        "dateDebut": "2024-10-23",
+        "datePublication": "2024-10-23",
+        "dateFin": null,
+        "preseance": "32",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO420120"
+        }
       },
-      "collaborateurs": [
-        null,
-        null
-      ]
-    }
+      {
+        "@xsi:type": "MandatParlementaire_type",
+        "uid": "PM849135",
+        "acteurRef": "PA842147",
+        "legislature": "17",
+        "typeOrgane": "ASSEMBLEE",
+        "dateDebut": "2024-07-07",
+        "datePublication": null,
+        "dateFin": null,
+        "preseance": "50",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "membre",
+          "libQualite": "membre",
+          "libQualiteSex": "membre"
+        },
+        "organes": {
+          "organeRef": "PO838901"
+        },
+        "suppleants": null,
+        "chambre": null,
+        "election": {
+          "lieu": {
+            "region": "Ile-de-France",
+            "regionType": "Métropolitain",
+            "departement": "Hauts-de-Seine",
+            "numDepartement": "92",
+            "numCirco": "13"
+          },
+          "causeMandat": "remplacement d'un député nommé au Gouvernement",
+          "refCirconscription": "PO840015"
+        },
+        "mandature": {
+          "datePriseFonction": "2024-10-22",
+          "causeFin": null,
+          "premiereElection": "0",
+          "placeHemicycle": "400",
+          "mandatRemplaceRef": null
+        },
+        "collaborateurs": [
+          null,
+          null
+        ]
+      }
+    ]
   }
 }

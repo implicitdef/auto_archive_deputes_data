@@ -12,73 +12,146 @@
       "trigramme": "DCA"
     },
     "infoNaissance": {
-      "dateNais": "1984-10-31"
+      "dateNais": "1984-10-31",
+      "villeNais": "Annecy",
+      "depNais": "Haute-Savoie",
+      "paysNais": "France"
     }
   },
   "profession": {
-    "socProcINSEE": {}
-  },
-  "uri_hatvp": "/tribun/resources/html/defautDeclarationActeur.html",
-  "adresses": {
-    "adresse": {
-      "@xsi:type": "AdressePostale_Type",
-      "uid": "AD841803",
-      "type": "0",
-      "typeLibelle": "Adresse officielle",
-      "poids": "1",
-      "adresseDeRattachement": null,
-      "intitule": "Assemblée nationale,",
-      "numeroRue": "126",
-      "nomRue": "Rue de l'Université,",
-      "complementAdresse": null,
-      "codePostal": "75355",
-      "ville": "Paris 07 SP"
+    "libelleCourant": "Cheffe d'entreprise",
+    "socProcINSEE": {
+      "catSocPro": "Cadres d'entreprise",
+      "famSocPro": "Cadres et professions intellectuelles supérieures"
     }
+  },
+  "adresses": {
+    "adresse": [
+      {
+        "@xsi:type": "AdressePostale_Type",
+        "uid": "AD841803",
+        "type": "0",
+        "typeLibelle": "Adresse officielle",
+        "poids": "1",
+        "adresseDeRattachement": null,
+        "intitule": "Assemblée nationale,",
+        "numeroRue": "126",
+        "nomRue": "Rue de l'Université,",
+        "complementAdresse": null,
+        "codePostal": "75355",
+        "ville": "Paris 07 SP"
+      },
+      {
+        "@xsi:type": "AdresseMail_Type",
+        "uid": "AD849222",
+        "type": "15",
+        "typeLibelle": "Mèl",
+        "poids": null,
+        "adresseDeRattachement": null,
+        "valElec": "daniele.carteron@assemblee-nationale.fr"
+      },
+      {
+        "@xsi:type": "AdressePostale_Type",
+        "uid": "AD849266",
+        "type": "2",
+        "typeLibelle": "Adresse publiée de circonscription",
+        "poids": "22",
+        "adresseDeRattachement": null,
+        "intitule": null,
+        "numeroRue": "8",
+        "nomRue": "Avenue d'Alery",
+        "complementAdresse": null,
+        "codePostal": "74000",
+        "ville": "Annecy"
+      }
+    ]
   },
   "mandats": {
-    "mandat": {
-      "@xsi:type": "MandatParlementaire_type",
-      "uid": "PM849141",
-      "acteurRef": "PA841801",
-      "legislature": "17",
-      "typeOrgane": "ASSEMBLEE",
-      "dateDebut": "2024-07-07",
-      "datePublication": null,
-      "dateFin": null,
-      "preseance": "50",
-      "nominPrincipale": "1",
-      "infosQualite": {
-        "codeQualite": "membre",
-        "libQualite": "membre",
-        "libQualiteSex": "membre"
-      },
-      "organes": {
-        "organeRef": "PO838901"
-      },
-      "suppleants": null,
-      "chambre": null,
-      "election": {
-        "lieu": {
-          "region": "Auvergne-Rhône-Alpes",
-          "regionType": "Métropolitain",
-          "departement": "Haute-Savoie",
-          "numDepartement": "74",
-          "numCirco": "2"
+    "mandat": [
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM849247",
+        "acteurRef": "PA841801",
+        "legislature": "17",
+        "typeOrgane": "GP",
+        "dateDebut": "2024-10-23",
+        "datePublication": "2024-10-23",
+        "dateFin": null,
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre du",
+          "libQualiteSex": "Membre du"
         },
-        "causeMandat": "remplacement d'un député nommé au Gouvernement",
-        "refCirconscription": "PO839777"
+        "organes": {
+          "organeRef": "PO845407"
+        }
       },
-      "mandature": {
-        "datePriseFonction": "2024-10-22",
-        "causeFin": null,
-        "premiereElection": "0",
-        "placeHemicycle": null,
-        "mandatRemplaceRef": null
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM849313",
+        "acteurRef": "PA841801",
+        "legislature": "17",
+        "typeOrgane": "COMPER",
+        "dateDebut": "2024-10-23",
+        "datePublication": "2024-10-23",
+        "dateFin": null,
+        "preseance": "32",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO419865"
+        }
       },
-      "collaborateurs": [
-        null,
-        null
-      ]
-    }
+      {
+        "@xsi:type": "MandatParlementaire_type",
+        "uid": "PM849141",
+        "acteurRef": "PA841801",
+        "legislature": "17",
+        "typeOrgane": "ASSEMBLEE",
+        "dateDebut": "2024-07-07",
+        "datePublication": null,
+        "dateFin": null,
+        "preseance": "50",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "membre",
+          "libQualite": "membre",
+          "libQualiteSex": "membre"
+        },
+        "organes": {
+          "organeRef": "PO838901"
+        },
+        "suppleants": null,
+        "chambre": null,
+        "election": {
+          "lieu": {
+            "region": "Auvergne-Rhône-Alpes",
+            "regionType": "Métropolitain",
+            "departement": "Haute-Savoie",
+            "numDepartement": "74",
+            "numCirco": "2"
+          },
+          "causeMandat": "remplacement d'un député nommé au Gouvernement",
+          "refCirconscription": "PO839777"
+        },
+        "mandature": {
+          "datePriseFonction": "2024-10-22",
+          "causeFin": null,
+          "premiereElection": "0",
+          "placeHemicycle": "325",
+          "mandatRemplaceRef": null
+        },
+        "collaborateurs": [
+          null,
+          null
+        ]
+      }
+    ]
   }
 }

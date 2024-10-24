@@ -13,18 +13,19 @@
     },
     "infoNaissance": {
       "dateNais": "1968-09-17",
-      "villeNais": "Chalons-sur-Saône",
+      "villeNais": "Chalon-sur-Saône",
       "depNais": "Saône-et-Loire",
       "paysNais": "France"
     }
   },
   "profession": {
-    "libelleCourant": "Responsable de service social hospitalier",
+    "libelleCourant": "responsable de service social",
     "socProcINSEE": {
-      "catSocPro": "Professions intermédiaires de l'enseignement, de la santé, de la fonction publique et assimilés",
-      "famSocPro": "Professions Intermédiaires"
+      "catSocPro": "Cadres de la fonction publique, professions intellectuelles et  artistiques",
+      "famSocPro": "Cadres et professions intellectuelles supérieures"
     }
   },
+  "uri_hatvp": "/tribun/resources/html/defautDeclarationActeur.html",
   "adresses": {
     "adresse": [
       {
@@ -49,11 +50,65 @@
         "poids": null,
         "adresseDeRattachement": null,
         "valElec": "anne.bergantz@assemblee-nationale.fr"
+      },
+      {
+        "@xsi:type": "AdressePostale_Type",
+        "uid": "AD849234",
+        "type": "2",
+        "typeLibelle": "Adresse publiée de circonscription",
+        "poids": "22",
+        "adresseDeRattachement": null,
+        "intitule": null,
+        "numeroRue": "6",
+        "nomRue": "Rue des Etats généraux",
+        "complementAdresse": null,
+        "codePostal": "78000",
+        "ville": "Versailles"
       }
     ]
   },
   "mandats": {
     "mandat": [
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM849258",
+        "acteurRef": "PA805166",
+        "legislature": "17",
+        "typeOrgane": "GP",
+        "dateDebut": "2024-10-23",
+        "datePublication": "2024-10-23",
+        "dateFin": null,
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre du",
+          "libQualiteSex": "Membre du"
+        },
+        "organes": {
+          "organeRef": "PO845454"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM849297",
+        "acteurRef": "PA805166",
+        "legislature": "17",
+        "typeOrgane": "COMPER",
+        "dateDebut": "2024-10-23",
+        "datePublication": "2024-10-23",
+        "dateFin": null,
+        "preseance": "32",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO59047"
+        }
+      },
       {
         "@xsi:type": "MandatParlementaire_type",
         "uid": "PM849145",
@@ -90,7 +145,7 @@
           "datePriseFonction": "2024-10-22",
           "causeFin": null,
           "premiereElection": "1",
-          "placeHemicycle": null,
+          "placeHemicycle": "358",
           "mandatRemplaceRef": null
         },
         "collaborateurs": [
