@@ -8,8 +8,7 @@
       "civ": "Mme",
       "prenom": "Charlotte",
       "nom": "Parmentier-Lecocq",
-      "alpha": "Parmentier-Lecocq",
-      "trigramme": "CLE"
+      "alpha": "Parmentier-Lecocq"
     },
     "infoNaissance": {
       "dateNais": "1977-07-17",
@@ -25,7 +24,6 @@
       "famSocPro": "Cadres et professions intellectuelles supérieures"
     }
   },
-  "uri_hatvp": "https://www.hatvp.fr/pages_nominatives/parmentier-lecocq-charlotte",
   "adresses": {
     "adresse": [
       {
@@ -47,14 +45,32 @@
         "uid": "AD751902",
         "type": "2",
         "typeLibelle": "Adresse publiée de circonscription",
-        "poids": "22",
+        "poids": "2",
         "adresseDeRattachement": null,
         "intitule": "Permanence parlementaire",
         "numeroRue": "18",
         "nomRue": "Rue de Roubaix",
         "complementAdresse": null,
-        "codePostal": "59249",
-        "ville": "Templeuve-en-Pévèle"
+        "codePostal": "59242",
+        "ville": "Templeuve-en-Pévèle."
+      },
+      {
+        "@xsi:type": "AdresseMail_Type",
+        "uid": "AD751904",
+        "type": "15",
+        "typeLibelle": "Mèl",
+        "poids": "2",
+        "adresseDeRattachement": "AD751902",
+        "valElec": "permanence@charlotte-parmentier-lecocq.fr"
+      },
+      {
+        "@xsi:type": "AdresseTelephonique_Type",
+        "uid": "AD751906",
+        "type": "11",
+        "typeLibelle": "Téléphone",
+        "poids": "2",
+        "adresseDeRattachement": "AD751902",
+        "valElec": "03 20 05 28 30"
       },
       {
         "@xsi:type": "AdresseSiteWeb_Type",
@@ -73,180 +89,11 @@
         "poids": null,
         "adresseDeRattachement": null,
         "valElec": "Charlotte.Lecocq@assemblee-nationale.fr"
-      },
-      {
-        "@xsi:type": "AdresseTelephonique_Type",
-        "uid": "AD844918",
-        "type": "11",
-        "typeLibelle": "Téléphone",
-        "poids": "22",
-        "adresseDeRattachement": "AD751902",
-        "valElec": "0320052830"
-      },
-      {
-        "@xsi:type": "AdresseMail_Type",
-        "uid": "AD844968",
-        "type": "15",
-        "typeLibelle": "Mèl",
-        "poids": null,
-        "adresseDeRattachement": null,
-        "valElec": "permanence@charlotte-parmentier-lecocq.fr"
       }
     ]
   },
   "mandats": {
     "mandat": [
-      {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM15848117",
-        "acteurRef": "PA720480",
-        "legislature": null,
-        "typeOrgane": "GOUVERNEMENT",
-        "dateDebut": "2024-09-28",
-        "datePublication": "2024-09-28",
-        "dateFin": null,
-        "preseance": "50",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "membre",
-          "libQualite": "membre",
-          "libQualiteSex": "membre"
-        },
-        "organes": {
-          "organeRef": "PO847639"
-        }
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM847099",
-        "acteurRef": "PA720480",
-        "legislature": "17",
-        "typeOrgane": "GP",
-        "dateDebut": "2024-09-10",
-        "datePublication": "2024-09-10",
-        "dateFin": null,
-        "preseance": "20",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Membre",
-          "libQualite": "Membre du",
-          "libQualiteSex": "Membre du"
-        },
-        "organes": {
-          "organeRef": "PO845470"
-        }
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM848117",
-        "acteurRef": "PA720480",
-        "legislature": null,
-        "typeOrgane": "MINISTERE",
-        "dateDebut": "2024-09-28",
-        "datePublication": "2024-09-28",
-        "dateFin": null,
-        "preseance": "40",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Ministre délégué",
-          "libQualite": "Ministre délégué",
-          "libQualiteSex": "Ministre déléguée"
-        },
-        "organes": {
-          "organeRef": "PO848112"
-        }
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM849295",
-        "acteurRef": "PA720480",
-        "legislature": "17",
-        "typeOrgane": "COMPER",
-        "dateDebut": "2024-10-23",
-        "datePublication": "2024-10-23",
-        "dateFin": null,
-        "preseance": "32",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Membre",
-          "libQualite": "Membre",
-          "libQualiteSex": "Membre"
-        },
-        "organes": {
-          "organeRef": "PO59047"
-        }
-      },
-      {
-        "@xsi:type": "MandatParlementaire_type",
-        "uid": "PM843101",
-        "acteurRef": "PA720480",
-        "legislature": "17",
-        "typeOrgane": "ASSEMBLEE",
-        "dateDebut": "2024-07-07",
-        "datePublication": null,
-        "dateFin": null,
-        "preseance": "50",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "membre",
-          "libQualite": "membre",
-          "libQualiteSex": "membre"
-        },
-        "organes": {
-          "organeRef": "PO838901"
-        },
-        "suppleants": {
-          "suppleant": {
-            "dateDebut": "2024-07-07",
-            "dateFin": null,
-            "suppleantRef": "PA794466"
-          }
-        },
-        "chambre": null,
-        "election": {
-          "lieu": {
-            "region": "Hauts-de-France",
-            "regionType": "Métropolitain",
-            "departement": "Nord",
-            "numDepartement": "59",
-            "numCirco": "6"
-          },
-          "causeMandat": "élections générales",
-          "refCirconscription": "PO839577"
-        },
-        "mandature": {
-          "datePriseFonction": "2024-07-08",
-          "causeFin": null,
-          "premiereElection": "1",
-          "placeHemicycle": "245",
-          "mandatRemplaceRef": null
-        },
-        "collaborateurs": {
-          "collaborateur": [
-            {
-              "qualite": "M.",
-              "prenom": "Guillaume",
-              "nom": "CORDIER",
-              "dateDebut": null,
-              "dateFin": null
-            },
-            {
-              "qualite": "Mme",
-              "prenom": "Hélène",
-              "nom": "Vercaemst",
-              "dateDebut": null,
-              "dateFin": null
-            },
-            {
-              "qualite": "Mme",
-              "prenom": "Anne-Florence",
-              "nom": "Szczygiel",
-              "dateDebut": null,
-              "dateFin": null
-            }
-          ]
-        }
-      },
       {
         "@xsi:type": "MandatParlementaire_type",
         "uid": "PM827248",

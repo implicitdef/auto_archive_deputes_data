@@ -1,0 +1,106 @@
+{
+  "uid": {
+    "@xsi:type": "IdActeur_type",
+    "#text": "PA794466"
+  },
+  "etatCivil": {
+    "ident": {
+      "civ": "M.",
+      "prenom": "Jean",
+      "nom": "Moulliere",
+      "alpha": "Moulliere",
+      "trigramme": "JMO"
+    },
+    "infoNaissance": {
+      "dateNais": "1994-03-29"
+    }
+  },
+  "profession": {
+    "socProcINSEE": {}
+  },
+  "uri_hatvp": "/tribun/resources/html/defautDeclarationActeur.html",
+  "adresses": {
+    "adresse": {
+      "@xsi:type": "AdressePostale_Type",
+      "uid": "AD794468",
+      "type": "0",
+      "typeLibelle": "Adresse officielle",
+      "poids": "1",
+      "adresseDeRattachement": null,
+      "intitule": "Assemblée nationale,",
+      "numeroRue": "126",
+      "nomRue": "Rue de l'Université,",
+      "complementAdresse": null,
+      "codePostal": "75355",
+      "ville": "Paris 07 SP"
+    }
+  },
+  "mandats": {
+    "mandat": [
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM849658",
+        "acteurRef": "PA794466",
+        "legislature": "17",
+        "typeOrgane": "GP",
+        "dateDebut": "2024-10-28",
+        "datePublication": "2024-10-28",
+        "dateFin": null,
+        "preseance": "28",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Député non-inscrit",
+          "libQualite": "Député non-inscrit",
+          "libQualiteSex": "Député non-inscrit"
+        },
+        "organes": {
+          "organeRef": "PO840056"
+        }
+      },
+      {
+        "@xsi:type": "MandatParlementaire_type",
+        "uid": "PM849654",
+        "acteurRef": "PA794466",
+        "legislature": "17",
+        "typeOrgane": "ASSEMBLEE",
+        "dateDebut": "2024-07-07",
+        "datePublication": null,
+        "dateFin": null,
+        "preseance": "50",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "membre",
+          "libQualite": "membre",
+          "libQualiteSex": "membre"
+        },
+        "organes": {
+          "organeRef": "PO838901"
+        },
+        "suppleants": null,
+        "chambre": null,
+        "election": {
+          "lieu": {
+            "region": "Hauts-de-France",
+            "regionType": "Métropolitain",
+            "departement": "Nord",
+            "numDepartement": "59",
+            "numCirco": "6"
+          },
+          "causeMandat": "remplacement d'un député nommé au Gouvernement",
+          "refCirconscription": "PO839577"
+        },
+        "mandature": {
+          "datePriseFonction": "2024-10-28",
+          "causeFin": null,
+          "premiereElection": "0",
+          "placeHemicycle": null,
+          "mandatRemplaceRef": null
+        },
+        "collaborateurs": [
+          null,
+          null
+        ]
+      }
+    ]
+  }
+}
