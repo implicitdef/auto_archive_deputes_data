@@ -12,49 +12,118 @@
       "trigramme": "MGO"
     },
     "infoNaissance": {
-      "dateNais": "1955-03-31"
+      "dateNais": "1955-03-31",
+      "villeNais": "Niort",
+      "depNais": "Deux-Sèvres",
+      "paysNais": "France"
     }
   },
   "profession": {
-    "socProcINSEE": {}
-  },
-  "uri_hatvp": "/tribun/resources/html/defautDeclarationActeur.html",
-  "adresses": {
-    "adresse": {
-      "@xsi:type": "AdressePostale_Type",
-      "uid": "AD841871",
-      "type": "0",
-      "typeLibelle": "Adresse officielle",
-      "poids": "1",
-      "adresseDeRattachement": null,
-      "intitule": "Assemblée nationale,",
-      "numeroRue": "126",
-      "nomRue": "Rue de l'Université,",
-      "complementAdresse": null,
-      "codePostal": "75355",
-      "ville": "Paris 07 SP"
+    "libelleCourant": "retraité",
+    "socProcINSEE": {
+      "catSocPro": "Cadres d'entreprise",
+      "famSocPro": "Cadres et professions intellectuelles supérieures"
     }
+  },
+  "adresses": {
+    "adresse": [
+      {
+        "@xsi:type": "AdressePostale_Type",
+        "uid": "AD841871",
+        "type": "0",
+        "typeLibelle": "Adresse officielle",
+        "poids": "1",
+        "adresseDeRattachement": null,
+        "intitule": "Assemblée nationale,",
+        "numeroRue": "126",
+        "nomRue": "Rue de l'Université,",
+        "complementAdresse": null,
+        "codePostal": "75355",
+        "ville": "Paris 07 SP"
+      },
+      {
+        "@xsi:type": "AdresseMail_Type",
+        "uid": "AD849664",
+        "type": "15",
+        "typeLibelle": "Mèl",
+        "poids": null,
+        "adresseDeRattachement": null,
+        "valElec": "michel.gonord@assemblee-nationale.fr"
+      },
+      {
+        "@xsi:type": "AdressePostale_Type",
+        "uid": "AD849672",
+        "type": "2",
+        "typeLibelle": "Adresse publiée de circonscription",
+        "poids": "22",
+        "adresseDeRattachement": null,
+        "intitule": null,
+        "numeroRue": "5",
+        "nomRue": null,
+        "complementAdresse": "5 place du colonel Fabien",
+        "codePostal": "77130",
+        "ville": "Montereau"
+      },
+      {
+        "@xsi:type": "AdresseTelephonique_Type",
+        "uid": "AD849674",
+        "type": "11",
+        "typeLibelle": "Téléphone",
+        "poids": "22",
+        "adresseDeRattachement": "AD849672",
+        "valElec": "0164320281"
+      },
+      {
+        "@xsi:type": "AdresseMail_Type",
+        "uid": "AD849676",
+        "type": "15",
+        "typeLibelle": "Mèl",
+        "poids": null,
+        "adresseDeRattachement": null,
+        "valElec": "permanence.mg@gmail.com"
+      }
+    ]
   },
   "mandats": {
     "mandat": [
       {
         "@xsi:type": "MandatSimple_Type",
-        "uid": "PM849657",
+        "uid": "PM849696",
+        "acteurRef": "PA841869",
+        "legislature": "17",
+        "typeOrgane": "COMPER",
+        "dateDebut": "2024-10-29",
+        "datePublication": "2024-10-29",
+        "dateFin": null,
+        "preseance": "32",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO59046"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM849665",
         "acteurRef": "PA841869",
         "legislature": "17",
         "typeOrgane": "GP",
-        "dateDebut": "2024-10-28",
-        "datePublication": null,
+        "dateDebut": "2024-10-29",
+        "datePublication": "2024-10-29",
         "dateFin": null,
-        "preseance": "28",
+        "preseance": "24",
         "nominPrincipale": "1",
         "infosQualite": {
-          "codeQualite": "Député non-inscrit",
-          "libQualite": "Député non-inscrit",
-          "libQualiteSex": "Député non-inscrit"
+          "codeQualite": "Membre apparenté",
+          "libQualite": "Apparenté au",
+          "libQualiteSex": "Apparenté au"
         },
         "organes": {
-          "organeRef": "PO840056"
+          "organeRef": "PO845425"
         }
       },
       {
@@ -93,7 +162,7 @@
           "datePriseFonction": "2024-10-28",
           "causeFin": null,
           "premiereElection": "0",
-          "placeHemicycle": null,
+          "placeHemicycle": "206",
           "mandatRemplaceRef": null
         },
         "collaborateurs": [

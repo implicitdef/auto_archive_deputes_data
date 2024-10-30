@@ -12,49 +12,101 @@
       "trigramme": "JMO"
     },
     "infoNaissance": {
-      "dateNais": "1994-03-29"
+      "dateNais": "1994-03-29",
+      "villeNais": "Lille",
+      "depNais": "Nord",
+      "paysNais": "France"
     }
   },
   "profession": {
-    "socProcINSEE": {}
+    "libelleCourant": "Collaborateur d'élu",
+    "socProcINSEE": {
+      "catSocPro": "Cadres de la fonction publique, professions intellectuelles et  artistiques",
+      "famSocPro": "Cadres et professions intellectuelles supérieures"
+    }
   },
   "uri_hatvp": "/tribun/resources/html/defautDeclarationActeur.html",
   "adresses": {
-    "adresse": {
-      "@xsi:type": "AdressePostale_Type",
-      "uid": "AD794468",
-      "type": "0",
-      "typeLibelle": "Adresse officielle",
-      "poids": "1",
-      "adresseDeRattachement": null,
-      "intitule": "Assemblée nationale,",
-      "numeroRue": "126",
-      "nomRue": "Rue de l'Université,",
-      "complementAdresse": null,
-      "codePostal": "75355",
-      "ville": "Paris 07 SP"
-    }
+    "adresse": [
+      {
+        "@xsi:type": "AdressePostale_Type",
+        "uid": "AD794468",
+        "type": "0",
+        "typeLibelle": "Adresse officielle",
+        "poids": "1",
+        "adresseDeRattachement": null,
+        "intitule": "Assemblée nationale,",
+        "numeroRue": "126",
+        "nomRue": "Rue de l'Université,",
+        "complementAdresse": null,
+        "codePostal": "75355",
+        "ville": "Paris 07 SP"
+      },
+      {
+        "@xsi:type": "AdresseMail_Type",
+        "uid": "AD849660",
+        "type": "15",
+        "typeLibelle": "Mèl",
+        "poids": null,
+        "adresseDeRattachement": null,
+        "valElec": "jean.moulliere@assemblee-nationale.fr"
+      },
+      {
+        "@xsi:type": "AdressePostale_Type",
+        "uid": "AD849662",
+        "type": "2",
+        "typeLibelle": "Adresse publiée de circonscription",
+        "poids": "22",
+        "adresseDeRattachement": null,
+        "intitule": null,
+        "numeroRue": "18",
+        "nomRue": "Rue de Roubaix",
+        "complementAdresse": null,
+        "codePostal": "59242",
+        "ville": "Templeuve-en-Pévèle"
+      }
+    ]
   },
   "mandats": {
     "mandat": [
       {
         "@xsi:type": "MandatSimple_Type",
-        "uid": "PM849658",
+        "uid": "PM849666",
         "acteurRef": "PA794466",
         "legislature": "17",
         "typeOrgane": "GP",
-        "dateDebut": "2024-10-28",
-        "datePublication": "2024-10-28",
+        "dateDebut": "2024-10-29",
+        "datePublication": "2024-10-29",
         "dateFin": null,
-        "preseance": "28",
+        "preseance": "20",
         "nominPrincipale": "1",
         "infosQualite": {
-          "codeQualite": "Député non-inscrit",
-          "libQualite": "Député non-inscrit",
-          "libQualiteSex": "Député non-inscrit"
+          "codeQualite": "Membre",
+          "libQualite": "Membre du",
+          "libQualiteSex": "Membre du"
         },
         "organes": {
-          "organeRef": "PO840056"
+          "organeRef": "PO845470"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM849711",
+        "acteurRef": "PA794466",
+        "legislature": "17",
+        "typeOrgane": "COMPER",
+        "dateDebut": "2024-10-29",
+        "datePublication": "2024-10-29",
+        "dateFin": null,
+        "preseance": "32",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO59051"
         }
       },
       {
@@ -93,7 +145,7 @@
           "datePriseFonction": "2024-10-28",
           "causeFin": null,
           "premiereElection": "0",
-          "placeHemicycle": null,
+          "placeHemicycle": "245",
           "mandatRemplaceRef": null
         },
         "collaborateurs": [
