@@ -13,19 +13,19 @@
     },
     "infoNaissance": {
       "dateNais": "1976-04-15",
-      "villeNais": "Arcachon",
+      "villeNais": "ARCACHON",
       "depNais": "Gironde",
       "paysNais": "France"
     }
   },
   "profession": {
-    "libelleCourant": "Cadre commercial bâtiment",
+    "libelleCourant": "Collaborateur parlementaire",
     "socProcINSEE": {
-      "catSocPro": "Cadres d'entreprise",
+      "catSocPro": "Cadres de la fonction publique, professions intellectuelles et  artistiques",
       "famSocPro": "Cadres et professions intellectuelles supérieures"
     }
   },
-  "uri_hatvp": "https://www.hatvp.fr/pages_nominatives/laine-fabien",
+  "uri_hatvp": "/tribun/resources/html/defautDeclarationActeur.html",
   "adresses": {
     "adresse": [
       {
@@ -49,12 +49,12 @@
         "typeLibelle": "Adresse publiée de circonscription",
         "poids": "22",
         "adresseDeRattachement": null,
-        "intitule": "Mairie",
-        "numeroRue": "1",
-        "nomRue": "Place de la Mairie",
-        "complementAdresse": null,
-        "codePostal": "40460",
-        "ville": "Sanguinet"
+        "intitule": null,
+        "numeroRue": "8",
+        "nomRue": "Rue de la porte d'Aire",
+        "complementAdresse": "1er étage",
+        "codePostal": "40000",
+        "ville": "Mont-de-Marsan"
       },
       {
         "@xsi:type": "AdresseMail_Type",
@@ -76,21 +76,21 @@
       },
       {
         "@xsi:type": "AdresseSiteWeb_Type",
-        "uid": "AD803334",
-        "type": "30",
-        "typeLibelle": "Linkedin",
-        "poids": null,
-        "adresseDeRattachement": null,
-        "valElec": "in/fabien-lainé-a1874a162"
-      },
-      {
-        "@xsi:type": "AdresseSiteWeb_Type",
         "uid": "AD803336",
         "type": "24",
         "typeLibelle": "Twitter",
         "poids": null,
         "adresseDeRattachement": null,
         "valElec": "@fabien_laine"
+      },
+      {
+        "@xsi:type": "AdresseSiteWeb_Type",
+        "uid": "AD849714",
+        "type": "30",
+        "typeLibelle": "Linkedin",
+        "poids": null,
+        "adresseDeRattachement": null,
+        "valElec": "/in/Fabien Lainé Député des Landes"
       }
     ]
   },
@@ -175,10 +175,24 @@
           "placeHemicycle": "361",
           "mandatRemplaceRef": null
         },
-        "collaborateurs": [
-          null,
-          null
-        ]
+        "collaborateurs": {
+          "collaborateur": [
+            {
+              "qualite": "Mme",
+              "prenom": "Marie-Pierre",
+              "nom": "Gazo",
+              "dateDebut": null,
+              "dateFin": null
+            },
+            {
+              "qualite": "M.",
+              "prenom": "Sacha",
+              "nom": "Lamsika",
+              "dateDebut": null,
+              "dateFin": null
+            }
+          ]
+        }
       },
       {
         "@xsi:type": "MandatSimple_Type",
