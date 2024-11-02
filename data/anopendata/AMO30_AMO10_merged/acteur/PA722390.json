@@ -43,15 +43,6 @@
         "ville": "Paris 07 SP"
       },
       {
-        "@xsi:type": "AdresseSiteWeb_Type",
-        "uid": "AD728718",
-        "type": "22",
-        "typeLibelle": "Site internet",
-        "poids": null,
-        "adresseDeRattachement": null,
-        "valElec": "josianecorneloup.fr"
-      },
-      {
         "@xsi:type": "AdresseMail_Type",
         "uid": "AD799375",
         "type": "15",
@@ -59,6 +50,38 @@
         "poids": null,
         "adresseDeRattachement": null,
         "valElec": "Josiane.Corneloup@assemblee-nationale.fr"
+      },
+      {
+        "@xsi:type": "AdressePostale_Type",
+        "uid": "AD849904",
+        "type": "2",
+        "typeLibelle": "Adresse publiée de circonscription",
+        "poids": "2",
+        "adresseDeRattachement": null,
+        "intitule": null,
+        "numeroRue": "1",
+        "nomRue": "Place du Champ de foire",
+        "complementAdresse": null,
+        "codePostal": "71220",
+        "ville": "Saint-Bonnet de Joux"
+      },
+      {
+        "@xsi:type": "AdresseTelephonique_Type",
+        "uid": "AD849906",
+        "type": "11",
+        "typeLibelle": "Téléphone",
+        "poids": "2",
+        "adresseDeRattachement": "AD849904",
+        "valElec": "09.62.52.27.17"
+      },
+      {
+        "@xsi:type": "AdresseMail_Type",
+        "uid": "AD849908",
+        "type": "15",
+        "typeLibelle": "Mèl",
+        "poids": null,
+        "adresseDeRattachement": null,
+        "valElec": "jcorneloup2circo71@outlook.fr"
       }
     ]
   },
