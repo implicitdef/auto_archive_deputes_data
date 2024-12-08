@@ -56,46 +56,6 @@
   "mandats": {
     "mandat": [
       {
-        "@xsi:type": "MandatParlementaire_type",
-        "uid": "PM846741",
-        "acteurRef": "PA795156",
-        "legislature": "17",
-        "typeOrgane": "CONFPT",
-        "dateDebut": "2024-07-20",
-        "datePublication": "2024-07-20",
-        "dateFin": null,
-        "preseance": "3",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": null,
-          "libQualite": "Présidents des commissions permanentes",
-          "libQualiteSex": null
-        },
-        "organes": {
-          "organeRef": "PO846702"
-        },
-        "suppleants": null,
-        "chambre": null,
-        "election": {
-          "lieu": {
-            "region": null,
-            "regionType": null,
-            "departement": null,
-            "numDepartement": null,
-            "numCirco": null
-          },
-          "causeMandat": null
-        },
-        "mandature": {
-          "datePriseFonction": null,
-          "causeFin": null,
-          "premiereElection": "0",
-          "placeHemicycle": null,
-          "mandatRemplaceRef": null
-        },
-        "collaborateurs": null
-      },
-      {
         "@xsi:type": "MandatSimple_Type",
         "uid": "PM847462",
         "acteurRef": "PA795156",
@@ -134,6 +94,46 @@
         "organes": {
           "organeRef": "PO848581"
         }
+      },
+      {
+        "@xsi:type": "MandatParlementaire_type",
+        "uid": "PM846741",
+        "acteurRef": "PA795156",
+        "legislature": "17",
+        "typeOrgane": "CONFPT",
+        "dateDebut": "2024-07-20",
+        "datePublication": "2024-07-20",
+        "dateFin": null,
+        "preseance": "3",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Présidents des commissions permanentes",
+          "libQualite": "Présidents des commissions permanentes",
+          "libQualiteSex": "Présidentes des commissions permanentes"
+        },
+        "organes": {
+          "organeRef": "PO846702"
+        },
+        "suppleants": null,
+        "chambre": null,
+        "election": {
+          "lieu": {
+            "region": null,
+            "regionType": null,
+            "departement": null,
+            "numDepartement": null,
+            "numCirco": null
+          },
+          "causeMandat": null
+        },
+        "mandature": {
+          "datePriseFonction": null,
+          "causeFin": null,
+          "premiereElection": "0",
+          "placeHemicycle": null,
+          "mandatRemplaceRef": null
+        },
+        "collaborateurs": null
       },
       {
         "@xsi:type": "MandatSimple_Type",
