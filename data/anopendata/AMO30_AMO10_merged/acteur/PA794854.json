@@ -106,6 +106,26 @@
   "mandats": {
     "mandat": [
       {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM852726",
+        "acteurRef": "PA794854",
+        "legislature": null,
+        "typeOrgane": "PARPOL",
+        "dateDebut": "2024-12-04",
+        "datePublication": "2024-12-04",
+        "dateFin": null,
+        "preseance": "5",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO684932"
+        }
+      },
+      {
         "@xsi:type": "MandatMission_Type",
         "uid": "PM847963",
         "acteurRef": "PA794854",
@@ -127,6 +147,26 @@
         "libelle": null,
         "missionSuivanteRef": null,
         "missionPrecedenteRef": null
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM853221",
+        "acteurRef": "PA794854",
+        "legislature": "17",
+        "typeOrgane": "ORGEXTPARL",
+        "dateDebut": "2024-12-06",
+        "datePublication": "2024-12-07",
+        "dateFin": null,
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Titulaire",
+          "libQualite": "Membre titulaire",
+          "libQualiteSex": "Membre titulaire"
+        },
+        "organes": {
+          "organeRef": "PO717436"
+        }
       },
       {
         "@xsi:type": "MandatSimple_Type",
@@ -341,7 +381,7 @@
             {
               "qualite": "Mme",
               "prenom": "Fantine",
-              "nom": "GARNIER-COLLOT",
+              "nom": "Garnier-Collot",
               "dateDebut": null,
               "dateFin": null
             },
