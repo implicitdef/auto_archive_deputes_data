@@ -8,7 +8,8 @@
       "civ": "M.",
       "prenom": "Lionel",
       "nom": "Vuibert",
-      "alpha": "Vuibert"
+      "alpha": "Vuibert",
+      "trigramme": "LVU"
     },
     "infoNaissance": {
       "dateNais": "1968-08-31",
@@ -17,7 +18,7 @@
     }
   },
   "profession": {
-    "libelleCourant": "Cadre d'entreprise de 10 salariés ou plus",
+    "libelleCourant": "Directeur général",
     "socProcINSEE": {
       "catSocPro": "Cadres d'entreprise",
       "famSocPro": "Cadres et professions intellectuelles supérieures"
@@ -52,6 +53,96 @@
   },
   "mandats": {
     "mandat": [
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM853863",
+        "acteurRef": "PA793194",
+        "legislature": "17",
+        "typeOrgane": "COMPER",
+        "dateDebut": "2024-12-11",
+        "datePublication": "2024-12-11",
+        "dateFin": null,
+        "preseance": "32",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO59047"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM853807",
+        "acteurRef": "PA793194",
+        "legislature": "17",
+        "typeOrgane": "GP",
+        "dateDebut": "2024-12-09",
+        "datePublication": null,
+        "dateFin": null,
+        "preseance": "28",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Député non-inscrit",
+          "libQualite": "Député non-inscrit",
+          "libQualiteSex": "Député non-inscrit"
+        },
+        "organes": {
+          "organeRef": "PO840056"
+        }
+      },
+      {
+        "@xsi:type": "MandatParlementaire_type",
+        "uid": "PM853806",
+        "acteurRef": "PA793194",
+        "legislature": "17",
+        "typeOrgane": "ASSEMBLEE",
+        "dateDebut": "2024-12-08",
+        "datePublication": null,
+        "dateFin": null,
+        "preseance": "50",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "membre",
+          "libQualite": "membre",
+          "libQualiteSex": "membre"
+        },
+        "organes": {
+          "organeRef": "PO838901"
+        },
+        "suppleants": {
+          "suppleant": {
+            "dateDebut": "2024-12-08",
+            "dateFin": null,
+            "suppleantRef": "PA853805"
+          }
+        },
+        "chambre": null,
+        "election": {
+          "lieu": {
+            "region": "Grand Est",
+            "regionType": "Métropolitain",
+            "departement": "Ardennes",
+            "numDepartement": "08",
+            "numCirco": "1"
+          },
+          "causeMandat": "élection partielle, remplacement d'un député démissionnaire",
+          "refCirconscription": "PO839079"
+        },
+        "mandature": {
+          "datePriseFonction": "2024-12-09",
+          "causeFin": null,
+          "premiereElection": "1",
+          "placeHemicycle": "485",
+          "mandatRemplaceRef": null
+        },
+        "collaborateurs": [
+          null,
+          null
+        ]
+      },
       {
         "@xsi:type": "MandatSimple_Type",
         "uid": "PM837316",
