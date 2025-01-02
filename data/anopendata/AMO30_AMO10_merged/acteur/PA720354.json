@@ -97,6 +97,27 @@
   "mandats": {
     "mandat": [
       {
+        "@xsi:type": "MandatAvecSuppleant_Type",
+        "uid": "PM855267",
+        "acteurRef": "PA720354",
+        "legislature": "17",
+        "typeOrgane": "OFFPAR",
+        "dateDebut": "2025-01-01",
+        "datePublication": "2025-01-01",
+        "dateFin": null,
+        "preseance": "4",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Président",
+          "libQualite": "Président",
+          "libQualiteSex": "Président"
+        },
+        "organes": {
+          "organeRef": "PO402232"
+        },
+        "suppleants": null
+      },
+      {
         "@xsi:type": "MandatSimple_Type",
         "uid": "PM852815",
         "acteurRef": "PA720354",
@@ -135,27 +156,6 @@
         "organes": {
           "organeRef": "PO853114"
         }
-      },
-      {
-        "@xsi:type": "MandatAvecSuppleant_Type",
-        "uid": "PM850522",
-        "acteurRef": "PA720354",
-        "legislature": "17",
-        "typeOrgane": "OFFPAR",
-        "dateDebut": "2024-11-13",
-        "datePublication": "2024-11-14",
-        "dateFin": null,
-        "preseance": "6",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Premier vice-président",
-          "libQualite": "Premier vice-président",
-          "libQualiteSex": "Premier vice-président"
-        },
-        "organes": {
-          "organeRef": "PO402232"
-        },
-        "suppleants": null
       },
       {
         "@xsi:type": "MandatParlementaire_type",
