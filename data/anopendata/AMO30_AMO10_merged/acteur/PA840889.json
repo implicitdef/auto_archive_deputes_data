@@ -50,6 +50,29 @@
         "poids": null,
         "adresseDeRattachement": null,
         "valElec": "matthieu.bloch@assemblee-nationale.fr"
+      },
+      {
+        "@xsi:type": "AdressePostale_Type",
+        "uid": "AD855698",
+        "type": "2",
+        "typeLibelle": "Adresse publiée de circonscription",
+        "poids": "2",
+        "adresseDeRattachement": null,
+        "intitule": null,
+        "numeroRue": "21",
+        "nomRue": "Rue des Huisselets",
+        "complementAdresse": null,
+        "codePostal": "25200",
+        "ville": "Montbéliard"
+      },
+      {
+        "@xsi:type": "AdresseTelephonique_Type",
+        "uid": "AD855699",
+        "type": "11",
+        "typeLibelle": "Téléphone",
+        "poids": "2",
+        "adresseDeRattachement": "AD855698",
+        "valElec": "06 08 36 69 20"
       }
     ]
   },
@@ -93,6 +116,26 @@
         },
         "organes": {
           "organeRef": "PO852532"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM855690",
+        "acteurRef": "PA840889",
+        "legislature": "17",
+        "typeOrgane": "CNPE",
+        "dateDebut": "2025-01-11",
+        "datePublication": "2025-01-11",
+        "dateFin": null,
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO854138"
         }
       },
       {
