@@ -8,11 +8,12 @@
       "civ": "Mme",
       "prenom": "Maud",
       "nom": "Bregeon",
-      "alpha": "Bregeon"
+      "alpha": "Bregeon",
+      "trigramme": "MBR"
     },
     "infoNaissance": {
       "dateNais": "1991-02-11",
-      "villeNais": "Poitiers",
+      "villeNais": "POITIERS",
       "depNais": "Vienne",
       "paysNais": "France"
     }
@@ -53,6 +54,76 @@
   },
   "mandats": {
     "mandat": [
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM856076",
+        "acteurRef": "PA795990",
+        "legislature": "17",
+        "typeOrgane": "COMPER",
+        "dateDebut": "2025-01-14",
+        "datePublication": "2025-01-14",
+        "dateFin": null,
+        "preseance": "32",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO59051"
+        }
+      },
+      {
+        "@xsi:type": "MandatParlementaire_type",
+        "uid": "PM856036",
+        "acteurRef": "PA795990",
+        "legislature": "17",
+        "typeOrgane": "ASSEMBLEE",
+        "dateDebut": "2024-07-07",
+        "datePublication": null,
+        "dateFin": null,
+        "preseance": "50",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "membre",
+          "libQualite": "membre",
+          "libQualiteSex": "membre"
+        },
+        "organes": {
+          "organeRef": "PO838901"
+        },
+        "suppleants": {
+          "suppleant": {
+            "dateDebut": "2024-07-07",
+            "dateFin": null,
+            "suppleantRef": "PA842147"
+          }
+        },
+        "chambre": null,
+        "election": {
+          "lieu": {
+            "region": "Ile-de-France",
+            "regionType": "Métropolitain",
+            "departement": "Hauts-de-Seine",
+            "numDepartement": "92",
+            "numCirco": "13"
+          },
+          "causeMandat": "reprise de l'exercice du mandat d'un ancien membre du Gouvernement",
+          "refCirconscription": "PO840015"
+        },
+        "mandature": {
+          "datePriseFonction": "2025-01-14",
+          "causeFin": null,
+          "premiereElection": "1",
+          "placeHemicycle": "255",
+          "mandatRemplaceRef": "PM843665"
+        },
+        "collaborateurs": [
+          null,
+          null
+        ]
+      },
       {
         "@xsi:type": "MandatAvecSuppleant_Type",
         "uid": "PM802246",
