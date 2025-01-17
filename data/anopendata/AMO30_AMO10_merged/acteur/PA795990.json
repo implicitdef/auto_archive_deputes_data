@@ -13,7 +13,7 @@
     },
     "infoNaissance": {
       "dateNais": "1991-02-11",
-      "villeNais": "POITIERS",
+      "villeNais": "Poitiers",
       "depNais": "Vienne",
       "paysNais": "France"
     }
@@ -25,6 +25,7 @@
       "famSocPro": "Cadres et professions intellectuelles supérieures"
     }
   },
+  "uri_hatvp": "/tribun/resources/html/defautDeclarationActeur.html",
   "adresses": {
     "adresse": [
       {
@@ -54,6 +55,26 @@
   },
   "mandats": {
     "mandat": [
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM856176",
+        "acteurRef": "PA795990",
+        "legislature": "17",
+        "typeOrgane": "GP",
+        "dateDebut": "2025-01-15",
+        "datePublication": null,
+        "dateFin": null,
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre du",
+          "libQualiteSex": "Membre du"
+        },
+        "organes": {
+          "organeRef": "PO845407"
+        }
+      },
       {
         "@xsi:type": "MandatSimple_Type",
         "uid": "PM856076",
@@ -119,10 +140,15 @@
           "placeHemicycle": "255",
           "mandatRemplaceRef": "PM843665"
         },
-        "collaborateurs": [
-          null,
-          null
-        ]
+        "collaborateurs": {
+          "collaborateur": {
+            "qualite": "Mme",
+            "prenom": "Sarah",
+            "nom": "Kalonji",
+            "dateDebut": null,
+            "dateFin": null
+          }
+        }
       },
       {
         "@xsi:type": "MandatAvecSuppleant_Type",
