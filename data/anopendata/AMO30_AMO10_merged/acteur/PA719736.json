@@ -8,7 +8,8 @@
       "civ": "Mme",
       "prenom": "Camille",
       "nom": "Galliard-Minier",
-      "alpha": "Galliard-Minier"
+      "alpha": "Galliard Minier",
+      "trigramme": "CGA"
     },
     "infoNaissance": {
       "dateNais": "1975-05-26",
@@ -20,6 +21,7 @@
   "profession": {
     "socProcINSEE": {}
   },
+  "uri_hatvp": "/tribun/resources/html/defautDeclarationActeur.html",
   "adresses": {
     "adresse": [
       {
@@ -99,6 +101,96 @@
   },
   "mandats": {
     "mandat": [
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM857036",
+        "acteurRef": "PA719736",
+        "legislature": "17",
+        "typeOrgane": "GP",
+        "dateDebut": "2025-01-21",
+        "datePublication": null,
+        "dateFin": null,
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre du",
+          "libQualiteSex": "Membre du"
+        },
+        "organes": {
+          "organeRef": "PO845407"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM857044",
+        "acteurRef": "PA719736",
+        "legislature": "17",
+        "typeOrgane": "COMPER",
+        "dateDebut": "2025-01-21",
+        "datePublication": "2025-01-21",
+        "dateFin": null,
+        "preseance": "32",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO420120"
+        }
+      },
+      {
+        "@xsi:type": "MandatParlementaire_type",
+        "uid": "PM857026",
+        "acteurRef": "PA719736",
+        "legislature": "17",
+        "typeOrgane": "ASSEMBLEE",
+        "dateDebut": "2025-01-19",
+        "datePublication": null,
+        "dateFin": null,
+        "preseance": "50",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "membre",
+          "libQualite": "membre",
+          "libQualiteSex": "membre"
+        },
+        "organes": {
+          "organeRef": "PO838901"
+        },
+        "suppleants": {
+          "suppleant": {
+            "dateDebut": "2025-01-19",
+            "dateFin": null,
+            "suppleantRef": "PA857021"
+          }
+        },
+        "chambre": null,
+        "election": {
+          "lieu": {
+            "region": "Auvergne-Rhône-Alpes",
+            "regionType": "Métropolitain",
+            "departement": "Isère",
+            "numDepartement": "38",
+            "numCirco": "1"
+          },
+          "causeMandat": "élection partielle, remplacement d'un député démissionnaire",
+          "refCirconscription": "PO839537"
+        },
+        "mandature": {
+          "datePriseFonction": "2025-01-20",
+          "causeFin": null,
+          "premiereElection": "1",
+          "placeHemicycle": null,
+          "mandatRemplaceRef": null
+        },
+        "collaborateurs": [
+          null,
+          null
+        ]
+      },
       {
         "@xsi:type": "MandatSimple_Type",
         "uid": "PM780320",
