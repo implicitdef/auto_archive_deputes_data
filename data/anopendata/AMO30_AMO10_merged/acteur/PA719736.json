@@ -13,15 +13,18 @@
     },
     "infoNaissance": {
       "dateNais": "1975-05-26",
-      "villeNais": "La Tronche",
+      "villeNais": "LA TRONCHE",
       "depNais": "Isère",
       "paysNais": "France"
     }
   },
   "profession": {
-    "socProcINSEE": {}
+    "libelleCourant": "Délégué général du fonds de dotation Sesame",
+    "socProcINSEE": {
+      "catSocPro": "Cadres d'entreprise",
+      "famSocPro": "Cadres et professions intellectuelles supérieures"
+    }
   },
-  "uri_hatvp": "/tribun/resources/html/defautDeclarationActeur.html",
   "adresses": {
     "adresse": [
       {
@@ -37,29 +40,6 @@
         "complementAdresse": null,
         "codePostal": "75355",
         "ville": "Paris 07 SP"
-      },
-      {
-        "@xsi:type": "AdressePostale_Type",
-        "uid": "AD771069",
-        "type": "2",
-        "typeLibelle": "Adresse publiée de circonscription",
-        "poids": "22",
-        "adresseDeRattachement": null,
-        "intitule": null,
-        "numeroRue": "2",
-        "nomRue": "Rue de Belgrade",
-        "complementAdresse": null,
-        "codePostal": "38000",
-        "ville": "Grenoble"
-      },
-      {
-        "@xsi:type": "AdresseTelephonique_Type",
-        "uid": "AD771071",
-        "type": "11",
-        "typeLibelle": "Téléphone",
-        "poids": "22",
-        "adresseDeRattachement": "AD771069",
-        "valElec": "04 76 88 88 35"
       },
       {
         "@xsi:type": "AdresseSiteWeb_Type",
@@ -183,7 +163,7 @@
           "datePriseFonction": "2025-01-20",
           "causeFin": null,
           "premiereElection": "1",
-          "placeHemicycle": null,
+          "placeHemicycle": "301",
           "mandatRemplaceRef": null
         },
         "collaborateurs": [
