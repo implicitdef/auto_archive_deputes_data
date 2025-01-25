@@ -8,11 +8,12 @@
       "civ": "M.",
       "prenom": "Jean-Louis",
       "nom": "Thiériot",
-      "alpha": "Thieriot"
+      "alpha": "Thieriot",
+      "trigramme": "JLH"
     },
     "infoNaissance": {
       "dateNais": "1969-06-26",
-      "villeNais": "Paris 14ème",
+      "villeNais": "Paris",
       "depNais": "Paris",
       "paysNais": "France"
     }
@@ -94,6 +95,76 @@
   },
   "mandats": {
     "mandat": [
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM858608",
+        "acteurRef": "PA643089",
+        "legislature": "17",
+        "typeOrgane": "GP",
+        "dateDebut": "2025-01-24",
+        "datePublication": null,
+        "dateFin": null,
+        "preseance": "28",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Député non-inscrit",
+          "libQualite": "Député non-inscrit",
+          "libQualiteSex": "Député non-inscrit"
+        },
+        "organes": {
+          "organeRef": "PO840056"
+        }
+      },
+      {
+        "@xsi:type": "MandatParlementaire_type",
+        "uid": "PM858443",
+        "acteurRef": "PA643089",
+        "legislature": "17",
+        "typeOrgane": "ASSEMBLEE",
+        "dateDebut": "2024-07-07",
+        "datePublication": null,
+        "dateFin": null,
+        "preseance": "50",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "membre",
+          "libQualite": "membre",
+          "libQualiteSex": "membre"
+        },
+        "organes": {
+          "organeRef": "PO838901"
+        },
+        "suppleants": {
+          "suppleant": {
+            "dateDebut": "2024-07-07",
+            "dateFin": null,
+            "suppleantRef": "PA841869"
+          }
+        },
+        "chambre": null,
+        "election": {
+          "lieu": {
+            "region": "Ile-de-France",
+            "regionType": "Métropolitain",
+            "departement": "Seine-et-Marne",
+            "numDepartement": "77",
+            "numCirco": "3"
+          },
+          "causeMandat": "reprise de l'exercice du mandat d'un ancien membre du Gouvernement",
+          "refCirconscription": "PO839851"
+        },
+        "mandature": {
+          "datePriseFonction": "2025-01-24",
+          "causeFin": null,
+          "premiereElection": "1",
+          "placeHemicycle": null,
+          "mandatRemplaceRef": "PM843431"
+        },
+        "collaborateurs": [
+          null,
+          null
+        ]
+      },
       {
         "@xsi:type": "MandatAvecSuppleant_Type",
         "uid": "PM787211",

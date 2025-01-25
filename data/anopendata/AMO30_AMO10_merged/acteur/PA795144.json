@@ -8,7 +8,8 @@
       "civ": "M.",
       "prenom": "Antoine",
       "nom": "Armand",
-      "alpha": "Armand"
+      "alpha": "Armand",
+      "trigramme": "AAR"
     },
     "infoNaissance": {
       "dateNais": "1991-09-10",
@@ -24,6 +25,7 @@
       "famSocPro": "Cadres et professions intellectuelles supérieures"
     }
   },
+  "uri_hatvp": "/tribun/resources/html/defautDeclarationActeur.html",
   "adresses": {
     "adresse": [
       {
@@ -62,6 +64,76 @@
   },
   "mandats": {
     "mandat": [
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM858584",
+        "acteurRef": "PA795144",
+        "legislature": "17",
+        "typeOrgane": "GP",
+        "dateDebut": "2025-01-24",
+        "datePublication": null,
+        "dateFin": null,
+        "preseance": "28",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Député non-inscrit",
+          "libQualite": "Député non-inscrit",
+          "libQualiteSex": "Député non-inscrit"
+        },
+        "organes": {
+          "organeRef": "PO840056"
+        }
+      },
+      {
+        "@xsi:type": "MandatParlementaire_type",
+        "uid": "PM858290",
+        "acteurRef": "PA795144",
+        "legislature": "17",
+        "typeOrgane": "ASSEMBLEE",
+        "dateDebut": "2024-07-07",
+        "datePublication": null,
+        "dateFin": null,
+        "preseance": "50",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "membre",
+          "libQualite": "membre",
+          "libQualiteSex": "membre"
+        },
+        "organes": {
+          "organeRef": "PO838901"
+        },
+        "suppleants": {
+          "suppleant": {
+            "dateDebut": "2024-07-07",
+            "dateFin": null,
+            "suppleantRef": "PA841801"
+          }
+        },
+        "chambre": null,
+        "election": {
+          "lieu": {
+            "region": "Auvergne-Rhône-Alpes",
+            "regionType": "Métropolitain",
+            "departement": "Haute-Savoie",
+            "numDepartement": "74",
+            "numCirco": "2"
+          },
+          "causeMandat": "reprise de l'exercice du mandat d'un ancien membre du Gouvernement",
+          "refCirconscription": "PO839777"
+        },
+        "mandature": {
+          "datePriseFonction": "2025-01-24",
+          "causeFin": null,
+          "premiereElection": "1",
+          "placeHemicycle": null,
+          "mandatRemplaceRef": "PM843359"
+        },
+        "collaborateurs": [
+          null,
+          null
+        ]
+      },
       {
         "@xsi:type": "MandatMission_Type",
         "uid": "PM823013",

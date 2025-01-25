@@ -8,7 +8,8 @@
       "civ": "Mme",
       "prenom": "Marie-Agnès",
       "nom": "Poussier-Winsback",
-      "alpha": "Poussier-Winsback"
+      "alpha": "Poussier-Winsback",
+      "trigramme": "MPO"
     },
     "infoNaissance": {
       "dateNais": "1967-03-25",
@@ -112,6 +113,76 @@
   },
   "mandats": {
     "mandat": [
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM858605",
+        "acteurRef": "PA795270",
+        "legislature": "17",
+        "typeOrgane": "GP",
+        "dateDebut": "2025-01-24",
+        "datePublication": null,
+        "dateFin": null,
+        "preseance": "28",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Député non-inscrit",
+          "libQualite": "Député non-inscrit",
+          "libQualiteSex": "Députée non-inscrite"
+        },
+        "organes": {
+          "organeRef": "PO840056"
+        }
+      },
+      {
+        "@xsi:type": "MandatParlementaire_type",
+        "uid": "PM858399",
+        "acteurRef": "PA795270",
+        "legislature": "17",
+        "typeOrgane": "ASSEMBLEE",
+        "dateDebut": "2024-07-07",
+        "datePublication": null,
+        "dateFin": null,
+        "preseance": "50",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "membre",
+          "libQualite": "membre",
+          "libQualiteSex": "membre"
+        },
+        "organes": {
+          "organeRef": "PO838901"
+        },
+        "suppleants": {
+          "suppleant": {
+            "dateDebut": "2024-07-07",
+            "dateFin": null,
+            "suppleantRef": "PA841833"
+          }
+        },
+        "chambre": null,
+        "election": {
+          "lieu": {
+            "region": "Normandie",
+            "regionType": "Métropolitain",
+            "departement": "Seine-Maritime",
+            "numDepartement": "76",
+            "numCirco": "9"
+          },
+          "causeMandat": "reprise de l'exercice du mandat d'un ancien membre du Gouvernement",
+          "refCirconscription": "PO839845"
+        },
+        "mandature": {
+          "datePriseFonction": "2025-01-24",
+          "causeFin": null,
+          "premiereElection": "1",
+          "placeHemicycle": null,
+          "mandatRemplaceRef": "PM843401"
+        },
+        "collaborateurs": [
+          null,
+          null
+        ]
+      },
       {
         "@xsi:type": "MandatSimple_Type",
         "uid": "PM802147",

@@ -8,7 +8,8 @@
       "civ": "Mme",
       "prenom": "Geneviève",
       "nom": "Darrieussecq",
-      "alpha": "Darrieussecq"
+      "alpha": "Darrieussecq",
+      "trigramme": "GDI"
     },
     "infoNaissance": {
       "dateNais": "1956-03-04",
@@ -60,15 +61,6 @@
       },
       {
         "@xsi:type": "AdresseSiteWeb_Type",
-        "uid": "AD728828",
-        "type": "22",
-        "typeLibelle": "Site internet",
-        "poids": null,
-        "adresseDeRattachement": null,
-        "valElec": "www.darrieussecq.net"
-      },
-      {
-        "@xsi:type": "AdresseSiteWeb_Type",
         "uid": "AD729130",
         "type": "25",
         "typeLibelle": "Facebook",
@@ -103,6 +95,76 @@
   },
   "mandats": {
     "mandat": [
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM858586",
+        "acteurRef": "PA719914",
+        "legislature": "17",
+        "typeOrgane": "GP",
+        "dateDebut": "2025-01-24",
+        "datePublication": null,
+        "dateFin": null,
+        "preseance": "28",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Député non-inscrit",
+          "libQualite": "Député non-inscrit",
+          "libQualiteSex": "Députée non-inscrite"
+        },
+        "organes": {
+          "organeRef": "PO840056"
+        }
+      },
+      {
+        "@xsi:type": "MandatParlementaire_type",
+        "uid": "PM858294",
+        "acteurRef": "PA719914",
+        "legislature": "17",
+        "typeOrgane": "ASSEMBLEE",
+        "dateDebut": "2024-07-07",
+        "datePublication": null,
+        "dateFin": null,
+        "preseance": "50",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "membre",
+          "libQualite": "membre",
+          "libQualiteSex": "membre"
+        },
+        "organes": {
+          "organeRef": "PO838901"
+        },
+        "suppleants": {
+          "suppleant": {
+            "dateDebut": "2024-07-07",
+            "dateFin": null,
+            "suppleantRef": "PA719918"
+          }
+        },
+        "chambre": null,
+        "election": {
+          "lieu": {
+            "region": "Nouvelle-Aquitaine",
+            "regionType": "Métropolitain",
+            "departement": "Landes",
+            "numDepartement": "40",
+            "numCirco": "1"
+          },
+          "causeMandat": "reprise de l'exercice du mandat d'un ancien membre du Gouvernement",
+          "refCirconscription": "PO839331"
+        },
+        "mandature": {
+          "datePriseFonction": "2025-01-24",
+          "causeFin": null,
+          "premiereElection": "1",
+          "placeHemicycle": null,
+          "mandatRemplaceRef": "PM842864"
+        },
+        "collaborateurs": [
+          null,
+          null
+        ]
+      },
       {
         "@xsi:type": "MandatSimple_Type",
         "uid": "PM15773439",

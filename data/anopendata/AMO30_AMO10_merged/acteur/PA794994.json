@@ -8,7 +8,8 @@
       "civ": "M.",
       "prenom": "Alexandre",
       "nom": "Portier",
-      "alpha": "Portier"
+      "alpha": "Portier",
+      "trigramme": "APO"
     },
     "infoNaissance": {
       "dateNais": "1990-04-21",
@@ -18,7 +19,7 @@
     }
   },
   "profession": {
-    "libelleCourant": "Professeur, profession scientifique",
+    "libelleCourant": "Professeur de philosophie",
     "socProcINSEE": {
       "catSocPro": "Cadres de la fonction publique, professions intellectuelles et  artistiques",
       "famSocPro": "Cadres et professions intellectuelles supérieures"
@@ -50,32 +51,156 @@
         "valElec": "alexandre.portier@assemblee-nationale.fr"
       },
       {
+        "@xsi:type": "AdresseSiteWeb_Type",
+        "uid": "AD844270",
+        "type": "25",
+        "typeLibelle": "Facebook",
+        "poids": null,
+        "adresseDeRattachement": null,
+        "valElec": "alexandre.portier.73"
+      },
+      {
+        "@xsi:type": "AdresseSiteWeb_Type",
+        "uid": "AD844280",
+        "type": "29",
+        "typeLibelle": "Instagram",
+        "poids": null,
+        "adresseDeRattachement": null,
+        "valElec": "alexportier69"
+      },
+      {
+        "@xsi:type": "AdresseSiteWeb_Type",
+        "uid": "AD844300",
+        "type": "22",
+        "typeLibelle": "Site internet",
+        "poids": null,
+        "adresseDeRattachement": null,
+        "valElec": "alexandreportier.fr"
+      },
+      {
         "@xsi:type": "AdressePostale_Type",
-        "uid": "AD805059",
+        "uid": "AD844344",
         "type": "2",
         "typeLibelle": "Adresse publiée de circonscription",
-        "poids": "2",
+        "poids": "22",
         "adresseDeRattachement": null,
         "intitule": null,
         "numeroRue": "413",
-        "nomRue": "Rue Philippe Héron",
+        "nomRue": "Philippe Héron",
         "complementAdresse": null,
         "codePostal": "69400",
         "ville": "Villefranche-sur-Saône"
       },
       {
         "@xsi:type": "AdresseTelephonique_Type",
-        "uid": "AD807023",
+        "uid": "AD844346",
         "type": "11",
         "typeLibelle": "Téléphone",
-        "poids": "2",
-        "adresseDeRattachement": "AD805059",
+        "poids": "22",
+        "adresseDeRattachement": "AD844344",
         "valElec": "04 74 65 74 53"
+      },
+      {
+        "@xsi:type": "AdresseMail_Type",
+        "uid": "AD844378",
+        "type": "15",
+        "typeLibelle": "Mèl",
+        "poids": null,
+        "adresseDeRattachement": null,
+        "valElec": "contact@alexandreportier.fr"
+      },
+      {
+        "@xsi:type": "AdresseSiteWeb_Type",
+        "uid": "AD845146",
+        "type": "24",
+        "typeLibelle": "Twitter",
+        "poids": null,
+        "adresseDeRattachement": null,
+        "valElec": "@APortier69"
+      },
+      {
+        "@xsi:type": "AdresseSiteWeb_Type",
+        "uid": "AD845148",
+        "type": "30",
+        "typeLibelle": "Linkedin",
+        "poids": null,
+        "adresseDeRattachement": null,
+        "valElec": "/in/alexandre-portier-0663967a"
       }
     ]
   },
   "mandats": {
     "mandat": [
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM858597",
+        "acteurRef": "PA794994",
+        "legislature": "17",
+        "typeOrgane": "GP",
+        "dateDebut": "2025-01-24",
+        "datePublication": null,
+        "dateFin": null,
+        "preseance": "28",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Député non-inscrit",
+          "libQualite": "Député non-inscrit",
+          "libQualiteSex": "Député non-inscrit"
+        },
+        "organes": {
+          "organeRef": "PO840056"
+        }
+      },
+      {
+        "@xsi:type": "MandatParlementaire_type",
+        "uid": "PM858360",
+        "acteurRef": "PA794994",
+        "legislature": "17",
+        "typeOrgane": "ASSEMBLEE",
+        "dateDebut": "2024-07-07",
+        "datePublication": null,
+        "dateFin": null,
+        "preseance": "50",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "membre",
+          "libQualite": "membre",
+          "libQualiteSex": "membre"
+        },
+        "organes": {
+          "organeRef": "PO838901"
+        },
+        "suppleants": {
+          "suppleant": {
+            "dateDebut": "2024-07-07",
+            "dateFin": null,
+            "suppleantRef": "PA841745"
+          }
+        },
+        "chambre": null,
+        "election": {
+          "lieu": {
+            "region": "Auvergne-Rhône-Alpes",
+            "regionType": "Métropolitain",
+            "departement": "Rhône",
+            "numDepartement": "69",
+            "numCirco": "9"
+          },
+          "causeMandat": "reprise de l'exercice du mandat d'un ancien membre du Gouvernement",
+          "refCirconscription": "PO839761"
+        },
+        "mandature": {
+          "datePriseFonction": "2025-01-24",
+          "causeFin": null,
+          "premiereElection": "1",
+          "placeHemicycle": null,
+          "mandatRemplaceRef": "PM843293"
+        },
+        "collaborateurs": [
+          null,
+          null
+        ]
+      },
       {
         "@xsi:type": "MandatSimple_Type",
         "uid": "PM804463",

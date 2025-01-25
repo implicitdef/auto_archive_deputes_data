@@ -8,7 +8,8 @@
       "civ": "M.",
       "prenom": "Guillaume",
       "nom": "Kasbarian",
-      "alpha": "Kasbarian"
+      "alpha": "Kasbarian",
+      "trigramme": "GKA"
     },
     "infoNaissance": {
       "dateNais": "1987-02-28",
@@ -112,6 +113,76 @@
   },
   "mandats": {
     "mandat": [
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM858595",
+        "acteurRef": "PA719372",
+        "legislature": "17",
+        "typeOrgane": "GP",
+        "dateDebut": "2025-01-24",
+        "datePublication": null,
+        "dateFin": null,
+        "preseance": "28",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Député non-inscrit",
+          "libQualite": "Député non-inscrit",
+          "libQualiteSex": "Député non-inscrit"
+        },
+        "organes": {
+          "organeRef": "PO840056"
+        }
+      },
+      {
+        "@xsi:type": "MandatParlementaire_type",
+        "uid": "PM858347",
+        "acteurRef": "PA719372",
+        "legislature": "17",
+        "typeOrgane": "ASSEMBLEE",
+        "dateDebut": "2024-07-07",
+        "datePublication": null,
+        "dateFin": null,
+        "preseance": "50",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "membre",
+          "libQualite": "membre",
+          "libQualiteSex": "membre"
+        },
+        "organes": {
+          "organeRef": "PO838901"
+        },
+        "suppleants": {
+          "suppleant": {
+            "dateDebut": "2024-07-07",
+            "dateFin": null,
+            "suppleantRef": "PA841013"
+          }
+        },
+        "chambre": null,
+        "election": {
+          "lieu": {
+            "region": "Centre-Val de Loire",
+            "regionType": "Métropolitain",
+            "departement": "Eure-et-Loir",
+            "numDepartement": "28",
+            "numCirco": "1"
+          },
+          "causeMandat": "reprise de l'exercice du mandat d'un ancien membre du Gouvernement",
+          "refCirconscription": "PO839257"
+        },
+        "mandature": {
+          "datePriseFonction": "2025-01-24",
+          "causeFin": null,
+          "premiereElection": "1",
+          "placeHemicycle": null,
+          "mandatRemplaceRef": "PM842630"
+        },
+        "collaborateurs": [
+          null,
+          null
+        ]
+      },
       {
         "@xsi:type": "MandatParlementaire_type",
         "uid": "PM801756",

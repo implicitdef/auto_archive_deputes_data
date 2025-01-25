@@ -8,7 +8,8 @@
       "civ": "M.",
       "prenom": "Freddy",
       "nom": "Sertin",
-      "alpha": "Sertin"
+      "alpha": "Sertin",
+      "trigramme": "FSE"
     },
     "infoNaissance": {
       "dateNais": "1980-02-07",
@@ -89,6 +90,70 @@
   },
   "mandats": {
     "mandat": [
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM858609",
+        "acteurRef": "PA793416",
+        "legislature": "17",
+        "typeOrgane": "GP",
+        "dateDebut": "2025-01-24",
+        "datePublication": null,
+        "dateFin": null,
+        "preseance": "28",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Député non-inscrit",
+          "libQualite": "Député non-inscrit",
+          "libQualiteSex": "Député non-inscrit"
+        },
+        "organes": {
+          "organeRef": "PO840056"
+        }
+      },
+      {
+        "@xsi:type": "MandatParlementaire_type",
+        "uid": "PM858452",
+        "acteurRef": "PA793416",
+        "legislature": "17",
+        "typeOrgane": "ASSEMBLEE",
+        "dateDebut": "2024-07-07",
+        "datePublication": null,
+        "dateFin": null,
+        "preseance": "50",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "membre",
+          "libQualite": "membre",
+          "libQualiteSex": "membre"
+        },
+        "organes": {
+          "organeRef": "PO838901"
+        },
+        "suppleants": null,
+        "chambre": null,
+        "election": {
+          "lieu": {
+            "region": "Normandie",
+            "regionType": "Métropolitain",
+            "departement": "Calvados",
+            "numDepartement": "14",
+            "numCirco": "6"
+          },
+          "causeMandat": "remplacement d'un député nommé au Gouvernement",
+          "refCirconscription": "PO839197"
+        },
+        "mandature": {
+          "datePriseFonction": "2025-01-24",
+          "causeFin": null,
+          "premiereElection": "1",
+          "placeHemicycle": null,
+          "mandatRemplaceRef": null
+        },
+        "collaborateurs": [
+          null,
+          null
+        ]
+      },
       {
         "@xsi:type": "MandatSimple_Type",
         "uid": "PM803708",

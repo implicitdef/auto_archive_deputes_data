@@ -1,0 +1,106 @@
+{
+  "uid": {
+    "@xsi:type": "IdActeur_type",
+    "#text": "PA794750"
+  },
+  "etatCivil": {
+    "ident": {
+      "civ": "M.",
+      "prenom": "Thierry",
+      "nom": "Liger",
+      "alpha": "Liger",
+      "trigramme": "TLI"
+    },
+    "infoNaissance": {
+      "dateNais": "1970-05-27"
+    }
+  },
+  "profession": {
+    "socProcINSEE": {}
+  },
+  "uri_hatvp": "/tribun/resources/html/defautDeclarationActeur.html",
+  "adresses": {
+    "adresse": {
+      "@xsi:type": "AdressePostale_Type",
+      "uid": "AD794752",
+      "type": "0",
+      "typeLibelle": "Adresse officielle",
+      "poids": "1",
+      "adresseDeRattachement": null,
+      "intitule": "Assemblée nationale,",
+      "numeroRue": "126",
+      "nomRue": "Rue de l'Université,",
+      "complementAdresse": null,
+      "codePostal": "75355",
+      "ville": "Paris 07 SP"
+    }
+  },
+  "mandats": {
+    "mandat": [
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM858616",
+        "acteurRef": "PA794750",
+        "legislature": "17",
+        "typeOrgane": "GP",
+        "dateDebut": "2025-01-24",
+        "datePublication": null,
+        "dateFin": null,
+        "preseance": "28",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Député non-inscrit",
+          "libQualite": "Député non-inscrit",
+          "libQualiteSex": "Député non-inscrit"
+        },
+        "organes": {
+          "organeRef": "PO840056"
+        }
+      },
+      {
+        "@xsi:type": "MandatParlementaire_type",
+        "uid": "PM858579",
+        "acteurRef": "PA794750",
+        "legislature": "17",
+        "typeOrgane": "ASSEMBLEE",
+        "dateDebut": "2024-07-07",
+        "datePublication": null,
+        "dateFin": null,
+        "preseance": "50",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "membre",
+          "libQualite": "membre",
+          "libQualiteSex": "membre"
+        },
+        "organes": {
+          "organeRef": "PO838901"
+        },
+        "suppleants": null,
+        "chambre": null,
+        "election": {
+          "lieu": {
+            "region": "Normandie",
+            "regionType": "Métropolitain",
+            "departement": "Orne",
+            "numDepartement": "61",
+            "numCirco": "2"
+          },
+          "causeMandat": "remplacement d'un député nommé au Gouvernement",
+          "refCirconscription": "PO839629"
+        },
+        "mandature": {
+          "datePriseFonction": "2025-01-24",
+          "causeFin": null,
+          "premiereElection": "0",
+          "placeHemicycle": null,
+          "mandatRemplaceRef": null
+        },
+        "collaborateurs": [
+          null,
+          null
+        ]
+      }
+    ]
+  }
+}

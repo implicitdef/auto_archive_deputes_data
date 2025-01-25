@@ -8,7 +8,8 @@
       "civ": "M.",
       "prenom": "Vincent",
       "nom": "Ledoux",
-      "alpha": "Ledoux"
+      "alpha": "Ledoux",
+      "trigramme": "VLE"
     },
     "infoNaissance": {
       "dateNais": "1966-06-21",
@@ -88,6 +89,70 @@
   },
   "mandats": {
     "mandat": [
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM858611",
+        "acteurRef": "PA712014",
+        "legislature": "17",
+        "typeOrgane": "GP",
+        "dateDebut": "2025-01-24",
+        "datePublication": null,
+        "dateFin": null,
+        "preseance": "28",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Député non-inscrit",
+          "libQualite": "Député non-inscrit",
+          "libQualiteSex": "Député non-inscrit"
+        },
+        "organes": {
+          "organeRef": "PO840056"
+        }
+      },
+      {
+        "@xsi:type": "MandatParlementaire_type",
+        "uid": "PM858454",
+        "acteurRef": "PA712014",
+        "legislature": "17",
+        "typeOrgane": "ASSEMBLEE",
+        "dateDebut": "2024-07-07",
+        "datePublication": null,
+        "dateFin": null,
+        "preseance": "50",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "membre",
+          "libQualite": "membre",
+          "libQualiteSex": "membre"
+        },
+        "organes": {
+          "organeRef": "PO838901"
+        },
+        "suppleants": null,
+        "chambre": null,
+        "election": {
+          "lieu": {
+            "region": "Hauts-de-France",
+            "regionType": "Métropolitain",
+            "departement": "Nord",
+            "numDepartement": "59",
+            "numCirco": "10"
+          },
+          "causeMandat": "remplacement d'un député nommé au Gouvernement",
+          "refCirconscription": "PO839615"
+        },
+        "mandature": {
+          "datePriseFonction": "2025-01-24",
+          "causeFin": null,
+          "premiereElection": "1",
+          "placeHemicycle": null,
+          "mandatRemplaceRef": null
+        },
+        "collaborateurs": [
+          null,
+          null
+        ]
+      },
       {
         "@xsi:type": "MandatSimple_Type",
         "uid": "PM714789",

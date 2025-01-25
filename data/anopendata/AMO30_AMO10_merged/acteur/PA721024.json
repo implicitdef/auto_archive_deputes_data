@@ -8,12 +8,13 @@
       "civ": "Mme",
       "prenom": "Anne",
       "nom": "Genetet",
-      "alpha": "Genetet"
+      "alpha": "Genetet",
+      "trigramme": "AGN"
     },
     "infoNaissance": {
       "dateNais": "1963-04-20",
-      "villeNais": "Neuilly sur seine",
-      "depNais": "Hauts-de-Seine",
+      "villeNais": "Neuilly-sur-Seine",
+      "depNais": "Paris",
       "paysNais": "France"
     }
   },
@@ -98,6 +99,76 @@
   },
   "mandats": {
     "mandat": [
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM858582",
+        "acteurRef": "PA721024",
+        "legislature": "17",
+        "typeOrgane": "GP",
+        "dateDebut": "2025-01-24",
+        "datePublication": null,
+        "dateFin": null,
+        "preseance": "28",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Député non-inscrit",
+          "libQualite": "Député non-inscrit",
+          "libQualiteSex": "Députée non-inscrite"
+        },
+        "organes": {
+          "organeRef": "PO840056"
+        }
+      },
+      {
+        "@xsi:type": "MandatParlementaire_type",
+        "uid": "PM858289",
+        "acteurRef": "PA721024",
+        "legislature": "17",
+        "typeOrgane": "ASSEMBLEE",
+        "dateDebut": "2024-07-07",
+        "datePublication": null,
+        "dateFin": null,
+        "preseance": "50",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "membre",
+          "libQualite": "membre",
+          "libQualiteSex": "membre"
+        },
+        "organes": {
+          "organeRef": "PO838901"
+        },
+        "suppleants": {
+          "suppleant": {
+            "dateDebut": "2024-07-07",
+            "dateFin": null,
+            "suppleantRef": "PA842323"
+          }
+        },
+        "chambre": null,
+        "election": {
+          "lieu": {
+            "region": "Français établis hors de France",
+            "regionType": "Français établis hors de France",
+            "departement": "Français établis hors de France",
+            "numDepartement": "099",
+            "numCirco": "11"
+          },
+          "causeMandat": "reprise de l'exercice du mandat d'un ancien membre du Gouvernement",
+          "refCirconscription": "PO839179"
+        },
+        "mandature": {
+          "datePriseFonction": "2025-01-24",
+          "causeFin": null,
+          "premiereElection": "1",
+          "placeHemicycle": null,
+          "mandatRemplaceRef": "PM843827"
+        },
+        "collaborateurs": [
+          null,
+          null
+        ]
+      },
       {
         "@xsi:type": "MandatAvecSuppleant_Type",
         "uid": "PM732655",

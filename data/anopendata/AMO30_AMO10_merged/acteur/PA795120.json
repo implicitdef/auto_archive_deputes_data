@@ -8,11 +8,12 @@
       "civ": "Mme",
       "prenom": "Marina",
       "nom": "Ferrari",
-      "alpha": "Ferrari"
+      "alpha": "Ferrari",
+      "trigramme": "MFR"
     },
     "infoNaissance": {
       "dateNais": "1973-10-10",
-      "villeNais": "Aix les Bains",
+      "villeNais": "Aix-les-Bains",
       "depNais": "Savoie",
       "paysNais": "France"
     }
@@ -112,6 +113,76 @@
   },
   "mandats": {
     "mandat": [
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM858607",
+        "acteurRef": "PA795120",
+        "legislature": "17",
+        "typeOrgane": "GP",
+        "dateDebut": "2025-01-24",
+        "datePublication": null,
+        "dateFin": null,
+        "preseance": "28",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Député non-inscrit",
+          "libQualite": "Député non-inscrit",
+          "libQualiteSex": "Députée non-inscrite"
+        },
+        "organes": {
+          "organeRef": "PO840056"
+        }
+      },
+      {
+        "@xsi:type": "MandatParlementaire_type",
+        "uid": "PM858429",
+        "acteurRef": "PA795120",
+        "legislature": "17",
+        "typeOrgane": "ASSEMBLEE",
+        "dateDebut": "2024-07-07",
+        "datePublication": null,
+        "dateFin": null,
+        "preseance": "50",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "membre",
+          "libQualite": "membre",
+          "libQualiteSex": "membre"
+        },
+        "organes": {
+          "organeRef": "PO838901"
+        },
+        "suppleants": {
+          "suppleant": {
+            "dateDebut": "2024-07-07",
+            "dateFin": null,
+            "suppleantRef": "PA795124"
+          }
+        },
+        "chambre": null,
+        "election": {
+          "lieu": {
+            "region": "Auvergne-Rhône-Alpes",
+            "regionType": "Métropolitain",
+            "departement": "Savoie",
+            "numDepartement": "73",
+            "numCirco": "1"
+          },
+          "causeMandat": "reprise de l'exercice du mandat d'un ancien membre du Gouvernement",
+          "refCirconscription": "PO839769"
+        },
+        "mandature": {
+          "datePriseFonction": "2025-01-24",
+          "causeFin": null,
+          "premiereElection": "1",
+          "placeHemicycle": null,
+          "mandatRemplaceRef": "PM843344"
+        },
+        "collaborateurs": [
+          null,
+          null
+        ]
+      },
       {
         "@xsi:type": "MandatSimple_Type",
         "uid": "PM15834789",
