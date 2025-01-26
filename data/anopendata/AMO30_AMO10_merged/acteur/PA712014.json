@@ -18,12 +18,13 @@
     }
   },
   "profession": {
-    "libelleCourant": "Professeur",
+    "libelleCourant": "Sans profession déclarée",
     "socProcINSEE": {
       "catSocPro": "Cadres de la fonction publique, professions intellectuelles et  artistiques",
       "famSocPro": "Cadres et professions intellectuelles supérieures"
     }
   },
+  "uri_hatvp": "/tribun/resources/html/defautDeclarationActeur.html",
   "adresses": {
     "adresse": [
       {
@@ -84,6 +85,24 @@
         "poids": null,
         "adresseDeRattachement": null,
         "valElec": "Vincent.Ledoux@assemblee-nationale.fr"
+      },
+      {
+        "@xsi:type": "AdresseSiteWeb_Type",
+        "uid": "AD858961",
+        "type": "30",
+        "typeLibelle": "Linkedin",
+        "poids": null,
+        "adresseDeRattachement": null,
+        "valElec": "/in/@Vincent Ledoux"
+      },
+      {
+        "@xsi:type": "AdresseSiteWeb_Type",
+        "uid": "AD858963",
+        "type": "29",
+        "typeLibelle": "Instagram",
+        "poids": null,
+        "adresseDeRattachement": null,
+        "valElec": "vincent_ledoux_"
       }
     ]
   },
@@ -91,22 +110,42 @@
     "mandat": [
       {
         "@xsi:type": "MandatSimple_Type",
-        "uid": "PM858611",
+        "uid": "PM859164",
         "acteurRef": "PA712014",
         "legislature": "17",
         "typeOrgane": "GP",
-        "dateDebut": "2025-01-24",
+        "dateDebut": "2025-01-25",
         "datePublication": null,
         "dateFin": null,
-        "preseance": "28",
+        "preseance": "20",
         "nominPrincipale": "1",
         "infosQualite": {
-          "codeQualite": "Député non-inscrit",
-          "libQualite": "Député non-inscrit",
-          "libQualiteSex": "Député non-inscrit"
+          "codeQualite": "Membre",
+          "libQualite": "Membre du",
+          "libQualiteSex": "Membre du"
         },
         "organes": {
-          "organeRef": "PO840056"
+          "organeRef": "PO845407"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM859198",
+        "acteurRef": "PA712014",
+        "legislature": "17",
+        "typeOrgane": "COMPER",
+        "dateDebut": "2025-01-25",
+        "datePublication": "2025-01-25",
+        "dateFin": null,
+        "preseance": "32",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO59047"
         }
       },
       {

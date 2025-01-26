@@ -12,49 +12,66 @@
       "trigramme": "TLI"
     },
     "infoNaissance": {
-      "dateNais": "1970-05-27"
+      "dateNais": "1970-05-27",
+      "villeNais": "Nogent-le-Rotrou",
+      "depNais": "Eure-et-Loir",
+      "paysNais": "France"
     }
   },
   "profession": {
-    "socProcINSEE": {}
-  },
-  "uri_hatvp": "/tribun/resources/html/defautDeclarationActeur.html",
-  "adresses": {
-    "adresse": {
-      "@xsi:type": "AdressePostale_Type",
-      "uid": "AD794752",
-      "type": "0",
-      "typeLibelle": "Adresse officielle",
-      "poids": "1",
-      "adresseDeRattachement": null,
-      "intitule": "Assemblée nationale,",
-      "numeroRue": "126",
-      "nomRue": "Rue de l'Université,",
-      "complementAdresse": null,
-      "codePostal": "75355",
-      "ville": "Paris 07 SP"
+    "libelleCourant": "Chef d'entreprise",
+    "socProcINSEE": {
+      "catSocPro": "Chefs d'entreprise de 10 salariés ou plus",
+      "famSocPro": "Artisans, commerçants et chefs d'entreprise"
     }
+  },
+  "adresses": {
+    "adresse": [
+      {
+        "@xsi:type": "AdressePostale_Type",
+        "uid": "AD794752",
+        "type": "0",
+        "typeLibelle": "Adresse officielle",
+        "poids": "1",
+        "adresseDeRattachement": null,
+        "intitule": "Assemblée nationale,",
+        "numeroRue": "126",
+        "nomRue": "Rue de l'Université,",
+        "complementAdresse": null,
+        "codePostal": "75355",
+        "ville": "Paris 07 SP"
+      },
+      {
+        "@xsi:type": "AdresseMail_Type",
+        "uid": "AD859059",
+        "type": "15",
+        "typeLibelle": "Mèl",
+        "poids": null,
+        "adresseDeRattachement": null,
+        "valElec": "thierry.liger@assemblee-nationale.fr"
+      }
+    ]
   },
   "mandats": {
     "mandat": [
       {
         "@xsi:type": "MandatSimple_Type",
-        "uid": "PM858616",
+        "uid": "PM859169",
         "acteurRef": "PA794750",
         "legislature": "17",
         "typeOrgane": "GP",
-        "dateDebut": "2025-01-24",
+        "dateDebut": "2025-01-25",
         "datePublication": null,
         "dateFin": null,
-        "preseance": "28",
+        "preseance": "20",
         "nominPrincipale": "1",
         "infosQualite": {
-          "codeQualite": "Député non-inscrit",
-          "libQualite": "Député non-inscrit",
-          "libQualiteSex": "Député non-inscrit"
+          "codeQualite": "Membre",
+          "libQualite": "Membre du",
+          "libQualiteSex": "Membre du"
         },
         "organes": {
-          "organeRef": "PO840056"
+          "organeRef": "PO845425"
         }
       },
       {

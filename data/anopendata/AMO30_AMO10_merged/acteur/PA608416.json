@@ -46,7 +46,7 @@
         "uid": "AD725908",
         "type": "2",
         "typeLibelle": "Adresse publiée de circonscription",
-        "poids": "23",
+        "poids": "22",
         "adresseDeRattachement": null,
         "intitule": null,
         "numeroRue": "14",
@@ -54,15 +54,6 @@
         "complementAdresse": null,
         "codePostal": "67260",
         "ville": "Sarre-Union"
-      },
-      {
-        "@xsi:type": "AdresseTelephonique_Type",
-        "uid": "AD725910",
-        "type": "11",
-        "typeLibelle": "Téléphone",
-        "poids": "23",
-        "adresseDeRattachement": "AD725908",
-        "valElec": "03 88 00 60 08"
       },
       {
         "@xsi:type": "AdresseSiteWeb_Type",
@@ -118,19 +109,28 @@
         "adresseDeRattachement": null,
         "intitule": null,
         "numeroRue": "9",
-        "nomRue": "Rue de la Gare",
+        "nomRue": "Rue de la gare",
         "complementAdresse": null,
         "codePostal": "67700",
         "ville": "Saverne"
       },
       {
         "@xsi:type": "AdresseTelephonique_Type",
-        "uid": "AD845351",
+        "uid": "AD859058",
         "type": "11",
         "typeLibelle": "Téléphone",
         "poids": "22",
         "adresseDeRattachement": "AD845349",
         "valElec": "03 88 91 25 88"
+      },
+      {
+        "@xsi:type": "AdresseTelephonique_Type",
+        "uid": "AD859060",
+        "type": "11",
+        "typeLibelle": "Téléphone",
+        "poids": "22",
+        "adresseDeRattachement": "AD725908",
+        "valElec": "03 88 00 60 08"
       }
     ]
   },
@@ -138,22 +138,22 @@
     "mandat": [
       {
         "@xsi:type": "MandatSimple_Type",
-        "uid": "PM858592",
+        "uid": "PM859168",
         "acteurRef": "PA608416",
         "legislature": "17",
         "typeOrgane": "GP",
-        "dateDebut": "2025-01-24",
+        "dateDebut": "2025-01-25",
         "datePublication": null,
         "dateFin": null,
-        "preseance": "28",
+        "preseance": "20",
         "nominPrincipale": "1",
         "infosQualite": {
-          "codeQualite": "Député non-inscrit",
-          "libQualite": "Député non-inscrit",
-          "libQualiteSex": "Député non-inscrit"
+          "codeQualite": "Membre",
+          "libQualite": "Membre du",
+          "libQualiteSex": "Membre du"
         },
         "organes": {
-          "organeRef": "PO840056"
+          "organeRef": "PO845425"
         }
       },
       {

@@ -19,12 +19,13 @@
     }
   },
   "profession": {
-    "libelleCourant": "Directeur Général d'un établissement de santé",
+    "libelleCourant": "Sans profession déclarée",
     "socProcINSEE": {
       "catSocPro": "Cadres d'entreprise",
       "famSocPro": "Cadres et professions intellectuelles supérieures"
     }
   },
+  "uri_hatvp": "/tribun/resources/html/defautDeclarationActeur.html",
   "adresses": {
     "adresse": [
       {
@@ -85,6 +86,15 @@
         "poids": null,
         "adresseDeRattachement": null,
         "valElec": "freddy_sertin_depute"
+      },
+      {
+        "@xsi:type": "AdresseMail_Type",
+        "uid": "AD858962",
+        "type": "15",
+        "typeLibelle": "Mèl",
+        "poids": null,
+        "adresseDeRattachement": null,
+        "valElec": "freddysertin@gmail.com"
       }
     ]
   },
@@ -92,22 +102,42 @@
     "mandat": [
       {
         "@xsi:type": "MandatSimple_Type",
-        "uid": "PM858609",
+        "uid": "PM859165",
         "acteurRef": "PA793416",
         "legislature": "17",
         "typeOrgane": "GP",
-        "dateDebut": "2025-01-24",
+        "dateDebut": "2025-01-25",
         "datePublication": null,
         "dateFin": null,
-        "preseance": "28",
+        "preseance": "20",
         "nominPrincipale": "1",
         "infosQualite": {
-          "codeQualite": "Député non-inscrit",
-          "libQualite": "Député non-inscrit",
-          "libQualiteSex": "Député non-inscrit"
+          "codeQualite": "Membre",
+          "libQualite": "Membre du",
+          "libQualiteSex": "Membre du"
         },
         "organes": {
-          "organeRef": "PO840056"
+          "organeRef": "PO845407"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM859214",
+        "acteurRef": "PA793416",
+        "legislature": "17",
+        "typeOrgane": "COMPER",
+        "dateDebut": "2025-01-25",
+        "datePublication": "2025-01-25",
+        "dateFin": null,
+        "preseance": "32",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO419865"
         }
       },
       {

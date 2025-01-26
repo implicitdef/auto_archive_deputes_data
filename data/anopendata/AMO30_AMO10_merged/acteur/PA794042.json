@@ -12,49 +12,67 @@
       "trigramme": "SDZ"
     },
     "infoNaissance": {
-      "dateNais": "1964-02-23"
+      "dateNais": "1964-02-23",
+      "villeNais": "Sainte-Colombe",
+      "depNais": "Rhône",
+      "paysNais": "France"
     }
   },
   "profession": {
-    "socProcINSEE": {}
+    "libelleCourant": "Assitante administrative de direction",
+    "socProcINSEE": {
+      "catSocPro": "Employés administratifs d'entreprise",
+      "famSocPro": "Employés"
+    }
   },
   "uri_hatvp": "/tribun/resources/html/defautDeclarationActeur.html",
   "adresses": {
-    "adresse": {
-      "@xsi:type": "AdressePostale_Type",
-      "uid": "AD794044",
-      "type": "0",
-      "typeLibelle": "Adresse officielle",
-      "poids": "1",
-      "adresseDeRattachement": null,
-      "intitule": "Assemblée nationale,",
-      "numeroRue": "126",
-      "nomRue": "Rue de l'Université,",
-      "complementAdresse": null,
-      "codePostal": "75355",
-      "ville": "Paris 07 SP"
-    }
+    "adresse": [
+      {
+        "@xsi:type": "AdressePostale_Type",
+        "uid": "AD794044",
+        "type": "0",
+        "typeLibelle": "Adresse officielle",
+        "poids": "1",
+        "adresseDeRattachement": null,
+        "intitule": "Assemblée nationale,",
+        "numeroRue": "126",
+        "nomRue": "Rue de l'Université,",
+        "complementAdresse": null,
+        "codePostal": "75355",
+        "ville": "Paris 07 SP"
+      },
+      {
+        "@xsi:type": "AdresseMail_Type",
+        "uid": "AD858943",
+        "type": "15",
+        "typeLibelle": "Mèl",
+        "poids": null,
+        "adresseDeRattachement": null,
+        "valElec": "sylvie.dezarnaud@assemblee-nationale.fr"
+      }
+    ]
   },
   "mandats": {
     "mandat": [
       {
         "@xsi:type": "MandatSimple_Type",
-        "uid": "PM858618",
+        "uid": "PM859167",
         "acteurRef": "PA794042",
         "legislature": "17",
         "typeOrgane": "GP",
-        "dateDebut": "2025-01-24",
+        "dateDebut": "2025-01-25",
         "datePublication": null,
         "dateFin": null,
-        "preseance": "28",
+        "preseance": "20",
         "nominPrincipale": "1",
         "infosQualite": {
-          "codeQualite": "Député non-inscrit",
-          "libQualite": "Député non-inscrit",
-          "libQualiteSex": "Députée non-inscrite"
+          "codeQualite": "Membre",
+          "libQualite": "Membre du",
+          "libQualiteSex": "Membre du"
         },
         "organes": {
-          "organeRef": "PO840056"
+          "organeRef": "PO845425"
         }
       },
       {
