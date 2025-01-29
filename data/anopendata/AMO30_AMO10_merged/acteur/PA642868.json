@@ -19,7 +19,7 @@
     }
   },
   "profession": {
-    "libelleCourant": "Fonctionnaire de catégorie A",
+    "libelleCourant": "Directeur général des services",
     "socProcINSEE": {
       "catSocPro": "Cadres de la fonction publique, professions intellectuelles et  artistiques",
       "famSocPro": "Cadres et professions intellectuelles supérieures"
@@ -60,29 +60,6 @@
         "valElec": "@christophe_p"
       },
       {
-        "@xsi:type": "AdressePostale_Type",
-        "uid": "AD726730",
-        "type": "2",
-        "typeLibelle": "Adresse publiée de circonscription",
-        "poids": "22",
-        "adresseDeRattachement": null,
-        "intitule": null,
-        "numeroRue": "11",
-        "nomRue": "Place du marché aux fruits",
-        "complementAdresse": null,
-        "codePostal": "59630",
-        "ville": "Bourbourg"
-      },
-      {
-        "@xsi:type": "AdresseTelephonique_Type",
-        "uid": "AD726732",
-        "type": "11",
-        "typeLibelle": "Téléphone",
-        "poids": "22",
-        "adresseDeRattachement": "AD726730",
-        "valElec": "09 62 64 50 59"
-      },
-      {
         "@xsi:type": "AdresseTelephonique_Type",
         "uid": "AD743611",
         "type": "11",
@@ -108,6 +85,15 @@
         "poids": null,
         "adresseDeRattachement": null,
         "valElec": "Paul.Christophe@assemblee-nationale.fr"
+      },
+      {
+        "@xsi:type": "AdresseSiteWeb_Type",
+        "uid": "AD859539",
+        "type": "30",
+        "typeLibelle": "Linkedin",
+        "poids": null,
+        "adresseDeRattachement": null,
+        "valElec": "/in/paul-christophe88a567113"
       }
     ]
   },
@@ -131,6 +117,26 @@
         },
         "organes": {
           "organeRef": "PO845470"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM859609",
+        "acteurRef": "PA642868",
+        "legislature": "17",
+        "typeOrgane": "COMPER",
+        "dateDebut": "2025-01-28",
+        "datePublication": "2025-01-28",
+        "dateFin": null,
+        "preseance": "32",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO420120"
         }
       },
       {
@@ -195,7 +201,7 @@
           "datePriseFonction": "2025-01-24",
           "causeFin": null,
           "premiereElection": "1",
-          "placeHemicycle": null,
+          "placeHemicycle": "222",
           "mandatRemplaceRef": "PM843122"
         },
         "collaborateurs": [

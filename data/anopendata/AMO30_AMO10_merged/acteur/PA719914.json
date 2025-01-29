@@ -19,7 +19,7 @@
     }
   },
   "profession": {
-    "libelleCourant": "Médecin",
+    "libelleCourant": "médecin",
     "socProcINSEE": {
       "catSocPro": "Professions libérales et assimilés",
       "famSocPro": "Cadres et professions intellectuelles supérieures"
@@ -90,6 +90,38 @@
         "poids": "22",
         "adresseDeRattachement": "AD826949",
         "valElec": "05.58.45.28.19"
+      },
+      {
+        "@xsi:type": "AdressePostale_Type",
+        "uid": "AD859590",
+        "type": "2",
+        "typeLibelle": "Adresse publiée de circonscription",
+        "poids": "22",
+        "adresseDeRattachement": null,
+        "intitule": null,
+        "numeroRue": "8",
+        "nomRue": "Rue Porte d'Aire",
+        "complementAdresse": null,
+        "codePostal": "40000",
+        "ville": "Mont-de-Marsan"
+      },
+      {
+        "@xsi:type": "AdresseTelephonique_Type",
+        "uid": "AD859591",
+        "type": "11",
+        "typeLibelle": "Téléphone",
+        "poids": "22",
+        "adresseDeRattachement": "AD859590",
+        "valElec": "0558452819"
+      },
+      {
+        "@xsi:type": "AdresseSiteWeb_Type",
+        "uid": "AD859592",
+        "type": "22",
+        "typeLibelle": "Site internet",
+        "poids": null,
+        "adresseDeRattachement": null,
+        "valElec": "www.darrieussecq.net"
       }
     ]
   },
@@ -113,6 +145,26 @@
         },
         "organes": {
           "organeRef": "PO845454"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM859611",
+        "acteurRef": "PA719914",
+        "legislature": "17",
+        "typeOrgane": "COMPER",
+        "dateDebut": "2025-01-28",
+        "datePublication": "2025-01-28",
+        "dateFin": null,
+        "preseance": "32",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO59046"
         }
       },
       {
@@ -157,13 +209,18 @@
           "datePriseFonction": "2025-01-24",
           "causeFin": null,
           "premiereElection": "1",
-          "placeHemicycle": null,
+          "placeHemicycle": "361",
           "mandatRemplaceRef": "PM842864"
         },
-        "collaborateurs": [
-          null,
-          null
-        ]
+        "collaborateurs": {
+          "collaborateur": {
+            "qualite": "M.",
+            "prenom": "Tom",
+            "nom": "Gillet Duffrechou",
+            "dateDebut": null,
+            "dateFin": null
+          }
+        }
       },
       {
         "@xsi:type": "MandatSimple_Type",

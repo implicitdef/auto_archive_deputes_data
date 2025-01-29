@@ -12,27 +12,60 @@
       "trigramme": "ARO"
     },
     "infoNaissance": {
-      "dateNais": "1978-01-07"
+      "dateNais": "1978-01-07",
+      "villeNais": "Suresnes",
+      "depNais": "Hauts-de-Seine",
+      "paysNais": "France"
     }
   },
   "profession": {
-    "socProcINSEE": {}
-  },
-  "adresses": {
-    "adresse": {
-      "@xsi:type": "AdressePostale_Type",
-      "uid": "AD841929",
-      "type": "0",
-      "typeLibelle": "Adresse officielle",
-      "poids": "1",
-      "adresseDeRattachement": null,
-      "intitule": "Assemblée nationale,",
-      "numeroRue": "126",
-      "nomRue": "Rue de l'Université,",
-      "complementAdresse": null,
-      "codePostal": "75355",
-      "ville": "Paris 07 SP"
+    "libelleCourant": "Collaboratrice parlementaire",
+    "socProcINSEE": {
+      "catSocPro": "Cadres de la fonction publique, professions intellectuelles et  artistiques",
+      "famSocPro": "Cadres et professions intellectuelles supérieures"
     }
+  },
+  "uri_hatvp": "/tribun/resources/html/defautDeclarationActeur.html",
+  "adresses": {
+    "adresse": [
+      {
+        "@xsi:type": "AdressePostale_Type",
+        "uid": "AD841929",
+        "type": "0",
+        "typeLibelle": "Adresse officielle",
+        "poids": "1",
+        "adresseDeRattachement": null,
+        "intitule": "Assemblée nationale,",
+        "numeroRue": "126",
+        "nomRue": "Rue de l'Université,",
+        "complementAdresse": null,
+        "codePostal": "75355",
+        "ville": "Paris 07 SP"
+      },
+      {
+        "@xsi:type": "AdressePostale_Type",
+        "uid": "AD859561",
+        "type": "2",
+        "typeLibelle": "Adresse publiée de circonscription",
+        "poids": "22",
+        "adresseDeRattachement": null,
+        "intitule": null,
+        "numeroRue": "1",
+        "nomRue": "Rue de Clairefontaine",
+        "complementAdresse": null,
+        "codePostal": "78120",
+        "ville": "Rambouillet"
+      },
+      {
+        "@xsi:type": "AdresseMail_Type",
+        "uid": "AD859562",
+        "type": "15",
+        "typeLibelle": "Mèl",
+        "poids": null,
+        "adresseDeRattachement": null,
+        "valElec": "anne-sophie.ronceret@assemblee-nationale.fr"
+      }
+    ]
   },
   "mandats": {
     "mandat": [
@@ -112,7 +145,7 @@
           "datePriseFonction": "2025-01-24",
           "causeFin": null,
           "premiereElection": "0",
-          "placeHemicycle": null,
+          "placeHemicycle": "321",
           "mandatRemplaceRef": null
         },
         "collaborateurs": [

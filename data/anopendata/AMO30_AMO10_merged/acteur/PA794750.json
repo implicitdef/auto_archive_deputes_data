@@ -25,6 +25,7 @@
       "famSocPro": "Artisans, commerçants et chefs d'entreprise"
     }
   },
+  "uri_hatvp": "/tribun/resources/html/defautDeclarationActeur.html",
   "adresses": {
     "adresse": [
       {
@@ -75,6 +76,26 @@
         }
       },
       {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM859618",
+        "acteurRef": "PA794750",
+        "legislature": "17",
+        "typeOrgane": "COMPER",
+        "dateDebut": "2025-01-28",
+        "datePublication": "2025-01-28",
+        "dateFin": null,
+        "preseance": "32",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO59048"
+        }
+      },
+      {
         "@xsi:type": "MandatParlementaire_type",
         "uid": "PM858579",
         "acteurRef": "PA794750",
@@ -110,7 +131,7 @@
           "datePriseFonction": "2025-01-24",
           "causeFin": null,
           "premiereElection": "0",
-          "placeHemicycle": null,
+          "placeHemicycle": "196",
           "mandatRemplaceRef": null
         },
         "collaborateurs": [
