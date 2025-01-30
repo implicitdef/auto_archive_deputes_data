@@ -70,29 +70,6 @@
       },
       {
         "@xsi:type": "AdressePostale_Type",
-        "uid": "AD826949",
-        "type": "2",
-        "typeLibelle": "Adresse publiée de circonscription",
-        "poids": "22",
-        "adresseDeRattachement": null,
-        "intitule": null,
-        "numeroRue": "8",
-        "nomRue": "Rue Porte d'Aire",
-        "complementAdresse": "1er étage",
-        "codePostal": "40000",
-        "ville": "Mont de marsan"
-      },
-      {
-        "@xsi:type": "AdresseTelephonique_Type",
-        "uid": "AD827148",
-        "type": "11",
-        "typeLibelle": "Téléphone",
-        "poids": "22",
-        "adresseDeRattachement": "AD826949",
-        "valElec": "05.58.45.28.19"
-      },
-      {
-        "@xsi:type": "AdressePostale_Type",
         "uid": "AD859590",
         "type": "2",
         "typeLibelle": "Adresse publiée de circonscription",
@@ -101,7 +78,7 @@
         "intitule": null,
         "numeroRue": "8",
         "nomRue": "Rue Porte d'Aire",
-        "complementAdresse": null,
+        "complementAdresse": "1er étage",
         "codePostal": "40000",
         "ville": "Mont-de-Marsan"
       },
@@ -112,7 +89,7 @@
         "typeLibelle": "Téléphone",
         "poids": "22",
         "adresseDeRattachement": "AD859590",
-        "valElec": "0558452819"
+        "valElec": "05 58 45 28 19"
       },
       {
         "@xsi:type": "AdresseSiteWeb_Type",
@@ -213,13 +190,22 @@
           "mandatRemplaceRef": "PM842864"
         },
         "collaborateurs": {
-          "collaborateur": {
-            "qualite": "M.",
-            "prenom": "Tom",
-            "nom": "Gillet Duffrechou",
-            "dateDebut": null,
-            "dateFin": null
-          }
+          "collaborateur": [
+            {
+              "qualite": "M.",
+              "prenom": "Fabien",
+              "nom": "Lainé",
+              "dateDebut": null,
+              "dateFin": null
+            },
+            {
+              "qualite": "M.",
+              "prenom": "Tom",
+              "nom": "Gillet Duffrechou",
+              "dateDebut": null,
+              "dateFin": null
+            }
+          ]
         }
       },
       {

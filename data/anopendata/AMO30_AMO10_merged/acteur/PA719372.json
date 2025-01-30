@@ -19,12 +19,13 @@
     }
   },
   "profession": {
-    "libelleCourant": "Cadre supérieur (secteur privé)",
+    "libelleCourant": "Consultant en stratégie d'entreprise",
     "socProcINSEE": {
       "catSocPro": "Cadres d'entreprise",
       "famSocPro": "Cadres et professions intellectuelles supérieures"
     }
   },
+  "uri_hatvp": "/tribun/resources/html/defautDeclarationActeur.html",
   "adresses": {
     "adresse": [
       {
@@ -40,15 +41,6 @@
         "complementAdresse": null,
         "codePostal": "75355",
         "ville": "Paris 07 SP"
-      },
-      {
-        "@xsi:type": "AdresseMail_Type",
-        "uid": "AD728756",
-        "type": "15",
-        "typeLibelle": "Mèl",
-        "poids": null,
-        "adresseDeRattachement": null,
-        "valElec": "guillaume.kasbarian@en-marche.fr"
       },
       {
         "@xsi:type": "AdresseSiteWeb_Type",
@@ -108,6 +100,15 @@
         "poids": null,
         "adresseDeRattachement": null,
         "valElec": "guillaumekasba"
+      },
+      {
+        "@xsi:type": "AdresseMail_Type",
+        "uid": "AD859864",
+        "type": "15",
+        "typeLibelle": "Mèl",
+        "poids": null,
+        "adresseDeRattachement": null,
+        "valElec": "contact@guillaumekasbarian.fr"
       }
     ]
   },
@@ -198,10 +199,24 @@
           "placeHemicycle": "266",
           "mandatRemplaceRef": "PM842630"
         },
-        "collaborateurs": [
-          null,
-          null
-        ]
+        "collaborateurs": {
+          "collaborateur": [
+            {
+              "qualite": "M.",
+              "prenom": "Thibaut",
+              "nom": "Colombier",
+              "dateDebut": null,
+              "dateFin": null
+            },
+            {
+              "qualite": "Mme",
+              "prenom": "Chloé",
+              "nom": "Boireau",
+              "dateDebut": null,
+              "dateFin": null
+            }
+          ]
+        }
       },
       {
         "@xsi:type": "MandatParlementaire_type",

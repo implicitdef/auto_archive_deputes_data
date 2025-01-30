@@ -172,7 +172,7 @@
         "datePublication": null,
         "dateFin": null,
         "preseance": "20",
-        "nominPrincipale": "1",
+        "nominPrincipale": "0",
         "infosQualite": {
           "codeQualite": "Membre",
           "libQualite": "Membre",
@@ -323,6 +323,26 @@
         }
       },
       {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM859923",
+        "acteurRef": "PA795120",
+        "legislature": "17",
+        "typeOrgane": "GE",
+        "dateDebut": "2025-01-28",
+        "datePublication": null,
+        "dateFin": null,
+        "preseance": "4",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Co-Président",
+          "libQualite": "Co-Président",
+          "libQualiteSex": "Co-Présidente"
+        },
+        "organes": {
+          "organeRef": "PO854157"
+        }
+      },
+      {
         "@xsi:type": "MandatParlementaire_type",
         "uid": "PM858429",
         "acteurRef": "PA795120",
@@ -368,13 +388,22 @@
           "mandatRemplaceRef": "PM843344"
         },
         "collaborateurs": {
-          "collaborateur": {
-            "qualite": "Mme",
-            "prenom": "Margot",
-            "nom": "Jouanny",
-            "dateDebut": null,
-            "dateFin": null
-          }
+          "collaborateur": [
+            {
+              "qualite": "M.",
+              "prenom": "Félix",
+              "nom": "Caron",
+              "dateDebut": null,
+              "dateFin": null
+            },
+            {
+              "qualite": "Mme",
+              "prenom": "Margot",
+              "nom": "Jouanny",
+              "dateDebut": null,
+              "dateFin": null
+            }
+          ]
         }
       },
       {
