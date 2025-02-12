@@ -1,0 +1,165 @@
+{
+  "uid": {
+    "@xsi:type": "IdActeur_type",
+    "#text": "PA842141"
+  },
+  "etatCivil": {
+    "ident": {
+      "civ": "Mme",
+      "prenom": "Élisabeth",
+      "nom": "de Maistre",
+      "alpha": "Maistre (de)",
+      "trigramme": "EMAI"
+    },
+    "infoNaissance": {
+      "dateNais": "1975-10-07",
+      "villeNais": "Paris",
+      "depNais": "Paris",
+      "paysNais": "France"
+    }
+  },
+  "profession": {
+    "libelleCourant": "Avocat",
+    "socProcINSEE": {
+      "catSocPro": "Professions libérales et assimilés",
+      "famSocPro": "Cadres et professions intellectuelles supérieures"
+    }
+  },
+  "adresses": {
+    "adresse": [
+      {
+        "@xsi:type": "AdressePostale_Type",
+        "uid": "AD842143",
+        "type": "0",
+        "typeLibelle": "Adresse officielle",
+        "poids": "1",
+        "adresseDeRattachement": null,
+        "intitule": "Assemblée nationale,",
+        "numeroRue": "126",
+        "nomRue": "Rue de l'Université,",
+        "complementAdresse": null,
+        "codePostal": "75355",
+        "ville": "Paris 07 SP"
+      },
+      {
+        "@xsi:type": "AdresseSiteWeb_Type",
+        "uid": "AD863899",
+        "type": "29",
+        "typeLibelle": "Instagram",
+        "poids": null,
+        "adresseDeRattachement": null,
+        "valElec": "@elisabethdemaistre"
+      },
+      {
+        "@xsi:type": "AdresseSiteWeb_Type",
+        "uid": "AD863900",
+        "type": "30",
+        "typeLibelle": "Linkedin",
+        "poids": null,
+        "adresseDeRattachement": null,
+        "valElec": "/in/elisabeth-de-maistre-6a248131"
+      },
+      {
+        "@xsi:type": "AdresseSiteWeb_Type",
+        "uid": "AD863901",
+        "type": "25",
+        "typeLibelle": "Facebook",
+        "poids": null,
+        "adresseDeRattachement": null,
+        "valElec": "elisabeth.demaistre"
+      },
+      {
+        "@xsi:type": "AdresseMail_Type",
+        "uid": "AD863902",
+        "type": "15",
+        "typeLibelle": "Mèl",
+        "poids": null,
+        "adresseDeRattachement": null,
+        "valElec": "elisabeth.demaistre@assemblee-nationale.fr"
+      },
+      {
+        "@xsi:type": "AdresseSiteWeb_Type",
+        "uid": "AD863903",
+        "type": "24",
+        "typeLibelle": "Twitter",
+        "poids": null,
+        "adresseDeRattachement": null,
+        "valElec": "@EMaistre"
+      }
+    ]
+  },
+  "mandats": {
+    "mandat": [
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM863909",
+        "acteurRef": "PA842141",
+        "legislature": "17",
+        "typeOrgane": "GP",
+        "dateDebut": "2025-02-11",
+        "datePublication": null,
+        "dateFin": null,
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre du",
+          "libQualiteSex": "Membre du"
+        },
+        "organes": {
+          "organeRef": "PO845425"
+        }
+      },
+      {
+        "@xsi:type": "MandatParlementaire_type",
+        "uid": "PM863671",
+        "acteurRef": "PA842141",
+        "legislature": "17",
+        "typeOrgane": "ASSEMBLEE",
+        "dateDebut": "2025-02-09",
+        "datePublication": null,
+        "dateFin": null,
+        "preseance": "50",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "membre",
+          "libQualite": "membre",
+          "libQualiteSex": "membre"
+        },
+        "organes": {
+          "organeRef": "PO838901"
+        },
+        "suppleants": {
+          "suppleant": {
+            "dateDebut": "2025-02-09",
+            "dateFin": null,
+            "suppleantRef": "PA341"
+          }
+        },
+        "chambre": null,
+        "election": {
+          "lieu": {
+            "region": "Ile-de-France",
+            "regionType": "Métropolitain",
+            "departement": "Hauts-de-Seine",
+            "numDepartement": "92",
+            "numCirco": "9"
+          },
+          "causeMandat": "élection partielle, remplacement d'un député élu au Parlement européen",
+          "refCirconscription": "PO840007"
+        },
+        "mandature": {
+          "datePriseFonction": "2025-02-10",
+          "causeFin": null,
+          "premiereElection": "0",
+          "placeHemicycle": null,
+          "mandatRemplaceRef": null
+        },
+        "collaborateurs": [
+          null,
+          null
+        ]
+      }
+    ]
+  }
+}
