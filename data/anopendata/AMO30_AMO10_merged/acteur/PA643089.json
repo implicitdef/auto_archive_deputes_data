@@ -195,7 +195,7 @@
         "datePublication": null,
         "dateFin": null,
         "preseance": "20",
-        "nominPrincipale": "1",
+        "nominPrincipale": "0",
         "infosQualite": {
           "codeQualite": "Membre",
           "libQualite": "Membre",
@@ -326,6 +326,26 @@
         }
       },
       {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM864210",
+        "acteurRef": "PA643089",
+        "legislature": "17",
+        "typeOrgane": "GE",
+        "dateDebut": "2025-02-11",
+        "datePublication": null,
+        "dateFin": null,
+        "preseance": "8",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Vice-Président",
+          "libQualite": "Vice-Président",
+          "libQualiteSex": "Vice-Président"
+        },
+        "organes": {
+          "organeRef": "PO854411"
+        }
+      },
+      {
         "@xsi:type": "MandatParlementaire_type",
         "uid": "PM858443",
         "acteurRef": "PA643089",
@@ -371,13 +391,22 @@
           "mandatRemplaceRef": "PM843431"
         },
         "collaborateurs": {
-          "collaborateur": {
-            "qualite": "Mme",
-            "prenom": "Clémence",
-            "nom": "Delebecque",
-            "dateDebut": null,
-            "dateFin": null
-          }
+          "collaborateur": [
+            {
+              "qualite": "Mme",
+              "prenom": "Clémence",
+              "nom": "Delebecque",
+              "dateDebut": null,
+              "dateFin": null
+            },
+            {
+              "qualite": "Mme",
+              "prenom": "Chloé",
+              "nom": "Sallé",
+              "dateDebut": null,
+              "dateFin": null
+            }
+          ]
         }
       },
       {
