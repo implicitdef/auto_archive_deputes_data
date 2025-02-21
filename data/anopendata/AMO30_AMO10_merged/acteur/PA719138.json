@@ -323,6 +323,46 @@
         }
       },
       {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM860071",
+        "acteurRef": "PA719138",
+        "legislature": "17",
+        "typeOrgane": "GE",
+        "dateDebut": "2025-01-28",
+        "datePublication": null,
+        "dateFin": null,
+        "preseance": "4",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Co-Président",
+          "libQualite": "Co-Président",
+          "libQualiteSex": "Co-Président"
+        },
+        "organes": {
+          "organeRef": "PO854323"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM863569",
+        "acteurRef": "PA719138",
+        "legislature": "17",
+        "typeOrgane": "GA",
+        "dateDebut": "2025-02-07",
+        "datePublication": null,
+        "dateFin": null,
+        "preseance": "8",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Vice-Président",
+          "libQualite": "Vice-Président",
+          "libQualiteSex": "Vice-Président"
+        },
+        "organes": {
+          "organeRef": "PO851376"
+        }
+      },
+      {
         "@xsi:type": "MandatParlementaire_type",
         "uid": "PM842672",
         "acteurRef": "PA719138",
@@ -368,53 +408,22 @@
           "mandatRemplaceRef": null
         },
         "collaborateurs": {
-          "collaborateur": {
-            "qualite": "Mme",
-            "prenom": "Pauline",
-            "nom": "Santelli",
-            "dateDebut": null,
-            "dateFin": null
-          }
-        }
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM860071",
-        "acteurRef": "PA719138",
-        "legislature": "17",
-        "typeOrgane": "GE",
-        "dateDebut": "2025-01-28",
-        "datePublication": null,
-        "dateFin": null,
-        "preseance": "4",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Co-Président",
-          "libQualite": "Co-Président",
-          "libQualiteSex": "Co-Président"
-        },
-        "organes": {
-          "organeRef": "PO854323"
-        }
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM863569",
-        "acteurRef": "PA719138",
-        "legislature": "17",
-        "typeOrgane": "GA",
-        "dateDebut": "2025-02-07",
-        "datePublication": null,
-        "dateFin": null,
-        "preseance": "8",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Vice-Président",
-          "libQualite": "Vice-Président",
-          "libQualiteSex": "Vice-Président"
-        },
-        "organes": {
-          "organeRef": "PO851376"
+          "collaborateur": [
+            {
+              "qualite": "Mme",
+              "prenom": "Pauline",
+              "nom": "Santelli",
+              "dateDebut": null,
+              "dateFin": null
+            },
+            {
+              "qualite": "M.",
+              "prenom": "Alain",
+              "nom": "Clemenceau",
+              "dateDebut": null,
+              "dateFin": null
+            }
+          ]
         }
       },
       {
