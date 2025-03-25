@@ -398,6 +398,26 @@
         }
       },
       {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM863132",
+        "acteurRef": "PA794802",
+        "legislature": "17",
+        "typeOrgane": "GA",
+        "dateDebut": "2025-01-27",
+        "datePublication": null,
+        "dateFin": null,
+        "preseance": "8",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Vice-Président",
+          "libQualite": "Vice-Président",
+          "libQualiteSex": "Vice-Président"
+        },
+        "organes": {
+          "organeRef": "PO851648"
+        }
+      },
+      {
         "@xsi:type": "MandatParlementaire_type",
         "uid": "PM843191",
         "acteurRef": "PA794802",
@@ -443,33 +463,22 @@
           "mandatRemplaceRef": null
         },
         "collaborateurs": {
-          "collaborateur": {
-            "qualite": "Mme",
-            "prenom": "Nadège",
-            "nom": "Heiligenstein",
-            "dateDebut": null,
-            "dateFin": null
-          }
-        }
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM863132",
-        "acteurRef": "PA794802",
-        "legislature": "17",
-        "typeOrgane": "GA",
-        "dateDebut": "2025-01-27",
-        "datePublication": null,
-        "dateFin": null,
-        "preseance": "8",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Vice-Président",
-          "libQualite": "Vice-Président",
-          "libQualiteSex": "Vice-Président"
-        },
-        "organes": {
-          "organeRef": "PO851648"
+          "collaborateur": [
+            {
+              "qualite": "Mme",
+              "prenom": "Nadège",
+              "nom": "Heiligenstein",
+              "dateDebut": null,
+              "dateFin": null
+            },
+            {
+              "qualite": "M.",
+              "prenom": "Louis",
+              "nom": "Reboul",
+              "dateDebut": null,
+              "dateFin": null
+            }
+          ]
         }
       },
       {
