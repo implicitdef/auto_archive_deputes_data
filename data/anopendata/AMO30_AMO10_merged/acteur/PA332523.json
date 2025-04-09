@@ -8,7 +8,8 @@
       "civ": "Mme",
       "prenom": "Marie-Christine",
       "nom": "Dalloz",
-      "alpha": "Dalloz"
+      "alpha": "Dalloz",
+      "trigramme": "MDL"
     },
     "infoNaissance": {
       "dateNais": "1958-01-10",
@@ -18,6 +19,7 @@
     }
   },
   "profession": {
+    "libelleCourant": "(86) - Personne diverse sans activité professionnelle de 60 ans et plus",
     "socProcINSEE": {
       "catSocPro": "Sans profession déclarée",
       "famSocPro": "Sans profession déclarée"
@@ -47,43 +49,11 @@
         "poids": "22",
         "adresseDeRattachement": null,
         "intitule": null,
-        "numeroRue": "2",
-        "nomRue": "Rue du Général Leclerc",
-        "complementAdresse": null,
-        "codePostal": "39300",
-        "ville": "Champagnole"
-      },
-      {
-        "@xsi:type": "AdressePostale_Type",
-        "uid": "AD388607",
-        "type": "2",
-        "typeLibelle": "Adresse publiée de circonscription",
-        "poids": "23",
-        "adresseDeRattachement": null,
-        "intitule": null,
         "numeroRue": "63",
         "nomRue": "Rue du Collège",
         "complementAdresse": null,
         "codePostal": "39200",
         "ville": "Saint-Claude"
-      },
-      {
-        "@xsi:type": "AdresseTelephonique_Type",
-        "uid": "AD394994",
-        "type": "11",
-        "typeLibelle": "Téléphone",
-        "poids": "22",
-        "adresseDeRattachement": "AD388605",
-        "valElec": "03 84 52 05 13"
-      },
-      {
-        "@xsi:type": "AdresseTelephonique_Type",
-        "uid": "AD394995",
-        "type": "11",
-        "typeLibelle": "Téléphone",
-        "poids": "23",
-        "adresseDeRattachement": "AD388607",
-        "valElec": "03 84 45 11 14"
       },
       {
         "@xsi:type": "AdresseSiteWeb_Type",
@@ -120,11 +90,130 @@
         "poids": null,
         "adresseDeRattachement": null,
         "valElec": "marie-christine.dalloz390@orange.fr"
+      },
+      {
+        "@xsi:type": "AdresseTelephonique_Type",
+        "uid": "AD845212",
+        "type": "11",
+        "typeLibelle": "Téléphone",
+        "poids": "22",
+        "adresseDeRattachement": "AD388605",
+        "valElec": "03 84 45 11 14"
       }
     ]
   },
   "mandats": {
     "mandat": [
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM852690",
+        "acteurRef": "PA332523",
+        "legislature": null,
+        "typeOrgane": "PARPOL",
+        "dateDebut": "2024-12-04",
+        "datePublication": "2024-12-04",
+        "dateFin": null,
+        "preseance": "5",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO710396"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM868387",
+        "acteurRef": "PA332523",
+        "legislature": "17",
+        "typeOrgane": "GP",
+        "dateDebut": "2025-04-08",
+        "datePublication": "2025-04-08",
+        "dateFin": null,
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre du",
+          "libQualiteSex": "Membre du"
+        },
+        "organes": {
+          "organeRef": "PO845425"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM868416",
+        "acteurRef": "PA332523",
+        "legislature": "17",
+        "typeOrgane": "COMPER",
+        "dateDebut": "2025-04-08",
+        "datePublication": "2025-04-08",
+        "dateFin": null,
+        "preseance": "32",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO59048"
+        }
+      },
+      {
+        "@xsi:type": "MandatParlementaire_type",
+        "uid": "PM868378",
+        "acteurRef": "PA332523",
+        "legislature": "17",
+        "typeOrgane": "ASSEMBLEE",
+        "dateDebut": "2025-04-06",
+        "datePublication": null,
+        "dateFin": null,
+        "preseance": "50",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "membre",
+          "libQualite": "membre",
+          "libQualiteSex": "membre"
+        },
+        "organes": {
+          "organeRef": "PO838901"
+        },
+        "suppleants": {
+          "suppleant": {
+            "dateDebut": "2025-04-06",
+            "dateFin": null,
+            "suppleantRef": "PA868377"
+          }
+        },
+        "chambre": null,
+        "election": {
+          "lieu": {
+            "region": "Bourgogne-Franche-Comté",
+            "regionType": "Métropolitain",
+            "departement": "Jura",
+            "numDepartement": "39",
+            "numCirco": "2"
+          },
+          "causeMandat": "élection partielle, suite à l'annulation de l'élection d'un député",
+          "refCirconscription": "PO839497"
+        },
+        "mandature": {
+          "datePriseFonction": "2025-04-07",
+          "causeFin": null,
+          "premiereElection": "1",
+          "placeHemicycle": "168",
+          "mandatRemplaceRef": null
+        },
+        "collaborateurs": [
+          null,
+          null
+        ]
+      },
       {
         "@xsi:type": "MandatAvecSuppleant_Type",
         "uid": "PM802073",
