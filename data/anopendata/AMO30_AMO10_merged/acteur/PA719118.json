@@ -615,6 +615,26 @@
         }
       },
       {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM864206",
+        "acteurRef": "PA719118",
+        "legislature": "17",
+        "typeOrgane": "GE",
+        "dateDebut": "2025-02-11",
+        "datePublication": null,
+        "dateFin": null,
+        "preseance": "8",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Vice-Président",
+          "libQualite": "Vice-Président",
+          "libQualiteSex": "Vice-Président"
+        },
+        "organes": {
+          "organeRef": "PO854411"
+        }
+      },
+      {
         "@xsi:type": "MandatParlementaire_type",
         "uid": "PM842501",
         "acteurRef": "PA719118",
@@ -660,33 +680,22 @@
           "mandatRemplaceRef": null
         },
         "collaborateurs": {
-          "collaborateur": {
-            "qualite": "M.",
-            "prenom": "Gabriel",
-            "nom": "Vallet",
-            "dateDebut": null,
-            "dateFin": null
-          }
-        }
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM864206",
-        "acteurRef": "PA719118",
-        "legislature": "17",
-        "typeOrgane": "GE",
-        "dateDebut": "2025-02-11",
-        "datePublication": null,
-        "dateFin": null,
-        "preseance": "8",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Vice-Président",
-          "libQualite": "Vice-Président",
-          "libQualiteSex": "Vice-Président"
-        },
-        "organes": {
-          "organeRef": "PO854411"
+          "collaborateur": [
+            {
+              "qualite": "M.",
+              "prenom": "Gabriel",
+              "nom": "Vallet",
+              "dateDebut": null,
+              "dateFin": null
+            },
+            {
+              "qualite": "M.",
+              "prenom": "Arthur",
+              "nom": "Devillers",
+              "dateDebut": null,
+              "dateFin": null
+            }
+          ]
         }
       },
       {
