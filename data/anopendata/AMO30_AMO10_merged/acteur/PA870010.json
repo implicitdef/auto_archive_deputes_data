@@ -1,0 +1,171 @@
+{
+  "uid": {
+    "@xsi:type": "IdActeur_type",
+    "#text": "PA870010"
+  },
+  "etatCivil": {
+    "ident": {
+      "civ": "M.",
+      "prenom": "Sébastien",
+      "nom": "Martin",
+      "alpha": "Martin",
+      "trigramme": "SMAR"
+    },
+    "infoNaissance": {
+      "dateNais": "1977-11-24",
+      "villeNais": "VICHY",
+      "paysNais": "France"
+    }
+  },
+  "profession": {
+    "libelleCourant": "Ancien cadre du secteur privé",
+    "socProcINSEE": {
+      "catSocPro": "Cadres des services administratifs et commerciaux d’entreprise",
+      "famSocPro": "Cadres et professions intellectuelles supérieures"
+    }
+  },
+  "uri_hatvp": "/tribun/resources/html/defautDeclarationActeur.html",
+  "adresses": {
+    "adresse": [
+      {
+        "@xsi:type": "AdresseSiteWeb_Type",
+        "uid": "AD870015",
+        "type": "24",
+        "typeLibelle": "Twitter",
+        "poids": null,
+        "adresseDeRattachement": null,
+        "valElec": "@sbastien_martin"
+      },
+      {
+        "@xsi:type": "AdresseSiteWeb_Type",
+        "uid": "AD870016",
+        "type": "25",
+        "typeLibelle": "Facebook",
+        "poids": null,
+        "adresseDeRattachement": null,
+        "valElec": "sebastien.martin.792197"
+      },
+      {
+        "@xsi:type": "AdresseSiteWeb_Type",
+        "uid": "AD870017",
+        "type": "29",
+        "typeLibelle": "Instagram",
+        "poids": null,
+        "adresseDeRattachement": null,
+        "valElec": "_sebastienmartin_"
+      },
+      {
+        "@xsi:type": "AdresseMail_Type",
+        "uid": "AD870018",
+        "type": "15",
+        "typeLibelle": "Mèl",
+        "poids": null,
+        "adresseDeRattachement": null,
+        "valElec": "sebastien.martin@assemblee-nationale.fr"
+      },
+      {
+        "@xsi:type": "AdresseSiteWeb_Type",
+        "uid": "AD870019",
+        "type": "30",
+        "typeLibelle": "Linkedin",
+        "poids": null,
+        "adresseDeRattachement": null,
+        "valElec": "/in/sébastien-martin-notre-industrie"
+      }
+    ]
+  },
+  "mandats": {
+    "mandat": [
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM870014",
+        "acteurRef": "PA870010",
+        "legislature": "17",
+        "typeOrgane": "GP",
+        "dateDebut": "2025-05-26",
+        "datePublication": null,
+        "dateFin": null,
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre du",
+          "libQualiteSex": "Membre du"
+        },
+        "organes": {
+          "organeRef": "PO845425"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM870023",
+        "acteurRef": "PA870010",
+        "legislature": "17",
+        "typeOrgane": "COMPER",
+        "dateDebut": "2025-05-27",
+        "datePublication": "2025-05-27",
+        "dateFin": null,
+        "preseance": "32",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO419604"
+        }
+      },
+      {
+        "@xsi:type": "MandatParlementaire_type",
+        "uid": "PM870011",
+        "acteurRef": "PA870010",
+        "legislature": "17",
+        "typeOrgane": "ASSEMBLEE",
+        "dateDebut": "2025-05-25",
+        "datePublication": null,
+        "dateFin": null,
+        "preseance": "50",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "membre",
+          "libQualite": "membre",
+          "libQualiteSex": "membre"
+        },
+        "organes": {
+          "organeRef": "PO838901"
+        },
+        "suppleants": {
+          "suppleant": {
+            "dateDebut": "2025-05-25",
+            "dateFin": null,
+            "suppleantRef": "PA870009"
+          }
+        },
+        "chambre": null,
+        "election": {
+          "lieu": {
+            "region": "Bourgogne-Franche-Comté",
+            "regionType": "Métropolitain",
+            "departement": "Saône-et-Loire",
+            "numDepartement": "71",
+            "numCirco": "5"
+          },
+          "causeMandat": "élection partielle, suite à l'annulation de l'élection d'un député",
+          "refCirconscription": "PO839795"
+        },
+        "mandature": {
+          "datePriseFonction": "2025-05-26",
+          "causeFin": null,
+          "premiereElection": "0",
+          "placeHemicycle": "084",
+          "mandatRemplaceRef": null
+        },
+        "collaborateurs": [
+          null,
+          null
+        ]
+      }
+    ]
+  }
+}
