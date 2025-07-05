@@ -88,15 +88,15 @@
   "mandats": {
     "mandat": [
       {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM864634",
+        "@xsi:type": "MandatAvecSuppleant_Type",
+        "uid": "PM872313",
         "acteurRef": "PA712015",
         "legislature": "17",
-        "typeOrgane": "API",
-        "dateDebut": "2025-02-14",
-        "datePublication": null,
+        "typeOrgane": "COMNL",
+        "dateDebut": "2025-07-04",
+        "datePublication": "2025-07-04",
         "dateFin": null,
-        "preseance": "40",
+        "preseance": "20",
         "nominPrincipale": "1",
         "infosQualite": {
           "codeQualite": "Membre",
@@ -104,8 +104,9 @@
           "libQualiteSex": "Membre"
         },
         "organes": {
-          "organeRef": "PO201115"
-        }
+          "organeRef": "PO415287"
+        },
+        "suppleants": null
       },
       {
         "@xsi:type": "MandatSimple_Type",
@@ -125,6 +126,26 @@
         },
         "organes": {
           "organeRef": "PO710396"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM864634",
+        "acteurRef": "PA712015",
+        "legislature": "17",
+        "typeOrgane": "API",
+        "dateDebut": "2025-02-14",
+        "datePublication": null,
+        "dateFin": null,
+        "preseance": "40",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO201115"
         }
       },
       {
