@@ -12,27 +12,68 @@
       "trigramme": "CMIN"
     },
     "infoNaissance": {
-      "dateNais": "1970-10-04"
+      "dateNais": "1970-10-04",
+      "villeNais": "Chartres",
+      "depNais": "Eure-et-Loir",
+      "paysNais": "France"
     }
   },
   "profession": {
-    "socProcINSEE": {}
+    "libelleCourant": "Agricultrice",
+    "socProcINSEE": {
+      "catSocPro": "Agriculteurs exploitants",
+      "famSocPro": "Agriculteurs exploitants"
+    }
   },
   "adresses": {
-    "adresse": {
-      "@xsi:type": "AdressePostale_Type",
-      "uid": "AD719380",
-      "type": "0",
-      "typeLibelle": "Adresse officielle",
-      "poids": "1",
-      "adresseDeRattachement": null,
-      "intitule": "Assemblée nationale,",
-      "numeroRue": "126",
-      "nomRue": "Rue de l'Université,",
-      "complementAdresse": null,
-      "codePostal": "75355",
-      "ville": "Paris 07 SP"
-    }
+    "adresse": [
+      {
+        "@xsi:type": "AdressePostale_Type",
+        "uid": "AD719380",
+        "type": "0",
+        "typeLibelle": "Adresse officielle",
+        "poids": "1",
+        "adresseDeRattachement": null,
+        "intitule": "Assemblée nationale,",
+        "numeroRue": "126",
+        "nomRue": "Rue de l'Université,",
+        "complementAdresse": null,
+        "codePostal": "75355",
+        "ville": "Paris 07 SP"
+      },
+      {
+        "@xsi:type": "AdressePostale_Type",
+        "uid": "AD872669",
+        "type": "2",
+        "typeLibelle": "Adresse publiée de circonscription",
+        "poids": "22",
+        "adresseDeRattachement": null,
+        "intitule": null,
+        "numeroRue": null,
+        "nomRue": "Rue Saint-Martin",
+        "complementAdresse": null,
+        "codePostal": "28100",
+        "ville": "Dreux"
+      },
+      {
+        "@xsi:type": "AdresseTelephonique_Type",
+        "uid": "AD872670",
+        "type": "11",
+        "typeLibelle": "Téléphone",
+        "poids": "22",
+        "adresseDeRattachement": "AD872669",
+        "valElec": "02 37 82 00 00"
+      },
+      {
+        "@xsi:type": "AdresseMail_Type",
+        "uid": "AD872671",
+        "type": "15",
+        "typeLibelle": "Mèl",
+        "poids": null,
+        "adresseDeRattachement": null,
+        "valElec": "christelle.minard@assemblee-nationale.fr"
+      }
+    ]
   },
   "mandats": {
     "mandat": [
