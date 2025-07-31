@@ -74,46 +74,6 @@
   "mandats": {
     "mandat": [
       {
-        "@xsi:type": "MandatParlementaire_type",
-        "uid": "PM846753",
-        "acteurRef": "PA722190",
-        "legislature": "17",
-        "typeOrgane": "CONFPT",
-        "dateDebut": "2024-07-20",
-        "datePublication": "2024-07-20",
-        "dateFin": null,
-        "preseance": "7",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": null,
-          "libQualite": "Présidents des groupes politiques",
-          "libQualiteSex": "Présidents des groupes politiques"
-        },
-        "organes": {
-          "organeRef": "PO846702"
-        },
-        "suppleants": null,
-        "chambre": null,
-        "election": {
-          "lieu": {
-            "region": null,
-            "regionType": null,
-            "departement": null,
-            "numDepartement": null,
-            "numCirco": null
-          },
-          "causeMandat": null
-        },
-        "mandature": {
-          "datePriseFonction": null,
-          "causeFin": null,
-          "premiereElection": "0",
-          "placeHemicycle": null,
-          "mandatRemplaceRef": null
-        },
-        "collaborateurs": null
-      },
-      {
         "@xsi:type": "MandatSimple_Type",
         "uid": "PM862272",
         "acteurRef": "PA722190",
@@ -174,24 +134,44 @@
         }
       },
       {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM845698",
+        "@xsi:type": "MandatParlementaire_type",
+        "uid": "PM846753",
         "acteurRef": "PA722190",
         "legislature": "17",
-        "typeOrgane": "GP",
-        "dateDebut": "2024-07-19",
-        "datePublication": "2024-07-19",
+        "typeOrgane": "CONFPT",
+        "dateDebut": "2024-07-20",
+        "datePublication": "2024-07-20",
         "dateFin": null,
-        "preseance": "1",
+        "preseance": "7",
         "nominPrincipale": "1",
         "infosQualite": {
-          "codeQualite": "Président",
-          "libQualite": "Président du",
-          "libQualiteSex": "Président du"
+          "codeQualite": null,
+          "libQualite": "Présidents des groupes politiques",
+          "libQualiteSex": "Présidents des groupes politiques"
         },
         "organes": {
-          "organeRef": "PO845407"
-        }
+          "organeRef": "PO846702"
+        },
+        "suppleants": null,
+        "chambre": null,
+        "election": {
+          "lieu": {
+            "region": null,
+            "regionType": null,
+            "departement": null,
+            "numDepartement": null,
+            "numCirco": null
+          },
+          "causeMandat": null
+        },
+        "mandature": {
+          "datePriseFonction": null,
+          "causeFin": null,
+          "premiereElection": "0",
+          "placeHemicycle": null,
+          "mandatRemplaceRef": null
+        },
+        "collaborateurs": null
       },
       {
         "@xsi:type": "MandatSimple_Type",
@@ -291,6 +271,26 @@
         },
         "organes": {
           "organeRef": "PO851537"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM845698",
+        "acteurRef": "PA722190",
+        "legislature": "17",
+        "typeOrgane": "GP",
+        "dateDebut": "2024-07-19",
+        "datePublication": "2024-07-19",
+        "dateFin": null,
+        "preseance": "1",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Président",
+          "libQualite": "Président du",
+          "libQualiteSex": "Président du"
+        },
+        "organes": {
+          "organeRef": "PO845407"
         }
       },
       {
