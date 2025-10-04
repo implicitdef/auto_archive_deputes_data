@@ -101,6 +101,46 @@
   "mandats": {
     "mandat": [
       {
+        "@xsi:type": "MandatParlementaire_type",
+        "uid": "PM873355",
+        "acteurRef": "PA346782",
+        "legislature": "17",
+        "typeOrgane": "CONFPT",
+        "dateDebut": "2025-10-02",
+        "datePublication": "2025-10-03",
+        "dateFin": null,
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO846702"
+        },
+        "suppleants": null,
+        "chambre": null,
+        "election": {
+          "lieu": {
+            "region": null,
+            "regionType": null,
+            "departement": null,
+            "numDepartement": null,
+            "numCirco": null
+          },
+          "causeMandat": null
+        },
+        "mandature": {
+          "datePriseFonction": null,
+          "causeFin": null,
+          "premiereElection": "0",
+          "placeHemicycle": null,
+          "mandatRemplaceRef": null
+        },
+        "collaborateurs": null
+      },
+      {
         "@xsi:type": "MandatSimple_Type",
         "uid": "PM852825",
         "acteurRef": "PA346782",
@@ -170,7 +210,7 @@
         "datePublication": "2025-05-06",
         "dateFin": null,
         "preseance": "32",
-        "nominPrincipale": "1",
+        "nominPrincipale": "0",
         "infosQualite": {
           "codeQualite": "Membre",
           "libQualite": "Membre",
@@ -238,6 +278,26 @@
         },
         "organes": {
           "organeRef": "PO854439"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM873354",
+        "acteurRef": "PA346782",
+        "legislature": "17",
+        "typeOrgane": "COMPER",
+        "dateDebut": "2025-10-02",
+        "datePublication": "2025-10-03",
+        "dateFin": null,
+        "preseance": "4",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Rapporteur général",
+          "libQualite": "Rapporteur général",
+          "libQualiteSex": "Rapporteur général"
+        },
+        "organes": {
+          "organeRef": "PO59048"
         }
       },
       {

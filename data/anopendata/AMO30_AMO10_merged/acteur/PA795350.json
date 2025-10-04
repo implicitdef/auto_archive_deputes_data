@@ -92,6 +92,46 @@
   "mandats": {
     "mandat": [
       {
+        "@xsi:type": "MandatParlementaire_type",
+        "uid": "PM873323",
+        "acteurRef": "PA795350",
+        "legislature": "17",
+        "typeOrgane": "CONFPT",
+        "dateDebut": "2025-10-02",
+        "datePublication": "2025-10-03",
+        "dateFin": null,
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO846702"
+        },
+        "suppleants": null,
+        "chambre": null,
+        "election": {
+          "lieu": {
+            "region": null,
+            "regionType": null,
+            "departement": null,
+            "numDepartement": null,
+            "numCirco": null
+          },
+          "causeMandat": null
+        },
+        "mandature": {
+          "datePriseFonction": null,
+          "causeFin": null,
+          "premiereElection": "0",
+          "placeHemicycle": null,
+          "mandatRemplaceRef": null
+        },
+        "collaborateurs": null
+      },
+      {
         "@xsi:type": "MandatSimple_Type",
         "uid": "PM853092",
         "acteurRef": "PA795350",
@@ -173,6 +213,26 @@
       },
       {
         "@xsi:type": "MandatSimple_Type",
+        "uid": "PM873322",
+        "acteurRef": "PA795350",
+        "legislature": "17",
+        "typeOrgane": "COMPER",
+        "dateDebut": "2025-10-02",
+        "datePublication": "2025-10-03",
+        "dateFin": null,
+        "preseance": "1",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Président",
+          "libQualite": "Président",
+          "libQualiteSex": "Président"
+        },
+        "organes": {
+          "organeRef": "PO420120"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
         "uid": "PM848079",
         "acteurRef": "PA795350",
         "legislature": "17",
@@ -181,7 +241,7 @@
         "datePublication": "2024-09-27",
         "dateFin": null,
         "preseance": "32",
-        "nominPrincipale": "1",
+        "nominPrincipale": "0",
         "infosQualite": {
           "codeQualite": "Membre",
           "libQualite": "Membre",
