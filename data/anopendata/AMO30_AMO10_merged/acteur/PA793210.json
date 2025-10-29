@@ -318,26 +318,6 @@
         }
       },
       {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM859983",
-        "acteurRef": "PA793210",
-        "legislature": "17",
-        "typeOrgane": "GE",
-        "dateDebut": "2025-01-28",
-        "datePublication": null,
-        "dateFin": null,
-        "preseance": "4",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Co-Président",
-          "libQualite": "Co-Président",
-          "libQualiteSex": "Co-Président"
-        },
-        "organes": {
-          "organeRef": "PO854471"
-        }
-      },
-      {
         "@xsi:type": "MandatParlementaire_type",
         "uid": "PM842417",
         "acteurRef": "PA793210",
@@ -383,29 +363,33 @@
           "mandatRemplaceRef": null
         },
         "collaborateurs": {
-          "collaborateur": [
-            {
-              "qualite": "Mme",
-              "prenom": "Hélène",
-              "nom": "Rouquet",
-              "dateDebut": null,
-              "dateFin": null
-            },
-            {
-              "qualite": "Mme",
-              "prenom": "Laura",
-              "nom": "Séguéla",
-              "dateDebut": null,
-              "dateFin": null
-            },
-            {
-              "qualite": "M.",
-              "prenom": "Benjamin",
-              "nom": "Saint-Huile",
-              "dateDebut": null,
-              "dateFin": null
-            }
-          ]
+          "collaborateur": {
+            "qualite": "Mme",
+            "prenom": "Hélène",
+            "nom": "Rouquet",
+            "dateDebut": null,
+            "dateFin": null
+          }
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM859983",
+        "acteurRef": "PA793210",
+        "legislature": "17",
+        "typeOrgane": "GE",
+        "dateDebut": "2025-01-28",
+        "datePublication": null,
+        "dateFin": null,
+        "preseance": "4",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Co-Président",
+          "libQualite": "Co-Président",
+          "libQualiteSex": "Co-Président"
+        },
+        "organes": {
+          "organeRef": "PO854471"
         }
       },
       {
