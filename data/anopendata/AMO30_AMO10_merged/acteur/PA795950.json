@@ -706,6 +706,61 @@
         }
       },
       {
+        "@xsi:type": "MandatParlementaire_type",
+        "uid": "PM843419",
+        "acteurRef": "PA795950",
+        "legislature": "17",
+        "typeOrgane": "ASSEMBLEE",
+        "dateDebut": "2024-07-07",
+        "datePublication": null,
+        "dateFin": null,
+        "preseance": "50",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "membre",
+          "libQualite": "membre",
+          "libQualiteSex": "membre"
+        },
+        "organes": {
+          "organeRef": "PO838901"
+        },
+        "suppleants": {
+          "suppleant": {
+            "dateDebut": "2024-07-07",
+            "dateFin": null,
+            "suppleantRef": "PA795954"
+          }
+        },
+        "chambre": null,
+        "election": {
+          "lieu": {
+            "region": "Ile-de-France",
+            "regionType": "Métropolitain",
+            "departement": "Paris",
+            "numDepartement": "75",
+            "numCirco": "13"
+          },
+          "causeMandat": "élections générales",
+          "refCirconscription": "PO839787"
+        },
+        "mandature": {
+          "datePriseFonction": "2024-07-08",
+          "causeFin": null,
+          "premiereElection": "1",
+          "placeHemicycle": "259",
+          "mandatRemplaceRef": null
+        },
+        "collaborateurs": {
+          "collaborateur": {
+            "qualite": "Mme",
+            "prenom": "Christine",
+            "nom": "Lacoste",
+            "dateDebut": null,
+            "dateFin": null
+          }
+        }
+      },
+      {
         "@xsi:type": "MandatSimple_Type",
         "uid": "PM863351",
         "acteurRef": "PA795950",
@@ -823,70 +878,6 @@
         },
         "organes": {
           "organeRef": "PO851406"
-        }
-      },
-      {
-        "@xsi:type": "MandatParlementaire_type",
-        "uid": "PM843419",
-        "acteurRef": "PA795950",
-        "legislature": "17",
-        "typeOrgane": "ASSEMBLEE",
-        "dateDebut": "2024-07-07",
-        "datePublication": null,
-        "dateFin": null,
-        "preseance": "50",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "membre",
-          "libQualite": "membre",
-          "libQualiteSex": "membre"
-        },
-        "organes": {
-          "organeRef": "PO838901"
-        },
-        "suppleants": {
-          "suppleant": {
-            "dateDebut": "2024-07-07",
-            "dateFin": null,
-            "suppleantRef": "PA795954"
-          }
-        },
-        "chambre": null,
-        "election": {
-          "lieu": {
-            "region": "Ile-de-France",
-            "regionType": "Métropolitain",
-            "departement": "Paris",
-            "numDepartement": "75",
-            "numCirco": "13"
-          },
-          "causeMandat": "élections générales",
-          "refCirconscription": "PO839787"
-        },
-        "mandature": {
-          "datePriseFonction": "2024-07-08",
-          "causeFin": null,
-          "premiereElection": "1",
-          "placeHemicycle": "259",
-          "mandatRemplaceRef": null
-        },
-        "collaborateurs": {
-          "collaborateur": [
-            {
-              "qualite": "M.",
-              "prenom": "Jacques",
-              "nom": "Meurin",
-              "dateDebut": null,
-              "dateFin": null
-            },
-            {
-              "qualite": "Mme",
-              "prenom": "Christine",
-              "nom": "Lacoste",
-              "dateDebut": null,
-              "dateFin": null
-            }
-          ]
         }
       },
       {
