@@ -8,28 +8,226 @@
       "civ": "Mme",
       "prenom": "Valérie",
       "nom": "Létard",
-      "alpha": "Letard"
+      "alpha": "Letard",
+      "trigramme": "VLET"
     },
     "infoNaissance": {
-      "dateNais": "1962-10-13"
+      "dateNais": "1962-10-13",
+      "villeNais": "Orchies",
+      "depNais": "Nord",
+      "paysNais": "France"
     }
   },
   "profession": {
-    "socProcINSEE": {}
-  },
-  "adresses": {
-    "adresse": {
-      "@xsi:type": "AdresseSiteWeb_Type",
-      "uid": "AD317000",
-      "type": "23",
-      "typeLibelle": "Url sénateur",
-      "poids": null,
-      "adresseDeRattachement": null,
-      "valElec": "https://www.senat.fr/senateur/letard_valerie01043q.html"
+    "libelleCourant": "Cadre de la fonction publique territoriale",
+    "socProcINSEE": {
+      "catSocPro": "Cadres de la fonction publique, professions intellectuelles et  artistiques",
+      "famSocPro": "Cadres et professions intellectuelles supérieures"
     }
+  },
+  "uri_hatvp": "/tribun/resources/html/defautDeclarationActeur.html",
+  "adresses": {
+    "adresse": [
+      {
+        "@xsi:type": "AdresseSiteWeb_Type",
+        "uid": "AD317000",
+        "type": "23",
+        "typeLibelle": "Url sénateur",
+        "poids": null,
+        "adresseDeRattachement": null,
+        "valElec": "https://www.senat.fr/senateur/letard_valerie01043q.html"
+      },
+      {
+        "@xsi:type": "AdressePostale_Type",
+        "uid": "AD841561",
+        "type": "0",
+        "typeLibelle": "Adresse officielle",
+        "poids": "1",
+        "adresseDeRattachement": null,
+        "intitule": "Assemblée nationale,",
+        "numeroRue": "126",
+        "nomRue": "Rue de l'Université,",
+        "complementAdresse": null,
+        "codePostal": "75355",
+        "ville": "Paris 07 SP"
+      },
+      {
+        "@xsi:type": "AdresseMail_Type",
+        "uid": "AD843831",
+        "type": "15",
+        "typeLibelle": "Mèl",
+        "poids": null,
+        "adresseDeRattachement": null,
+        "valElec": "valerie.letard@assemblee-nationale.fr"
+      },
+      {
+        "@xsi:type": "AdresseSiteWeb_Type",
+        "uid": "AD844276",
+        "type": "29",
+        "typeLibelle": "Instagram",
+        "poids": null,
+        "adresseDeRattachement": null,
+        "valElec": "valerieletard"
+      },
+      {
+        "@xsi:type": "AdresseSiteWeb_Type",
+        "uid": "AD844296",
+        "type": "22",
+        "typeLibelle": "Site internet",
+        "poids": null,
+        "adresseDeRattachement": null,
+        "valElec": "www.valerieletard.org"
+      },
+      {
+        "@xsi:type": "AdresseSiteWeb_Type",
+        "uid": "AD844306",
+        "type": "24",
+        "typeLibelle": "Twitter",
+        "poids": null,
+        "adresseDeRattachement": null,
+        "valElec": "@valerieletard"
+      },
+      {
+        "@xsi:type": "AdresseMail_Type",
+        "uid": "AD844324",
+        "type": "15",
+        "typeLibelle": "Mèl",
+        "poids": null,
+        "adresseDeRattachement": null,
+        "valElec": "cabinet@valerieletard.org"
+      },
+      {
+        "@xsi:type": "AdresseSiteWeb_Type",
+        "uid": "AD844348",
+        "type": "30",
+        "typeLibelle": "Linkedin",
+        "poids": null,
+        "adresseDeRattachement": null,
+        "valElec": "/in/val%C3%A9rie-l%C3%A9tard-16a0a5167"
+      },
+      {
+        "@xsi:type": "AdresseSiteWeb_Type",
+        "uid": "AD844388",
+        "type": "25",
+        "typeLibelle": "Facebook",
+        "poids": null,
+        "adresseDeRattachement": null,
+        "valElec": "people/Val%C3%A9rie-L%C3%A9tard/100058007233955"
+      }
+    ]
   },
   "mandats": {
     "mandat": [
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM15855122",
+        "acteurRef": "PA227089",
+        "legislature": null,
+        "typeOrgane": "GOUVERNEMENT",
+        "dateDebut": "2024-12-24",
+        "datePublication": "2024-12-24",
+        "dateFin": null,
+        "preseance": "50",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "membre",
+          "libQualite": "membre",
+          "libQualiteSex": "membre"
+        },
+        "organes": {
+          "organeRef": "PO855052"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM874696",
+        "acteurRef": "PA227089",
+        "legislature": "17",
+        "typeOrgane": "COMPER",
+        "dateDebut": "2025-11-06",
+        "datePublication": "2025-11-06",
+        "dateFin": null,
+        "preseance": "32",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO419604"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM874598",
+        "acteurRef": "PA227089",
+        "legislature": "17",
+        "typeOrgane": "GP",
+        "dateDebut": "2025-11-06",
+        "datePublication": null,
+        "dateFin": null,
+        "preseance": "28",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Député non-inscrit",
+          "libQualite": "Député non-inscrit",
+          "libQualiteSex": "Députée non-inscrite"
+        },
+        "organes": {
+          "organeRef": "PO840056"
+        }
+      },
+      {
+        "@xsi:type": "MandatParlementaire_type",
+        "uid": "PM874597",
+        "acteurRef": "PA227089",
+        "legislature": "17",
+        "typeOrgane": "ASSEMBLEE",
+        "dateDebut": "2024-07-07",
+        "datePublication": null,
+        "dateFin": null,
+        "preseance": "50",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "membre",
+          "libQualite": "membre",
+          "libQualiteSex": "membre"
+        },
+        "organes": {
+          "organeRef": "PO838901"
+        },
+        "suppleants": {
+          "suppleant": {
+            "dateDebut": "2024-07-07",
+            "dateFin": null,
+            "suppleantRef": "PA794554"
+          }
+        },
+        "chambre": null,
+        "election": {
+          "lieu": {
+            "region": "Hauts-de-France",
+            "regionType": "Métropolitain",
+            "departement": "Nord",
+            "numDepartement": "59",
+            "numCirco": "21"
+          },
+          "causeMandat": "reprise de l'exercice du mandat d'un ancien membre du Gouvernement",
+          "refCirconscription": "PO839601"
+        },
+        "mandature": {
+          "datePriseFonction": "2025-11-06",
+          "causeFin": null,
+          "premiereElection": "0",
+          "placeHemicycle": null,
+          "mandatRemplaceRef": "PM843131"
+        },
+        "collaborateurs": [
+          null,
+          null
+        ]
+      },
       {
         "@xsi:type": "MandatSimple_Type",
         "uid": "PM436976",

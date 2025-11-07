@@ -8,11 +8,12 @@
       "civ": "Mme",
       "prenom": "Véronique",
       "nom": "Louwagie",
-      "alpha": "Louwagie"
+      "alpha": "Louwagie",
+      "trigramme": "VLO"
     },
     "infoNaissance": {
       "dateNais": "1961-03-20",
-      "villeNais": "Buis sur Damville",
+      "villeNais": "Buis-sur-Damville",
       "depNais": "Eure",
       "paysNais": "France"
     }
@@ -116,11 +117,130 @@
         "poids": null,
         "adresseDeRattachement": null,
         "valElec": "Véronique Louwagie"
+      },
+      {
+        "@xsi:type": "AdresseSiteWeb_Type",
+        "uid": "AD844552",
+        "type": "30",
+        "typeLibelle": "Linkedin",
+        "poids": null,
+        "adresseDeRattachement": null,
+        "valElec": "/in/véronique-louwagie-23a7455b"
       }
     ]
   },
   "mandats": {
     "mandat": [
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM852892",
+        "acteurRef": "PA608016",
+        "legislature": null,
+        "typeOrgane": "PARPOL",
+        "dateDebut": "2024-12-04",
+        "datePublication": "2024-12-04",
+        "dateFin": null,
+        "preseance": "5",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO710396"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM874698",
+        "acteurRef": "PA608016",
+        "legislature": "17",
+        "typeOrgane": "COMPER",
+        "dateDebut": "2025-11-06",
+        "datePublication": "2025-11-06",
+        "dateFin": null,
+        "preseance": "32",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO59048"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM874600",
+        "acteurRef": "PA608016",
+        "legislature": "17",
+        "typeOrgane": "GP",
+        "dateDebut": "2025-11-06",
+        "datePublication": null,
+        "dateFin": null,
+        "preseance": "28",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Député non-inscrit",
+          "libQualite": "Député non-inscrit",
+          "libQualiteSex": "Députée non-inscrite"
+        },
+        "organes": {
+          "organeRef": "PO840056"
+        }
+      },
+      {
+        "@xsi:type": "MandatParlementaire_type",
+        "uid": "PM874599",
+        "acteurRef": "PA608016",
+        "legislature": "17",
+        "typeOrgane": "ASSEMBLEE",
+        "dateDebut": "2024-07-07",
+        "datePublication": null,
+        "dateFin": null,
+        "preseance": "50",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "membre",
+          "libQualite": "membre",
+          "libQualiteSex": "membre"
+        },
+        "organes": {
+          "organeRef": "PO838901"
+        },
+        "suppleants": {
+          "suppleant": {
+            "dateDebut": "2024-07-07",
+            "dateFin": null,
+            "suppleantRef": "PA794750"
+          }
+        },
+        "chambre": null,
+        "election": {
+          "lieu": {
+            "region": "Normandie",
+            "regionType": "Métropolitain",
+            "departement": "Orne",
+            "numDepartement": "61",
+            "numCirco": "2"
+          },
+          "causeMandat": "reprise de l'exercice du mandat d'un ancien membre du Gouvernement",
+          "refCirconscription": "PO839629"
+        },
+        "mandature": {
+          "datePriseFonction": "2025-11-06",
+          "causeFin": null,
+          "premiereElection": "1",
+          "placeHemicycle": null,
+          "mandatRemplaceRef": "PM843155"
+        },
+        "collaborateurs": [
+          null,
+          null
+        ]
+      },
       {
         "@xsi:type": "MandatAvecSuppleant_Type",
         "uid": "PM732592",
