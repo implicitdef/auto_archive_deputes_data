@@ -21,7 +21,7 @@
   "profession": {
     "libelleCourant": "Cardiologue",
     "socProcINSEE": {
-      "catSocPro": "Cadres de la fonction publique, professions intellectuelles et  artistiques",
+      "catSocPro": "Cadres administratifs et techniques de la fonction publique",
       "famSocPro": "Cadres et professions intellectuelles supérieures"
     }
   },
@@ -164,6 +164,26 @@
       },
       {
         "@xsi:type": "MandatSimple_Type",
+        "uid": "PM874710",
+        "acteurRef": "PA794038",
+        "legislature": "17",
+        "typeOrgane": "GP",
+        "dateDebut": "2025-11-06",
+        "datePublication": null,
+        "dateFin": null,
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre du",
+          "libQualiteSex": "Membre du"
+        },
+        "organes": {
+          "organeRef": "PO845425"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
         "uid": "PM874697",
         "acteurRef": "PA794038",
         "legislature": "17",
@@ -180,26 +200,6 @@
         },
         "organes": {
           "organeRef": "PO420120"
-        }
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM874608",
-        "acteurRef": "PA794038",
-        "legislature": "17",
-        "typeOrgane": "GP",
-        "dateDebut": "2025-11-06",
-        "datePublication": null,
-        "dateFin": null,
-        "preseance": "28",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Député non-inscrit",
-          "libQualite": "Député non-inscrit",
-          "libQualiteSex": "Député non-inscrit"
-        },
-        "organes": {
-          "organeRef": "PO840056"
         }
       },
       {
@@ -244,7 +244,7 @@
           "datePriseFonction": "2025-11-06",
           "causeFin": null,
           "premiereElection": "1",
-          "placeHemicycle": null,
+          "placeHemicycle": "206",
           "mandatRemplaceRef": "PM842783"
         },
         "collaborateurs": [

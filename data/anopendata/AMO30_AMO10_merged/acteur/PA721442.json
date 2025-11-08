@@ -8,8 +8,7 @@
       "civ": "Mme",
       "prenom": "Christelle",
       "nom": "Petex",
-      "alpha": "Petex",
-      "trigramme": "CPEX"
+      "alpha": "Petex"
     },
     "infoNaissance": {
       "dateNais": "1980-09-02",
@@ -21,11 +20,10 @@
   "profession": {
     "libelleCourant": "Cadre administratif et commercial d'entreprise",
     "socProcINSEE": {
-      "catSocPro": "Cadres administratifs et techniques de la fonction publique",
+      "catSocPro": "Cadres de la fonction publique, professions intellectuelles et  artistiques",
       "famSocPro": "Cadres et professions intellectuelles supérieures"
     }
   },
-  "uri_hatvp": "https://www.hatvp.fr/pages_nominatives/petex-christelle-7238",
   "adresses": {
     "adresse": [
       {
@@ -43,6 +41,29 @@
         "ville": "Paris 07 SP"
       },
       {
+        "@xsi:type": "AdressePostale_Type",
+        "uid": "AD785218",
+        "type": "2",
+        "typeLibelle": "Adresse publiée de circonscription",
+        "poids": "2",
+        "adresseDeRattachement": null,
+        "intitule": "Permanence parlementaire",
+        "numeroRue": "27",
+        "nomRue": "Place de Stockach",
+        "complementAdresse": null,
+        "codePostal": "74800",
+        "ville": "La Roche-sur-Foron"
+      },
+      {
+        "@xsi:type": "AdresseTelephonique_Type",
+        "uid": "AD785220",
+        "type": "11",
+        "typeLibelle": "Téléphone",
+        "poids": "2",
+        "adresseDeRattachement": "AD785218",
+        "valElec": "04 56 66 08 68"
+      },
+      {
         "@xsi:type": "AdresseMail_Type",
         "uid": "AD797872",
         "type": "15",
@@ -53,312 +74,35 @@
       },
       {
         "@xsi:type": "AdresseSiteWeb_Type",
+        "uid": "AD799683",
+        "type": "29",
+        "typeLibelle": "Instagram",
+        "poids": null,
+        "adresseDeRattachement": null,
+        "valElec": "ChristellePetexLevet"
+      },
+      {
+        "@xsi:type": "AdresseSiteWeb_Type",
+        "uid": "AD799697",
+        "type": "25",
+        "typeLibelle": "Facebook",
+        "poids": null,
+        "adresseDeRattachement": null,
+        "valElec": "ChristellePetexLevet"
+      },
+      {
+        "@xsi:type": "AdresseSiteWeb_Type",
         "uid": "AD799711",
         "type": "22",
         "typeLibelle": "Site internet",
         "poids": null,
         "adresseDeRattachement": null,
         "valElec": "christelle-petexlevet.fr"
-      },
-      {
-        "@xsi:type": "AdresseSiteWeb_Type",
-        "uid": "AD844792",
-        "type": "25",
-        "typeLibelle": "Facebook",
-        "poids": null,
-        "adresseDeRattachement": null,
-        "valElec": "ChristellePetex"
-      },
-      {
-        "@xsi:type": "AdresseSiteWeb_Type",
-        "uid": "AD844828",
-        "type": "29",
-        "typeLibelle": "Instagram",
-        "poids": null,
-        "adresseDeRattachement": null,
-        "valElec": "christelle_petex"
-      },
-      {
-        "@xsi:type": "AdressePostale_Type",
-        "uid": "AD844836",
-        "type": "2",
-        "typeLibelle": "Adresse publiée de circonscription",
-        "poids": "22",
-        "adresseDeRattachement": null,
-        "intitule": null,
-        "numeroRue": "27",
-        "nomRue": "Place de Stockach",
-        "complementAdresse": null,
-        "codePostal": "74800",
-        "ville": "La Roche-sur-Foron"
-      },
-      {
-        "@xsi:type": "AdresseTelephonique_Type",
-        "uid": "AD844838",
-        "type": "11",
-        "typeLibelle": "Téléphone",
-        "poids": "22",
-        "adresseDeRattachement": "AD844836",
-        "valElec": "0456660868"
       }
     ]
   },
   "mandats": {
     "mandat": [
-      {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM852977",
-        "acteurRef": "PA721442",
-        "legislature": null,
-        "typeOrgane": "PARPOL",
-        "dateDebut": "2024-12-04",
-        "datePublication": "2024-12-04",
-        "dateFin": null,
-        "preseance": "5",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Membre",
-          "libQualite": "Membre",
-          "libQualiteSex": "Membre"
-        },
-        "organes": {
-          "organeRef": "PO710396"
-        }
-      },
-      {
-        "@xsi:type": "MandatMission_Type",
-        "uid": "PM871111",
-        "acteurRef": "PA721442",
-        "legislature": "17",
-        "typeOrgane": "MISINFO",
-        "dateDebut": "2025-06-11",
-        "datePublication": null,
-        "dateFin": null,
-        "preseance": "10",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Membre",
-          "libQualite": "Membre",
-          "libQualiteSex": "Membre"
-        },
-        "organes": {
-          "organeRef": "PO871102"
-        },
-        "libelle": null,
-        "missionSuivanteRef": null,
-        "missionPrecedenteRef": null
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM853694",
-        "acteurRef": "PA721442",
-        "legislature": "17",
-        "typeOrgane": "ORGEXTPARL",
-        "dateDebut": "2024-12-06",
-        "datePublication": "2024-12-07",
-        "dateFin": null,
-        "preseance": "20",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Titulaire",
-          "libQualite": "Membre titulaire",
-          "libQualiteSex": "Membre titulaire"
-        },
-        "organes": {
-          "organeRef": "PO763346"
-        }
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM854008",
-        "acteurRef": "PA721442",
-        "legislature": "17",
-        "typeOrgane": "GP",
-        "dateDebut": "2024-12-17",
-        "datePublication": null,
-        "dateFin": null,
-        "preseance": "24",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Membre apparenté",
-          "libQualite": "Apparenté au",
-          "libQualiteSex": "Apparentée au"
-        },
-        "organes": {
-          "organeRef": "PO845425"
-        }
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM869996",
-        "acteurRef": "PA721442",
-        "legislature": "17",
-        "typeOrgane": "COMPER",
-        "dateDebut": "2025-05-23",
-        "datePublication": "2025-05-23",
-        "dateFin": null,
-        "preseance": "32",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Membre",
-          "libQualite": "Membre",
-          "libQualiteSex": "Membre"
-        },
-        "organes": {
-          "organeRef": "PO419865"
-        }
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM863333",
-        "acteurRef": "PA721442",
-        "legislature": "17",
-        "typeOrgane": "GE",
-        "dateDebut": "2025-02-06",
-        "datePublication": null,
-        "dateFin": null,
-        "preseance": "20",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Membre",
-          "libQualite": "Membre",
-          "libQualiteSex": "Membre"
-        },
-        "organes": {
-          "organeRef": "PO854338"
-        }
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM862367",
-        "acteurRef": "PA721442",
-        "legislature": "17",
-        "typeOrgane": "GE",
-        "dateDebut": "2025-02-04",
-        "datePublication": null,
-        "dateFin": null,
-        "preseance": "20",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Membre",
-          "libQualite": "Membre",
-          "libQualiteSex": "Membre"
-        },
-        "organes": {
-          "organeRef": "PO854572"
-        }
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM856637",
-        "acteurRef": "PA721442",
-        "legislature": "17",
-        "typeOrgane": "GE",
-        "dateDebut": "2025-01-16",
-        "datePublication": null,
-        "dateFin": null,
-        "preseance": "20",
-        "nominPrincipale": "0",
-        "infosQualite": {
-          "codeQualite": "Membre",
-          "libQualite": "Membre",
-          "libQualiteSex": "Membre"
-        },
-        "organes": {
-          "organeRef": "PO854561"
-        }
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM865292",
-        "acteurRef": "PA721442",
-        "legislature": "17",
-        "typeOrgane": "GE",
-        "dateDebut": "2025-02-18",
-        "datePublication": null,
-        "dateFin": null,
-        "preseance": "8",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Vice-Président",
-          "libQualite": "Vice-Président",
-          "libQualiteSex": "Vice-Présidente"
-        },
-        "organes": {
-          "organeRef": "PO854561"
-        }
-      },
-      {
-        "@xsi:type": "MandatParlementaire_type",
-        "uid": "PM843362",
-        "acteurRef": "PA721442",
-        "legislature": "17",
-        "typeOrgane": "ASSEMBLEE",
-        "dateDebut": "2024-07-07",
-        "datePublication": null,
-        "dateFin": null,
-        "preseance": "50",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "membre",
-          "libQualite": "membre",
-          "libQualiteSex": "membre"
-        },
-        "organes": {
-          "organeRef": "PO838901"
-        },
-        "suppleants": {
-          "suppleant": {
-            "dateDebut": "2024-07-07",
-            "dateFin": null,
-            "suppleantRef": "PA841805"
-          }
-        },
-        "chambre": null,
-        "election": {
-          "lieu": {
-            "region": "Auvergne-Rhône-Alpes",
-            "regionType": "Métropolitain",
-            "departement": "Haute-Savoie",
-            "numDepartement": "74",
-            "numCirco": "3"
-          },
-          "causeMandat": "élections générales",
-          "refCirconscription": "PO839755"
-        },
-        "mandature": {
-          "datePriseFonction": "2024-07-08",
-          "causeFin": null,
-          "premiereElection": "1",
-          "placeHemicycle": "197",
-          "mandatRemplaceRef": null
-        },
-        "collaborateurs": {
-          "collaborateur": [
-            {
-              "qualite": "Mme",
-              "prenom": "Laurie",
-              "nom": "Brand",
-              "dateDebut": null,
-              "dateFin": null
-            },
-            {
-              "qualite": "Mme",
-              "prenom": "Lorane",
-              "nom": "Collas",
-              "dateDebut": null,
-              "dateFin": null
-            },
-            {
-              "qualite": "Mme",
-              "prenom": "Noëlle",
-              "nom": "Vintras",
-              "dateDebut": null,
-              "dateFin": null
-            }
-          ]
-        }
-      },
       {
         "@xsi:type": "MandatSimple_Type",
         "uid": "PM788153",

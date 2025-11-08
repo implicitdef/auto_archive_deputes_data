@@ -21,7 +21,7 @@
   "profession": {
     "libelleCourant": "Avocat",
     "socProcINSEE": {
-      "catSocPro": "Professions libérales et assimilés",
+      "catSocPro": "Professions libérales",
       "famSocPro": "Cadres et professions intellectuelles supérieures"
     }
   },
@@ -85,6 +85,26 @@
       },
       {
         "@xsi:type": "MandatSimple_Type",
+        "uid": "PM874704",
+        "acteurRef": "PA605782",
+        "legislature": "17",
+        "typeOrgane": "GP",
+        "dateDebut": "2025-11-06",
+        "datePublication": "2025-11-07",
+        "dateFin": null,
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre du",
+          "libQualiteSex": "Membre du"
+        },
+        "organes": {
+          "organeRef": "PO845470"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
         "uid": "PM874695",
         "acteurRef": "PA605782",
         "legislature": "17",
@@ -101,26 +121,6 @@
         },
         "organes": {
           "organeRef": "PO59051"
-        }
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM874606",
-        "acteurRef": "PA605782",
-        "legislature": "17",
-        "typeOrgane": "GP",
-        "dateDebut": "2025-11-06",
-        "datePublication": "2025-11-06",
-        "dateFin": null,
-        "preseance": "28",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Député non-inscrit",
-          "libQualite": "Député non-inscrit",
-          "libQualiteSex": "Député non-inscrit"
-        },
-        "organes": {
-          "organeRef": "PO840056"
         }
       },
       {
@@ -165,13 +165,18 @@
           "datePriseFonction": "2025-11-06",
           "causeFin": null,
           "premiereElection": "1",
-          "placeHemicycle": null,
+          "placeHemicycle": "221",
           "mandatRemplaceRef": "PM842666"
         },
-        "collaborateurs": [
-          null,
-          null
-        ]
+        "collaborateurs": {
+          "collaborateur": {
+            "qualite": "M.",
+            "prenom": "François-Joseph",
+            "nom": "Fazi",
+            "dateDebut": null,
+            "dateFin": null
+          }
+        }
       },
       {
         "@xsi:type": "MandatParlementaire_type",

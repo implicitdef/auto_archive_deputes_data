@@ -21,11 +21,10 @@
   "profession": {
     "libelleCourant": "Cadre de la fonction publique territoriale",
     "socProcINSEE": {
-      "catSocPro": "Cadres de la fonction publique, professions intellectuelles et  artistiques",
+      "catSocPro": "Cadres administratifs et techniques de la fonction publique",
       "famSocPro": "Cadres et professions intellectuelles supérieures"
     }
   },
-  "uri_hatvp": "/tribun/resources/html/defautDeclarationActeur.html",
   "adresses": {
     "adresse": [
       {
@@ -113,6 +112,29 @@
         "poids": null,
         "adresseDeRattachement": null,
         "valElec": "people/Val%C3%A9rie-L%C3%A9tard/100058007233955"
+      },
+      {
+        "@xsi:type": "AdressePostale_Type",
+        "uid": "AD874707",
+        "type": "2",
+        "typeLibelle": "Adresse publiée de circonscription",
+        "poids": "22",
+        "adresseDeRattachement": null,
+        "intitule": null,
+        "numeroRue": "7",
+        "nomRue": "Avenue du sénateur Girard",
+        "complementAdresse": null,
+        "codePostal": "59300",
+        "ville": "Valenciennes"
+      },
+      {
+        "@xsi:type": "AdresseTelephonique_Type",
+        "uid": "AD874708",
+        "type": "11",
+        "typeLibelle": "Téléphone",
+        "poids": "22",
+        "adresseDeRattachement": "AD874707",
+        "valElec": "0970033369"
       }
     ]
   },
@@ -220,7 +242,7 @@
           "datePriseFonction": "2025-11-06",
           "causeFin": null,
           "premiereElection": "0",
-          "placeHemicycle": null,
+          "placeHemicycle": "395",
           "mandatRemplaceRef": "PM843131"
         },
         "collaborateurs": [
