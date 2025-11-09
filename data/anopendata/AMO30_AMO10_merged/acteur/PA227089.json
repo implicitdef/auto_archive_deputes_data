@@ -162,6 +162,26 @@
       },
       {
         "@xsi:type": "MandatSimple_Type",
+        "uid": "PM874749",
+        "acteurRef": "PA227089",
+        "legislature": "17",
+        "typeOrgane": "GP",
+        "dateDebut": "2025-11-08",
+        "datePublication": "2025-11-08",
+        "dateFin": null,
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre du",
+          "libQualiteSex": "Membre du"
+        },
+        "organes": {
+          "organeRef": "PO845485"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
         "uid": "PM874696",
         "acteurRef": "PA227089",
         "legislature": "17",
@@ -178,26 +198,6 @@
         },
         "organes": {
           "organeRef": "PO419604"
-        }
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM874598",
-        "acteurRef": "PA227089",
-        "legislature": "17",
-        "typeOrgane": "GP",
-        "dateDebut": "2025-11-06",
-        "datePublication": null,
-        "dateFin": null,
-        "preseance": "28",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Député non-inscrit",
-          "libQualite": "Député non-inscrit",
-          "libQualiteSex": "Députée non-inscrite"
-        },
-        "organes": {
-          "organeRef": "PO840056"
         }
       },
       {
@@ -245,10 +245,15 @@
           "placeHemicycle": "395",
           "mandatRemplaceRef": "PM843131"
         },
-        "collaborateurs": [
-          null,
-          null
-        ]
+        "collaborateurs": {
+          "collaborateur": {
+            "qualite": "Mme",
+            "prenom": "Sara",
+            "nom": "Jouanneau",
+            "dateDebut": null,
+            "dateFin": null
+          }
+        }
       },
       {
         "@xsi:type": "MandatSimple_Type",
