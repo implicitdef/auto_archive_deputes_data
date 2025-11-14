@@ -8,7 +8,8 @@
       "civ": "M.",
       "prenom": "Didier",
       "nom": "Padey",
-      "alpha": "Padey"
+      "alpha": "Padey",
+      "trigramme": "DPY"
     },
     "infoNaissance": {
       "dateNais": "1965-11-09",
@@ -18,7 +19,7 @@
     }
   },
   "profession": {
-    "libelleCourant": "Cadre commercial",
+    "libelleCourant": "cadre commercial",
     "socProcINSEE": {
       "catSocPro": "Cadres d'entreprise",
       "famSocPro": "Cadres et professions intellectuelles supérieures"
@@ -67,6 +68,110 @@
   },
   "mandats": {
     "mandat": [
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM852966",
+        "acteurRef": "PA795124",
+        "legislature": null,
+        "typeOrgane": "PARPOL",
+        "dateDebut": "2024-12-04",
+        "datePublication": "2024-12-04",
+        "dateFin": null,
+        "preseance": "5",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO833003"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM875066",
+        "acteurRef": "PA795124",
+        "legislature": "17",
+        "typeOrgane": "COMPER",
+        "dateDebut": "2025-11-13",
+        "datePublication": "2025-11-13",
+        "dateFin": null,
+        "preseance": "32",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO59048"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM874987",
+        "acteurRef": "PA795124",
+        "legislature": "17",
+        "typeOrgane": "GP",
+        "dateDebut": "2025-11-13",
+        "datePublication": null,
+        "dateFin": null,
+        "preseance": "28",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Député non-inscrit",
+          "libQualite": "Député non-inscrit",
+          "libQualiteSex": "Député non-inscrit"
+        },
+        "organes": {
+          "organeRef": "PO840056"
+        }
+      },
+      {
+        "@xsi:type": "MandatParlementaire_type",
+        "uid": "PM874931",
+        "acteurRef": "PA795124",
+        "legislature": "17",
+        "typeOrgane": "ASSEMBLEE",
+        "dateDebut": "2024-07-07",
+        "datePublication": null,
+        "dateFin": null,
+        "preseance": "50",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "membre",
+          "libQualite": "membre",
+          "libQualiteSex": "membre"
+        },
+        "organes": {
+          "organeRef": "PO838901"
+        },
+        "suppleants": null,
+        "chambre": null,
+        "election": {
+          "lieu": {
+            "region": "Auvergne-Rhône-Alpes",
+            "regionType": "Métropolitain",
+            "departement": "Savoie",
+            "numDepartement": "73",
+            "numCirco": "1"
+          },
+          "causeMandat": "remplacement d'un député nommé au Gouvernement",
+          "refCirconscription": "PO839769"
+        },
+        "mandature": {
+          "datePriseFonction": "2025-11-13",
+          "causeFin": null,
+          "premiereElection": "1",
+          "placeHemicycle": null,
+          "mandatRemplaceRef": "PM849143"
+        },
+        "collaborateurs": [
+          null,
+          null
+        ]
+      },
       {
         "@xsi:type": "MandatSimple_Type",
         "uid": "PM835687",
