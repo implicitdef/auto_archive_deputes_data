@@ -9,31 +9,48 @@
       "prenom": "Michel",
       "nom": "Criaud",
       "alpha": "Criaud",
-      "trigramme": "MCR"
+      "trigramme": "MCRI"
     },
     "infoNaissance": {
-      "dateNais": "1962-08-03"
+      "dateNais": "1962-08-03",
+      "villeNais": "Vannes",
+      "depNais": "Morbihan",
+      "paysNais": "France"
     }
   },
   "profession": {
-    "socProcINSEE": {}
-  },
-  "uri_hatvp": "/tribun/resources/html/defautDeclarationActeur.html",
-  "adresses": {
-    "adresse": {
-      "@xsi:type": "AdressePostale_Type",
-      "uid": "AD794432",
-      "type": "0",
-      "typeLibelle": "Adresse officielle",
-      "poids": "1",
-      "adresseDeRattachement": null,
-      "intitule": "Assemblée nationale,",
-      "numeroRue": "126",
-      "nomRue": "Rue de l'Université,",
-      "complementAdresse": null,
-      "codePostal": "75355",
-      "ville": "Paris 07 SP"
+    "libelleCourant": "Maître menuisier à la retraite",
+    "socProcINSEE": {
+      "catSocPro": "Artisans",
+      "famSocPro": "Artisans, commerçants, chefs d'entreprises"
     }
+  },
+  "adresses": {
+    "adresse": [
+      {
+        "@xsi:type": "AdressePostale_Type",
+        "uid": "AD794432",
+        "type": "0",
+        "typeLibelle": "Adresse officielle",
+        "poids": "1",
+        "adresseDeRattachement": null,
+        "intitule": "Assemblée nationale,",
+        "numeroRue": "126",
+        "nomRue": "Rue de l'Université,",
+        "complementAdresse": null,
+        "codePostal": "75355",
+        "ville": "Paris 07 SP"
+      },
+      {
+        "@xsi:type": "AdresseMail_Type",
+        "uid": "AD875069",
+        "type": "15",
+        "typeLibelle": "Mèl",
+        "poids": null,
+        "adresseDeRattachement": null,
+        "valElec": "michel.criaud@assemblee-nationale.fr"
+      }
+    ]
   },
   "mandats": {
     "mandat": [
@@ -113,7 +130,7 @@
           "datePriseFonction": "2025-11-13",
           "causeFin": null,
           "premiereElection": "0",
-          "placeHemicycle": null,
+          "placeHemicycle": "239",
           "mandatRemplaceRef": null
         },
         "collaborateurs": [

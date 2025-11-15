@@ -201,6 +201,26 @@
         }
       },
       {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM875076",
+        "acteurRef": "PA227089",
+        "legislature": "17",
+        "typeOrgane": "GE",
+        "dateDebut": "2025-11-13",
+        "datePublication": null,
+        "dateFin": null,
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO854323"
+        }
+      },
+      {
         "@xsi:type": "MandatParlementaire_type",
         "uid": "PM874597",
         "acteurRef": "PA227089",
@@ -246,13 +266,22 @@
           "mandatRemplaceRef": "PM843131"
         },
         "collaborateurs": {
-          "collaborateur": {
-            "qualite": "Mme",
-            "prenom": "Sara",
-            "nom": "Jouanneau",
-            "dateDebut": null,
-            "dateFin": null
-          }
+          "collaborateur": [
+            {
+              "qualite": "Mme",
+              "prenom": "Sara",
+              "nom": "Jouanneau",
+              "dateDebut": null,
+              "dateFin": null
+            },
+            {
+              "qualite": "M.",
+              "prenom": "Marc",
+              "nom": "Stievenard",
+              "dateDebut": null,
+              "dateFin": null
+            }
+          ]
         }
       },
       {

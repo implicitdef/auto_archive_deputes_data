@@ -12,28 +12,45 @@
       "trigramme": "BBLA"
     },
     "infoNaissance": {
-      "dateNais": "1961-05-01"
+      "dateNais": "1961-05-01",
+      "villeNais": "La Rochelle",
+      "depNais": "Charente-Maritime",
+      "paysNais": "France"
     }
   },
   "profession": {
-    "socProcINSEE": {}
-  },
-  "uri_hatvp": "/tribun/resources/html/defautDeclarationActeur.html",
-  "adresses": {
-    "adresse": {
-      "@xsi:type": "AdressePostale_Type",
-      "uid": "AD842185",
-      "type": "0",
-      "typeLibelle": "Adresse officielle",
-      "poids": "1",
-      "adresseDeRattachement": null,
-      "intitule": "Assemblée nationale,",
-      "numeroRue": "126",
-      "nomRue": "Rue de l'Université,",
-      "complementAdresse": null,
-      "codePostal": "75355",
-      "ville": "Paris 07 SP"
+    "libelleCourant": "Directeur d'un laboratoire de recherche",
+    "socProcINSEE": {
+      "catSocPro": "Ingénieurs et cadres techniques d’entreprise",
+      "famSocPro": "Cadres et professions intellectuelles supérieures"
     }
+  },
+  "adresses": {
+    "adresse": [
+      {
+        "@xsi:type": "AdressePostale_Type",
+        "uid": "AD842185",
+        "type": "0",
+        "typeLibelle": "Adresse officielle",
+        "poids": "1",
+        "adresseDeRattachement": null,
+        "intitule": "Assemblée nationale,",
+        "numeroRue": "126",
+        "nomRue": "Rue de l'Université,",
+        "complementAdresse": null,
+        "codePostal": "75355",
+        "ville": "Paris 07 SP"
+      },
+      {
+        "@xsi:type": "AdresseMail_Type",
+        "uid": "AD875072",
+        "type": "15",
+        "typeLibelle": "Mèl",
+        "poids": null,
+        "adresseDeRattachement": null,
+        "valElec": "benoit.blanchard@assemblee-nationale.fr"
+      }
+    ]
   },
   "mandats": {
     "mandat": [
@@ -113,7 +130,7 @@
           "datePriseFonction": "2025-11-13",
           "causeFin": null,
           "premiereElection": "0",
-          "placeHemicycle": null,
+          "placeHemicycle": "318",
           "mandatRemplaceRef": null
         },
         "collaborateurs": [

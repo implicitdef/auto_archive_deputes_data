@@ -9,31 +9,63 @@
       "prenom": "Sandrine",
       "nom": "Lalanne",
       "alpha": "Lalanne",
-      "trigramme": "SLA"
+      "trigramme": "SLAL"
     },
     "infoNaissance": {
-      "dateNais": "1973-02-16"
+      "dateNais": "1973-02-16",
+      "villeNais": "Paris",
+      "depNais": "Paris",
+      "paysNais": "France"
     }
   },
   "profession": {
-    "socProcINSEE": {}
+    "libelleCourant": "Sans profession déclarée",
+    "socProcINSEE": {
+      "catSocPro": "Ingénieurs et cadres techniques d’entreprise",
+      "famSocPro": "Cadres et professions intellectuelles supérieures"
+    }
   },
   "uri_hatvp": "/tribun/resources/html/defautDeclarationActeur.html",
   "adresses": {
-    "adresse": {
-      "@xsi:type": "AdressePostale_Type",
-      "uid": "AD795392",
-      "type": "0",
-      "typeLibelle": "Adresse officielle",
-      "poids": "1",
-      "adresseDeRattachement": null,
-      "intitule": "Assemblée nationale,",
-      "numeroRue": "126",
-      "nomRue": "Rue de l'Université,",
-      "complementAdresse": null,
-      "codePostal": "75355",
-      "ville": "Paris 07 SP"
-    }
+    "adresse": [
+      {
+        "@xsi:type": "AdressePostale_Type",
+        "uid": "AD795392",
+        "type": "0",
+        "typeLibelle": "Adresse officielle",
+        "poids": "1",
+        "adresseDeRattachement": null,
+        "intitule": "Assemblée nationale,",
+        "numeroRue": "126",
+        "nomRue": "Rue de l'Université,",
+        "complementAdresse": null,
+        "codePostal": "75355",
+        "ville": "Paris 07 SP"
+      },
+      {
+        "@xsi:type": "AdresseMail_Type",
+        "uid": "AD875077",
+        "type": "15",
+        "typeLibelle": "Mèl",
+        "poids": null,
+        "adresseDeRattachement": null,
+        "valElec": "sandrine.lalanne@assemblee-nationale.fr"
+      },
+      {
+        "@xsi:type": "AdressePostale_Type",
+        "uid": "AD875078",
+        "type": "2",
+        "typeLibelle": "Adresse publiée de circonscription",
+        "poids": "22",
+        "adresseDeRattachement": null,
+        "intitule": null,
+        "numeroRue": "193",
+        "nomRue": "Avenue Pierre Brossolette",
+        "complementAdresse": null,
+        "codePostal": "94170",
+        "ville": "Le Perreux-sur-Marne"
+      }
+    ]
   },
   "mandats": {
     "mandat": [
@@ -113,7 +145,7 @@
           "datePriseFonction": "2025-11-13",
           "causeFin": null,
           "premiereElection": "0",
-          "placeHemicycle": null,
+          "placeHemicycle": "389",
           "mandatRemplaceRef": null
         },
         "collaborateurs": [

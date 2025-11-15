@@ -9,31 +9,49 @@
       "prenom": "Lionel",
       "nom": "Duparay",
       "alpha": "Duparay",
-      "trigramme": "LDU"
+      "trigramme": "LDUP"
     },
     "infoNaissance": {
-      "dateNais": "1981-02-07"
+      "dateNais": "1981-02-07",
+      "villeNais": "Châtenay-Malabry",
+      "depNais": "Hauts-de-Seine",
+      "paysNais": "France"
     }
   },
   "profession": {
-    "socProcINSEE": {}
+    "libelleCourant": "Ingénieur",
+    "socProcINSEE": {
+      "catSocPro": "Cadres des services administratifs et commerciaux d’entreprise",
+      "famSocPro": "Cadres et professions intellectuelles supérieures"
+    }
   },
   "uri_hatvp": "/tribun/resources/html/defautDeclarationActeur.html",
   "adresses": {
-    "adresse": {
-      "@xsi:type": "AdressePostale_Type",
-      "uid": "AD874941",
-      "type": "0",
-      "typeLibelle": "Adresse officielle",
-      "poids": "1",
-      "adresseDeRattachement": null,
-      "intitule": "Assemblée nationale",
-      "numeroRue": "126",
-      "nomRue": "Rue de l'Université,",
-      "complementAdresse": null,
-      "codePostal": "75355",
-      "ville": "Paris 07 SP"
-    }
+    "adresse": [
+      {
+        "@xsi:type": "AdressePostale_Type",
+        "uid": "AD874941",
+        "type": "0",
+        "typeLibelle": "Adresse officielle",
+        "poids": "1",
+        "adresseDeRattachement": null,
+        "intitule": "Assemblée nationale",
+        "numeroRue": "126",
+        "nomRue": "Rue de l'Université,",
+        "complementAdresse": null,
+        "codePostal": "75355",
+        "ville": "Paris 07 SP"
+      },
+      {
+        "@xsi:type": "AdresseMail_Type",
+        "uid": "AD875070",
+        "type": "15",
+        "typeLibelle": "Mèl",
+        "poids": null,
+        "adresseDeRattachement": null,
+        "valElec": "lionel.duparay@assemblee-nationale.fr"
+      }
+    ]
   },
   "mandats": {
     "mandat": [
@@ -113,7 +131,7 @@
           "datePriseFonction": "2025-11-13",
           "causeFin": null,
           "premiereElection": "0",
-          "placeHemicycle": null,
+          "placeHemicycle": "084",
           "mandatRemplaceRef": null
         },
         "collaborateurs": [

@@ -9,31 +9,68 @@
       "prenom": "Alix",
       "nom": "Fruchon",
       "alpha": "Fruchon",
-      "trigramme": "AFR"
+      "trigramme": "AFRU"
     },
     "infoNaissance": {
-      "dateNais": "1994-10-14"
+      "dateNais": "1994-10-14",
+      "villeNais": "Chateauroux",
+      "depNais": "Indre",
+      "paysNais": "France"
     }
   },
   "profession": {
+    "libelleCourant": "Juriste",
     "socProcINSEE": {}
   },
-  "uri_hatvp": "/tribun/resources/html/defautDeclarationActeur.html",
   "adresses": {
-    "adresse": {
-      "@xsi:type": "AdressePostale_Type",
-      "uid": "AD841153",
-      "type": "0",
-      "typeLibelle": "Adresse officielle",
-      "poids": "1",
-      "adresseDeRattachement": null,
-      "intitule": "Assemblée nationale,",
-      "numeroRue": "126",
-      "nomRue": "Rue de l'Université,",
-      "complementAdresse": null,
-      "codePostal": "75355",
-      "ville": "Paris 07 SP"
-    }
+    "adresse": [
+      {
+        "@xsi:type": "AdressePostale_Type",
+        "uid": "AD841153",
+        "type": "0",
+        "typeLibelle": "Adresse officielle",
+        "poids": "1",
+        "adresseDeRattachement": null,
+        "intitule": "Assemblée nationale,",
+        "numeroRue": "126",
+        "nomRue": "Rue de l'Université,",
+        "complementAdresse": null,
+        "codePostal": "75355",
+        "ville": "Paris 07 SP"
+      },
+      {
+        "@xsi:type": "AdresseMail_Type",
+        "uid": "AD875071",
+        "type": "15",
+        "typeLibelle": "Mèl",
+        "poids": null,
+        "adresseDeRattachement": null,
+        "valElec": "alix.fruchon@assemblee-nationale.fr"
+      },
+      {
+        "@xsi:type": "AdressePostale_Type",
+        "uid": "AD875073",
+        "type": "2",
+        "typeLibelle": "Adresse publiée de circonscription",
+        "poids": "22",
+        "adresseDeRattachement": null,
+        "intitule": null,
+        "numeroRue": "4",
+        "nomRue": "Place de l'Hôtel de ville",
+        "complementAdresse": null,
+        "codePostal": "36400",
+        "ville": "La Châtre"
+      },
+      {
+        "@xsi:type": "AdresseTelephonique_Type",
+        "uid": "AD875074",
+        "type": "11",
+        "typeLibelle": "Téléphone",
+        "poids": "22",
+        "adresseDeRattachement": "AD875073",
+        "valElec": "0254480247"
+      }
+    ]
   },
   "mandats": {
     "mandat": [
@@ -55,6 +92,46 @@
         },
         "organes": {
           "organeRef": "PO59047"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM875080",
+        "acteurRef": "PA841151",
+        "legislature": "17",
+        "typeOrgane": "GA",
+        "dateDebut": "2025-11-13",
+        "datePublication": null,
+        "dateFin": null,
+        "preseance": "1",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Président",
+          "libQualite": "Président",
+          "libQualiteSex": "Présidente"
+        },
+        "organes": {
+          "organeRef": "PO851269"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM875079",
+        "acteurRef": "PA841151",
+        "legislature": "17",
+        "typeOrgane": "GA",
+        "dateDebut": "2025-11-13",
+        "datePublication": null,
+        "dateFin": null,
+        "preseance": "20",
+        "nominPrincipale": "0",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO851269"
         }
       },
       {
@@ -113,7 +190,7 @@
           "datePriseFonction": "2025-11-13",
           "causeFin": null,
           "premiereElection": "0",
-          "placeHemicycle": null,
+          "placeHemicycle": "304",
           "mandatRemplaceRef": null
         },
         "collaborateurs": [
