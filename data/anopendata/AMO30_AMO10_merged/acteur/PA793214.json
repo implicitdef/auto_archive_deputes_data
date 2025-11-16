@@ -18,7 +18,6 @@
   "profession": {
     "socProcINSEE": {}
   },
-  "uri_hatvp": "/tribun/resources/html/defautDeclarationActeur.html",
   "adresses": {
     "adresse": {
       "@xsi:type": "AdressePostale_Type",
@@ -39,6 +38,26 @@
     "mandat": [
       {
         "@xsi:type": "MandatSimple_Type",
+        "uid": "PM875121",
+        "acteurRef": "PA793214",
+        "legislature": "17",
+        "typeOrgane": "GP",
+        "dateDebut": "2025-11-14",
+        "datePublication": "2025-11-14",
+        "dateFin": null,
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre du",
+          "libQualiteSex": "Membre du"
+        },
+        "organes": {
+          "organeRef": "PO845485"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
         "uid": "PM875029",
         "acteurRef": "PA793214",
         "legislature": "17",
@@ -55,26 +74,6 @@
         },
         "organes": {
           "organeRef": "PO420120"
-        }
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM874989",
-        "acteurRef": "PA793214",
-        "legislature": "17",
-        "typeOrgane": "GP",
-        "dateDebut": "2025-11-13",
-        "datePublication": null,
-        "dateFin": null,
-        "preseance": "28",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Député non-inscrit",
-          "libQualite": "Député non-inscrit",
-          "libQualiteSex": "Députée non-inscrite"
-        },
-        "organes": {
-          "organeRef": "PO840056"
         }
       },
       {

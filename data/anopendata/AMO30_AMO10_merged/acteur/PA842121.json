@@ -56,6 +56,26 @@
     "mandat": [
       {
         "@xsi:type": "MandatSimple_Type",
+        "uid": "PM875115",
+        "acteurRef": "PA842121",
+        "legislature": "17",
+        "typeOrgane": "GP",
+        "dateDebut": "2025-11-14",
+        "datePublication": "2025-11-14",
+        "dateFin": null,
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre du",
+          "libQualiteSex": "Membre du"
+        },
+        "organes": {
+          "organeRef": "PO845425"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
         "uid": "PM875034",
         "acteurRef": "PA842121",
         "legislature": "17",
@@ -72,26 +92,6 @@
         },
         "organes": {
           "organeRef": "PO59046"
-        }
-      },
-      {
-        "@xsi:type": "MandatSimple_Type",
-        "uid": "PM874988",
-        "acteurRef": "PA842121",
-        "legislature": "17",
-        "typeOrgane": "GP",
-        "dateDebut": "2025-11-13",
-        "datePublication": null,
-        "dateFin": null,
-        "preseance": "28",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Député non-inscrit",
-          "libQualite": "Député non-inscrit",
-          "libQualiteSex": "Député non-inscrit"
-        },
-        "organes": {
-          "organeRef": "PO840056"
         }
       },
       {
@@ -133,10 +133,15 @@
           "placeHemicycle": "184",
           "mandatRemplaceRef": null
         },
-        "collaborateurs": [
-          null,
-          null
-        ]
+        "collaborateurs": {
+          "collaborateur": {
+            "qualite": "M.",
+            "prenom": "Jean",
+            "nom": "Baylac",
+            "dateDebut": null,
+            "dateFin": null
+          }
+        }
       }
     ]
   }
