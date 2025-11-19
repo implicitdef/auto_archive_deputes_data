@@ -12,27 +12,59 @@
       "trigramme": "AAB"
     },
     "infoNaissance": {
-      "dateNais": "1974-11-16"
+      "dateNais": "1974-11-16",
+      "villeNais": "Toulouse",
+      "depNais": "Haute-Garonne",
+      "paysNais": "France"
     }
   },
   "profession": {
-    "socProcINSEE": {}
+    "libelleCourant": "Enseignante",
+    "socProcINSEE": {
+      "catSocPro": "Professeurs et professions scientifiques supérieures",
+      "famSocPro": "Cadres et professions intellectuelles supérieures"
+    }
   },
   "adresses": {
-    "adresse": {
-      "@xsi:type": "AdressePostale_Type",
-      "uid": "AD793216",
-      "type": "0",
-      "typeLibelle": "Adresse officielle",
-      "poids": "1",
-      "adresseDeRattachement": null,
-      "intitule": "Assemblée nationale,",
-      "numeroRue": "126",
-      "nomRue": "Rue de l'Université,",
-      "complementAdresse": null,
-      "codePostal": "75355",
-      "ville": "Paris 07 SP"
-    }
+    "adresse": [
+      {
+        "@xsi:type": "AdressePostale_Type",
+        "uid": "AD793216",
+        "type": "0",
+        "typeLibelle": "Adresse officielle",
+        "poids": "1",
+        "adresseDeRattachement": null,
+        "intitule": "Assemblée nationale,",
+        "numeroRue": "126",
+        "nomRue": "Rue de l'Université,",
+        "complementAdresse": null,
+        "codePostal": "75355",
+        "ville": "Paris 07 SP"
+      },
+      {
+        "@xsi:type": "AdressePostale_Type",
+        "uid": "AD875155",
+        "type": "2",
+        "typeLibelle": "Adresse publiée de circonscription",
+        "poids": "22",
+        "adresseDeRattachement": null,
+        "intitule": null,
+        "numeroRue": "11",
+        "nomRue": "Place de la mairie",
+        "complementAdresse": null,
+        "codePostal": "09130",
+        "ville": "Le Fossat"
+      },
+      {
+        "@xsi:type": "AdresseMail_Type",
+        "uid": "AD875156",
+        "type": "15",
+        "typeLibelle": "Mèl",
+        "poids": null,
+        "adresseDeRattachement": null,
+        "valElec": "audrey.abadie@assemblee-nationale.fr"
+      }
+    ]
   },
   "mandats": {
     "mandat": [
