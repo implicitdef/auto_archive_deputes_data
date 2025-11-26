@@ -52,26 +52,72 @@
       },
       {
         "@xsi:type": "AdresseSiteWeb_Type",
-        "uid": "AD844486",
-        "type": "24",
-        "typeLibelle": "Twitter",
-        "poids": null,
-        "adresseDeRattachement": null,
-        "valElec": "@CatHervieu"
-      },
-      {
-        "@xsi:type": "AdresseSiteWeb_Type",
         "uid": "AD872909",
         "type": "22",
         "typeLibelle": "Site internet",
         "poids": null,
         "adresseDeRattachement": null,
         "valElec": "catherinehervieu.fr"
+      },
+      {
+        "@xsi:type": "AdressePostale_Type",
+        "uid": "AD875425",
+        "type": "2",
+        "typeLibelle": "Adresse publiée de circonscription",
+        "poids": "2",
+        "adresseDeRattachement": null,
+        "intitule": null,
+        "numeroRue": "81",
+        "nomRue": "Avenue du Maréchal Lyautey",
+        "complementAdresse": null,
+        "codePostal": "21000",
+        "ville": "Dijon"
+      },
+      {
+        "@xsi:type": "AdresseSiteWeb_Type",
+        "uid": "AD875426",
+        "type": "29",
+        "typeLibelle": "Instagram",
+        "poids": null,
+        "adresseDeRattachement": null,
+        "valElec": "catherine.hervieu.9"
+      },
+      {
+        "@xsi:type": "AdresseSiteWeb_Type",
+        "uid": "AD875427",
+        "type": "25",
+        "typeLibelle": "Facebook",
+        "poids": null,
+        "adresseDeRattachement": null,
+        "valElec": "catherine.hervieu.9"
       }
     ]
   },
   "mandats": {
     "mandat": [
+      {
+        "@xsi:type": "MandatMission_Type",
+        "uid": "PM872855",
+        "acteurRef": "PA840947",
+        "legislature": "17",
+        "typeOrgane": "MISINFOCOM",
+        "dateDebut": "2025-05-28",
+        "datePublication": null,
+        "dateFin": null,
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO871239"
+        },
+        "libelle": null,
+        "missionSuivanteRef": null,
+        "missionPrecedenteRef": null
+      },
       {
         "@xsi:type": "MandatSimple_Type",
         "uid": "PM847395",
@@ -132,29 +178,6 @@
         "organes": {
           "organeRef": "PO744127"
         }
-      },
-      {
-        "@xsi:type": "MandatMission_Type",
-        "uid": "PM872855",
-        "acteurRef": "PA840947",
-        "legislature": "17",
-        "typeOrgane": "MISINFOCOM",
-        "dateDebut": "2025-05-28",
-        "datePublication": null,
-        "dateFin": null,
-        "preseance": "20",
-        "nominPrincipale": "1",
-        "infosQualite": {
-          "codeQualite": "Membre",
-          "libQualite": "Membre",
-          "libQualiteSex": "Membre"
-        },
-        "organes": {
-          "organeRef": "PO871239"
-        },
-        "libelle": null,
-        "missionSuivanteRef": null,
-        "missionPrecedenteRef": null
       },
       {
         "@xsi:type": "MandatSimple_Type",

@@ -25,6 +25,7 @@
       "famSocPro": "Artisans, commerçants, chefs d'entreprises"
     }
   },
+  "uri_hatvp": "https://www.hatvp.fr/pages_nominatives/criaud-michel-29929",
   "adresses": {
     "adresse": [
       {
@@ -54,6 +55,26 @@
   },
   "mandats": {
     "mandat": [
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM875465",
+        "acteurRef": "PA794430",
+        "legislature": "17",
+        "typeOrgane": "API",
+        "dateDebut": "2025-11-21",
+        "datePublication": "2025-11-21",
+        "dateFin": null,
+        "preseance": "40",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO201115"
+        }
+      },
       {
         "@xsi:type": "MandatSimple_Type",
         "uid": "PM875120",
@@ -92,6 +113,46 @@
         },
         "organes": {
           "organeRef": "PO59046"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM875421",
+        "acteurRef": "PA794430",
+        "legislature": "17",
+        "typeOrgane": "GA",
+        "dateDebut": "2025-11-20",
+        "datePublication": null,
+        "dateFin": null,
+        "preseance": "20",
+        "nominPrincipale": "0",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO851339"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM875422",
+        "acteurRef": "PA794430",
+        "legislature": "17",
+        "typeOrgane": "GA",
+        "dateDebut": "2025-11-20",
+        "datePublication": null,
+        "dateFin": null,
+        "preseance": "1",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Président",
+          "libQualite": "Président",
+          "libQualiteSex": "Président"
+        },
+        "organes": {
+          "organeRef": "PO851339"
         }
       },
       {
@@ -134,13 +195,29 @@
           "mandatRemplaceRef": null
         },
         "collaborateurs": {
-          "collaborateur": {
-            "qualite": "Mme",
-            "prenom": "Constance",
-            "nom": "Journet",
-            "dateDebut": null,
-            "dateFin": null
-          }
+          "collaborateur": [
+            {
+              "qualite": "Mme",
+              "prenom": "Constance",
+              "nom": "Journet",
+              "dateDebut": null,
+              "dateFin": null
+            },
+            {
+              "qualite": "Mme",
+              "prenom": "Sylvie",
+              "nom": "Goirand-Cotar",
+              "dateDebut": null,
+              "dateFin": null
+            },
+            {
+              "qualite": "Mme",
+              "prenom": "Louise",
+              "nom": "Krafft",
+              "dateDebut": null,
+              "dateFin": null
+            }
+          ]
         }
       }
     ]

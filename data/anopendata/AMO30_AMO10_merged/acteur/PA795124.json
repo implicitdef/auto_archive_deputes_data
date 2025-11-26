@@ -25,6 +25,7 @@
       "famSocPro": "Cadres et professions intellectuelles supérieures"
     }
   },
+  "uri_hatvp": "https://www.hatvp.fr/pages_nominatives/padey-didier-26880",
   "adresses": {
     "adresse": [
       {
@@ -68,6 +69,26 @@
   },
   "mandats": {
     "mandat": [
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM875304",
+        "acteurRef": "PA795124",
+        "legislature": "17",
+        "typeOrgane": "DELEG",
+        "dateDebut": "2025-11-19",
+        "datePublication": "2025-11-19",
+        "dateFin": null,
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO744127"
+        }
+      },
       {
         "@xsi:type": "MandatSimple_Type",
         "uid": "PM852966",
@@ -167,10 +188,15 @@
           "placeHemicycle": "372",
           "mandatRemplaceRef": "PM849143"
         },
-        "collaborateurs": [
-          null,
-          null
-        ]
+        "collaborateurs": {
+          "collaborateur": {
+            "qualite": "Mme",
+            "prenom": "Margot",
+            "nom": "Jouanny",
+            "dateDebut": null,
+            "dateFin": null
+          }
+        }
       },
       {
         "@xsi:type": "MandatSimple_Type",
