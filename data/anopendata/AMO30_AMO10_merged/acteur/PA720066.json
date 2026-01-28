@@ -8,7 +8,8 @@
       "civ": "Mme",
       "prenom": "Stéphanie",
       "nom": "Rist",
-      "alpha": "Rist"
+      "alpha": "Rist",
+      "trigramme": "SRI"
     },
     "infoNaissance": {
       "dateNais": "1973-08-06",
@@ -20,7 +21,7 @@
   "profession": {
     "libelleCourant": "Médecin",
     "socProcINSEE": {
-      "catSocPro": "Cadres de la fonction publique, professions intellectuelles et  artistiques",
+      "catSocPro": "Cadres administratifs et techniques de la fonction publique",
       "famSocPro": "Cadres et professions intellectuelles supérieures"
     }
   },
@@ -121,6 +122,130 @@
   },
   "mandats": {
     "mandat": [
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM15873675",
+        "acteurRef": "PA720066",
+        "legislature": null,
+        "typeOrgane": "GOUVERNEMENT",
+        "dateDebut": "2025-10-13",
+        "datePublication": null,
+        "dateFin": null,
+        "preseance": "50",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "membre",
+          "libQualite": "membre",
+          "libQualiteSex": "membre"
+        },
+        "organes": {
+          "organeRef": "PO873634"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM873675",
+        "acteurRef": "PA720066",
+        "legislature": null,
+        "typeOrgane": "MINISTERE",
+        "dateDebut": "2025-10-13",
+        "datePublication": null,
+        "dateFin": null,
+        "preseance": "30",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Ministre",
+          "libQualite": "Ministre",
+          "libQualiteSex": "Ministre"
+        },
+        "organes": {
+          "organeRef": "PO873673"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM878040",
+        "acteurRef": "PA720066",
+        "legislature": "17",
+        "typeOrgane": "COMPER",
+        "dateDebut": "2026-01-27",
+        "datePublication": "2026-01-27",
+        "dateFin": null,
+        "preseance": "32",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO59051"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM878041",
+        "acteurRef": "PA720066",
+        "legislature": "17",
+        "typeOrgane": "GP",
+        "dateDebut": "2026-01-26",
+        "datePublication": null,
+        "dateFin": null,
+        "preseance": "28",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Député non-inscrit",
+          "libQualite": "Député non-inscrit",
+          "libQualiteSex": "Députée non-inscrite"
+        },
+        "organes": {
+          "organeRef": "PO840056"
+        }
+      },
+      {
+        "@xsi:type": "MandatParlementaire_type",
+        "uid": "PM878039",
+        "acteurRef": "PA720066",
+        "legislature": "17",
+        "typeOrgane": "ASSEMBLEE",
+        "dateDebut": "2026-01-25",
+        "datePublication": null,
+        "dateFin": null,
+        "preseance": "50",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "membre",
+          "libQualite": "membre",
+          "libQualiteSex": "membre"
+        },
+        "organes": {
+          "organeRef": "PO838901"
+        },
+        "suppleants": null,
+        "chambre": null,
+        "election": {
+          "lieu": {
+            "region": "Centre-Val de Loire",
+            "regionType": "Métropolitain",
+            "departement": "Loiret",
+            "numDepartement": "45",
+            "numCirco": "1"
+          },
+          "causeMandat": "élection partielle",
+          "refCirconscription": "PO839367"
+        },
+        "mandature": {
+          "datePriseFonction": "2026-01-26",
+          "causeFin": null,
+          "premiereElection": "1",
+          "placeHemicycle": null,
+          "mandatRemplaceRef": null
+        },
+        "collaborateurs": [
+          null,
+          null
+        ]
+      },
       {
         "@xsi:type": "MandatParlementaire_type",
         "uid": "PM801768",
