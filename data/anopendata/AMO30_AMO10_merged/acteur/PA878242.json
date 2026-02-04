@@ -1,0 +1,126 @@
+{
+  "uid": {
+    "@xsi:type": "IdActeur_type",
+    "#text": "PA878242"
+  },
+  "etatCivil": {
+    "ident": {
+      "civ": "M.",
+      "prenom": "Antoine",
+      "nom": "Valentin",
+      "alpha": "Valentin",
+      "trigramme": "AVAL"
+    },
+    "infoNaissance": {
+      "villeNais": "Bonneville",
+      "depNais": "Haute-Savoie",
+      "paysNais": "France"
+    }
+  },
+  "profession": {
+    "libelleCourant": "chef d'entreprise",
+    "socProcINSEE": {
+      "catSocPro": "Chefs d'entreprise de plus de 10 personnes",
+      "famSocPro": "Artisans, commerçants, chefs d'entreprises"
+    }
+  },
+  "adresses": {
+    "adresse": {
+      "@xsi:type": "AdresseMail_Type",
+      "uid": "AD878245",
+      "type": "15",
+      "typeLibelle": "Mèl",
+      "poids": null,
+      "adresseDeRattachement": null,
+      "valElec": "antoine.valentin@assemblee-nationale.fr"
+    }
+  },
+  "mandats": {
+    "mandat": [
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM878289",
+        "acteurRef": "PA878242",
+        "legislature": "17",
+        "typeOrgane": "GP",
+        "dateDebut": "2026-02-02",
+        "datePublication": "2026-02-03",
+        "dateFin": null,
+        "preseance": "20",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre du",
+          "libQualiteSex": "Membre du"
+        },
+        "organes": {
+          "organeRef": "PO872880"
+        }
+      },
+      {
+        "@xsi:type": "MandatSimple_Type",
+        "uid": "PM878249",
+        "acteurRef": "PA878242",
+        "legislature": "17",
+        "typeOrgane": "COMPER",
+        "dateDebut": "2026-02-03",
+        "datePublication": "2026-02-03",
+        "dateFin": null,
+        "preseance": "32",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "Membre",
+          "libQualite": "Membre",
+          "libQualiteSex": "Membre"
+        },
+        "organes": {
+          "organeRef": "PO59046"
+        }
+      },
+      {
+        "@xsi:type": "MandatParlementaire_type",
+        "uid": "PM878243",
+        "acteurRef": "PA878242",
+        "legislature": "17",
+        "typeOrgane": "ASSEMBLEE",
+        "dateDebut": "2026-02-01",
+        "datePublication": null,
+        "dateFin": null,
+        "preseance": "50",
+        "nominPrincipale": "1",
+        "infosQualite": {
+          "codeQualite": "membre",
+          "libQualite": "membre",
+          "libQualiteSex": "membre"
+        },
+        "organes": {
+          "organeRef": "PO838901"
+        },
+        "suppleants": null,
+        "chambre": null,
+        "election": {
+          "lieu": {
+            "region": "Auvergne-Rhône-Alpes",
+            "regionType": "Métropolitain",
+            "departement": "Haute-Savoie",
+            "numDepartement": "74",
+            "numCirco": "3"
+          },
+          "causeMandat": "élection partielle, remplacement d'un député démissionnaire",
+          "refCirconscription": "PO839755"
+        },
+        "mandature": {
+          "datePriseFonction": "2026-02-02",
+          "causeFin": null,
+          "premiereElection": "0",
+          "placeHemicycle": null,
+          "mandatRemplaceRef": null
+        },
+        "collaborateurs": [
+          null,
+          null
+        ]
+      }
+    ]
+  }
+}
