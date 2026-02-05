@@ -25,15 +25,31 @@
     }
   },
   "adresses": {
-    "adresse": {
-      "@xsi:type": "AdresseMail_Type",
-      "uid": "AD878245",
-      "type": "15",
-      "typeLibelle": "Mèl",
-      "poids": null,
-      "adresseDeRattachement": null,
-      "valElec": "antoine.valentin@assemblee-nationale.fr"
-    }
+    "adresse": [
+      {
+        "@xsi:type": "AdresseMail_Type",
+        "uid": "AD878245",
+        "type": "15",
+        "typeLibelle": "Mèl",
+        "poids": null,
+        "adresseDeRattachement": null,
+        "valElec": "antoine.valentin@assemblee-nationale.fr"
+      },
+      {
+        "@xsi:type": "AdressePostale_Type",
+        "uid": "AD878290",
+        "type": "0",
+        "typeLibelle": "Adresse officielle",
+        "poids": "1",
+        "adresseDeRattachement": null,
+        "intitule": "Assemblée nationale",
+        "numeroRue": "126",
+        "nomRue": "Rue de l'Université,",
+        "complementAdresse": null,
+        "codePostal": "75355",
+        "ville": "Paris 07 SP"
+      }
+    ]
   },
   "mandats": {
     "mandat": [
@@ -96,7 +112,13 @@
         "organes": {
           "organeRef": "PO838901"
         },
-        "suppleants": null,
+        "suppleants": {
+          "suppleant": {
+            "dateDebut": "2026-02-01",
+            "dateFin": null,
+            "suppleantRef": "PA878322"
+          }
+        },
         "chambre": null,
         "election": {
           "lieu": {
@@ -113,7 +135,7 @@
           "datePriseFonction": "2026-02-02",
           "causeFin": null,
           "premiereElection": "0",
-          "placeHemicycle": null,
+          "placeHemicycle": "102",
           "mandatRemplaceRef": null
         },
         "collaborateurs": [
