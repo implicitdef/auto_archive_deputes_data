@@ -1,7 +1,8 @@
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '0 3 * * 2,5' # every tuesday/friday at 3am
+  ### 2026-01 : disabling all jobs of this project
+  # schedule:
+  #   - cron: '0 3 * * 2,5' # every tuesday/friday at 3am
 
 jobs:
   main-job:

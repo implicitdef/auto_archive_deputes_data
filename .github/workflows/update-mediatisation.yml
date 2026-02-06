@@ -1,7 +1,8 @@
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '0 4 * * 2' # every tuesday at 4h
+  ### 2026-01 : disabling all jobs of this project
+  # schedule:
+  #   - cron: '0 4 * * 2' # every tuesday at 4h
 
 jobs:
   main-job:

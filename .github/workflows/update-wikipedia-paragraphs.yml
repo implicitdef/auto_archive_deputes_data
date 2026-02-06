@@ -1,8 +1,9 @@
 on:
   workflow_dispatch:
-  schedule:
-    # this job is very slow, we don't need to run it that often
-    - cron: '15 2 * * 5' # every Friday at 2:15 AM (so a bit after the wikipedia urls job)
+  ### 2026-01 : disabling all jobs of this project
+  # schedule:
+  #   # this job is very slow, we don't need to run it that often
+  #   - cron: '15 2 * * 5' # every Friday at 2:15 AM (so a bit after the wikipedia urls job)
 
 jobs:
   main-job:
